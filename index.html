@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>St George Liturgics</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="./assets/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="./assets/bootstrap-icons@1.13.1/font/bootstrap-icons.woff" rel="stylesheet">
+    <link href="./assets/bootstrap-icons@1.13.1/font/bootstrap-icons.woff2" rel="stylesheet">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/fonts/bootstrap-icons.woff" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/fonts/bootstrap-icons.woff2" rel="stylesheet"> -->
+    <style>
+        /* Custom styling to make the input look like a button/icon if desired */
+    	#hiddenDatePicker {
+    		position: absolute;
+    		width: 0;
+    		height: 0;
+    		opacity: 0;
+    		pointer-events: none;
+    	}
+        .date-container {
+            text-align: center;
+        }
+        #selectedDate {
+            margin-top: 15px;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+    	.calendar-icon-btn:hover {
+    		color: #007bff;
+    	}
+    	.calendar-icon-btn {
+    		font-size: 1.5rem;
+    		cursor: pointer;
+    		transition: color: 0.2s;
+    	} 
+        .vh-center {
+            min-height: 40vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    	.font-medium {
+        	font-family: sans-serif;
+        	font-size: 1.455rem;
+        	font-weight: 500;
+    	}
+    </style>
+</head>
+<body class="bg-light">
+
+    <!-- Bootstrap classes to center everything in the middle of the screen -->
+    <div class="vh-center">
+	<h1 class="display-4 mb-4 text-dark text-center text-dark">DAILY LITURGICAL TEXT</h1>
+        <div class="date-container p-4 bg-secondary-subtle rounded">
+            <input type="date" id="hiddenDatePicker"/>
+	        <h2 id="selectedDateDisplay" class="custom-font fs-4 mt-0 lh-1 text-dark fw-medium"></h2>
+	        <div>
+            	<span><i class="bi bi-calendar calendar-icon-btn text-primary" id="triggerIcon"></i></span>
+            	<span class="font-medium mt-0 lh-1 text-dark text-uppercase">SELECT DATE</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Use consistent variable names matching your IDs
+        const dateInput = document.getElementById('hiddenDatePicker');
+	const icon = document.getElementById('triggerIcon');
+        const displayDiv = document.getElementById('selectedDateDisplay');
+	const options = { 
+	  weekday: 'long', 
+	  year: 'numeric', 
+	  month: 'long', 
+	  day: 'numeric' 
+	};
+	let dateObj = new Date();
+        displayDiv.textContent = dateObj.toLocaleDateString('en-US', options).toUpperCase();
+
+	icon.addEventListener('click', () => {
+		dateInput.showPicker();
+	});
+        // Update display when the date changes
+        dateInput.addEventListener('change', (event) => {
+	    dateObj = new Date(event.target.value + "T00:00:00");
+	    displayDiv.textContent = dateObj.toLocaleDateString('en-US', options).toUpperCase();
+        });
+    </script>
+    
+</body>
+</html>
