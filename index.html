@@ -2,26 +2,47 @@
 <html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="icon" type="image/png" href="/assets/icons/favicon.png">
     <meta charset="utf-8"/>
     <title>Liturgical Services</title>
 
     <!-- Bootstrap CSS -->
-    <link href="./assets/bootstrap/5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="./assets/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="/assets/bootstrap/5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css" rel="stylesheet">
 </head>
 <body class="bg-light">
 
     <div class="container my-4">
 
-        <h1 class="text-center mb-4">Liturgical Services</h1>
+        <!-- <div class="d-flex flex-column flex-md-row align-items-center justify-content-center mb-4 position-relative">
+            <img src="./assets/icons/favicon.png" alt="Icon" type="image/png" class="position-absolute start-0" style="height:40px;width:auto;">
+            <h1 class="text-center flex-grow-1">Liturgical Services</h1>
+        </div>  -->
+        
+  <div class="row align-items-center mb-4">
+    <!-- Col1: Icon -->
+    <div class="col-auto">
+      <img src="./assets/icons/favicon.png" 
+           alt="Icon" 
+           style="height:40px; width:auto;">
+    </div>
+
+    <!-- Col2: Title -->
+    <div class="col text-center">
+      <h1 class="m-0">Liturgical Services</h1>
+    </div>
+
+    <!-- Col3: empty, doar pentru echilibru -->
+    <div class="col-auto"></div>
+  </div>        
 
         <!-- Controls -->
         <div class="row g-3 mb-4">
             <div class="col-12 col-md-6">
-                <select id="year" class="form-select"></select>
+                <select id="year" class="form-select fs-4"></select>
             </div>
             <div class="col-12 col-md-6">
-                <select id="month" class="form-select"></select>
+                <select id="month" class="form-select fs-4"></select>
             </div>
         </div>
 
@@ -64,9 +85,15 @@
             const y = yearSelect.value;
             const m = monthSelect.value;
 
-            const filtered = feasts.filter(f =>
-                f.date.startsWith(`${y}-${m}`)
-            );
+            const hiddenFiles = ["Divine_Liturgy_Variables.html"];
+
+            const filtered = feasts
+                .filter(f => f.date.startsWith(`${y}-${m}`))
+                // Exclude fișierele ascunse după nume
+                .filter(f => {
+                    const fileName = f.file.split("/").pop(); // ia partea de fișier după /
+                    return !hiddenFiles.includes(fileName);
+                });
 
             // Grupăm sărbătorile după zi
             const grouped = {};
@@ -79,23 +106,22 @@
             Object.keys(grouped).sort().forEach(day => {
                 const monthName = MONTHS[Number(m) - 1];
 
-                // Header pentru zi cu fundal gri
                 const header = document.createElement("div");
-                header.className = "list-group-item fw-bold text-white bg-secondary";
+                header.className = "fs-3 mb-3";
                 header.innerText = `${monthName} ${day}`;
                 list.appendChild(header);
 
-                // Adăugăm toate sărbătorile pentru ziua respectivă
                 grouped[day].forEach(f => {
                     const a = document.createElement("a");
                     a.href = f.file;
                     a.target = "_blank";
-                    a.className = "list-group-item list-group-item-action py-3 fs-4";
+                    a.className = "btn btn-light w-100 shadow border fs-5 py-4 mb-3";
                     a.innerHTML = `<span>${f.title}</span>`;
                     list.appendChild(a);
                 });
             });
         }
+
 
         fetch("Service_Texts/system/feasts.json")
         .then(r => r.json())

@@ -1,5 +1,5 @@
 |--Service_Texts has:
-    |--_system
+    |--system
       |-- feasts.json
     
     |--fixed  <-Folder for the fix-date feasts:
@@ -34,7 +34,7 @@
       |--2026
         |--12
 
-  |--_template
+  |--template
     Divine_Liturgy.html
 
 The front end will ask the userr to select a month

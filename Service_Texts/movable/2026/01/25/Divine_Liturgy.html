@@ -1,110 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Divine Liturgy</title>
-<!-- Bootstrap CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-<style>
-  body {
-    padding: 20px;
-    background-color: #f8f8f8;
-  }
-  h1, h2 {
-    text-align: center;
-    color: #4a148c;
-  }
-  a {
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: underline;
-  }
-</style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="/assets/icons/favicon.png">
+
+    <title>Divine Liturgy</title>
+
+    <link href="/assets/bootstrap/5.3.8/dist/css/bootstrap.min.css" type="text/css" rel="stylesheet">
 </head>
-<body>
 
-<div class="container">
-  <h1>Divine Liturgy</h1>
-  <h2>Divine Liturgy Variables</h2>
+<body class="bg-light">
 
-  <div class="table-responsive">
-    <table class="table table-bordered table-striped table-hover">
-      <thead class="table-light">
-        <tr>
-          <th>Item</th>
-          <th>Arabic</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a href="#">THE GREAT LITANY</a></td>
-          <td>الطلبة السلامية الكبرى</td>
-        </tr>
-        <tr>
-          <td><a href="#">THE FIRST ANTIPHON</a></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><a href="#">THE SECOND ANTIPHON</a></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><a href="#">TEMPLE.APOLYTIKION/KONATKION</a></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>TRICE HOLY HYMN</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><a href="#">First Mode</a></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><a href="#">Second Mode</a></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><a href="#">Third Mode</a></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><a href="#">AS MANY OF YOU</a></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><a href="#">THY CROSS DO WE WORSHIP</a></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>CHEROBIC HYMN</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><a href="#">First Mode by Phokaeus</a></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><a href="#">Second Mode by Phokaeus</a></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><a href="#">Second Mode by Karamanis</a></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><a href="#">Third Mode by Hierotheos</a></td>
-          <td></td>
-        </tr>
-        <!-- Continuă cu restul tabelului aici -->
-      </tbody>
-    </table>
-  </div>
+<div class="container my-5">
+
+    <!-- <h1 class="text-center mb-5">Divine Liturgy</h1> -->
+
+  <div class="row align-items-center mb-4">
+    <!-- Col1: Icon -->
+    <div class="col-auto">
+      <img src="/assets/icons/favicon.png" 
+           alt="Icon" 
+           style="height:40px; width:auto;">
+    </div>
+
+    <!-- Col2: Title -->
+    <div class="col text-center">
+      <h1 class="m-0">Liturgical Services</h1>
+    </div>
+
+    <!-- Col3: empty, doar pentru echilibru -->
+    <div class="col-auto"></div>
+  </div> 
+
+<!-- TILE CENTRAL: Divine Liturgy Variables -->
+<div class="row g-3 mb-4">
+    <div class="col-12 col-md-6 mx-auto">
+        <a href="./Divine_Liturgy_Variables.html"
+           class="btn btn-light w-100 shadow border fs-5 py-4 text-center">
+            Divine Liturgy Variables
+        </a>
+    </div>
 </div>
 
-<!-- Bootstrap JS
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> -->
+    <!-- ================= THE GREAT LITANY ================= -->
+    <h3 class="mb-3">The Great Litany</h3>
+
+
+
+
+    <div class="row g-3 mb-4">
+        <div class="col-12 col-md-6">
+            <a href="#" class="btn btn-light w-100 shadow border fs-5 py-4 text-decoration-none">
+                The Great Litany
+            </a>
+        </div>
+        <div class="col-12 col-md-6">
+            <a href="#" class="btn btn-light w-100 shadow border fs-5 py-4 text-decoration-none" dir="rtl">
+                السلام الكبير
+            </a>
+        </div>
+    </div>
+
+    <!-- ================= ANTIPHONS ================= -->
+    <h3 class="mb-3">Antiphons</h3>
+
+    <div class="row g-3 mb-3">
+        <div class="col-12 col-md-6">
+            <a href="#" class="btn btn-light w-100 shadow border fs-5 py-4">First Antiphon</a>
+        </div>
+        <div class="col-12 col-md-6">
+            <a href="#" class="btn btn-light w-100 shadow border fs-5 py-4" dir="rtl">الأنتيفونة الأولى</a>
+        </div>
+    </div>
+
+    <div class="row g-3 mb-3">
+        <div class="col-12 col-md-6">
+            <a href="#" class="btn btn-light w-100 shadow border fs-5 py-4">Second Antiphon</a>
+        </div>
+        <div class="col-12 col-md-6">
+            <a href="#" class="btn btn-light w-100 shadow border fs-5 py-4" dir="rtl">الأنتيفونة الثانية</a>
+        </div>
+    </div>
+
+    <div class="row g-3 mb-4">
+        <div class="col-12 col-md-6">
+            <a href="#" class="btn btn-light w-100 shadow border fs-5 py-4">Third Antiphon</a>
+        </div>
+        <div class="col-12 col-md-6">
+            <a href="#" class="btn btn-light w-100 shadow border fs-5 py-4" dir="rtl">الأنتيفونة الثالثة</a>
+        </div>
+    </div>
+
+    <!-- ================= TRICE HOLY HYMNS ================= -->
+    <h3 class="mb-3">Trice Holy Hymns</h3>
+
+    <div class="row g-3 mb-3"><div class="col-md-6"><a href="#" class="btn btn-light w-100 shadow border fs-5 py-4">First Mode</a></div><div class="col-md-6"><a href="#" class="btn btn-light w-100 shadow border fs-5 py-4" dir="rtl">اللحن الأول</a></div></div>
+    <div class="row g-3 mb-3"><div class="col-md-6"><a href="#" class="btn btn-light w-100 shadow border fs-5 py-4">Second Mode</a></div><div class="col-md-6"><a href="#" class="btn btn-light w-100 shadow border fs-5 py-4" dir="rtl">اللحن الثاني</a></div></div>
+    <div class="row g-3 mb-3"><div class="col-md-6"><a href="#" class="btn btn-light w-100 shadow border fs-5 py-4">Third Mode</a></div><div class="col-md-6"><a href="#" class="btn btn-light w-100 shadow border fs-5 py-4" dir="rtl">اللحن الثالث</a></div></div>
+    <div class="row g-3 mb-3"><div class="col-md-6"><a href="#" class="btn btn-light w-100 shadow border fs-5 py-4">As Many Of You</a></div><div class="col-md-6"><a href="#" class="btn btn-light w-100 shadow border fs-5 py-4" dir="rtl">أنتم الذين بالمسيح</a></div></div>
+    <div class="row g-3 mb-4"><div class="col-md-6"><a href="#" class="btn btn-light w-100 shadow border fs-5 py-4">Thy Cross Do We Worship</a></div><div class="col-md-6"><a href="#" class="btn btn-light w-100 shadow border fs-5 py-4" dir="rtl">لصليبك نسجد</a></div></div>
+
+    <!-- ================= CHERUBIC HYMN ================= -->
+    <h3 class="mb-3">Cherubic Hymn</h3>
+
+    <div class="row g-3 mb-3"><div class="col-md-6"><a href="#" class="btn btn-light w-100 shadow border fs-5 py-4">First Mode – Phokaeus</a></div><div class="col-md-6"><a href="#" class="btn btn-light w-100 shadow border fs-5 py-4" dir="rtl">اللحن الأول – فوكيوس</a></div></div>
+    <div class="row g-3 mb-3"><div class="col-md-6"><a href="#" class="btn btn-light w-100 shadow border fs-5 py-4">Second Mode – Phokaeus</a></div><div class="col-md-6"><a href="#" class="btn btn-light w-100 shadow border fs-5 py-4" dir="rtl">اللحن الثاني – فوكيوس</a></div></div>
+    <div class="row g-3 mb-3"><div class="col-md-6"><a href="#" class="btn btn-light w-100 shadow border fs-5 py-4">Second Mode – Karamanis</a></div><div class="col-md-6"><a href="#" class="btn btn-light w-100 shadow border fs-5 py-4" dir="rtl">اللحن الثاني – كارامانيس</a></div></div>
+    <div class="row g-3 mb-4"><div class="col-md-6"><a href="#" class="btn btn-light w-100 shadow border fs-5 py-4">Third Mode – Hierotheos</a></div><div class="col-md-6"><a href="#" class="btn btn-light w-100 shadow border fs-5 py-4" dir="rtl">اللحن الثالث – هيروثيوس</a></div></div>
+
+    <!-- ================= ANAPHORA ================= -->
+    <h3 class="mb-3">Anaphora</h3>
+
+    <div class="row g-3 mb-3"><div class="col-md-6"><a href="#" class="btn btn-light w-100 shadow border fs-5 py-4">First Mode</a></div><div class="col-md-6"><a href="#" class="btn btn-light w-100 shadow border fs-5 py-4" dir="rtl">اللحن الأول</a></div></div>
+    <div class="row g-3 mb-3"><div class="col-md-6"><a href="#" class="btn btn-light w-100 shadow border fs-5 py-4">Second Mode</a></div><div class="col-md-6"><a href="#" class="btn btn-light w-100 shadow border fs-5 py-4" dir="rtl">اللحن الثاني</a></div></div>
+    <div class="row g-3 mb-4"><div class="col-md-6"><a href="#" class="btn btn-light w-100 shadow border fs-5 py-4">Third Mode</a></div><div class="col-md-6"><a href="#" class="btn btn-light w-100 shadow border fs-5 py-4" dir="rtl">اللحن الثالث</a></div></div>
+
+    <!-- ================= COMMUNION ================= -->
+    <h3 class="mb-3">Communion Hymns</h3>
+
+    <div class="row g-3 mb-3"><div class="col-md-6"><a href="#" class="btn btn-light w-100 shadow border fs-5 py-4">One Is Holy</a></div><div class="col-md-6"><a href="#" class="btn btn-light w-100 shadow border fs-5 py-4" dir="rtl">واحد هو القدوس</a></div></div>
+    <div class="row g-3 mb-4"><div class="col-md-6"><a href="#" class="btn btn-light w-100 shadow border fs-5 py-4">Praise The Lord</a></div><div class="col-md-6"><a href="#" class="btn btn-light w-100 shadow border fs-5 py-4" dir="rtl">سبحوا الرب</a></div></div>
+
+    <!-- ================= DISMISSAL ================= -->
+    <h3 class="mb-3">Dismissal Hymns</h3>
+
+    <div class="row g-3 mb-5">
+        <div class="col-12 col-md-6">
+            <a href="#" class="btn btn-light w-100 shadow border fs-5 py-4">Dismissal Hymns</a>
+        </div>
+        <div class="col-12 col-md-6">
+            <a href="#" class="btn btn-light w-100 shadow border fs-5 py-4" dir="rtl">ألحان الختام</a>
+        </div>
+    </div>
+
+</div>
+
 </body>
 </html>
