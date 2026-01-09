@@ -26,3 +26,4 @@ Rules:
 Run:
 ```bash
 node Service_Texts/system/generate-feasts.js
+node Service_Texts/system/validate-feasts.js
