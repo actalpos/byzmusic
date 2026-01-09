@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 
 const ROOT = "Service_Texts";
-const OUT = `${ROOT}/_system/feasts.json`;
+const OUT = `${ROOT}/system/feasts.json`;
 
 const SERVICE_ORDER = [
   "Divine_Liturgy",

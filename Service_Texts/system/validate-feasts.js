@@ -1,6 +1,6 @@
 import fs from "fs";
 
-const DATA = "Service_Texts/_system/feasts.json";
+const DATA = "Service_Texts/system/feasts.json";
 
 if (!fs.existsSync(DATA)) {
   console.error("❌ feasts.json not found");
