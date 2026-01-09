@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
-    <title>St George Liturgics</title>
+    <title>Liturgical Services</title>
     <!-- Bootstrap 5 CSS -->
-    <link href="./assets/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="./assets/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" rel="stylesheet">
-    <link href="./assets/bootstrap-icons@1.13.1/font/bootstrap-icons.woff" rel="stylesheet">
-    <link href="./assets/bootstrap-icons@1.13.1/font/bootstrap-icons.woff2" rel="stylesheet">
+    <link href="./_assets/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./_assets/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="./_assets/bootstrap-icons@1.13.1/font/bootstrap-icons.woff" rel="stylesheet">
+    <link href="./_assets/bootstrap-icons@1.13.1/font/bootstrap-icons.woff2" rel="stylesheet">
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/fonts/bootstrap-icons.woff" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/fonts/bootstrap-icons.woff2" rel="stylesheet"> -->
     <style>
@@ -51,59 +51,92 @@
 </head>
 <body class="bg-light">
 
-    <!-- Bootstrap classes to center everything in the middle of the screen -->
-    <div class="vh-center">
-	<h1 class="display-4 mb-4 text-dark text-center text-dark">DAILY LITURGICAL TEXT</h1>
-        <div class="date-container p-4 bg-secondary-subtle rounded">
-            <!-- <input type="date" id="hiddenDatePicker"/>
-	        <h2 id="selectedDateDisplay" class="custom-font fs-4 mt-0 lh-1 text-dark fw-medium"></h2>
-	        <div>
-            	<span><i class="bi bi-calendar calendar-icon-btn text-primary" id="triggerIcon"></i></span>
-            	<span class="font-medium mt-0 lh-1 text-dark text-uppercase">SELECT DATE</span>
-            </div> -->
-            <label for="month">Month:</label>
-            <select id="month" name="month">
-                <option value="01">January</option>
-                <option value="02">February</option>
-                <option value="03">March</option>
-                <option value="04">April</option>
-                <option value="05">May</option>
-                <option value="06">June</option>
-                <option value="07">July</option>
-                <option value="08">August</option>
-                <option value="09">September</option>
-                <option value="10">October</option>
-                <option value="11">November</option>
-                <option value="12">December</option>
-            </select>
-            <a href="./Service_Texts/4_December/Dec_28/Dec 28 2025 Bilingual ORTHROS.pdf" target="_blank">Dec 28 2025 Bilingual ORTHROS.pdf</a><br><br>
-            <a href="./Service_Texts/2026-01/Divine_Liturgy_Dashboard.html" target="_blank">Divine Liturgy Dashboard.html</a>
+    <div class="container my-4">
+
+    <h1 class="text-center mb-4">Liturgical Services</h1>
+
+    <!-- Controls -->
+    <div class="row g-3 mb-4">
+        <div class="col-12 col-md-6">
+        <select id="year" class="form-select"></select>
+        </div>
+        <div class="col-12 col-md-6">
+        <select id="month" class="form-select"></select>
         </div>
     </div>
 
-    <script>
-        // Use consistent variable names matching your IDs
-        const dateInput = document.getElementById('hiddenDatePicker');
-	const icon = document.getElementById('triggerIcon');
-        const displayDiv = document.getElementById('selectedDateDisplay');
-	const options = { 
-	  weekday: 'long', 
-	  year: 'numeric', 
-	  month: 'long', 
-	  day: 'numeric' 
-	};
-	let dateObj = new Date();
-        displayDiv.textContent = dateObj.toLocaleDateString('en-US', options).toUpperCase();
+    <!-- List -->
+    <div id="list" class="list-group"></div>
 
-	icon.addEventListener('click', () => {
-		dateInput.showPicker();
-	});
-        // Update display when the date changes
-        dateInput.addEventListener('change', (event) => {
-	    dateObj = new Date(event.target.value + "T00:00:00");
-	    displayDiv.textContent = dateObj.toLocaleDateString('en-US', options).toUpperCase();
-        });
-    </script>
+    </div>
+
     
-</body>
+    <script>
+        const MONTHS = [
+        "January","February","March","April","May","June",
+        "July","August","September","October","November","December"
+        ];
+
+        const yearSelect = document.getElementById("year");
+        const monthSelect = document.getElementById("month");
+        const list = document.getElementById("list");
+
+        let feasts = [];
+
+        function initSelectors(data) {
+        const years = [...new Set(data.map(f => f.date.slice(0,4)))].sort();
+
+        years.forEach(y => {
+            yearSelect.add(new Option(y, y));
+        });
+
+        MONTHS.forEach((m, i) => {
+            monthSelect.add(new Option(m, String(i + 1).padStart(2, "0")));
+        });
+
+        const now = new Date();
+        yearSelect.value = String(now.getFullYear());
+        monthSelect.value = String(now.getMonth() + 1).padStart(2, "0");
+        }
+
+        function render() {
+        list.innerHTML = "";
+
+        const y = yearSelect.value;
+        const m = monthSelect.value;
+
+        const filtered = feasts.filter(f =>
+            f.date.startsWith(`${y}-${m}`)
+        );
+
+        filtered.forEach(f => {
+            const day = f.date.slice(8,10);
+            const monthName = MONTHS[Number(m) - 1];
+
+            const a = document.createElement("a");
+            a.href = f.file;
+            a.target = "_blank";
+            a.className = "list-group-item list-group-item-action py-3";
+            a.innerHTML = `
+            <strong>${monthName} ${day}</strong><br>
+            <span class="text-muted">${f.title}</span>
+            `;
+
+            list.appendChild(a);
+        });
+        }
+
+        fetch("Service_Texts/_system/feasts.json")
+        .then(r => r.json())
+        .then(data => {
+            feasts = data;
+            initSelectors(feasts);
+            render();
+        });
+
+        yearSelect.addEventListener("change", render);
+        monthSelect.addEventListener("change", render);
+    </script>
+
+    </body>
 </html>
