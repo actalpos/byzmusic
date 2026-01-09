@@ -1,7 +1,7 @@
 |--Service_Texts has:
     |--system
-      |-- feasts.json
-    
+      |-- service_textx_summary.json
+      |-- 
     |--fixed  <-Folder for the fix-date feasts:
       |--01
         |-06
@@ -37,25 +37,11 @@
   |--template
     Divine_Liturgy.html
 
-The front end will ask the userr to select a month
-The app will render the Html files for the selected month from
-both the fix-date and for the movable date folder and render them cronologically
+The front end index.html will ask the userr to select a month
+The app renders the Html file names found in the service_texts_summary.json for the selected month from
+both the fix-date and for the movable date folders and index.html file render them cronologically at load time.
 
-When adding a new fix-date feats use the rtf billingual service file provided by the 
-Antioch Archdiocese:
-1 make it docx 
-2 extend the content left and right
-3 add the related links to the Google Drive
-4 save it as html with the following naming convention: 
-5 edit and replace the links adding target="_blank" to always open in new tab
-
-If a template is used to open this file, the template should be html of only one version and should
-refer the folder file directly in the hyperlink as ./<file-name> and tager="_blank"
-
-Example: Divine_Liturgy.html refers to Divine_Liturgy_Variables with a direct link
-
-Exverytime a file gets added, it should be added into the data/feasts.json file as follows:
-
+This is the file format:
 [
   {
     "date": "2026-01-06",
@@ -77,12 +63,27 @@ Exverytime a file gets added, it should be added into the data/feasts.json file 
   }
 ]
 
-When front end is listing a selected month January for example and the current year is 2026, the app will read the feats.json file and will display:
-  January 06, Divine Liturgy
-  January 06, Vespers
-  January 06, Orthros
-  January 11, Divine Liturgy
-  January 11, Vespers
-  January 11, Orthros
 
-A distance between the links is applied for mobile device friendly  
+maintenance
+------------
+
+1. Adding a new feast date, respect the current folder naming convention.
+
+2. Adding a new feast file, use the rtf billingual service file provided by the 
+Antioch Archdiocese:
+- edit it in Word and make it docx 
+- extend the content left and right
+- add the desired links to point to the Google Drive related PDFs
+- save it as html with the following naming convention: 
+  If it is for the Divine Liturgy call it Devine_Liturgy_Variables.html
+- edit the links and add target="_blank" to always open in new tab
+- run at the command line to update the service_texts_summary.json file: 
+  node Service_Texts/system/update_service_texts_summary.js
+  node Service_Texts/system/validate_service_texts_summary.js
+
+3. If one or more templates are required run from the command line:
+  ./copy_template.sh
+
+4. If one or more templates are updated run:
+  ./copy_template.sh to update the template in all folders.  
+   
