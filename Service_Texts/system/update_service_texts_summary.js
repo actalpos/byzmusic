@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 
 const ROOT = "Service_Texts";
-const OUT = `${ROOT}/system/feasts.json`;
+const OUT = `${ROOT}/system/service_texts_summary.json`;
 
 const SERVICE_ORDER = [
   "Divine_Liturgy",
@@ -82,4 +82,4 @@ entries.sort(
 );
 
 fs.writeFileSync(OUT, JSON.stringify(entries, null, 2));
-console.log(`✔ feasts.json generated (${entries.length} entries)`);
+console.log(`service_texts_summary.json generated (${entries.length} entries)`);

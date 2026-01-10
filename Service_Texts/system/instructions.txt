@@ -77,7 +77,7 @@ Antioch Archdiocese:
 - save it as html with the following naming convention: 
   If it is for the Divine Liturgy call it Devine_Liturgy_Variables.html
 - edit the links and add target="_blank" to always open in new tab
-- run at the command line to update the service_texts_summary.json file: 
+- run at the command line to update the service_texts_summary.json file from the root (EnglishByzantineMusic folder: 
   node Service_Texts/system/update_service_texts_summary.js
   node Service_Texts/system/validate_service_texts_summary.js
 

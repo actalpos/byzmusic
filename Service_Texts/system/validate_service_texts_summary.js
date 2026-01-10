@@ -1,9 +1,9 @@
 import fs from "fs";
 
-const DATA = "Service_Texts/system/feasts.json";
+const DATA = "Service_Texts/system/service_texts_summary.json";
 
 if (!fs.existsSync(DATA)) {
-  console.error("❌ feasts.json not found");
+  console.error("❌ service_texts_summary.json not found");
   process.exit(1);
 }
 
@@ -28,7 +28,7 @@ data.forEach((f, i) => {
 });
 
 if (errors === 0) {
-  console.log("✔ feasts.json is valid");
+  console.log("✔ service_texts_summary.json is valid");
 } else {
   console.error(`❌ ${errors} error(s) found`);
   process.exit(1);
