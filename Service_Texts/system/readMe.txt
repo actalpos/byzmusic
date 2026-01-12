@@ -1,7 +1,13 @@
 |--Service_Texts has:
     |--system
-      |-- service_textx_summary.json
-      |-- 
+      |-- data
+          |-- service_texts_summary.json              <---- file holding the current summary of the /fixed and /movable html file names/path/display name
+          |-- divine_liturgy.json                     <---- file holding the Divine_Liturgy.html content
+      |-- scripts
+          |-- generate_divine_liturgy_html.js         <---- generate /template/divine_Liturgy.html from divine_liturgy.json
+          |-- refresh_service_texts_summary.js        <---- script to refresh the service_texts_summary after adding html files
+          |-- validate_service_texts_summary.js.      <---- script to vlidate after the above was run
+          |-- copy_template.sh                        <---- copies /template/divine_Liturgy.html into the following low level folders:
     |--fixed  <-Folder for the fix-date feasts:
       |--01
         |-06

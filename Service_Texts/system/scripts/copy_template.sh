@@ -2,7 +2,7 @@
 
 cd "$(dirname "$0")"
 
-TEMPLATE="../Template/Divine_Liturgy.html"
+TEMPLATE="../../template/Divine_Liturgy.html"
 
 if [ ! -f "$TEMPLATE" ]; then
     echo "Template file not found: $TEMPLATE"
@@ -30,7 +30,7 @@ copy_to_deepest() {
     done
 }
 
-copy_to_deepest "../fixed"
-copy_to_deepest "../movable"
+copy_to_deepest "../../fixed"
+copy_to_deepest "../../movable"
 
 echo "Done!"

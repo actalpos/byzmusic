@@ -1,0 +1,218 @@
+{
+  "icon": "../../../../../assets/icons/favicon.png",
+  "title": "Divine Liturgy",
+  "central_tile": {
+    "text": "Divine Liturgy Variables",
+    "link": "./Divine_Liturgy_Variables.html"
+  },
+  "sections": [
+    {
+      "title": "The Great Litany",
+      "items": [
+        {
+          "text": "The Great Litany",
+          "link": "https://drive.google.com/open?id=1Ot0MyoBN1IHH1cSTXyUhMsrnfsC8MAVH&usp=drive_fs"
+        }
+      ]
+    },
+    {
+      "title": "Antiphons",
+      "items": [
+        {
+          "text": "First Antiphon",
+          "link": "https://drive.google.com/open?id=18ATyGzsiV3WG7NGe4JmmYsI02i1Fy5xP&usp=drive_fs"
+        },
+        {
+          "text": "Second Antiphon",
+          "link": "https://drive.google.com/open?id=1dIverCOY1xnHqYhX1tLAIVUILZbBJi0Y&usp=drive_fs"
+        },
+        {
+          "text": "Third Antiphon",
+          "link": "https://drive.google.com/open?id=1J56Vqq-MZDfvyqR1UALoSxqCbr2Fvswv&usp=drive_fs"
+        }
+      ]
+    },
+    {
+      "title": "Trice Holy Hymns",
+      "items": [
+        {
+          "text": "First Mode",
+          "link": "https://drive.google.com/open?id=1vyoyPRzHkC23lMYaiS5aktjHau9FEzu-&usp=drive_fs"
+        },
+        {
+          "text": "Second Mode",
+          "link": "https://drive.google.com/open?id=1v9Rfo21hwzK926EWM7ZdORMZZPz022QQ&usp=drive_fs"
+        },
+        {
+          "text": "Third Mode",
+          "link": "https://drive.google.com/open?id=1owI_0entpjF9geC0cP-hBivzZa4u0y-Z&usp=drive_fs"
+        },
+        {
+          "text": "As Many Of You",
+          "link": "https://drive.google.com/open?id=19j5ivUvWxP0O2el0LmL08OIjvLLFxmlf&usp=drive_fs"
+        },
+        {
+          "text": "Thy Cross Do We Worship",
+          "link": "https://drive.google.com/open?id=10fdsFIpARtT46oAdP51_cZBfEvM1yYEU&usp=drive_fs"
+        }
+      ]
+    },
+    {
+      "title": "Cherubic Hymn",
+      "items": [
+        {
+          "text": "By Phokaeus",
+          "mode": "First Mode",
+          "link": "https://drive.google.com/open?id=14zBTEmfsFIDMxn9Q5ojdWaGmSYxk8eKG&usp=drive_fs"
+        },
+        {
+          "text": "الوضع الأول",
+          "mode": "First Mode",
+          "link": "https://drive.google.com/open?id=1AFfRCbnCltm_rI7ouyLN5KnGGkS1USnX&usp=drive_fs"
+        },        
+        {
+          "text": "By Phokaeus",
+          "mode": "Second Mode",
+          "link": "https://drive.google.com/open?id=1YTwDYMakxdVBEQpS8mZSBZT3kcd1LNFb&usp=drive_fs"
+        },
+        {
+          "text": "الوضع الثاني",
+          "mode": "Second Mode",
+          "link": "https://drive.google.com/open?id=14hzj6XdG_z9EuT0-m9SYGFBjZp2AO3Xi&usp=drive_fs"
+        },        
+        {
+          "text": "By Karamanis",
+          "mode": "Second Mode",
+          "link": "https://drive.google.com/open?id=162DPRi9mCJTNvZviMY0179Gcy_-NBf9A&usp=drive_fs"
+        },
+        {
+          "text": "By Hierotheos",
+          "mode": "Third Mode",
+          "link": "https://drive.google.com/open?id=1QS7Z3o1Uvqa0Grgajim5fWRvUXMBQYBh&usp=drive_fs"
+        },
+        {
+          "text": "By Gregory",
+          "mode": "Fourth Mode",
+          "link": "https://drive.google.com/open?id=1hOfyphk0CS6P56tLzaGkkjZavBISOamI&usp=drive_fs"
+        },
+        {
+          "text": "By Stanitsas",
+          "mode": "Fourth Mode",
+          "link": "https://drive.google.com/open?id=1DYfDhRapYIkZsapyNz9Ci-m-8prZ3rYO&usp=drive_fs"
+        },
+        {
+          "text": "By Gregory",
+          "mode": "Plagal First Mode",
+          "link": "https://drive.google.com/open?id=1VIsji7LHeqwBZ3CVE1y4mc-ZaAjO2B2s&usp=drive_fs"
+        },
+        {
+          "text": "By Phokaeus",
+          "mode": "Plagal Second Mode",
+          "link": "https://drive.google.com/open?id=1fn4j_-vIjH_fxwnM5SS_MjORSpgSVdDm&usp=drive_fs"
+        },
+        {
+          "text": "By Gregory",
+          "mode": "Grave Mode",
+          "link": "https://drive.google.com/open?id=1YLxGsT9hEN1b8rxDkAMZK1W2PREGRYyP&usp=drive_fs"
+        },
+        {
+          "text": "By Hierotheos",
+          "mode": "Plagal Fourth Mode",
+          "link": "https://drive.google.com/open?id=1ncfJer_E89bYpX5gaKqcGzjLsMKIA2aA&usp=drive_fs"
+        }        
+      ]
+    },
+    {
+      "title": "Anaphora",
+      "items": [
+        {
+          "text": "Βy Nikolaidis",
+          "mode": "First Mode",
+          "link": "https://drive.google.com/open?id=14XNms-Poj6LluijHI0Bp7jhMBk6AAB_e&usp=drive_fs"
+        },
+        {
+          "text": "Βy Pringos",
+          "mode": "First Mode",
+          "link": "https://drive.google.com/open?id=1NLCbZclDhAzgVjO8kunesaDQzcMjIeZ6&usp=drive_fs"
+        },
+        {
+          "text": "Βy Nikolaidis",
+          "mode": "Third Mode",
+          "link": "https://drive.google.com/open?id=18P_2ZhZ2TFUV3kZ9TMTHChvdFBw7gaOd&usp=drive_fs"
+        },
+        {
+          "text": "By Stanitsas",
+          "mode": "Plagal Second Mode",
+          "link": "https://drive.google.com/open?id=1XvFVow5k17i7eZK1AVfuCWlHSMxWyJBL&usp=drive_fs"
+        },
+        {
+          "text": "By Pringos",
+          "mode": "Grave Mode",
+          "link": "https://drive.google.com/open?id=1Rimns0_RSh6pUPHmC1253G2EM-qJ1qOW&usp=drive_fs"
+        }        
+      ]
+    },
+    {
+      "title": "It Is Truly Right",
+      "items": [
+        {
+          "text": "By Hatziathanasiou",
+          "mode": "First Mode",
+          "link": "https://drive.google.com/open?id=1MMh6o97QCSF-fdjMzyO1Csb4Dah-3lC3&usp=drive_fs"
+        },
+        {
+          "text": "الوضع الأول الهيمي",
+          "mode": "First Mode",
+          "link": "https://drive.google.com/open?id=1Zn1fF_tOZkN_4p4AAkivkOWgeePivbVC&usp=drive_fs"
+        },
+        {
+          "text": "By Phokaeus",
+          "mode": "Plagal Second Mode",
+          "link": "https://drive.google.com/open?id=1EQ1ZSL6N0QiQoxrBLhWk44ycwb4H3aRe&usp=drive_fs"
+        },
+        {
+          "text": "Πλαγιος Δεύτερος",
+          "mode": "Plagal Second Mode",
+          "link": "https://drive.google.com/open?id=1TtQCCAlXU-4d-wjGOh65cub524bAewnU&usp=drive_fs"
+        },
+        {
+          "text": "By Phokaeus",
+          "mode": "Grave Mode",
+          "link": "https://drive.google.com/open?id=1HL95xBt3XLsoOKV__cdxKDjSHRTeFub7&usp=drive_fs"
+        },
+        {
+          "text": "بقلم المر",
+          "mode": "Grave Mode",
+          "link": "https://drive.google.com/open?id=1x5hAEnOa8LNeR7y8XgDxKxlba6DbNbTa&usp=drive_fs"
+        },
+        {
+          "text": "Βαρυς",
+          "mode": "Grave Mode",
+          "link": "https://drive.google.com/open?id=1WOQ0y47nu2Q8Ry9wI_dY3jD_yzX2EGyA&usp=drive_fs"
+        }                                               
+      ]
+    }, 
+    {
+      "title": "Communion Hymns",
+      "items": [
+        {
+          "text": "One Is Holy",
+          "link": "https://drive.google.com/open?id=1bpbKdjkqsobjzPnAAiXp9eY9SP3jr_9v&usp=drive_fs"
+        },
+        {
+          "text": "Praise The Lord by Gregory",
+          "link": "https://drive.google.com/open?id=1K-I9CaW_Goi9iBKb8GPeEt-IGX1gwit9&usp=drive_fs"
+        }           
+      ]
+    },
+    {
+      "title": "Communion Hymns",
+      "items": [
+        {
+          "text": "Dismissal Hymns",
+          "link": "https://drive.google.com/open?id=11V_oD_D1ChVTMrZeAmpxX5Mfd7sxS2Kn&usp=drive_fs"
+        }          
+      ]
+    }
+  ]
+}
