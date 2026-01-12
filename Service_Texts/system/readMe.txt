@@ -77,7 +77,7 @@ maintenance
 
 2. Adding a new feast file, use the rtf billingual service file provided by the 
 Antioch Archdiocese:
-- edit it in Word and make it docx 
+- edit it in Word and make it Divine_Liturgy_Variables.docx 
 - extend the content left and right
 - add the desired links to point to the Google Drive related PDFs
 - save it as html with the following naming convention: 
