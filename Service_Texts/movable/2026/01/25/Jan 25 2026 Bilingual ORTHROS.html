@@ -4,59 +4,9 @@ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
 xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
 xmlns="http://www.w3.org/TR/REC-html40">
 https://drive.google.com/file/d/1rMpGVOjcvjJ68LHGsj1yuJlJrviHlJxf/view?usp=drive_link
-<script>
-function normalize(s) {
-  // 1. elimină <br>, <br/>, <BR>, etc.
-  s = s.replace(/<br\s*\/?>/gi, "");
 
-  // 2. decodează caracterele escaped (&nbsp;, &amp;, etc.)
-  const txt = document.createElement("textarea");
-  txt.innerHTML = s;
-  s = txt.value;
 
-  // 3. elimină TOATE spațiile
-  s = s.replace(/\s+/g, "");
-
-  // 4. trece totul la uppercase
-  s = s.toUpperCase();
-
-  return s;
-}
-
-document.addEventListener("DOMContentLoaded", () => {
-  fetch("https://script.google.com/macros/s/AKfycbwuNlfStq-WlFFcSy4jknki_VUL01tFMMb97lkiW8vyimKQkmCfhKIqKSvWiNyO_Cj0Ug/exec")
-  .then(r => r.json())
-  .then(map => {
-
-		// normalizăm cheile din JSON
-		const normalizedMap = {};
-		for (const k in map) {
-		normalizedMap[normalize(k)] = map[k];
-		}
-
-      // Parcurgem toate elementele din body
-		document.querySelectorAll("span").forEach(span => {
-		const norm = normalize(span.innerHTML);
-
-		if (normalizedMap[norm]) {
-			const url = normalizedMap[norm];
-
-			span.innerHTML = `
-			<a href="${url}" target="_blank"
-				style="text-decoration:none;color:inherit;">
-				${span.innerHTML}
-			</a>
-			`;
-		}
-		});
-
-      console.log("Hyperlink-urile au fost generate cu succes.");
-    })
-    .catch(err => {
-      console.error("Eroare la încărcarea JSON:", err);
-    });
-});
-</script>
+<script src="/system/scripts/html-script-for-Title-Drive-Links-mapping.js"></script>
 
 
 
