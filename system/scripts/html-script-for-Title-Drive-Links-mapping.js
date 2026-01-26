@@ -63,7 +63,7 @@ function applyLinks(jsonUrl) {
       elems.forEach(el => {
         if (el.querySelector("a")) return; // nu dublează linkuri
         const norm = normalize(el.textContent);
-        console.log(norm);
+
         if (normalizedMap[norm]) {
           const url = normalizedMap[norm];
           el.innerHTML = `<a href="${url}" target="_blank">${el.innerHTML}</a>`;

@@ -123,7 +123,7 @@
         }
 
 
-        fetch("/system/data/liturgical-service-file-list.json")
+        fetch("./system/data/liturgical-service-file-list.json")
         .then(r => r.json())
         .then(data => {
             serviceTexts = data;
