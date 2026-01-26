@@ -1,8 +1,13 @@
 import fs from "fs";
 import path from "path";
 
-const ROOT = "../../Service_Texts";
-const OUT = '../data/liturgical-service-file-list.json';
+// unde sunt fișierele pe disc
+const FS_ROOT = path.resolve("../../Service_Texts");
+
+// cum vor fi accesate din browser
+const WEB_ROOT = "Service_Texts";
+
+const OUT = "../data/liturgical-service-file-list.json";
 
 const SERVICE_ORDER = [
   "Divine_Liturgy",
@@ -12,11 +17,9 @@ const SERVICE_ORDER = [
 
 let entries = [];
 
-/* ---------------- FIXED DATE ----------------
-   fixed/MM/DD/*.html
---------------------------------------------*/
+/* ---------------- FIXED DATE ---------------- */
 function scanFixed() {
-  const fixedRoot = path.join(ROOT, "fixed");
+  const fixedRoot = path.join(FS_ROOT, "fixed");
   if (!fs.existsSync(fixedRoot)) return;
 
   const year = new Date().getFullYear();
@@ -34,11 +37,9 @@ function scanFixed() {
   }
 }
 
-/* ---------------- MOVABLE DATE ----------------
-   movable/YYYY/MM/DD/*.html
-----------------------------------------------*/
+/* ---------------- MOVABLE DATE ---------------- */
 function scanMovable() {
-  const movableRoot = path.join(ROOT, "movable");
+  const movableRoot = path.join(FS_ROOT, "movable");
   if (!fs.existsSync(movableRoot)) return;
 
   for (const year of fs.readdirSync(movableRoot)) {
@@ -64,11 +65,16 @@ function addFiles(dir, date) {
   for (const file of fs.readdirSync(dir)) {
     if (!file.endsWith(".html")) continue;
 
+    // cale relativă față de Service_Texts pe disc
+    const relativePath = path.relative(FS_ROOT, path.join(dir, file))
+                              .replace(/\\/g, "/");
+
     entries.push({
       date,
       title: file.replace(".html", "").replaceAll("_", " "),
       order: SERVICE_ORDER.findIndex(s => file.startsWith(s)),
-      file: `${dir}/${file}`.replace(/\\/g, "/")
+      // cale corectă pentru web
+      file: `${WEB_ROOT}/${relativePath}`
     });
   }
 }
