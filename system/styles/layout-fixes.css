@@ -1,0 +1,85 @@
+/* wrapper pentru tabele mari */
+.table-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+/* fallback centrare tabel */
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+/* wrapper pentru titluri centrate */
+.center-block {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* celulele header de tabel (colspan mare) */
+td[colspan] {
+  text-align: center;
+}
+
+/* Titlurile tabelului (celule cu colspan) */
+td[colspan] > p {
+  text-align: center !important; /* forțează centrul */
+  margin: 0 auto;
+  font-weight: bold; /* dacă vrei să fie bold implicit */
+}
+
+
+/* anulăm float/frame-urile Word/LibreOffice */
+p {
+  float: none !important;
+  position: static !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* arabă -> dreapta, engleză -> stânga */
+td:not([colspan]) p[dir="RTL"] {
+  text-align: right !important;
+  direction: rtl;
+}
+
+td:not([colspan]) p[dir="LTR"] {
+  text-align: left !important;
+  direction: ltr;
+}
+
+/* linkuri din titluri sau text liturgic */
+td p a {
+  font-weight: bold !important;
+  text-decoration: none;
+}
+
+/* mic polish pentru tabel și pagină */
+body {
+  max-width: 900px;
+  margin: auto;
+  padding: 1rem;
+}
+
+td, th {
+  vertical-align: top;
+}
+/* Reset link styling to Word-like defaults */
+a {
+  color: #0000EE;              /* albastru clasic de hyperlink */
+  text-decoration: underline; /* subliniere normală */
+  font-size: inherit;         /* păstrează fontul și mărimea din Word */
+  font-family: inherit;
+  font-weight: bold;          /* pentru cazul tău */
+}
+
+/* elimină mov-ul pentru linkurile vizitate */
+a {
+  color: #0000EE !important;
+}
+a:visited {
+  color: #0000EE !important;
+}

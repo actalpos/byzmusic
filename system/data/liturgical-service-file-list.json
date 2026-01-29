@@ -31,12 +31,6 @@
   },
   {
     "date": "2026-01-25",
-    "title": "~$output",
-    "order": -1,
-    "file": "Service_Texts/movable/2026/01/25/~$output.html"
-  },
-  {
-    "date": "2026-01-25",
     "title": "Divine Liturgy",
     "order": 0,
     "file": "Service_Texts/movable/2026/01/25/Divine_Liturgy.html"
@@ -52,12 +46,6 @@
     "title": "Jan 31 2026 Bilingual VESP",
     "order": -1,
     "file": "Service_Texts/movable/2026/02/01/Jan 31 2026 Bilingual VESP.html"
-  },
-  {
-    "date": "2026-02-01",
-    "title": "~$n 31 2026 Bilingual VESP",
-    "order": -1,
-    "file": "Service_Texts/movable/2026/02/01/~$n 31 2026 Bilingual VESP.html"
   },
   {
     "date": "2026-12-28",

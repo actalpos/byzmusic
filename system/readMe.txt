@@ -77,13 +77,21 @@ maintenance
 
 2. Adding a new feast file, use the rtf billingual service file provided by the 
 Antioch Archdiocese:
-- edit it in Word and make it Divine_Liturgy_Variables.docx 
-- extend the content left and right
-- add the desired links to point to the Google Drive related PDFs
+- edit it in Word and save it as docx 
+- extend line spacing (and increase the English font size to 16 or 18px)
+- open the docx with LibreOffice and save it as html
 - save it as html with the following naming convention: 
-  If it is for the Divine Liturgy call it Devine_Liturgy_Variables.html
-- edit the links and add target="_blank" to always open in new tab
-- run at the command line to update the service_texts_summary.json file from the root (EnglishByzantineMusic folder: 
+  If it is for the Divine Liturgy call it Divine_Liturgy_Variables.html
+- edit and add the following to it:
+Pentru local test
+<link rel="stylesheet" href="../../../../../system/styles/layout-fixes.css">
+<script src="./../../../../../system/scripts/layout-fixes-and-links.js" defer></script>
+
+Pt web:
+<link rel="stylesheet" href="/byzmusic/system/styles/layout-fixes.css">
+<script src="/byzmusic/system/scripts/layout-fixes-and-links.js" defer></script>
+- save and check the links, the format and the responsiveness
+- from Service_Texts/system/scripts run at the command line to update the service_texts_summary.json file:
   node Service_Texts/system/update_service_texts_summary.js
   node Service_Texts/system/validate_service_texts_summary.js
 
