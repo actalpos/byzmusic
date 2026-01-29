@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   try {
     const base = window.location.pathname.includes("/byzmusic/")
-      ? "/bymusic"
+      ? "/byzmusic"
       : "";
 
     const response = await fetch(`${base}/system/data/titleLink.json`);
