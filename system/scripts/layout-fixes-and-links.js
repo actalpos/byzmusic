@@ -69,7 +69,11 @@ document.addEventListener("DOMContentLoaded", async () => {
   let titleLinks = {};
 
   try {
-    const response = await fetch("/system/data/titleLink.json");
+    const base = window.location.pathname.includes("/bymusic/")
+      ? "/bymusic"
+      : "";
+
+    const response = await fetch(`${base}/system/data/titleLink.json`);
     if (!response.ok) throw new Error("titleLink.json not found");
     const data = await response.json();
 
