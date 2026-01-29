@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   let titleLinks = {};
 
   try {
-    const base = window.location.pathname.includes("/bymusic/")
+    const base = window.location.pathname.includes("/byzmusic/")
       ? "/bymusic"
       : "";
 
