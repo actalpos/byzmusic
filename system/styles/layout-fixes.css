@@ -1,51 +1,10 @@
-/* wrapper pentru tabele mari */
-/* .table-wrapper {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  margin-bottom: 1rem;
-}
-
-/* fallback centrare tabel */
-/* table {
-  margin: 0 auto;
-  border-collapse: collapse;
-}  */
 
 /* wrapper general pentru toate tabelele mari */
 .table-wrapper {
-  width: 100%;
   display: flex;
   justify-content: center;
   box-sizing: border-box;
-}
-
-/* tabelul în sine */
-.table-wrapper table {
-  width: 100%;
-  max-width: 100%;
-  border-collapse: collapse;
-}
-
-/* Desktop */
-@media (min-width: 900px) {
-  .table-wrapper table {
-    width: 80%;
-  }
-}
-
-/* Tabletă */
-@media (min-width: 600px) and (max-width: 899px) {
-  .table-wrapper table {
-    width: calc(100% - 20px); /* 10px stânga + 10px dreapta */
-  }
-}
-
-/* Mobile */
-@media (max-width: 599px) {
-  .table-wrapper table {
-    width: calc(100% - 20px); /* aerisire mică */
-  }
+  margin: 1rem;
 }
 
 
