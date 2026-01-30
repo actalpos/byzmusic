@@ -28,9 +28,14 @@
 		a.sdfootnotesym-ctl { font-family: "Times New Roman" }
 	</style>
 </head>
-
-<link rel="stylesheet" href="/system/styles/layout-fixes.css">
-<script src="/system/scripts/layout-fixes-and-links.js" defer></script>
+<script>
+  const s=document.createElement("script");
+  s.defer=true;
+  s.src=window.location.pathname.includes("byzmusic")
+    ? "/byzmusic/system/scripts/layout-fixes-and-links.js"
+    : "/system/scripts/layout-fixes-and-links.js";
+  document.head.appendChild(s);
+</script>
 
 <body lang="en-CA" link="#0000ff" vlink="#800000" dir="rtl"><p lang="en-US" class="western" align="right" style="orphans: 0; line-height: 115%; widows: 0">
 <center>
