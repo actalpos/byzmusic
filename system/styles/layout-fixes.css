@@ -1,48 +1,24 @@
+/* =============================
+   v1 final - Tabele Liturgice / LibreOffice
+   ============================= */
 
-/* wrapper general pentru toate tabelele mari */
-.table-wrapper {
-  display: flex;
-  justify-content: center;
+/* wrapper virtual pentru toate tabelele mari */
+table {
+  display: block;              /* permite scroll orizontal */
   box-sizing: border-box;
-  margin: 1rem;
-  overflow-x: auto;
-}
-@media (min-width: 900px) {
-  .table-wrapper table {
-    max-width: 80% !important;
-  }
-}
-
-/* tabela */
-.lang-table {
-  width: 100% !important;
-  max-width: 900px;       /* desktop */
+  max-width: 900px;            /* desktop */
+  width: 100%;
+  table-layout: fixed;         /* fixează coloanele */
   border-collapse: collapse;
-  table-layout: fixed;   /* FOARTE IMPORTANT */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem 0;             /* spațiu sus-jos în tabel */
+  overflow-x: auto;            /* scroll stânga-dreapta pe mobil */
 }
 
-/* celulele */
-.lang-table td {
-  width: 50% !important; /* IGNORĂ width="523" */
-  padding: 12px !important;
-  vertical-align: top;
-}
-
-/* prima coloană = engleză */
-.lang-table td:first-child {
-  direction: ltr;
-  text-align: left;
-}
-
-/* a doua coloană = arabă */
-.lang-table td:last-child {
-  direction: rtl;
-  text-align: right;
-}
-
-/* 📱 sub 600px → scroll */
+/* Responsive: sub 600px apare scroll */
 @media (max-width: 600px) {
-  .lang-table {
+  table {
     min-width: 600px;
   }
 }
@@ -59,13 +35,12 @@ td[colspan] {
   text-align: center;
 }
 
-/* Titlurile tabelului (celule cu colspan) */
+/* titlurile tabelului (celule cu colspan) */
 td[colspan] > p {
-  text-align: center !important; /* forțează centrul */
+  text-align: center !important;
   margin: 0 auto;
-  font-weight: bold; /* dacă vrei să fie bold implicit */
+  font-weight: bold;
 }
-
 
 /* anulăm float/frame-urile Word/LibreOffice */
 p {
@@ -86,33 +61,27 @@ td:not([colspan]) p[dir="LTR"] {
   direction: ltr;
 }
 
-/* linkuri din titluri sau text liturgic */
-td p a {
-  font-weight: bold !important;
-  text-decoration: none;
-}
-
-/* mic polish pentru tabel și pagină */
-body {
-  margin: auto;
-}
-
+/* coloane 50/50 */
 td, th {
   vertical-align: top;
-}
-/* Reset link styling to Word-like defaults */
-a {
-  color: #0000EE;              /* albastru clasic de hyperlink */
-  text-decoration: underline; /* subliniere normală */
-  font-size: inherit;         /* păstrează fontul și mărimea din Word */
-  font-family: inherit;
-  font-weight: bold;          /* pentru cazul tău */
+  padding: 12px !important;
+  width: 50% !important;
 }
 
-/* elimină mov-ul pentru linkurile vizitate */
-a {
+/* linkuri vizibile Word-style */
+td p a {
+  font-weight: bold !important;
+  text-decoration: underline !important;
+  color: #0000EE !important;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+td p a:visited {
   color: #0000EE !important;
 }
-a:visited {
-  color: #0000EE !important;
+
+/* mic polish pentru pagină */
+body {
+  margin: 1rem; /* spațiu sus/jos și lateral pe pagină */
 }

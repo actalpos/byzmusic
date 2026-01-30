@@ -27,21 +27,20 @@
 		a.sdfootnotesym-ctl { font-family: "Times New Roman" }
 	</style>
 </head>
-<link rel="stylesheet"
-      href=""
-      id="layout-css">
-
 <script>
-  document.getElementById("layout-css").href =
-    window.location.pathname.includes("byzmusic")
-      ? "/byzmusic/system/styles/layout-fixes.css"
-      : "/system/styles/layout-fixes.css";	
-  const s=document.createElement("script");
-  s.defer=true;
-  s.src=window.location.pathname.includes("byzmusic")
-    ? "/byzmusic/system/scripts/layout-fixes-and-links.js"
-    : "/system/scripts/layout-fixes-and-links.js";
-  document.head.appendChild(s);
+  const base = window.location.pathname.includes("byzmusic") ? "/byzmusic/" : "/";
+
+  // CSS
+  const css = document.createElement("link");
+  css.rel = "stylesheet";
+  css.href = base + "system/styles/layout-fixes.css";
+  document.head.appendChild(css);
+
+  // JS
+  const js = document.createElement("script");
+  js.defer = true;
+  js.src = base + "system/scripts/layout-fixes-and-links.js";
+  document.head.appendChild(js);
 </script>
 
 <body lang="en-CA" link="#0000ff" vlink="#800000" dir="ltr"><p lang="en-US" class="western" align="left" style="margin-bottom: 0cm">

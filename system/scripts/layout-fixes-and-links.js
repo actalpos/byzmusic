@@ -1,24 +1,15 @@
+
 document.addEventListener("DOMContentLoaded", async () => {
 
   /**********************
    *  LAYOUT FIXES
    **********************/
 
-  // Elimină toate <center>
+  // Elimină toate <center> din Word/LibreOffice
   document.querySelectorAll("center").forEach(c => {
     const parent = c.parentNode;
     while (c.firstChild) parent.insertBefore(c.firstChild, c);
     parent.removeChild(c);
-  });
-
-  // Table wrapper pentru tabele mari (scroll pe mobil)
-  document.querySelectorAll("table").forEach(table => {
-    if (!table.parentElement.classList.contains("table-wrapper")) {
-      const wrapper = document.createElement("div");
-      wrapper.className = "table-wrapper";
-      table.parentNode.insertBefore(wrapper, table);
-      wrapper.appendChild(table);
-    }
   });
 
   // Detectare RTL (arabă, ebraică, etc.)
@@ -28,10 +19,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   // Aliniere automată în celule: arabă → dreapta, engleză → stânga
   document.querySelectorAll("td p").forEach(p => {
-    const text = p.textContent.trim();
+    const text = (p.innerText || p.textContent).trim();
     if (!text) return;
 
-    // curățăm doar alinierea veche
     p.removeAttribute("align");
     p.style.textAlign = "";
     p.style.direction = "";
@@ -39,9 +29,11 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (isRTL(text)) {
       p.style.textAlign = "right";
       p.style.direction = "rtl";
+      p.setAttribute("dir", "rtl");
     } else {
       p.style.textAlign = "left";
       p.style.direction = "ltr";
+      p.setAttribute("dir", "ltr");
     }
   });
 
@@ -57,7 +49,6 @@ document.addEventListener("DOMContentLoaded", async () => {
    *  LINK REPLACEMENT
    **********************/
 
-  // Normalizează titluri (chei din titleLink.json)
   function normalizeTitle(str) {
     return str
       .replace(/\s+/g, " ")
@@ -85,12 +76,12 @@ document.addEventListener("DOMContentLoaded", async () => {
     console.warn("titleLink.json could not be loaded:", e.message);
   }
 
-  // Aplică linkurile
+  // Aplică linkurile păstrând HTML-ul original
   document.querySelectorAll("td p").forEach(p => {
-    const originalText = p.textContent.trim();
-    if (!originalText) return;
+    const textOnly = (p.innerText || p.textContent).trim();
+    if (!textOnly) return;
 
-    const normalized = normalizeTitle(originalText);
+    const normalized = normalizeTitle(textOnly);
 
     if (titleLinks[normalized]) {
       const url = titleLinks[normalized];
@@ -113,16 +104,12 @@ document.addEventListener("DOMContentLoaded", async () => {
    *  CLEAN LINK COLORS
    **********************/
 
-  // Elimină culoarea forțată de Word/Libre din interiorul linkurilor
-  document.querySelectorAll("a font").forEach(f => {
-    if (f.hasAttribute("color")) f.removeAttribute("color");
-    if (f.style && f.style.color) f.style.color = "";
+  // Elimină culorile și stilurile Word/LibreOffice din interiorul linkurilor
+  document.querySelectorAll("a font, a span").forEach(el => {
+    if (el.hasAttribute("color")) el.removeAttribute("color");
+    if (el.style && el.style.color) el.style.color = "";
   });
 
-  // În unele cazuri există <span style="color:#000000"> în interiorul linkului
-  document.querySelectorAll("a span").forEach(s => {
-    if (s.style && s.style.color) s.style.color = "";
-  });
-
-  console.log("Layout fixes and link fixes applied successfully.");
+  console.log("Layout fixes and link replacements applied successfully.");
 });
+
