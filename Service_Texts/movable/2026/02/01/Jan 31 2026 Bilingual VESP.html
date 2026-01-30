@@ -28,7 +28,15 @@
 		a.sdfootnotesym-ctl { font-family: "Times New Roman" }
 	</style>
 </head>
+<link rel="stylesheet"
+      href=""
+      id="layout-css">
+
 <script>
+  document.getElementById("layout-css").href =
+    window.location.pathname.includes("byzmusic")
+      ? "/byzmusic/system/styles/layout-fixes.css"
+      : "/system/styles/layout-fixes.css";	
   const s=document.createElement("script");
   s.defer=true;
   s.src=window.location.pathname.includes("byzmusic")
