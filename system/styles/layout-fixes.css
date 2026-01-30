@@ -6,8 +6,11 @@
   box-sizing: border-box;
   margin: 1rem;
 }
-
-
+@media (min-width: 900px) {
+  .table-wrapper table {
+    width: 80% !important;
+  }
+}
 /* wrapper pentru titluri centrate */
 .center-block {
   display: flex;
