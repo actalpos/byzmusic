@@ -5,12 +5,48 @@
   justify-content: center;
   box-sizing: border-box;
   margin: 1rem;
+  overflow-x: auto;
 }
 @media (min-width: 900px) {
   .table-wrapper table {
-    width: 80% !important;
+    max-width: 80% !important;
   }
 }
+
+/* tabela */
+.lang-table {
+  width: 100% !important;
+  max-width: 900px;       /* desktop */
+  border-collapse: collapse;
+  table-layout: fixed;   /* FOARTE IMPORTANT */
+}
+
+/* celulele */
+.lang-table td {
+  width: 50% !important; /* IGNORĂ width="523" */
+  padding: 12px !important;
+  vertical-align: top;
+}
+
+/* prima coloană = engleză */
+.lang-table td:first-child {
+  direction: ltr;
+  text-align: left;
+}
+
+/* a doua coloană = arabă */
+.lang-table td:last-child {
+  direction: rtl;
+  text-align: right;
+}
+
+/* 📱 sub 600px → scroll */
+@media (max-width: 600px) {
+  .lang-table {
+    min-width: 600px;
+  }
+}
+
 /* wrapper pentru titluri centrate */
 .center-block {
   display: flex;
