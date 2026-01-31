@@ -1,90 +1,128 @@
-
-document.addEventListener("DOMContentLoaded", async () => {
+(function () {
+  "use strict";
 
   /**********************
-   *  LAYOUT FIXES
+   *  SAFE DOM READY
    **********************/
-
-  // Elimină toate <center> din Word/LibreOffice
-  document.querySelectorAll("center").forEach(c => {
-    const parent = c.parentNode;
-    while (c.firstChild) parent.insertBefore(c.firstChild, c);
-    parent.removeChild(c);
-  });
-
-  // Detectare RTL (arabă, ebraică, etc.)
-  function isRTL(text) {
-    return /[\u0590-\u08FF]/.test(text);
-  }
-
-  // Aliniere automată în celule: arabă → dreapta, engleză → stânga
-  document.querySelectorAll("td p").forEach(p => {
-    const text = (p.innerText || p.textContent).trim();
-    if (!text) return;
-
-    p.removeAttribute("align");
-    p.style.textAlign = "";
-    p.style.direction = "";
-
-    if (isRTL(text)) {
-      p.style.textAlign = "right";
-      p.style.direction = "rtl";
-      p.setAttribute("dir", "rtl");
+  function ready(fn) {
+    if (document.readyState !== "loading") {
+      fn();
     } else {
-      p.style.textAlign = "left";
+      document.addEventListener("DOMContentLoaded", fn);
+    }
+  }
+
+  ready(async () => {
+
+    console.log("layout-fixes-and-links v1 loaded");
+
+    /**********************
+     *  SERVICE TYPE
+     **********************/
+    function detectServiceType() {
+      const path = window.location.pathname.toLowerCase();
+
+      if (path.includes("vesp")) return "V";
+      if (path.includes("orthros")) return "O";
+      if (path.includes("liturgy") || path.includes("divine")) return "L";
+
+      return null;
+    }
+
+    const SERVICE = detectServiceType();
+
+    /**********************
+     *  TEXT UTIL
+     **********************/
+    function normalizeTitle(str) {
+      return str
+        .replace(/\s+/g, " ")
+        .replace(/[\n\r\t]/g, " ")
+        .trim()
+        .toLowerCase();
+    }
+
+    function isRTL(text) {
+      return /[\u0590-\u08FF]/.test(text);
+    }
+
+    /**********************
+     *  PARAGRAPH FIXES
+     **********************/
+    document.querySelectorAll("td p").forEach(p => {
+      const text = p.textContent.trim();
+      if (!text) return;
+
+      // curățăm Word / Libre
+      p.removeAttribute("align");
+      p.style.float = "none";
+      p.style.position = "static";
+
+      // direcție automată
+      if (isRTL(text)) {
+        p.style.direction = "rtl";
+        p.style.textAlign = "right";
+      } else {
+        p.style.direction = "ltr";
+        p.style.textAlign = "left";
+      }
+    });
+
+    // titluri (colspan)
+    document.querySelectorAll("td[colspan] > p").forEach(p => {
+      p.style.textAlign = "center";
       p.style.direction = "ltr";
-      p.setAttribute("dir", "ltr");
+    });
+
+    /**********************
+     *  LOAD TITLE LINKS
+     **********************/
+    let rawLinks = {};
+    let titleLinks = {};
+
+    try {
+      const base = window.location.pathname.includes("/byzmusic/")
+        ? "/byzmusic"
+        : "";
+
+      const res = await fetch(`${base}/system/data/titleLink.json`);
+      if (!res.ok) throw new Error("titleLink.json missing");
+
+      rawLinks = await res.json();
+
+      // normalizare chei
+      for (const key in rawLinks) {
+        titleLinks[normalizeTitle(key)] = rawLinks[key];
+      }
+    } catch (e) {
+      console.warn("Title link data not loaded:", e.message);
     }
-  });
 
-  // Titluri cu colspan → centrate
-  document.querySelectorAll("td[colspan] > p").forEach(p => {
-    p.removeAttribute("align");
-    p.style.textAlign = "center";
-    p.style.direction = "ltr";
-  });
+    /**********************
+     *  APPLY LINKS
+     **********************/
+    document.querySelectorAll("td p").forEach(p => {
+      const originalText = p.textContent.trim();
+      if (!originalText) return;
 
+      const baseKey = normalizeTitle(originalText);
+      let url = null;
 
-  /**********************
-   *  LINK REPLACEMENT
-   **********************/
+      // 1️⃣ prefixat [V][O][L]
+      if (SERVICE) {
+        const prefixedKey = `[${SERVICE.toLowerCase()}] ${baseKey}`;
+        url = titleLinks[prefixedKey];
+      }
 
-  function normalizeTitle(str) {
-    return str
-      .replace(/\s+/g, " ")
-      .replace(/[\n\r\t]/g, " ")
-      .trim()
-      .toLowerCase();
-  }
+      // 2️⃣ fallback vechi
+      if (!url) {
+        url = titleLinks[baseKey];
+      }
 
-  let titleLinks = {};
+      if (!url) return;
 
-  try {
-    const base = window.location.pathname.includes("/byzmusic/")
-      ? "/byzmusic"
-      : "";
-
-    const response = await fetch(`${base}/system/data/titleLink.json`);
-    if (!response.ok) throw new Error("titleLink.json not found");
-    const data = await response.json();
-
-    // Normalizare chei
-    for (const key in data) {
-      titleLinks[normalizeTitle(key)] = data[key];
-    }
-  } catch (e) {
-    console.warn("titleLink.json could not be loaded:", e.message);
-  }
-
-  // Aplică linkurile păstrând HTML-ul original
-  document.querySelectorAll("td p").forEach(p => {
-    const textOnly = (p.innerText || p.textContent).trim();
-    if (!textOnly) return;
-
-    const normalized = normalizeTitle(textOnly);
-
-    if (titleLinks[normalized]) {
-      const url = titleLinks[normalized];
+      // evităm dublarea linkurilor
+      if (p.querySelector("a")) return;
 
       const span = document.createElement("span");
       span.innerHTML = p.innerHTML;
@@ -97,19 +135,24 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       p.innerHTML = "";
       p.appendChild(a);
-    }
+    });
+
+    /**********************
+     *  CLEAN LINK COLORS
+     **********************/
+    document.querySelectorAll("a font").forEach(f => {
+      f.removeAttribute("color");
+      if (f.style) f.style.color = "";
+    });
+
+    document.querySelectorAll("a span").forEach(s => {
+      if (s.style) s.style.color = "";
+    });
+
+    console.log(
+      "Layout + links applied",
+      SERVICE ? `(service ${SERVICE})` : "(generic)"
+    );
   });
 
-  /**********************
-   *  CLEAN LINK COLORS
-   **********************/
-
-  // Elimină culorile și stilurile Word/LibreOffice din interiorul linkurilor
-  document.querySelectorAll("a font, a span").forEach(el => {
-    if (el.hasAttribute("color")) el.removeAttribute("color");
-    if (el.style && el.style.color) el.style.color = "";
-  });
-
-  console.log("Layout fixes and link replacements applied successfully.");
-});
-
+})();

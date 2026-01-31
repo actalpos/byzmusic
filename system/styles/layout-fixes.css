@@ -1,48 +1,31 @@
-/* =============================
-   v1 final - Tabele Liturgice / LibreOffice
-   ============================= */
-
-/* wrapper virtual pentru toate tabelele mari */
+/* GENERAL TABLES */
 table {
-  display: block;              /* permite scroll orizontal */
-  box-sizing: border-box;
-  max-width: 900px;            /* desktop */
-  width: 100%;
-  table-layout: fixed;         /* fixează coloanele */
   border-collapse: collapse;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1rem 0;             /* spațiu sus-jos în tabel */
-  overflow-x: auto;            /* scroll stânga-dreapta pe mobil */
-}
-
-/* Responsive: sub 600px apare scroll */
-@media (max-width: 600px) {
-  table {
-    min-width: 600px;
-  }
-}
-
-/* wrapper pentru titluri centrate */
-.center-block {
-  display: flex;
-  justify-content: center;
+  table-layout: fixed;
   width: 100%;
+  max-width: 900px; /* desktop */
+  margin: 1rem auto; /* centru și spațiu lateral */
 }
 
-/* celulele header de tabel (colspan mare) */
+/* CELULE 50/50 pentru 2 coloane */
+td, th {
+  vertical-align: top;
+  padding: 12px !important;
+  width: 50% !important;
+  box-sizing: border-box;
+}
+
+/* TITLURI (celule cu colspan) */
 td[colspan] {
   text-align: center;
 }
-
-/* titlurile tabelului (celule cu colspan) */
 td[colspan] > p {
   text-align: center !important;
   margin: 0 auto;
   font-weight: bold;
 }
 
-/* anulăm float/frame-urile Word/LibreOffice */
+/* RESET FLOAT/WORD */
 p {
   float: none !important;
   position: static !important;
@@ -50,25 +33,7 @@ p {
   padding: 0;
 }
 
-/* arabă -> dreapta, engleză -> stânga */
-td:not([colspan]) p[dir="RTL"] {
-  text-align: right !important;
-  direction: rtl;
-}
-
-td:not([colspan]) p[dir="LTR"] {
-  text-align: left !important;
-  direction: ltr;
-}
-
-/* coloane 50/50 */
-td, th {
-  vertical-align: top;
-  padding: 12px !important;
-  width: 50% !important;
-}
-
-/* linkuri vizibile Word-style */
+/* LINKURI WORD-STYLE */
 td p a {
   font-weight: bold !important;
   text-decoration: underline !important;
@@ -76,12 +41,24 @@ td p a {
   font-size: inherit;
   font-family: inherit;
 }
-
 td p a:visited {
   color: #0000EE !important;
 }
 
-/* mic polish pentru pagină */
+/* BODY MARGIN */
 body {
-  margin: 1rem; /* spațiu sus/jos și lateral pe pagină */
+  margin: 1rem;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 600px) {
+  table {
+    min-width: 600px;
+  }
+}
+
+@media (min-width: 900px) {
+  table {
+    max-width: 80% !important;
+  }
 }
