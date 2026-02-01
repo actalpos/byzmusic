@@ -80,16 +80,16 @@ Antioch Archdiocese:
 - edit it in Word and save it as docx 
 - extend line spacing (and increase the English font size to 16 or 18px)
 - open the docx with LibreOffice and save it as html
-- save it as html with the following naming convention: 
-  If it is for the Divine Liturgy call it Divine_Liturgy_Variables.html
-- edit and add the following to it:
-Pentru local test
+- edit and remove from table tag the "dir" and "width" should be 100%
+- add the following 3 lines:
+
 <link rel="stylesheet" href="../../../../../system/styles/layout-fixes.css">
 <script src="./../../../../../system/scripts/layout-fixes-and-links.js" defer></script>
 
-Pt web:
-<link rel="stylesheet" href="/byzmusic/system/styles/layout-fixes.css">
-<script src="/byzmusic/system/scripts/layout-fixes-and-links.js" defer></script>
+- For the Divine Liturgy
+- save it as html with the following naming convention: 
+  If it is for the Divine Liturgy call it Divine_Liturgy_Variables.html
+
 - save and check the links, the format and the responsiveness
 - from Service_Texts/system/scripts run at the command line to update the service_texts_summary.json file:
   node Service_Texts/system/update_service_texts_summary.js

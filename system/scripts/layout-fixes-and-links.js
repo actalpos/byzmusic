@@ -2,7 +2,7 @@
   "use strict";
 
   /**********************
-   *  SAFE DOM READY
+   * SAFE DOM READY
    **********************/
   function ready(fn) {
     if (document.readyState !== "loading") {
@@ -14,25 +14,23 @@
 
   ready(async () => {
 
-    console.log("layout-fixes-and-links v1 loaded");
+    console.log("layout-fixes-and-links FINAL loaded");
 
     /**********************
-     *  SERVICE TYPE
+     * SERVICE TYPE
      **********************/
     function detectServiceType() {
       const path = window.location.pathname.toLowerCase();
-
       if (path.includes("vesp")) return "V";
       if (path.includes("orthros")) return "O";
       if (path.includes("liturgy") || path.includes("divine")) return "L";
-
       return null;
     }
 
     const SERVICE = detectServiceType();
 
     /**********************
-     *  TEXT UTIL
+     * UTILS
      **********************/
     function normalizeTitle(str) {
       return str
@@ -47,18 +45,23 @@
     }
 
     /**********************
-     *  PARAGRAPH FIXES
+     * 🔥 FIX WORD COLGROUP BUG
+     **********************/
+    document.querySelectorAll("table colgroup, table col").forEach(el => {
+      el.remove();
+    });
+
+    /**********************
+     * PARAGRAPH FIXES
      **********************/
     document.querySelectorAll("td p").forEach(p => {
       const text = p.textContent.trim();
       if (!text) return;
 
-      // curățăm Word / Libre
       p.removeAttribute("align");
       p.style.float = "none";
       p.style.position = "static";
 
-      // direcție automată
       if (isRTL(text)) {
         p.style.direction = "rtl";
         p.style.textAlign = "right";
@@ -68,16 +71,35 @@
       }
     });
 
-    // titluri (colspan)
+    // titluri cu colspan
     document.querySelectorAll("td[colspan] > p").forEach(p => {
       p.style.textAlign = "center";
       p.style.direction = "ltr";
     });
 
     /**********************
-     *  LOAD TITLE LINKS
+     * REMOVE WORD GHOST COLUMNS
      **********************/
-    let rawLinks = {};
+    document.querySelectorAll("table tr").forEach(tr => {
+      const tds = Array.from(tr.children).filter(el => el.tagName === "TD");
+
+      if (tds.length <= 2) return;
+
+      // păstrăm doar primele 2 celule reale
+      for (let i = 2; i < tds.length; i++) {
+        const td = tds[i];
+
+        // dacă e gol sau conține doar <br>
+        const text = td.textContent.replace(/\s+/g, "");
+        if (!text) {
+          td.remove();
+        }
+      }
+    });
+
+    /**********************
+     * LOAD TITLE LINKS
+     **********************/
     let titleLinks = {};
 
     try {
@@ -88,57 +110,52 @@
       const res = await fetch(`${base}/system/data/titleLink.json`);
       if (!res.ok) throw new Error("titleLink.json missing");
 
-      rawLinks = await res.json();
+      const raw = await res.json();
 
-      // normalizare chei
-      for (const key in rawLinks) {
-        titleLinks[normalizeTitle(key)] = rawLinks[key];
+      for (const key in raw) {
+        titleLinks[normalizeTitle(key)] = raw[key];
       }
     } catch (e) {
-      console.warn("Title link data not loaded:", e.message);
+      console.warn("TitleLink load failed:", e.message);
     }
 
     /**********************
-     *  APPLY LINKS
+     * APPLY LINKS
      **********************/
     document.querySelectorAll("td p").forEach(p => {
+      if (p.querySelector("a")) return;
+
       const originalText = p.textContent.trim();
       if (!originalText) return;
 
       const baseKey = normalizeTitle(originalText);
       let url = null;
 
-      // 1️⃣ prefixat [V][O][L]
+      // 1️⃣ prefix [V] / [O] / [L]
       if (SERVICE) {
         const prefixedKey = `[${SERVICE.toLowerCase()}] ${baseKey}`;
         url = titleLinks[prefixedKey];
       }
 
-      // 2️⃣ fallback vechi
+      // 2️⃣ fallback fără prefix
       if (!url) {
         url = titleLinks[baseKey];
       }
 
       if (!url) return;
 
-      // evităm dublarea linkurilor
-      if (p.querySelector("a")) return;
-
-      const span = document.createElement("span");
-      span.innerHTML = p.innerHTML;
-
       const a = document.createElement("a");
       a.href = url;
       a.target = "_blank";
       a.rel = "noopener noreferrer";
-      a.innerHTML = span.innerHTML;
+      a.innerHTML = p.innerHTML;
 
       p.innerHTML = "";
       p.appendChild(a);
     });
 
     /**********************
-     *  CLEAN LINK COLORS
+     * CLEAN WORD COLORS
      **********************/
     document.querySelectorAll("a font").forEach(f => {
       f.removeAttribute("color");

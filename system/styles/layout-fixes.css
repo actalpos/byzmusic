@@ -1,31 +1,41 @@
-/* GENERAL TABLES */
+/**********************
+ * TABLE LAYOUT
+ **********************/
 table {
   border-collapse: collapse;
-  table-layout: fixed;
-  width: 100%;
-  max-width: 900px; /* desktop */
-  margin: 1rem auto; /* centru și spațiu lateral */
+  table-layout: fixed;          /* control total din CSS */
+  width: 100% !important;
+  max-width: 900px;             /* desktop */
+  margin: 1rem auto;            /* centrat */
 }
 
-/* CELULE 50/50 pentru 2 coloane */
+/* 2 coloane egale */
 td, th {
   vertical-align: top;
   padding: 12px !important;
   width: 50% !important;
+  max-width: 50%;
   box-sizing: border-box;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
-/* TITLURI (celule cu colspan) */
+/**********************
+ * TITLURI (colspan)
+ **********************/
 td[colspan] {
   text-align: center;
 }
+
 td[colspan] > p {
   text-align: center !important;
   margin: 0 auto;
   font-weight: bold;
 }
 
-/* RESET FLOAT/WORD */
+/**********************
+ * WORD / LIBRE RESET
+ **********************/
 p {
   float: none !important;
   position: static !important;
@@ -33,7 +43,9 @@ p {
   padding: 0;
 }
 
-/* LINKURI WORD-STYLE */
+/**********************
+ * LINKURI
+ **********************/
 td p a {
   font-weight: bold !important;
   text-decoration: underline !important;
@@ -41,19 +53,24 @@ td p a {
   font-size: inherit;
   font-family: inherit;
 }
+
 td p a:visited {
   color: #0000EE !important;
 }
 
-/* BODY MARGIN */
+/**********************
+ * BODY
+ **********************/
 body {
   margin: 1rem;
 }
 
-/* MOBILE RESPONSIVE */
+/**********************
+ * MOBILE
+ **********************/
 @media (max-width: 600px) {
   table {
-    min-width: 600px;
+    min-width: 600px; /* scroll orizontal corect */
   }
 }
 
