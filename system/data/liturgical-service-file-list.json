@@ -60,6 +60,18 @@
     "file": "Service_Texts/movable/2026/02/01/Jan 31 2026 Bilingual VESP.html"
   },
   {
+    "date": "2026-02-02",
+    "title": "Feb 01 Bilingual LITART",
+    "order": -1,
+    "file": "Service_Texts/movable/2026/02/02/Feb 01 Bilingual LITART.html"
+  },
+  {
+    "date": "2026-02-02",
+    "title": "Feb 01 Bilingual VESP",
+    "order": -1,
+    "file": "Service_Texts/movable/2026/02/02/Feb 01 Bilingual VESP.html"
+  },
+  {
     "date": "2026-12-28",
     "title": "Dec 28 2025 Bilingual ORTHROS",
     "order": -1,
