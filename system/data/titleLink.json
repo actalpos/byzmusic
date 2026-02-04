@@ -39,6 +39,11 @@
     "name": "ApostichaBrief-1st-SA-EN.pdf",
     "description": "APOSTICHA FOR THE RESURRECTION IN TONE ONE"
   },
+  "APOSTICHA FOR THE RESURRECTION IN TONE TWO": {
+    "url": "https://drive.google.com/file/d/1b-vgBQs2ooAOigsZlUFjqIH1GPaRDP3r/view?usp=drivesdk",
+    "name": "ApostichaBrief-2nd-SA-EN.pdf",
+    "description": "APOSTICHA FOR THE RESURRECTION IN TONE TWO"
+  },
   "Also for the Pharisee and Publican in Tone Three": {
     "url": "https://drive.google.com/file/d/1a2YWBDB6nviYGsisBqTMRGkhzXaDDrFx/view?usp=drivesdk",
     "name": "5 PraisesPharissePublican-3rd-Karam-EN.pdf",
@@ -68,6 +73,16 @@
     "url": "https://drive.google.com/file/d/1gjNEdygrxWhqOef_lSxbcih_5TAM2Eos/view?usp=drivesdk",
     "name": "2 PresenationLordSticherasDoxastikon-pl2nd-AA-EN.pdf",
     "description": "DOXASTICON FOR THE PRESENTATION IN TONE SIX"
+  },
+  "DOXASTICON FOR THE PRODIGAL SON IN TONE SIX": {
+    "url": "https://drive.google.com/file/d/1eYCsYgXM4ZLRg-zcRtlY9SlbzsdIY_GO/view?usp=drivesdk",
+    "name": "ProdigalSonApostichaDoxastikon-pl2nd-EM-EN.pdf",
+    "description": "DOXASTICON FOR THE PRODIGAL SON IN TONE SIX"
+  },
+  "DOXASTICON FOR THE PRODIGAL SON IN TONE TWO": {
+    "url": "https://drive.google.com/file/d/1gl-VH0Svh8f725ELkrUW1ZfuokGYQN2y/view?usp=drivesdk",
+    "name": "ProdigalSonSticherasDoxastikon-2nd-EM-EN.pdf",
+    "description": "DOXASTICON FOR THE PRODIGAL SON IN TONE TWO"
   },
   "DOXASTICON OF THE PHARISEE AND PUBLICAN IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/1CodHXwbs5ADsE6Q15Ad_4hCkWCr0u3O4/view?usp=drivesdk",
@@ -271,8 +286,13 @@
   },
   "THEOTOKION FOR THE RESURRECTION IN TONE ONE": {
     "url": "https://drive.google.com/file/d/1UQgIFmA-bXRYv9vrmFfFHwMy_P48OcOF/view?usp=drivesdk",
-    "name": "DogmatikonSlow-1st-SA-EN.pdf",
+    "name": "DogmaticTheotokionSlow-1st-SA-EN.pdf",
     "description": "THEOTOKION FOR THE RESURRECTION IN TONE ONE"
+  },
+  "THEOTOKION FOR THE RESURRECTION IN TONE TWO": {
+    "url": "https://drive.google.com/file/d/1tVW0_CXNuuB2Wn-9hzDL5nAHkhy0DZwg/view?usp=drivesdk",
+    "name": "DogmaticTheotokionSlow-2nd-SA-EN.pdf",
+    "description": "THEOTOKION FOR THE RESURRECTION IN TONE TWO"
   },
   "THEOTOKION IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/1oAWJgS4SUB2UpE2_wf_UmtWeCQuncGXF/view?usp=drivesdk",
@@ -324,15 +344,35 @@
     "name": "BriefPraises-1st-SA-EN.pdf",
     "description": "[O] for the Resurrection in Tone One"
   },
+  "[V] For the After-feast in Tone Six (**As it is written**)": {
+    "url": "https://drive.google.com/file/d/1-NR-Cu48FdUnSWjpka1oge-HQWIaRmp1/view?usp=drivesdk",
+    "name": "AfterFeastPresentationLordAposticha-pl2nd-AA-EN.pdf",
+    "description": " [V] For the After-feast in Tone Six\n(**As it is written**)"
+  },
   "[V] For the Presentation in Tone One": {
     "url": "https://drive.google.com/file/d/1F8tHqqOSjwOnB2pW6WD1woBtrCsrcdqL/view?usp=drivesdk",
     "name": "1 PresentationLordStiicheras-1st-AA-EN.pdf",
     "description": "[V] For the Presentation in Tone One"
   },
+  "[V] For the Prodigal Son in Tone One": {
+    "url": "https://drive.google.com/file/d/1b5TvGJftbu6FoOZDO7qpdVZdOr97hZNv/view?usp=drivesdk",
+    "name": "ProdigalSonSticheras-1st-GC-EN.pdf",
+    "description": "[V] For the Prodigal Son in Tone One"
+  },
   "[V] For the Resurrection in Tone One": {
     "url": "https://drive.google.com/file/d/1L1GyFI3bxfT41cbeZpcpCkjZdFXYr8Oo/view?usp=drivesdk",
     "name": "BriefSticheras-1st-SA-EN.pdf",
     "description": "[V] For the Resurrection in Tone One"
+  },
+  "[V] For the Resurrection in Tone Two Brief": {
+    "url": "https://drive.google.com/file/d/1aLCWGjR84xvPYy8asAVp-vjnAbUNgwhq/view?usp=drivesdk",
+    "name": "BriefSticheras-2nd-SA-EN.pdf",
+    "description": "[V] For the Resurrection in Tone Two Brief"
+  },
+  "[V] For the Resurrection in Tone Two Slow": {
+    "url": "https://drive.google.com/file/d/1b3-o9j4bP43pADas3pXlc3pCzee0ciQK/view?usp=drivesdk",
+    "name": "SlowSticheras-2nd-SA-EN.pdf",
+    "description": "[V] For the Resurrection in Tone Two Slow"
   },
   "“A GOOD WORD” (VERSES FROM PSALM 44) IN TONE ONE": {
     "url": "https://drive.google.com/file/d/1gMBh8ZpBNbZhVzdXRl3ZCtCCOG74qwxk/view?usp=drivesdk",
@@ -358,5 +398,10 @@
     "url": "https://drive.google.com/file/d/17DEA9f_1PtIIa7oYruVluspgHkGVtput/view?usp=drivesdk",
     "name": "LordIHaveCriedSlow-1st-EN-AR.pdf",
     "description": "“O LORD, I HAVE CRIED” IN TONE ONE"
+  },
+  "“O LORD, I HAVE CRIED” IN TONE TWO": {
+    "url": "https://drive.google.com/file/d/1hvdmxZNgtP4UwnTmcCEhR0AueA9gPmRg/view?usp=drivesdk",
+    "name": "LordIHaveCriedSlow-2nd-SA-EN.pdf",
+    "description": "“O LORD, I HAVE CRIED” IN TONE TWO"
   }
 }
