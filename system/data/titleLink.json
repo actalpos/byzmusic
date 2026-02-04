@@ -1,55 +1,347 @@
 {
-  "AINOI (PRAISES) IN TONE EIGHT": "https://drive.google.com/file/d/1ngjMQrIi6dNQlfHLkyMi4PSg_Hu2crO6/view?usp=drivesdk",
-  "AINOI (PRAISES) IN TONE ONE": "https://drive.google.com/file/d/1aPaoGTlLIuw205jqouFtbEj2w0Il6Og1/view?usp=drivesdk",
-  "APOLYTIKION FOR THE PRESENTATION OF CHRIST IN TONE ONE": "https://drive.google.com/file/d/1UGr_vayxnhwSX35jIBy9ByKYn4EAWX7w/view?usp=drivesdk",
-  "APOLYTIKION OF ST. GREGORY THE THEOLOGIAN IN TONE ONE": "https://drive.google.com/file/d/1YFfVdngaJGZlHSKuU_MPbdZ1YQZCprAV/view?usp=drivesdk",
-  "APOLYTIKION OF THE FOREFEAST IN TONE ONE (**The soldiers standing guard**)": "https://drive.google.com/file/d/1jyoRMS5oEhyN6hjB9rzeWcrwsHtQryeF/view?usp=drivesdk",
-  "APOSTICHA FOR THE RESURRECTION IN TONE ONE": "https://drive.google.com/file/d/1E_pIix2I9rHQxTK0D4zU5mmdJywVs-dm/view?usp=drivesdk",
-  "Also for the Pharisee and Publican in Tone Three": "https://drive.google.com/file/d/1a2YWBDB6nviYGsisBqTMRGkhzXaDDrFx/view?usp=drivesdk",
-  "DOXASTICA AT THE LITIA PROCESSION IN TONE FIVE": "https://drive.google.com/file/d/1UdvaZRKtFo97tA2xL2liWop7DEdrH1H_/view?usp=drivesdk",
-  "DOXASTICON FOR THE PHARISEE AND PUBLICAN IN TONE EIGHT": "https://drive.google.com/file/d/1ZbN-V8RNYH1I-6az2W58HPcy6_JoiW4f/view?usp=drivesdk",
-  "DOXASTICON FOR THE PHARISEE AND PUBLICAN IN TONE FIVE": "https://drive.google.com/file/d/1t-DrjsftdhXGQcSmC_kUDpX-bkvzFJrJ/view?usp=drivesdk",
-  "DOXASTICON FOR THE PRESENTATION IN TONE EIGHT": "https://drive.google.com/file/d/1BJdpOWd1oPf70x-kX_6sMYKBOw579-2q/view?usp=drivesdk",
-  "DOXASTICON FOR THE PRESENTATION IN TONE SIX": "https://drive.google.com/file/d/1gjNEdygrxWhqOef_lSxbcih_5TAM2Eos/view?usp=drivesdk",
-  "DOXASTICON OF THE PHARISEE AND PUBLICAN IN TONE EIGHT": "https://drive.google.com/file/d/1CodHXwbs5ADsE6Q15Ad_4hCkWCr0u3O4/view?usp=drivesdk",
-  "EVLOGETARIA (BENEDICTIONS) IN TONE FIVE": "https://drive.google.com/file/d/1FdAew9N5sTXZ91Cr66u4ZmwDX1Mf9naK/view?usp=drivesdk",
-  "EXAPOSTEILARIA & THEOTOKION FOR ST. GREGORY IN TONE TWO": "https://drive.google.com/file/d/1xoaTdUDidPNe0y_CTk_rdV_beNDIovEc/view?usp=drivesdk",
-  "EXAPOSTEILIARION FOR THE PHARISEE & PUBLICAN IN TONE TWO (**Upon that mount in Galilee**)": "https://drive.google.com/file/d/1EXbw78qw-f3w1IPd5dLWXeHEWHxf3mKw/view?usp=drivesdk",
-  "For St. Gregory in Tone Four": "https://drive.google.com/file/d/1Mb-E-QSboMT0are0g7pic2XCEm76tI72/view?usp=drivesdk",
-  "For the Forefeast in Tone Four (**As one valiant**)": "https://drive.google.com/file/d/1vXDH_MTBLWBo9k0wrbm7EfOTaaNtQ15q/view?usp=drivesdk",
-  "For the Forefeast in Tone Two (**O house of Ephratha**)": "https://drive.google.com/file/d/1C1722xG6bWaKRC6vTsV6VhUlkNGZW-NS/view?usp=drivesdk",
-  "For the Pharisee and Publican in Tone One": "https://drive.google.com/file/d/18OJ6c0TZxr0O46tQYoJ-0roMYbTJSbCP/view?usp=drivesdk",
-  "For the Resurrection in Tone Eight": "https://drive.google.com/file/d/19xUXz5EUeYjD3HqXG-Icq2V1s3SR9P0W/view?usp=drivesdk",
-  "GREAT DOXOLOGY IN TONE EIGHT": "https://drive.google.com/file/d/1Uvf7QsF3Ukr5nMy3Pxm8qMgLW2P7YzZR/view?usp=drivesdk",
-  "GREAT DOXOLOGY IN TONE ONE": "https://drive.google.com/file/d/1iNzEXnQHpdRtQQF3N_7rWXatJpYvKxQU/view?usp=drivesdk",
-  "Holy is the Lord our God. (thrice)": "https://drive.google.com/file/d/1F_ffDckQzXcvA6rYIIxH_3JbooqgVDUH/view?usp=drivesdk",
-  "KATAVASIAE OF THE PRESENTATION OF CHRIST CANON IN TONE THREE": "https://drive.google.com/file/d/1dB_HZ2CEAPesHXcqzI2ntqiidM8R7Qwj/view?usp=drivesdk",
-  "LENTEN TROPARIA AFTER PSALM 50 IN TONE EIGHT": "https://drive.google.com/file/d/1o20OT0oxtV0CTFqUC04IfFK73_6m0fyJ/view?usp=drivesdk",
-  "MAGNIFICATIONS IN TONE THREE": "https://drive.google.com/file/d/1lAS8JauME0hRlEvwOJZchqPXwviLEVzD/view?usp=drivesdk",
-  "PROKEIMENON FOR THE RESURRECTION IN TONE EIGHT": "https://drive.google.com/file/d/1x4Z03B_IVbD2No7HliNoJKLBFHn5X2Zg/view?usp=drivesdk",
-  "PROKEIMENON FOR THE RESURRECTION IN TONE ONE": "https://drive.google.com/file/d/1p1K4ARciIjZVthgS3pSx9HeZ_Rh06o3v/view?usp=drivesdk",
-  "RESURRECTIONAL APOLYTIKION IN TONE EIGHT": "https://drive.google.com/file/d/1tQFEtkIAuYKzy_hpBjA-lH4swijlRBLJ/view?usp=drivesdk",
-  "RESURRECTIONAL APOLYTIKION IN TONE ONE": "https://drive.google.com/file/d/1-6LkVtfih1aMLfl9mBw7krLkv2jSa0ZH/view?usp=drivesdk",
-  "RESURRECTIONAL THEOTOKION IN TONE ONE": "https://drive.google.com/file/d/1pO2kcSzrQuCKmHV60NxslZd_ZvaxV9aQ/view?usp=drivesdk",
-  "SATURDAY PROKEIMENON IN TONE SIX": "https://drive.google.com/file/d/1EjnhljX5B4GlP0kyzPL6aFICkyLxVGBt/view?usp=drivesdk",
-  "SUNDAY PROKEIMENON IN TONE EIGHT": "https://drive.google.com/file/d/1ZXaSypeD5Hjzl8kugL17QBMi6BpiBEOr/view?usp=drivesdk",
-  "THE APOSTICHA FOR THE PRESENTATION IN TONE SEVEN": "https://drive.google.com/file/d/1wVvZXjgdUbCuHnSueI9Gh6HYJhP_SWQ4/view?usp=drivesdk",
-  "THE DOXASTICON FOR ST. GREGORY IN TONE ONE": "https://drive.google.com/file/d/1YCvV4MXVphXGXa30mH4Pr3W-FoT6bLbg/view?usp=drivesdk",
-  "THE ELEVENTH EOTHINON EXAPOSTEILARION IN TONE TWO": "https://drive.google.com/file/d/12Zoj3q5RYxUAOOzLYxlYa-hNEZm1Mmpj/view?usp=drivesdk",
-  "THE EXAPOSTEILARION OF THE FOREFEAST IN TONE THREE (**While standing in the Temple's courts**)": "https://drive.google.com/file/d/1oW0snNE63PVqxfK8D6hDFblu5azl2oxm/view?usp=drivesdk",
-  "THE FIRST EOTHINON EXAPOSTEILARION IN TONE TWO": "https://drive.google.com/file/d/1VXfwd7h2rMlUqfl9Y3HzyENOFOnTfT5a/view?usp=drivesdk",
-  "THEOTOKION FOR THE RESURRECTION IN TONE ONE": "https://drive.google.com/file/d/1UQgIFmA-bXRYv9vrmFfFHwMy_P48OcOF/view?usp=drivesdk",
-  "THEOTOKION IN TONE EIGHT": "https://drive.google.com/file/d/1oAWJgS4SUB2UpE2_wf_UmtWeCQuncGXF/view?usp=drivesdk",
-  "THEOTOKION IN TONE FIVE": "https://drive.google.com/file/d/1t8ut-aKuNhIPiNTluzO1gnStd2S4zWsY/view?usp=drivesdk",
-  "THEOTOKION IN TONE ONE": "https://drive.google.com/file/d/1F3lSYG-eVhZ4FFmRfgm0D3LB3xjHDmtF/view?usp=drivesdk",
-  "TROPARION IN TONE EIGHT": "https://drive.google.com/file/d/1pAr6nHJEpxjZck2tjmw06F9jbk9U0J1Z/view?usp=drivesdk",
-  "TROPARION IN TONE SEVEN": "https://drive.google.com/file/d/1IzxnEgNc_UfkuiqPy-Y2hgx2jY77_Inq/view?usp=drivesdk",
-  "VERSES IN TONE ONE": "https://drive.google.com/file/d/1bG2O8Tpo_qeRqJsOYAdZPF-vVlgdN0vC/view?usp=drivesdk",
-  "[O] TROPARION IN TONE FOUR": "https://drive.google.com/file/d/1kksfMdu7t2fqB_aHA0CAzMfQTnt4R60M/view?usp=drivesdk",
-  "[O] for the Resurrection in Tone One": "https://drive.google.com/file/d/1AzsNtazIvKxp6LXiRJ6XkSJXAwAUoQrs/view?usp=drivesdk",
-  "[V] For the Presentation in Tone One": "https://drive.google.com/file/d/1F8tHqqOSjwOnB2pW6WD1woBtrCsrcdqL/view?usp=drivesdk",
-  "[V] For the Resurrection in Tone One": "https://drive.google.com/file/d/1L1GyFI3bxfT41cbeZpcpCkjZdFXYr8Oo/view?usp=drivesdk",
-  "“GOD IS THE LORD” IN TONE EIGHT": "https://drive.google.com/file/d/12NdsHNPti64R1Xv6_v4OTjb6YtF-qUcV/view?usp=drivesdk",
-  "“GOD IS THE LORD” IN TONE ONE": "https://drive.google.com/file/d/1yTf0Nbnz4vIl8sQM06Fk7p6i0fkJI95n/view?usp=drivesdk",
-  "“O LORD, I HAVE CRIED” IN TONE ONE": "https://drive.google.com/file/d/17DEA9f_1PtIIa7oYruVluspgHkGVtput/view?usp=drivesdk"
+  "AINOI (PRAISES) IN TONE EIGHT": {
+    "url": "https://drive.google.com/file/d/1ngjMQrIi6dNQlfHLkyMi4PSg_Hu2crO6/view?usp=drivesdk",
+    "name": "LetEveryBreath-pl4th-EN-AR.pdf",
+    "description": "AINOI (PRAISES) IN TONE EIGHT"
+  },
+  "AINOI (PRAISES) IN TONE FOUR": {
+    "url": "https://drive.google.com/file/d/1oadRSpnpDk4mHaPzKrPr9aU6P0Ceg57_/view?usp=drivesdk",
+    "name": "LetEveryBreath-4th-EN-AR.pdf",
+    "description": "AINOI (PRAISES) IN TONE FOUR"
+  },
+  "AINOI (PRAISES) IN TONE ONE": {
+    "url": "https://drive.google.com/file/d/1aPaoGTlLIuw205jqouFtbEj2w0Il6Og1/view?usp=drivesdk",
+    "name": "LetEveryBreath-1st-EN-AR.pdf",
+    "description": "AINOI (PRAISES) IN TONE ONE"
+  },
+  "APOLYTIKION FOR ST. JULIAN OF HOMS IN TONE THREE": {
+    "url": "https://drive.google.com/file/d/1uxcqmFiZIa23JiBCbTgzRuRgg8h5tPhl/view?usp=drivesdk",
+    "name": "1 StJulianApolitikion-3rd-2nd-AA-EN.pdf",
+    "description": "APOLYTIKION FOR ST. JULIAN OF HOMS IN TONE THREE"
+  },
+  "APOLYTIKION OF ST. GREGORY THE THEOLOGIAN IN TONE ONE": {
+    "url": "https://drive.google.com/file/d/1YFfVdngaJGZlHSKuU_MPbdZ1YQZCprAV/view?usp=drivesdk",
+    "name": "ApolitikionStGregoryTheologian-1st-SA-EN.pdf",
+    "description": "APOLYTIKION OF ST. GREGORY THE THEOLOGIAN IN TONE ONE"
+  },
+  "APOLYTIKION OF THE FOREFEAST IN TONE ONE (**The soldiers standing guard**)": {
+    "url": "https://drive.google.com/file/d/1jyoRMS5oEhyN6hjB9rzeWcrwsHtQryeF/view?usp=drivesdk",
+    "name": "ApolytikionForefeastPresentation-1st-SA-EN.pdf",
+    "description": "APOLYTIKION OF THE FOREFEAST\nIN TONE ONE\n(**The soldiers standing guard**)"
+  },
+  "APOLYTIKION OF THE PRESENTATION OF CHRIST IN TONE ONE": {
+    "url": "https://drive.google.com/file/d/1d9DhAQA0u9QJsbxL7SueDlfL4qqHjWnf/view?usp=drivesdk",
+    "name": "8 PresentationLordApolytikion-1st-ElMassih-EN.pdf",
+    "description": "APOLYTIKION OF THE PRESENTATION OF CHRIST IN TONE ONE"
+  },
+  "APOSTICHA FOR THE RESURRECTION IN TONE ONE": {
+    "url": "https://drive.google.com/file/d/1E_pIix2I9rHQxTK0D4zU5mmdJywVs-dm/view?usp=drivesdk",
+    "name": "ApostichaBrief-1st-SA-EN.pdf",
+    "description": "APOSTICHA FOR THE RESURRECTION IN TONE ONE"
+  },
+  "Also for the Pharisee and Publican in Tone Three": {
+    "url": "https://drive.google.com/file/d/1a2YWBDB6nviYGsisBqTMRGkhzXaDDrFx/view?usp=drivesdk",
+    "name": "5 PraisesPharissePublican-3rd-Karam-EN.pdf",
+    "description": "Also for the Pharisee and Publican\nin Tone Three"
+  },
+  "DOXASTICA AT THE LITIA PROCESSION IN TONE FIVE": {
+    "url": "https://drive.google.com/file/d/1UdvaZRKtFo97tA2xL2liWop7DEdrH1H_/view?usp=drivesdk",
+    "name": "3 PresentationLordLityDoxastikon-pl1st-AA-EN.pdf",
+    "description": "DOXASTICA AT THE LITIA PROCESSION IN TONE FIVE"
+  },
+  "DOXASTICON FOR THE PHARISEE AND PUBLICAN IN TONE EIGHT": {
+    "url": "https://drive.google.com/file/d/1ZbN-V8RNYH1I-6az2W58HPcy6_JoiW4f/view?usp=drivesdk",
+    "name": "2 DoxastikonSticheras-pl4th-EM-EN.pdf",
+    "description": "DOXASTICON FOR THE PHARISEE AND PUBLICAN IN TONE EIGHT"
+  },
+  "DOXASTICON FOR THE PHARISEE AND PUBLICAN IN TONE FIVE": {
+    "url": "https://drive.google.com/file/d/1t-DrjsftdhXGQcSmC_kUDpX-bkvzFJrJ/view?usp=drivesdk",
+    "name": "3 DoxastikonAposticha-pl1st-EM-EN.pdf",
+    "description": "DOXASTICON FOR THE PHARISEE AND PUBLICAN IN TONE FIVE"
+  },
+  "DOXASTICON FOR THE PRESENTATION IN TONE EIGHT": {
+    "url": "https://drive.google.com/file/d/1BJdpOWd1oPf70x-kX_6sMYKBOw579-2q/view?usp=drivesdk",
+    "name": "7 PresentationLordApostichaDoxastikon-pl4th-AA-EN.pdf",
+    "description": "DOXASTICON FOR THE PRESENTATION IN TONE EIGHT"
+  },
+  "DOXASTICON FOR THE PRESENTATION IN TONE SIX": {
+    "url": "https://drive.google.com/file/d/1gjNEdygrxWhqOef_lSxbcih_5TAM2Eos/view?usp=drivesdk",
+    "name": "2 PresenationLordSticherasDoxastikon-pl2nd-AA-EN.pdf",
+    "description": "DOXASTICON FOR THE PRESENTATION IN TONE SIX"
+  },
+  "DOXASTICON OF THE PHARISEE AND PUBLICAN IN TONE EIGHT": {
+    "url": "https://drive.google.com/file/d/1CodHXwbs5ADsE6Q15Ad_4hCkWCr0u3O4/view?usp=drivesdk",
+    "name": "6 DoxastikonAtThePraises-pl4th-Karam-EN.pdf",
+    "description": "DOXASTICON OF THE PHARISEE AND PUBLICAN IN TONE EIGHT"
+  },
+  "EVLOGETARIA (BENEDICTIONS) IN TONE FIVE": {
+    "url": "https://drive.google.com/file/d/1FdAew9N5sTXZ91Cr66u4ZmwDX1Mf9naK/view?usp=drivesdk",
+    "name": "Evlogetaria-pl1st-Karam-EN-AR.pdf",
+    "description": "EVLOGETARIA (BENEDICTIONS)\nIN TONE FIVE"
+  },
+  "EXAPOSTEILARIA & THEOTOKION FOR ST. GREGORY IN TONE TWO": {
+    "url": "https://drive.google.com/file/d/1xoaTdUDidPNe0y_CTk_rdV_beNDIovEc/view?usp=drivesdk",
+    "name": "ExapostelariaAndTheotokionStGregoryTheologian-2nd-AA-EN-W.pdf",
+    "description": "EXAPOSTEILARIA & THEOTOKION FOR ST. GREGORY IN TONE TWO"
+  },
+  "EXAPOSTEILARION OF ST. JULIAN AND COMPANIONS IN TONE THREE (**While standing in the Temple’s courts**)": {
+    "url": "https://drive.google.com/file/d/1X92ZMfwXsVnW0iFc8oMyAgEZJdHhMbLM/view?usp=drivesdk",
+    "name": "3 StJulianExapostelarion-3rd-AA-EN-W.pdf",
+    "description": "EXAPOSTEILARION OF ST. JULIAN AND COMPANIONS IN TONE THREE\n(**While standing in the Temple’s courts**)"
+  },
+  "EXAPOSTEILIARION FOR THE PHARISEE & PUBLICAN IN TONE TWO (**Upon that mount in Galilee**)": {
+    "url": "https://drive.google.com/file/d/1EXbw78qw-f3w1IPd5dLWXeHEWHxf3mKw/view?usp=drivesdk",
+    "name": "4 ExapostelarionPhariseePublican-2nd-AA-EN-W.pdf",
+    "description": "EXAPOSTEILIARION FOR THE PHARISEE & PUBLICAN IN TONE TWO\n(**Upon that mount in Galilee**)"
+  },
+  "FESTAL ANABATHMOI IN TONE FOUR": {
+    "url": "https://drive.google.com/file/d/19og9axGbeG1MRfH0z1FJvSqdTEzUDFzn/view?usp=drivesdk",
+    "name": "From My Youth Tone 4 EN.pdf",
+    "description": "FESTAL ANABATHMOI IN TONE FOUR"
+  },
+  "For St. Gregory in Tone Four": {
+    "url": "https://drive.google.com/file/d/1Mb-E-QSboMT0are0g7pic2XCEm76tI72/view?usp=drivesdk",
+    "name": "PraisesStGregoryTheologian-4th-AA-EN.pdf",
+    "description": "For St. Gregory in Tone Four"
+  },
+  "For St. Julian in Tone Four (**Unto them that fear Thee**)": {
+    "url": "https://drive.google.com/file/d/1n0KwUz8q6O1bOoxgygCjV7jU6-PewlXO/view?usp=drivesdk",
+    "name": "4 StJulianPraises-4th-ElMassih-EN-W.pdf",
+    "description": "\tFor St. Julian in Tone Four\n(**Unto them that fear Thee**)"
+  },
+  "For the Forefeast in Tone Four (**As one valiant**)": {
+    "url": "https://drive.google.com/file/d/1vXDH_MTBLWBo9k0wrbm7EfOTaaNtQ15q/view?usp=drivesdk",
+    "name": "SticheraForefeast-4th-ElMassih-EN.pdf",
+    "description": "For the Forefeast in Tone Four\n(**As one valiant**)"
+  },
+  "For the Forefeast in Tone Two (**O house of Ephratha**)": {
+    "url": "https://drive.google.com/file/d/1C1722xG6bWaKRC6vTsV6VhUlkNGZW-NS/view?usp=drivesdk",
+    "name": "PraisesForefeastMeetingOurLord-2nd-ElMassih-EN.pdf",
+    "description": "For the Forefeast in Tone Two\n(**O house of Ephratha**)"
+  },
+  "For the Pharisee and Publican in Tone One": {
+    "url": "https://drive.google.com/file/d/18OJ6c0TZxr0O46tQYoJ-0roMYbTJSbCP/view?usp=drivesdk",
+    "name": "1 Sticheras-1st-Karam-EN.pdf",
+    "description": "For the Pharisee and Publican in Tone One"
+  },
+  "For the Presentation in Tone Four (**Unto them that fear Thee**)": {
+    "url": "https://drive.google.com/file/d/1LvrnvrvAXGftDBVtF5W2Tikr9HUlJJPF/view?usp=drivesdk",
+    "name": "14 PresentationLordPraises-4th-AA-EN-W.pdf",
+    "description": "For the Presentation in Tone Four\n(**Unto them that fear Thee**)"
+  },
+  "For the Resurrection in Tone Eight": {
+    "url": "https://drive.google.com/file/d/19xUXz5EUeYjD3HqXG-Icq2V1s3SR9P0W/view?usp=drivesdk",
+    "name": "BriefPraises-pl4th-SA-EN.pdf",
+    "description": "For the Resurrection in Tone Eight"
+  },
+  "GREAT DOXOLOGY IN TONE EIGHT": {
+    "url": "https://drive.google.com/file/d/1Uvf7QsF3Ukr5nMy3Pxm8qMgLW2P7YzZR/view?usp=drivesdk",
+    "name": "BriefDoxology-pl4th-SA-EN.pdf",
+    "description": "GREAT DOXOLOGY IN TONE EIGHT"
+  },
+  "GREAT DOXOLOGY IN TONE ONE": {
+    "url": "https://drive.google.com/file/d/1iNzEXnQHpdRtQQF3N_7rWXatJpYvKxQU/view?usp=drivesdk",
+    "name": "BriefDoxology-1st-SA-EN.pdf",
+    "description": "GREAT DOXOLOGY IN TONE ONE"
+  },
+  "Holy is the Lord our God. (thrice)": {
+    "url": "https://drive.google.com/file/d/1F_ffDckQzXcvA6rYIIxH_3JbooqgVDUH/view?usp=drivesdk",
+    "name": "HolyIsTheLordOurGod-2nd-EN-AR.pdf",
+    "description": "Holy is the Lord our God. (thrice)"
+  },
+  "KATAVASIAE OF THE PRESENTATION OF CHRIST CANON IN TONE THREE": {
+    "url": "https://drive.google.com/file/d/1dB_HZ2CEAPesHXcqzI2ntqiidM8R7Qwj/view?usp=drivesdk",
+    "name": "KatavasiaePresentationOfTheLord-1-9-AA-EN.pdf",
+    "description": "\tKATAVASIAE OF THE PRESENTATION OF CHRIST CANON IN TONE THREE"
+  },
+  "KATHISMATA HYMNS OF THE FEAST": {
+    "url": "https://drive.google.com/file/d/1YMrNx90KXTRxKPtPBS52mkj8qSYhfGyb/view?usp=drivesdk",
+    "name": "9 PresentationKathisma-1st-4th-AA-EN-W.pdf",
+    "description": "KATHISMATA HYMNS OF THE FEAST"
+  },
+  "LENTEN TROPARIA AFTER PSALM 50 IN TONE EIGHT": {
+    "url": "https://drive.google.com/file/d/1o20OT0oxtV0CTFqUC04IfFK73_6m0fyJ/view?usp=drivesdk",
+    "name": "TriodionAfterPsalm50Troparia-pl4th-Karam-EN.pdf",
+    "description": "LENTEN TROPARIA AFTER PSALM 50 IN TONE EIGHT"
+  },
+  "MAGNIFICATIONS IN TONE THREE": {
+    "url": "https://drive.google.com/file/d/1lAS8JauME0hRlEvwOJZchqPXwviLEVzD/view?usp=drivesdk",
+    "name": "MoreHonarable-3rd-EN-AR.pdf",
+    "description": "MAGNIFICATIONS IN TONE THREE"
+  },
+  "NINTH ODE OF THE PRESENTATION OF CHRIST CANON IN TONE THREE": {
+    "url": "https://drive.google.com/file/d/1H2ggJqQqF_dBlOmupWxjjGjfq82EQb-7/view?usp=drivesdk",
+    "name": "12 PresentationLordNinethOde-AA-EN.pdf",
+    "description": "NINTH ODE OF THE PRESENTATION OF CHRIST CANON IN TONE THREE"
+  },
+  "PROKEIMENON FOR ST. JULIAN IN TONE FOUR": {
+    "url": "https://drive.google.com/file/d/1uzflovFyooEXYIKGRf72e2rXvkNRUr9L/view?usp=drivesdk",
+    "name": "2 ProkeimenonToARighteous-4th-AA-EN.pdf",
+    "description": "PROKEIMENON FOR ST. JULIAN\nIN TONE FOUR"
+  },
+  "PROKEIMENON FOR THE FEAST IN TONE FOUR": {
+    "url": "https://drive.google.com/file/d/1XYWPMiTtM0z8FDnJXrBdnvqVfAeAlGFH/view?usp=drivesdk",
+    "name": "10 ProkeimenonShallProclaim-4th-AA-EN-W.pdf",
+    "description": "PROKEIMENON FOR THE FEAST\nIN TONE FOUR"
+  },
+  "PROKEIMENON FOR THE RESURRECTION IN TONE EIGHT": {
+    "url": "https://drive.google.com/file/d/1x4Z03B_IVbD2No7HliNoJKLBFHn5X2Zg/view?usp=drivesdk",
+    "name": "Prokeimenon-pl4th-EN.pdf",
+    "description": "PROKEIMENON FOR THE RESURRECTION IN TONE EIGHT"
+  },
+  "PROKEIMENON FOR THE RESURRECTION IN TONE ONE": {
+    "url": "https://drive.google.com/file/d/1p1K4ARciIjZVthgS3pSx9HeZ_Rh06o3v/view?usp=drivesdk",
+    "name": "Prokeimenon Tone 1 EN AR.pdf",
+    "description": "PROKEIMENON FOR THE RESURRECTION IN TONE ONE"
+  },
+  "RESURRECTIONAL APOLYTIKION IN TONE EIGHT": {
+    "url": "https://drive.google.com/file/d/1tQFEtkIAuYKzy_hpBjA-lH4swijlRBLJ/view?usp=drivesdk",
+    "name": "ApolitikionResurrection-pl4th-EN-AR.pdf",
+    "description": "RESURRECTIONAL APOLYTIKION IN TONE EIGHT"
+  },
+  "RESURRECTIONAL APOLYTIKION IN TONE ONE": {
+    "url": "https://drive.google.com/file/d/1-6LkVtfih1aMLfl9mBw7krLkv2jSa0ZH/view?usp=drivesdk",
+    "name": "ApolitikionRessurection-1st-EN-AR.pdf",
+    "description": "RESURRECTIONAL APOLYTIKION\nIN TONE ONE"
+  },
+  "RESURRECTIONAL THEOTOKION IN TONE ONE": {
+    "url": "https://drive.google.com/file/d/1pO2kcSzrQuCKmHV60NxslZd_ZvaxV9aQ/view?usp=drivesdk",
+    "name": "ApolytikionResurrectionTheotokion-1st-EN-AR.pdf",
+    "description": "RESURRECTIONAL THEOTOKION\nIN TONE ONE"
+  },
+  "SATURDAY PROKEIMENON IN TONE SIX": {
+    "url": "https://drive.google.com/file/d/1EjnhljX5B4GlP0kyzPL6aFICkyLxVGBt/view?usp=drivesdk",
+    "name": "ProkeimenonSaturday-pl2nd-ElMassih-EN.pdf",
+    "description": "SATURDAY PROKEIMENON IN TONE SIX"
+  },
+  "SUNDAY PROKEIMENON IN TONE EIGHT": {
+    "url": "https://drive.google.com/file/d/1ZXaSypeD5Hjzl8kugL17QBMi6BpiBEOr/view?usp=drivesdk",
+    "name": "ProkeimenonSunday-pl4th-ElMassih-EN.pdf",
+    "description": "SUNDAY PROKEIMENON IN TONE EIGHT"
+  },
+  "THE APOSTICHA FOR THE PRESENTATION IN TONE SEVEN": {
+    "url": "https://drive.google.com/file/d/1wVvZXjgdUbCuHnSueI9Gh6HYJhP_SWQ4/view?usp=drivesdk",
+    "name": "6 PresentationLordAposticha-grave-AA-EN.pdf",
+    "description": "THE APOSTICHA FOR THE PRESENTATION IN TONE SEVEN"
+  },
+  "THE DOXASTICON FOR ST. GREGORY IN TONE ONE": {
+    "url": "https://drive.google.com/file/d/1YCvV4MXVphXGXa30mH4Pr3W-FoT6bLbg/view?usp=drivesdk",
+    "name": "PraisesDoxastikonStGregoryTheologian-1st-EM-EN.pdf",
+    "description": "THE DOXASTICON FOR ST. GREGORY IN TONE ONE"
+  },
+  "THE DOXASTICON OF THE PRESENTATION IN TONE SIX": {
+    "url": "https://drive.google.com/file/d/1TEJzbasJ1vI00Qbr-XAXwoELFX-VZL72/view?usp=drivesdk",
+    "name": "15 PresentationLordPrasiseDoxastikon-pl2nd-Kazan-EN.pdf",
+    "description": "THE DOXASTICON OF THE PRESENTATION IN TONE SIX"
+  },
+  "THE ELEVENTH EOTHINON EXAPOSTEILARION IN TONE TWO": {
+    "url": "https://drive.google.com/file/d/12Zoj3q5RYxUAOOzLYxlYa-hNEZm1Mmpj/view?usp=drivesdk",
+    "name": "11thEothionExapostelarion-2nd-AA-EN-W.pdf",
+    "description": "THE ELEVENTH EOTHINON EXAPOSTEILARION IN TONE TWO"
+  },
+  "THE EXAPOSTEILARION FOR THE PRESENTATION IN TONE THREE": {
+    "url": "https://drive.google.com/file/d/1PYDUifOuH-2teHbWU-ldxHqcuAWMbQwx/view?usp=drivesdk",
+    "name": "13 PresentationLordExaposteilarion-3rd-AA-EN.pdf",
+    "description": "THE EXAPOSTEILARION FOR THE PRESENTATION IN TONE THREE"
+  },
+  "THE EXAPOSTEILARION OF THE FOREFEAST IN TONE THREE (**While standing in the Temple's courts**)": {
+    "url": "https://drive.google.com/file/d/1oW0snNE63PVqxfK8D6hDFblu5azl2oxm/view?usp=drivesdk",
+    "name": "ExaposteilarionForefeastMeetingOurLord-3rd-AA-EN.pdf",
+    "description": "THE EXAPOSTEILARION OF THE FOREFEAST IN TONE THREE\n(**While standing in the Temple's courts**)"
+  },
+  "THE FIRST EOTHINON EXAPOSTEILARION IN TONE TWO": {
+    "url": "https://drive.google.com/file/d/1VXfwd7h2rMlUqfl9Y3HzyENOFOnTfT5a/view?usp=drivesdk",
+    "name": "1stEothinonExapostelarion-2nd-TonyH-EN.pdf",
+    "description": "THE FIRST EOTHINON EXAPOSTEILARION IN TONE TWO"
+  },
+  "THE GREAT DOXOLOGY IN TONE SIX": {
+    "url": "https://drive.google.com/file/d/149231ciqJuFyq25Wi3wxR4oWjvxuWrAa/view?usp=drivesdk",
+    "name": "BriefDoxology-pl2-Manuel-EN.pdf",
+    "description": "THE GREAT DOXOLOGY IN TONE SIX"
+  },
+  "THEOTOKION FOR THE RESURRECTION IN TONE ONE": {
+    "url": "https://drive.google.com/file/d/1UQgIFmA-bXRYv9vrmFfFHwMy_P48OcOF/view?usp=drivesdk",
+    "name": "DogmatikonSlow-1st-SA-EN.pdf",
+    "description": "THEOTOKION FOR THE RESURRECTION IN TONE ONE"
+  },
+  "THEOTOKION IN TONE EIGHT": {
+    "url": "https://drive.google.com/file/d/1oAWJgS4SUB2UpE2_wf_UmtWeCQuncGXF/view?usp=drivesdk",
+    "name": "DoxastikonEothionTheotokion-pl4th-SA-EN.pdf",
+    "description": "THEOTOKION IN TONE EIGHT"
+  },
+  "THEOTOKION IN TONE FIVE": {
+    "url": "https://drive.google.com/file/d/1t8ut-aKuNhIPiNTluzO1gnStd2S4zWsY/view?usp=drivesdk",
+    "name": "OTheotokosAndVirgin-pl1st-Hierotheos-EN.pdf",
+    "description": "THEOTOKION IN TONE FIVE"
+  },
+  "THEOTOKION IN TONE ONE": {
+    "url": "https://drive.google.com/file/d/1F3lSYG-eVhZ4FFmRfgm0D3LB3xjHDmtF/view?usp=drivesdk",
+    "name": "DoxastikonEothionTheotokion-1st-SA-EN.pdf",
+    "description": "THEOTOKION IN TONE ONE"
+  },
+  "TROPARION IN TONE EIGHT": {
+    "url": "https://drive.google.com/file/d/1pAr6nHJEpxjZck2tjmw06F9jbk9U0J1Z/view?usp=drivesdk",
+    "name": "17B AfterRisingFromTheTomb-SAE-EN.pdf",
+    "description": "TROPARION IN TONE EIGHT"
+  },
+  "TROPARION IN TONE SEVEN": {
+    "url": "https://drive.google.com/file/d/1IzxnEgNc_UfkuiqPy-Y2hgx2jY77_Inq/view?usp=drivesdk",
+    "name": "RichMenBrief-grave-SA-EN.pdf",
+    "description": "TROPARION IN TONE SEVEN"
+  },
+  "VERSES IN TONE ONE": {
+    "url": "https://drive.google.com/file/d/1bG2O8Tpo_qeRqJsOYAdZPF-vVlgdN0vC/view?usp=drivesdk",
+    "name": "Verses-1st-SA-EN.pdf",
+    "description": "VERSES IN TONE ONE"
+  },
+  "[O] IDIOMELON IN TONE SIX": {
+    "url": "https://drive.google.com/file/d/1V9N9iBVrmZt5cUjHFH8FmAfdk0TQtFbN/view?usp=drivesdk",
+    "name": "11 AfterPsalm50Troparia-pl2nd-Karam-EN.pdf",
+    "description": "[O] IDIOMELON IN TONE SIX"
+  },
+  "[O] TROPARION IN TONE FOUR": {
+    "url": "https://drive.google.com/file/d/1kksfMdu7t2fqB_aHA0CAzMfQTnt4R60M/view?usp=drivesdk",
+    "name": "17A TodayIsTheSalvation-4th-EN-AR.pdf",
+    "description": "[O] TROPARION IN TONE FOUR"
+  },
+  "[O] for the Resurrection in Tone One": {
+    "url": "https://drive.google.com/file/d/1AzsNtazIvKxp6LXiRJ6XkSJXAwAUoQrs/view?usp=drivesdk",
+    "name": "BriefPraises-1st-SA-EN.pdf",
+    "description": "[O] for the Resurrection in Tone One"
+  },
+  "[V] For the Presentation in Tone One": {
+    "url": "https://drive.google.com/file/d/1F8tHqqOSjwOnB2pW6WD1woBtrCsrcdqL/view?usp=drivesdk",
+    "name": "1 PresentationLordStiicheras-1st-AA-EN.pdf",
+    "description": "[V] For the Presentation in Tone One"
+  },
+  "[V] For the Resurrection in Tone One": {
+    "url": "https://drive.google.com/file/d/1L1GyFI3bxfT41cbeZpcpCkjZdFXYr8Oo/view?usp=drivesdk",
+    "name": "BriefSticheras-1st-SA-EN.pdf",
+    "description": "[V] For the Resurrection in Tone One"
+  },
+  "“A GOOD WORD” (VERSES FROM PSALM 44) IN TONE ONE": {
+    "url": "https://drive.google.com/file/d/1gMBh8ZpBNbZhVzdXRl3ZCtCCOG74qwxk/view?usp=drivesdk",
+    "name": "AGoodWordPsalm44-pl4th-Phoakeus-EN.pdf",
+    "description": "“A GOOD WORD” (VERSES FROM PSALM 44) IN TONE ONE"
+  },
+  "“GOD IS THE LORD” IN TONE EIGHT": {
+    "url": "https://drive.google.com/file/d/12NdsHNPti64R1Xv6_v4OTjb6YtF-qUcV/view?usp=drivesdk",
+    "name": "GodIsTheLord-pl4th-EN-AR.pdf",
+    "description": "“GOD IS THE LORD” IN TONE EIGHT"
+  },
+  "“GOD IS THE LORD” IN TONE ONE": {
+    "url": "https://drive.google.com/file/d/1yTf0Nbnz4vIl8sQM06Fk7p6i0fkJI95n/view?usp=drivesdk",
+    "name": "GodIsTheLord-1st-EN-AR.pdf",
+    "description": "“GOD IS THE LORD” IN TONE ONE"
+  },
+  "“GOD IS THE LORD” IN TONE THREE": {
+    "url": "https://drive.google.com/file/d/1HjXqjH6CnppIa-KgKdm_G5Ux7xzSyQOP/view?usp=drivesdk",
+    "name": "GodIsTheLord-3rd-EN-AR-GR.pdf",
+    "description": "“GOD IS THE LORD” IN TONE THREE"
+  },
+  "“O LORD, I HAVE CRIED” IN TONE ONE": {
+    "url": "https://drive.google.com/file/d/17DEA9f_1PtIIa7oYruVluspgHkGVtput/view?usp=drivesdk",
+    "name": "LordIHaveCriedSlow-1st-EN-AR.pdf",
+    "description": "“O LORD, I HAVE CRIED” IN TONE ONE"
+  }
 }

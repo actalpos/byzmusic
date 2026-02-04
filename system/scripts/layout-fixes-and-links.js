@@ -45,7 +45,7 @@
     }
 
     /**********************
-     * 🔥 FIX WORD COLGROUP BUG
+     * FIX WORD COLGROUP BUG
      **********************/
     document.querySelectorAll("table colgroup, table col").forEach(el => {
       el.remove();
@@ -71,7 +71,6 @@
       }
     });
 
-    // titluri cu colspan
     document.querySelectorAll("td[colspan] > p").forEach(p => {
       p.style.textAlign = "center";
       p.style.direction = "ltr";
@@ -85,11 +84,8 @@
 
       if (tds.length <= 2) return;
 
-      // păstrăm doar primele 2 celule reale
       for (let i = 2; i < tds.length; i++) {
         const td = tds[i];
-
-        // dacă e gol sau conține doar <br>
         const text = td.textContent.replace(/\s+/g, "");
         if (!text) {
           td.remove();
@@ -112,9 +108,20 @@
 
       const raw = await res.json();
 
+      // 🔥 Compatibil vechi + nou format JSON
       for (const key in raw) {
-        titleLinks[normalizeTitle(key)] = raw[key];
+        const item = raw[key];
+
+        if (typeof item === "string") {
+          titleLinks[normalizeTitle(key)] = {
+            url: item,
+            name: null
+          };
+        } else {
+          titleLinks[normalizeTitle(key)] = item;
+        }
       }
+
     } catch (e) {
       console.warn("TitleLink load failed:", e.message);
     }
@@ -123,32 +130,39 @@
      * APPLY LINKS
      **********************/
     document.querySelectorAll("td p").forEach(p => {
+
       if (p.querySelector("a")) return;
 
       const originalText = p.textContent.trim();
       if (!originalText) return;
 
       const baseKey = normalizeTitle(originalText);
-      let url = null;
 
-      // 1️⃣ prefix [V] / [O] / [L]
+      let item = null;
+
+      // prefix service
       if (SERVICE) {
         const prefixedKey = `[${SERVICE.toLowerCase()}] ${baseKey}`;
-        url = titleLinks[prefixedKey];
+        item = titleLinks[prefixedKey];
       }
 
-      // 2️⃣ fallback fără prefix
-      if (!url) {
-        url = titleLinks[baseKey];
+      // fallback
+      if (!item) {
+        item = titleLinks[baseKey];
       }
 
-      if (!url) return;
+      if (!item || !item.url) return;
 
       const a = document.createElement("a");
-      a.href = url;
+      a.href = item.url;
       a.target = "_blank";
       a.rel = "noopener noreferrer";
       a.innerHTML = p.innerHTML;
+
+      // ⭐ Tooltip cu numele fișierului
+      if (item.name) {
+        a.title = item.name;
+      }
 
       p.innerHTML = "";
       p.appendChild(a);
@@ -170,6 +184,7 @@
       "Layout + links applied",
       SERVICE ? `(service ${SERVICE})` : "(generic)"
     );
+
   });
 
 })();

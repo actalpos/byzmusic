@@ -7,6 +7,7 @@ table {
   width: 100% !important;
   max-width: 900px;             /* desktop */
   margin: 1rem auto;            /* centrat */
+  float: none !important;
 }
 
 /* 2 coloane egale */
