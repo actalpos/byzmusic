@@ -23,7 +23,8 @@
       const path = window.location.pathname.toLowerCase();
       if (path.includes("vesp")) return "V";
       if (path.includes("orthros")) return "O";
-      if (path.includes("liturgy") || path.includes("divine")) return "L";
+      if ((path.includes("liturgy") || path.includes("divine")) && !path.includes("variables")) return "L";
+      if ((path.includes("liturgy") || path.includes("divine")) && path.includes("variables")) return "LV";
       return null;
     }
 
@@ -52,6 +53,27 @@
     });
 
     /**********************
+     * REMOVE GHOST COLUMN FROM TABLE 2
+     **********************/
+    const tables = document.querySelectorAll("table");
+    if (tables.length >= 2) {
+      const table2 = tables[1]; // 0-based
+      table2.querySelectorAll("tr").forEach(tr => {
+        const tds = Array.from(tr.children).filter(td => td.tagName === "TD");
+        if (tds.length > 2) {
+          const firstTd = tds[0];
+          const widthAttr = firstTd.getAttribute("width");
+          const text = firstTd.textContent.replace(/\s+/g, "");
+
+          // detect column fantomă: goală sau width anormal
+          if (!text || (widthAttr && parseInt(widthAttr) > 1000)) {
+            firstTd.remove();
+          }
+        }
+      });
+    }
+
+    /**********************
      * PARAGRAPH FIXES
      **********************/
     document.querySelectorAll("td p").forEach(p => {
@@ -77,23 +99,6 @@
     });
 
     /**********************
-     * REMOVE WORD GHOST COLUMNS
-     **********************/
-    document.querySelectorAll("table tr").forEach(tr => {
-      const tds = Array.from(tr.children).filter(el => el.tagName === "TD");
-
-      if (tds.length <= 2) return;
-
-      for (let i = 2; i < tds.length; i++) {
-        const td = tds[i];
-        const text = td.textContent.replace(/\s+/g, "");
-        if (!text) {
-          td.remove();
-        }
-      }
-    });
-
-    /**********************
      * LOAD TITLE LINKS
      **********************/
     let titleLinks = {};
@@ -108,15 +113,10 @@
 
       const raw = await res.json();
 
-      // 🔥 Compatibil vechi + nou format JSON
       for (const key in raw) {
         const item = raw[key];
-
         if (typeof item === "string") {
-          titleLinks[normalizeTitle(key)] = {
-            url: item,
-            name: null
-          };
+          titleLinks[normalizeTitle(key)] = { url: item, name: null };
         } else {
           titleLinks[normalizeTitle(key)] = item;
         }
@@ -130,7 +130,6 @@
      * APPLY LINKS
      **********************/
     document.querySelectorAll("td p").forEach(p => {
-
       if (p.querySelector("a")) return;
 
       const originalText = p.textContent.trim();
@@ -140,13 +139,11 @@
 
       let item = null;
 
-      // prefix service
       if (SERVICE) {
         const prefixedKey = `[${SERVICE.toLowerCase()}] ${baseKey}`;
         item = titleLinks[prefixedKey];
       }
 
-      // fallback
       if (!item) {
         item = titleLinks[baseKey];
       }
@@ -159,7 +156,6 @@
       a.rel = "noopener noreferrer";
       a.innerHTML = p.innerHTML;
 
-      // ⭐ Tooltip cu numele fișierului
       if (item.name) {
         a.title = item.name;
       }
