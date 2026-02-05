@@ -225,7 +225,7 @@
     "url": "https://drive.google.com/file/d/1lAS8JauME0hRlEvwOJZchqPXwviLEVzD/view?usp=drivesdk",
     "name": "MoreHonarable-3rd-EN-AR.pdf",
     "description": "MAGNIFICATIONS IN TONE THREE",
-    "path": "EnglishByzantineMusic / Orthros / 10B Theotokion Magnifications"
+    "path": "EnglishByzantineMusic / _unused"
   },
   "NINTH ODE OF THE PRESENTATION OF CHRIST CANON IN TONE THREE": {
     "url": "https://drive.google.com/file/d/1H2ggJqQqF_dBlOmupWxjjGjfq82EQb-7/view?usp=drivesdk",
@@ -253,8 +253,14 @@
   },
   "PROKEIMENON FOR THE RESURRECTION IN TONE ONE": {
     "url": "https://drive.google.com/file/d/1p1K4ARciIjZVthgS3pSx9HeZ_Rh06o3v/view?usp=drivesdk",
-    "name": "Prokeimenon Tone 1 EN AR.pdf",
+    "name": "Prokeimenon-1st-EN-AR.pdf",
     "description": "PROKEIMENON FOR THE RESURRECTION IN TONE ONE",
+    "path": "EnglishByzantineMusic / Orthros / 7 Prokeimenon for the Resurrection"
+  },
+  "PROKEIMENON FOR THE RESURRECTION IN TONE TWO": {
+    "url": "https://drive.google.com/file/d/1AK5zGIWF0rzBCFy9df9OrGEzpM__QJdh/view?usp=drivesdk",
+    "name": "Prokeimenon-2nd-EN-AR.pdf",
+    "description": "PROKEIMENON FOR THE RESURRECTION IN TONE TWO",
     "path": "EnglishByzantineMusic / Orthros / 7 Prokeimenon for the Resurrection"
   },
   "RESURRECTIONAL APOLYTIKION IN TONE EIGHT": {
@@ -313,7 +319,7 @@
   },
   "THE ELEVENTH EOTHINON EXAPOSTEILARION IN TONE TWO": {
     "url": "https://drive.google.com/file/d/12Zoj3q5RYxUAOOzLYxlYa-hNEZm1Mmpj/view?usp=drivesdk",
-    "name": "11thEothionExapostelarion-2nd-AA-EN-W.pdf",
+    "name": "11th-EothionExapostelarion-2nd-AA-EN-W.pdf",
     "description": "THE ELEVENTH EOTHINON EXAPOSTEILARION IN TONE TWO",
     "path": "EnglishByzantineMusic / Orthros / 12 Eothion Exapoteilarion"
   },
@@ -329,6 +335,12 @@
     "description": "THE EXAPOSTEILARION OF THE FOREFEAST IN TONE THREE\n(**While standing in the Temple's courts**)",
     "path": "EnglishByzantineMusic / Menaion / 6 February  / Forefeast of the Meeting of Our Lord"
   },
+  "THE EXAPOSTEILIARION FOR THE PRODIGAL SON IN TONE TWO (**Hearken, ye women**)": {
+    "url": "https://drive.google.com/file/d/1ujc3u3q-4tPFnCf32QdNOhExL_-gRIwz/view?usp=drivesdk",
+    "name": "ProdigalSonExaposteilarion-2nd-AA-EN.pdf",
+    "description": "THE EXAPOSTEILIARION FOR\nTHE PRODIGAL SON IN TONE TWO (**Hearken, ye women**)",
+    "path": "EnglishByzantineMusic / Triodion / 2 Prodigal Son"
+  },
   "THE FIRST ANTIPHON": {
     "url": "https://drive.google.com/file/d/18ATyGzsiV3WG7NGe4JmmYsI02i1Fy5xP/view?usp=drivesdk",
     "name": "FirstAntiphon-EN-AR-GR.pdf",
@@ -337,15 +349,21 @@
   },
   "THE FIRST EOTHINON EXAPOSTEILARION IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1VXfwd7h2rMlUqfl9Y3HzyENOFOnTfT5a/view?usp=drivesdk",
-    "name": "1stEothinonExapostelarion-2nd-TonyH-EN.pdf",
+    "name": "1st-EothinonExapostelarion-2nd-TonyH-EN.pdf",
     "description": "THE FIRST EOTHINON EXAPOSTEILARION IN TONE TWO",
     "path": "EnglishByzantineMusic / Orthros / 12 Eothion Exapoteilarion"
   },
   "THE GREAT DOXOLOGY IN TONE SIX": {
     "url": "https://drive.google.com/file/d/149231ciqJuFyq25Wi3wxR4oWjvxuWrAa/view?usp=drivesdk",
-    "name": "BriefDoxology-pl2-Manuel-EN.pdf",
+    "name": "BriefDoxology-pl2nd-Manuel-EN.pdf",
     "description": "THE GREAT DOXOLOGY IN TONE SIX",
     "path": "EnglishByzantineMusic / Orthros / 16 Doxology"
+  },
+  "THE SECOND EOTHINON EXAPOSTEILARION IN TONE TWO": {
+    "url": "https://drive.google.com/file/d/1fjl-RnFx14euCyYNfi3K4f3P7ay6Tir1/view?usp=drivesdk",
+    "name": "2nd-EothinonExapostelarion-2nd-TonyH-EN.pdf",
+    "description": "THE SECOND EOTHINON EXAPOSTEILARION IN TONE TWO",
+    "path": "EnglishByzantineMusic / Orthros / 12 Eothion Exapoteilarion"
   },
   "THEOTOKION FOR THE RESURRECTION IN TONE ONE": {
     "url": "https://drive.google.com/file/d/1UQgIFmA-bXRYv9vrmFfFHwMy_P48OcOF/view?usp=drivesdk",
@@ -401,11 +419,41 @@
     "description": "[LV] THE SECOND ANTIPHON",
     "path": "EnglishByzantineMusic / Divine Liturgy / 3 Second Antiphon"
   },
+  "[O] DOXASTICON OF THE PRODIGAL SON IN TONE SIX": {
+    "url": "https://drive.google.com/file/d/1aPVimLFv3SFCsfyT671ftEUsUNU8UcK5/view?usp=drivesdk",
+    "name": "ProdigalSonPraisesDoxastikon-pl2nd-Karam-EN.pdf",
+    "description": "[O] DOXASTICON OF THE PRODIGAL SON IN TONE SIX",
+    "path": "EnglishByzantineMusic / Triodion / 2 Prodigal Son"
+  },
+  "[O] For the Prodigal Son": {
+    "url": "https://drive.google.com/file/d/114fSgasq-doe58xxK-no6Rwk-w5ah_yF/view?usp=drivesdk",
+    "name": "ProdigalSonPraises-2nd-Karam-EN.pdf",
+    "description": "[O] For the Prodigal Son",
+    "path": "EnglishByzantineMusic / Triodion / 2 Prodigal Son"
+  },
+  "[O] For the Resurrection in Tone Two Brief": {
+    "url": "https://drive.google.com/file/d/1ysi8FQ3gSqnGYg9xU9iePLqeqtOcUbz0/view?usp=drivesdk",
+    "name": "BriefPraises-2nd-SA-EN.pdf",
+    "description": "[O] For the Resurrection in Tone Two Brief",
+    "path": "EnglishByzantineMusic / Orthros / 14 Praises"
+  },
+  "[O] For the Resurrection in Tone Two Slow": {
+    "url": "https://drive.google.com/file/d/13wkfm80BEOuh-IquyzUFVCxjKdj3Oa_B/view?usp=drivesdk",
+    "name": "SlowPraises-2nd-SA-EN.pdf",
+    "description": "[O] For the Resurrection in Tone Two Slow",
+    "path": "EnglishByzantineMusic / Orthros / 14 Praises"
+  },
   "[O] IDIOMELON IN TONE SIX": {
     "url": "https://drive.google.com/file/d/1V9N9iBVrmZt5cUjHFH8FmAfdk0TQtFbN/view?usp=drivesdk",
     "name": "11 AfterPsalm50Troparia-pl2nd-Karam-EN.pdf",
     "description": "[O] IDIOMELON IN TONE SIX",
     "path": "EnglishByzantineMusic / Menaion / 6 February  / 02"
+  },
+  "[O] THEOTOKION IN TONE SIX": {
+    "url": "https://drive.google.com/file/d/1F5RP2wu_kODnBLyLv4xVQGnoCtP9BfAj/view?usp=drivesdk",
+    "name": "DoxastikonEothionTheotokion-2nd-SA-EN.pdf",
+    "description": "[O] THEOTOKION IN TONE SIX",
+    "path": "EnglishByzantineMusic / Orthros / 15 Doxastikon Eothion"
   },
   "[O] TROPARION IN TONE FOUR": {
     "url": "https://drive.google.com/file/d/1kksfMdu7t2fqB_aHA0CAzMfQTnt4R60M/view?usp=drivesdk",
@@ -477,6 +525,12 @@
     "url": "https://drive.google.com/file/d/1HjXqjH6CnppIa-KgKdm_G5Ux7xzSyQOP/view?usp=drivesdk",
     "name": "GodIsTheLord-3rd-EN-AR-GR.pdf",
     "description": "“GOD IS THE LORD” IN TONE THREE",
+    "path": "EnglishByzantineMusic / Orthros / 1 God Is The Lord"
+  },
+  "“GOD IS THE LORD” IN TONE TWO": {
+    "url": "https://drive.google.com/file/d/1IHceNuL5j0-BRKPIpkMPIj3KtcH3q2No/view?usp=drivesdk",
+    "name": "GodIsTheLord-2nd-GR-EN-AR.pdf",
+    "description": "“GOD IS THE LORD” IN TONE TWO",
     "path": "EnglishByzantineMusic / Orthros / 1 God Is The Lord"
   },
   "“O LORD, I HAVE CRIED” IN TONE ONE": {
