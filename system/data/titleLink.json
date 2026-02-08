@@ -47,10 +47,16 @@
     "description": "APOSTICHA FOR THE RESURRECTION IN TONE ONE",
     "path": "EnglishByzantineMusic / Vespers / 7 Aposticha Resurrection"
   },
-  "APOSTICHA FOR THE RESURRECTION IN TONE TWO": {
+  "APOSTICHA FOR THE RESURRECTION IN TONE TWO BRIEF": {
     "url": "https://drive.google.com/file/d/1b-vgBQs2ooAOigsZlUFjqIH1GPaRDP3r/view?usp=drivesdk",
     "name": "ApostichaBrief-2nd-SA-EN.pdf",
-    "description": "APOSTICHA FOR THE RESURRECTION IN TONE TWO",
+    "description": "APOSTICHA FOR THE RESURRECTION IN TONE TWO BRIEF",
+    "path": "EnglishByzantineMusic / Vespers / 7 Aposticha Resurrection"
+  },
+  "APOSTICHA FOR THE RESURRECTION IN TONE TWO SLOW": {
+    "url": "https://drive.google.com/file/d/1-pOwxKetVTHGCrc0LQbanXtSOyhHLa-l/view?usp=drivesdk",
+    "name": "ApostichaSlow-2nd-SA-EN.pdf",
+    "description": "APOSTICHA FOR THE RESURRECTION IN TONE TWO SLOW",
     "path": "EnglishByzantineMusic / Vespers / 7 Aposticha Resurrection"
   },
   "Also for the Pharisee and Publican in Tone Three": {
