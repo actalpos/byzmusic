@@ -1,21 +1,9 @@
 [
   {
     "date": "2026-01-11",
-    "title": "Divine Liturgy",
-    "order": 0,
-    "file": "Service_Texts/movable/2026/01/11/Divine_Liturgy.html"
-  },
-  {
-    "date": "2026-01-11",
     "title": "Divine Liturgy Variables",
     "order": 0,
     "file": "Service_Texts/movable/2026/01/11/Divine_Liturgy_Variables.html"
-  },
-  {
-    "date": "2026-01-18",
-    "title": "Divine Liturgy",
-    "order": 0,
-    "file": "Service_Texts/movable/2026/01/18/Divine_Liturgy.html"
   },
   {
     "date": "2026-01-18",
@@ -28,12 +16,6 @@
     "title": "Jan 25 2026 Bilingual ORTHROS",
     "order": -1,
     "file": "Service_Texts/movable/2026/01/25/Jan 25 2026 Bilingual ORTHROS.html"
-  },
-  {
-    "date": "2026-01-25",
-    "title": "Divine Liturgy",
-    "order": 0,
-    "file": "Service_Texts/movable/2026/01/25/Divine_Liturgy.html"
   },
   {
     "date": "2026-01-25",
@@ -112,11 +94,5 @@
     "title": "Dec 28 2025 Bilingual ORTHROS",
     "order": -1,
     "file": "Service_Texts/fixed/12/28/Dec 28 2025 Bilingual ORTHROS.html"
-  },
-  {
-    "date": "2026-12-28",
-    "title": "Divine Liturgy",
-    "order": 0,
-    "file": "Service_Texts/fixed/12/28/Divine_Liturgy.html"
   }
 ]
