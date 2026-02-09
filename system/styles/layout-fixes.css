@@ -85,21 +85,21 @@ body {
  * DISABLE ALL TEXT SELECTION (TABLE CONTENT)
  * ====================== */
 
-table,
+/* table,
 table * {
-  -webkit-user-select: none;   /* iOS Safari */
+  -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
 
-  -webkit-touch-callout: none; /* disable iOS text loupe */
-}
+  -webkit-touch-callout: none;
+} */
 
 /* Elimină orice highlight vizual */
-::selection {
+/* ::selection {
   background: transparent;
 }
 
 ::-moz-selection {
   background: transparent;
-}
+} */
