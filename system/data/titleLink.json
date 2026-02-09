@@ -17,6 +17,12 @@
     "description": "AINOI (PRAISES) IN TONE ONE",
     "path": "EnglishByzantineMusic / Orthros / 13 Let Every Breath Praises"
   },
+  "AINOI (PRAISES) IN TONE TWO": {
+    "url": "https://drive.google.com/file/d/1UvSorQwCIaVbzLV9YAnwGdGW9y7iSIL6/view?usp=drivesdk",
+    "name": "LetEveryBreath-2nd-EN-AR.pdf",
+    "description": "AINOI (PRAISES) IN TONE TWO",
+    "path": "EnglishByzantineMusic / Orthros / 13 Let Every Breath Praises"
+  },
   "APOLYTIKION FOR ST. JULIAN OF HOMS IN TONE THREE": {
     "url": "https://drive.google.com/file/d/1uxcqmFiZIa23JiBCbTgzRuRgg8h5tPhl/view?usp=drivesdk",
     "name": "1 StJulianApolitikion-3rd-2nd-AA-EN.pdf",
@@ -25,7 +31,7 @@
   },
   "APOLYTIKION FOR THE PRESENTATION OF CHRIST IN TONE ONE": {
     "url": "https://drive.google.com/file/d/1d9DhAQA0u9QJsbxL7SueDlfL4qqHjWnf/view?usp=drivesdk",
-    "name": "8 PresentationLordApolytikion-1st-ElMassih-SA-EN.pdf",
+    "name": "8 Apolytikion-1st-ElMassih-SA-EN-PresentationLord.pdf",
     "description": "APOLYTIKION FOR THE PRESENTATION OF CHRIST IN TONE ONE",
     "path": "EnglishByzantineMusic / Menaion / 6 February  / 02"
   },
@@ -37,7 +43,7 @@
   },
   "APOLYTIKION OF THE FOREFEAST IN TONE ONE (**The soldiers standing guard**)": {
     "url": "https://drive.google.com/file/d/1jyoRMS5oEhyN6hjB9rzeWcrwsHtQryeF/view?usp=drivesdk",
-    "name": "ApolytikionForefeastPresentation-1st-SA-EN.pdf",
+    "name": "Apolytikion-1st-SA-EN-ForefeastPresentation.pdf",
     "description": "APOLYTIKION OF THE FOREFEAST\nIN TONE ONE\n(**The soldiers standing guard**)",
     "path": "EnglishByzantineMusic / Menaion / 6 February  / Forefeast of the Meeting of Our Lord"
   },
@@ -67,7 +73,7 @@
   },
   "DOXASTICA AT THE LITIA PROCESSION IN TONE FIVE": {
     "url": "https://drive.google.com/file/d/1UdvaZRKtFo97tA2xL2liWop7DEdrH1H_/view?usp=drivesdk",
-    "name": "3 PresentationLordLityDoxastikon-pl1st-AA-EN.pdf",
+    "name": "3 LityDoxastikon-pl1st-AA-EN-PresentationLord.pdf",
     "description": "DOXASTICA AT THE LITIA PROCESSION IN TONE FIVE",
     "path": "EnglishByzantineMusic / Menaion / 6 February  / 02"
   },
@@ -85,25 +91,25 @@
   },
   "DOXASTICON FOR THE PRESENTATION IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/1BJdpOWd1oPf70x-kX_6sMYKBOw579-2q/view?usp=drivesdk",
-    "name": "7 PresentationLordApostichaDoxastikon-pl4th-AA-EN.pdf",
+    "name": "7 ApostichaDoxastikon-pl4th-AA-EN-PresentationLord.pdf",
     "description": "DOXASTICON FOR THE PRESENTATION IN TONE EIGHT",
     "path": "EnglishByzantineMusic / Menaion / 6 February  / 02"
   },
   "DOXASTICON FOR THE PRESENTATION IN TONE SIX": {
     "url": "https://drive.google.com/file/d/1gjNEdygrxWhqOef_lSxbcih_5TAM2Eos/view?usp=drivesdk",
-    "name": "2 PresenationLordSticherasDoxastikon-pl2nd-AA-EN.pdf",
+    "name": "2 SticherasDoxastikon-pl2nd-AA-EN-PresenationLord.pdf",
     "description": "DOXASTICON FOR THE PRESENTATION IN TONE SIX",
     "path": "EnglishByzantineMusic / Menaion / 6 February  / 02"
   },
   "DOXASTICON FOR THE PRODIGAL SON IN TONE SIX": {
     "url": "https://drive.google.com/file/d/1eYCsYgXM4ZLRg-zcRtlY9SlbzsdIY_GO/view?usp=drivesdk",
-    "name": "ProdigalSonApostichaDoxastikon-pl2nd-EM-EN.pdf",
+    "name": "ProdigalSon-ApostichaDoxastikon-pl2nd-EM-EN.pdf",
     "description": "DOXASTICON FOR THE PRODIGAL SON IN TONE SIX",
     "path": "EnglishByzantineMusic / Triodion / 2 Prodigal Son"
   },
   "DOXASTICON FOR THE PRODIGAL SON IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1gl-VH0Svh8f725ELkrUW1ZfuokGYQN2y/view?usp=drivesdk",
-    "name": "ProdigalSonSticherasDoxastikon-2nd-EM-EN.pdf",
+    "name": "ProdigalSon-SticherasDoxastikon-2nd-EM-EN.pdf",
     "description": "DOXASTICON FOR THE PRODIGAL SON IN TONE TWO",
     "path": "EnglishByzantineMusic / Triodion / 2 Prodigal Son"
   },
@@ -157,13 +163,13 @@
   },
   "For the Forefeast in Tone Four (**As one valiant**)": {
     "url": "https://drive.google.com/file/d/1vXDH_MTBLWBo9k0wrbm7EfOTaaNtQ15q/view?usp=drivesdk",
-    "name": "SticheraForefeast-4th-ElMassih-EN.pdf",
+    "name": "Stichera-4th-ElMassih-EN-ForefeastPresentation.pdf",
     "description": "For the Forefeast in Tone Four\n(**As one valiant**)",
     "path": "EnglishByzantineMusic / Menaion / 6 February  / Forefeast of the Meeting of Our Lord"
   },
   "For the Forefeast in Tone Two (**O house of Ephratha**)": {
     "url": "https://drive.google.com/file/d/1C1722xG6bWaKRC6vTsV6VhUlkNGZW-NS/view?usp=drivesdk",
-    "name": "PraisesForefeastMeetingOurLord-2nd-ElMassih-EN.pdf",
+    "name": "Praises-2nd-ElMassih-EN-ForefeastPresentation.pdf",
     "description": "For the Forefeast in Tone Two\n(**O house of Ephratha**)",
     "path": "EnglishByzantineMusic / Menaion / 6 February  / Forefeast of the Meeting of Our Lord"
   },
@@ -175,7 +181,7 @@
   },
   "For the Presentation in Tone Four (**Unto them that fear Thee**)": {
     "url": "https://drive.google.com/file/d/1LvrnvrvAXGftDBVtF5W2Tikr9HUlJJPF/view?usp=drivesdk",
-    "name": "14 PresentationLordPraises-4th-AA-EN-W.pdf",
+    "name": "14 Praises-4th-AA-EN-W-PresentationLord.pdf",
     "description": "For the Presentation in Tone Four\n(**Unto them that fear Thee**)",
     "path": "EnglishByzantineMusic / Menaion / 6 February  / 02"
   },
@@ -210,20 +216,20 @@
     "path": "EnglishByzantineMusic / Divine Liturgy / 9 Communion Hymns"
   },
   "KATAVASIAE OF THE PRESENTATION OF CHRIST CANON IN TONE THREE": {
-    "url": "https://drive.google.com/file/d/1dB_HZ2CEAPesHXcqzI2ntqiidM8R7Qwj/view?usp=drivesdk",
-    "name": "KatavasiaePresentationOfTheLord-1-9-AA-EN.pdf",
+    "url": "https://drive.google.com/file/d/1Lb1HY3I_SEyO0jOHBUBFkcT-X9qP0rRF/view?usp=drivesdk",
+    "name": "KatavasiaePresentationOfTheLord-Ode1-9-3rd-AA-EN.pdf",
     "description": "\tKATAVASIAE OF THE PRESENTATION OF CHRIST CANON IN TONE THREE",
     "path": "EnglishByzantineMusic / Orthros / 10A Katavasies"
   },
   "KATHISMATA HYMNS OF THE FEAST": {
     "url": "https://drive.google.com/file/d/1YMrNx90KXTRxKPtPBS52mkj8qSYhfGyb/view?usp=drivesdk",
-    "name": "9 PresentationKathisma-1st-4th-AA-EN-W.pdf",
+    "name": "9 Kathisma-1st-4th-AA-EN-W-PresentationLord.pdf",
     "description": "KATHISMATA HYMNS OF THE FEAST",
     "path": "EnglishByzantineMusic / Menaion / 6 February  / 02"
   },
   "KONTAKION FOR THE PRESENTATION OF CHRIST IN TONE ONE": {
     "url": "https://drive.google.com/file/d/1ocdTK1hSFmm6ltvJCcOw8C3gMls60lJr/view?usp=drivesdk",
-    "name": "17 PresentationLordKontakion-1st-SA-EN.pdf",
+    "name": "17 Kontakion-1st-SA-EN-PresentationLord.pdf",
     "description": "KONTAKION FOR THE PRESENTATION OF CHRIST IN TONE ONE",
     "path": "EnglishByzantineMusic / Menaion / 6 February  / 02"
   },
@@ -247,7 +253,7 @@
   },
   "NINTH ODE OF THE PRESENTATION OF CHRIST CANON IN TONE THREE": {
     "url": "https://drive.google.com/file/d/1H2ggJqQqF_dBlOmupWxjjGjfq82EQb-7/view?usp=drivesdk",
-    "name": "12 PresentationLordNinethOde-AA-EN.pdf",
+    "name": "12 9thOde-AA-EN-PresentationLord.pdf",
     "description": "NINTH ODE OF THE PRESENTATION OF CHRIST CANON IN TONE THREE",
     "path": "EnglishByzantineMusic / Menaion / 6 February  / 02"
   },
@@ -259,7 +265,7 @@
   },
   "PROKEIMENON FOR THE FEAST IN TONE FOUR": {
     "url": "https://drive.google.com/file/d/1XYWPMiTtM0z8FDnJXrBdnvqVfAeAlGFH/view?usp=drivesdk",
-    "name": "10 ProkeimenonShallProclaim-4th-AA-EN-W.pdf",
+    "name": "10 ProkeimenonShallProclaim-4th-AA-EN-W-PresentationLord.pdf",
     "description": "PROKEIMENON FOR THE FEAST\nIN TONE FOUR",
     "path": "EnglishByzantineMusic / Menaion / 6 February  / 02"
   },
@@ -319,7 +325,7 @@
   },
   "THE APOSTICHA FOR THE PRESENTATION IN TONE SEVEN": {
     "url": "https://drive.google.com/file/d/1wVvZXjgdUbCuHnSueI9Gh6HYJhP_SWQ4/view?usp=drivesdk",
-    "name": "6 PresentationLordAposticha-grave-AA-EN.pdf",
+    "name": "6 Aposticha-grave-AA-EN-PresentationLord.pdf",
     "description": "THE APOSTICHA FOR THE PRESENTATION IN TONE SEVEN",
     "path": "EnglishByzantineMusic / Menaion / 6 February  / 02"
   },
@@ -331,7 +337,7 @@
   },
   "THE DOXASTICON OF THE PRESENTATION IN TONE SIX": {
     "url": "https://drive.google.com/file/d/1TEJzbasJ1vI00Qbr-XAXwoELFX-VZL72/view?usp=drivesdk",
-    "name": "15 PresentationLordPrasiseDoxastikon-pl2nd-Kazan-EN.pdf",
+    "name": "15 PrasiseDoxastikon-pl2nd-Kazan-EN-PresentationLord.pdf",
     "description": "THE DOXASTICON OF THE PRESENTATION IN TONE SIX",
     "path": "EnglishByzantineMusic / Menaion / 6 February  / 02"
   },
@@ -343,19 +349,19 @@
   },
   "THE EXAPOSTEILARION FOR THE PRESENTATION IN TONE THREE": {
     "url": "https://drive.google.com/file/d/1PYDUifOuH-2teHbWU-ldxHqcuAWMbQwx/view?usp=drivesdk",
-    "name": "13 PresentationLordExaposteilarion-3rd-AA-EN.pdf",
+    "name": "13 Exaposteilarion-3rd-AA-EN-PresentationLord.pdf",
     "description": "THE EXAPOSTEILARION FOR THE PRESENTATION IN TONE THREE",
     "path": "EnglishByzantineMusic / Menaion / 6 February  / 02"
   },
   "THE EXAPOSTEILARION OF THE FOREFEAST IN TONE THREE (**While standing in the Temple's courts**)": {
     "url": "https://drive.google.com/file/d/1oW0snNE63PVqxfK8D6hDFblu5azl2oxm/view?usp=drivesdk",
-    "name": "ExaposteilarionForefeastMeetingOurLord-3rd-AA-EN.pdf",
+    "name": "ExaposteilarionMeetingOurLord-3rd-AA-EN-ForefeastPresentation.pdf",
     "description": "THE EXAPOSTEILARION OF THE FOREFEAST IN TONE THREE\n(**While standing in the Temple's courts**)",
     "path": "EnglishByzantineMusic / Menaion / 6 February  / Forefeast of the Meeting of Our Lord"
   },
   "THE EXAPOSTEILIARION FOR THE PRODIGAL SON IN TONE TWO (**Hearken, ye women**)": {
     "url": "https://drive.google.com/file/d/1ujc3u3q-4tPFnCf32QdNOhExL_-gRIwz/view?usp=drivesdk",
-    "name": "ProdigalSonExaposteilarion-2nd-AA-EN.pdf",
+    "name": "ProdigalSon-Exaposteilarion-2nd-AA-EN.pdf",
     "description": "THE EXAPOSTEILIARION FOR\nTHE PRODIGAL SON IN TONE TWO (**Hearken, ye women**)",
     "path": "EnglishByzantineMusic / Triodion / 2 Prodigal Son"
   },
@@ -379,7 +385,7 @@
   },
   "THE SECOND ANTIPHON FOR THE PRESENTATION OF CHRIST": {
     "url": "https://drive.google.com/file/d/1c1MNjqfQJXMK1-PAKfOLIVJp_ct0X3Kz/view?usp=drivesdk",
-    "name": "16 PresentationLordSaveUsSonOfGod-2nd-FrRomanos-Ar-GR.pdf",
+    "name": "16 SaveUsSonOfGod-2nd-FrRomanos-Ar-GR-PresentationLord.pdf",
     "description": "THE SECOND ANTIPHON FOR THE PRESENTATION OF CHRIST",
     "path": "EnglishByzantineMusic / Menaion / 6 February  / 02"
   },
@@ -445,13 +451,13 @@
   },
   "[O] DOXASTICON OF THE PRODIGAL SON IN TONE SIX": {
     "url": "https://drive.google.com/file/d/1aPVimLFv3SFCsfyT671ftEUsUNU8UcK5/view?usp=drivesdk",
-    "name": "ProdigalSonPraisesDoxastikon-pl2nd-Karam-EN.pdf",
+    "name": "ProdigalSon-PraisesDoxastikon-pl2nd-Karam-EN.pdf",
     "description": "[O] DOXASTICON OF THE PRODIGAL SON IN TONE SIX",
     "path": "EnglishByzantineMusic / Triodion / 2 Prodigal Son"
   },
   "[O] For the Prodigal Son": {
     "url": "https://drive.google.com/file/d/114fSgasq-doe58xxK-no6Rwk-w5ah_yF/view?usp=drivesdk",
-    "name": "ProdigalSonPraises-2nd-Karam-EN.pdf",
+    "name": "ProdigalSon-Praises-2nd-Karam-EN.pdf",
     "description": "[O] For the Prodigal Son",
     "path": "EnglishByzantineMusic / Triodion / 2 Prodigal Son"
   },
@@ -469,7 +475,7 @@
   },
   "[O] IDIOMELON IN TONE SIX": {
     "url": "https://drive.google.com/file/d/1V9N9iBVrmZt5cUjHFH8FmAfdk0TQtFbN/view?usp=drivesdk",
-    "name": "11 AfterPsalm50Troparia-pl2nd-Karam-EN.pdf",
+    "name": "11 AfterPsalm50Troparia-pl2nd-Karam-EN-PresentationLord.pdf",
     "description": "[O] IDIOMELON IN TONE SIX",
     "path": "EnglishByzantineMusic / Menaion / 6 February  / 02"
   },
@@ -493,19 +499,19 @@
   },
   "[V] For the After-feast in Tone Six (**As it is written**)": {
     "url": "https://drive.google.com/file/d/1-NR-Cu48FdUnSWjpka1oge-HQWIaRmp1/view?usp=drivesdk",
-    "name": "AfterFeastPresentationLordAposticha-pl2nd-AA-EN.pdf",
+    "name": "Aposticha-pl2nd-AA-EN-AfterFeastPresentationLord.pdf",
     "description": " [V] For the After-feast in Tone Six\n(**As it is written**)",
     "path": "EnglishByzantineMusic / Menaion / 6 February  / Afterfeast of The Presentation of our Lord"
   },
   "[V] For the Presentation in Tone One": {
     "url": "https://drive.google.com/file/d/1F8tHqqOSjwOnB2pW6WD1woBtrCsrcdqL/view?usp=drivesdk",
-    "name": "1 PresentationLordStiicheras-1st-AA-EN.pdf",
+    "name": "1 Stiicheras-1st-AA-EN-PresentationLord.pdf",
     "description": "[V] For the Presentation in Tone One",
     "path": "EnglishByzantineMusic / Menaion / 6 February  / 02"
   },
   "[V] For the Prodigal Son in Tone One": {
     "url": "https://drive.google.com/file/d/1b5TvGJftbu6FoOZDO7qpdVZdOr97hZNv/view?usp=drivesdk",
-    "name": "ProdigalSonSticheras-1st-GC-EN.pdf",
+    "name": "ProdigalSon-Sticheras-1st-GC-EN.pdf",
     "description": "[V] For the Prodigal Son in Tone One",
     "path": "EnglishByzantineMusic / Triodion / 2 Prodigal Son"
   },
