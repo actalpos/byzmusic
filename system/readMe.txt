@@ -1,17 +1,18 @@
 |--Service_Texts has:
     |--system
       |-- data
-          |-- service_texts_summary.json              <---- file holding the current summary of the /fixed and /movable html file names/path/display name
+          |-- liturgical-service-file-list.json       <---- file holding the current summary of the /fixed and /movable html file names/path/display name, used by index.html to show the list
+          |-- titleLink.json                          <---- file to hold the file google drive link and the Description. The Description is the HTML text that will be converted to hyperlink in realtime when opening the Html
           |-- divine_liturgy.json                     <---- file holding the Divine_Liturgy.html content
       |-- scripts
           |-- generate_divine_liturgy_html.js         <---- generate /template/divine_Liturgy.html from divine_liturgy.json
-          |-- refresh_service_texts_summary.js        <---- script to refresh the service_texts_summary after adding html files
+          |-- update-liturgical-service-file-list.js  <---- script to refresh the service_texts_summary after adding html files
+	  |-- update-title-link.json                  <---- script to run the google script scan to scan the file description and to update the titleLink.json file
           |-- validate_service_texts_summary.js.      <---- script to vlidate after the above was run
           |-- copy_template.sh                        <---- copies /template/divine_Liturgy.html into the following low level folders:
     |--fixed  <-Folder for the fix-date feasts:
       |--01
         |-06
-          Divine_Liturgy.html
           Divine_Liturgy_Variables.html 
           Vespers.html
           Orthros.html               
@@ -44,10 +45,10 @@
     Divine_Liturgy.html
 
 The front end index.html will ask the userr to select a month
-The app renders the Html file names found in the service_texts_summary.json for the selected month from
-both the fix-date and for the movable date folders and index.html file render them cronologically at load time.
+The app renders the Html file names found in the liturgical-service-file-list.json  for the selected month from
+both the fix-date and for the movable date folders and index.html file render them chronologically at load time.
 
-This is the file format:
+liturgical-service-file-list.json file format:
 [
   {
     "date": "2026-01-06",
@@ -69,6 +70,21 @@ This is the file format:
   }
 ]
 
+titleLink.json file format:
+{
+  "GREAT DOXOLOGY IN TONE ONE": {
+    "url": "https://drive.google.com/file/d/1iNzEXnQHpdRtQQF3N_7rWXatJpYvKxQU/view?usp=drivesdk",
+    "name": "BriefDoxology-1st-SA-EN.pdf",
+    "description": "GREAT DOXOLOGY IN TONE ONE",
+    "path": "EnglishByzantineMusic / Orthros / 16 Doxology"
+  },
+  "Holy is the Lord our God. (thrice)": {
+    "url": "https://drive.google.com/file/d/1F_ffDckQzXcvA6rYIIxH_3JbooqgVDUH/view?usp=drivesdk",
+    "name": "HolyIsTheLordOurGod-2nd-EN-AR.pdf",
+    "description": "Holy is the Lord our God. (thrice)",
+    "path": "EnglishByzantineMusic / Orthros / 11 Holy Is The Lord Our God"
+  },
+}
 
 maintenance
 ------------
@@ -83,8 +99,13 @@ Antioch Archdiocese:
 - edit and remove from table tag the "dir" and "width" should be 100%
 - add the following 3 lines:
 
-<link rel="stylesheet" href="../../../../../system/styles/layout-fixes.css">
-<script src="./../../../../../system/scripts/layout-fixes-and-links.js" defer></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../../../../../system/styles/layout-fixes.css">
+	<script src="../../../../../system/scripts/layout-fixes-and-links.js" defer></script>	
+
+- for the imported PDF's from SA and AA apply this script:
+gs -sDEVICE=pdfimage24 -dSAFER -dBATCH -dNOPAUSE    -r300    -sOutputFile=out.pdf in.pdf
+To avoid mobile device auto selection on touchscreen
 
 - For the Divine Liturgy
 - save it as html with the following naming convention: 
