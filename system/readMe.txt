@@ -1,3 +1,6 @@
+Tools created:
+Pdftxt2img.sh # transforms the PDF's from the current folder into image type pdf's
+
 |--Service_Texts has:
     |--system
       |-- data
@@ -7,7 +10,8 @@
       |-- scripts
           |-- generate_divine_liturgy_html.js         <---- generate /template/divine_Liturgy.html from divine_liturgy.json
           |-- update-liturgical-service-file-list.js  <---- script to refresh the service_texts_summary after adding html files
-	  |-- update-title-link.json                  <---- script to run the google script scan to scan the file description and to update the titleLink.json file
+	  |-- update-title-link.json                  <---- script to run the google script scan https://script.google.com/u/1/home/projects/10SMApOvsRJ-7K5knca8Q-hl1rIPpWyTP1pC772_wuh9nqmG2rw6weJ7g/edit 
+                                                            to scan the file descriptions and to update the system/data/titleLink.json file
           |-- validate_service_texts_summary.js.      <---- script to vlidate after the above was run
           |-- copy_template.sh                        <---- copies /template/divine_Liturgy.html into the following low level folders:
     |--fixed  <-Folder for the fix-date feasts:
@@ -121,4 +125,8 @@ To avoid mobile device auto selection on touchscreen
 
 4. If one or more templates are updated run:
   ./copy_template.sh to update the template in all folders.  
+
+
+
+nu e bine. Pentru split pe pagini Scriptul trebuie sa se uite in english, arabic si greek folders pt GreatDoxology-1st folder daca exista, sa combine pdf's din cele 3 folders daca exista in toate 3. Incepe cu English care decide. Rezultatul va fi in bilingual folderul curent GreatDoxology-1st.pdf. Simplu. Deci va crea/suprescrie doar cand va vedea acest folder cu split.Va combina doar cand una din celelalte arabic sau greek vor avea split.  
    
