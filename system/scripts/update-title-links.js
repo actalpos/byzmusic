@@ -1,16 +1,27 @@
-import fs from 'fs';
-import { fileURLToPath } from 'url';
+import fs from "fs";
 
-// fetch e nativ, nu mai trebuie node-fetch
-const url = 'https://script.google.com/macros/s/AKfycbxUp15FYtpt4FlI8B7LLKJeOil0AHaaW5S173rfwI-xuptZF8kVIQ3729Nnb9bdeKei/exec';
-const localPath = '../data/titleLink.json';
+const WEBAPP_URL = "https://script.google.com/macros/s/AKfycbzo3DQYJc9h5MtAvx8ec6H1QcOvshC9Bx3NcWuKF2zmnK_I8ObnxTKaP3z6Pdro3p8K/exec";
+const LOCAL_PATH = "../data/titleLink.json";
 
-async function updateTitleLink() {
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`Failed to fetch: ${res.status}`);
-  const json = await res.text();
-  fs.writeFileSync(localPath, json, 'utf-8');
-  console.log(`✅ titleLink.json updated at ${localPath}`);
+async function update() {
+  console.log("🔄 Generating JSON from Drive...");
+
+  const res = await fetch(`${WEBAPP_URL}?action=generate`);
+  const data = await res.json();
+
+  if (!data.fileId || !data.content) {
+    throw new Error("Invalid response from Apps Script");
+  }
+
+  // Save locally
+  fs.writeFileSync(LOCAL_PATH, data.content, "utf-8");
+  console.log("✅ Saved locally:", LOCAL_PATH);
+
+  // Delete remote
+  console.log("🗑 Deleting temporary file from Drive...");
+  await fetch(`${WEBAPP_URL}?action=delete&fileId=${data.fileId}`);
+
+  console.log("✅ Deleted from Drive.");
 }
 
-updateTitleLink().catch(console.error);
+update().catch(console.error);
