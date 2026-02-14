@@ -1,9 +1,11 @@
+/**
+ * layout-fixes-and-links.js
+ * Generated on: 2026-02-13 21:05
+ */
+
 (function () {
   "use strict";
 
-  /**********************
-   * SAFE DOM READY
-   **********************/
   function ready(fn) {
     if (document.readyState !== "loading") {
       fn();
@@ -13,11 +15,10 @@
   }
 
   ready(async () => {
-
     console.log("layout-fixes-and-links FINAL loaded");
 
     /**********************
-     * SERVICE TYPE
+     * SERVICE TYPE (pentru title links)
      **********************/
     function detectServiceType() {
       const path = window.location.pathname.toLowerCase();
@@ -27,18 +28,13 @@
       if ((path.includes("liturgy") || path.includes("divine")) && path.includes("variables")) return "LV";
       return null;
     }
-
     const SERVICE = detectServiceType();
 
     /**********************
      * UTILS
      **********************/
     function normalizeTitle(str) {
-      return str
-        .replace(/\s+/g, " ")
-        .replace(/[\n\r\t]/g, " ")
-        .trim()
-        .toLowerCase();
+      return str.replace(/\s+/g, " ").replace(/[\n\r\t]/g, " ").trim().toLowerCase();
     }
 
     function isRTL(text) {
@@ -46,32 +42,33 @@
     }
 
     /**********************
-     * FIX WORD COLGROUP BUG
+     * REMOVE GHOST COLUMNS
      **********************/
-    document.querySelectorAll("table colgroup, table col").forEach(el => {
-      el.remove();
+    document.querySelectorAll("table col").forEach(col => {
+      const width = parseInt(col.getAttribute("width"));
+      if (!width || width > 1000) col.remove();
     });
 
-    /**********************
-     * REMOVE GHOST COLUMN FROM TABLE 2
-     **********************/
-    const tables = document.querySelectorAll("table");
-    if (tables.length >= 2) {
-      const table2 = tables[1]; // 0-based
-      table2.querySelectorAll("tr").forEach(tr => {
-        const tds = Array.from(tr.children).filter(td => td.tagName === "TD");
-        if (tds.length > 2) {
-          const firstTd = tds[0];
-          const widthAttr = firstTd.getAttribute("width");
-          const text = firstTd.textContent.replace(/\s+/g, "");
-
-          // detect column fantomă: goală sau width anormal
-          if (!text || (widthAttr && parseInt(widthAttr) > 1000)) {
-            firstTd.remove();
-          }
+    document.querySelectorAll("table tr").forEach(tr => {
+      // Eliminăm td-uri goale sau cu width anormal (ghost column)
+      const tds = Array.from(tr.children).filter(td => td.tagName === "TD");
+      tds.forEach(td => {
+        const text = td.textContent.replace(/\s+/g, "");
+        const width = td.getAttribute("width");
+        if (!text || (width && parseInt(width) > 1000)) {
+          td.remove();
         }
       });
-    }
+
+      // Recalculăm td-urile rămase
+      const remainingTds = Array.from(tr.children).filter(td => td.tagName === "TD");
+
+      if (remainingTds.length === 1) {
+        remainingTds[0].setAttribute("colspan", "2");
+      } else if (remainingTds.length === 2) {
+        remainingTds.forEach(td => td.removeAttribute("colspan"));
+      }
+    });
 
     /**********************
      * PARAGRAPH FIXES
@@ -93,35 +90,20 @@
       }
     });
 
-    document.querySelectorAll("td[colspan] > p").forEach(p => {
-      p.style.textAlign = "center";
-      p.style.direction = "ltr";
-    });
-
     /**********************
      * LOAD TITLE LINKS
      **********************/
     let titleLinks = {};
-
     try {
-      const base = window.location.pathname.includes("/byzmusic/")
-        ? "/byzmusic"
-        : "";
-
+      const base = window.location.pathname.includes("/byzmusic/") ? "/byzmusic" : "";
       const res = await fetch(`${base}/system/data/titleLink.json`);
       if (!res.ok) throw new Error("titleLink.json missing");
-
       const raw = await res.json();
 
       for (const key in raw) {
         const item = raw[key];
-        if (typeof item === "string") {
-          titleLinks[normalizeTitle(key)] = { url: item, name: null };
-        } else {
-          titleLinks[normalizeTitle(key)] = item;
-        }
+        titleLinks[normalizeTitle(key)] = typeof item === "string" ? { url: item, name: null } : item;
       }
-
     } catch (e) {
       console.warn("TitleLink load failed:", e.message);
     }
@@ -131,23 +113,12 @@
      **********************/
     document.querySelectorAll("td p").forEach(p => {
       if (p.querySelector("a")) return;
-
       const originalText = p.textContent.trim();
       if (!originalText) return;
 
       const baseKey = normalizeTitle(originalText);
-
-      let item = null;
-
-      if (SERVICE) {
-        const prefixedKey = `[${SERVICE.toLowerCase()}] ${baseKey}`;
-        item = titleLinks[prefixedKey];
-      }
-
-      if (!item) {
-        item = titleLinks[baseKey];
-      }
-
+      let item = SERVICE ? titleLinks[`[${SERVICE.toLowerCase()}] ${baseKey}`] : null;
+      if (!item) item = titleLinks[baseKey];
       if (!item || !item.url) return;
 
       const a = document.createElement("a");
@@ -155,11 +126,7 @@
       a.target = "_blank";
       a.rel = "noopener noreferrer";
       a.innerHTML = p.innerHTML;
-
-      if (item.name) {
-        a.title = item.name;
-      }
-
+      if (item.name) a.title = item.name;
       p.innerHTML = "";
       p.appendChild(a);
     });
@@ -171,16 +138,11 @@
       f.removeAttribute("color");
       if (f.style) f.style.color = "";
     });
-
     document.querySelectorAll("a span").forEach(s => {
       if (s.style) s.style.color = "";
     });
 
-    console.log(
-      "Layout + links applied",
-      SERVICE ? `(service ${SERVICE})` : "(generic)"
-    );
-
+    console.log("Layout + links applied, ghost columns removed, colspan fixed");
   });
 
 })();
