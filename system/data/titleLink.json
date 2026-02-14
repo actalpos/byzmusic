@@ -17,6 +17,12 @@
     "description": "AINOI (PRAISES) IN TONE ONE",
     "path": "Bilingual Services / Orthros / 13 Let Every Breath Praises"
   },
+  "AINOI (PRAISES) IN TONE THREE": {
+    "url": "https://drive.google.com/file/d/1F1gHmvqAArg1b2dGpPfgO_W7FMEIBrRH/view?usp=drivesdk",
+    "name": "LetEveryBreath-3rd.pdf",
+    "description": "AINOI (PRAISES) IN TONE THREE",
+    "path": "Bilingual Services / Orthros / 13 Let Every Breath Praises"
+  },
   "AINOI (PRAISES) IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1UvSorQwCIaVbzLV9YAnwGdGW9y7iSIL6/view?usp=drivesdk",
     "name": "LetEveryBreath-2nd-EN-AR.pdf",
@@ -185,6 +191,12 @@
     "description": "DOXASTICON FOR THE SUNDAY OF THE LAST JUDGMENT IN TONE EIGHT",
     "path": "Bilingual Services / Triodion / 3 Sunday of the Last Judgment "
   },
+  "DOXASTICON FOR THE SUNDAY OF THE LAST JUDGMENT IN TONE ONE": {
+    "url": "https://drive.google.com/file/d/1GkMsg0pJxbXB9qv3ZYCeGIiIn6Z90QII/view?usp=drivesdk",
+    "name": "6 PraisesDoxastikon-1st-LastJudgment.pdf",
+    "description": "DOXASTICON FOR THE SUNDAY OF THE LAST JUDGMENT IN TONE ONE",
+    "path": "Bilingual Services / Triodion / 3 Sunday of the Last Judgment "
+  },
   "DOXASTICON OF THE PHARISEE AND PUBLICAN IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/1CodHXwbs5ADsE6Q15Ad_4hCkWCr0u3O4/view?usp=drivesdk",
     "name": "6 DoxastikonAtThePraises-pl4th-Karam-EN.pdf",
@@ -297,13 +309,13 @@
     "url": "https://drive.google.com/file/d/1Uvf7QsF3Ukr5nMy3Pxm8qMgLW2P7YzZR/view?usp=drivesdk",
     "name": "BriefDoxology-pl4th-SA-EN.pdf",
     "description": "GREAT DOXOLOGY IN TONE EIGHT",
-    "path": "Bilingual Services / Orthros / 16 Doxology"
+    "path": "Bilingual Services / Orthros / 17 Doxology"
   },
   "GREAT DOXOLOGY IN TONE ONE": {
     "url": "https://drive.google.com/file/d/1iNzEXnQHpdRtQQF3N_7rWXatJpYvKxQU/view?usp=drivesdk",
     "name": "BriefDoxology-1st.pdf",
     "description": "GREAT DOXOLOGY IN TONE ONE",
-    "path": "Bilingual Services / Orthros / 16 Doxology"
+    "path": "Bilingual Services / Orthros / 17 Doxology"
   },
   "HOLY IS THE LORD OUR GOD. (THRICE)": {
     "url": "https://drive.google.com/file/d/1F_ffDckQzXcvA6rYIIxH_3JbooqgVDUH/view?usp=drivesdk",
@@ -319,8 +331,14 @@
   },
   "KATAVASIAE OF THE PRESENTATION OF CHRIST CANON IN TONE THREE": {
     "url": "https://drive.google.com/file/d/1Lb1HY3I_SEyO0jOHBUBFkcT-X9qP0rRF/view?usp=drivesdk",
-    "name": "KatavasiaePresentationOfTheLord-Ode1-9-3rd-AA-EN.pdf",
+    "name": "Ode1-9-3rd-KatavasiaePresentationOfTheLord.pdf",
     "description": "\tKATAVASIAE OF THE PRESENTATION OF CHRIST CANON IN TONE THREE",
+    "path": "Bilingual Services / Orthros / 10A Katavasies"
+  },
+  "KATAVASIAE OF THE SUNDAY OF LAST JUDGMENT CANON IN TONE SIX": {
+    "url": "https://drive.google.com/file/d/1XdA5AJxLDGCJONU5yZSSwwXWZrKiniiZ/view?usp=drivesdk",
+    "name": "Ode1-9-pl2nd-SundayMeatFare.pdf",
+    "description": "KATAVASIAE OF THE SUNDAY OF LAST JUDGMENT CANON IN TONE SIX",
     "path": "Bilingual Services / Orthros / 10A Katavasies"
   },
   "KATHISMA HYMNS OF SOULS SATURDAY IN TONE FIVE": {
@@ -361,8 +379,14 @@
   },
   "MAGNIFICATIONS IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/1UV3A8ZkjVMkJd4a3ES_zRaHKjE4y_adb/view?usp=drivesdk",
-    "name": "MoreHonarable-pl4th-Karam-EN.pdf",
+    "name": "MoreHonarable-pl4th.pdf",
     "description": "MAGNIFICATIONS IN TONE EIGHT",
+    "path": "Bilingual Services / Orthros / 10B Theotokion Magnifications"
+  },
+  "MAGNIFICATIONS IN TONE SIX": {
+    "url": "https://drive.google.com/file/d/1w41HeNTq62iVEbFKDj7aR86JnOoLSqHp/view?usp=drivesdk",
+    "name": "MoreHonarable-pl2nd.pdf",
+    "description": "MAGNIFICATIONS IN TONE SIX",
     "path": "Bilingual Services / Orthros / 10B Theotokion Magnifications"
   },
   "MAY THEIR MEMORY BE ETERNAL. (THRICE)": {
@@ -376,6 +400,18 @@
     "name": "12 9thOde-AA-EN-PresentationLord.pdf",
     "description": "NINTH ODE OF THE PRESENTATION OF CHRIST CANON IN TONE THREE",
     "path": "Bilingual Services / Menaion / 6 February  / 02"
+  },
+  "PRAISES FOR THE RESURRECTION IN TONE THREE": {
+    "url": "https://drive.google.com/file/d/1Pbfb-3sIxuUYV608JPcMyaFe3LOej-P4/view?usp=drivesdk",
+    "name": "BriefPraises-3rd-Resurrection.pdf",
+    "description": "Praises For the Resurrection in Tone Three",
+    "path": "Bilingual Services / Orthros / 14 Praises"
+  },
+  "PRAISES FOR THE SUNDAY OF THE LAST JUDGMENT IN TONE SIX": {
+    "url": "https://drive.google.com/file/d/1R5qQulnK-qfltKBQZ6Sy00YeBQeZL0ao/view?usp=drivesdk",
+    "name": "5 PraisesSunday-1st-SundayLastJudgment.pdf",
+    "description": "Praises For the Sunday of the Last Judgment\nin Tone Six",
+    "path": "Bilingual Services / Triodion / 3 Sunday of the Last Judgment "
   },
   "PROKEIMENON FOR ST. JULIAN IN TONE FOUR": {
     "url": "https://drive.google.com/file/d/1uzflovFyooEXYIKGRf72e2rXvkNRUr9L/view?usp=drivesdk",
@@ -399,6 +435,12 @@
     "url": "https://drive.google.com/file/d/1p1K4ARciIjZVthgS3pSx9HeZ_Rh06o3v/view?usp=drivesdk",
     "name": "Prokeimenon-1st-EN-AR.pdf",
     "description": "PROKEIMENON FOR THE RESURRECTION IN TONE ONE",
+    "path": "Bilingual Services / Orthros / 7 Prokeimenon for the Resurrection"
+  },
+  "PROKEIMENON FOR THE RESURRECTION IN TONE THREE": {
+    "url": "https://drive.google.com/file/d/1WSmDiXSVfBPPzg9n1zdO95U30r1QVzGN/view?usp=drivesdk",
+    "name": "Prokeimenon-3rd.pdf",
+    "description": "PROKEIMENON FOR THE RESURRECTION IN TONE THREE",
     "path": "Bilingual Services / Orthros / 7 Prokeimenon for the Resurrection"
   },
   "PROKEIMENON FOR THE RESURRECTION IN TONE TWO": {
@@ -509,6 +551,12 @@
     "description": "THE EXAPOSTEILARION OF THE FOREFEAST IN TONE THREE\n(**While standing in the Temple's courts**)",
     "path": "Bilingual Services / Menaion / 6 February  / Forefeast of the Meeting of Our Lord"
   },
+  "THE EXAPOSTEILIARIA AND THE THEOTOKION FOR THE SUNDAY OF THE LAST JUDGMENT IN TONE TWO (**UPON THAT MOUNT IN GALILEE**)": {
+    "url": "https://drive.google.com/file/d/1X9T8D1C6hcDzX3js8B1H0V9jF6Zlf1Lg/view?usp=drivesdk",
+    "name": "4 Exaposteilarion-2nd-SundayLastJudgment-W.pdf",
+    "description": "THE EXAPOSTEILIARIA AND THE THEOTOKION FOR THE SUNDAY OF THE LAST JUDGMENT IN TONE TWO (**Upon that mount in Galilee**)",
+    "path": "Bilingual Services / Triodion / 3 Sunday of the Last Judgment "
+  },
   "THE EXAPOSTEILIARION FOR THE PRODIGAL SON IN TONE TWO (**HEARKEN, YE WOMEN**)": {
     "url": "https://drive.google.com/file/d/1ujc3u3q-4tPFnCf32QdNOhExL_-gRIwz/view?usp=drivesdk",
     "name": "ProdigalSon-Exaposteilarion-2nd-AA-EN.pdf",
@@ -531,7 +579,7 @@
     "url": "https://drive.google.com/file/d/149231ciqJuFyq25Wi3wxR4oWjvxuWrAa/view?usp=drivesdk",
     "name": "BriefDoxology-pl2nd-Manuel-EN.pdf",
     "description": "THE GREAT DOXOLOGY IN TONE SIX",
-    "path": "Bilingual Services / Orthros / 16 Doxology"
+    "path": "Bilingual Services / Orthros / 17 Doxology"
   },
   "THE KATAVASIAE OF THE SOULS SATURDAY CANON IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/1vN-3YmqPaghQ_wRSWSu8DnbowhyKimEI/view?usp=drivesdk",
@@ -555,6 +603,12 @@
     "url": "https://drive.google.com/file/d/1fjl-RnFx14euCyYNfi3K4f3P7ay6Tir1/view?usp=drivesdk",
     "name": "2nd-EothinonExapostelarion-2nd-TonyH-EN.pdf",
     "description": "THE SECOND EOTHINON EXAPOSTEILARION IN TONE TWO",
+    "path": "Bilingual Services / Orthros / 12 Eothion Exapoteilarion"
+  },
+  "THE THIRD EOTHINON EXAPOSTEILARION IN TONE TWO": {
+    "url": "https://drive.google.com/file/d/1jyWfm3vKUBiraKfO_GwlbRvnrNhJebmr/view?usp=drivesdk",
+    "name": "3rd-EothinonExapostelarion-2nd.pdf",
+    "description": "THE THIRD EOTHINON EXAPOSTEILARION IN TONE TWO",
     "path": "Bilingual Services / Orthros / 12 Eothion Exapoteilarion"
   },
   "THEOTOKION FOR THE RESURRECTION IN TONE ONE": {
@@ -583,9 +637,9 @@
   },
   "THEOTOKION IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/1oAWJgS4SUB2UpE2_wf_UmtWeCQuncGXF/view?usp=drivesdk",
-    "name": "DoxastikonEothionTheotokion-pl4th-SA-EN.pdf",
+    "name": "Theotokion-pl4th-DoxastikonEothion.pdf",
     "description": "THEOTOKION IN TONE EIGHT",
-    "path": "Bilingual Services / Orthros / 15 Doxastikon Eothion"
+    "path": "Bilingual Services / Orthros / 16 Doxastikon Theotokion"
   },
   "THEOTOKION IN TONE FIVE": {
     "url": "https://drive.google.com/file/d/1t8ut-aKuNhIPiNTluzO1gnStd2S4zWsY/view?usp=drivesdk",
@@ -595,9 +649,9 @@
   },
   "THEOTOKION IN TONE ONE": {
     "url": "https://drive.google.com/file/d/1F3lSYG-eVhZ4FFmRfgm0D3LB3xjHDmtF/view?usp=drivesdk",
-    "name": "DoxastikonEothionTheotokion-1st-SA-EN.pdf",
+    "name": "Theotokion-1st-DoxastikonEothion.pdf",
     "description": "THEOTOKION IN TONE ONE",
-    "path": "Bilingual Services / Orthros / 15 Doxastikon Eothion"
+    "path": "Bilingual Services / Orthros / 16 Doxastikon Theotokion"
   },
   "TROPARIA FOR THE DEPARTED IN TONE FOUR": {
     "url": "https://drive.google.com/file/d/1GbTmV1qFRA3ucz3I9CM_4XV9g0LixG3n/view?usp=drivesdk",
@@ -661,9 +715,9 @@
   },
   "[O] THEOTOKION IN TONE SIX": {
     "url": "https://drive.google.com/file/d/1F5RP2wu_kODnBLyLv4xVQGnoCtP9BfAj/view?usp=drivesdk",
-    "name": "DoxastikonEothionTheotokion-2nd-SA-EN.pdf",
+    "name": "Theotokion-2nd-DoxastikonEothion.pdf",
     "description": "[O] THEOTOKION IN TONE SIX",
-    "path": "Bilingual Services / Orthros / 15 Doxastikon Eothion"
+    "path": "Bilingual Services / Orthros / 16 Doxastikon Theotokion"
   },
   "[O] TROPARION IN TONE FOUR": {
     "url": "https://drive.google.com/file/d/1kksfMdu7t2fqB_aHA0CAzMfQTnt4R60M/view?usp=drivesdk",
