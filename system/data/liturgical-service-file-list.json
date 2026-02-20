@@ -3,144 +3,144 @@
     "date": "2026-01-11",
     "title": "Divine Liturgy Variables",
     "order": 0,
-    "file": "Service_Texts/movable/2026/01/11/Divine_Liturgy_Variables.html"
+    "file": "Service_Texts/variableDate/2026/01/11/Divine_Liturgy_Variables.html"
   },
   {
     "date": "2026-01-18",
     "title": "Divine Liturgy Variables",
     "order": 0,
-    "file": "Service_Texts/movable/2026/01/18/Divine_Liturgy_Variables.html"
+    "file": "Service_Texts/variableDate/2026/01/18/Divine_Liturgy_Variables.html"
   },
   {
     "date": "2026-01-25",
     "title": "Jan 25 2026 Bilingual ORTHROS",
     "order": -1,
-    "file": "Service_Texts/movable/2026/01/25/Jan 25 2026 Bilingual ORTHROS.html"
+    "file": "Service_Texts/variableDate/2026/01/25/Jan 25 2026 Bilingual ORTHROS.html"
   },
   {
     "date": "2026-01-25",
     "title": "Divine Liturgy Variables",
     "order": 0,
-    "file": "Service_Texts/movable/2026/01/25/Divine_Liturgy_Variables.html"
+    "file": "Service_Texts/variableDate/2026/01/25/Divine_Liturgy_Variables.html"
   },
   {
     "date": "2026-02-01",
     "title": "Feb 01 2026 Bilingual Divine Liturgy",
     "order": -1,
-    "file": "Service_Texts/movable/2026/02/01/Feb 01 2026 Bilingual Divine Liturgy.html"
+    "file": "Service_Texts/variableDate/2026/02/01/Feb 01 2026 Bilingual Divine Liturgy.html"
   },
   {
     "date": "2026-02-01",
     "title": "Feb 01 2026 Bilingual ORTHROS",
     "order": -1,
-    "file": "Service_Texts/movable/2026/02/01/Feb 01 2026 Bilingual ORTHROS.html"
+    "file": "Service_Texts/variableDate/2026/02/01/Feb 01 2026 Bilingual ORTHROS.html"
   },
   {
     "date": "2026-02-01",
     "title": "Jan 31 2026 Bilingual VESP",
     "order": -1,
-    "file": "Service_Texts/movable/2026/02/01/Jan 31 2026 Bilingual VESP.html"
+    "file": "Service_Texts/variableDate/2026/02/01/Jan 31 2026 Bilingual VESP.html"
   },
   {
     "date": "2026-02-02",
     "title": "Feb 01 Bilingual LITART",
     "order": -1,
-    "file": "Service_Texts/fixed/02/02/Feb 01 Bilingual LITART.html"
+    "file": "Service_Texts/fixDate/02/02/Feb 01 Bilingual LITART.html"
   },
   {
     "date": "2026-02-02",
     "title": "Feb 01 Bilingual VESP",
     "order": -1,
-    "file": "Service_Texts/fixed/02/02/Feb 01 Bilingual VESP.html"
+    "file": "Service_Texts/fixDate/02/02/Feb 01 Bilingual VESP.html"
   },
   {
     "date": "2026-02-02",
     "title": "Feb 02 Bilingual ORTHROS",
     "order": -1,
-    "file": "Service_Texts/fixed/02/02/Feb 02 Bilingual ORTHROS.html"
+    "file": "Service_Texts/fixDate/02/02/Feb 02 Bilingual ORTHROS.html"
   },
   {
     "date": "2026-02-06",
     "title": "Feb 06 Bilingual Divine Liturgy Variables",
     "order": -1,
-    "file": "Service_Texts/fixed/02/06/Feb 06 Bilingual Divine Liturgy Variables.html"
+    "file": "Service_Texts/fixDate/02/06/Feb 06 Bilingual Divine Liturgy Variables.html"
   },
   {
     "date": "2026-02-06",
     "title": "Feb 06 Bilingual ORTHROS",
     "order": -1,
-    "file": "Service_Texts/fixed/02/06/Feb 06 Bilingual ORTHROS.html"
+    "file": "Service_Texts/fixDate/02/06/Feb 06 Bilingual ORTHROS.html"
   },
   {
     "date": "2026-02-08",
     "title": "Feb 07 2026 Bilingual VESP",
     "order": -1,
-    "file": "Service_Texts/movable/2026/02/08/Feb 07 2026 Bilingual VESP.html"
+    "file": "Service_Texts/variableDate/2026/02/08/Feb 07 2026 Bilingual VESP.html"
   },
   {
     "date": "2026-02-08",
     "title": "Feb 08 2026 Bilingual Divine Liturgy Variables",
     "order": -1,
-    "file": "Service_Texts/movable/2026/02/08/Feb 08 2026 Bilingual Divine Liturgy Variables.html"
+    "file": "Service_Texts/variableDate/2026/02/08/Feb 08 2026 Bilingual Divine Liturgy Variables.html"
   },
   {
     "date": "2026-02-08",
     "title": "Feb 08 2026 Bilingual ORTHROS",
     "order": -1,
-    "file": "Service_Texts/movable/2026/02/08/Feb 08 2026 Bilingual ORTHROS.html"
+    "file": "Service_Texts/variableDate/2026/02/08/Feb 08 2026 Bilingual ORTHROS.html"
   },
   {
     "date": "2026-02-14",
     "title": "Feb 14 2026 Bilingual Divine Liturgy Variables",
     "order": -1,
-    "file": "Service_Texts/movable/2026/02/14/Feb 14 2026 Bilingual Divine Liturgy Variables.html"
+    "file": "Service_Texts/variableDate/2026/02/14/Feb 14 2026 Bilingual Divine Liturgy Variables.html"
   },
   {
     "date": "2026-02-14",
     "title": "Feb 14 2026 Bilingual ORTHROS",
     "order": -1,
-    "file": "Service_Texts/movable/2026/02/14/Feb 14 2026 Bilingual ORTHROS.html"
+    "file": "Service_Texts/variableDate/2026/02/14/Feb 14 2026 Bilingual ORTHROS.html"
   },
   {
     "date": "2026-02-15",
     "title": "Feb 14 2026 Bilingual VESP",
     "order": -1,
-    "file": "Service_Texts/movable/2026/02/15/Feb 14 2026 Bilingual VESP.html"
+    "file": "Service_Texts/variableDate/2026/02/15/Feb 14 2026 Bilingual VESP.html"
   },
   {
     "date": "2026-02-15",
     "title": "Feb 15 2026 Bilingual Divine Liturgy Variables",
     "order": -1,
-    "file": "Service_Texts/movable/2026/02/15/Feb 15 2026 Bilingual Divine Liturgy Variables.html"
+    "file": "Service_Texts/variableDate/2026/02/15/Feb 15 2026 Bilingual Divine Liturgy Variables.html"
   },
   {
     "date": "2026-02-15",
     "title": "Feb 15 2026 Bilingual ORTHROS",
     "order": -1,
-    "file": "Service_Texts/movable/2026/02/15/Feb 15 2026 Bilingual ORTHROS.html"
+    "file": "Service_Texts/variableDate/2026/02/15/Feb 15 2026 Bilingual ORTHROS.html"
   },
   {
     "date": "2026-02-22",
     "title": "Feb 21 2026 Bilingual VESP",
     "order": -1,
-    "file": "Service_Texts/movable/2026/02/22/Feb 21 2026 Bilingual VESP.html"
+    "file": "Service_Texts/variableDate/2026/02/22/Feb 21 2026 Bilingual VESP.html"
   },
   {
     "date": "2026-02-22",
     "title": "Feb 22 2026 Bilingual Divine Liturgy Variables",
     "order": -1,
-    "file": "Service_Texts/movable/2026/02/22/Feb 22 2026 Bilingual Divine Liturgy Variables.html"
+    "file": "Service_Texts/variableDate/2026/02/22/Feb 22 2026 Bilingual Divine Liturgy Variables.html"
   },
   {
     "date": "2026-02-22",
     "title": "Feb 22 2026 Bilingual ORTHROS",
     "order": -1,
-    "file": "Service_Texts/movable/2026/02/22/Feb 22 2026 Bilingual ORTHROS.html"
+    "file": "Service_Texts/variableDate/2026/02/22/Feb 22 2026 Bilingual ORTHROS.html"
   },
   {
     "date": "2026-12-28",
     "title": "Dec 28 2025 Bilingual ORTHROS",
     "order": -1,
-    "file": "Service_Texts/fixed/12/28/Dec 28 2025 Bilingual ORTHROS.html"
+    "file": "Service_Texts/fixDate/12/28/Dec 28 2025 Bilingual ORTHROS.html"
   }
 ]

@@ -30,7 +30,7 @@ copy_to_deepest() {
     done
 }
 
-copy_to_deepest "../../fixed"
-copy_to_deepest "../../movable"
+copy_to_deepest "../../fixDate"
+copy_to_deepest "../../variableDate"
 
 echo "Done!"

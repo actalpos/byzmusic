@@ -19,13 +19,13 @@ let entries = [];
 
 /* ---------------- FIXED DATE ---------------- */
 function scanFixed() {
-  const fixedRoot = path.join(FS_ROOT, "fixed");
-  if (!fs.existsSync(fixedRoot)) return;
+  const fixRoot = path.join(FS_ROOT, "fixDate");
+  if (!fs.existsSync(fixRoot)) return;
 
   const year = new Date().getFullYear();
 
-  for (const month of fs.readdirSync(fixedRoot)) {
-    const monthPath = path.join(fixedRoot, month);
+  for (const month of fs.readdirSync(fixRoot)) {
+    const monthPath = path.join(fixRoot, month);
     if (!fs.statSync(monthPath).isDirectory()) continue;
 
     for (const day of fs.readdirSync(monthPath)) {
@@ -39,11 +39,11 @@ function scanFixed() {
 
 /* ---------------- MOVABLE DATE ---------------- */
 function scanMovable() {
-  const movableRoot = path.join(FS_ROOT, "movable");
-  if (!fs.existsSync(movableRoot)) return;
+  const variableRoot = path.join(FS_ROOT, "variableDate");
+  if (!fs.existsSync(variableRoot)) return;
 
-  for (const year of fs.readdirSync(movableRoot)) {
-    const yearPath = path.join(movableRoot, year);
+  for (const year of fs.readdirSync(variableRoot)) {
+    const yearPath = path.join(variableRoot, year);
     if (!fs.statSync(yearPath).isDirectory()) continue;
 
     for (const month of fs.readdirSync(yearPath)) {

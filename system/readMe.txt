@@ -4,7 +4,7 @@ Pdftxt2img.sh # transforms the PDF's from the current folder into image type pdf
 |--Service_Texts has:
     |--system
       |-- data
-          |-- liturgical-service-file-list.json       <---- file holding the current summary of the /fixed and /movable html file names/path/display name, used by index.html to show the list
+          |-- liturgical-service-file-list.json       <---- file holding the current summary of the /fixDate and /variableDate html file names/path/display name, used by index.html to show the list
           |-- titleLink.json                          <---- file to hold the file google drive link and the Description. The Description is the HTML text that will be converted to hyperlink in realtime when opening the Html
           |-- divine_liturgy.json                     <---- file holding the Divine_Liturgy.html content
       |-- scripts
@@ -28,7 +28,7 @@ Pdftxt2img.sh # transforms the PDF's from the current folder into image type pdf
       |--12
 
     
-    |--movable.  <-Folders for the movable date feasts
+    |--variable.  <-Folders for the variable date feasts
       |--2026
         |--01
           |--04
@@ -50,27 +50,27 @@ Pdftxt2img.sh # transforms the PDF's from the current folder into image type pdf
 
 The front end index.html will ask the userr to select a month
 The app renders the Html file names found in the liturgical-service-file-list.json  for the selected month from
-both the fix-date and for the movable date folders and index.html file render them chronologically at load time.
+both the fix-date and for the variable date folders and index.html file render them chronologically at load time.
 
 liturgical-service-file-list.json file format:
 [
   {
     "date": "2026-01-06",
-    "type": "fixed",
+    "type": "fix",
     "title": "Divine Liturgy",
-    "file": "Service_Texts/fixed/01/06/Divine_Liturgy.html"
+    "file": "Service_Texts/fixDate/01/06/Divine_Liturgy.html"
   },
   {
     "date": "2026-01-06",
-    "type": "fixed",
+    "type": "fix",
     "title": "Vespers",
-    "file": "Service_Texts/fixed/01/06/Vespers.html"
+    "file": "Service_Texts/fixDate/01/06/Vespers.html"
   },
   {
     "date": "2026-01-11",
-    "type": "movable",
+    "type": "variable",
     "title": "Divine Liturgy",
-    "file": "Service_Texts/movable/2026/01/11/Divine_Liturgy.html"
+    "file": "Service_Texts/variableDate/2026/01/11/Divine_Liturgy.html"
   }
 ]
 
