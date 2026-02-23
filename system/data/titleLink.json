@@ -83,6 +83,12 @@
     "description": "APOSTICHA DOXASTICON FOR THE SUNDAY OF THE LAST JUDGMENT IN TONE EIGHT",
     "path": "Bilingual Services / Triodion / 3 Sunday of the Last Judgment "
   },
+  "APOSTICHA FOR FORGIVENESS SUNDAY IN TONE FOUR": {
+    "url": "https://drive.google.com/file/d/1HvBhThUDCv_d3Ub_aK1MxJvXeBxdIyd8/view?usp=drivesdk",
+    "name": "24 Aposticha-4th-Kazan-EN-ForgivenessVespers-W.pdf",
+    "description": "APOSTICHA FOR FORGIVENESS SUNDAY IN TONE FOUR",
+    "path": "Bilingual Services / Triodion / 4 Sunday of Forgiveness"
+  },
   "APOSTICHA FOR THE RESURRECTION IN TONE FOUR BRIEF": {
     "url": "https://drive.google.com/file/d/1ZGh9uX5esAAGbedWkYAgp9phw03t8Z1z/view?usp=drivesdk",
     "name": "ApostichaBrief-4th.pdf",
@@ -275,6 +281,18 @@
     "description": "FESTAL ANABATHMOI IN TONE FOUR",
     "path": "Bilingual Services / Orthros / 7 Anabathmoi"
   },
+  "FIRST LENTEN GREAT PROKEIMENON IN TONE EIGHT": {
+    "url": "https://drive.google.com/file/d/115fF8rpPiTc3J6HPeR4Q5gTzGmTDLLM_/view?usp=drivesdk",
+    "name": "23 1stGreatProkeimenon-pl4th-Karam-EN-ForgivenessVespers.pdf",
+    "description": "FIRST LENTEN GREAT PROKEIMENON IN TONE EIGHT",
+    "path": "Bilingual Services / Triodion / 4 Sunday of Forgiveness"
+  },
+  "FOR FORGIVENESS SUNDAY IN TONE TWO": {
+    "url": "https://drive.google.com/file/d/1R8gkKKah2U0-FW7fwK-60Q5h3C_KUDwE/view?usp=drivesdk",
+    "name": "21B Stichera-2nd-Kazan-EN-ForgivenessVespers-W.pdf",
+    "description": "For Forgiveness Sunday in Tone Two",
+    "path": "Bilingual Services / Triodion / 4 Sunday of Forgiveness"
+  },
   "FOR SOULS SATURDAY IN TONE EIGHT (**THE PARADISE OF EDEN**)": {
     "url": "https://drive.google.com/file/d/1HqDrlhkFL2-o3C-hafC_30EBUQu4QloG/view?usp=drivesdk",
     "name": "10A Praises-pl4th-SaturdaySouls.pdf",
@@ -293,9 +311,15 @@
     "description": "\tFor St. Julian in Tone Four\n(**Unto them that fear Thee**)",
     "path": "Bilingual Services / Menaion / 6 February  / 06"
   },
+  "FOR ST. POLYCARP IN TONE TWO (**WHEN HE TOOK THEE**)": {
+    "url": "https://drive.google.com/file/d/1wSwTVJ4uo7btTlVKF9CrDhNSQt78JdOl/view?usp=drivesdk",
+    "name": "1 Sticheras-2nd-ElMassih-EN-StPolycarp.pdf",
+    "description": "For St. Polycarp in Tone Two\n(**When he took Thee**)",
+    "path": "Bilingual Services / Menaion / 6 February  / 22"
+  },
   "FOR SUNDAY OF FORGIVENESS IN TONE SIX (**HAVING LAID UP ALL THEIR HOPE**)": {
     "url": "https://drive.google.com/file/d/10PntXs-dsLCcyGZ7tX59uk6sRarVBwId/view?usp=drivesdk",
-    "name": "1 Stichera-pl2nd-ForgivenessSunday.pdf",
+    "name": "1 Stichera-pl2nd-AA-EN-ForgivenessSunday.pdf",
     "description": "For Sunday of Forgiveness in Tone Six (**Having laid up all their hope**)",
     "path": "Bilingual Services / Triodion / 4 Sunday of Forgiveness"
   },
@@ -425,6 +449,12 @@
     "description": "KONTAKION FOR THE PRESENTATION OF CHRIST IN TONE ONE",
     "path": "Bilingual Services / Menaion / 6 February  / 02"
   },
+  "LENTEN APOLYTIKIA IN TONE FIVE": {
+    "url": "https://drive.google.com/file/d/1lG9o0hYdbhag6jCTyLxtaZcS2f6HH2AZ/view?usp=drivesdk",
+    "name": "26 LentenApolytikia-pl1st-ElMassih-EN-ForgivenessVespers.pdf",
+    "description": "LENTEN APOLYTIKIA IN TONE FIVE",
+    "path": "Bilingual Services / Triodion / 4 Sunday of Forgiveness"
+  },
   "LENTEN TROPARIA AFTER PSALM 50 IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/1o20OT0oxtV0CTFqUC04IfFK73_6m0fyJ/view?usp=drivesdk",
     "name": "TriodionAfterPsalm50Troparia-pl4th-Karam-EN.pdf",
@@ -461,6 +491,12 @@
     "description": "NINTH ODE OF THE PRESENTATION OF CHRIST CANON IN TONE THREE",
     "path": "Bilingual Services / Menaion / 6 February  / 02"
   },
+  "PASCHAL CANON": {
+    "url": "https://drive.google.com/file/d/1dRWAtc3OmVSy9Ua_f0CnSZAcgMXDOIHp/view?usp=drivesdk",
+    "name": "27 PaschalCanon-1st-Karam-EN-ForgivenessSunday.pdf",
+    "description": "PASCHAL CANON",
+    "path": "Bilingual Services / Triodion / 4 Sunday of Forgiveness"
+  },
   "PRAISES FOR THE RESURRECTION IN TONE FOUR": {
     "url": "https://drive.google.com/file/d/1HW87q8dXaSHxM7TpP0ImFrS8ghVUrupV/view?usp=drivesdk",
     "name": "BriefPraises-4th.pdf",
@@ -475,7 +511,7 @@
   },
   "PRAISES FOR THE SUNDAY OF FORGIVENESS IN TONE FIVE": {
     "url": "https://drive.google.com/file/d/1NLFPhEutNNYBZBMlF-zmZCNzAurwZPi5/view?usp=drivesdk",
-    "name": "6 Praises-pl1st-ForgivenessSunday.pdf",
+    "name": "6A Praises-pl1st-Karam-EN-ForgivenessSunday.pdf",
     "description": "Praises For the Sunday of Forgiveness in Tone Five",
     "path": "Bilingual Services / Triodion / 4 Sunday of Forgiveness"
   },
@@ -713,6 +749,12 @@
     "description": "THE KATAVASIAE OF THE SOULS SATURDAY CANON IN TONE EIGHT",
     "path": "Bilingual Services / Triodion / 2 SATURDAY BEFORE MEAT-FARE SUNDAY"
   },
+  "THE PENITENTIAL STICHERA FROM THE TRIODION IN TONE FOUR (**THE ORIGINAL MELODY**)": {
+    "url": "https://drive.google.com/file/d/15OQWnYX1GdjbiXzOv_rd3nvS8h89yON8/view?usp=drivesdk",
+    "name": "21A Stichera-4th-Karam-EN-ForgivenessVespers-W.pdf",
+    "description": "The Penitential Stichera from the Triodion\nin Tone Four (**The original melody**)",
+    "path": "Bilingual Services / Triodion / 4 Sunday of Forgiveness"
+  },
   "THE SECOND ANTIPHON FOR THE PRESENTATION OF CHRIST": {
     "url": "https://drive.google.com/file/d/1c1MNjqfQJXMK1-PAKfOLIVJp_ct0X3Kz/view?usp=drivesdk",
     "name": "16 SaveUsSonOfGod-2nd-FrRomanos-Ar-GR-PresentationLord.pdf",
@@ -767,6 +809,12 @@
     "description": "THEOTOKION FOR THE RESURRECTION IN TONE TWO",
     "path": "Bilingual Services / Vespers / 5 Dogmatic Theotokion"
   },
+  "THEOTOKION FROM THE MENAION IN TONE TWO (**WHEN HE TOOK THEE**)": {
+    "url": "https://drive.google.com/file/d/1pWl19TC9Hf7A6V6XQ1VhHgb0lP8t3dol/view?usp=drivesdk",
+    "name": "JoyOfAllThatSorrow-2nd-ElMassih-EN.pdf",
+    "description": "THEOTOKION FROM THE MENAION\nIN TONE TWO (**When he took Thee**)",
+    "path": "Bilingual Services / Paraklesis / SmallParaklesisTheotokos"
+  },
   "THEOTOKION IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/1oAWJgS4SUB2UpE2_wf_UmtWeCQuncGXF/view?usp=drivesdk",
     "name": "Theotokion-pl4th-DoxastikonEothion.pdf",
@@ -778,6 +826,12 @@
     "name": "OTheotokosAndVirgin-pl1st.pdf",
     "description": "THEOTOKION IN TONE FIVE",
     "path": "Bilingual Services / Vespers / 10 Lity"
+  },
+  "THEOTOKION IN TONE FOUR (**AS ONE VALIANT**)": {
+    "url": "https://drive.google.com/file/d/1JXZ4zY5XiuMdCrx18g7AklS5-X_1-UxC/view?usp=drivesdk",
+    "name": "25 TheotokionTheeDoAllTheAngelicRanks-4th-ElMassih-EN-AkatistHymn.pdf",
+    "description": "THEOTOKION IN TONE FOUR\n(**As one valiant**)",
+    "path": "Bilingual Services / Triodion / 4 Sunday of Forgiveness"
   },
   "THEOTOKION IN TONE ONE": {
     "url": "https://drive.google.com/file/d/1F3lSYG-eVhZ4FFmRfgm0D3LB3xjHDmtF/view?usp=drivesdk",
@@ -817,7 +871,7 @@
   },
   "VERSES IN TONE FOUR": {
     "url": "https://drive.google.com/file/d/1RQTT8WfRRalqFIemrwLhFLUUnSA5ROpG/view?usp=drivesdk",
-    "name": "Verses-4th.pdf",
+    "name": "Verses-4th-SA-EN.pdf",
     "description": "VERSES IN TONE FOUR",
     "path": "Bilingual Services / Vespers / 2 Verses"
   },
@@ -883,7 +937,7 @@
   },
   "[V] DOXASTICON FOR THE SUNDAY OF FORGIVENESS IN TONE SIX": {
     "url": "https://drive.google.com/file/d/1I2bTRE4O1WBefw-Rk9Maj7NCfiVEo1yK/view?usp=drivesdk",
-    "name": "2 Doxastikon-pl2nd-ForgivenessSunday.pdf",
+    "name": "2B Doxastikon-pl2nd-EM-EN-ForgivenessSunday.pdf",
     "description": "[V] DOXASTICON FOR THE SUNDAY OF FORGIVENESS IN TONE SIX",
     "path": "Bilingual Services / Triodion / 4 Sunday of Forgiveness"
   },
@@ -985,7 +1039,7 @@
   },
   "“O LORD, I HAVE CRIED” IN TONE FOUR": {
     "url": "https://drive.google.com/file/d/15xW8hjkQMHso-Myni3EBV3F7zcEDJ1EG/view?usp=drivesdk",
-    "name": "LordIHaveCriedSlow-4th.pdf",
+    "name": "LordIHaveCriedSlow-4th-SA-EN.pdf",
     "description": "“O LORD, I HAVE CRIED” IN TONE FOUR",
     "path": "Bilingual Services / Vespers / 1 Lord I Have Cried"
   },
