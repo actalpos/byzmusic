@@ -11,6 +11,12 @@
     "description": "AINOI (PRAISES) IN TONE EIGHT",
     "path": "Bilingual Services / Orthros / 14 Let Every Breath Praises"
   },
+  "AINOI (PRAISES) IN TONE FIVE": {
+    "url": "https://drive.google.com/file/d/1XxQEEkJJSnWucDa7_-gd-B_0mFMePbQu/view?usp=drivesdk",
+    "name": "BriefPraises-pl1st-EN-AR.pdf",
+    "description": "AINOI (PRAISES) IN TONE FIVE",
+    "path": "Bilingual Services / Orthros / 15 Praises"
+  },
   "AINOI (PRAISES) IN TONE FOUR": {
     "url": "https://drive.google.com/file/d/1oadRSpnpDk4mHaPzKrPr9aU6P0Ceg57_/view?usp=drivesdk",
     "name": "LetEveryBreath-4th-EN-AR.pdf",
@@ -47,6 +53,12 @@
     "description": "APOLYTIKION FOR ST. JULIAN OF HOMS IN TONE THREE",
     "path": "Bilingual Services / Menaion / 6 February  / 06"
   },
+  "APOLYTIKION FOR ST. THEODORE THE SOLDIER IN TONE TWO": {
+    "url": "https://drive.google.com/file/d/1HMXf2r17K0U_en7mziPjH3Bg4-6GyMX5/view?usp=drivesdk",
+    "name": "1 ApolytikionStTheodoreTheSoldier-2nd-SA-EN-FirstSaturdayOfLent.pdf",
+    "description": "APOLYTIKION FOR ST. THEODORE THE SOLDIER IN TONE TWO",
+    "path": "Bilingual Services / Triodion / 5 First Saturday of Lent "
+  },
   "APOLYTIKION FOR THE PRESENTATION OF CHRIST IN TONE ONE": {
     "url": "https://drive.google.com/file/d/1d9DhAQA0u9QJsbxL7SueDlfL4qqHjWnf/view?usp=drivesdk",
     "name": "8 Apolytikion-1st-ElMassih-SA-EN-PresentationLord.pdf",
@@ -64,6 +76,12 @@
     "name": "ApolitikionStGregoryTheologian-1st-SA-EN.pdf",
     "description": "APOLYTIKION OF ST. GREGORY THE THEOLOGIAN IN TONE ONE",
     "path": "Bilingual Services / Menaion / Jan 25 - St Gregory the Theologian"
+  },
+  "APOLYTIKION OF THE FIRST SUNDAY OF GREAT LENT IN TONE TWO": {
+    "url": "https://drive.google.com/file/d/1ZC4IbkI4RCFBeomrnHFzzr55qPQXWFgw/view?usp=drivesdk",
+    "name": "4A Apolytikion-2nd-AA-EN-OrthodoxySunday.pdf",
+    "description": "APOLYTIKION OF THE FIRST SUNDAY OF GREAT LENT IN TONE TWO",
+    "path": "Bilingual Services / Triodion / 6 Orthodoxy Sunday"
   },
   "APOLYTIKION OF THE FOREFEAST IN TONE ONE (**THE SOLDIERS STANDING GUARD**)": {
     "url": "https://drive.google.com/file/d/1jyoRMS5oEhyN6hjB9rzeWcrwsHtQryeF/view?usp=drivesdk",
@@ -133,31 +151,31 @@
   },
   "APOSTICHA THEOTOKION FOR THE RESURRECTION IN TONE EIGHT BRIEF": {
     "url": "https://drive.google.com/file/d/1Wj6Dvn4UfoaTnhCRlUnwceacCIHrvaqR/view?usp=drivesdk",
-    "name": "ApostichaTheotokion-pl4th-Brief.pdf",
+    "name": "BriefApostichaTheotokion-pl4th.pdf",
     "description": "APOSTICHA THEOTOKION FOR THE RESURRECTION IN TONE EIGHT BRIEF",
     "path": "Bilingual Services / Vespers / 8 Apostika Theotokion"
   },
   "APOSTICHA THEOTOKION FOR THE RESURRECTION IN TONE EIGHT SLOW": {
     "url": "https://drive.google.com/file/d/1F56j3Yiag6QlgT88QNxw4eQPjUuochiw/view?usp=drivesdk",
-    "name": "ApostichaTheotokion-pl4th-Slow.pdf",
+    "name": "SlowApostichaTheotokion-pl4th-SA-EN.pdf",
     "description": "APOSTICHA THEOTOKION FOR THE RESURRECTION IN TONE EIGHT SLOW",
     "path": "Bilingual Services / Vespers / 8 Apostika Theotokion"
   },
   "APOSTICHA THEOTOKION FOR THE RESURRECTION IN TONE SIX": {
     "url": "https://drive.google.com/file/d/1ncDnUUHzKDM8223b7ePz2ef11vhi5_PN/view?usp=drivesdk",
-    "name": "ApostichaTheotokion-pl2nd-Slow.pdf",
+    "name": "SlowApostichaTheotokion-pl2nd-SA-EN.pdf",
     "description": "APOSTICHA THEOTOKION FOR THE RESURRECTION IN TONE SIX",
     "path": "Bilingual Services / Vespers / 8 Apostika Theotokion"
   },
   "APOSTICHA THEOTOKION FOR THE RESURRECTION IN TONE THREE BRIEF": {
     "url": "https://drive.google.com/file/d/1qALMYHhAqgKV43xeJAk_25i0A7VzCZlN/view?usp=drivesdk",
-    "name": "ApostichaTheotokion-3rd-Brief.pdf",
+    "name": "BriefApostichaTheotokion-3rd-SA-EN.pdf",
     "description": "APOSTICHA THEOTOKION FOR THE RESURRECTION IN TONE THREE BRIEF",
     "path": "Bilingual Services / Vespers / 8 Apostika Theotokion"
   },
   "APOSTICHA THEOTOKION FOR THE RESURRECTION IN TONE THREE SLOW": {
     "url": "https://drive.google.com/file/d/1xB7TMP2BQMMpMqdSJfi6ZEkROLhfqFfr/view?usp=drivesdk",
-    "name": "ApostichaTheotokion-3rd-Slow.pdf",
+    "name": "SlowApostichaTheotokion-3rd-SA-EN.pdf",
     "description": "APOSTICHA THEOTOKION FOR THE RESURRECTION IN TONE THREE SLOW",
     "path": "Bilingual Services / Vespers / 8 Apostika Theotokion"
   },
@@ -184,6 +202,12 @@
     "name": "12 DoxastikonPraises-2nd-Karam-EN-SarturdaySouls.pdf",
     "description": "DOXASTICON & THEOTOKION FOR SOULS SATURDAY IN TONE TWO",
     "path": "Bilingual Services / Triodion / 2 SATURDAY BEFORE MEAT-FARE SUNDAY"
+  },
+  "DOXASTICON FOR THE FIRST SUNDAY OF GREAT LENT IN TONE SIX": {
+    "url": "https://drive.google.com/file/d/1MLYXlwuVVowyMfmaVe-EiQsWHxIzHRIb/view?usp=drivesdk",
+    "name": "9 PraisesDoxastikon-pl2nd-Karam-EN-OrthodoxySunday.pdf",
+    "description": "DOXASTICON FOR THE FIRST SUNDAY OF GREAT LENT IN TONE SIX",
+    "path": "Bilingual Services / Triodion / 6 Orthodoxy Sunday"
   },
   "DOXASTICON FOR THE PHARISEE AND PUBLICAN IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/1ZbN-V8RNYH1I-6az2W58HPcy6_JoiW4f/view?usp=drivesdk",
@@ -263,6 +287,12 @@
     "description": "EXAPOSTEILARION OF ST. JULIAN AND COMPANIONS IN TONE THREE\n(**While standing in the Temple’s courts**)",
     "path": "Bilingual Services / Menaion / 6 February  / 06"
   },
+  "EXAPOSTEILIARION & THEOTOKION FOR FIRST SUNDAY OF GREAT LENT IN TONE TWO (**HEARKEN, YE WOMEN**)": {
+    "url": "https://drive.google.com/file/d/1k3MUqU7SsOJFXpXPMSHXQJaxTD3L9kRE/view?usp=drivesdk",
+    "name": "7 Exaposteilarion-2nd-AA-EN-OrthodoxySunday-W.pdf",
+    "description": "EXAPOSTEILIARION & THEOTOKION FOR FIRST SUNDAY OF GREAT LENT\nIN TONE TWO (**Hearken, ye women**)",
+    "path": "Bilingual Services / Triodion / 6 Orthodoxy Sunday"
+  },
   "EXAPOSTEILIARION & THEOTOKION FOR THE SUNDAY OF FORGIVENESS IN TONE TWO (**HEARKEN, YE WOMEN **)": {
     "url": "https://drive.google.com/file/d/1gIWbCrZ0tf1m95oz7C-5JkX_6UqW4ppb/view?usp=drivesdk",
     "name": "5 Exaposteilarion-2nd-ForgivenessSunday.pdf",
@@ -328,6 +358,12 @@
     "name": "1 Stichera-pl2nd-SundayLastJudgment-W.pdf",
     "description": "For Sunday of Last Judgment in Tone Six (**Having laid up all their hope**)",
     "path": "Bilingual Services / Triodion / 3 Sunday of the Last Judgment "
+  },
+  "FOR THE FIRST SUNDAY OF GREAT LENT IN TONE FOUR (**UNTO THEM THAT FEAR THEE**)": {
+    "url": "https://drive.google.com/file/d/1P3F4Tu1Nb6o_H3NjYEzoTV1OD8f2KaGy/view?usp=drivesdk",
+    "name": "8 Praises-4th-AA-EN-OrthodoxySunday-W.pdf",
+    "description": "For the First Sunday of Great Lent in Tone Four (**Unto them that fear thee**)",
+    "path": "Bilingual Services / Triodion / 6 Orthodoxy Sunday"
   },
   "FOR THE FOREFEAST IN TONE FOUR (**AS ONE VALIANT**)": {
     "url": "https://drive.google.com/file/d/1vXDH_MTBLWBo9k0wrbm7EfOTaaNtQ15q/view?usp=drivesdk",
@@ -395,6 +431,18 @@
     "description": "In everlasting remembrance shall the righteous be; he shall not be afraid of evil tidings. Alleluia.",
     "path": "Bilingual Services / Divine Liturgy / 9 Communion Hymns"
   },
+  "KATAVASIAE OF FIRST SUNDAY OF GREAT LENT CANON IN TONE FOUR": {
+    "url": "https://drive.google.com/file/d/1nX9OpzvSyicTwh8ocUX-q9hSHuZxMiPc/view?usp=drivesdk",
+    "name": "6 Ode1-9-4th-Karam-EN-OrthodoxySunday.pdf",
+    "description": "KATAVASIAE OF FIRST SUNDAY OF GREAT LENT CANON IN TONE FOUR",
+    "path": "Bilingual Services / Triodion / 6 Orthodoxy Sunday"
+  },
+  "KATAVASIAE OF THE AKATHIST CANON IN TONE FOUR": {
+    "url": "https://drive.google.com/file/d/1udnT0wc2MMXKMQUPsRdl3bDHFuZQa5Rl/view?usp=drivesdk",
+    "name": "Ode1-9-4th-AkathistTheotokos.pdf",
+    "description": "KATAVASIAE OF THE AKATHIST CANON IN TONE FOUR",
+    "path": "Bilingual Services / Orthros / 11A Katavasies"
+  },
   "KATAVASIAE OF THE PRESENTATION OF CHRIST CANON IN TONE THREE": {
     "url": "https://drive.google.com/file/d/1Lb1HY3I_SEyO0jOHBUBFkcT-X9qP0rRF/view?usp=drivesdk",
     "name": "Ode1-9-3rd-PresentationOfTheLord.pdf",
@@ -403,7 +451,7 @@
   },
   "KATAVASIAE OF THE SUNDAY OF FORGIVENESS CANON IN TONE SIX": {
     "url": "https://drive.google.com/file/d/1w_7ShR2IXmJHpqMtNtSLHpKReGB-1aSS/view?usp=drivesdk",
-    "name": "4 odes-1-9-pl2nd-ForgivenessSunday.pdf",
+    "name": "Ode1-9-pl2nd-ForgivenessSunday.pdf",
     "description": "KATAVASIAE OF THE SUNDAY OF FORGIVENESS CANON IN TONE SIX",
     "path": "Bilingual Services / Orthros / 11A Katavasies"
   },
@@ -473,6 +521,12 @@
     "description": "MAGNIFICATIONS IN TONE EIGHT",
     "path": "Bilingual Services / Orthros / 11B Theotokion Magnifications"
   },
+  "MAGNIFICATIONS IN TONE FOUR": {
+    "url": "https://drive.google.com/file/d/1WkWtR0Q4rYX-sdpgLyJET5xHU0MFD7Lq/view?usp=drivesdk",
+    "name": "MoreHonarable-4th.pdf",
+    "description": "MAGNIFICATIONS IN TONE FOUR",
+    "path": "Bilingual Services / Orthros / 11B Theotokion Magnifications"
+  },
   "MAGNIFICATIONS IN TONE SIX": {
     "url": "https://drive.google.com/file/d/1w41HeNTq62iVEbFKDj7aR86JnOoLSqHp/view?usp=drivesdk",
     "name": "MoreHonarable-pl2nd.pdf",
@@ -539,6 +593,12 @@
     "description": "PROKEIMENON FOR THE RESURRECTION IN TONE EIGHT",
     "path": "Bilingual Services / Orthros / 8 Prokeimenon for the Resurrection"
   },
+  "PROKEIMENON FOR THE RESURRECTION IN TONE FIVE": {
+    "url": "https://drive.google.com/file/d/1Hw3xWW5G9-1b3nGf0WstIb5eCGu2zmPn/view?usp=drivesdk",
+    "name": "Prokeimenon-pl1st-EN-AR.pdf",
+    "description": "PROKEIMENON FOR THE RESURRECTION IN TONE FIVE",
+    "path": "Bilingual Services / Orthros / 8 Prokeimenon for the Resurrection"
+  },
   "PROKEIMENON FOR THE RESURRECTION IN TONE FOUR": {
     "url": "https://drive.google.com/file/d/1U1KuUqVyUkyjnS5p55NZxDk7KnYwblOK/view?usp=drivesdk",
     "name": "Prokeimenon-4th.pdf",
@@ -574,6 +634,12 @@
     "name": "ApolitikionResurrection-pl4th-EN-AR.pdf",
     "description": "RESURRECTIONAL APOLYTIKION IN TONE EIGHT",
     "path": "Bilingual Services / Orthros / 2 Apolitikion"
+  },
+  "RESURRECTIONAL APOLYTIKION IN TONE FIVE": {
+    "url": "https://drive.google.com/file/d/18g9KLrLd2k4-sxkQxR-AOIAjizbyWrtR/view?usp=drivesdk",
+    "name": "ApolitikionResurrection-pl1st.pdf",
+    "description": "RESURRECTIONAL APOLYTIKION\nIN TONE FIVE",
+    "path": "Bilingual Services / Vespers / 9 Resurrection Apolitikion"
   },
   "RESURRECTIONAL APOLYTIKION IN TONE FOUR": {
     "url": "https://drive.google.com/file/d/1RJVF_5jtq-LDXHIZSuIuH5De6JoZ7W1F/view?usp=drivesdk",
@@ -719,6 +785,12 @@
     "description": "THE EXAPOSTEILIARION FOR\nTHE PRODIGAL SON IN TONE TWO (**Hearken, ye women**)",
     "path": "Bilingual Services / Triodion / 2 Prodigal Son"
   },
+  "THE FIFTH EOTHINON EXAPOSTEILARION IN TONE TWO (**UPON THAT MOUNT IN GALILEE **)": {
+    "url": "https://drive.google.com/file/d/1IhSHk-kpOXjvC0sBqCabAnljRekCTAA_/view?usp=drivesdk",
+    "name": "5th-EothinonExapostelarion-2nd-TonyH-EN.pdf",
+    "description": "THE FIFTH EOTHINON EXAPOSTEILARION IN TONE TWO\n(**Upon that mount in Galilee **)",
+    "path": "Bilingual Services / Orthros / 13 Eothion Exapoteilarion"
+  },
   "THE FIRST ANTIPHON": {
     "url": "https://drive.google.com/file/d/18ATyGzsiV3WG7NGe4JmmYsI02i1Fy5xP/view?usp=drivesdk",
     "name": "FirstAntiphon-EN-AR-GR.pdf",
@@ -838,6 +910,12 @@
     "name": "Theotokion-1st-DoxastikonEothion.pdf",
     "description": "THEOTOKION IN TONE ONE",
     "path": "Bilingual Services / Orthros / 17 Doxastikon Theotokion"
+  },
+  "THEOTOKION IN TONE TWO": {
+    "url": "https://drive.google.com/file/d/1QVqkMehs91HnJorhDoSxbhHk17jVHNWn/view?usp=drivesdk",
+    "name": "ApolytikionResurrectionTheotokion-2nd-EN-AR.pdf",
+    "description": "THEOTOKION IN TONE TWO",
+    "path": "Bilingual Services / Vespers / 9 Resurrection Apolitikion"
   },
   "THEOTOKION IN TONE TWO (**WHEN HE TOOK THEE**)": {
     "url": "https://drive.google.com/file/d/1Jwr_U3OP-hkl5OnlBMluK4pDhELnHoXz/view?usp=drivesdk",
@@ -999,6 +1077,12 @@
     "url": "https://drive.google.com/file/d/12NdsHNPti64R1Xv6_v4OTjb6YtF-qUcV/view?usp=drivesdk",
     "name": "GodIsTheLord-pl4th-EN-AR.pdf",
     "description": "“GOD IS THE LORD” IN TONE EIGHT",
+    "path": "Bilingual Services / Orthros / 1 God Is The Lord"
+  },
+  "“GOD IS THE LORD” IN TONE FIVE": {
+    "url": "https://drive.google.com/file/d/1K7KHKccesChTUxev5vvqTG_UJs3pnX4g/view?usp=drivesdk",
+    "name": "GodIsTheLord-pl1st-EN-AR.pdf",
+    "description": "“GOD IS THE LORD” IN TONE FIVE",
     "path": "Bilingual Services / Orthros / 1 God Is The Lord"
   },
   "“GOD IS THE LORD” IN TONE FOUR": {
