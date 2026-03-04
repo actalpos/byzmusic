@@ -13,7 +13,7 @@
   },
   "AINOI (PRAISES) IN TONE FIVE": {
     "url": "https://drive.google.com/file/d/1XxQEEkJJSnWucDa7_-gd-B_0mFMePbQu/view?usp=drivesdk",
-    "name": "BriefPraises-pl1st-EN-AR.pdf",
+    "name": "BriefPraises-pl1st.pdf",
     "description": "AINOI (PRAISES) IN TONE FIVE",
     "path": "Bilingual Services / Orthros / 15 Praises"
   },
@@ -46,6 +46,12 @@
     "name": "5 PraisesPharissePublican-3rd-Karam-EN.pdf",
     "description": "Also for the Pharisee and Publican\nin Tone Three",
     "path": "Bilingual Services / Triodion / 1 Pharisee and Publican"
+  },
+  "APOLYTIKION FOR ST. GREGORY PALAMAS IN TONE EIGHT": {
+    "url": "https://drive.google.com/file/d/1z3GVWJKXK64bzUiYx5sKDaT4LHk2tC8x/view?usp=drivesdk",
+    "name": "4 Apolytikion pl4th AA EN GregoryPalamaSunday.pdf",
+    "description": "APOLYTIKION FOR ST. GREGORY PALAMAS IN TONE EIGHT",
+    "path": "Bilingual Services / Triodion / 7 St Gregory Palamas "
   },
   "APOLYTIKION FOR ST. JULIAN OF HOMS IN TONE THREE": {
     "url": "https://drive.google.com/file/d/1uxcqmFiZIa23JiBCbTgzRuRgg8h5tPhl/view?usp=drivesdk",
@@ -91,7 +97,7 @@
   },
   "APOSTICHA DOXASTICON FOR THE SUNDAY OF FORGIVENESS IN TONE SIX": {
     "url": "https://drive.google.com/file/d/1rQR_ZvNWhZPza2mm2EFE9dS2kgRag-Dm/view?usp=drivesdk",
-    "name": "3 ApostichaDoxastikon-pl2nd-ForgivenessSunday.pdf",
+    "name": "4 ApostichaDoxastikon-pl2nd-ForgivenessSunday.pdf",
     "description": "APOSTICHA DOXASTICON FOR THE SUNDAY OF FORGIVENESS IN TONE SIX",
     "path": "Bilingual Services / Triodion / 4 Sunday of Forgiveness"
   },
@@ -103,62 +109,68 @@
   },
   "APOSTICHA FOR FORGIVENESS SUNDAY IN TONE FOUR": {
     "url": "https://drive.google.com/file/d/1HvBhThUDCv_d3Ub_aK1MxJvXeBxdIyd8/view?usp=drivesdk",
-    "name": "24 Aposticha-4th-Kazan-EN-ForgivenessVespers-W.pdf",
+    "name": "24B Aposticha-4th-Kazan-EN-ForgivenessVespers-W.pdf",
     "description": "APOSTICHA FOR FORGIVENESS SUNDAY IN TONE FOUR",
     "path": "Bilingual Services / Triodion / 4 Sunday of Forgiveness"
   },
   "APOSTICHA FOR THE RESURRECTION IN TONE FOUR BRIEF": {
     "url": "https://drive.google.com/file/d/1ZGh9uX5esAAGbedWkYAgp9phw03t8Z1z/view?usp=drivesdk",
-    "name": "ApostichaBrief-4th.pdf",
+    "name": "BriefAposticha-4th.pdf",
     "description": "APOSTICHA FOR THE RESURRECTION IN TONE FOUR BRIEF",
     "path": "Bilingual Services / Vespers / 7 Aposticha Resurrection"
   },
   "APOSTICHA FOR THE RESURRECTION IN TONE FOUR SLOW": {
     "url": "https://drive.google.com/file/d/1_0EaFqomg4X_fxGWfM15b0sZahEN9xXV/view?usp=drivesdk",
-    "name": "ApostichaSlow-4th.pdf",
+    "name": "SlowAposticha-4th.pdf",
     "description": "APOSTICHA FOR THE RESURRECTION IN TONE FOUR SLOW",
     "path": "Bilingual Services / Vespers / 7 Aposticha Resurrection"
   },
   "APOSTICHA FOR THE RESURRECTION IN TONE ONE": {
     "url": "https://drive.google.com/file/d/1E_pIix2I9rHQxTK0D4zU5mmdJywVs-dm/view?usp=drivesdk",
-    "name": "ApostichaBrief-1st.pdf",
+    "name": "BriefAposticha-1st.pdf",
     "description": "APOSTICHA FOR THE RESURRECTION IN TONE ONE",
+    "path": "Bilingual Services / Vespers / 7 Aposticha Resurrection"
+  },
+  "APOSTICHA FOR THE RESURRECTION IN TONE SIX": {
+    "url": "https://drive.google.com/file/d/1FvNOr_CW9dP8_KpmpkxTssFRkheUoav6/view?usp=drivesdk",
+    "name": "BriefAposticha-pl2nd.pdf",
+    "description": "APOSTICHA FOR THE RESURRECTION IN TONE SIX",
     "path": "Bilingual Services / Vespers / 7 Aposticha Resurrection"
   },
   "APOSTICHA FOR THE RESURRECTION IN TONE THREE BRIEF": {
     "url": "https://drive.google.com/file/d/1RTJSrbz2Or7mDgh29sdkHe39xQXNJLXg/view?usp=drivesdk",
-    "name": "ApostichaBrief-3rd.pdf",
+    "name": "BriefAposticha-3rd.pdf",
     "description": "APOSTICHA FOR THE RESURRECTION IN TONE THREE BRIEF",
     "path": "Bilingual Services / Vespers / 7 Aposticha Resurrection"
   },
   "APOSTICHA FOR THE RESURRECTION IN TONE THREE SLOW": {
     "url": "https://drive.google.com/file/d/1Rb1MgncgUkvh-YeUiu8nLys6nFPRV8mc/view?usp=drivesdk",
-    "name": "ApostichaSlow-3rd.pdf",
+    "name": "SlowAposticha-3rd.pdf",
     "description": "APOSTICHA FOR THE RESURRECTION IN TONE THREE SLOW",
     "path": "Bilingual Services / Vespers / 7 Aposticha Resurrection"
   },
   "APOSTICHA FOR THE RESURRECTION IN TONE TWO BRIEF": {
     "url": "https://drive.google.com/file/d/1b-vgBQs2ooAOigsZlUFjqIH1GPaRDP3r/view?usp=drivesdk",
-    "name": "ApostichaBrief-2nd.pdf",
+    "name": "BriefAposticha-2nd.pdf",
     "description": "APOSTICHA FOR THE RESURRECTION IN TONE TWO BRIEF",
     "path": "Bilingual Services / Vespers / 7 Aposticha Resurrection"
   },
   "APOSTICHA FOR THE RESURRECTION IN TONE TWO SLOW": {
     "url": "https://drive.google.com/file/d/1-pOwxKetVTHGCrc0LQbanXtSOyhHLa-l/view?usp=drivesdk",
-    "name": "ApostichaSlow-2nd.pdf",
+    "name": "SlowAposticha-2nd.pdf",
     "description": "APOSTICHA FOR THE RESURRECTION IN TONE TWO SLOW",
     "path": "Bilingual Services / Vespers / 7 Aposticha Resurrection"
+  },
+  "APOSTICHA THEOTOKION FOR THE RESURRECTION IN TONE EIGHT": {
+    "url": "https://drive.google.com/file/d/1F56j3Yiag6QlgT88QNxw4eQPjUuochiw/view?usp=drivesdk",
+    "name": "SlowApostichaTheotokion-pl4th-SA-EN.pdf",
+    "description": "APOSTICHA THEOTOKION FOR THE RESURRECTION IN TONE EIGHT",
+    "path": "Bilingual Services / Vespers / 8 Apostika Theotokion"
   },
   "APOSTICHA THEOTOKION FOR THE RESURRECTION IN TONE EIGHT BRIEF": {
     "url": "https://drive.google.com/file/d/1Wj6Dvn4UfoaTnhCRlUnwceacCIHrvaqR/view?usp=drivesdk",
     "name": "BriefApostichaTheotokion-pl4th.pdf",
     "description": "APOSTICHA THEOTOKION FOR THE RESURRECTION IN TONE EIGHT BRIEF",
-    "path": "Bilingual Services / Vespers / 8 Apostika Theotokion"
-  },
-  "APOSTICHA THEOTOKION FOR THE RESURRECTION IN TONE EIGHT SLOW": {
-    "url": "https://drive.google.com/file/d/1F56j3Yiag6QlgT88QNxw4eQPjUuochiw/view?usp=drivesdk",
-    "name": "SlowApostichaTheotokion-pl4th-SA-EN.pdf",
-    "description": "APOSTICHA THEOTOKION FOR THE RESURRECTION IN TONE EIGHT SLOW",
     "path": "Bilingual Services / Vespers / 8 Apostika Theotokion"
   },
   "APOSTICHA THEOTOKION FOR THE RESURRECTION IN TONE SIX": {
@@ -203,9 +215,21 @@
     "description": "DOXASTICON & THEOTOKION FOR SOULS SATURDAY IN TONE TWO",
     "path": "Bilingual Services / Triodion / 2 SATURDAY BEFORE MEAT-FARE SUNDAY"
   },
+  "DOXASTICON FOR ST. GREGORY PALAMAS IN TONE EIGHT": {
+    "url": "https://drive.google.com/file/d/1uJkze1a2R5JsOFHVO34V5lXjjrparYjh/view?usp=drivesdk",
+    "name": "3 ApostichaDoxastikon pl4th AA EN GregoryPalamaSunday.pdf",
+    "description": "DOXASTICON FOR ST. GREGORY PALAMAS IN TONE EIGHT",
+    "path": "Bilingual Services / Triodion / 7 St Gregory Palamas "
+  },
+  "DOXASTICON FOR ST. GREGORY PALAMAS IN TONE SIX": {
+    "url": "https://drive.google.com/file/d/1FEna95UPyUMSeIZ0A_SYmaIPDh6YSo3c/view?usp=drivesdk",
+    "name": "13 DoxastikonPraises pl2nd AA EN GregoryPalamaSunday.pdf",
+    "description": "DOXASTICON FOR ST. GREGORY PALAMAS IN TONE SIX",
+    "path": "Bilingual Services / Triodion / 7 St Gregory Palamas "
+  },
   "DOXASTICON FOR THE FIRST SUNDAY OF GREAT LENT IN TONE SIX": {
     "url": "https://drive.google.com/file/d/1MLYXlwuVVowyMfmaVe-EiQsWHxIzHRIb/view?usp=drivesdk",
-    "name": "9 PraisesDoxastikon-pl2nd-Karam-EN-OrthodoxySunday.pdf",
+    "name": "14 PraisesDoxastikon-pl2nd-Karam-EN-OrthodoxySunday.pdf",
     "description": "DOXASTICON FOR THE FIRST SUNDAY OF GREAT LENT IN TONE SIX",
     "path": "Bilingual Services / Triodion / 6 Orthodoxy Sunday"
   },
@@ -271,7 +295,7 @@
   },
   "EVLOGETARIA (BENEDICTIONS) IN TONE FIVE": {
     "url": "https://drive.google.com/file/d/1FdAew9N5sTXZ91Cr66u4ZmwDX1Mf9naK/view?usp=drivesdk",
-    "name": "Evlogetaria-pl1st-Karam-EN-AR.pdf",
+    "name": "Evlogetaria-pl1st-Karam.pdf",
     "description": "EVLOGETARIA (BENEDICTIONS)\nIN TONE FIVE",
     "path": "Bilingual Services / Orthros / 6 Evlogetaria"
   },
@@ -289,7 +313,7 @@
   },
   "EXAPOSTEILIARION & THEOTOKION FOR FIRST SUNDAY OF GREAT LENT IN TONE TWO (**HEARKEN, YE WOMEN**)": {
     "url": "https://drive.google.com/file/d/1k3MUqU7SsOJFXpXPMSHXQJaxTD3L9kRE/view?usp=drivesdk",
-    "name": "7 Exaposteilarion-2nd-AA-EN-OrthodoxySunday-W.pdf",
+    "name": "12 Exaposteilarion-2nd-AA-EN-OrthodoxySunday-W.pdf",
     "description": "EXAPOSTEILIARION & THEOTOKION FOR FIRST SUNDAY OF GREAT LENT\nIN TONE TWO (**Hearken, ye women**)",
     "path": "Bilingual Services / Triodion / 6 Orthodoxy Sunday"
   },
@@ -304,12 +328,6 @@
     "name": "4 ExapostelarionPhariseePublican-2nd-AA-EN-W.pdf",
     "description": "EXAPOSTEILIARION FOR THE PHARISEE & PUBLICAN IN TONE TWO\n(**Upon that mount in Galilee**)",
     "path": "Bilingual Services / Triodion / 1 Pharisee and Publican"
-  },
-  "FESTAL ANABATHMOI IN TONE FOUR": {
-    "url": "https://drive.google.com/file/d/19og9axGbeG1MRfH0z1FJvSqdTEzUDFzn/view?usp=drivesdk",
-    "name": "From My Youth Tone 4 EN.pdf",
-    "description": "FESTAL ANABATHMOI IN TONE FOUR",
-    "path": "Bilingual Services / Orthros / 7 Anabathmoi"
   },
   "FIRST LENTEN GREAT PROKEIMENON IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/115fF8rpPiTc3J6HPeR4Q5gTzGmTDLLM_/view?usp=drivesdk",
@@ -361,7 +379,7 @@
   },
   "FOR THE FIRST SUNDAY OF GREAT LENT IN TONE FOUR (**UNTO THEM THAT FEAR THEE**)": {
     "url": "https://drive.google.com/file/d/1P3F4Tu1Nb6o_H3NjYEzoTV1OD8f2KaGy/view?usp=drivesdk",
-    "name": "8 Praises-4th-AA-EN-OrthodoxySunday-W.pdf",
+    "name": "13 Praises-4th-AA-EN-OrthodoxySunday-W.pdf",
     "description": "For the First Sunday of Great Lent in Tone Four (**Unto them that fear thee**)",
     "path": "Bilingual Services / Triodion / 6 Orthodoxy Sunday"
   },
@@ -389,12 +407,6 @@
     "description": "For the Presentation in Tone Four\n(**Unto them that fear Thee**)",
     "path": "Bilingual Services / Menaion / 6 February  / 02"
   },
-  "FOR THE RESURRECTION IN TONE EIGHT": {
-    "url": "https://drive.google.com/file/d/19xUXz5EUeYjD3HqXG-Icq2V1s3SR9P0W/view?usp=drivesdk",
-    "name": "BriefPraises-pl4th-SA-EN.pdf",
-    "description": "For the Resurrection in Tone Eight",
-    "path": "Bilingual Services / Orthros / 15 Praises"
-  },
   "FOR THE RESURRECTION IN TONE THREE BRIEF": {
     "url": "https://drive.google.com/file/d/1nC2Qdcj0ub9dIUaDUXCtsVLHVMwJhMYq/view?usp=drivesdk",
     "name": "BriefSticheras-3rd.pdf",
@@ -409,7 +421,7 @@
   },
   "GREAT DOXOLOGY IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/1Uvf7QsF3Ukr5nMy3Pxm8qMgLW2P7YzZR/view?usp=drivesdk",
-    "name": "BriefDoxology-pl4th-SA-EN.pdf",
+    "name": "BriefDoxology-pl4th.pdf",
     "description": "GREAT DOXOLOGY IN TONE EIGHT",
     "path": "Bilingual Services / Orthros / 18 Doxology"
   },
@@ -421,7 +433,7 @@
   },
   "HOLY IS THE LORD OUR GOD. (THRICE)": {
     "url": "https://drive.google.com/file/d/1F_ffDckQzXcvA6rYIIxH_3JbooqgVDUH/view?usp=drivesdk",
-    "name": "HolyIsTheLordOurGod-2nd-EN-AR.pdf",
+    "name": "HolyIsTheLordOurGod-2nd.pdf",
     "description": "Holy is the Lord our God. (thrice)",
     "path": "Bilingual Services / Orthros / 12 Holy Is The Lord Our God"
   },
@@ -433,7 +445,7 @@
   },
   "KATAVASIAE OF FIRST SUNDAY OF GREAT LENT CANON IN TONE FOUR": {
     "url": "https://drive.google.com/file/d/1nX9OpzvSyicTwh8ocUX-q9hSHuZxMiPc/view?usp=drivesdk",
-    "name": "6 Ode1-9-4th-Karam-EN-OrthodoxySunday.pdf",
+    "name": "11 Ode1-9-4th-Karam-EN-OrthodoxySunday.pdf",
     "description": "KATAVASIAE OF FIRST SUNDAY OF GREAT LENT CANON IN TONE FOUR",
     "path": "Bilingual Services / Triodion / 6 Orthodoxy Sunday"
   },
@@ -505,13 +517,13 @@
   },
   "LENTEN TROPARIA AFTER PSALM 50 IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/1o20OT0oxtV0CTFqUC04IfFK73_6m0fyJ/view?usp=drivesdk",
-    "name": "TriodionAfterPsalm50Troparia-pl4th-Karam-EN.pdf",
+    "name": "TriodionAfterPsalm50Troparia-pl4th-Karam.pdf",
     "description": "LENTEN TROPARIA AFTER PSALM 50 IN TONE EIGHT",
     "path": "Bilingual Services / Orthros / 10 After Psalm 50 Troparia"
   },
   "LET EVERYTHING THAT HATH BREATH PRAISE THE LORD. (TWICE)": {
     "url": "https://drive.google.com/file/d/10I8jzm3RFIYLUbsnPv1fFfh8Lpa3pXEI/view?usp=drivesdk",
-    "name": "LetEveryBreathProkeimenon-2nd-Ayoub-EN-AR.pdf",
+    "name": "LetEveryBreathProkeimenon-2nd-Ayoub.pdf",
     "description": "Let everything that hath breath praise the Lord. (twice)",
     "path": "Bilingual Services / Orthros / 9 Let Every Breath Prokimenon"
   },
@@ -595,7 +607,7 @@
   },
   "PROKEIMENON FOR THE RESURRECTION IN TONE FIVE": {
     "url": "https://drive.google.com/file/d/1Hw3xWW5G9-1b3nGf0WstIb5eCGu2zmPn/view?usp=drivesdk",
-    "name": "Prokeimenon-pl1st-EN-AR.pdf",
+    "name": "Prokeimenon-pl1st.pdf",
     "description": "PROKEIMENON FOR THE RESURRECTION IN TONE FIVE",
     "path": "Bilingual Services / Orthros / 8 Prokeimenon for the Resurrection"
   },
@@ -607,7 +619,7 @@
   },
   "PROKEIMENON FOR THE RESURRECTION IN TONE ONE": {
     "url": "https://drive.google.com/file/d/1p1K4ARciIjZVthgS3pSx9HeZ_Rh06o3v/view?usp=drivesdk",
-    "name": "Prokeimenon-1st-EN-AR.pdf",
+    "name": "Prokeimenon-1st.pdf",
     "description": "PROKEIMENON FOR THE RESURRECTION IN TONE ONE",
     "path": "Bilingual Services / Orthros / 8 Prokeimenon for the Resurrection"
   },
@@ -619,7 +631,7 @@
   },
   "PROKEIMENON FOR THE RESURRECTION IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1AK5zGIWF0rzBCFy9df9OrGEzpM__QJdh/view?usp=drivesdk",
-    "name": "Prokeimenon-2nd-EN-AR.pdf",
+    "name": "Prokeimenon-2nd.pdf",
     "description": "PROKEIMENON FOR THE RESURRECTION IN TONE TWO",
     "path": "Bilingual Services / Orthros / 8 Prokeimenon for the Resurrection"
   },
@@ -629,12 +641,6 @@
     "description": "PSALM 136 BY THE WATERS OF BABYLON",
     "path": "Bilingual Services / Orthros / 5 Polyeleos"
   },
-  "RESURRECTIONAL APOLYTIKION IN TONE EIGHT": {
-    "url": "https://drive.google.com/file/d/1tQFEtkIAuYKzy_hpBjA-lH4swijlRBLJ/view?usp=drivesdk",
-    "name": "ApolitikionResurrection-pl4th-EN-AR.pdf",
-    "description": "RESURRECTIONAL APOLYTIKION IN TONE EIGHT",
-    "path": "Bilingual Services / Orthros / 2 Apolitikion"
-  },
   "RESURRECTIONAL APOLYTIKION IN TONE FIVE": {
     "url": "https://drive.google.com/file/d/18g9KLrLd2k4-sxkQxR-AOIAjizbyWrtR/view?usp=drivesdk",
     "name": "ApolitikionResurrection-pl1st.pdf",
@@ -643,14 +649,20 @@
   },
   "RESURRECTIONAL APOLYTIKION IN TONE FOUR": {
     "url": "https://drive.google.com/file/d/1RJVF_5jtq-LDXHIZSuIuH5De6JoZ7W1F/view?usp=drivesdk",
-    "name": "ApolitikionResurrection-4th-EN-AR.pdf",
+    "name": "ApolitikionResurrection-4th.pdf",
     "description": "RESURRECTIONAL APOLYTIKION\nIN TONE FOUR",
     "path": "Bilingual Services / Vespers / 9 Resurrection Apolitikion"
   },
   "RESURRECTIONAL APOLYTIKION IN TONE ONE": {
     "url": "https://drive.google.com/file/d/1-6LkVtfih1aMLfl9mBw7krLkv2jSa0ZH/view?usp=drivesdk",
-    "name": "ApolitikionRessurection-1st-EN-AR.pdf",
+    "name": "ApolitikionRessurection-1st.pdf",
     "description": "RESURRECTIONAL APOLYTIKION\nIN TONE ONE",
+    "path": "Bilingual Services / Vespers / 9 Resurrection Apolitikion"
+  },
+  "RESURRECTIONAL APOLYTIKION IN TONE SIX": {
+    "url": "https://drive.google.com/file/d/1lFQbTX-qhwPlWcoPQPWD_jtnD409hpfr/view?usp=drivesdk",
+    "name": "ApolitikionResurrection-pl2nd.pdf",
+    "description": "RESURRECTIONAL APOLYTIKION\nIN TONE SIX",
     "path": "Bilingual Services / Vespers / 9 Resurrection Apolitikion"
   },
   "RESURRECTIONAL APOLYTIKION IN TONE THREE": {
@@ -661,27 +673,21 @@
   },
   "RESURRECTIONAL APOLYTIKION IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1-nU4ZQ7c1rxaXfpOzEO3L8xVYXgXZUor/view?usp=drivesdk",
-    "name": "ApolitikionRessurection-2nd-EN-AR.pdf",
+    "name": "ApolitikionRessurection-2nd.pdf",
     "description": "RESURRECTIONAL APOLYTIKION\nIN TONE TWO",
     "path": "Bilingual Services / Vespers / 9 Resurrection Apolitikion"
   },
-  "RESURRECTIONAL THEOTOKION IN TONE FOUR": {
-    "url": "https://drive.google.com/file/d/1cYGlJIh_f0GW_QCcqll4OoNu-qoqJ1wx/view?usp=drivesdk",
-    "name": "ApolytikionResurrectionTheotokion-4th.pdf",
-    "description": "RESURRECTIONAL THEOTOKION\nIN TONE FOUR",
-    "path": "Bilingual Services / Vespers / 9 Resurrection Apolitikion"
-  },
-  "RESURRECTIONAL THEOTOKION IN TONE ONE": {
-    "url": "https://drive.google.com/file/d/1pO2kcSzrQuCKmHV60NxslZd_ZvaxV9aQ/view?usp=drivesdk",
-    "name": "ApolytikionResurrectionTheotokion-1st-EN-AR.pdf",
-    "description": "RESURRECTIONAL THEOTOKION\nIN TONE ONE",
-    "path": "Bilingual Services / Orthros / 2 Apolitikion"
+  "RESURRECTIONAL THEOTOKION IN TONE EIGHT": {
+    "url": "https://drive.google.com/file/d/1lgk7oyCxU9KjqykOulGsrf2FSAdFxUYd/view?usp=drivesdk",
+    "name": "ApolitikionResurrectionTheotokion-pl4th.pdf",
+    "description": "RESURRECTIONAL THEOTOKION\nIN TONE EIGHT",
+    "path": "Bilingual Services / Vespers / 9B Resurrection Apolitikion Theotokion"
   },
   "RESURRECTIONAL THEOTOKION IN TONE THREE": {
     "url": "https://drive.google.com/file/d/1eJs28qAL-3rbvglMn8uWC5epkx-oyDSR/view?usp=drivesdk",
     "name": "ApolytikionResurrectionTheotokion-3rd.pdf",
     "description": "RESURRECTIONAL THEOTOKION\nIN TONE THREE",
-    "path": "Bilingual Services / Vespers / 9 Resurrection Apolitikion"
+    "path": "Bilingual Services / Vespers / 9B Resurrection Apolitikion Theotokion"
   },
   "RIGHT: O ALL-HOLY THEOTOKOS, FORSAKE ME NOT IN THE YEARS OF MY LIFE, O INTECESSOR FOR MANKIND; BUT HELP ME AND HAVE MERCY ON ME.": {
     "url": "https://drive.google.com/file/d/185xHn4adH3583dMWymJCkCAxE_iYdBlU/view?usp=drivesdk",
@@ -787,7 +793,7 @@
   },
   "THE FIFTH EOTHINON EXAPOSTEILARION IN TONE TWO (**UPON THAT MOUNT IN GALILEE **)": {
     "url": "https://drive.google.com/file/d/1IhSHk-kpOXjvC0sBqCabAnljRekCTAA_/view?usp=drivesdk",
-    "name": "5th-EothinonExapostelarion-2nd-TonyH-EN.pdf",
+    "name": "5th-EothinonExapostelarion-2nd-TonyH.pdf",
     "description": "THE FIFTH EOTHINON EXAPOSTEILARION IN TONE TWO\n(**Upon that mount in Galilee **)",
     "path": "Bilingual Services / Orthros / 13 Eothion Exapoteilarion"
   },
@@ -799,13 +805,13 @@
   },
   "THE FIRST EOTHINON EXAPOSTEILARION IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1VXfwd7h2rMlUqfl9Y3HzyENOFOnTfT5a/view?usp=drivesdk",
-    "name": "1st-EothinonExapostelarion-2nd-TonyH-EN.pdf",
+    "name": "1st-EothinonExapostelarion-2nd-TonyH.pdf",
     "description": "THE FIRST EOTHINON EXAPOSTEILARION IN TONE TWO",
     "path": "Bilingual Services / Orthros / 13 Eothion Exapoteilarion"
   },
   "THE FOURTH EOTHINON EXAPOSTEILARION IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1RzMyZwydsSutEptfDFa8Emb2vf6h5Rhu/view?usp=drivesdk",
-    "name": "4th-EothinonExapostelarion-2nd-TonyH-EN.pdf",
+    "name": "4th-EothinonExapostelarion-2nd-TonyH.pdf",
     "description": " THE FOURTH EOTHINON EXAPOSTEILARION IN TONE TWO",
     "path": "Bilingual Services / Orthros / 13 Eothion Exapoteilarion"
   },
@@ -841,13 +847,13 @@
   },
   "THE SECOND EOTHINON EXAPOSTEILARION IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1fjl-RnFx14euCyYNfi3K4f3P7ay6Tir1/view?usp=drivesdk",
-    "name": "2nd-EothinonExapostelarion-2nd-TonyH-EN.pdf",
+    "name": "2nd-EothinonExapostelarion-2nd-TonyH.pdf",
     "description": "THE SECOND EOTHINON EXAPOSTEILARION IN TONE TWO",
     "path": "Bilingual Services / Orthros / 13 Eothion Exapoteilarion"
   },
   "THE THIRD EOTHINON EXAPOSTEILARION IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1jyWfm3vKUBiraKfO_GwlbRvnrNhJebmr/view?usp=drivesdk",
-    "name": "3rd-EothinonExapostelarion-2nd.pdf",
+    "name": "3rd-EothinonExapostelarion-2nd-TonyH.pdf",
     "description": "THE THIRD EOTHINON EXAPOSTEILARION IN TONE TWO",
     "path": "Bilingual Services / Orthros / 13 Eothion Exapoteilarion"
   },
@@ -861,6 +867,12 @@
     "url": "https://drive.google.com/file/d/1UQgIFmA-bXRYv9vrmFfFHwMy_P48OcOF/view?usp=drivesdk",
     "name": "DogmaticTheotokionSlow-1st.pdf",
     "description": "THEOTOKION FOR THE RESURRECTION IN TONE ONE",
+    "path": "Bilingual Services / Vespers / 5 Dogmatic Theotokion"
+  },
+  "THEOTOKION FOR THE RESURRECTION IN TONE SIX": {
+    "url": "https://drive.google.com/file/d/12xVQi6i1bJ8zVOULT5bBZbqLqx_W9Aut/view?usp=drivesdk",
+    "name": "DogmaticTheotokionSlow-pl2nd.pdf",
+    "description": "THEOTOKION FOR THE RESURRECTION IN TONE SIX",
     "path": "Bilingual Services / Vespers / 5 Dogmatic Theotokion"
   },
   "THEOTOKION FOR THE RESURRECTION IN TONE THREE BRIEF": {
@@ -913,9 +925,9 @@
   },
   "THEOTOKION IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1QVqkMehs91HnJorhDoSxbhHk17jVHNWn/view?usp=drivesdk",
-    "name": "ApolytikionResurrectionTheotokion-2nd-EN-AR.pdf",
+    "name": "ApolytikionResurrectionTheotokion-2nd.pdf",
     "description": "THEOTOKION IN TONE TWO",
-    "path": "Bilingual Services / Vespers / 9 Resurrection Apolitikion"
+    "path": "Bilingual Services / Vespers / 9B Resurrection Apolitikion Theotokion"
   },
   "THEOTOKION IN TONE TWO (**WHEN HE TOOK THEE**)": {
     "url": "https://drive.google.com/file/d/1Jwr_U3OP-hkl5OnlBMluK4pDhELnHoXz/view?usp=drivesdk",
@@ -947,18 +959,6 @@
     "description": "TROPARION IN TONE SEVEN",
     "path": "Bilingual Services / Vespers / 10 Lity"
   },
-  "VERSES IN TONE FOUR": {
-    "url": "https://drive.google.com/file/d/1RQTT8WfRRalqFIemrwLhFLUUnSA5ROpG/view?usp=drivesdk",
-    "name": "Verses-4th-SA-EN.pdf",
-    "description": "VERSES IN TONE FOUR",
-    "path": "Bilingual Services / Vespers / 2 Verses"
-  },
-  "VERSES IN TONE ONE": {
-    "url": "https://drive.google.com/file/d/1bG2O8Tpo_qeRqJsOYAdZPF-vVlgdN0vC/view?usp=drivesdk",
-    "name": "Verses-1st-SA-EN.pdf",
-    "description": "VERSES IN TONE ONE",
-    "path": "Bilingual Services / Vespers / 2 Verses"
-  },
   "[O] DOXASTICON FOR THE SUNDAY OF FORGIVENESS IN TONE SIX": {
     "url": "https://drive.google.com/file/d/1rhidMDfUQDGTKn8coOxVBB_ZSAsXwSnS/view?usp=drivesdk",
     "name": "7 PraisesDoxastikon-pl2nd-ForgivenessSunday.pdf",
@@ -976,24 +976,6 @@
     "name": "ProdigalSon-Praises-2nd-Karam-EN.pdf",
     "description": "[O] For the Prodigal Son",
     "path": "Bilingual Services / Triodion / 2 Prodigal Son"
-  },
-  "[O] FOR THE RESURRECTION IN TONE ONE": {
-    "url": "https://drive.google.com/file/d/1AzsNtazIvKxp6LXiRJ6XkSJXAwAUoQrs/view?usp=drivesdk",
-    "name": "BriefPraises-1st-SA-EN.pdf",
-    "description": "[O] for the Resurrection in Tone One",
-    "path": "Bilingual Services / Orthros / 15 Praises"
-  },
-  "[O] FOR THE RESURRECTION IN TONE TWO BRIEF": {
-    "url": "https://drive.google.com/file/d/1ysi8FQ3gSqnGYg9xU9iePLqeqtOcUbz0/view?usp=drivesdk",
-    "name": "BriefPraises-2nd-SA-EN.pdf",
-    "description": "[O] For the Resurrection in Tone Two Brief",
-    "path": "Bilingual Services / Orthros / 15 Praises"
-  },
-  "[O] FOR THE RESURRECTION IN TONE TWO SLOW": {
-    "url": "https://drive.google.com/file/d/13wkfm80BEOuh-IquyzUFVCxjKdj3Oa_B/view?usp=drivesdk",
-    "name": "SlowPraises-2nd-SA-EN.pdf",
-    "description": "[O] For the Resurrection in Tone Two Slow",
-    "path": "Bilingual Services / Orthros / 15 Praises"
   },
   "[O] IDIOMELON IN TONE SIX": {
     "url": "https://drive.google.com/file/d/1V9N9iBVrmZt5cUjHFH8FmAfdk0TQtFbN/view?usp=drivesdk",
@@ -1019,6 +1001,12 @@
     "description": "[V] DOXASTICON FOR THE SUNDAY OF FORGIVENESS IN TONE SIX",
     "path": "Bilingual Services / Triodion / 4 Sunday of Forgiveness"
   },
+  "[V] FOR ST. GREGORY PALAMAS IN TONE TWO (**WITH WHAT FAIR CROWNS**)": {
+    "url": "https://drive.google.com/file/d/1-oZqAlBDLDz-6shwmfiC52t1PbPUy9Vi/view?usp=drivesdk",
+    "name": "1 Sticheras 2nd AA EN GregoryPalamaSunday W.pdf",
+    "description": "[V] For St. Gregory Palamas in Tone Two (**With what fair crowns**)",
+    "path": "Bilingual Services / Triodion / 7 St Gregory Palamas "
+  },
   "[V] FOR THE AFTER-FEAST IN TONE SIX (**AS IT IS WRITTEN**)": {
     "url": "https://drive.google.com/file/d/1-NR-Cu48FdUnSWjpka1oge-HQWIaRmp1/view?usp=drivesdk",
     "name": "Aposticha-pl2nd-AA-EN-AfterFeastPresentationLord.pdf",
@@ -1043,6 +1031,12 @@
     "description": "[V] For the Resurrection in Tone One",
     "path": "Bilingual Services / Vespers / 3 Sticheras Resurrection"
   },
+  "[V] FOR THE RESURRECTION IN TONE SIX": {
+    "url": "https://drive.google.com/file/d/1cg---DKWsraTc2sQMvTHiIlYNED-RIjr/view?usp=drivesdk",
+    "name": "BriefSticheras-pl2nd.pdf",
+    "description": "[V] For the Resurrection in Tone Six",
+    "path": "Bilingual Services / Vespers / 3 Sticheras Resurrection"
+  },
   "[V] FOR THE RESURRECTION IN TONE TWO BRIEF": {
     "url": "https://drive.google.com/file/d/1aLCWGjR84xvPYy8asAVp-vjnAbUNgwhq/view?usp=drivesdk",
     "name": "BriefSticheras-2nd.pdf",
@@ -1065,7 +1059,7 @@
     "url": "https://drive.google.com/file/d/1gMBh8ZpBNbZhVzdXRl3ZCtCCOG74qwxk/view?usp=drivesdk",
     "name": "AGoodWordPsalm44-pl4th-Phoakeus-EN.pdf",
     "description": "“A GOOD WORD” (VERSES FROM PSALM 44) IN TONE ONE",
-    "path": "Bilingual Services / Orthros / 3 Polyeleos"
+    "path": "Bilingual Services / Orthros / 5 Polyeleos"
   },
   "“ALLELUIA” IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/1XuCHIMUtuqMom6N2H0hEYgSeyrG1ghK3/view?usp=drivesdk",
@@ -1075,13 +1069,13 @@
   },
   "“GOD IS THE LORD” IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/12NdsHNPti64R1Xv6_v4OTjb6YtF-qUcV/view?usp=drivesdk",
-    "name": "GodIsTheLord-pl4th-EN-AR.pdf",
+    "name": "GodIsTheLord-pl4th.pdf",
     "description": "“GOD IS THE LORD” IN TONE EIGHT",
     "path": "Bilingual Services / Orthros / 1 God Is The Lord"
   },
   "“GOD IS THE LORD” IN TONE FIVE": {
     "url": "https://drive.google.com/file/d/1K7KHKccesChTUxev5vvqTG_UJs3pnX4g/view?usp=drivesdk",
-    "name": "GodIsTheLord-pl1st-EN-AR.pdf",
+    "name": "GodIsTheLord-pl1st.pdf",
     "description": "“GOD IS THE LORD” IN TONE FIVE",
     "path": "Bilingual Services / Orthros / 1 God Is The Lord"
   },
@@ -1093,19 +1087,19 @@
   },
   "“GOD IS THE LORD” IN TONE ONE": {
     "url": "https://drive.google.com/file/d/1yTf0Nbnz4vIl8sQM06Fk7p6i0fkJI95n/view?usp=drivesdk",
-    "name": "GodIsTheLord-1st-EN-AR.pdf",
+    "name": "GodIsTheLord-1st.pdf",
     "description": "“GOD IS THE LORD” IN TONE ONE",
     "path": "Bilingual Services / Orthros / 1 God Is The Lord"
   },
   "“GOD IS THE LORD” IN TONE THREE": {
     "url": "https://drive.google.com/file/d/1HjXqjH6CnppIa-KgKdm_G5Ux7xzSyQOP/view?usp=drivesdk",
-    "name": "GodIsTheLord-3rd-EN-AR-GR.pdf",
+    "name": "GodIsTheLord-3rd.pdf",
     "description": "“GOD IS THE LORD” IN TONE THREE",
     "path": "Bilingual Services / Orthros / 1 God Is The Lord"
   },
   "“GOD IS THE LORD” IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1IHceNuL5j0-BRKPIpkMPIj3KtcH3q2No/view?usp=drivesdk",
-    "name": "GodIsTheLord-2nd-GR-EN-AR.pdf",
+    "name": "GodIsTheLord-2nd.pdf",
     "description": "“GOD IS THE LORD” IN TONE TWO",
     "path": "Bilingual Services / Orthros / 1 God Is The Lord"
   },
@@ -1121,16 +1115,16 @@
     "description": "“O LORD OF HOSTS” IN TONE SIX",
     "path": "Bilingual Services / Triodion / Great Compline"
   },
-  "“O LORD, I HAVE CRIED” IN TONE FOUR": {
-    "url": "https://drive.google.com/file/d/15xW8hjkQMHso-Myni3EBV3F7zcEDJ1EG/view?usp=drivesdk",
-    "name": "LordIHaveCriedSlow-4th-SA-EN.pdf",
-    "description": "“O LORD, I HAVE CRIED” IN TONE FOUR",
-    "path": "Bilingual Services / Vespers / 1 Lord I Have Cried"
-  },
   "“O LORD, I HAVE CRIED” IN TONE ONE": {
     "url": "https://drive.google.com/file/d/17DEA9f_1PtIIa7oYruVluspgHkGVtput/view?usp=drivesdk",
     "name": "LordIHaveCriedSlow-1st.pdf",
     "description": "“O LORD, I HAVE CRIED” IN TONE ONE",
+    "path": "Bilingual Services / Vespers / 1 Lord I Have Cried"
+  },
+  "“O LORD, I HAVE CRIED” IN TONE SIX": {
+    "url": "https://drive.google.com/file/d/122WBk-_boMOSSHLw5cB_SIcsg36ZMRDb/view?usp=drivesdk",
+    "name": "LordIHaveCriedSlow-pl2nd.pdf",
+    "description": "“O LORD, I HAVE CRIED” IN TONE SIX",
     "path": "Bilingual Services / Vespers / 1 Lord I Have Cried"
   },
   "“O LORD, I HAVE CRIED” IN TONE THREE": {

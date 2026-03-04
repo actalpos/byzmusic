@@ -174,6 +174,18 @@
     "file": "Service_Texts/variableDate/2026/03/01/Mar 01 2026 Bilingual ORTHROS.html"
   },
   {
+    "date": "2026-03-08",
+    "title": "Mar 07 2026 Bilingual VESP",
+    "order": -1,
+    "file": "Service_Texts/variableDate/2026/03/08/Mar 07 2026 Bilingual VESP.html"
+  },
+  {
+    "date": "2026-03-08",
+    "title": "Mar 08 2026 Bilingual ORTHROS",
+    "order": -1,
+    "file": "Service_Texts/variableDate/2026/03/08/Mar 08 2026 Bilingual ORTHROS.html"
+  },
+  {
     "date": "2026-12-28",
     "title": "Dec 28 2025 Bilingual ORTHROS",
     "order": -1,
