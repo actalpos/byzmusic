@@ -29,6 +29,12 @@
     "description": "AINOI (PRAISES) IN TONE ONE",
     "path": "Bilingual Services / Orthros / 14 Let Every Breath Praises"
   },
+  "AINOI (PRAISES) IN TONE SIX": {
+    "url": "https://drive.google.com/file/d/1tufdZVl0Y6EJUG_8v5p0AENDrvvw2HrM/view?usp=drivesdk",
+    "name": "SlowPraises-pl2nd.pdf",
+    "description": "AINOI (PRAISES) IN TONE SIX",
+    "path": "Bilingual Services / Orthros / 15 Praises"
+  },
   "AINOI (PRAISES) IN TONE THREE": {
     "url": "https://drive.google.com/file/d/1F1gHmvqAArg1b2dGpPfgO_W7FMEIBrRH/view?usp=drivesdk",
     "name": "LetEveryBreath-3rd.pdf",
@@ -221,12 +227,6 @@
     "description": "DOXASTICON FOR ST. GREGORY PALAMAS IN TONE EIGHT",
     "path": "Bilingual Services / Triodion / 7 St Gregory Palamas "
   },
-  "DOXASTICON FOR ST. GREGORY PALAMAS IN TONE SIX": {
-    "url": "https://drive.google.com/file/d/1FEna95UPyUMSeIZ0A_SYmaIPDh6YSo3c/view?usp=drivesdk",
-    "name": "13 DoxastikonPraises pl2nd AA EN GregoryPalamaSunday.pdf",
-    "description": "DOXASTICON FOR ST. GREGORY PALAMAS IN TONE SIX",
-    "path": "Bilingual Services / Triodion / 7 St Gregory Palamas "
-  },
   "DOXASTICON FOR THE FIRST SUNDAY OF GREAT LENT IN TONE SIX": {
     "url": "https://drive.google.com/file/d/1MLYXlwuVVowyMfmaVe-EiQsWHxIzHRIb/view?usp=drivesdk",
     "name": "14 PraisesDoxastikon-pl2nd-Karam-EN-OrthodoxySunday.pdf",
@@ -268,6 +268,12 @@
     "name": "ProdigalSon-SticherasDoxastikon-2nd-EM-EN.pdf",
     "description": "DOXASTICON FOR THE PRODIGAL SON IN TONE TWO",
     "path": "Bilingual Services / Triodion / 2 Prodigal Son"
+  },
+  "DOXASTICON FOR THE SECOND SUNDAY OF LENT IN TONE SIX": {
+    "url": "https://drive.google.com/file/d/1FEna95UPyUMSeIZ0A_SYmaIPDh6YSo3c/view?usp=drivesdk",
+    "name": "13 DoxastikonPraises pl2nd AA EN GregoryPalamaSunday.pdf",
+    "description": "DOXASTICON FOR THE SECOND SUNDAY OF LENT IN TONE SIX",
+    "path": "Bilingual Services / Triodion / 7 St Gregory Palamas "
   },
   "DOXASTICON FOR THE SUNDAY OF THE LAST JUDGMENT IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/1EShRmAbj6Bgm0vu_EMtA_2NdKM8fkPoi/view?usp=drivesdk",
@@ -316,6 +322,12 @@
     "name": "12 Exaposteilarion-2nd-AA-EN-OrthodoxySunday-W.pdf",
     "description": "EXAPOSTEILIARION & THEOTOKION FOR FIRST SUNDAY OF GREAT LENT\nIN TONE TWO (**Hearken, ye women**)",
     "path": "Bilingual Services / Triodion / 6 Orthodoxy Sunday"
+  },
+  "EXAPOSTEILIARION & THEOTOKION FOR ST. GREGORY PALAMAS IN TONE TWO (**UPON THAT MOUNT IN GALILEE **)": {
+    "url": "https://drive.google.com/file/d/17nNORpr33cKJc5PlJwOmUlDIvuuo0c4-/view?usp=drivesdk",
+    "name": "11 Exaposteilarion 2nd AA EN GregoryPalamaSunday.pdf",
+    "description": "EXAPOSTEILIARION & THEOTOKION FOR ST. GREGORY PALAMAS\nIN TONE TWO\n(**Upon that mount in Galilee **)",
+    "path": "Bilingual Services / Triodion / 7 St Gregory Palamas "
   },
   "EXAPOSTEILIARION & THEOTOKION FOR THE SUNDAY OF FORGIVENESS IN TONE TWO (**HEARKEN, YE WOMEN **)": {
     "url": "https://drive.google.com/file/d/1gIWbCrZ0tf1m95oz7C-5JkX_6UqW4ppb/view?usp=drivesdk",
@@ -473,6 +485,12 @@
     "description": "KATAVASIAE OF THE SUNDAY OF LAST JUDGMENT CANON IN TONE SIX",
     "path": "Bilingual Services / Orthros / 11A Katavasies"
   },
+  "KATAVASIAE OF THE THEOTOKOS CANON IN TONE FOUR": {
+    "url": "https://drive.google.com/file/d/1h3h9ka5Op5LshuPG9H6xHPBTXGRv7n3z/view?usp=drivesdk",
+    "name": "Ode1-9-4th-TheotokosAkathist-Traditional.pdf",
+    "description": "KATAVASIAE OF THE THEOTOKOS CANON IN TONE FOUR",
+    "path": "Bilingual Services / Orthros / 11A Katavasies"
+  },
   "KATHISMA HYMNS OF SOULS SATURDAY IN TONE FIVE": {
     "url": "https://drive.google.com/file/d/1YC_vYDJyJ0ipxSRIC2SQwXE6h4xSrnRA/view?usp=drivesdk",
     "name": "6 Kathismata-pl1st-Karam-EN-SaturdaySouls.pdf",
@@ -621,6 +639,12 @@
     "url": "https://drive.google.com/file/d/1p1K4ARciIjZVthgS3pSx9HeZ_Rh06o3v/view?usp=drivesdk",
     "name": "Prokeimenon-1st.pdf",
     "description": "PROKEIMENON FOR THE RESURRECTION IN TONE ONE",
+    "path": "Bilingual Services / Orthros / 8 Prokeimenon for the Resurrection"
+  },
+  "PROKEIMENON FOR THE RESURRECTION IN TONE SIX": {
+    "url": "https://drive.google.com/file/d/1e9EF8zFOtKEtQ3AmqJmZ_L1FauWsIKbx/view?usp=drivesdk",
+    "name": "Prokeimenon-pl2nd.pdf",
+    "description": "PROKEIMENON FOR THE RESURRECTION IN TONE SIX",
     "path": "Bilingual Services / Orthros / 8 Prokeimenon for the Resurrection"
   },
   "PROKEIMENON FOR THE RESURRECTION IN TONE THREE": {
@@ -851,6 +875,12 @@
     "description": "THE SECOND EOTHINON EXAPOSTEILARION IN TONE TWO",
     "path": "Bilingual Services / Orthros / 13 Eothion Exapoteilarion"
   },
+  "THE SIXTH EOTHINON EXAPOSTEILARION IN TONE TWO (**UPON THAT MOUNT IN GALILEE **)": {
+    "url": "https://drive.google.com/file/d/1a1ODfS4I1faqmAVlhBj-dAzoyH_25YNm/view?usp=drivesdk",
+    "name": "6th-EothinonExapostelarion-2nd-TonyH.pdf",
+    "description": "THE SIXTH EOTHINON EXAPOSTEILARION IN TONE TWO\n(**Upon that mount in Galilee **)",
+    "path": "Bilingual Services / Orthros / 13 Eothion Exapoteilarion"
+  },
   "THE THIRD EOTHINON EXAPOSTEILARION IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1jyWfm3vKUBiraKfO_GwlbRvnrNhJebmr/view?usp=drivesdk",
     "name": "3rd-EothinonExapostelarion-2nd-TonyH.pdf",
@@ -971,6 +1001,12 @@
     "description": "[O] DOXASTICON OF THE PRODIGAL SON IN TONE SIX",
     "path": "Bilingual Services / Triodion / 2 Prodigal Son"
   },
+  "[O] FOR ST. GREGORY PALAMAS IN TONE ONE (**THOU ART THE JOY**)": {
+    "url": "https://drive.google.com/file/d/1N__RXg3gFEbcGffBmHqoKvBsoH7CSgEH/view?usp=drivesdk",
+    "name": "12 Praises 2nd AA EN GregoryPalamaSunday.pdf",
+    "description": "[O] For St. Gregory Palamas in Tone One (**Thou art the joy**)",
+    "path": "Bilingual Services / Triodion / 7 St Gregory Palamas "
+  },
   "[O] FOR THE PRODIGAL SON": {
     "url": "https://drive.google.com/file/d/114fSgasq-doe58xxK-no6Rwk-w5ah_yF/view?usp=drivesdk",
     "name": "ProdigalSon-Praises-2nd-Karam-EN.pdf",
@@ -1089,6 +1125,12 @@
     "url": "https://drive.google.com/file/d/1yTf0Nbnz4vIl8sQM06Fk7p6i0fkJI95n/view?usp=drivesdk",
     "name": "GodIsTheLord-1st.pdf",
     "description": "“GOD IS THE LORD” IN TONE ONE",
+    "path": "Bilingual Services / Orthros / 1 God Is The Lord"
+  },
+  "“GOD IS THE LORD” IN TONE SIX": {
+    "url": "https://drive.google.com/file/d/1fFCcbspVgg-Yb3de_NMDUbMM3LGMoWut/view?usp=drivesdk",
+    "name": "GodIsTheLord-pl2nd.pdf",
+    "description": "“GOD IS THE LORD” IN TONE SIX",
     "path": "Bilingual Services / Orthros / 1 God Is The Lord"
   },
   "“GOD IS THE LORD” IN TONE THREE": {
