@@ -1,69 +1,90 @@
-/**********************
- * TABLE LAYOUT
- **********************/
-table {
-  border-collapse: collapse;
-  table-layout: fixed;          /* control total din CSS */
-  width: 100% !important;
-  max-width: 900px;             /* desktop */
-  margin: 1rem auto;            /* centrat */
-  float: none !important;
-}
-
-/* 2 coloane egale */
-td, th {
-  vertical-align: top;
-  padding: 12px !important;
-  width: 50% !important;
-  max-width: 50%;
-  box-sizing: border-box;
-  overflow-wrap: break-word;
-  word-break: break-word;
-}
-
-/**********************
- * TITLURI (colspan)
- **********************/
-td[colspan] {
-  text-align: center;
-}
-
-td[colspan] > p {
-  text-align: center !important;
-  margin: 0 auto;
-  font-weight: bold;
-}
-
-/**********************
- * WORD / LIBRE RESET
- **********************/
-p {
-  float: none !important;
-  position: static !important;
-  margin: 0;
-  padding: 0;
-}
-
-/**********************
- * LINKURI
- **********************/
-td p a {
-  font-weight: bold !important;
-  text-decoration: underline !important;
-  color: #0000EE !important;
-  font-size: inherit;
-  font-family: inherit;
-}
-
-td p a:visited {
-  color: #0000EE !important;
-}
+/* 
+ layout.css
+ Generated: 2026-03-10 19:10
+ Controls typography and table layout.
+*/
 
 /**********************
  * BODY
  **********************/
 body {
   margin: 1rem;
+  line-height: 1.4;
+  font-size: 18px;
+}
+
+/**********************
+ * TABLE LAYOUT
+ **********************/
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100% !important;
+  max-width: 900px;
+  margin: 1rem auto;
+  float: none !important;
+  direction: ltr;
+}
+
+td, th {
+  vertical-align: top;
+  padding: 12px !important;
+  width: 50% !important;
+  box-sizing: border-box;
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+/**********************
+ * ENGLISH / ARABIC TYPOGRAPHY
+ **********************/
+td[dir="ltr"] p {
+  font-family: "Times New Roman", Georgia, serif !important;
+  font-size: 26px !important;
+  line-height: 1.5 !important;
+}
+
+td[dir="rtl"] p {
+  font-family: "Amiri","Noto Naskh Arabic","Scheherazade",serif !important;
+  font-size: 28px !important;
+  line-height: 1.7 !important;
+}
+
+/**********************
+ * TITLES (colspan rows)
+ **********************/
+td[colspan] > p {
+  text-align: center !important;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 26px !important;
+}
+
+/**********************
+ * FORCE TYPOGRAPHY CLEAN
+ **********************/
+td p,
+td p * {
+  font-size: inherit !important;
+  font-family: inherit !important;
+}
+
+/**********************
+ * LINKS
+ **********************/
+td p a {
+  font-weight: bold !important;
+  text-decoration: underline !important;
+  color: #0000EE !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+}
+
+/**********************
+ * TABLE BORDERS
+ **********************/
+table td {
+  border: 1px solid #000;
 }
 
 /**********************
@@ -71,7 +92,11 @@ body {
  **********************/
 @media (max-width: 600px) {
   table {
-    min-width: 600px; /* scroll orizontal corect */
+    min-width: 500px;
+  }
+
+  td {
+    padding: 10px !important;
   }
 }
 
@@ -80,26 +105,3 @@ body {
     max-width: 80% !important;
   }
 }
-
-/* ======================
- * DISABLE ALL TEXT SELECTION (TABLE CONTENT)
- * ====================== */
-
-/* table,
-table * {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-
-  -webkit-touch-callout: none;
-} */
-
-/* Elimină orice highlight vizual */
-/* ::selection {
-  background: transparent;
-}
-
-::-moz-selection {
-  background: transparent;
-} */

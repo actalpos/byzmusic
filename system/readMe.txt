@@ -1,23 +1,77 @@
-Tools created:
-Pdftxt2img.sh # transforms the PDF's from the current folder into image type pdf's
+This application is to facilitate the aggregation of hymns in religious service and make the service accessible on the web or mobile Devices
 
-|--Service_Texts has:
-    |--system
-      |-- data
+The process
+=============
+
+The service files used are found on the Antiochian Archdiocese site in RTF format having bylingual content arranged on 2 table columns, English and Arabic.
+The service text content mark the required hymns with a title, usually bolded with upper case characters, but not always. Ex "OR LORD" I HAVE CRIED. 
+The titles can have different extra characters in them as in the above example. Currently we do exact match on the hymn title content. 
+
+To help the chanters find the required hymns quickly, the ask is to make the hymn titles as link to the hymn sitting in the Google drive hymn repository.
+Also the link should open a new tab.
+
+The following process takes place for each service to address the requirement:
+1. Download the rtf bilingual service file from the Antiochian Archdiocese site
+2. Open it with Microsoft word and save it as docx file
+3. Open the docx file with LibreOffice and save it as html file. The html is preferred because the link can be controlled to open in a new tab.
+4. Edit the html file and add the following 3 lines to correct the previous steps conversion issues, to make the html responsive and to add the hymn title links
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../../../../../system/styles/layout-fixes.css">
+	<script src="../../../../../system/scripts/layout-fixes-and-links.js" defer></script>	
+
+5. Add the html to the Service_Texts folder in the required fixDate/variableDate and month/date folder (see the folder structe below)
+6. Run the update-liturgical-service-file-list.js script to add the new html service file to the liturgical-service-file-list.json
+7. Run the local python server if not running already
+8. The file should be already picked up by the index.html. Check the file format and the links. If there is link missing add the hymn title to the hymn pdf description field in the Google drive repository.
+9. Run update-title-link.js to update the titleLink.json file.
+10. If all ok publish to github repo.
+
+We try to avoid any manual content customization on the html page.
+
+
+TODO: A new challenge is that a hymn could have more than one versions. In this case the ask is to have the title hymn display normal, but have the multiple versions displayed as links so that the chanter can 
+select any of the versions. 
+Example: title: "O LORD" I HAVE CRIED
+has 2 versions: Slow and Brief and the result should be: "O LORD" I HAVE CRIED (Slow) (Brief) with (Slow) (Brief) as hyperlinks
+Or a hymn could have 2 different authors. The ask is to shouw the differences ex title: Apolitikion Resurrection (SA) (AA)
+(SA) (AA) to be shouwn as hyperlinks selectable individually.
+
+
+
+The has 2 parts: 
+- web application responsible for accessing services
+- hymn repository responsible for providing hymns in pdf format
+
+A. The web application:
+========================
+
+Has the following structure:
+
+Index.html - responsible for displaying the religious services by year/month/day in the form of times on web or mobile device (responsive)
+the content is Fed from /system/data/liturgical-service-file-list.json file
+
+|--assets                                             <---- folder responsible for holding the required web libraries, images, etc.
+
+|--system                                             <---- folder responsible for organizing the site data and maintenance scripts
+   |-- data
           |-- liturgical-service-file-list.json       <---- file holding the current summary of the /fixDate and /variableDate html file names/path/display name, used by index.html to show the list
           |-- titleLink.json                          <---- file to hold the file google drive link and the Description. The Description is the HTML text that will be converted to hyperlink in realtime when opening the Html
           |-- divine_liturgy.json                     <---- file holding the Divine_Liturgy.html content
-      |-- scripts
+   |-- scripts
           |-- generate_divine_liturgy_html.js         <---- generate /template/divine_Liturgy.html from divine_liturgy.json
-          |-- update-liturgical-service-file-list.js  <---- script to refresh the service_texts_summary after adding html files
-	  |-- update-title-link.json                  <---- script to run the google script scan https://script.google.com/u/1/home/projects/10SMApOvsRJ-7K5knca8Q-hl1rIPpWyTP1pC772_wuh9nqmG2rw6weJ7g/edit 
+          |-- update-liturgical-service-file-list.js  <---- script to refresh the liturgical-service-file-list.json after adding html files
+	        |-- update-title-link.js                    <---- script to run the google script scan https://script.google.com/u/1/home/projects/10SMApOvsRJ-7K5knca8Q-hl1rIPpWyTP1pC772_wuh9nqmG2rw6weJ7g/edit 
                                                             to scan the file descriptions and to update the system/data/titleLink.json file
           |-- validate_service_texts_summary.js.      <---- script to vlidate after the above was run
           |-- copy_template.sh                        <---- copies /template/divine_Liturgy.html into the following low level folders:
+          |-- layout-fixes-and-links.js               <---- realtime script to fix any issues during rtf to html conversion and to feed the related links from the titleLink json file
+
+|--Service_Texts                                      <---- folder responsible with dates and the service files
+
     |--fixed  <-Folder for the fix-date feasts:
       |--01
         |-06
-          Divine_Liturgy_Variables.html 
+          Divine_Liturgy_Variables.html               <---- html files with the liturgical service content
           Vespers.html
           Orthros.html               
         |-07
@@ -47,6 +101,71 @@ Pdftxt2img.sh # transforms the PDF's from the current folder into image type pdf
 
   |--template
     Divine_Liturgy.html
+
+|-- styles
+    layout-fixes.css                                <--- responsible to fix any css issue resulted in the rtf to html conversion    
+
+
+1 Technical details:
+Currently running on GitHub pages. It can be found on GitHub at the publicly accessible actalpos/byzmusic project.
+It is compiled and tested locally and pushed to Gitbub via normal procedure
+
+2 Content:
+Services can be on a fixed date of the year or on a variable date, which repeats after 6 years.
+The html files
+
+  System folder
+  -------------
+  folder responsible for organizing the site data and maintenance scripts
+  data:
+  - liturgical-service-file-list.json file holding the current summary of the /fixDate and /variableDate html file names/path/display name, used by index.html to show the list, example:
+    {
+      {
+        "date": "2026-02-22",
+        "title": "Feb 22 2026 Bilingual ORTHROS",
+        "order": -1,
+        "file": "Service_Texts/variableDate/2026/02/22/Feb 22 2026 Bilingual ORTHROS.html"
+      },
+      {
+        "date": "2026-02-22",
+        "title": "Feb 22 2026 Bilingual VESP",
+        "order": -1,
+        "file": "Service_Texts/variableDate/2026/02/22/Feb 22 2026 Bilingual VESP.html"
+      },
+    ....
+    }
+
+    it gets generated by running the node script update-liturgical-service-file-list.js
+
+  - titleLink.json (should be renamed to hymnTitleLink) file to hold the google drive file link that has the Description set to the hymn title. 
+  The Description is the HTML text that will be converted to hyperlink in realtime when opening the Html by the layout-fixes-and-links.js script
+  example:
+  {
+        "RESURRECTIONAL APOLYTIKION IN TONE SIX": {
+      "url": "https://drive.google.com/file/d/1lFQbTX-qhwPlWcoPQPWD_jtnD409hpfr/view?usp=drivesdk",
+      "name": "ApolitikionResurrection-pl2nd.pdf",
+      "description": "RESURRECTIONAL APOLYTIKION\nIN TONE SIX",
+      "path": "Bilingual Services / Vespers / 9 Resurrection Apolitikion"
+    },
+    "RESURRECTIONAL APOLYTIKION IN TONE THREE": {
+      "url": "https://drive.google.com/file/d/1d-vAeWe8ZyuU2RkW6SX65k-Aq2v7Lgdw/view?usp=drivesdk",
+      "name": "ApolitikionResurrection-3rd.pdf",
+      "description": "RESURRECTIONAL APOLYTIKION\nIN TONE THREE",
+      "path": "Bilingual Services / Vespers / 9 Resurrection Apolitikion"
+    },
+    ...
+  }
+
+  scripts:
+  - layout-fixes-and-links.js realtime script to fix any html issues generated during rtf to html conversion and to feed the related links from the titleLink json file, and to make the html responsive
+  the reference to this scripts gets added manually during the rtf to html conversion process
+  - update-liturgical-service-file-list.js script to refresh the liturgical-service-file-list.json after manually adding html files into the Service_Texts folder structure
+  - update-title-link.json script to trigger the google script scan https://script.google.com/u/1/home/projects/10SMApOvsRJ-7K5knca8Q-hl1rIPpWyTP1pC772_wuh9nqmG2rw6weJ7g/edit to scan the file descriptions 
+  and to update the system/data/titleLink.json file
+
+
+Tools created:
+Pdftxt2img.sh # transforms the PDF's from the current folder into image type pdf's
 
 The front end index.html will ask the userr to select a month
 The app renders the Html file names found in the liturgical-service-file-list.json  for the selected month from
@@ -92,20 +211,6 @@ titleLink.json file format:
 
 maintenance
 ------------
-
-1. Adding a new feast date, respect the current folder naming convention.
-
-2. Adding a new feast file, use the rtf billingual service file provided by the 
-Antioch Archdiocese:
-- edit it in Word and save it as docx 
-- extend line spacing (and increase the English font size to 16 or 18px)
-- open the docx with LibreOffice and save it as html
-- edit and remove from table tag the "dir" and "width" should be 100%
-- add the following 3 lines:
-
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="../../../../../system/styles/layout-fixes.css">
-	<script src="../../../../../system/scripts/layout-fixes-and-links.js" defer></script>	
 
 - for the imported PDF's from SA and AA apply this script:
 gs -sDEVICE=pdfimage24 -dSAFER -dBATCH -dNOPAUSE    -r300    -sOutputFile=out.pdf in.pdf
