@@ -223,7 +223,7 @@ document.querySelectorAll("td p").forEach(p => {
       a.href = v.url;
       a.target = "_blank";
       a.rel = "noopener noreferrer";
-      a.textContent = `( ${v.label} )`;
+      a.textContent = `(${v.label})`;
 
       span.appendChild(space);
       span.appendChild(a);
