@@ -35,6 +35,21 @@
     "description": "AINOI (PRAISES) IN TONE ONE",
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros / 14 Let Every Breath Praises"
   },
+  "AINOI ( PRAISES ) IN TONE SEVEN": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "BRIEF",
+        "url": "https://drive.google.com/file/d/1iGO5PgHaQ1NYl-A_ZWbLxffyJ5Iu0oO9/view?usp=drivesdk",
+        "name": "LetEveryBreath-grave.pdf"
+      },
+      {
+        "label": "SLOW",
+        "url": "https://drive.google.com/file/d/1F-VeNc0sO5Mi0OLXRvJvoXRkRmXEhdfn/view?usp=drivesdk",
+        "name": "SlowPraises-grave.pdf"
+      }
+    ]
+  },
   "AINOI ( PRAISES ) IN TONE SIX": {
     "url": "https://drive.google.com/file/d/1tufdZVl0Y6EJUG_8v5p0AENDrvvw2HrM/view?usp=drivesdk",
     "name": "SlowPraises-pl2nd.pdf",
@@ -268,6 +283,12 @@
     "description": "DOXASTICON FOR THE SECOND SUNDAY OF LENT IN TONE SIX",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 6 St Gregory Palamas"
   },
+  "DOXASTICON FOR THIRD SUNDAY OF GREAT LENT IN TONE EIGHT": {
+    "url": "https://drive.google.com/file/d/1UWOIXI172ndjJYXggUXq040uIyaNxGsH/view?usp=drivesdk",
+    "name": "14 PraisesDoxastikon-pl4th-Karam.pdf",
+    "description": "DOXASTICON FOR THIRD SUNDAY OF GREAT LENT IN TONE EIGHT",
+    "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 8 Veneration of the Cross"
+  },
   "DOXASTICON FOR THIRD SUNDAY OF GREAT LENT IN TONE FOUR": {
     "type": "multi",
     "versions": [
@@ -327,6 +348,12 @@
     "name": "12 Exaposteilarion-2nd-AA-EN-OrthodoxySunday-W.pdf",
     "description": "EXAPOSTEILIARION & THEOTOKION FOR FIRST SUNDAY OF GREAT LENT\nIN TONE TWO (**Hearken, ye women**)",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 5 Orthodoxy Sunday"
+  },
+  "EXAPOSTEILIARION & THEOTOKION FOR THE HOLY CROSS IN TONE TWO ( UPON THAT MOUNT IN GALILEE )": {
+    "url": "https://drive.google.com/file/d/1Ovs7Z7r3rhCbe6BJFy2gOjyD6EJwlIK-/view?usp=drivesdk",
+    "name": "12 Exaposteilarion-2nd-AA.pdf",
+    "description": "EXAPOSTEILIARION & THEOTOKION FOR THE HOLY CROSS IN TONE TWO (**Upon that mount in Galilee**)",
+    "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 8 Veneration of the Cross"
   },
   "EXAPOSTEILIARION & THEOTOKION FOR THE SUNDAY OF FORGIVENESS IN TONE TWO ( HEARKEN, YE WOMEN )": {
     "url": "https://drive.google.com/file/d/1gIWbCrZ0tf1m95oz7C-5JkX_6UqW4ppb/view?usp=drivesdk",
@@ -400,6 +427,12 @@
     "description": "For the Third Sunday of Great Lent\nin Tone Five (**Rejoice**)",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 8 Veneration of the Cross"
   },
+  "FOR THE THIRD SUNDAY OF GREAT LENT IN TONE FOUR ( AS ONE VALIANT )": {
+    "url": "https://drive.google.com/file/d/1O1XiswqYo9ma1zPnDZvZJiXYEWbpel3S/view?usp=drivesdk",
+    "name": "13 Praises-4th-ElMassih.pdf",
+    "description": "For the Third Sunday of Great Lent\nin Tone Four (**As one valiant**)",
+    "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 8 Veneration of the Cross"
+  },
   "GOD IS THE LORD IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/12NdsHNPti64R1Xv6_v4OTjb6YtF-qUcV/view?usp=drivesdk",
     "name": "GodIsTheLord-pl4th.pdf",
@@ -422,6 +455,12 @@
     "url": "https://drive.google.com/file/d/1yTf0Nbnz4vIl8sQM06Fk7p6i0fkJI95n/view?usp=drivesdk",
     "name": "GodIsTheLord-1st.pdf",
     "description": "“GOD IS THE LORD” IN TONE ONE",
+    "path": "Byzantine Music / EnglishByzantineMusic / Orthros / 1 God Is The Lord"
+  },
+  "GOD IS THE LORD IN TONE SEVEN": {
+    "url": "https://drive.google.com/file/d/1gvemq7mO8pXoHpNuUqycSvOkoUhXHE6W/view?usp=drivesdk",
+    "name": "GodIsTheLord-grave.pdf",
+    "description": "“GOD IS THE LORD” IN TONE SEVEN",
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros / 1 God Is The Lord"
   },
   "GOD IS THE LORD IN TONE SIX": {
@@ -571,6 +610,16 @@
     "description": "MAGNIFICATIONS IN TONE FOUR",
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros / 11B Theotokion Magnifications"
   },
+  "MAGNIFICATIONS IN TONE ONE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "EL MASSIH",
+        "url": "https://drive.google.com/file/d/1w3gzCC19pi-avrUn1xiqixip632ao7Ds/view?usp=drivesdk",
+        "name": "MoreHonarable-1st.pdf"
+      }
+    ]
+  },
   "MAGNIFICATIONS IN TONE SIX": {
     "url": "https://drive.google.com/file/d/1w41HeNTq62iVEbFKDj7aR86JnOoLSqHp/view?usp=drivesdk",
     "name": "MoreHonarable-pl2nd.pdf",
@@ -678,6 +727,16 @@
     "name": "Prokeimenon-1st.pdf",
     "description": "PROKEIMENON FOR THE RESURRECTION IN TONE ONE",
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros / 8 Prokeimenon for the Resurrection"
+  },
+  "PROKEIMENON FOR THE RESURRECTION IN TONE SEVEN": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "KARAM",
+        "url": "https://drive.google.com/file/d/1GshvIkb-2zDzDib7YN_4lK5-DKJ-YqkW/view?usp=drivesdk",
+        "name": "Ode1-9-1st-Karam-VenerationOfCrossSunday.pdf"
+      }
+    ]
   },
   "PROKEIMENON FOR THE RESURRECTION IN TONE SIX": {
     "url": "https://drive.google.com/file/d/1e9EF8zFOtKEtQ3AmqJmZ_L1FauWsIKbx/view?usp=drivesdk",
@@ -923,6 +982,12 @@
     "url": "https://drive.google.com/file/d/1fjl-RnFx14euCyYNfi3K4f3P7ay6Tir1/view?usp=drivesdk",
     "name": "2nd-EothinonExapostelarion-2nd-TonyH.pdf",
     "description": "THE SECOND EOTHINON EXAPOSTEILARION IN TONE TWO",
+    "path": "Byzantine Music / EnglishByzantineMusic / Orthros / 13 Eothion Exapoteilarion"
+  },
+  "THE SEVENTH EOTHINON EXAPOSTEILARION IN TONE TWO ( UPON THAT MOUNT IN GALILEE )": {
+    "url": "https://drive.google.com/file/d/1XoGJ19keCD79nfKdv_LJuh0BiDtfgk95/view?usp=drivesdk",
+    "name": "7th-EothionExaposteilarion-2nd-TonyH.pdf",
+    "description": "THE SEVENTH EOTHINON EXAPOSTEILARION IN TONE TWO\n(**Upon that mount in Galilee **)",
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros / 13 Eothion Exapoteilarion"
   },
   "THE SIXTH EOTHINON EXAPOSTEILARION IN TONE TWO ( UPON THAT MOUNT IN GALILEE )": {
