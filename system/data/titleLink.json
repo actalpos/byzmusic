@@ -703,6 +703,12 @@
     "description": "PSALM 136 BY THE WATERS OF BABYLON",
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros / 5 Polyeleos"
   },
+  "RESURRECTIONAL APOLYTIKION IN TONE EIGHT": {
+    "url": "https://drive.google.com/file/d/19KRK8VgVQpkwacFvSlPPn0V4thOZuZ5v/view?usp=drivesdk",
+    "name": "ApolytikionResurrection-pl4th.pdf",
+    "description": "RESURRECTIONAL APOLYTIKION\nIN TONE EIGHT",
+    "path": "Byzantine Music / Bilingual Services / Vespers / 7 Resurrection Apolitikion"
+  },
   "RESURRECTIONAL APOLYTIKION IN TONE FIVE": {
     "url": "https://drive.google.com/file/d/18g9KLrLd2k4-sxkQxR-AOIAjizbyWrtR/view?usp=drivesdk",
     "name": "ApolytikionResurrection-pl1st.pdf",
@@ -749,13 +755,43 @@
     "url": "https://drive.google.com/file/d/1lgk7oyCxU9KjqykOulGsrf2FSAdFxUYd/view?usp=drivesdk",
     "name": "ApolytikionResurrectionTheotokion-pl4th.pdf",
     "description": "RESURRECTIONAL THEOTOKION\nIN TONE EIGHT",
-    "path": "Byzantine Music / EnglishByzantineMusic / Vespers / 8 Resurrection Apolitikion Theotokion"
+    "path": "Byzantine Music / Bilingual Services / Vespers / 8 Resurrection Apolitikion Theotokion"
+  },
+  "RESURRECTIONAL THEOTOKION IN TONE FIVE": {
+    "url": "https://drive.google.com/file/d/1Y0SA2drbxhY0AONSOkFt_dC_5w82ErWx/view?usp=drivesdk",
+    "name": "ApolytikionResurrectionTheotokion-pl1st.pdf",
+    "description": "RESURRECTIONAL THEOTOKION\nIN TONE FIVE",
+    "path": "Byzantine Music / Bilingual Services / Vespers / 8 Resurrection Apolitikion Theotokion"
+  },
+  "RESURRECTIONAL THEOTOKION IN TONE FOUR": {
+    "url": "https://drive.google.com/file/d/17nxMzzLnZ5GxbicWOTlrR4OO66Z-vxz-/view?usp=drivesdk",
+    "name": "ApolytikionResurrectionTheotokion-4th.pdf",
+    "description": "RESURRECTIONAL THEOTOKION\nIN TONE FOUR",
+    "path": "Byzantine Music / Bilingual Services / Vespers / 8 Resurrection Apolitikion Theotokion"
+  },
+  "RESURRECTIONAL THEOTOKION IN TONE ONE": {
+    "url": "https://drive.google.com/file/d/1C3Kj2gffid4xgO9iHcfkynzFxllh4Th7/view?usp=drivesdk",
+    "name": "ApolytikionResurrectionTheotokion-1st.pdf",
+    "description": "RESURRECTIONAL THEOTOKION\nIN TONE ONE",
+    "path": "Byzantine Music / Bilingual Services / Vespers / 8 Resurrection Apolitikion Theotokion"
+  },
+  "RESURRECTIONAL THEOTOKION IN TONE SEVEN": {
+    "url": "https://drive.google.com/file/d/1hT2f5MWQsN6flkmVk5PxsHJwHgXaM-cD/view?usp=drivesdk",
+    "name": "ApolytikionRessurectionTheotokion-grave.pdf",
+    "description": "RESURRECTIONAL THEOTOKION\nIN TONE SEVEN",
+    "path": "Byzantine Music / Bilingual Services / Vespers / 8 Resurrection Apolitikion Theotokion"
+  },
+  "RESURRECTIONAL THEOTOKION IN TONE SIX": {
+    "url": "https://drive.google.com/file/d/1UKONFGJCbqfZnrUCTbnKyQz7yiDPF5hi/view?usp=drivesdk",
+    "name": "ApolytikionResurrectionTheotokion-pl2nd.pdf",
+    "description": "RESURRECTIONAL THEOTOKION\nIN TONE SIX",
+    "path": "Byzantine Music / Bilingual Services / Vespers / 8 Resurrection Apolitikion Theotokion"
   },
   "RESURRECTIONAL THEOTOKION IN TONE THREE": {
     "url": "https://drive.google.com/file/d/1eJs28qAL-3rbvglMn8uWC5epkx-oyDSR/view?usp=drivesdk",
     "name": "ApolytikionResurrectionTheotokion-3rd.pdf",
     "description": "RESURRECTIONAL THEOTOKION\nIN TONE THREE",
-    "path": "Byzantine Music / EnglishByzantineMusic / Vespers / 8 Resurrection Apolitikion Theotokion"
+    "path": "Byzantine Music / Bilingual Services / Vespers / 8 Resurrection Apolitikion Theotokion"
   },
   "RIGHT: O ALL-HOLY THEOTOKOS, FORSAKE ME NOT IN THE YEARS OF MY LIFE, O INTECESSOR FOR MANKIND; BUT HELP ME AND HAVE MERCY ON ME.": {
     "url": "https://drive.google.com/file/d/185xHn4adH3583dMWymJCkCAxE_iYdBlU/view?usp=drivesdk",
@@ -986,7 +1022,7 @@
     "url": "https://drive.google.com/file/d/1QVqkMehs91HnJorhDoSxbhHk17jVHNWn/view?usp=drivesdk",
     "name": "ApolytikionResurrectionTheotokion-2nd.pdf",
     "description": "THEOTOKION IN TONE TWO",
-    "path": "Byzantine Music / EnglishByzantineMusic / Vespers / 8 Resurrection Apolitikion Theotokion"
+    "path": "Byzantine Music / Bilingual Services / Vespers / 8 Resurrection Apolitikion Theotokion"
   },
   "THEOTOKION IN TONE TWO ( WHEN HE TOOK THEE )": {
     "url": "https://drive.google.com/file/d/1Jwr_U3OP-hkl5OnlBMluK4pDhELnHoXz/view?usp=drivesdk",
