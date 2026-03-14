@@ -293,6 +293,11 @@
     "type": "multi",
     "versions": [
       {
+        "label": "KARAM",
+        "url": "https://drive.google.com/file/d/1eOAhLn4Wd2_CGNp6FjFEfQynWfr4UyF2/view?usp=drivesdk",
+        "name": "3B ApostichaDoxastikondox-4th-Karam.pdf"
+      },
+      {
         "label": "GC",
         "url": "https://drive.google.com/file/d/1qbERwnA2AkHtkai-mnwQEitYxg1F_9Ft/view?usp=drivesdk",
         "name": "3B ApostichaDoxastikondox-4th-GC.pdf"
@@ -307,6 +312,11 @@
   "DOXASTICON FOR THIRD SUNDAY OF GREAT LENT IN TONE THREE": {
     "type": "multi",
     "versions": [
+      {
+        "label": "KARAM",
+        "url": "https://drive.google.com/file/d/1i1RZCDEAgNCYJZDWxAVa17wOpN3J0uo_/view?usp=drivesdk",
+        "name": "2A SticherasDoxastikon-3rd-AA-Karam.pdf"
+      },
       {
         "label": "KAZAN",
         "url": "https://drive.google.com/file/d/1fiIJPexDKKZNIcju91G9YetEFxMc3bHK/view?usp=drivesdk",
