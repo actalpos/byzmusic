@@ -301,11 +301,6 @@
         "label": "GC",
         "url": "https://drive.google.com/file/d/1qbERwnA2AkHtkai-mnwQEitYxg1F_9Ft/view?usp=drivesdk",
         "name": "3B ApostichaDoxastikondox-4th-GC.pdf"
-      },
-      {
-        "label": "KAZAN",
-        "url": "https://drive.google.com/file/d/1UePRPd4MdFsdm4ko8ofIREUQqRvaoAJ9/view?usp=drivesdk",
-        "name": "3 ApostichaDoxastikondox-4th-Kazan-W.pdf"
       }
     ]
   },
@@ -316,11 +311,6 @@
         "label": "KARAM",
         "url": "https://drive.google.com/file/d/1i1RZCDEAgNCYJZDWxAVa17wOpN3J0uo_/view?usp=drivesdk",
         "name": "2A SticherasDoxastikon-3rd-AA-Karam.pdf"
-      },
-      {
-        "label": "KAZAN",
-        "url": "https://drive.google.com/file/d/1fiIJPexDKKZNIcju91G9YetEFxMc3bHK/view?usp=drivesdk",
-        "name": "2A SticherasDoxastikon-3rd-AA-Kazan-W.pdf"
       },
       {
         "label": "GC",
@@ -557,6 +547,16 @@
     "description": "KATAVASIAE OF THE THEOTOKOS CANON IN TONE FOUR",
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros / 11A Katavasies"
   },
+  "KATAVASIAE OF THIRD SUNDAY OF GREAT LENT CANON IN TONE ONE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "KARAM",
+        "url": "https://drive.google.com/file/d/1J6hWuOsiZNEnz1oqfLSP240g7S5F_zbn/view?usp=drivesdk",
+        "name": "11 Ode1-9-1st-VenerationOfCrossSunday.pdf"
+      }
+    ]
+  },
   "KATHISMA HYMNS OF SOULS SATURDAY IN TONE FIVE": {
     "url": "https://drive.google.com/file/d/1YC_vYDJyJ0ipxSRIC2SQwXE6h4xSrnRA/view?usp=drivesdk",
     "name": "6 Kathismata-pl1st-Karam-EN-SaturdaySouls.pdf",
@@ -739,14 +739,10 @@
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros / 8 Prokeimenon for the Resurrection"
   },
   "PROKEIMENON FOR THE RESURRECTION IN TONE SEVEN": {
-    "type": "multi",
-    "versions": [
-      {
-        "label": "KARAM",
-        "url": "https://drive.google.com/file/d/1GshvIkb-2zDzDib7YN_4lK5-DKJ-YqkW/view?usp=drivesdk",
-        "name": "Ode1-9-1st-Karam-VenerationOfCrossSunday.pdf"
-      }
-    ]
+    "url": "https://drive.google.com/file/d/1JOqs7wE2zNmOH_1ugtQaXLU-Pn6jfDSJ/view?usp=drivesdk",
+    "name": "Prokeimenon-grave.pdf",
+    "description": "PROKEIMENON FOR THE RESURRECTION IN TONE SEVEN",
+    "path": "Byzantine Music / EnglishByzantineMusic / Orthros / 8 Prokeimenon for the Resurrection"
   },
   "PROKEIMENON FOR THE RESURRECTION IN TONE SIX": {
     "url": "https://drive.google.com/file/d/1e9EF8zFOtKEtQ3AmqJmZ_L1FauWsIKbx/view?usp=drivesdk",
