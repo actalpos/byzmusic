@@ -12,61 +12,84 @@
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros / 5 Polyeleos"
   },
   "AINOI ( PRAISES ) IN TONE EIGHT": {
-    "url": "https://drive.google.com/file/d/1ngjMQrIi6dNQlfHLkyMi4PSg_Hu2crO6/view?usp=drivesdk",
-    "name": "LetEveryBreath-pl4th.pdf",
-    "description": "AINOI (PRAISES) IN TONE EIGHT",
-    "path": "Byzantine Music / EnglishByzantineMusic / Orthros / 14 Let Every Breath Praises"
+    "type": "multi",
+    "versions": [
+      {
+        "label": "BRIEF",
+        "url": "https://drive.google.com/file/d/1iXlGc_55GImV4F6XqgiQUTNnSK2u6wUc/view?usp=drivesdk",
+        "name": "BriefPraises-pl4th.pdf"
+      }
+    ]
   },
   "AINOI ( PRAISES ) IN TONE FIVE": {
-    "url": "https://drive.google.com/file/d/1XxQEEkJJSnWucDa7_-gd-B_0mFMePbQu/view?usp=drivesdk",
-    "name": "BriefPraises-pl1st.pdf",
-    "description": "AINOI (PRAISES) IN TONE FIVE",
-    "path": "Byzantine Music / EnglishByzantineMusic / Orthros / 15 Praises"
+    "type": "multi",
+    "versions": [
+      {
+        "label": "BRIEF",
+        "url": "https://drive.google.com/file/d/1XxQEEkJJSnWucDa7_-gd-B_0mFMePbQu/view?usp=drivesdk",
+        "name": "BriefPraises-pl1st.pdf"
+      }
+    ]
   },
   "AINOI ( PRAISES ) IN TONE FOUR": {
-    "url": "https://drive.google.com/file/d/1oadRSpnpDk4mHaPzKrPr9aU6P0Ceg57_/view?usp=drivesdk",
-    "name": "LetEveryBreath-4th.pdf",
-    "description": "AINOI (PRAISES) IN TONE FOUR",
-    "path": "Byzantine Music / EnglishByzantineMusic / Orthros / 14 Let Every Breath Praises"
+    "type": "multi",
+    "versions": [
+      {
+        "label": "BRIEF",
+        "url": "https://drive.google.com/file/d/17cH7cHSJqZmQGQ1M9DsCCMaRivlIIu_a/view?usp=drivesdk",
+        "name": "BriefPraises-4th.pdf"
+      }
+    ]
   },
   "AINOI ( PRAISES ) IN TONE ONE": {
-    "url": "https://drive.google.com/file/d/1aPaoGTlLIuw205jqouFtbEj2w0Il6Og1/view?usp=drivesdk",
-    "name": "LetEveryBreath-1st.pdf",
-    "description": "AINOI (PRAISES) IN TONE ONE",
-    "path": "Byzantine Music / EnglishByzantineMusic / Orthros / 14 Let Every Breath Praises"
+    "type": "multi",
+    "versions": [
+      {
+        "label": "BREIF",
+        "url": "https://drive.google.com/file/d/1C1w7jx2mEIiZ32BzAbxMSP437pPHl8sU/view?usp=drivesdk",
+        "name": "BriefPraises-1st.pdf"
+      }
+    ]
   },
   "AINOI ( PRAISES ) IN TONE SEVEN": {
     "type": "multi",
     "versions": [
       {
         "label": "BRIEF",
-        "url": "https://drive.google.com/file/d/1iGO5PgHaQ1NYl-A_ZWbLxffyJ5Iu0oO9/view?usp=drivesdk",
-        "name": "LetEveryBreath-grave.pdf"
-      },
-      {
-        "label": "SLOW",
         "url": "https://drive.google.com/file/d/1F-VeNc0sO5Mi0OLXRvJvoXRkRmXEhdfn/view?usp=drivesdk",
-        "name": "SlowPraises-grave.pdf"
+        "name": "BriefPraises-grave.pdf"
       }
     ]
   },
   "AINOI ( PRAISES ) IN TONE SIX": {
-    "url": "https://drive.google.com/file/d/1tufdZVl0Y6EJUG_8v5p0AENDrvvw2HrM/view?usp=drivesdk",
-    "name": "SlowPraises-pl2nd.pdf",
-    "description": "AINOI (PRAISES) IN TONE SIX",
-    "path": "Byzantine Music / EnglishByzantineMusic / Orthros / 15 Praises"
+    "type": "multi",
+    "versions": [
+      {
+        "label": "BRIEF",
+        "url": "https://drive.google.com/file/d/1tufdZVl0Y6EJUG_8v5p0AENDrvvw2HrM/view?usp=drivesdk",
+        "name": "BriefPraises-pl2nd.pdf"
+      }
+    ]
   },
   "AINOI ( PRAISES ) IN TONE THREE": {
-    "url": "https://drive.google.com/file/d/1F1gHmvqAArg1b2dGpPfgO_W7FMEIBrRH/view?usp=drivesdk",
-    "name": "LetEveryBreath-3rd.pdf",
-    "description": "AINOI (PRAISES) IN TONE THREE",
-    "path": "Byzantine Music / EnglishByzantineMusic / Orthros / 14 Let Every Breath Praises"
+    "type": "multi",
+    "versions": [
+      {
+        "label": "BRIEF",
+        "url": "https://drive.google.com/file/d/1KdZtHtKYAyO9ltDx4SdakwnXiS5vDs6I/view?usp=drivesdk",
+        "name": "BriefPraises-3rd.pdf"
+      }
+    ]
   },
   "AINOI ( PRAISES ) IN TONE TWO": {
-    "url": "https://drive.google.com/file/d/1UvSorQwCIaVbzLV9YAnwGdGW9y7iSIL6/view?usp=drivesdk",
-    "name": "LetEveryBreath-2nd.pdf",
-    "description": "AINOI (PRAISES) IN TONE TWO",
-    "path": "Byzantine Music / EnglishByzantineMusic / Orthros / 14 Let Every Breath Praises"
+    "type": "multi",
+    "versions": [
+      {
+        "label": "BRIEF",
+        "url": "https://drive.google.com/file/d/1xTOdbpEd00bXJZW-ViD1BppK3Nva_Fcv/view?usp=drivesdk",
+        "name": "BriefPraises-2nd.pdf"
+      }
+    ]
   },
   "ALLELUIA IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/1XuCHIMUtuqMom6N2H0hEYgSeyrG1ghK3/view?usp=drivesdk",
@@ -79,6 +102,16 @@
     "name": "5 PraisesPharissePublican-3rd-Karam-EN.pdf",
     "description": "Also for the Pharisee and Publican\nin Tone Three",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 1 Pharisee and Publican"
+  },
+  "APOLYTIKION FOR ST. JOHN CLIMACUS IN TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "DEDES",
+        "url": "https://drive.google.com/file/d/1F1SREybZKtR70HdI0CYxGP6e21W4eFDv/view?usp=drivesdk",
+        "name": "4 Apolytikion-pl4th-Dedes-StJohnClimacus.pdf"
+      }
+    ]
   },
   "APOLYTIKION FOR THE PRESENTATION OF CHRIST IN TONE ONE": {
     "url": "https://drive.google.com/file/d/1idOfD2gzSW_0C4rPG1V4kkU--bWj6SYo/view?usp=drivesdk",
@@ -136,23 +169,65 @@
     "description": "APOSTICHA FOR FORGIVENESS SUNDAY IN TONE FOUR",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 4 Sunday of Forgiveness"
   },
-  "APOSTICHA FOR THE RESURRECTION IN TONE FOUR BRIEF": {
-    "url": "https://drive.google.com/file/d/1ZGh9uX5esAAGbedWkYAgp9phw03t8Z1z/view?usp=drivesdk",
-    "name": "BriefAposticha-4th.pdf",
-    "description": "APOSTICHA FOR THE RESURRECTION IN TONE FOUR BRIEF",
-    "path": "Byzantine Music / EnglishByzantineMusic / Vespers / 5 Aposticha Resurrection"
+  "APOSTICHA FOR THE RESURRECTION IN TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "SLOW",
+        "url": "https://drive.google.com/file/d/1m2Zbm5jzKqFqvZ1gxprfuin3U8XVRfLc/view?usp=drivesdk",
+        "name": "SlowAposticha-pl4th.pdf"
+      },
+      {
+        "label": "BRIEF",
+        "url": "https://drive.google.com/file/d/1L1wHDy7GVPuOGRbPjsk_Bhzv-C2pM3M8/view?usp=drivesdk",
+        "name": "BriefAposticha-pl4th.pdf"
+      }
+    ]
   },
-  "APOSTICHA FOR THE RESURRECTION IN TONE FOUR SLOW": {
-    "url": "https://drive.google.com/file/d/1_0EaFqomg4X_fxGWfM15b0sZahEN9xXV/view?usp=drivesdk",
-    "name": "SlowAposticha-4th.pdf",
-    "description": "APOSTICHA FOR THE RESURRECTION IN TONE FOUR SLOW",
-    "path": "Byzantine Music / EnglishByzantineMusic / Vespers / 5 Aposticha Resurrection"
+  "APOSTICHA FOR THE RESURRECTION IN TONE FIVE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "BRIEF",
+        "url": "https://drive.google.com/file/d/1qR2waqtUHWSRefp9BDcBdmXC8VWeqagm/view?usp=drivesdk",
+        "name": "BriefAposticha-pl1st.pdf"
+      },
+      {
+        "label": "SLOW",
+        "url": "https://drive.google.com/file/d/1CtHP__nlNmB3hPPgVl-Pyv559n2jjtac/view?usp=drivesdk",
+        "name": "SlowAposticha-pl1st.pdf"
+      }
+    ]
+  },
+  "APOSTICHA FOR THE RESURRECTION IN TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "BRIEF",
+        "url": "https://drive.google.com/file/d/1ZGh9uX5esAAGbedWkYAgp9phw03t8Z1z/view?usp=drivesdk",
+        "name": "BriefAposticha-4th.pdf"
+      },
+      {
+        "label": "SLOW",
+        "url": "https://drive.google.com/file/d/1_0EaFqomg4X_fxGWfM15b0sZahEN9xXV/view?usp=drivesdk",
+        "name": "SlowAposticha-4th.pdf"
+      }
+    ]
   },
   "APOSTICHA FOR THE RESURRECTION IN TONE ONE": {
-    "url": "https://drive.google.com/file/d/1E_pIix2I9rHQxTK0D4zU5mmdJywVs-dm/view?usp=drivesdk",
-    "name": "BriefAposticha-1st.pdf",
-    "description": "APOSTICHA FOR THE RESURRECTION IN TONE ONE",
-    "path": "Byzantine Music / EnglishByzantineMusic / Vespers / 5 Aposticha Resurrection"
+    "type": "multi",
+    "versions": [
+      {
+        "label": "BRIEF",
+        "url": "https://drive.google.com/file/d/1E_pIix2I9rHQxTK0D4zU5mmdJywVs-dm/view?usp=drivesdk",
+        "name": "BriefAposticha-1st.pdf"
+      },
+      {
+        "label": "SLOW",
+        "url": "https://drive.google.com/file/d/1og5lhjmUhy_YBBUgpwUg2ln2kmtwxT1p/view?usp=drivesdk",
+        "name": "SlowAposticha-1st.pdf"
+      }
+    ]
   },
   "APOSTICHA FOR THE RESURRECTION IN TONE SEVEN": {
     "type": "multi",
@@ -170,34 +245,49 @@
     ]
   },
   "APOSTICHA FOR THE RESURRECTION IN TONE SIX": {
-    "url": "https://drive.google.com/file/d/1FvNOr_CW9dP8_KpmpkxTssFRkheUoav6/view?usp=drivesdk",
-    "name": "BriefAposticha-pl2nd.pdf",
-    "description": "APOSTICHA FOR THE RESURRECTION IN TONE SIX",
-    "path": "Byzantine Music / EnglishByzantineMusic / Vespers / 5 Aposticha Resurrection"
+    "type": "multi",
+    "versions": [
+      {
+        "label": "BRIEF",
+        "url": "https://drive.google.com/file/d/1FvNOr_CW9dP8_KpmpkxTssFRkheUoav6/view?usp=drivesdk",
+        "name": "BriefAposticha-pl2nd.pdf"
+      },
+      {
+        "label": "SLOW",
+        "url": "https://drive.google.com/file/d/1zYP8KfBWXS6ibgfvzXtT1nG43jdaTxXa/view?usp=drivesdk",
+        "name": "SlowAposticha-pl2nd.pdf"
+      }
+    ]
   },
-  "APOSTICHA FOR THE RESURRECTION IN TONE THREE BRIEF": {
-    "url": "https://drive.google.com/file/d/1RTJSrbz2Or7mDgh29sdkHe39xQXNJLXg/view?usp=drivesdk",
-    "name": "BriefAposticha-3rd.pdf",
-    "description": "APOSTICHA FOR THE RESURRECTION IN TONE THREE BRIEF",
-    "path": "Byzantine Music / EnglishByzantineMusic / Vespers / 5 Aposticha Resurrection"
+  "APOSTICHA FOR THE RESURRECTION IN TONE THREE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "BRIEF",
+        "url": "https://drive.google.com/file/d/1RTJSrbz2Or7mDgh29sdkHe39xQXNJLXg/view?usp=drivesdk",
+        "name": "BriefAposticha-3rd.pdf"
+      },
+      {
+        "label": "SLOW",
+        "url": "https://drive.google.com/file/d/1Rb1MgncgUkvh-YeUiu8nLys6nFPRV8mc/view?usp=drivesdk",
+        "name": "SlowAposticha-3rd.pdf"
+      }
+    ]
   },
-  "APOSTICHA FOR THE RESURRECTION IN TONE THREE SLOW": {
-    "url": "https://drive.google.com/file/d/1Rb1MgncgUkvh-YeUiu8nLys6nFPRV8mc/view?usp=drivesdk",
-    "name": "SlowAposticha-3rd.pdf",
-    "description": "APOSTICHA FOR THE RESURRECTION IN TONE THREE SLOW",
-    "path": "Byzantine Music / EnglishByzantineMusic / Vespers / 5 Aposticha Resurrection"
-  },
-  "APOSTICHA FOR THE RESURRECTION IN TONE TWO BRIEF": {
-    "url": "https://drive.google.com/file/d/1b-vgBQs2ooAOigsZlUFjqIH1GPaRDP3r/view?usp=drivesdk",
-    "name": "BriefAposticha-2nd.pdf",
-    "description": "APOSTICHA FOR THE RESURRECTION IN TONE TWO BRIEF",
-    "path": "Byzantine Music / EnglishByzantineMusic / Vespers / 5 Aposticha Resurrection"
-  },
-  "APOSTICHA FOR THE RESURRECTION IN TONE TWO SLOW": {
-    "url": "https://drive.google.com/file/d/1-pOwxKetVTHGCrc0LQbanXtSOyhHLa-l/view?usp=drivesdk",
-    "name": "SlowAposticha-2nd.pdf",
-    "description": "APOSTICHA FOR THE RESURRECTION IN TONE TWO SLOW",
-    "path": "Byzantine Music / EnglishByzantineMusic / Vespers / 5 Aposticha Resurrection"
+  "APOSTICHA FOR THE RESURRECTION IN TONE TWO": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "BRIEF",
+        "url": "https://drive.google.com/file/d/1b-vgBQs2ooAOigsZlUFjqIH1GPaRDP3r/view?usp=drivesdk",
+        "name": "BriefAposticha-2nd.pdf"
+      },
+      {
+        "label": "SLOW",
+        "url": "https://drive.google.com/file/d/1-pOwxKetVTHGCrc0LQbanXtSOyhHLa-l/view?usp=drivesdk",
+        "name": "SlowAposticha-2nd.pdf"
+      }
+    ]
   },
   "APOSTICHA THEOTOKION FOR THE RESURRECTION IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/1F56j3Yiag6QlgT88QNxw4eQPjUuochiw/view?usp=drivesdk",
@@ -247,11 +337,41 @@
     "description": "DOXASTICON & THEOTOKION FOR SOULS SATURDAY IN TONE TWO",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 2 SATURDAY BEFORE MEAT-FARE SUNDAY"
   },
+  "DOXASTICON FOR ST. JOHN CLIMACUS IN TONE FIVE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "CREMEENS",
+        "url": "https://drive.google.com/file/d/1jQpdq8wrpyuwqft5XK5Bh9lxwGZnz-ac/view?usp=drivesdk",
+        "name": "2 SticherasDoxastikon-pl1st-Cremeens-StJohnClimacus.pdf"
+      }
+    ]
+  },
+  "DOXASTICON FOR ST. JOHN CLIMACUS IN TONE TWO": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "CREMEENS",
+        "url": "https://drive.google.com/file/d/1SVdOWVmHEG_P8KBTsYTz3RgxuCjKaZ9D/view?usp=drivesdk",
+        "name": "3 ApostichaDoxastikon-2nd-Cremeens-StJohnClimacus.pdf"
+      }
+    ]
+  },
   "DOXASTICON FOR THE FIRST SUNDAY OF GREAT LENT IN TONE SIX": {
     "url": "https://drive.google.com/file/d/1MLYXlwuVVowyMfmaVe-EiQsWHxIzHRIb/view?usp=drivesdk",
     "name": "14 PraisesDoxastikon-pl2nd-Karam-EN-OrthodoxySunday.pdf",
     "description": "DOXASTICON FOR THE FIRST SUNDAY OF GREAT LENT IN TONE SIX",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 5 Orthodoxy Sunday"
+  },
+  "DOXASTICON FOR THE FOURTH SUNDAY OF LENT IN TONE ONE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "KARAM",
+        "url": "https://drive.google.com/file/d/1dvrqgE9z-KDPGrQ20gmUGCe5upeZerQ7/view?usp=drivesdk",
+        "name": "11 PraisesDoxastikon-1st-Karam-StJohnClimacusSunday.pdf"
+      }
+    ]
   },
   "DOXASTICON FOR THE PHARISEE AND PUBLICAN IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/1ZbN-V8RNYH1I-6az2W58HPcy6_JoiW4f/view?usp=drivesdk",
@@ -349,6 +469,16 @@
     "description": "EXAPOSTEILIARION & THEOTOKION FOR FIRST SUNDAY OF GREAT LENT\nIN TONE TWO (**Hearken, ye women**)",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 5 Orthodoxy Sunday"
   },
+  "EXAPOSTEILIARION & THEOTOKION FOR ST. JOHN CLIMACUS IN TONE TWO ( HEARKEN, YE WOMEN )": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "AA",
+        "url": "https://drive.google.com/file/d/1qwOR2L5u4ZbXTo9ll4AQ9f2R0skvG2bV/view?usp=drivesdk",
+        "name": "11 Exaposteilarion--2nd-AA-StJohnClimacus.pdf"
+      }
+    ]
+  },
   "EXAPOSTEILIARION & THEOTOKION FOR THE HOLY CROSS IN TONE TWO ( UPON THAT MOUNT IN GALILEE )": {
     "url": "https://drive.google.com/file/d/1Ovs7Z7r3rhCbe6BJFy2gOjyD6EJwlIK-/view?usp=drivesdk",
     "name": "12 Exaposteilarion-2nd-AA.pdf",
@@ -409,17 +539,20 @@
     "description": "For the Pharisee and Publican in Tone One",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 1 Pharisee and Publican"
   },
-  "FOR THE RESURRECTION IN TONE THREE BRIEF": {
-    "url": "https://drive.google.com/file/d/1nC2Qdcj0ub9dIUaDUXCtsVLHVMwJhMYq/view?usp=drivesdk",
-    "name": "BriefSticheras-3rd.pdf",
-    "description": "For the Resurrection in Tone Three Brief",
-    "path": "Byzantine Music / EnglishByzantineMusic / Vespers / 2 Sticheras Resurrection"
-  },
-  "FOR THE RESURRECTION IN TONE THREE SLOW": {
-    "url": "https://drive.google.com/file/d/1mNS9FaOsziWf_ghoVGrI3ajF2rOv46tv/view?usp=drivesdk",
-    "name": "SlowSticheras-3rd.pdf",
-    "description": "For the Resurrection in Tone Three Slow",
-    "path": "Byzantine Music / EnglishByzantineMusic / Vespers / 2 Sticheras Resurrection"
+  "FOR THE RESURRECTION IN TONE THREE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "BRIEF",
+        "url": "https://drive.google.com/file/d/1nC2Qdcj0ub9dIUaDUXCtsVLHVMwJhMYq/view?usp=drivesdk",
+        "name": "BriefSticheras-3rd.pdf"
+      },
+      {
+        "label": "SLOW",
+        "url": "https://drive.google.com/file/d/1mNS9FaOsziWf_ghoVGrI3ajF2rOv46tv/view?usp=drivesdk",
+        "name": "SlowSticheras-3rd.pdf"
+      }
+    ]
   },
   "FOR THE THIRD SUNDAY OF GREAT LENT IN TONE FIVE ( REJOICE )": {
     "url": "https://drive.google.com/file/d/1HNX9OjhdYn8yahaiicJ6l0c2Cb8f4mIl/view?usp=drivesdk",
@@ -648,53 +781,81 @@
     "description": "“O LORD OF HOSTS” IN TONE SIX",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / Great Compline"
   },
+  "O LORD, I HAVE CRIED IN TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "SLOW",
+        "url": "https://drive.google.com/file/d/1Vqub9iUgyZEJzgK75il0iHO2Ld585Suw/view?usp=drivesdk",
+        "name": "LordIHaveCriedSlow-pl4th.pdf"
+      }
+    ]
+  },
+  "O LORD, I HAVE CRIED IN TONE FIVE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "SLOW",
+        "url": "https://drive.google.com/file/d/1zcNo_0Sd5009xQFqquuBwuvXKfifMTWZ/view?usp=drivesdk",
+        "name": "LordIHaveCriedSlow-pl1st.pdf"
+      }
+    ]
+  },
   "O LORD, I HAVE CRIED IN TONE ONE": {
-    "url": "https://drive.google.com/file/d/17DEA9f_1PtIIa7oYruVluspgHkGVtput/view?usp=drivesdk",
-    "name": "LordIHaveCriedSlow-1st.pdf",
-    "description": "“O LORD, I HAVE CRIED” IN TONE ONE",
-    "path": "Byzantine Music / EnglishByzantineMusic / Vespers / 1 Lord I Have Cried"
+    "type": "multi",
+    "versions": [
+      {
+        "label": "SLOW",
+        "url": "https://drive.google.com/file/d/17DEA9f_1PtIIa7oYruVluspgHkGVtput/view?usp=drivesdk",
+        "name": "LordIHaveCriedSlow-1st.pdf"
+      }
+    ]
   },
   "O LORD, I HAVE CRIED IN TONE SEVEN": {
-    "url": "https://drive.google.com/file/d/10I2sB21I7XT48OJDIFb2AZzOQmdWyezs/view?usp=drivesdk",
-    "name": "LordIHaveCriedSlow-grave.pdf",
-    "description": "“O LORD, I HAVE CRIED” IN TONE SEVEN",
-    "path": "Byzantine Music / EnglishByzantineMusic / Vespers / 1 Lord I Have Cried"
+    "type": "multi",
+    "versions": [
+      {
+        "label": "SLOW",
+        "url": "https://drive.google.com/file/d/10I2sB21I7XT48OJDIFb2AZzOQmdWyezs/view?usp=drivesdk",
+        "name": "LordIHaveCriedSlow-grave.pdf"
+      }
+    ]
   },
   "O LORD, I HAVE CRIED IN TONE SIX": {
-    "url": "https://drive.google.com/file/d/122WBk-_boMOSSHLw5cB_SIcsg36ZMRDb/view?usp=drivesdk",
-    "name": "LordIHaveCriedSlow-pl2nd.pdf",
-    "description": "“O LORD, I HAVE CRIED” IN TONE SIX",
-    "path": "Byzantine Music / EnglishByzantineMusic / Vespers / 1 Lord I Have Cried"
+    "type": "multi",
+    "versions": [
+      {
+        "label": "SLOW",
+        "url": "https://drive.google.com/file/d/122WBk-_boMOSSHLw5cB_SIcsg36ZMRDb/view?usp=drivesdk",
+        "name": "LordIHaveCriedSlow-pl2nd.pdf"
+      }
+    ]
   },
   "O LORD, I HAVE CRIED IN TONE THREE": {
-    "url": "https://drive.google.com/file/d/1crgU3CPfURLnsLYZogaUMMQq06vRG8dP/view?usp=drivesdk",
-    "name": "LordIHaveCriedSlow-3rd.pdf",
-    "description": "“O LORD, I HAVE CRIED” IN TONE THREE",
-    "path": "Byzantine Music / EnglishByzantineMusic / Vespers / 1 Lord I Have Cried"
+    "type": "multi",
+    "versions": [
+      {
+        "label": "SLOW",
+        "url": "https://drive.google.com/file/d/1crgU3CPfURLnsLYZogaUMMQq06vRG8dP/view?usp=drivesdk",
+        "name": "LordIHaveCriedSlow-3rd.pdf"
+      }
+    ]
   },
   "O LORD, I HAVE CRIED IN TONE TWO": {
-    "url": "https://drive.google.com/file/d/1hvdmxZNgtP4UwnTmcCEhR0AueA9gPmRg/view?usp=drivesdk",
-    "name": "LordIHaveCriedSlow-2nd.pdf",
-    "description": "“O LORD, I HAVE CRIED” IN TONE TWO",
-    "path": "Byzantine Music / EnglishByzantineMusic / Vespers / 1 Lord I Have Cried"
+    "type": "multi",
+    "versions": [
+      {
+        "label": "SLOW",
+        "url": "https://drive.google.com/file/d/1hvdmxZNgtP4UwnTmcCEhR0AueA9gPmRg/view?usp=drivesdk",
+        "name": "LordIHaveCriedSlow-2nd.pdf"
+      }
+    ]
   },
   "PASCHAL CANON": {
     "url": "https://drive.google.com/file/d/1dRWAtc3OmVSy9Ua_f0CnSZAcgMXDOIHp/view?usp=drivesdk",
     "name": "27 PaschalCanon-1st-Karam-EN-ForgivenessSunday.pdf",
     "description": "PASCHAL CANON",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 4 Sunday of Forgiveness"
-  },
-  "PRAISES FOR THE RESURRECTION IN TONE FOUR": {
-    "url": "https://drive.google.com/file/d/1HW87q8dXaSHxM7TpP0ImFrS8ghVUrupV/view?usp=drivesdk",
-    "name": "BriefPraises-4th.pdf",
-    "description": "Praises For the Resurrection in Tone Four",
-    "path": "Byzantine Music / EnglishByzantineMusic / Orthros / 15 Praises"
-  },
-  "PRAISES FOR THE RESURRECTION IN TONE THREE": {
-    "url": "https://drive.google.com/file/d/1Pbfb-3sIxuUYV608JPcMyaFe3LOej-P4/view?usp=drivesdk",
-    "name": "BriefPraises-3rd.pdf",
-    "description": "Praises For the Resurrection in Tone Three",
-    "path": "Byzantine Music / EnglishByzantineMusic / Orthros / 15 Praises"
   },
   "PRAISES FOR THE SUNDAY OF FORGIVENESS IN TONE FIVE": {
     "url": "https://drive.google.com/file/d/1NLFPhEutNNYBZBMlF-zmZCNzAurwZPi5/view?usp=drivesdk",
@@ -876,17 +1037,20 @@
     "description": "STAVRO-THEOTOKION IN TONE ONE\n(**O all-lauded Martyrs**)",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / Great Compline"
   },
-  "STICHERAS FOR THE RESURRECTION IN TONE FOUR BRIEF": {
-    "url": "https://drive.google.com/file/d/1c2uodCM3D12pWlaaolwLBaBlXCHmrYNg/view?usp=drivesdk",
-    "name": "BriefSticheras-4th.pdf",
-    "description": "Sticheras For the Resurrection in Tone Four Brief",
-    "path": "Byzantine Music / EnglishByzantineMusic / Vespers / 2 Sticheras Resurrection"
-  },
-  "STICHERAS FOR THE RESURRECTION IN TONE FOUR SLOW": {
-    "url": "https://drive.google.com/file/d/1wSIjyKU7CBPfkPhSfgCdz5nb8StbCPst/view?usp=drivesdk",
-    "name": "SlowSticheras-4th.pdf",
-    "description": "Sticheras For the Resurrection in Tone Four Slow",
-    "path": "Byzantine Music / EnglishByzantineMusic / Vespers / 2 Sticheras Resurrection"
+  "STICHERAS FOR THE RESURRECTION IN TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "BRIEF",
+        "url": "https://drive.google.com/file/d/1c2uodCM3D12pWlaaolwLBaBlXCHmrYNg/view?usp=drivesdk",
+        "name": "BriefSticheras-4th.pdf"
+      },
+      {
+        "label": "SLOW",
+        "url": "https://drive.google.com/file/d/1wSIjyKU7CBPfkPhSfgCdz5nb8StbCPst/view?usp=drivesdk",
+        "name": "SlowSticheras-4th.pdf"
+      }
+    ]
   },
   "SUNDAY PROKEIMENON IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/1ZXaSypeD5Hjzl8kugL17QBMi6BpiBEOr/view?usp=drivesdk",
@@ -911,6 +1075,16 @@
     "name": "PraisesDoxastikonStGregoryTheologian-1st-EM-EN.pdf",
     "description": "THE DOXASTICON FOR ST. GREGORY IN TONE ONE",
     "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 5 January / Jan 25 - St Gregory the Theologian"
+  },
+  "THE EIGHTH EOTHINON EXAPOSTEILARION IN TONE TWO ( UPON THAT MOUNT IN GALILEE )": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "AA",
+        "url": "https://drive.google.com/file/d/16rOMKGUlbj6-Cqq7w8KVDIvGEZNnSmTE/view?usp=drivesdk",
+        "name": "8th-EothionExaposteilarion-2nd-AA.pdf"
+      }
+    ]
   },
   "THE ELEVENTH EOTHINON EXAPOSTEILARION IN TONE TWO": {
     "url": "https://drive.google.com/file/d/12Zoj3q5RYxUAOOzLYxlYa-hNEZm1Mmpj/view?usp=drivesdk",
@@ -1008,6 +1182,21 @@
     "description": "THE THIRD EOTHINON EXAPOSTEILARION IN TONE TWO",
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros / 13 Eothion Exapoteilarion"
   },
+  "THEOTOKION FOR THE RESURRECTION IN TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "SLOW",
+        "url": "https://drive.google.com/file/d/1uWDZ8ENbOrnxkFddiYPtDyQ-QU2yn3Xb/view?usp=drivesdk",
+        "name": "SlowDogmaticTheotokionSlow-Pl4th.pdf"
+      },
+      {
+        "label": "BRIEF",
+        "url": "https://drive.google.com/file/d/144c1iaa94AzGIkbdtAcI4Qg95YdUtAvz/view?usp=drivesdk",
+        "name": "BriefDogmaticTheotokion-Pl4th.pdf"
+      }
+    ]
+  },
   "THEOTOKION FOR THE RESURRECTION IN TONE FOUR": {
     "url": "https://drive.google.com/file/d/1TrQ26IC7zDCYC79WYqAc-TrwkSMQI2IW/view?usp=drivesdk",
     "name": "BriefDogmaticTheotokion-4th.pdf",
@@ -1039,12 +1228,6 @@
     "url": "https://drive.google.com/file/d/12xVQi6i1bJ8zVOULT5bBZbqLqx_W9Aut/view?usp=drivesdk",
     "name": "SlowDogmaticTheotokionSlow-pl2nd.pdf",
     "description": "THEOTOKION FOR THE RESURRECTION IN TONE SIX",
-    "path": "Byzantine Music / EnglishByzantineMusic / Vespers / 3 Dogmatic Theotokion"
-  },
-  "THEOTOKION FOR THE RESURRECTION IN TONE THREE BRIEF": {
-    "url": "https://drive.google.com/file/d/144c1iaa94AzGIkbdtAcI4Qg95YdUtAvz/view?usp=drivesdk",
-    "name": "BriefDogmaticTheotokion-Pl4th.pdf",
-    "description": "THEOTOKION FOR THE RESURRECTION IN TONE THREE BRIEF",
     "path": "Byzantine Music / EnglishByzantineMusic / Vespers / 3 Dogmatic Theotokion"
   },
   "THEOTOKION FOR THE RESURRECTION IN TONE THREE SLOW": {
@@ -1137,6 +1320,16 @@
     "description": "[O] DOXASTICON OF THE PRODIGAL SON IN TONE SIX",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 2 Prodigal Son"
   },
+  "[O] FOR ST. JOHN CLIMACUS IN TONE EIGHT ( O STRANGE WONDER )": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "ELMASSIH",
+        "url": "https://drive.google.com/file/d/1Y8CknxOhaVPnX_4V99Ira4jRhH4z5qx7/view?usp=drivesdk",
+        "name": "12 Praises-pl4th-ElMassih-StJohnClimacus.pdf"
+      }
+    ]
+  },
   "[O] FOR THE PRODIGAL SON": {
     "url": "https://drive.google.com/file/d/114fSgasq-doe58xxK-no6Rwk-w5ah_yF/view?usp=drivesdk",
     "name": "ProdigalSon-Praises-2nd-Karam-EN.pdf",
@@ -1161,17 +1354,66 @@
     "description": "[V] DOXASTICON FOR THE SUNDAY OF FORGIVENESS IN TONE SIX",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 4 Sunday of Forgiveness"
   },
+  "[V] FOR ST. JOHN CLIMACUS IN TONE EIGHT ( O STRANGE WONDER )": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "ELMASSIH",
+        "url": "https://drive.google.com/file/d/1tg97lDyky8xsR0vmZL6skVw6Q4igRfQq/view?usp=drivesdk",
+        "name": "1 Sticheras-pl4th-ElMassih-StJohnClimacus.pdf"
+      }
+    ]
+  },
   "[V] FOR THE PRODIGAL SON IN TONE ONE": {
     "url": "https://drive.google.com/file/d/1b5TvGJftbu6FoOZDO7qpdVZdOr97hZNv/view?usp=drivesdk",
     "name": "ProdigalSon-Sticheras-1st-GC-EN.pdf",
     "description": "[V] For the Prodigal Son in Tone One",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 2 Prodigal Son"
   },
+  "[V] FOR THE RESURRECTION IN TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "BRIEF",
+        "url": "https://drive.google.com/file/d/1ClbcZjHrdnhjTdja_yda0ZpvIEjRAhol/view?usp=drivesdk",
+        "name": "BriefSticheras-pl4th.pdf"
+      },
+      {
+        "label": "SLOW",
+        "url": "https://drive.google.com/file/d/1ezcFGDzkFhZPY5rEv0gxsAr8QuNFeFoJ/view?usp=drivesdk",
+        "name": "SlowSticheras-pl4th.pdf"
+      }
+    ]
+  },
+  "[V] FOR THE RESURRECTION IN TONE FIVE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "BRIEF",
+        "url": "https://drive.google.com/file/d/1iYeqUzMJp7G-DfBOUlQsl0PlUuD_pVvI/view?usp=drivesdk",
+        "name": "BriefSticheras-pl1st.pdf"
+      },
+      {
+        "label": "SLOW",
+        "url": "https://drive.google.com/file/d/1g6Csio17xm15_ZNC-YwX3AdEjITkfYzQ/view?usp=drivesdk",
+        "name": "SlowSticheras-pl1st.pdf"
+      }
+    ]
+  },
   "[V] FOR THE RESURRECTION IN TONE ONE": {
-    "url": "https://drive.google.com/file/d/1L1GyFI3bxfT41cbeZpcpCkjZdFXYr8Oo/view?usp=drivesdk",
-    "name": "BriefSticheras-1st.pdf",
-    "description": "[V] For the Resurrection in Tone One",
-    "path": "Byzantine Music / EnglishByzantineMusic / Vespers / 2 Sticheras Resurrection"
+    "type": "multi",
+    "versions": [
+      {
+        "label": "SLOW",
+        "url": "https://drive.google.com/file/d/1_vOQvfbi52TOW0J7FzjLOGQ1QQJKAEyv/view?usp=drivesdk",
+        "name": "SlowSticheras-1st.pdf"
+      },
+      {
+        "label": "BRIEF",
+        "url": "https://drive.google.com/file/d/1L1GyFI3bxfT41cbeZpcpCkjZdFXYr8Oo/view?usp=drivesdk",
+        "name": "BriefSticheras-1st.pdf"
+      }
+    ]
   },
   "[V] FOR THE RESURRECTION IN TONE SEVEN": {
     "type": "multi",
@@ -1189,22 +1431,34 @@
     ]
   },
   "[V] FOR THE RESURRECTION IN TONE SIX": {
-    "url": "https://drive.google.com/file/d/1cg---DKWsraTc2sQMvTHiIlYNED-RIjr/view?usp=drivesdk",
-    "name": "BriefSticheras-pl2nd.pdf",
-    "description": "[V] For the Resurrection in Tone Six",
-    "path": "Byzantine Music / EnglishByzantineMusic / Vespers / 2 Sticheras Resurrection"
+    "type": "multi",
+    "versions": [
+      {
+        "label": "BRIEF",
+        "url": "https://drive.google.com/file/d/1cg---DKWsraTc2sQMvTHiIlYNED-RIjr/view?usp=drivesdk",
+        "name": "BriefSticheras-pl2nd.pdf"
+      },
+      {
+        "label": "SLOW",
+        "url": "https://drive.google.com/file/d/1YJq5xgyDZE6nKWf00vDZLURCjlK9UruD/view?usp=drivesdk",
+        "name": "SlowSticheras-pl2nd.pdf"
+      }
+    ]
   },
-  "[V] FOR THE RESURRECTION IN TONE TWO BRIEF": {
-    "url": "https://drive.google.com/file/d/1aLCWGjR84xvPYy8asAVp-vjnAbUNgwhq/view?usp=drivesdk",
-    "name": "BriefSticheras-2nd.pdf",
-    "description": "[V] For the Resurrection in Tone Two Brief",
-    "path": "Byzantine Music / EnglishByzantineMusic / Vespers / 2 Sticheras Resurrection"
-  },
-  "[V] FOR THE RESURRECTION IN TONE TWO SLOW": {
-    "url": "https://drive.google.com/file/d/1b3-o9j4bP43pADas3pXlc3pCzee0ciQK/view?usp=drivesdk",
-    "name": "SlowSticheras-2nd.pdf",
-    "description": "[V] For the Resurrection in Tone Two Slow",
-    "path": "Byzantine Music / EnglishByzantineMusic / Vespers / 2 Sticheras Resurrection"
+  "[V] FOR THE RESURRECTION IN TONE TWO": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "BRIEF",
+        "url": "https://drive.google.com/file/d/1aLCWGjR84xvPYy8asAVp-vjnAbUNgwhq/view?usp=drivesdk",
+        "name": "BriefSticheras-2nd.pdf"
+      },
+      {
+        "label": "SLOW",
+        "url": "https://drive.google.com/file/d/1b3-o9j4bP43pADas3pXlc3pCzee0ciQK/view?usp=drivesdk",
+        "name": "SlowSticheras-2nd.pdf"
+      }
+    ]
   },
   "[V] VERSES IN TONE THREE": {
     "url": "https://drive.google.com/file/d/1qiuM3SflD0N4NoJR7P3huI31M0xvDv-z/view?usp=drivesdk",
