@@ -222,6 +222,24 @@
     "file": "Service_Texts/variableDate/2026/03/15/Mar 15 2026 Bilingual READ.html"
   },
   {
+    "date": "2026-03-17",
+    "title": "Bilingual Great Compline",
+    "order": -1,
+    "file": "Service_Texts/variableDate/2026/03/17/Bilingual Great Compline.html"
+  },
+  {
+    "date": "2026-03-18",
+    "title": "Mar 18 2026 Bilingual PRESAN",
+    "order": -1,
+    "file": "Service_Texts/variableDate/2026/03/18/Mar 18 2026 Bilingual PRESAN.html"
+  },
+  {
+    "date": "2026-03-18",
+    "title": "Presanctified Liturgy Bilingual",
+    "order": -1,
+    "file": "Service_Texts/variableDate/2026/03/18/Presanctified Liturgy Bilingual.html"
+  },
+  {
     "date": "2026-03-22",
     "title": "Mar 21 2026 Bilingual VESP",
     "order": -1,
