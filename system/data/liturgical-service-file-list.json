@@ -295,9 +295,39 @@
   },
   {
     "date": "2026-04-03",
+    "title": "Bilingual Laz Sat COMPLINE",
+    "order": -1,
+    "file": "Service_Texts/variableDate/2026/04/03/Bilingual Laz Sat COMPLINE.html"
+  },
+  {
+    "date": "2026-04-03",
     "title": "Presanctified Liturgy Bilingual",
     "order": -1,
     "file": "Service_Texts/variableDate/2026/04/03/Presanctified Liturgy Bilingual.html"
+  },
+  {
+    "date": "2026-04-04",
+    "title": "Bilingual Laz Sat ORTHROS",
+    "order": -1,
+    "file": "Service_Texts/variableDate/2026/04/04/Bilingual Laz Sat ORTHROS.html"
+  },
+  {
+    "date": "2026-04-04",
+    "title": "Bilingual Laz Sat READ",
+    "order": -1,
+    "file": "Service_Texts/variableDate/2026/04/04/Bilingual Laz Sat READ.html"
+  },
+  {
+    "date": "2026-04-04",
+    "title": "Bilingual Palm Sunday LITART",
+    "order": -1,
+    "file": "Service_Texts/variableDate/2026/04/04/Bilingual Palm Sunday LITART.html"
+  },
+  {
+    "date": "2026-04-04",
+    "title": "Bilingual Palm Sunday VESP",
+    "order": -1,
+    "file": "Service_Texts/variableDate/2026/04/04/Bilingual Palm Sunday VESP.html"
   },
   {
     "date": "2026-12-28",
