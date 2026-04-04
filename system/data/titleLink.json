@@ -643,6 +643,37 @@
     "description": "EXAPOSTEILIARION FOR THE PHARISEE & PUBLICAN IN TONE TWO\n(**Upon that mount in Galilee**)",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 01 Sunday of the Pharisee and Publican"
   },
+  "FESTAL ANABATHMOI IN TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "SA",
+        "url": "https://drive.google.com/file/d/1GM-_a9OjW2OrdrfYCff1wtXGGu3xYZ3m/view?usp=drivesdk",
+        "name": "07 Anabathmoi-4th-SA.pdf",
+        "description": "FESTAL ANABATHMOI IN TONE FOUR | SA",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+      },
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1pml9y8FNP7soq8dI6UmUJgNPSQZiPqtN/view?usp=drivesdk",
+        "name": "07 Anabathmoi-4th-Karam.pdf",
+        "description": "FESTAL ANABATHMOI IN TONE FOUR | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+      }
+    ]
+  },
+  "FESTAL TROPARIA AFTER PSALM 50 IN TONE TWO": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1e0dUTuj82mAid-Xey8jPU0LYejaK-hEY/view?usp=drivesdk",
+        "name": "4 AfterPsalm50Hymn-2nd-Karam-OrthrosPalmSunday.pdf",
+        "description": "FESTAL TROPARIA AFTER PSALM 50 IN TONE TWO | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 10 Sunday of the 6th Week of Lent - Palm Sunday"
+      }
+    ]
+  },
   "FIRST KATHISMA HYMN OF LAZARUS SATURDAY IN TONE ONE ( WHILE GABRIEL WAS SAYING )": {
     "type": "multi",
     "versions": [
@@ -652,6 +683,18 @@
         "name": "1 1st_kathisma-1st-Karam-OrthrosStLazarusSaturday.pdf",
         "description": "FIRST KATHISMA HYMN OF\nLAZARUS SATURDAY IN TONE ONE\n(**While Gabriel was saying**) | Karam",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-06 Saturday of the 6th Week - Lazarus Saturday"
+      }
+    ]
+  },
+  "FIRST KATHISMA HYMNS IN TONE FOUR ( JOSEPH WAS AMAZED-HARD CHROMATIC )": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1H2iH0GpWidkQWEQYF5lKbsCdlMQ2NTkO/view?usp=drivesdk",
+        "name": "1 1stKathisma-4th-Karam-OrthrosPalmSunday.pdf",
+        "description": "First Kathisma Hymns in Tone Four\n(**Joseph was amazed—hard chromatic**) | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 10 Sunday of the 6th Week of Lent - Palm Sunday"
       }
     ]
   },
@@ -675,6 +718,30 @@
         "url": "https://drive.google.com/file/d/11Hxx-8vcpsz4idU6TtgEsPKhGFi2NceS/view?usp=drivesdk",
         "name": "5 Praises-1st-Karam-OrthrosStLazarusSaturday.pdf",
         "description": "For Lazarus Saturday in Tone One | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-06 Saturday of the 6th Week - Lazarus Saturday"
+      }
+    ]
+  },
+  "FOR PALM SUNDAY IN TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/12SIcfa6ZPqYbTse20ZexcE2rMsVqTw8E/view?usp=drivesdk",
+        "name": "6 Praises-Karam-OrthrosPalmSunday.pdf",
+        "description": "For Palm Sunday in Tone Four | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 10 Sunday of the 6th Week of Lent - Palm Sunday"
+      }
+    ]
+  },
+  "FOR PALM SUNDAY IN TONE SIX": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/13MQxAo1r8jxh5Mph8ALUejbVQ0n9-s2t/view?usp=drivesdk",
+        "name": "31 Sticheras-pl2nd-Karam-VespPalmSunday.pdf",
+        "description": "For Palm Sunday in Tone Six | Karam",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-06 Saturday of the 6th Week - Lazarus Saturday"
       }
     ]
@@ -897,6 +964,18 @@
       }
     ]
   },
+  "KATAVASIAE OF THE PALM SUNDAY CANON IN TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/18GYOPhsl1cJ4sazboNEOsVODJAkqxj2m/view?usp=drivesdk",
+        "name": "4 Ode1-9-4th-Karam-OrthrosPalmSunday.pdf",
+        "description": "KATAVASIAE OF THE PALM SUNDAY CANON IN TONE FOUR | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 10 Sunday of the 6th Week of Lent - Palm Sunday"
+      }
+    ]
+  },
   "KATAVASIAE OF THE PRESENTATION OF CHRIST CANON IN TONE THREE": {
     "url": "https://drive.google.com/file/d/1Lb1HY3I_SEyO0jOHBUBFkcT-X9qP0rRF/view?usp=drivesdk",
     "name": "11 Ode1-9-3rd-PresentationOfTheLord.pdf",
@@ -938,6 +1017,18 @@
     "name": "6 Kathismata-pl1st-Karam-EN-SaturdaySouls.pdf",
     "description": "KATHISMA HYMNS OF SOULS SATURDAY IN TONE FIVE",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02-1 SATURDAY BEFORE MEAT-FARE SUNDAY"
+  },
+  "KOINONIKON ( COMMUNION HYMN ) FOR PSALM SUNDAY IN TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "SA",
+        "url": "https://drive.google.com/file/d/1m2jaqUsojlnCK0pxw9OoV9nAy-KKn0-4/view?usp=drivesdk",
+        "name": "22 CommunionHymnBlessedIsHe-pl1st-SA-DivLitPalmSunday.pdf",
+        "description": "KOINONIKON (COMMUNION HYMN) FOR PSALM SUNDAY IN TONE EIGHT | SA",
+        "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 10 Sunday of the 6th Week of Lent - Palm Sunday"
+      }
+    ]
   },
   "KONTAKION FOR SUNDAY OF FORGIVENESS IN TONE SIX": {
     "url": "https://drive.google.com/file/d/16G3EtOohPSWhAGIL3o8BxoZ5D3kd25jM/view?usp=drivesdk",
@@ -1046,6 +1137,25 @@
         "name": "21 Megalynarion-pl4th-Karam-DivLitStLazarusSaturday.pdf",
         "description": "MEGALYNARION FOR LAZARUS SATURDAY IN TONE EIGHT | Karam",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-06 Saturday of the 6th Week - Lazarus Saturday"
+      }
+    ]
+  },
+  "MEGALYNARION FOR PALM SUNDAY IN TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Stanitsas",
+        "url": "https://drive.google.com/file/d/11gU4I6t1R5aJMGE6u_tv6ROlIqfVecn1/view?usp=drivesdk",
+        "name": "21 Megalynarion-4th-Stanitsas-DivLitPalmSunday.pdf",
+        "description": "MEGALYNARION FOR PALM SUNDAY IN TONE FOUR |  Stanitsas",
+        "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 10 Sunday of the 6th Week of Lent - Palm Sunday"
+      },
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1PhFfX2VXlEnfAmOVbt4UawUYic_kNkbW/view?usp=drivesdk",
+        "name": "21 Megalynarion-4th-Karam-DivLitPalmSunday.pdf",
+        "description": "MEGALYNARION FOR PALM SUNDAY IN TONE FOUR | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 10 Sunday of the 6th Week of Lent - Palm Sunday"
       }
     ]
   },
@@ -1182,6 +1292,18 @@
     "description": "PASCHAL CANON",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 04 Sunday of Forgiveness"
   },
+  "POLYELEOS HYMNS IN TONE EIGHT ( WHEN THE BODILESS ONE )": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1tnqfinqpM9WY3ntUNOGRHJyrAm-xScyi/view?usp=drivesdk",
+        "name": "2 AfterPolyeleosHymn-pl4th-Karam-OrthrosPalmSunday.pdf",
+        "description": "POLYELEOS HYMNS IN TONE EIGHT\n(**When the bodiless one**) | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 10 Sunday of the 6th Week of Lent - Palm Sunday"
+      }
+    ]
+  },
   "PRAISES FOR THE SUNDAY OF FORGIVENESS IN TONE FIVE": {
     "url": "https://drive.google.com/file/d/1NLFPhEutNNYBZBMlF-zmZCNzAurwZPi5/view?usp=drivesdk",
     "name": "6A Praises-pl1st-Karam-EN-ForgivenessSunday.pdf",
@@ -1199,6 +1321,18 @@
     "name": "2 ProkeimenonToARighteous-4th-AA-EN.pdf",
     "description": "PROKEIMENON FOR ST. JULIAN\nIN TONE FOUR",
     "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 06 February / 06"
+  },
+  "PROKEIMENON FOR THE FEAST IN TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1CUksYnuvfWeH2dCBXdKphF8r0NuYzr64/view?usp=drivesdk",
+        "name": "3 Prokeimenon-4th-Karam-OrthrosPalmSunday.pdf",
+        "description": "PROKEIMENON FOR THE FEAST\nIN TONE FOUR | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 10 Sunday of the 6th Week of Lent - Palm Sunday"
+      }
+    ]
   },
   "PROKEIMENON FOR THE RESURRECTION IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/1x4Z03B_IVbD2No7HliNoJKLBFHn5X2Zg/view?usp=drivesdk",
@@ -1368,6 +1502,18 @@
     "description": "SATURDAY PROKEIMENON IN TONE SIX",
     "path": "Byzantine Music / EnglishByzantineMusic / Vespers"
   },
+  "SECOND KATHISMA HYMNS IN TONE FOUR ( JOSEPH WAS AMAZED-HARD CHROMATIC )": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1Nw0V6Wb6KmFllTomguEan3UiB7YuL_kr/view?usp=drivesdk",
+        "name": "1 2ndKathisma-4th-Karam-OrthrosPalmSunday.pdf",
+        "description": "Second Kathisma Hymns in Tone Four\n(**Joseph was amazed—hard chromatic**) | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 10 Sunday of the 6th Week of Lent - Palm Sunday"
+      }
+    ]
+  },
   "SECOND KATHISMA HYMNS OF LAZARUS SATURDAY IN TONE FIVE ( LET US WORSHIP THE WORD )": {
     "type": "multi",
     "versions": [
@@ -1452,6 +1598,18 @@
     "name": "PraisesDoxastikonStGregoryTheologian-1st-EM-EN.pdf",
     "description": "THE DOXASTICON FOR ST. GREGORY IN TONE ONE",
     "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 05 January / Jan 25 - St Gregory the Theologian"
+  },
+  "THE DOXASTICON OF PALM SUNDAY IN TONE SIX": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1_YP3kesyF-pHkRNIPiJZdNxdAazl0Oqj/view?usp=drivesdk",
+        "name": "7 DoxastikonPraises-pl2nd-Karam-OrthrosPalmSunday.pdf",
+        "description": "THE DOXASTICON OF PALM SUNDAY IN TONE SIX | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 10 Sunday of the 6th Week of Lent - Palm Sunday"
+      }
+    ]
   },
   "THE EIGHTH EOTHINON EXAPOSTEILARION IN TONE TWO ( UPON THAT MOUNT IN GALILEE )": {
     "type": "multi",
@@ -1548,6 +1706,32 @@
     "name": "21A Stichera-4th-Karam-EN-ForgivenessVespers-W.pdf",
     "description": "The Penitential Stichera from the Triodion\nin Tone Four (**The original melody**)",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 04 Sunday of Forgiveness"
+  },
+  "THE POLYELEOS IN TONE ONE ( ABRIDGED )": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Long Peloponneisos",
+        "url": "https://drive.google.com/file/d/1Fq2lt8RWsLErzH6lQW7dQfxqpuF5MCVZ/view?usp=drivesdk",
+        "name": "05 PolyeleosServantsOfLordPsalm134-Long-Pl1st-PPeloponnesios-EN.pdf",
+        "description": "THE POLYELEOS IN TONE ONE (ABRIDGED) | Long Peloponneisos",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+      },
+      {
+        "label": "Brief El Massih",
+        "url": "https://drive.google.com/file/d/1E_0NXyHha4EBGwSiiJEXG5JFE1aFNLtk/view?usp=drivesdk",
+        "name": "05 PolyeleosServantsOfLordPsalm134-Brief-1st-ElMassih-EN.pdf",
+        "description": "THE POLYELEOS IN TONE ONE (ABRIDGED) | Brief El Massih",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+      },
+      {
+        "label": "Brief Athonite",
+        "url": "https://drive.google.com/file/d/1GOgbI5K-xAHy0Kc_9Rb_8KKx2X7OuWbb/view?usp=drivesdk",
+        "name": "05 PolyeleosServantsOfLordPsalm134-Brief-1st-Athonite-EN.pdf",
+        "description": "THE POLYELEOS IN TONE ONE (ABRIDGED) | Brief Athonite",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+      }
+    ]
   },
   "THE SECOND ANTIPHON FOR THE PRESENTATION OF CHRIST": {
     "url": "https://drive.google.com/file/d/1X0m0c8bBAPfNnbVze5sVfkue6klLPR87/view?usp=drivesdk",
