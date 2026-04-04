@@ -145,14 +145,26 @@
         "url": "https://drive.google.com/file/d/1rNu-0bmoLG9uvKtwWgxTMIL1mp9RHNQm/view?usp=drivesdk",
         "name": "3 ApolytikionKontakion-1st-Karam-SaintLazarusSaturday.pdf",
         "description": "APOLYTIKION OF LAZARUS SATURDAY IN TONE ONE | Karam",
-        "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-05 Friday of the 5th Week - Small Compline"
+        "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-05 Friday of the 6th Week - Small Compline"
       },
       {
         "label": "SA",
         "url": "https://drive.google.com/file/d/1yhclLVSaCC20RmUSGex5OU68kwm76eM9/view?usp=drivesdk",
         "name": "3 Apolytikion-1st-SA-SaintLazarusSaturday.pdf",
         "description": "APOLYTIKION OF LAZARUS SATURDAY IN TONE ONE | SA",
-        "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-05 Friday of the 5th Week - Small Compline"
+        "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-05 Friday of the 6th Week - Small Compline"
+      }
+    ]
+  },
+  "APOLYTIKION OF PALM SUNDAY IN TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1sFwMmYe7_P39n2qGG6KHHzpI0w_lGiGS/view?usp=drivesdk",
+        "name": "36 Apolytikion-4th-Karam-PalmSunday.pdf",
+        "description": "APOLYTIKION OF PALM SUNDAY\nIN TONE FOUR | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-06 Saturday of the 6th Week - Lazarus Saturday"
       }
     ]
   },
@@ -431,6 +443,18 @@
     "description": "DOXASTICON & THEOTOKION FOR SOULS SATURDAY IN TONE TWO",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02-1 SATURDAY BEFORE MEAT-FARE SUNDAY"
   },
+  "DOXASTICON FOR PALM SUNDAY IN TONE SIX": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/19sMiJb0nBYtUKWWrD_i7sAFz3FELJJWG/view?usp=drivesdk",
+        "name": "35 DoxastikonAposticha-2nd-Karam-VespPalmSunday.pdf",
+        "description": "DOXASTICON FOR PALM SUNDAY\nIN TONE SIX | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-06 Saturday of the 6th Week - Lazarus Saturday"
+      }
+    ]
+  },
   "DOXASTICON FOR ST. JOHN CLIMACUS IN TONE FIVE": {
     "type": "multi",
     "versions": [
@@ -547,6 +571,18 @@
       }
     ]
   },
+  "DOXASTICON OF THE LITIA PROCESSION IN TONE THREE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1PbPFIsbephl94X99Tebf416DJ268BbF_/view?usp=drivesdk",
+        "name": "33 DoxastikonLity-3rd-Karam-LityPalmSunday.pdf",
+        "description": "DOXASTICON OF THE LITIA PROCESSION IN TONE THREE | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-06 Saturday of the 6th Week - Lazarus Saturday"
+      }
+    ]
+  },
   "DOXASTICON OF THE PHARISEE AND PUBLICAN IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/1CodHXwbs5ADsE6Q15Ad_4hCkWCr0u3O4/view?usp=drivesdk",
     "name": "6 DoxastikonAtThePraises-pl4th-Karam-EN.pdf",
@@ -607,6 +643,18 @@
     "description": "EXAPOSTEILIARION FOR THE PHARISEE & PUBLICAN IN TONE TWO\n(**Upon that mount in Galilee**)",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 01 Sunday of the Pharisee and Publican"
   },
+  "FIRST KATHISMA HYMN OF LAZARUS SATURDAY IN TONE ONE ( WHILE GABRIEL WAS SAYING )": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1j4biUZb6mQ2yuk2dw_VWO8hynY6V1PGR/view?usp=drivesdk",
+        "name": "1 1st_kathisma-1st-Karam-OrthrosStLazarusSaturday.pdf",
+        "description": "FIRST KATHISMA HYMN OF\nLAZARUS SATURDAY IN TONE ONE\n(**While Gabriel was saying**) | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-06 Saturday of the 6th Week - Lazarus Saturday"
+      }
+    ]
+  },
   "FIRST LENTEN GREAT PROKEIMENON IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/115fF8rpPiTc3J6HPeR4Q5gTzGmTDLLM_/view?usp=drivesdk",
     "name": "23 1stGreatProkeimenon-pl4th-Karam-EN-ForgivenessVespers.pdf",
@@ -618,6 +666,18 @@
     "name": "21B Stichera-2nd-Kazan-EN-ForgivenessVespers-W.pdf",
     "description": "For Forgiveness Sunday in Tone Two",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 04 Sunday of Forgiveness"
+  },
+  "FOR LAZARUS SATURDAY IN TONE ONE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/11Hxx-8vcpsz4idU6TtgEsPKhGFi2NceS/view?usp=drivesdk",
+        "name": "5 Praises-1st-Karam-OrthrosStLazarusSaturday.pdf",
+        "description": "For Lazarus Saturday in Tone One | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-06 Saturday of the 6th Week - Lazarus Saturday"
+      }
+    ]
   },
   "FOR SOULS SATURDAY IN TONE EIGHT ( THE PARADISE OF EDEN )": {
     "url": "https://drive.google.com/file/d/1HqDrlhkFL2-o3C-hafC_30EBUQu4QloG/view?usp=drivesdk",
@@ -825,6 +885,18 @@
     "description": "KATAVASIAE OF THE AKATHIST CANON IN TONE FOUR",
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
   },
+  "KATAVASIAE OF THE LAZARUS SATURDAY CANON IN TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1QqbzROKtrYxLJUJAOy0bzRRaR5gj3rJD/view?usp=drivesdk",
+        "name": "3 Ode1-9Katavasie-pl4th-Karam-OrthrosStLazarusSaturday.pdf",
+        "description": "KATAVASIAE OF THE LAZARUS SATURDAY CANON IN TONE EIGHT | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-06 Saturday of the 6th Week - Lazarus Saturday"
+      }
+    ]
+  },
   "KATAVASIAE OF THE PRESENTATION OF CHRIST CANON IN TONE THREE": {
     "url": "https://drive.google.com/file/d/1Lb1HY3I_SEyO0jOHBUBFkcT-X9qP0rRF/view?usp=drivesdk",
     "name": "11 Ode1-9-3rd-PresentationOfTheLord.pdf",
@@ -854,10 +926,10 @@
     "versions": [
       {
         "label": "Karam",
-        "url": "https://drive.google.com/file/d/1J6hWuOsiZNEnz1oqfLSP240g7S5F_zbn/view?usp=drivesdk",
-        "name": "11 Ode1-9-1st-VenerationOfCrossSunday.pdf",
+        "url": "https://drive.google.com/file/d/1GshvIkb-2zDzDib7YN_4lK5-DKJ-YqkW/view?usp=drivesdk",
+        "name": "11 Ode1-9-1st-Karam-VenerationOfCrossSunday.pdf",
         "description": "KATAVASIAE OF THIRD SUNDAY OF GREAT LENT CANON IN TONE ONE | Karam",
-        "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 07 Sunday of the 3rd Week of Lent - Veneration of the Cross"
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
       }
     ]
   },
@@ -931,7 +1003,7 @@
         "url": "https://drive.google.com/file/d/1dxQJmqOv-ER8fL_hJguv9Xu16K7IkJuj/view?usp=drivesdk",
         "name": "1 Canon-1st-Karam-SaintLazarusSaturday.pdf",
         "description": "LITTLE COMPLINE CANON FOR LAZARUS SATURDAY IN TONE ONE | Karam",
-        "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-05 Friday of the 5th Week - Small Compline"
+        "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-05 Friday of the 6th Week - Small Compline"
       }
     ]
   },
@@ -964,6 +1036,18 @@
     "name": "11 MoreHonarable-pl2nd.pdf",
     "description": "MAGNIFICATIONS IN TONE SIX",
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+  },
+  "MEGALYNARION FOR LAZARUS SATURDAY IN TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1T7tIPVa9_D_lLFjjTUbgz-2VTJrg-obz/view?usp=drivesdk",
+        "name": "21 Megalynarion-pl4th-Karam-DivLitStLazarusSaturday.pdf",
+        "description": "MEGALYNARION FOR LAZARUS SATURDAY IN TONE EIGHT | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-06 Saturday of the 6th Week - Lazarus Saturday"
+      }
+    ]
   },
   "MORE VERSES IN TONE SIX": {
     "url": "https://drive.google.com/file/d/17DBOGgVl6qD_wwLnKtAbj8GWD3K490g2/view?usp=drivesdk",
@@ -1284,6 +1368,18 @@
     "description": "SATURDAY PROKEIMENON IN TONE SIX",
     "path": "Byzantine Music / EnglishByzantineMusic / Vespers"
   },
+  "SECOND KATHISMA HYMNS OF LAZARUS SATURDAY IN TONE FIVE ( LET US WORSHIP THE WORD )": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1rUuUhu6E4GaKlEDp8RyY-IAx8kkLD0Q_/view?usp=drivesdk",
+        "name": "2 2ndKathisma-pl1st-Karam-OrthrosStLazarusSaturday.pdf",
+        "description": "SECOND KATHISMA HYMNS OF LAZARUS SATURDAY IN TONE FIVE\n(**Let us worship the Word**) | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-06 Saturday of the 6th Week - Lazarus Saturday"
+      }
+    ]
+  },
   "STAVRO-THEOTOKION IN TONE ONE ( O ALL-LAUDED MARTYRS )": {
     "url": "https://drive.google.com/file/d/1kFQZ4b-Zyt49X-JW1IsxbGcolUmiOW3L/view?usp=drivesdk",
     "name": "8 TheotokiaTuesThurs-1st.pdf",
@@ -1321,11 +1417,35 @@
     "description": "THE AMOMOS: SEVENTEENTH KATHISMA OF THE PSALTER\nIN TONE FIVE",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02-1 SATURDAY BEFORE MEAT-FARE SUNDAY"
   },
+  "THE APOSTICHA FOR PALM SUNDAY IN TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1F2Njj62rPCUMbAiPHTVH6F13HFtQbCO1/view?usp=drivesdk",
+        "name": "34 Aposticha-pl4th-Karam-VespPalmSunday.pdf",
+        "description": "THE APOSTICHA FOR PALM SUNDAY\nIN TONE EIGHT | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-06 Saturday of the 6th Week - Lazarus Saturday"
+      }
+    ]
+  },
   "THE APOSTICHA FOR THE DEPARTED IN TONE TWO ( WHEN HE TOOK THEE )": {
     "url": "https://drive.google.com/file/d/1Mh6rRDWnQjoShP5ZvYiEt5CsLE2orqg9/view?usp=drivesdk",
     "name": "13 ApostichaOrthros-2nd-AA-EN-W-SaturdaySouls.pdf",
     "description": "THE APOSTICHA FOR THE DEPARTED IN TONE TWO (**When he took Thee**)",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02-1 SATURDAY BEFORE MEAT-FARE SUNDAY"
+  },
+  "THE DOXASTICON FOR LAZARUS SATURDAY IN TONE TWO": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1tIS8Kit0EEJJwpcvnjqZvTKgEwuRkNIN/view?usp=drivesdk",
+        "name": "6 DoxastikonPraises-1st-Karam-OrthrosStLazarusSaturday.pdf",
+        "description": "THE Doxasticon FOR LAZARUS SATURDAY in Tone TWO | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-06 Saturday of the 6th Week - Lazarus Saturday"
+      }
+    ]
   },
   "THE DOXASTICON FOR ST. GREGORY IN TONE ONE": {
     "url": "https://drive.google.com/file/d/1YCvV4MXVphXGXa30mH4Pr3W-FoT6bLbg/view?usp=drivesdk",
@@ -1356,6 +1476,18 @@
     "name": "9 Exaposteilarion-3rd-AA-EN-W-SaturdaySouls.pdf",
     "description": "THE EXAPOSTEILARIA AND THEOTOKION FOR SOULS SATURDAY",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02-1 SATURDAY BEFORE MEAT-FARE SUNDAY"
+  },
+  "THE EXAPOSTEILARIA FOR LAZARUS SATURDAY IN TONE THREE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1VK4BPq5S31F3t3YliRmdmWBybJtpPhLh/view?usp=drivesdk",
+        "name": "4 Exaposteilaria-3rd-Karam-OrthrosStLazarusSaturday.pdf",
+        "description": "THE EXAPOSTEILARIA FOR LAZARUS SATURDAY IN TONE THREE | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-06 Saturday of the 6th Week - Lazarus Saturday"
+      }
+    ]
   },
   "THE EXAPOSTEILIARION FOR THE PRODIGAL SON IN TONE TWO ( HEARKEN, YE WOMEN )": {
     "url": "https://drive.google.com/file/d/1ujc3u3q-4tPFnCf32QdNOhExL_-gRIwz/view?usp=drivesdk",
@@ -1392,6 +1524,18 @@
     "name": "18 BriefDoxology-pl2nd.pdf",
     "description": "THE GREAT DOXOLOGY IN TONE SIX",
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+  },
+  "THE GREAT DOXOLOGY IN TONE TWO": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Kavadas",
+        "url": "https://drive.google.com/file/d/1QiIEKBjjnL4ANCwEBIFOJtVvE2w4lOWo/view?usp=drivesdk",
+        "name": "18 BriefDoxology-2nd.pdf",
+        "description": "THE GREAT DOXOLOGY IN TONE TWO | Kavadas",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+      }
+    ]
   },
   "THE KATAVASIAE OF THE SOULS SATURDAY CANON IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/1vN-3YmqPaghQ_wRSWSu8DnbowhyKimEI/view?usp=drivesdk",
@@ -1655,14 +1799,14 @@
         "url": "https://drive.google.com/file/d/1NeD4CZPj0NbTOMCF8jutj2ZvinJTEcWJ/view?usp=drivesdk",
         "name": "2 AwedByTheBeauty-3rd-Karam.pdf",
         "description": "THEOTOKION IN TONE THREE\n(**The original melody**) | Karam",
-        "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-05 Friday of the 5th Week - Small Compline"
+        "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-05 Friday of the 6th Week - Small Compline"
       },
       {
         "label": "Stanitsas",
         "url": "https://drive.google.com/file/d/1Lth06uXjk40xAr9YFJryJQnEjoASiEdg/view?usp=drivesdk",
         "name": "2 AwedByThyBeauty-3rd-Stanitsas.pdf",
         "description": "THEOTOKION IN TONE THREE\n(**The original melody**) | Stanitsas",
-        "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-05 Friday of the 5th Week - Small Compline"
+        "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-05 Friday of the 6th Week - Small Compline"
       }
     ]
   },
