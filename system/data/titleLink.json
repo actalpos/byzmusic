@@ -455,6 +455,18 @@
       }
     ]
   },
+  "DOXASTICON FOR PASCHA IN TONE FIVE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "AA",
+        "url": "https://drive.google.com/file/d/1IjQ7PlIPeEguEFbtzKsUbC_IfuES0cgt/view?usp=drivesdk",
+        "name": "21 PaschalDoxastikon-pl1st-Karam-Vespers.pdf",
+        "description": "DOXASTICON FOR PASCHA\nIN TONE FIVE | AA",
+        "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 01 Sunday of Great and Holy Pascha"
+      }
+    ]
+  },
   "DOXASTICON FOR ST. JOHN CLIMACUS IN TONE FIVE": {
     "type": "multi",
     "versions": [
@@ -1695,11 +1707,35 @@
       }
     ]
   },
+  "THE GREAT PROKEIMENON IN TONE SEVEN": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Traditional",
+        "url": "https://drive.google.com/file/d/1rhvpKvWhlZ9wmEpmCunBGCZoVJcG_xl-/view?usp=drivesdk",
+        "name": "22 Prokeimenon-grave-WhoIsSoGreatAGod.pdf",
+        "description": "THE GREAT PROKEIMENON\nIN TONE SEVEN | Traditional",
+        "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 01 Sunday of Great and Holy Pascha"
+      }
+    ]
+  },
   "THE KATAVASIAE OF THE SOULS SATURDAY CANON IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/1vN-3YmqPaghQ_wRSWSu8DnbowhyKimEI/view?usp=drivesdk",
     "name": "7 KatavasiaeOdes1to9-pl4th-Karam-EN-SaturdaySouls.pdf",
     "description": "THE KATAVASIAE OF THE SOULS SATURDAY CANON IN TONE EIGHT",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02-1 SATURDAY BEFORE MEAT-FARE SUNDAY"
+  },
+  "THE PASCHAL STICHERA IN TONE FIVE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/10aIe6aLVOSAjWYYDoMc-U8VewaMQtCMs/view?usp=drivesdk",
+        "name": "20 PaschalSticheras-pl1st-Karam-Vespers.pdf",
+        "description": "THE PASCHAL STICHERA\nIN TONE FIVE | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 01 Sunday of Great and Holy Pascha"
+      }
+    ]
   },
   "THE PENITENTIAL STICHERA FROM THE TRIODION IN TONE FOUR ( THE ORIGINAL MELODY )": {
     "url": "https://drive.google.com/file/d/15OQWnYX1GdjbiXzOv_rd3nvS8h89yON8/view?usp=drivesdk",
