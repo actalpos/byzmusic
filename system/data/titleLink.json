@@ -991,6 +991,12 @@
     "description": "GREAT DOXOLOGY IN TONE EIGHT",
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
   },
+  "GREAT DOXOLOGY IN TONE FIVE": {
+    "url": "https://drive.google.com/file/d/1soB0Mk117mnRvUSb7PxHj9SO9n0j81oD/view?usp=drivesdk",
+    "name": "18 BriefDoxology-pl1st.pdf",
+    "description": "GREAT DOXOLOGY IN TONE FIVE",
+    "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+  },
   "GREAT DOXOLOGY IN TONE ONE": {
     "url": "https://drive.google.com/file/d/1iNzEXnQHpdRtQQF3N_7rWXatJpYvKxQU/view?usp=drivesdk",
     "name": "18 BriefDoxology-1st.pdf",
@@ -1668,7 +1674,7 @@
       {
         "label": "Karam",
         "url": "https://drive.google.com/file/d/1IjQ7PlIPeEguEFbtzKsUbC_IfuES0cgt/view?usp=drivesdk",
-        "name": "21 DoxastikonSticheras-pl1st-Karam-Vespers.pdf",
+        "name": "21 DoxastikonSticheras-pl1st-Karam-Vespers-Pascha.pdf",
         "description": "THE DOXASTICON FOR PASCHA\nIN TONE FIVE | Karam",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 01 Sunday of Great and Holy Pascha"
       }
@@ -1794,7 +1800,7 @@
       {
         "label": "Traditional",
         "url": "https://drive.google.com/file/d/1rhvpKvWhlZ9wmEpmCunBGCZoVJcG_xl-/view?usp=drivesdk",
-        "name": "22 Prokeimenon-grave-WhoIsSoGreatAGod.pdf",
+        "name": "22 Prokeimenon-grave-VespersWhoIsSoGreatAGod-Pascha.pdf",
         "description": "THE GREAT PROKEIMENON\nIN TONE SEVEN | Traditional",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 01 Sunday of Great and Holy Pascha"
       }
@@ -1836,7 +1842,7 @@
       {
         "label": "Karam",
         "url": "https://drive.google.com/file/d/10aIe6aLVOSAjWYYDoMc-U8VewaMQtCMs/view?usp=drivesdk",
-        "name": "20 Sticheras-pl1st-Karam-Vespers.pdf",
+        "name": "20 Sticheras-pl1st-Karam-Vespers-Pascha.pdf",
         "description": "THE PASCHAL STICHERA\nIN TONE FIVE | Karam",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 01 Sunday of Great and Holy Pascha"
       }
