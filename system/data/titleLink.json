@@ -535,6 +535,18 @@
       }
     ]
   },
+  "DOXASTICON FOR THE PARALYTIC IN TONE FIVE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "DCS",
+        "url": "https://drive.google.com/file/d/1t7c1reqog063LU_pmvNON_NXwTWGQ9HU/view?usp=drivesdk",
+        "name": "02 DoxastikonStichera-pl1st-DCS-Vespers-ParalyticSunday.pdf",
+        "description": "DOXASTICON FOR THE PARALYTIC\nIN TONE FIVE | DCS",
+        "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 04 Sunday of the Paralytic"
+      }
+    ]
+  },
   "DOXASTICON FOR THE PHARISEE AND PUBLICAN IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/1ZbN-V8RNYH1I-6az2W58HPcy6_JoiW4f/view?usp=drivesdk",
     "name": "2 DoxastikonSticheras-pl4th-EM-EN.pdf",
@@ -867,6 +879,18 @@
         "name": "01 Sticheras-pl2nd-Creemens-Vespers-MyrrhBearersSunday.pdf",
         "description": "For the Myrrh-bearing Women in Tone Two | Creemens",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 03 Sunday of Myrrh-Bearers"
+      }
+    ]
+  },
+  "FOR THE PARALYTIC IN TONE ONE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "DCS",
+        "url": "https://drive.google.com/file/d/1Hm_-8JPcJqpztcHMIxYZu4sX8lWT-30c/view?usp=drivesdk",
+        "name": "01 Sticheras-1st-DCS-Vespers-ParalyticSunday.pdf",
+        "description": "For the Paralytic in Tone One | DCS",
+        "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 04 Sunday of the Paralytic"
       }
     ]
   },
@@ -1810,6 +1834,13 @@
     "type": "multi",
     "versions": [
       {
+        "label": "EM",
+        "url": "https://drive.google.com/file/d/1ErnV4YpSqNCPRKS5XEsmi--SA1SjKJ3L/view?usp=drivesdk",
+        "name": "11 Ode1-9-1st-EM-Pascha.pdf",
+        "description": "THE KATAVASIAE OF THE PASCHAL CANON IN TONE ONE | EM",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+      },
+      {
         "label": "AA",
         "url": "https://drive.google.com/file/d/1A8DFDjFbBMqSodiYgoUEQ3jIsSbddXRz/view?usp=drivesdk",
         "name": "11 Ode1-9-1st-AA-Pascha.pdf",
@@ -1839,6 +1870,20 @@
   "THE PASCHAL STICHERA IN TONE FIVE": {
     "type": "multi",
     "versions": [
+      {
+        "label": "EM bl",
+        "url": "https://drive.google.com/file/d/1sAaOcy0cnckHyxoPacoXhm_Gsi2Pyuqv/view?usp=drivesdk",
+        "name": "PaschalStichera-Doxa-billingual.pdf",
+        "description": "THE PASCHAL STICHERA\nIN TONE FIVE | EM bl",
+        "path": "Byzantine Music / Bilingual Services / Pentecostarion / 01 Sunday of Great and Holy Pascha"
+      },
+      {
+        "label": "EM",
+        "url": "https://drive.google.com/file/d/1MRGC-7Cv9FtYtwYLe7oyS9H4ijc1FJ0M/view?usp=drivesdk",
+        "name": "20 Sticheras-pl1st-EM-Vespers-Pascha.pdf",
+        "description": "THE PASCHAL STICHERA\nIN TONE FIVE | EM",
+        "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 01 Sunday of Great and Holy Pascha"
+      },
       {
         "label": "Karam",
         "url": "https://drive.google.com/file/d/10aIe6aLVOSAjWYYDoMc-U8VewaMQtCMs/view?usp=drivesdk",
