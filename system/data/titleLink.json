@@ -1862,14 +1862,14 @@
       {
         "label": "EM",
         "url": "https://drive.google.com/file/d/1ErnV4YpSqNCPRKS5XEsmi--SA1SjKJ3L/view?usp=drivesdk",
-        "name": "11 Ode1-9-1st-EM-Pascha.pdf",
+        "name": "11 Ode1-9-1st-EM-Canon-Pascha.pdf",
         "description": "THE KATAVASIAE OF THE PASCHAL CANON IN TONE ONE | EM",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
       },
       {
         "label": "AA",
         "url": "https://drive.google.com/file/d/1A8DFDjFbBMqSodiYgoUEQ3jIsSbddXRz/view?usp=drivesdk",
-        "name": "11 Ode1-9-1st-AA-Pascha.pdf",
+        "name": "11 Ode1-9-1st-AA-Katabasies-Pascha.pdf",
         "description": "THE KATAVASIAE OF THE PASCHAL CANON IN TONE ONE | AA",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
       }
@@ -1893,16 +1893,21 @@
       }
     ]
   },
-  "THE PASCHAL STICHERA IN TONE FIVE": {
+  "THE PASCHAL CANON IN TONE ONE": {
     "type": "multi",
     "versions": [
       {
-        "label": "EM bl",
-        "url": "https://drive.google.com/file/d/1sAaOcy0cnckHyxoPacoXhm_Gsi2Pyuqv/view?usp=drivesdk",
-        "name": "PaschalStichera-Doxa-billingual.pdf",
-        "description": "THE PASCHAL STICHERA\nIN TONE FIVE | EM bl",
-        "path": "Byzantine Music / Bilingual Services / Pentecostarion / 01 Sunday of Great and Holy Pascha"
-      },
+        "label": "AA Canon",
+        "url": "https://drive.google.com/file/d/1uOaMCY5iapmE6-ASPW7lEc7dwTXChBwX/view?usp=drivesdk",
+        "name": "11 Ode1-9-1st-AA-Canon-Pascha.pdf",
+        "description": "THE PASCHAL CANON IN TONE ONE | AA Canon",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+      }
+    ]
+  },
+  "THE PASCHAL STICHERA IN TONE FIVE": {
+    "type": "multi",
+    "versions": [
       {
         "label": "EM",
         "url": "https://drive.google.com/file/d/1MRGC-7Cv9FtYtwYLe7oyS9H4ijc1FJ0M/view?usp=drivesdk",
@@ -1916,6 +1921,13 @@
         "name": "20 Sticheras-pl1st-Karam-Vespers-Pascha.pdf",
         "description": "THE PASCHAL STICHERA\nIN TONE FIVE | Karam",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 01 Sunday of Great and Holy Pascha"
+      },
+      {
+        "label": "EM bl",
+        "url": "https://drive.google.com/file/d/1sAaOcy0cnckHyxoPacoXhm_Gsi2Pyuqv/view?usp=drivesdk",
+        "name": "PaschalStichera-Doxa-billingual.pdf",
+        "description": "THE PASCHAL STICHERA\nIN TONE FIVE | EM bl",
+        "path": "Byzantine Music / Bilingual Services / Pentecostarion / 01 Sunday of Great and Holy Pascha"
       }
     ]
   },
