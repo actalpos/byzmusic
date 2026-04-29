@@ -535,6 +535,25 @@
       }
     ]
   },
+  "DOXASTICON FOR THE PARALYTIC IN TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1vMhg6GsNi-pjc4mZCtSmDGT7Janbx5cI/view?usp=drivesdk",
+        "name": "04 DoxastikonAposticha-pl4th-Karam-Vespers-ParalyticSunday.pdf",
+        "description": "DOXASTICON FOR THE PARALYTIC\nIN TONE EIGHT | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 04 Sunday of the Paralytic"
+      },
+      {
+        "label": "DCS",
+        "url": "https://drive.google.com/file/d/1z2xYL0gQTF-gRTa3mMh2P3fDEdcvMNIZ/view?usp=drivesdk",
+        "name": "04 DoxastikonAposticha-pl4th-DCS-Vespers-ParalyticSunday.pdf",
+        "description": "DOXASTICON FOR THE PARALYTIC\nIN TONE EIGHT | DCS",
+        "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 04 Sunday of the Paralytic"
+      }
+    ]
+  },
   "DOXASTICON FOR THE PARALYTIC IN TONE FIVE": {
     "type": "multi",
     "versions": [
@@ -1695,6 +1714,13 @@
   "THE DOXASTICON FOR PASCHA IN TONE FIVE": {
     "type": "multi",
     "versions": [
+      {
+        "label": "EM",
+        "url": "https://drive.google.com/file/d/1awy1M1JMs2JpR5afSVcg5B0wi5X822tK/view?usp=drivesdk",
+        "name": "21 DoxastikonSticheras-pl1st-EM-Vespers-Pascha.pdf",
+        "description": "THE DOXASTICON FOR PASCHA\nIN TONE FIVE | EM",
+        "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 01 Sunday of Great and Holy Pascha"
+      },
       {
         "label": "Karam",
         "url": "https://drive.google.com/file/d/1IjQ7PlIPeEguEFbtzKsUbC_IfuES0cgt/view?usp=drivesdk",
