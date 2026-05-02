@@ -539,6 +539,13 @@
     "type": "multi",
     "versions": [
       {
+        "label": "EM",
+        "url": "https://drive.google.com/file/d/1Eech5dfJK5rJjQiq0ICFlEOwx5QX7j4h/view?usp=drivesdk",
+        "name": "04 DoxastikonAposticha-pl4th-EM-Vespers-ParalyticSunday.pdf",
+        "description": "DOXASTICON FOR THE PARALYTIC\nIN TONE EIGHT | EM",
+        "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 04 Sunday of the Paralytic"
+      },
+      {
         "label": "Karam",
         "url": "https://drive.google.com/file/d/1vMhg6GsNi-pjc4mZCtSmDGT7Janbx5cI/view?usp=drivesdk",
         "name": "04 DoxastikonAposticha-pl4th-Karam-Vespers-ParalyticSunday.pdf",
@@ -557,6 +564,13 @@
   "DOXASTICON FOR THE PARALYTIC IN TONE FIVE": {
     "type": "multi",
     "versions": [
+      {
+        "label": "EM",
+        "url": "https://drive.google.com/file/d/1O9hlI64uBCfjsYKf8fZ5FB3N06eEhkBN/view?usp=drivesdk",
+        "name": "02 DoxastikonStichera-pl1st-EM-Vespers-ParalyticSunday.pdf",
+        "description": "DOXASTICON FOR THE PARALYTIC\nIN TONE FIVE | EM",
+        "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 04 Sunday of the Paralytic"
+      },
       {
         "label": "DCS",
         "url": "https://drive.google.com/file/d/1t7c1reqog063LU_pmvNON_NXwTWGQ9HU/view?usp=drivesdk",
@@ -904,6 +918,13 @@
   "FOR THE PARALYTIC IN TONE ONE": {
     "type": "multi",
     "versions": [
+      {
+        "label": "EM",
+        "url": "https://drive.google.com/file/d/1d5WSPCBtYrSZJdYsHFxWFVrQUju-SIVe/view?usp=drivesdk",
+        "name": "01 Sticheras-1st-EM-Vespers-ParalyticSunday.pdf",
+        "description": "For the Paralytic in Tone One | EM",
+        "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 04 Sunday of the Paralytic"
+      },
       {
         "label": "DCS",
         "url": "https://drive.google.com/file/d/1Hm_-8JPcJqpztcHMIxYZu4sX8lWT-30c/view?usp=drivesdk",
