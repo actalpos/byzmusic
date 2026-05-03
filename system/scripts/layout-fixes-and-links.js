@@ -61,6 +61,7 @@ function normalizeTitle(str) {
     .replace(/\(\s*/g, "( ")
     .replace(/\s*\)/g, " )")
     .replace(/\s+/g, " ")
+    .replace(/^(THE|A|AN)\s+/i, "")
     .trim()
     .toLowerCase();
 }
