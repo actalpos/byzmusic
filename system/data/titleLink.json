@@ -1769,6 +1769,25 @@
       }
     ]
   },
+  "THE DOXASTICON OF THE PARALYTIC IN TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "DCS",
+        "url": "https://drive.google.com/file/d/1WqeEsN-yDqN1TTjRN_jnm7e64Ws4xRRP/view?usp=drivesdk",
+        "name": "21 DoxastikonPraises-pl4th-DCS-Orthros-ParalyticSunday.pdf",
+        "description": "THE DOXASTICON OF THE PARALYTIC IN TONE EIGHT | DCS",
+        "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 04 Sunday of the Paralytic"
+      },
+      {
+        "label": "EM",
+        "url": "https://drive.google.com/file/d/1mEzaJxKk1vBS6DEQPiff0NM8y1u9GSS7/view?usp=drivesdk",
+        "name": "21 DoxastikonPraises-pl4th-EM-Orthros-ParalyticSunday.pdf",
+        "description": "THE DOXASTICON OF THE PARALYTIC IN TONE EIGHT | EM",
+        "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 04 Sunday of the Paralytic"
+      }
+    ]
+  },
   "THE EIGHTH EOTHINON EXAPOSTEILARION IN TONE TWO ( UPON THAT MOUNT IN GALILEE )": {
     "type": "multi",
     "versions": [
