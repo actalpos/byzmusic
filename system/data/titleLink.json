@@ -1912,6 +1912,13 @@
     "type": "multi",
     "versions": [
       {
+        "label": "AA Canon",
+        "url": "https://drive.google.com/file/d/1uOaMCY5iapmE6-ASPW7lEc7dwTXChBwX/view?usp=drivesdk",
+        "name": "11 Ode1-9-1st-AA-Canon-Pascha.pdf",
+        "description": "THE KATAVASIAE OF THE PASCHAL CANON IN TONE ONE | AA Canon",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+      },
+      {
         "label": "AA Katavasiae v2",
         "url": "https://drive.google.com/file/d/1A8DFDjFbBMqSodiYgoUEQ3jIsSbddXRz/view?usp=drivesdk",
         "name": "11 Ode1-9-1st-AA-Katabasies-V2-Pascha.pdf",
@@ -1941,18 +1948,6 @@
         "url": "https://drive.google.com/file/d/1RfKe_Vt54Ge60TCCbOZTMl3J3W8CVwMQ/view?usp=drivesdk",
         "name": "11 Ode9-ToReplaceMagnification-1st-AA-Pascha.pdf",
         "description": "THE NINTH ODE OF THE PASCHAL & THEOTOKOS CANONS IN TONE ONE | AA",
-        "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
-      }
-    ]
-  },
-  "THE PASCHAL CANON IN TONE ONE": {
-    "type": "multi",
-    "versions": [
-      {
-        "label": "AA Canon",
-        "url": "https://drive.google.com/file/d/1uOaMCY5iapmE6-ASPW7lEc7dwTXChBwX/view?usp=drivesdk",
-        "name": "11 Ode1-9-1st-AA-Canon-Pascha.pdf",
-        "description": "THE PASCHAL CANON IN TONE ONE | AA Canon",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
       }
     ]
