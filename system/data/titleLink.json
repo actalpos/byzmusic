@@ -1912,17 +1912,17 @@
     "type": "multi",
     "versions": [
       {
+        "label": "AA Katavasiae v2",
+        "url": "https://drive.google.com/file/d/1A8DFDjFbBMqSodiYgoUEQ3jIsSbddXRz/view?usp=drivesdk",
+        "name": "11 Ode1-9-1st-AA-Katabasies-V2-Pascha.pdf",
+        "description": "THE KATAVASIAE OF THE PASCHAL CANON IN TONE ONE | AA Katavasiae v2",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+      },
+      {
         "label": "EM",
         "url": "https://drive.google.com/file/d/1ErnV4YpSqNCPRKS5XEsmi--SA1SjKJ3L/view?usp=drivesdk",
         "name": "11 Ode1-9-1st-EM-Canon-Pascha.pdf",
         "description": "THE KATAVASIAE OF THE PASCHAL CANON IN TONE ONE | EM",
-        "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
-      },
-      {
-        "label": "AA",
-        "url": "https://drive.google.com/file/d/1A8DFDjFbBMqSodiYgoUEQ3jIsSbddXRz/view?usp=drivesdk",
-        "name": "11 Ode1-9-1st-AA-Katabasies-Pascha.pdf",
-        "description": "THE KATAVASIAE OF THE PASCHAL CANON IN TONE ONE | AA",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
       }
     ]
