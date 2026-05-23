@@ -976,10 +976,16 @@
     ]
   },
   "FOR THE HOLY FATHERS IN TONE SIX ( THE ORIGINAL MELODY )": {
-    "url": "https://drive.google.com/file/d/1jsHOoeeBUPsjbwuFqFYndfmb90UZuJqb/view?usp=drivesdk",
-    "name": "01 SticheraHolyFathers-pl2nd-Vespers-SundayOfHolyFathers-W.pdf",
-    "description": "For the Holy Fathers in Tone Six\n(**The original melody**) ",
-    "path": "Byzantine Music / EnglishByzantineMusic / Pentecostarion / 10 Sunday of the Holy Fathers"
+    "type": "multi",
+    "versions": [
+      {
+        "label": "AA - w",
+        "url": "https://drive.google.com/file/d/1jsHOoeeBUPsjbwuFqFYndfmb90UZuJqb/view?usp=drivesdk",
+        "name": "01 SticheraHolyFathers-pl2nd-Vespers-SundayOfHolyFathers-W.pdf",
+        "description": "For the Holy Fathers in Tone Six\n(**The original melody**)  | AA - w",
+        "path": "Byzantine Music / EnglishByzantineMusic / Pentecostarion / 10 Sunday of the Holy Fathers"
+      }
+    ]
   },
   "FOR THE MYRRH-BEARING WOMEN IN TONE TWO": {
     "type": "multi",
