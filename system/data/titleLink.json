@@ -975,6 +975,18 @@
       }
     ]
   },
+  "FOR THE HOLY FATHERS IN TONE SIX ( HAVING LAID UP ALL THEIR HOPE )": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "AA",
+        "url": "https://drive.google.com/file/d/1UeslrKMq2dks5xlD03yJkBfXaffaNQO8/view?usp=drivesdk",
+        "name": "22 Praises-pl2nd-Orthros-SundayOfTheHolyFathers.pdf",
+        "description": "For the Holy Fathers in Tone Six\n(**Having laid up all their hope**) | AA",
+        "path": "Byzantine Music / EnglishByzantineMusic / Pentecostarion / 10 Sunday of the Holy Fathers"
+      }
+    ]
+  },
   "FOR THE HOLY FATHERS IN TONE SIX ( THE ORIGINAL MELODY )": {
     "type": "multi",
     "versions": [
@@ -1132,12 +1144,6 @@
     "name": "1 GodIsWithUs-pl2nd.pdf",
     "description": "“GOD IS WITH US” IN TONE SIX",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / Great Compline"
-  },
-  "GREAT DOXOLOGY IN TONE EIGHT": {
-    "url": "https://drive.google.com/file/d/1Uvf7QsF3Ukr5nMy3Pxm8qMgLW2P7YzZR/view?usp=drivesdk",
-    "name": "18 BriefDoxology-pl4th.pdf",
-    "description": "GREAT DOXOLOGY IN TONE EIGHT",
-    "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
   },
   "GREAT DOXOLOGY IN TONE FIVE": {
     "url": "https://drive.google.com/file/d/1soB0Mk117mnRvUSb7PxHj9SO9n0j81oD/view?usp=drivesdk",
@@ -1938,11 +1944,29 @@
     "description": "THE EXAPOSTEILARION OF SAINTS CONSTANTINE & HELEN IN TONE TWO",
     "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 09 May / 21 St Constantine and Helen"
   },
-  "THE EXAPOSTEILARION OF THE ASCENSION IN TONE TWO": {
-    "url": "https://drive.google.com/file/d/1dAdMNcbQzivlVJ9iAIirHxqcjOqJSRi8/view?usp=drivesdk",
-    "name": "23 Exaposteilarion-2nd-Orthros-Ascension.pdf",
-    "description": "THE EXAPOSTEILARION OF THE ASCENSION IN TONE TWO",
-    "path": "Byzantine Music / EnglishByzantineMusic / Pentecostarion / 09 The Ascension of Our Lord Jesus Christ "
+  "THE EXAPOSTEILARION OF THE ASCENSION IN TONE TWO ( THE ORIGINAL MELODY )": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "AA",
+        "url": "https://drive.google.com/file/d/1dAdMNcbQzivlVJ9iAIirHxqcjOqJSRi8/view?usp=drivesdk",
+        "name": "23 Exaposteilarion-2nd-Orthros-Ascension.pdf",
+        "description": "THE EXAPOSTEILARION OF THE ASCENSION IN TONE TWO\n(**The original melody**) | AA",
+        "path": "Byzantine Music / EnglishByzantineMusic / Pentecostarion / 09 The Ascension of Our Lord Jesus Christ "
+      }
+    ]
+  },
+  "THE EXAPOSTEILARION OF THE HOLY FATHERS IN TONE TWO ( HEARKEN, YE WOMEN )": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "AA",
+        "url": "https://drive.google.com/file/d/1F7t0LlGIBjTh_UWQdNfCrK8DJOgcr9SI/view?usp=drivesdk",
+        "name": "21 Exaposteilarion-2nd-Orthros-SundayOfHolyFathers.pdf",
+        "description": "THE EXAPOSTEILARION OF THE HOLY FATHERS IN TONE TWO\n(**Hearken, ye women**) | AA",
+        "path": "Byzantine Music / EnglishByzantineMusic / Pentecostarion / 10 Sunday of the Holy Fathers"
+      }
+    ]
   },
   "THE EXAPOSTEILARION OF THE PARALYTIC IN TONE TWO": {
     "type": "multi",
@@ -1984,6 +2008,12 @@
     "url": "https://drive.google.com/file/d/1RzMyZwydsSutEptfDFa8Emb2vf6h5Rhu/view?usp=drivesdk",
     "name": "13 4th-EothinonExapostelarion-2nd-TonyH.pdf",
     "description": " THE FOURTH EOTHINON EXAPOSTEILARION IN TONE TWO",
+    "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+  },
+  "THE GREAT DOXOLOGY IN TONE EIGHT": {
+    "url": "https://drive.google.com/file/d/1Uvf7QsF3Ukr5nMy3Pxm8qMgLW2P7YzZR/view?usp=drivesdk",
+    "name": "18 BriefDoxology-pl4th.pdf",
+    "description": "THE GREAT DOXOLOGY IN TONE EIGHT",
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
   },
   "THE GREAT DOXOLOGY IN TONE SIX": {
@@ -2171,6 +2201,18 @@
     "name": "13 6th-EothinonExapostelarion-2nd-TonyH.pdf",
     "description": "THE SIXTH EOTHINON EXAPOSTEILARION IN TONE TWO\n(**Upon that mount in Galilee **)",
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+  },
+  "THE TENTH EOTHINON EXAPOSTEILARION IN TONE TWO ( UPON THAT MOUNT IN GALILEE )": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Tony H",
+        "url": "https://drive.google.com/file/d/1jWUpbVP8WQHqxeqo_L3oP-nsDz3eA2VU/view?usp=drivesdk",
+        "name": "13 10th-EothionExapostelarion-2nd-TonyH.pdf",
+        "description": "THE TENTH EOTHINON EXAPOSTEILARION IN TONE TWO\n(**Upon that mount in Galilee **) | Tony H",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+      }
+    ]
   },
   "THE THIRD EOTHINON EXAPOSTEILARION IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1jyWfm3vKUBiraKfO_GwlbRvnrNhJebmr/view?usp=drivesdk",
@@ -2468,6 +2510,18 @@
     "name": "ProdigalSon-Praises-2nd-Karam-EN.pdf",
     "description": "[O] For the Prodigal Son",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02 Sunday of the Prodigal Son"
+  },
+  "[O] THE DOXASTICON OF THE HOLY FATHERS IN TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "AA",
+        "url": "https://drive.google.com/file/d/1XvUdFJcYH_daADx04zWQ86SY6SZnT4bW/view?usp=drivesdk",
+        "name": "22 PraisesDoxastikon-pl4th-Orthros-SundayOfTheHolyFathers.pdf",
+        "description": "[O] THE DOXASTICON OF THE\nHOLY FATHERS IN TONE EIGHT | AA",
+        "path": "Byzantine Music / EnglishByzantineMusic / Pentecostarion / 10 Sunday of the Holy Fathers"
+      }
+    ]
   },
   "[O] THEOTOKION IN TONE SIX": {
     "url": "https://drive.google.com/file/d/1F5RP2wu_kODnBLyLv4xVQGnoCtP9BfAj/view?usp=drivesdk",
