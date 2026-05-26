@@ -168,6 +168,18 @@
       }
     ]
   },
+  "APOLYTIKION OF PENTECOST IN TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "multiple",
+        "url": "https://drive.google.com/file/d/1fDzjz8WFAr4eBM7r_6n0tl5ZN3W3TXxr/view?usp=drivesdk",
+        "name": "06 Apolitikion-pl4th-multipleSources-SundayOfPentecost.pdf",
+        "description": "APOLYTIKION OF PENTECOST\nIN TONE EIGHT | multiple",
+        "path": "Byzantine Music / EnglishByzantineMusic / Pentecostarion / 12 Sunday of Pentecost"
+      }
+    ]
+  },
   "APOLYTIKION OF SOULS SATURDAY IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/1Irm64kavh6cesQNlzQLK7IESO9LzK6NC/view?usp=drivesdk",
     "name": "2 Apolitikion-pl4th-SA-EN-SaturdaySouls.pdf",
@@ -822,10 +834,17 @@
     "type": "multi",
     "versions": [
       {
-        "label": "Karam",
+        "label": "Regular - Karam",
+        "url": "https://drive.google.com/file/d/1jy9I4qetB6ym2tWmP_Yo7DyqeW0hGGEc/view?usp=drivesdk",
+        "name": "10 AfterPsalm50Troparia-2nd.pdf",
+        "description": "FESTAL TROPARIA AFTER PSALM 50 IN TONE TWO | Regular - Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+      },
+      {
+        "label": "PalmSunday -Karam",
         "url": "https://drive.google.com/file/d/1e0dUTuj82mAid-Xey8jPU0LYejaK-hEY/view?usp=drivesdk",
         "name": "4 AfterPsalm50Hymn-2nd-Karam-OrthrosPalmSunday.pdf",
-        "description": "FESTAL TROPARIA AFTER PSALM 50 IN TONE TWO | Karam",
+        "description": "FESTAL TROPARIA AFTER PSALM 50 IN TONE TWO | PalmSunday -Karam",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 10 Sunday of the 6th Week of Lent - Palm Sunday"
       }
     ]
@@ -1164,10 +1183,23 @@
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
   },
   "IDIOMELON IN TONE SIX": {
-    "url": "https://drive.google.com/file/d/1fOMUg3UDwLwEnMTo20fOPS-m1PiqNUBq/view?usp=drivesdk",
-    "name": "22 IdiomelonAfterPsalm-pl2nd-Ayoub-Matins-Ascention.pdf",
-    "description": "IDIOMELON IN TONE SIX",
-    "path": "Byzantine Music / EnglishByzantineMusic / Pentecostarion / 09 The Ascension of Our Lord Jesus Christ "
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Pentecost",
+        "url": "https://drive.google.com/file/d/1eGIVMEDXbk3Fy5E48Ggd2KekIupKd_lg/view?usp=drivesdk",
+        "name": "24 AfterPsalm50Troparia-pl2nd-Karam-Orthros-SundayPentecost.pdf",
+        "description": "IDIOMELON IN TONE SIX | Pentecost",
+        "path": "Byzantine Music / EnglishByzantineMusic / Pentecostarion / 12 Sunday of Pentecost"
+      },
+      {
+        "label": "Ascension",
+        "url": "https://drive.google.com/file/d/1fOMUg3UDwLwEnMTo20fOPS-m1PiqNUBq/view?usp=drivesdk",
+        "name": "22 IdiomelonAfterPsalm-pl2nd-Ayoub-Orthros-Ascention.pdf",
+        "description": "IDIOMELON IN TONE SIX | Ascension ",
+        "path": "Byzantine Music / EnglishByzantineMusic / Pentecostarion / 09 The Ascension of Our Lord Jesus Christ "
+      }
+    ]
   },
   "IN EVERLASTING REMEMBRANCE SHALL THE RIGHTEOUS BE; HE SHALL NOT BE AFRAID OF EVIL TIDINGS. ALLELUIA.": {
     "url": "https://drive.google.com/file/d/1nSeOZy-OywMNHNn3UGs3RcT_W9MHJQme/view?usp=drivesdk",
@@ -1219,7 +1251,7 @@
   },
   "KATAVASIAE OF THE SUNDAY OF FORGIVENESS CANON IN TONE SIX": {
     "url": "https://drive.google.com/file/d/1w_7ShR2IXmJHpqMtNtSLHpKReGB-1aSS/view?usp=drivesdk",
-    "name": "11 Ode1-9-pl2nd-ForgivenessSunday.pdf",
+    "name": "11 Ode1-9-pl2nd-AA-ForgivenessSunday.pdf",
     "description": "KATAVASIAE OF THE SUNDAY OF FORGIVENESS CANON IN TONE SIX",
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
   },
@@ -1252,6 +1284,30 @@
     "name": "6 Kathismata-pl1st-Karam-EN-SaturdaySouls.pdf",
     "description": "KATHISMA HYMNS OF SOULS SATURDAY IN TONE FIVE",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02-1 SATURDAY BEFORE MEAT-FARE SUNDAY"
+  },
+  "KATHISMATA HYMNS OF PENTECOST": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1QRp3ifL0zeNwbbr3hdPA2O1_jTdEuY-T/view?usp=drivesdk",
+        "name": "21 Kathismata-4th-Karam-Orthros-SundayPentecost.pdf",
+        "description": "KATHISMATA HYMNS OF PENTECOST | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Pentecostarion / 12 Sunday of Pentecost"
+      }
+    ]
+  },
+  "KOINONIKON ( COMMUNION HYMN ) FOR PENTECOST IN TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "1st Simonpetras",
+        "url": "https://drive.google.com/file/d/1gvVklPsSiIrgnaN3Vs2CxNwEgeFbdf72/view?usp=drivesdk",
+        "name": "32 CommunionHymn-1st-SA-DivineLiturgy-SundayPentecost.pdf",
+        "description": "KOINONIKON (COMMUNION HYMN) FOR PENTECOST IN TONE EIGHT | 1st Simonpetras",
+        "path": "Byzantine Music / EnglishByzantineMusic / Pentecostarion / 12 Sunday of Pentecost"
+      }
+    ]
   },
   "KOINONIKON ( COMMUNION HYMN ) FOR PSALM SUNDAY IN TONE EIGHT": {
     "type": "multi",
@@ -1391,6 +1447,32 @@
         "name": "21 Megalynarion-4th-Karam-DivLitPalmSunday.pdf",
         "description": "MEGALYNARION FOR PALM SUNDAY IN TONE FOUR | Karam",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 10 Sunday of the 6th Week of Lent - Palm Sunday"
+      }
+    ]
+  },
+  "MEGALYNARION FOR THE FEAST IN TONE SEVEN": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "enarmonic grave - Karamanis",
+        "url": "https://drive.google.com/file/d/1O2rAqU_86SbStGiD_Ij1lTWChBAu0mJR/view?usp=drivesdk",
+        "name": "31 Megalynarion-enarmonic-grave-Karamanis-DivineLiturgy-SundayPentecost.pdf",
+        "description": "MEGALYNARION FOR THE FEAST\nIN TONE SEVEN | enarmonic grave - Karamanis",
+        "path": "Byzantine Music / EnglishByzantineMusic / Pentecostarion / 12 Sunday of Pentecost"
+      },
+      {
+        "label": "diatonic grave - Karamanis",
+        "url": "https://drive.google.com/file/d/10vH2zcR4ATfmXyt-_p4lH0_s2j39O2Tm/view?usp=drivesdk",
+        "name": "31 Megalynarion-diatonic-grave-Karamanis-DivineLiturgy-SundayPentecost.pdf",
+        "description": "MEGALYNARION FOR THE FEAST\nIN TONE SEVEN | diatonic grave - Karamanis",
+        "path": "Byzantine Music / EnglishByzantineMusic / Pentecostarion / 12 Sunday of Pentecost"
+      },
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1lL9SEpC12XPhppzgrf_PDvKYNrFMbPSW/view?usp=drivesdk",
+        "name": "31 Megalynarion-grave-Karam-DivineLiturgy-SundayPentecost.pdf",
+        "description": "MEGALYNARION FOR THE FEAST\nIN TONE SEVEN | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Pentecostarion / 12 Sunday of Pentecost"
       }
     ]
   },
@@ -1539,6 +1621,18 @@
       }
     ]
   },
+  "POLYELEOS HYMNS OF PENTECOST": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1w-3_OXP6V60IX77j-LVa17YfyxyBsIKe/view?usp=drivesdk",
+        "name": "22 PolyeleosTroparia-4th-Karam-Orthros-SundayPentecost.pdf",
+        "description": "POLYELEOS HYMNS OF PENTECOST | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Pentecostarion / 12 Sunday of Pentecost"
+      }
+    ]
+  },
   "PRAISES FOR THE SUNDAY OF FORGIVENESS IN TONE FIVE": {
     "url": "https://drive.google.com/file/d/1NLFPhEutNNYBZBMlF-zmZCNzAurwZPi5/view?usp=drivesdk",
     "name": "6A Praises-pl1st-Karam-EN-ForgivenessSunday.pdf",
@@ -1551,6 +1645,18 @@
     "description": "Praises For the Sunday of the Last Judgment\nin Tone Six",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 03 Sunday of the Last Judgment"
   },
+  "PROKEIMENON FOR PENTECOST IN TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1iLSPgUMPDRWMn72OU7-ej6zr4YbgbzSw/view?usp=drivesdk",
+        "name": "23 Prokeimenon-4th-Karam-Orthros-SundayPentecost-W.pdf",
+        "description": "PROKEIMENON FOR PENTECOST\nIN TONE FOUR | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Pentecostarion / 12 Sunday of Pentecost"
+      }
+    ]
+  },
   "PROKEIMENON FOR ST. JULIAN IN TONE FOUR": {
     "url": "https://drive.google.com/file/d/1lOdCm8P1FRGvtebxfCO3JhqEsz61p-9L/view?usp=drivesdk",
     "name": "2 ProkeimenonToARighteous-4th-AA-EN.pdf",
@@ -1559,7 +1665,7 @@
   },
   "PROKEIMENON FOR THE ASCENSION IN TONE FOUR": {
     "url": "https://drive.google.com/file/d/14ns3pTVhXSlA54JSy5Aw8JaThTCSGiRu/view?usp=drivesdk",
-    "name": "21 Prokeimenon-4th-Matins-Ascension-W.pdf",
+    "name": "21 Prokeimenon-4th-Orthros-Ascension-W.pdf",
     "description": "PROKEIMENON FOR THE ASCENSION\nIN TONE FOUR",
     "path": "Byzantine Music / EnglishByzantineMusic / Pentecostarion / 09 The Ascension of Our Lord Jesus Christ "
   },
@@ -1743,6 +1849,18 @@
     "description": "SATURDAY PROKEIMENON IN TONE SIX",
     "path": "Byzantine Music / EnglishByzantineMusic / Vespers"
   },
+  "SAVE US, O GOOD COMFORTER, WHO SING TO THEE: ALLELUIA.": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "SA",
+        "url": "https://drive.google.com/file/d/1OO2ymTltirguRRV6Bu5RFsFsoMqxCW-O/view?usp=drivesdk",
+        "name": "30 FestalEntranceHymn-2nd-SA-DivineLiturgy-SundayPentecost.pdf",
+        "description": "Save us, O Good Comforter, who sing to Thee: Alleluia. | SA",
+        "path": "Byzantine Music / EnglishByzantineMusic / Pentecostarion / 12 Sunday of Pentecost"
+      }
+    ]
+  },
   "SECOND KATHISMA HYMNS IN TONE FOUR ( JOSEPH WAS AMAZED-HARD CHROMATIC )": {
     "type": "multi",
     "versions": [
@@ -1804,6 +1922,18 @@
     "description": "THE AMOMOS: SEVENTEENTH KATHISMA OF THE PSALTER\nIN TONE FIVE",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02-1 SATURDAY BEFORE MEAT-FARE SUNDAY"
   },
+  "THE ANTI-TRISAGION HYMN": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "As many of you",
+        "url": "https://drive.google.com/file/d/19j5ivUvWxP0O2el0LmL08OIjvLLFxmlf/view?usp=drivesdk",
+        "name": "AsManyOfYou-1st-AR-EN-GR.pdf",
+        "description": "THE ANTI-TRISAGION HYMN | As many of you",
+        "path": "Byzantine Music / EnglishByzantineMusic / Divine Liturgy / 5 Trisagion"
+      }
+    ]
+  },
   "THE APOSTICHA FOR PALM SUNDAY IN TONE EIGHT": {
     "type": "multi",
     "versions": [
@@ -1813,6 +1943,18 @@
         "name": "34 Aposticha-pl4th-Karam-VespPalmSunday.pdf",
         "description": "THE APOSTICHA FOR PALM SUNDAY\nIN TONE EIGHT | Karam",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-06 Saturday of the 6th Week - Lazarus Saturday"
+      }
+    ]
+  },
+  "THE APOSTICHA FOR PENTECOST IN TONE SIX": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1TPV1NsFSYheo915173UKRgOP32QwNv6c/view?usp=drivesdk",
+        "name": "04 Aposticha-pl2nd-Karam-Vespers-SundayOfPentecost.pdf",
+        "description": "THE APOSTICHA FOR PENTECOST\nIN TONE SIX | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Pentecostarion / 12 Sunday of Pentecost"
       }
     ]
   },
@@ -1871,6 +2013,37 @@
       }
     ]
   },
+  "THE DOXASTICON OF PENTECOST IN TONE SIX": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1Z8Q0cGP-DJyFUvCicP-M059B3GgWp_if/view?usp=drivesdk",
+        "name": "28 PraisesDoxastikon-pl2nd-Karam-Orthros-SundayPentecost.pdf",
+        "description": "THE Doxasticon OF PENTECOST\nin Tone SIX | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Pentecostarion / 12 Sunday of Pentecost"
+      },
+      {
+        "label": "ElMassih",
+        "url": "https://drive.google.com/file/d/1POLzgLo__vGgQFba6alVCjoKlRzwqZUS/view?usp=drivesdk",
+        "name": "28 PraisesDoxastikon-pl2nd-ElMassih-Orthros-SundayPentecost.pdf",
+        "description": "THE Doxasticon OF PENTECOST\nin Tone SIX | ElMassih",
+        "path": "Byzantine Music / EnglishByzantineMusic / Pentecostarion / 12 Sunday of Pentecost"
+      }
+    ]
+  },
+  "THE DOXASTICON OF THE LITIA PROCESSION IN TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1oij9OdvmDmqQOJxwhzkuyYAMm0iKbKBr/view?usp=drivesdk",
+        "name": "03 LityDoxastikon-pl4th-Karam-Lity-SundayOfPentecost.pdf",
+        "description": "THE DOXASTICON OF THE LITIA PROCESSION IN TONE EIGHT | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Pentecostarion / 12 Sunday of Pentecost"
+      }
+    ]
+  },
   "THE DOXASTICON OF THE PARALYTIC IN TONE EIGHT": {
     "type": "multi",
     "versions": [
@@ -1923,6 +2096,18 @@
         "name": "4 Exaposteilaria-3rd-Karam-OrthrosStLazarusSaturday.pdf",
         "description": "THE EXAPOSTEILARIA FOR LAZARUS SATURDAY IN TONE THREE | Karam",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-06 Saturday of the 6th Week - Lazarus Saturday"
+      }
+    ]
+  },
+  "THE EXAPOSTEILARIA OF PENTECOST IN TONE THREE ( THOU WHO, AS GOD, ADORNEST )": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/19g60p3Ff508Dnwf-WljVhyR78bkRISFS/view?usp=drivesdk",
+        "name": "26 Exaposteilaria-3rd-Karam-Orthros-SundayPentecost.pdf",
+        "description": "THE EXAPOSTEILARIA OF PENTECOST IN TONE THREE\n(**Thou Who, as God, adornest**) | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Pentecostarion / 12 Sunday of Pentecost"
       }
     ]
   },
@@ -2046,6 +2231,18 @@
       }
     ]
   },
+  "THE KATAVASIAE OF BOTH PENTECOST CANONS": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "AA",
+        "url": "https://drive.google.com/file/d/14HTFfVS5LM-ytF3Cixbt2qrjyy7361i7/view?usp=drivesdk",
+        "name": "25 Ode1-9-TwoCanons-4th-pl3rd-Karam-Orthros-SundayPentecost.pdf",
+        "description": "THE KATAVASIAE OF\nBOTH PENTECOST CANONS | AA",
+        "path": "Byzantine Music / EnglishByzantineMusic / Pentecostarion / 12 Sunday of Pentecost"
+      }
+    ]
+  },
   "THE KATAVASIAE OF THE ASCENSION CANONS IN TONE FOUR": {
     "type": "multi",
     "versions": [
@@ -2138,17 +2335,24 @@
     "type": "multi",
     "versions": [
       {
+        "label": "135 3-metered",
+        "url": "https://drive.google.com/file/d/17FnQJ5BCgbhN0ezYXYTyAzJ64xdCKEfK/view?usp=drivesdk",
+        "name": "05 Polyeleos Psalm 135 in 5 Tones Triple Metered EN.pdf",
+        "description": "THE POLYELEOS IN TONE ONE (ABRIDGED) | 135 3-metered",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+      },
+      {
+        "label": "El Murr",
+        "url": "https://drive.google.com/file/d/17j6ezeqALFM4JgtcQgmXMgYMt8wFDTH5/view?usp=drivesdk",
+        "name": "05 Polyeleos - Psalm 134 - Plagal First Mode - Mitri El Murr.pdf",
+        "description": "THE POLYELEOS IN TONE ONE (ABRIDGED) | El Murr",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+      },
+      {
         "label": "Brief El Massih",
         "url": "https://drive.google.com/file/d/1E_0NXyHha4EBGwSiiJEXG5JFE1aFNLtk/view?usp=drivesdk",
         "name": "05 PolyeleosServantsOfLordPsalm134-Brief-1st-ElMassih-EN.pdf",
         "description": "THE POLYELEOS IN TONE ONE (ABRIDGED) | Brief El Massih",
-        "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
-      },
-      {
-        "label": "Long Peloponneisos",
-        "url": "https://drive.google.com/file/d/1Fq2lt8RWsLErzH6lQW7dQfxqpuF5MCVZ/view?usp=drivesdk",
-        "name": "05 PolyeleosServantsOfLordPsalm134-Long-Pl1st-PPeloponnesios-EN.pdf",
-        "description": "THE POLYELEOS IN TONE ONE (ABRIDGED) | Long Peloponneisos",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
       },
       {
@@ -2493,6 +2697,18 @@
     "description": "[O] DOXASTICON OF THE PRODIGAL SON IN TONE SIX",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02 Sunday of the Prodigal Son"
   },
+  "[O] FOR PENTECOST IN TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1PuTJ3d2VkQTH7aHBX0K0SdiSX3udiNqC/view?usp=drivesdk",
+        "name": "27 Praises-4th-Karam-Orthros-SundayPentecost.pdf",
+        "description": "[O] For Pentecost in Tone Four | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Pentecostarion / 12 Sunday of Pentecost"
+      }
+    ]
+  },
   "[O] FOR ST. JOHN CLIMACUS IN TONE EIGHT ( O STRANGE WONDER )": {
     "type": "multi",
     "versions": [
@@ -2535,11 +2751,42 @@
     "description": "[O] TROPARION IN TONE FOUR",
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
   },
+  "[V] DOXASTICON FOR PENTECOST IN TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1dryZFLr-BrJ0NQ76UxjxPs-MqXE_58W4/view?usp=drivesdk",
+        "name": "05 ApostichaDoxastikon-pl4th-Karam-Vespers-SundayOfPentecost.pdf",
+        "description": "[V] DOXASTICON FOR PENTECOST\nIN TONE EIGHT | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Pentecostarion / 12 Sunday of Pentecost"
+      },
+      {
+        "label": "ElMassih",
+        "url": "https://drive.google.com/file/d/1CimKTnUqlcd7H7Nz_2WlWlJIj7zFeyYF/view?usp=drivesdk",
+        "name": "02 SticherasDoxastikon-pl4th-ElMassih-Vespers-SundayOfPentecost.pdf",
+        "description": "[V] DOXASTICON FOR PENTECOST\nIN TONE EIGHT | ElMassih",
+        "path": "Byzantine Music / EnglishByzantineMusic / Pentecostarion / 12 Sunday of Pentecost"
+      }
+    ]
+  },
   "[V] DOXASTICON FOR THE SUNDAY OF FORGIVENESS IN TONE SIX": {
     "url": "https://drive.google.com/file/d/1I2bTRE4O1WBefw-Rk9Maj7NCfiVEo1yK/view?usp=drivesdk",
     "name": "2B Doxastikon-pl2nd-EM-EN-ForgivenessSunday.pdf",
     "description": "[V] DOXASTICON FOR THE SUNDAY OF FORGIVENESS IN TONE SIX",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 04 Sunday of Forgiveness"
+  },
+  "[V] FOR PENTECOST IN TONE ONE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1KGdwAIAtCTSeDPgOkAzpy-Y9dkL3LaJ9/view?usp=drivesdk",
+        "name": "01 Sticheras-1st-Karam-Vespers-SundayOfPentecost.pdf",
+        "description": "[V] For Pentecost in Tone One | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Pentecostarion / 12 Sunday of Pentecost"
+      }
+    ]
   },
   "[V] FOR ST. JOHN CLIMACUS IN TONE EIGHT ( O STRANGE WONDER )": {
     "type": "multi",
