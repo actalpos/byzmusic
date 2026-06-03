@@ -149,6 +149,18 @@
     "description": "APOLYTIKION FOR THE PRESENTATION OF CHRIST IN TONE ONE",
     "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 06 February / 02"
   },
+  "APOLYTIKION OF ALL SAINTS IN TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "multiple",
+        "url": "https://drive.google.com/file/d/1qy_n1yCUWOuLoqMVjpI4TE0JsGYu0eHf/view?usp=drivesdk",
+        "name": "06 Apolytikion-4th-multiple-SundayAllSaints.pdf",
+        "description": "APOLYTIKION OF ALL SAINTS\nIN TONE FOUR | multiple",
+        "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 13 Sunday of All Saints"
+      }
+    ]
+  },
   "APOLYTIKION OF LAZARUS SATURDAY IN TONE ONE": {
     "type": "multi",
     "versions": [
