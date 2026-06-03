@@ -10,6 +10,8 @@ Generated on: 2026-03-10 21:42
 Layout cleanup + RTL/LTR detection + title links
 
 Typography controlled entirely by CSS
+
+June 3 2026 - add festal to the kewords to be ignored (for FESTAL TROPARIA AFTER PSALM 50)
 */
 
 (function () {
@@ -77,12 +79,12 @@ function normalizeTitle(str) {
     const prefixes = prefixMatch[1];
     let title = prefixMatch[3];
 
-    title = title.replace(/^(the|a|an)\s+/, "");
+    title = title.replace(/^(the|a|an|festal)\s+/, "");
 
     return `${prefixes} ${title}`.trim();
   }
 
-  return str.replace(/^(the|a|an)\s+/, "");
+  return str.replace(/^(the|a|an|festal)\s+/, "");
 }
 
 function isRTL(text) {

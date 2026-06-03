@@ -957,6 +957,12 @@
       }
     ]
   },
+  "EXAPOSTEILARION & THEOTOKION OF ALL SAINTS IN TONE TWO ( UPON THAT MOUNT IN GALILEE )": {
+    "url": "https://drive.google.com/file/d/1WPWyaWYx3cGFoWv_ICmbYehRAtogDVxT/view?usp=drivesdk",
+    "name": "23 Exaposteilarion-2nd-AA-Orthros-SundayOfAllSaints-W.pdf",
+    "description": "EXAPOSTEILARION & THEOTOKION OF ALL SAINTS IN TONE TWO\n(**Upon that mount in Galilee**)",
+    "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 13 Sunday of All Saints"
+  },
   "EXAPOSTEILARION OF PASCHA IN TONE TWO": {
     "type": "multi",
     "versions": [
@@ -1122,10 +1128,16 @@
     "description": "THE FIRST ANTIPHON",
     "path": "Byzantine Music / EnglishByzantineMusic / Divine Liturgy / 2 First Antiphon"
   },
-  "FIRST EOTHINON EXAPOSTEILARION IN TONE TWO": {
+  "FIRST EOTHINON DOXASTICON IN TONE ONE": {
+    "url": "https://drive.google.com/file/d/1VypyINnnDc5wje8Dxmjtzj5-Py5xkog-/view?usp=drivesdk",
+    "name": "16 1st DoxastikonEothinon-1st.pdf",
+    "description": "THE FIRST EOTHINON DOXASTICON IN TONE ONE",
+    "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+  },
+  "FIRST EOTHINON EXAPOSTEILARION IN TONE TWO ( THE ORIGINAL MELODY )": {
     "url": "https://drive.google.com/file/d/1VXfwd7h2rMlUqfl9Y3HzyENOFOnTfT5a/view?usp=drivesdk",
     "name": "13 1st-EothinonExapostelarion-2nd-TonyH.pdf",
-    "description": "THE FIRST EOTHINON EXAPOSTEILARION IN TONE TWO",
+    "description": "THE FIRST EOTHINON EXAPOSTEILARION IN TONE TWO\n(**The original melody**)",
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
   },
   "FIRST KATHISMA HYMN OF LAZARUS SATURDAY IN TONE ONE ( WHILE GABRIEL WAS SAYING )": {
@@ -2726,6 +2738,12 @@
     "name": "ProdigalSon-PraisesDoxastikon-pl2nd-Karam-EN.pdf",
     "description": "[O] DOXASTICON OF THE PRODIGAL SON IN TONE SIX",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02 Sunday of the Prodigal Son"
+  },
+  "[O] FOR ALL SAINTS IN TONE FOUR ( AS ONE VALIANT )": {
+    "url": "https://drive.google.com/file/d/1G0N37ivhxgJiRrhbFfrD8qMkheFjdUl_/view?usp=drivesdk",
+    "name": "24 Praises-4th-AA-Orthros-SundayOfAllSaints-W.pdf",
+    "description": "[O] For All Saints in Tone Four\n(**As one valiant**)",
+    "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 13 Sunday of All Saints"
   },
   "[O] FOR PENTECOST IN TONE FOUR": {
     "type": "multi",
