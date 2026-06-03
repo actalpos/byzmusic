@@ -49,6 +49,13 @@ function detectServiceType() {
 
 const SERVICE = detectServiceType();
 
+const SERVICE_ORDER = {
+  V: {
+    LIHC: 1,
+    AP: 2
+  }
+};
+
 /**********************
  * UTILS
  **********************/
@@ -180,6 +187,9 @@ document.querySelectorAll("table tr").forEach(tr => {
  **********************/
 let titleLinks = {};
 
+let titleGroups = {};
+let titleUsage = {};
+
 try {
 
   const base = window.location.pathname.includes("/byzmusic/") ? "/byzmusic" : "";
@@ -189,6 +199,15 @@ try {
 
   const raw = await res.json();
 
+  // for (const key in raw) {
+
+  //   const item = raw[key];
+
+  //   titleLinks[normalizeTitle(key)] =
+  //     typeof item === "string" ? { url: item, name: null } : item;
+
+  // }
+
   for (const key in raw) {
 
     const item = raw[key];
@@ -196,7 +215,42 @@ try {
     titleLinks[normalizeTitle(key)] =
       typeof item === "string" ? { url: item, name: null } : item;
 
-  }
+    const m = key.match(
+      /^\[([A-Z]+)\]\s+\[([A-Z]+)\]\s+(.*)$/i
+    );
+
+    if (m) {
+
+      const service = m[1].toUpperCase();
+      const moment = m[2].toUpperCase();
+      const title = normalizeTitle(m[3]);
+
+      if (!titleGroups[title]) {
+        titleGroups[title] = [];
+      }
+
+      titleGroups[title].push({
+        service,
+        moment,
+        item
+      });
+    }
+
+    Object.keys(titleGroups).forEach(title => {
+
+      titleGroups[title].sort((a, b) => {
+
+        const order =
+          SERVICE_ORDER[a.service] || {};
+
+        const pa = order[a.moment] || 999;
+        const pb = order[b.moment] || 999;
+
+        return pa - pb;
+      });
+
+    });    
+  }  
 
 } catch (e) {
 
@@ -214,13 +268,40 @@ document.querySelectorAll("td p").forEach(p => {
   const originalText = p.textContent.trim();
   if (!originalText) return;
 
+  // const baseKey = normalizeTitle(originalText);
+
+  // let item = SERVICE
+  //   ? titleLinks[`[${SERVICE.toLowerCase()}] ${baseKey}`]
+  //   : null;
+
+  // if (!item) item = titleLinks[baseKey];
+
   const baseKey = normalizeTitle(originalText);
 
-  let item = SERVICE
-    ? titleLinks[`[${SERVICE.toLowerCase()}] ${baseKey}`]
-    : null;
+  let item = null;
 
-  if (!item) item = titleLinks[baseKey];
+  if (
+    SERVICE &&
+    titleGroups[baseKey] &&
+    titleGroups[baseKey].length
+  ) {
+
+    const index = titleUsage[baseKey] || 0;
+
+    item =
+      titleGroups[baseKey][
+        Math.min(
+          index,
+          titleGroups[baseKey].length - 1
+        )
+      ]?.item;
+
+    titleUsage[baseKey] = index + 1;
+  }
+
+  if (!item) {
+    item = titleLinks[baseKey];
+  }  
   if (!item) return;
 
   if (item.type === "multi" && Array.isArray(item.versions)) {
