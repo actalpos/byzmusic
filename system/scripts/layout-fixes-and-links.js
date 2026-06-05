@@ -12,6 +12,7 @@ Layout cleanup + RTL/LTR detection + title links
 Typography controlled entirely by CSS
 
 June 3 2026 - add festal to the kewords to be ignored (for FESTAL TROPARIA AFTER PSALM 50)
+June 4 2026 - fix for linking [V] header and [O] header
 */
 
 (function () {
@@ -301,9 +302,16 @@ document.querySelectorAll("td p").forEach(p => {
     titleUsage[baseKey] = index + 1;
   }
 
+  //fix for linking [V] header and [O] header
+  if (!item && SERVICE) {
+    item = titleLinks[
+      `[${SERVICE.toLowerCase()}] ${baseKey}`
+    ];
+  }
+
   if (!item) {
     item = titleLinks[baseKey];
-  }  
+  }
   if (!item) return;
 
   if (item.type === "multi" && Array.isArray(item.versions)) {
