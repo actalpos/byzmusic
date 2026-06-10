@@ -131,6 +131,12 @@
       }
     ]
   },
+  "APOLYTIKION FOR ALL SAINTS OF NORTH AMERICA IN TONE EIGHT": {
+    "url": "https://drive.google.com/file/d/1vZCfk-ky9VT1EPb9WERKN9oWNnzTLLtR/view?usp=drivesdk",
+    "name": "06 ApolytikionNAmSt-pl4th-multiple-AntiochAndNAmSaintsSunday.pdf",
+    "description": "APOLYTIKION FOR ALL SAINTS OF NORTH AMERICA IN TONE EIGHT",
+    "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 14 Sunday of All Antioch and American Saints"
+  },
   "APOLYTIKION FOR ST. JOHN CLIMACUS IN TONE EIGHT": {
     "type": "multi",
     "versions": [
@@ -160,6 +166,12 @@
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 13 Sunday of All Saints"
       }
     ]
+  },
+  "APOLYTIKION OF ALL SAINTS OF ANTIOCH IN TONE FOUR ( THOU WHO WAST RAISED UP )": {
+    "url": "https://drive.google.com/file/d/1Zh9bs63nEaBxi272c2u_AD_E8X9PVRfO/view?usp=drivesdk",
+    "name": "06 ApolytikionAntiochSaints-4th-multiple-AntiochAndNAmSaintsSunday.pdf",
+    "description": "APOLYTIKION OF ALL SAINTS OF ANTIOCH IN TONE FOUR\n(**Thou Who wast raised up**)",
+    "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 14 Sunday of All Antioch and American Saints"
   },
   "APOLYTIKION OF LAZARUS SATURDAY IN TONE ONE": {
     "type": "multi",
@@ -546,6 +558,30 @@
     "description": "DOXASTICON & THEOTOKION FOR SOULS SATURDAY IN TONE TWO",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02-1 SATURDAY BEFORE MEAT-FARE SUNDAY"
   },
+  "DOXASTICON FOR ALL SAINTS OF ANTIOCH IN TONE ONE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1_AOPkHWV5sl140Rg7H4c8nr2VNMn1GRp/view?usp=drivesdk",
+        "name": "02 SticherasDoxastikon-1st-Karam-Vespers-AntiochAndNAmSaintsSunday.pdf",
+        "description": "DOXASTICON FOR ALL SAINTS OF ANTIOCH IN TONE ONE | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 14 Sunday of All Antioch and American Saints"
+      }
+    ]
+  },
+  "DOXASTICON FOR ALL SAINTS OF NORTH AMERICA IN TONE FIVE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1y7cq3OLcZUH1kfMoJiNMXKXcoHjY3Yu4/view?usp=drivesdk",
+        "name": "05 ApostichaDoxastikon-pl1st-Karam-Vespers-AntiochAndNAmSaintsSunday.pdf",
+        "description": "DOXASTICON FOR ALL SAINTS OF NORTH AMERICA IN TONE FIVE | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 14 Sunday of All Antioch and American Saints"
+      }
+    ]
+  },
   "DOXASTICON FOR LAZARUS SATURDAY IN TONE TWO": {
     "type": "multi",
     "versions": [
@@ -811,6 +847,18 @@
       }
     ]
   },
+  "DOXASTICON OF ALL SAINTS OF ANTIOCH IN TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1cupk9k3wyLWfRFLIqE4Sp-x1PulqdwMV/view?usp=drivesdk",
+        "name": "23 PraisesDoxastikonAntiochSt-pl4th-Karam-AntiochAndNAmSaintsSunday.pdf",
+        "description": "THE DOXASTICON OF ALL SAINTS OF ANTIOCH IN TONE EIGHT | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 14 Sunday of All Antioch and American Saints"
+      }
+    ]
+  },
   "DOXASTICON OF PALM SUNDAY IN TONE SIX": {
     "type": "multi",
     "versions": [
@@ -959,9 +1007,33 @@
   },
   "EXAPOSTEILARION & THEOTOKION OF ALL SAINTS IN TONE TWO ( UPON THAT MOUNT IN GALILEE )": {
     "url": "https://drive.google.com/file/d/1WPWyaWYx3cGFoWv_ICmbYehRAtogDVxT/view?usp=drivesdk",
-    "name": "23 Exaposteilarion-2nd-AA-Orthros-SundayOfAllSaints-W.pdf",
+    "name": "23 Exaposteilarion-2nd-AA-Orthros-SundayOfAllSaints.pdf",
     "description": "EXAPOSTEILARION & THEOTOKION OF ALL SAINTS IN TONE TWO\n(**Upon that mount in Galilee**)",
     "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 13 Sunday of All Saints"
+  },
+  "EXAPOSTEILARION & THEOTOKION OF ALL SAINTS OF ANTIOCH IN TONE TWO ( UPON THAT MOUNT IN GALILEE )": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/1qFy7fkrJC3P0OqXnGOyP7dp9uc-LzMFY/view?usp=drivesdk",
+        "name": "21 ExaposteilarionTheotokionAntiochSt-2nd-ElMassih-AntiochAndNAmSaintsSunday.pdf",
+        "description": "EXAPOSTEILARION & THEOTOKION OF ALL SAINTS OF ANTIOCH IN TONE TWO (**Upon that mount in Galilee**) | El Massih",
+        "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 14 Sunday of All Antioch and American Saints"
+      }
+    ]
+  },
+  "EXAPOSTEILARION FOR ALL SAINTS OF NORTH AMERICA IN TONE TWO UPON THAT MOUNT IN GALILEE(": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1EPhW-RVYC_saeU-VuijbR2gHdecI_Uzt/view?usp=drivesdk",
+        "name": "21 ExaposteilarionNAmSt-2nd-Karam-AntiochAndNAmSaintsSunday.pdf",
+        "description": "EXAPOSTEILARION FOR ALL SAINTS OF NORTH AMERICA IN TONE TWO **Upon that mount in Galilee**( | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 14 Sunday of All Antioch and American Saints"
+      }
+    ]
   },
   "EXAPOSTEILARION OF PASCHA IN TONE TWO": {
     "type": "multi",
@@ -1172,9 +1244,57 @@
   },
   "FOR ALL SAINTS IN TONE SIX ( HAVING LAID UP ALL THEIR HOPE )": {
     "url": "https://drive.google.com/file/d/1W_BTpCX_ljektO4XXDZ3JN2OzRj0Ph5k/view?usp=drivesdk",
-    "name": "01 sticheras-pl2nd-AA-Vespers-SundayAllSaints-W.pdf",
+    "name": "01 sticheras-pl2nd-AA-Vespers-SundayAllSaints.pdf",
     "description": "For All Saints in Tone Six\n(**Having laid up all their hope**)",
     "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 13 Sunday of All Saints"
+  },
+  "FOR ALL SAINTS OF ANTIOCH IN TONE EIGHT ( O STRANGE WONDER )": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/18CqxmzdWjbh8YtoQPCaHgZ9PSqjDVGrY/view?usp=drivesdk",
+        "name": "22 PraisesAntiochSt-pl4th-ElMassih-AntiochAndNAmSaintsSunday.pdf",
+        "description": "For All Saints of Antioch in Tone Eight\n(**O strange wonder**) | El Massih",
+        "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 14 Sunday of All Antioch and American Saints"
+      }
+    ]
+  },
+  "FOR ALL SAINTS OF ANTIOCH IN TONE ONE ( THOU ART THE JOY )": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "ElMassih",
+        "url": "https://drive.google.com/file/d/1jzBZ_KCFuaGWxt1ABQOD7yApVLbZ1__F/view?usp=drivesdk",
+        "name": "01 SticherasAntiohSt-1st-ElMassih-Vespers-AntiochAndNAmSaintsSunday.pdf",
+        "description": "For All Saints of Antioch in Tone One\n(**Thou art the joy**) | ElMassih",
+        "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 14 Sunday of All Antioch and American Saints"
+      }
+    ]
+  },
+  "FOR ALL SAINTS OF NORTH AMERICA IN TONE EIGHT ( WHAT SHALL WE NOW CALL YOU )": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/19dRYI7uiOvEISNdhK5Duo5IljtlBYEtp/view?usp=drivesdk",
+        "name": "22 PraisesNAmSt-pl4th-Karam-AntiochAndNAmSaintsSunday.pdf",
+        "description": "For All Saints of North America in\nTone Eight (**What shall we now call you**) | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 14 Sunday of All Antioch and American Saints"
+      }
+    ]
+  },
+  "FOR ALL SAINTS OF NORTH AMERICA IN TONE TWO": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1yoW3MmMFeIdOPVUYWRSlCUdrHhwVeXa1/view?usp=drivesdk",
+        "name": "01 SticherasNAmSt-2nd-Karam-Vespers-AntiochAndNAmSaintsSunday.pdf",
+        "description": "For All Saints of North America\nin Tone Two | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 14 Sunday of All Antioch and American Saints"
+      }
+    ]
   },
   "FOR FORGIVENESS SUNDAY IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1R8gkKKah2U0-FW7fwK-60Q5h3C_KUDwE/view?usp=drivesdk",
@@ -2369,6 +2489,12 @@
     "description": "THE SECOND EOTHINON EXAPOSTEILARION IN TONE TWO",
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
   },
+  "SECOND EOTHINON EXAPOSTEILARION IN TONE TWO ( UPON THAT MOUNT IN GALILEE )": {
+    "url": "https://drive.google.com/file/d/146Ns9jC2l3mtZqVtWlzXbl2a6V4OW4YX/view?usp=drivesdk",
+    "name": "13 2nd-EothinonExapostelarion-2nd-Karam.pdf",
+    "description": "THE SECOND EOTHINON EXAPOSTEILARION IN TONE TWO\n(**Upon that mount in Galilee **)",
+    "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+  },
   "SECOND KATHISMA HYMNS IN TONE FOUR ( JOSEPH WAS AMAZED-HARD CHROMATIC )": {
     "type": "multi",
     "versions": [
@@ -2715,6 +2841,30 @@
     "description": "TROPARION IN TONE SEVEN",
     "path": "Byzantine Music / EnglishByzantineMusic / Vespers"
   },
+  "[L] FOR ALL SAINTS OF ANTIOCH": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "ElMassih",
+        "url": "https://drive.google.com/file/d/1ikvEIsdn__jaeWI2URs6OnSpGl6AORMq/view?usp=drivesdk",
+        "name": "03 LityDoxastikonAntiochSt-pl1st-ElMassih-Lity-AntiochAndNAmSaintsSunday.pdf",
+        "description": "[L] For All Saints of Antioch | ElMassih",
+        "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 14 Sunday of All Antioch and American Saints"
+      }
+    ]
+  },
+  "[L] FOR ALL SAINTS OF NORTH AMERICA": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1ABkfWBcCsvthTLD51MtKVdFxQOUEmpT4/view?usp=drivesdk",
+        "name": "03 LityDoxastikonNAmSt-pl1st-Karam-Lity-AntiochAndNAmSaintsSunday.pdf",
+        "description": "[L] For All Saints of North America | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 14 Sunday of All Antioch and American Saints"
+      }
+    ]
+  },
   "[O] DOXASTICON FOR THE SUNDAY OF FORGIVENESS IN TONE SIX": {
     "url": "https://drive.google.com/file/d/1rhidMDfUQDGTKn8coOxVBB_ZSAsXwSnS/view?usp=drivesdk",
     "name": "7 PraisesDoxastikon-pl2nd-ForgivenessSunday.pdf",
@@ -2741,7 +2891,7 @@
   },
   "[O] FOR ALL SAINTS IN TONE FOUR ( AS ONE VALIANT )": {
     "url": "https://drive.google.com/file/d/1G0N37ivhxgJiRrhbFfrD8qMkheFjdUl_/view?usp=drivesdk",
-    "name": "24 Praises-4th-AA-Orthros-SundayOfAllSaints-W.pdf",
+    "name": "24 Praises-4th-AA-Orthros-SundayOfAllSaints.pdf",
     "description": "[O] For All Saints in Tone Four\n(**As one valiant**)",
     "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 13 Sunday of All Saints"
   },
