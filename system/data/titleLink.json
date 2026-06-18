@@ -1356,6 +1356,18 @@
     "description": "For St. Gregory in Tone Four",
     "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 05 January / Jan 25 - St Gregory the Theologian"
   },
+  "FOR ST. JULIAN IN TONE FOUR ( AS ONE VALIANT )": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/1sM_LdhkPNwsHBzht0rEADmOHyKu4Gzut/view?usp=drivesdk",
+        "name": "01 Sticheras-4th-ElMassih-Vespers-StJulianOfTarsus.pdf",
+        "description": "For St. Julian in Tone Four\n(**As one valiant**) | El Massih",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 10 June / June 21 St Julian of Tarsus"
+      }
+    ]
+  },
   "FOR ST. TITUS IN TONE EIGHT ( O STRANGE WONDER )": {
     "type": "multi",
     "versions": [
