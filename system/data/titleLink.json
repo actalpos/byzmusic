@@ -167,7 +167,7 @@
       }
     ]
   },
-  "APOLYTIKION OF ALL SAINTS OF ANTIOCH IN TONE FOUR ( THOU WHO WAST RAISED UP )": {
+  "APOLYTIKION OF ALL SAINTS OF ANTIOCH IN TONE FOUR": {
     "url": "https://drive.google.com/file/d/1Zh9bs63nEaBxi272c2u_AD_E8X9PVRfO/view?usp=drivesdk",
     "name": "06 ApolytikionAntiochSaints-4th-multiple-AntiochAndNAmSaintsSunday.pdf",
     "description": "APOLYTIKION OF ALL SAINTS OF ANTIOCH IN TONE FOUR\n(**Thou Who wast raised up**)",
@@ -227,6 +227,12 @@
     "name": "01 Apolytikion-pl4th-StConstantineAndHelen.pdf",
     "description": "APOLYTIKION OF SS. CONSTANTINE AND HELEN IN TONE EIGHT",
     "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 09 May / 21 St Constantine and Helen"
+  },
+  "APOLYTIKION OF SS. PETER AND PAUL IN TONE FOUR": {
+    "url": "https://drive.google.com/file/d/1a1dTGK69LPw_zeT7thkgz0NIEpuHg8yE/view?usp=drivesdk",
+    "name": "01 apolytikion-4th-StsPeterPaul.pdf",
+    "description": "APOLYTIKION OF SS. PETER AND PAUL IN TONE FOUR",
+    "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 10 June / June 28"
   },
   "APOLYTIKION OF ST. GREGORY THE THEOLOGIAN IN TONE ONE": {
     "url": "https://drive.google.com/file/d/1YFfVdngaJGZlHSKuU_MPbdZ1YQZCprAV/view?usp=drivesdk",
@@ -333,7 +339,7 @@
       }
     ]
   },
-  "APOSTICHA FOR THE DEPARTED IN TONE TWO ( WHEN HE TOOK THEE )": {
+  "APOSTICHA FOR THE DEPARTED IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1Mh6rRDWnQjoShP5ZvYiEt5CsLE2orqg9/view?usp=drivesdk",
     "name": "13 ApostichaOrthros-2nd-AA-EN-W-SaturdaySouls.pdf",
     "description": "THE APOSTICHA FOR THE DEPARTED IN TONE TWO (**When he took Thee**)",
@@ -622,6 +628,18 @@
         "name": "21 DoxastikonSticheras-pl1st-Karam-Vespers-Pascha.pdf",
         "description": "THE DOXASTICON FOR PASCHA\nIN TONE FIVE | Karam",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 01 Sunday of Great and Holy Pascha"
+      }
+    ]
+  },
+  "DOXASTICON FOR SS. PETER AND PAUL IN TONE SIX": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "ElMassih",
+        "url": "https://drive.google.com/file/d/10PZjzAR5rl-QY8keVEbmyuswMurSGbVU/view?usp=drivesdk",
+        "name": "23 PraisesDoxastikon-pl2nd-ElMassih-StstPeterPaul.pdf",
+        "description": "THE DOXASTICON FOR SS. PETER\nAND PAUL IN TONE SIX | ElMassih",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 10 June / June 28"
       }
     ]
   },
@@ -939,7 +957,7 @@
     "description": "DOXASTICON OF THE PHARISEE AND PUBLICAN IN TONE EIGHT",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 01 Sunday of the Pharisee and Publican"
   },
-  "EIGHTH EOTHINON EXAPOSTEILARION IN TONE TWO ( UPON THAT MOUNT IN GALILEE )": {
+  "EIGHTH EOTHINON EXAPOSTEILARION IN TONE TWO": {
     "type": "multi",
     "versions": [
       {
@@ -993,7 +1011,7 @@
       }
     ]
   },
-  "EXAPOSTEILARIA OF PENTECOST IN TONE THREE ( THOU WHO, AS GOD, ADORNEST )": {
+  "EXAPOSTEILARIA OF PENTECOST IN TONE THREE": {
     "type": "multi",
     "versions": [
       {
@@ -1005,13 +1023,13 @@
       }
     ]
   },
-  "EXAPOSTEILARION & THEOTOKION OF ALL SAINTS IN TONE TWO ( UPON THAT MOUNT IN GALILEE )": {
+  "EXAPOSTEILARION & THEOTOKION OF ALL SAINTS IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1WPWyaWYx3cGFoWv_ICmbYehRAtogDVxT/view?usp=drivesdk",
     "name": "23 Exaposteilarion-2nd-AA-Orthros-SundayOfAllSaints.pdf",
     "description": "EXAPOSTEILARION & THEOTOKION OF ALL SAINTS IN TONE TWO\n(**Upon that mount in Galilee**)",
     "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 13 Sunday of All Saints"
   },
-  "EXAPOSTEILARION & THEOTOKION OF ALL SAINTS OF ANTIOCH IN TONE TWO ( UPON THAT MOUNT IN GALILEE )": {
+  "EXAPOSTEILARION & THEOTOKION OF ALL SAINTS OF ANTIOCH IN TONE TWO": {
     "type": "multi",
     "versions": [
       {
@@ -1023,7 +1041,13 @@
       }
     ]
   },
-  "EXAPOSTEILARION FOR ALL SAINTS OF NORTH AMERICA IN TONE TWO UPON THAT MOUNT IN GALILEE(": {
+  "EXAPOSTEILARION & THEOTOKION OF SS. PETER AND PAUL IN TONE TWO": {
+    "url": "https://drive.google.com/file/d/1JQKLQXUlcYODFeGF_WKbpZp41O4mGpxp/view?usp=drivesdk",
+    "name": "21 exaposteilarion-2nd-StsPeterPaul.pdf",
+    "description": "EXAPOSTEILARION & THEOTOKION OF SS. PETER AND PAUL IN TONE TWO\n(**Hearken, ye women**)",
+    "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 10 June / June 28"
+  },
+  "EXAPOSTEILARION FOR ALL SAINTS OF NORTH AMERICA IN TONE TWO (": {
     "type": "multi",
     "versions": [
       {
@@ -1053,7 +1077,7 @@
     "description": "THE EXAPOSTEILARION OF SAINTS CONSTANTINE & HELEN IN TONE TWO",
     "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 09 May / 21 St Constantine and Helen"
   },
-  "EXAPOSTEILARION OF THE ASCENSION IN TONE TWO ( THE ORIGINAL MELODY )": {
+  "EXAPOSTEILARION OF THE ASCENSION IN TONE TWO": {
     "type": "multi",
     "versions": [
       {
@@ -1065,7 +1089,7 @@
       }
     ]
   },
-  "EXAPOSTEILARION OF THE HOLY FATHERS IN TONE TWO ( HEARKEN, YE WOMEN )": {
+  "EXAPOSTEILARION OF THE HOLY FATHERS IN TONE TWO": {
     "type": "multi",
     "versions": [
       {
@@ -1108,13 +1132,13 @@
       }
     ]
   },
-  "EXAPOSTEILIARION & THEOTOKION FOR FIRST SUNDAY OF GREAT LENT IN TONE TWO ( HEARKEN, YE WOMEN )": {
+  "EXAPOSTEILIARION & THEOTOKION FOR FIRST SUNDAY OF GREAT LENT IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1k3MUqU7SsOJFXpXPMSHXQJaxTD3L9kRE/view?usp=drivesdk",
     "name": "12 Exaposteilarion-2nd-AA-EN-OrthodoxySunday-W.pdf",
     "description": "EXAPOSTEILIARION & THEOTOKION FOR FIRST SUNDAY OF GREAT LENT\nIN TONE TWO (**Hearken, ye women**)",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 05 Sunday of the 1st Week of Lent - Orthodoxy"
   },
-  "EXAPOSTEILIARION & THEOTOKION FOR ST. JOHN CLIMACUS IN TONE TWO ( HEARKEN, YE WOMEN )": {
+  "EXAPOSTEILIARION & THEOTOKION FOR ST. JOHN CLIMACUS IN TONE TWO": {
     "type": "multi",
     "versions": [
       {
@@ -1126,25 +1150,25 @@
       }
     ]
   },
-  "EXAPOSTEILIARION & THEOTOKION FOR THE HOLY CROSS IN TONE TWO ( UPON THAT MOUNT IN GALILEE )": {
+  "EXAPOSTEILIARION & THEOTOKION FOR THE HOLY CROSS IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1Ovs7Z7r3rhCbe6BJFy2gOjyD6EJwlIK-/view?usp=drivesdk",
     "name": "12 Exaposteilarion-2nd-AA.pdf",
     "description": "EXAPOSTEILIARION & THEOTOKION FOR THE HOLY CROSS IN TONE TWO (**Upon that mount in Galilee**)",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 07 Sunday of the 3rd Week of Lent - Veneration of the Cross"
   },
-  "EXAPOSTEILIARION & THEOTOKION FOR THE SUNDAY OF FORGIVENESS IN TONE TWO ( HEARKEN, YE WOMEN )": {
+  "EXAPOSTEILIARION & THEOTOKION FOR THE SUNDAY OF FORGIVENESS IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1gIWbCrZ0tf1m95oz7C-5JkX_6UqW4ppb/view?usp=drivesdk",
     "name": "5 Exaposteilarion-2nd-ForgivenessSunday.pdf",
     "description": " EXAPOSTEILIARION & THEOTOKION FOR THE SUNDAY OF FORGIVENESS\nIN TONE TWO (**Hearken, ye women **)",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 04 Sunday of Forgiveness"
   },
-  "EXAPOSTEILIARION FOR THE PHARISEE & PUBLICAN IN TONE TWO ( UPON THAT MOUNT IN GALILEE )": {
+  "EXAPOSTEILIARION FOR THE PHARISEE & PUBLICAN IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1EXbw78qw-f3w1IPd5dLWXeHEWHxf3mKw/view?usp=drivesdk",
     "name": "4 ExapostelarionPhariseePublican-2nd-AA-EN-W.pdf",
     "description": "EXAPOSTEILIARION FOR THE PHARISEE & PUBLICAN IN TONE TWO\n(**Upon that mount in Galilee**)",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 01 Sunday of the Pharisee and Publican"
   },
-  "EXAPOSTEILIARION FOR THE PRODIGAL SON IN TONE TWO ( HEARKEN, YE WOMEN )": {
+  "EXAPOSTEILIARION FOR THE PRODIGAL SON IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1ujc3u3q-4tPFnCf32QdNOhExL_-gRIwz/view?usp=drivesdk",
     "name": "ProdigalSon-Exaposteilarion-2nd-AA-EN.pdf",
     "description": "THE EXAPOSTEILIARION FOR\nTHE PRODIGAL SON IN TONE TWO (**Hearken, ye women**)",
@@ -1188,7 +1212,7 @@
       }
     ]
   },
-  "FIFTH EOTHINON EXAPOSTEILARION IN TONE TWO ( UPON THAT MOUNT IN GALILEE )": {
+  "FIFTH EOTHINON EXAPOSTEILARION IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1IhSHk-kpOXjvC0sBqCabAnljRekCTAA_/view?usp=drivesdk",
     "name": "13 5th-EothinonExapostelarion-2nd-TonyH.pdf",
     "description": "THE FIFTH EOTHINON EXAPOSTEILARION IN TONE TWO\n(**Upon that mount in Galilee **)",
@@ -1206,13 +1230,13 @@
     "description": "THE FIRST EOTHINON DOXASTICON IN TONE ONE",
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
   },
-  "FIRST EOTHINON EXAPOSTEILARION IN TONE TWO ( THE ORIGINAL MELODY )": {
+  "FIRST EOTHINON EXAPOSTEILARION IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1VXfwd7h2rMlUqfl9Y3HzyENOFOnTfT5a/view?usp=drivesdk",
     "name": "13 1st-EothinonExapostelarion-2nd-TonyH.pdf",
     "description": "THE FIRST EOTHINON EXAPOSTEILARION IN TONE TWO\n(**The original melody**)",
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
   },
-  "FIRST KATHISMA HYMN OF LAZARUS SATURDAY IN TONE ONE ( WHILE GABRIEL WAS SAYING )": {
+  "FIRST KATHISMA HYMN OF LAZARUS SATURDAY IN TONE ONE": {
     "type": "multi",
     "versions": [
       {
@@ -1224,7 +1248,7 @@
       }
     ]
   },
-  "FIRST KATHISMA HYMNS IN TONE FOUR ( JOSEPH WAS AMAZED-HARD CHROMATIC )": {
+  "FIRST KATHISMA HYMNS IN TONE FOUR": {
     "type": "multi",
     "versions": [
       {
@@ -1242,13 +1266,13 @@
     "description": "FIRST LENTEN GREAT PROKEIMENON IN TONE EIGHT",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 04 Sunday of Forgiveness"
   },
-  "FOR ALL SAINTS IN TONE SIX ( HAVING LAID UP ALL THEIR HOPE )": {
+  "FOR ALL SAINTS IN TONE SIX": {
     "url": "https://drive.google.com/file/d/1W_BTpCX_ljektO4XXDZ3JN2OzRj0Ph5k/view?usp=drivesdk",
     "name": "01 sticheras-pl2nd-AA-Vespers-SundayAllSaints.pdf",
     "description": "For All Saints in Tone Six\n(**Having laid up all their hope**)",
     "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 13 Sunday of All Saints"
   },
-  "FOR ALL SAINTS OF ANTIOCH IN TONE EIGHT ( O STRANGE WONDER )": {
+  "FOR ALL SAINTS OF ANTIOCH IN TONE EIGHT": {
     "type": "multi",
     "versions": [
       {
@@ -1260,7 +1284,7 @@
       }
     ]
   },
-  "FOR ALL SAINTS OF ANTIOCH IN TONE ONE ( THOU ART THE JOY )": {
+  "FOR ALL SAINTS OF ANTIOCH IN TONE ONE": {
     "type": "multi",
     "versions": [
       {
@@ -1272,7 +1296,7 @@
       }
     ]
   },
-  "FOR ALL SAINTS OF NORTH AMERICA IN TONE EIGHT ( WHAT SHALL WE NOW CALL YOU )": {
+  "FOR ALL SAINTS OF NORTH AMERICA IN TONE EIGHT": {
     "type": "multi",
     "versions": [
       {
@@ -1338,7 +1362,7 @@
       }
     ]
   },
-  "FOR SOULS SATURDAY IN TONE EIGHT ( THE PARADISE OF EDEN )": {
+  "FOR SOULS SATURDAY IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/1HqDrlhkFL2-o3C-hafC_30EBUQu4QloG/view?usp=drivesdk",
     "name": "10A Praises-pl4th-SaturdaySouls.pdf",
     "description": "For Souls Saturday in Tone Eight\n(**The Paradise of Eden**)",
@@ -1350,13 +1374,25 @@
     "description": "For Ss. Constantine & Helen in Tone Eight",
     "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 09 May / 21 St Constantine and Helen"
   },
+  "FOR SS. PETER AND PAUL IN TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "ElMassih",
+        "url": "https://drive.google.com/file/d/1euqdvHz0aP3KVW097__Pm6VBFPgNa7sl/view?usp=drivesdk",
+        "name": "22 Praises-4th-StsPeterPaul-ElMassih-W.pdf",
+        "description": "For Ss. Peter and Paul in Tone Four (**Thou Who wast called from on high**) | ElMassih",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 10 June / June 28"
+      }
+    ]
+  },
   "FOR ST. GREGORY IN TONE FOUR": {
     "url": "https://drive.google.com/file/d/1Mb-E-QSboMT0are0g7pic2XCEm76tI72/view?usp=drivesdk",
     "name": "PraisesStGregoryTheologian-4th-AA-EN.pdf",
     "description": "For St. Gregory in Tone Four",
     "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 05 January / Jan 25 - St Gregory the Theologian"
   },
-  "FOR ST. JULIAN IN TONE FOUR ( AS ONE VALIANT )": {
+  "FOR ST. JULIAN IN TONE FOUR": {
     "type": "multi",
     "versions": [
       {
@@ -1368,7 +1404,7 @@
       }
     ]
   },
-  "FOR ST. TITUS IN TONE EIGHT ( O STRANGE WONDER )": {
+  "FOR ST. TITUS IN TONE EIGHT": {
     "type": "multi",
     "versions": [
       {
@@ -1380,7 +1416,7 @@
       }
     ]
   },
-  "FOR SUNDAY OF FORGIVENESS IN TONE SIX ( HAVING LAID UP ALL THEIR HOPE )": {
+  "FOR SUNDAY OF FORGIVENESS IN TONE SIX": {
     "url": "https://drive.google.com/file/d/10PntXs-dsLCcyGZ7tX59uk6sRarVBwId/view?usp=drivesdk",
     "name": "1 Stichera-pl2nd-AA-EN-ForgivenessSunday.pdf",
     "description": "For Sunday of Forgiveness in Tone Six (**Having laid up all their hope**)",
@@ -1398,7 +1434,7 @@
       }
     ]
   },
-  "FOR THE FIRST SUNDAY OF GREAT LENT IN TONE FOUR ( UNTO THEM THAT FEAR THEE )": {
+  "FOR THE FIRST SUNDAY OF GREAT LENT IN TONE FOUR": {
     "url": "https://drive.google.com/file/d/1P3F4Tu1Nb6o_H3NjYEzoTV1OD8f2KaGy/view?usp=drivesdk",
     "name": "13 Praises-4th-AA-EN-OrthodoxySunday-W.pdf",
     "description": "For the First Sunday of Great Lent in Tone Four (**Unto them that fear thee**)",
@@ -1423,7 +1459,7 @@
       }
     ]
   },
-  "FOR THE HOLY FATHERS IN TONE SIX ( HAVING LAID UP ALL THEIR HOPE )": {
+  "FOR THE HOLY FATHERS IN TONE SIX": {
     "type": "multi",
     "versions": [
       {
@@ -1432,12 +1468,7 @@
         "name": "22 Praises-pl2nd-Orthros-SundayOfTheHolyFathers.pdf",
         "description": "For the Holy Fathers in Tone Six\n(**Having laid up all their hope**) | AA",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 10 Sunday of the Holy Fathers"
-      }
-    ]
-  },
-  "FOR THE HOLY FATHERS IN TONE SIX ( THE ORIGINAL MELODY )": {
-    "type": "multi",
-    "versions": [
+      },
       {
         "label": "AA - w",
         "url": "https://drive.google.com/file/d/1jsHOoeeBUPsjbwuFqFYndfmb90UZuJqb/view?usp=drivesdk",
@@ -1503,7 +1534,7 @@
       }
     ]
   },
-  "FOR THE SAINTS IN TONE FOUR ( UNTO THEM THAT FEAR THEE )": {
+  "FOR THE SAINTS IN TONE FOUR": {
     "type": "multi",
     "versions": [
       {
@@ -1527,13 +1558,13 @@
       }
     ]
   },
-  "FOR THE THIRD SUNDAY OF GREAT LENT IN TONE FIVE ( REJOICE )": {
+  "FOR THE THIRD SUNDAY OF GREAT LENT IN TONE FIVE": {
     "url": "https://drive.google.com/file/d/1HNX9OjhdYn8yahaiicJ6l0c2Cb8f4mIl/view?usp=drivesdk",
     "name": "1 Sticheras-pl1st-VenerationOfCross.pdf",
     "description": "For the Third Sunday of Great Lent\nin Tone Five (**Rejoice**)",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 07 Sunday of the 3rd Week of Lent - Veneration of the Cross"
   },
-  "FOR THE THIRD SUNDAY OF GREAT LENT IN TONE FOUR ( AS ONE VALIANT )": {
+  "FOR THE THIRD SUNDAY OF GREAT LENT IN TONE FOUR": {
     "url": "https://drive.google.com/file/d/1O1XiswqYo9ma1zPnDZvZJiXYEWbpel3S/view?usp=drivesdk",
     "name": "13 Praises-4th-ElMassih.pdf",
     "description": "For the Third Sunday of Great Lent\nin Tone Four (**As one valiant**)",
@@ -1628,6 +1659,18 @@
     "name": "18 BriefDoxology-pl2nd.pdf",
     "description": "THE GREAT DOXOLOGY IN TONE SIX",
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+  },
+  "GREAT DOXOLOGY IN TONE THREE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Brief",
+        "url": "https://drive.google.com/file/d/1lb95dZqaVa4bnB5yyX52XYn2exftmnUJ/view?usp=drivesdk",
+        "name": "18 BriefDoxology-3rd.pdf",
+        "description": "GREAT DOXOLOGY IN TONE THREE | Brief",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+      }
+    ]
   },
   "GREAT DOXOLOGY IN TONE TWO": {
     "type": "multi",
@@ -2158,6 +2201,13 @@
     "type": "multi",
     "versions": [
       {
+        "label": "EM bl",
+        "url": "https://drive.google.com/file/d/1sAaOcy0cnckHyxoPacoXhm_Gsi2Pyuqv/view?usp=drivesdk",
+        "name": "PaschalStichera-Doxa-billingual.pdf",
+        "description": "THE PASCHAL STICHERA\nIN TONE FIVE | EM bl",
+        "path": "Byzantine Music / Bilingual Services / Pentecostarion / 01 Sunday of Great and Holy Pascha"
+      },
+      {
         "label": "EM",
         "url": "https://drive.google.com/file/d/1MRGC-7Cv9FtYtwYLe7oyS9H4ijc1FJ0M/view?usp=drivesdk",
         "name": "20 Sticheras-pl1st-EM-Vespers-Pascha.pdf",
@@ -2170,23 +2220,16 @@
         "name": "20 Sticheras-pl1st-Karam-Vespers-Pascha.pdf",
         "description": "THE PASCHAL STICHERA\nIN TONE FIVE | Karam",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 01 Sunday of Great and Holy Pascha"
-      },
-      {
-        "label": "EM bl",
-        "url": "https://drive.google.com/file/d/1sAaOcy0cnckHyxoPacoXhm_Gsi2Pyuqv/view?usp=drivesdk",
-        "name": "PaschalStichera-Doxa-billingual.pdf",
-        "description": "THE PASCHAL STICHERA\nIN TONE FIVE | EM bl",
-        "path": "Byzantine Music / Bilingual Services / Pentecostarion / 01 Sunday of Great and Holy Pascha"
       }
     ]
   },
-  "PENITENTIAL STICHERA FROM THE TRIODION IN TONE FOUR ( THE ORIGINAL MELODY )": {
+  "PENITENTIAL STICHERA FROM THE TRIODION IN TONE FOUR": {
     "url": "https://drive.google.com/file/d/15OQWnYX1GdjbiXzOv_rd3nvS8h89yON8/view?usp=drivesdk",
     "name": "21A Stichera-4th-Karam-EN-ForgivenessVespers-W.pdf",
     "description": "The Penitential Stichera from the Triodion\nin Tone Four (**The original melody**)",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 04 Sunday of Forgiveness"
   },
-  "POLYELEOS HYMNS IN TONE EIGHT ( WHEN THE BODILESS ONE )": {
+  "POLYELEOS HYMNS IN TONE EIGHT": {
     "type": "multi",
     "versions": [
       {
@@ -2383,7 +2426,7 @@
   },
   "RESURRECTIONAL APOLYTIKION IN TONE SEVEN": {
     "url": "https://drive.google.com/file/d/1af-4b-ZQAZr9OMsxYzoj2u_b0-xaPkW4/view?usp=drivesdk",
-    "name": "07 ApolytikionResurrection-grave.pdf",
+    "name": "07 ApolytikionResurrection-pl3rd-grave.pdf",
     "description": "RESURRECTIONAL APOLYTIKION\nIN TONE SEVEN",
     "path": "Byzantine Music / Bilingual Services / Vespers"
   },
@@ -2431,7 +2474,7 @@
   },
   "RESURRECTIONAL THEOTOKION IN TONE SEVEN": {
     "url": "https://drive.google.com/file/d/1hT2f5MWQsN6flkmVk5PxsHJwHgXaM-cD/view?usp=drivesdk",
-    "name": "08 ApolytikionResurrectionTheotokion-grave.pdf",
+    "name": "08 ApolytikionResurrectionTheotokion-pl3rd-grave.pdf",
     "description": "RESURRECTIONAL THEOTOKION\nIN TONE SEVEN",
     "path": "Byzantine Music / Bilingual Services / Vespers"
   },
@@ -2501,13 +2544,7 @@
     "description": "THE SECOND EOTHINON EXAPOSTEILARION IN TONE TWO",
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
   },
-  "SECOND EOTHINON EXAPOSTEILARION IN TONE TWO ( UPON THAT MOUNT IN GALILEE )": {
-    "url": "https://drive.google.com/file/d/146Ns9jC2l3mtZqVtWlzXbl2a6V4OW4YX/view?usp=drivesdk",
-    "name": "13 2nd-EothinonExapostelarion-2nd-Karam.pdf",
-    "description": "THE SECOND EOTHINON EXAPOSTEILARION IN TONE TWO\n(**Upon that mount in Galilee **)",
-    "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
-  },
-  "SECOND KATHISMA HYMNS IN TONE FOUR ( JOSEPH WAS AMAZED-HARD CHROMATIC )": {
+  "SECOND KATHISMA HYMNS IN TONE FOUR": {
     "type": "multi",
     "versions": [
       {
@@ -2519,7 +2556,7 @@
       }
     ]
   },
-  "SECOND KATHISMA HYMNS OF LAZARUS SATURDAY IN TONE FIVE ( LET US WORSHIP THE WORD )": {
+  "SECOND KATHISMA HYMNS OF LAZARUS SATURDAY IN TONE FIVE": {
     "type": "multi",
     "versions": [
       {
@@ -2531,19 +2568,19 @@
       }
     ]
   },
-  "SEVENTH EOTHINON EXAPOSTEILARION IN TONE TWO ( UPON THAT MOUNT IN GALILEE )": {
+  "SEVENTH EOTHINON EXAPOSTEILARION IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1XoGJ19keCD79nfKdv_LJuh0BiDtfgk95/view?usp=drivesdk",
     "name": "13 7th-EothionExaposteilarion-2nd-TonyH.pdf",
     "description": "THE SEVENTH EOTHINON EXAPOSTEILARION IN TONE TWO\n(**Upon that mount in Galilee **)",
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
   },
-  "SIXTH EOTHINON EXAPOSTEILARION IN TONE TWO ( UPON THAT MOUNT IN GALILEE )": {
+  "SIXTH EOTHINON EXAPOSTEILARION IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1a1ODfS4I1faqmAVlhBj-dAzoyH_25YNm/view?usp=drivesdk",
     "name": "13 6th-EothinonExapostelarion-2nd-TonyH.pdf",
     "description": "THE SIXTH EOTHINON EXAPOSTEILARION IN TONE TWO\n(**Upon that mount in Galilee **)",
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
   },
-  "STAVRO-THEOTOKION IN TONE ONE ( O ALL-LAUDED MARTYRS )": {
+  "STAVRO-THEOTOKION IN TONE ONE": {
     "url": "https://drive.google.com/file/d/1kFQZ4b-Zyt49X-JW1IsxbGcolUmiOW3L/view?usp=drivesdk",
     "name": "8 TheotokiaTuesThurs-1st.pdf",
     "description": "STAVRO-THEOTOKION IN TONE ONE\n(**O all-lauded Martyrs**)",
@@ -2574,7 +2611,7 @@
     "description": "SUNDAY PROKEIMENON IN TONE EIGHT",
     "path": "Byzantine Music / EnglishByzantineMusic / Vespers"
   },
-  "TENTH EOTHINON EXAPOSTEILARION IN TONE TWO ( UPON THAT MOUNT IN GALILEE )": {
+  "TENTH EOTHINON EXAPOSTEILARION IN TONE TWO": {
     "type": "multi",
     "versions": [
       {
@@ -2719,26 +2756,7 @@
       }
     ]
   },
-  "THEOTOKION FOR THE RESURRECTION IN TONE TWO": {
-    "type": "multi",
-    "versions": [
-      {
-        "label": "Brief",
-        "url": "https://drive.google.com/file/d/12ZoOpjVI8q7kwMXpqR1VSllA0Tx-XfZJ/view?usp=drivesdk",
-        "name": "03 DogmaticTheotokionBrief-2nd.pdf",
-        "description": "THEOTOKION FOR THE RESURRECTION IN TONE TWO | Brief",
-        "path": "Byzantine Music / EnglishByzantineMusic / Vespers"
-      },
-      {
-        "label": "Slow",
-        "url": "https://drive.google.com/file/d/1tVW0_CXNuuB2Wn-9hzDL5nAHkhy0DZwg/view?usp=drivesdk",
-        "name": "03 DogmaticTheotokionSlow-2nd.pdf",
-        "description": "THEOTOKION FOR THE RESURRECTION IN TONE TWO | Slow",
-        "path": "Byzantine Music / EnglishByzantineMusic / Vespers"
-      }
-    ]
-  },
-  "THEOTOKION FROM THE MENAION IN TONE EIGHT ( O STRANGE WONDER )": {
+  "THEOTOKION FROM THE MENAION IN TONE EIGHT": {
     "type": "multi",
     "versions": [
       {
@@ -2750,7 +2768,7 @@
       }
     ]
   },
-  "THEOTOKION FROM THE MENAION IN TONE TWO ( WHEN HE TOOK THEE )": {
+  "THEOTOKION FROM THE MENAION IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1pWl19TC9Hf7A6V6XQ1VhHgb0lP8t3dol/view?usp=drivesdk",
     "name": "JoyOfAllThatSorrow-2nd-ElMassih-EN.pdf",
     "description": "THEOTOKION FROM THE MENAION\nIN TONE TWO (**When he took Thee**)",
@@ -2780,7 +2798,7 @@
     "description": "THEOTOKION IN TONE FIVE",
     "path": "Byzantine Music / EnglishByzantineMusic / Vespers"
   },
-  "THEOTOKION IN TONE FOUR ( AS ONE VALIANT )": {
+  "THEOTOKION IN TONE FOUR": {
     "url": "https://drive.google.com/file/d/1JXZ4zY5XiuMdCrx18g7AklS5-X_1-UxC/view?usp=drivesdk",
     "name": "25 TheotokionTheeDoAllTheAngelicRanks-4th-ElMassih-EN-AkatistHymn.pdf",
     "description": "THEOTOKION IN TONE FOUR\n(**As one valiant**)",
@@ -2792,7 +2810,7 @@
     "description": "THEOTOKION IN TONE ONE",
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
   },
-  "THEOTOKION IN TONE THREE ( THE ORIGINAL MELODY )": {
+  "THEOTOKION IN TONE THREE": {
     "type": "multi",
     "versions": [
       {
@@ -2812,16 +2830,16 @@
     ]
   },
   "THEOTOKION IN TONE TWO": {
-    "url": "https://drive.google.com/file/d/1QVqkMehs91HnJorhDoSxbhHk17jVHNWn/view?usp=drivesdk",
-    "name": "08 ApolytikionResurrectionTheotokion-2nd.pdf",
-    "description": "THEOTOKION IN TONE TWO",
-    "path": "Byzantine Music / Bilingual Services / Vespers"
-  },
-  "THEOTOKION IN TONE TWO ( WHEN HE TOOK THEE )": {
     "url": "https://drive.google.com/file/d/1Jwr_U3OP-hkl5OnlBMluK4pDhELnHoXz/view?usp=drivesdk",
     "name": "7 TheotokiaMonWednes-2nd.pdf",
     "description": "THEOTOKION IN TONE TWO\n(**When he took Thee**)",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / Great Compline"
+  },
+  "THIRD EOTHINON DOXASTICON IN TONE THREE": {
+    "url": "https://drive.google.com/file/d/14FVC5IevCGX6zlNXsjhOQ7EsuiRL227g/view?usp=drivesdk",
+    "name": "16 3rd DoxastikonEothinon-3rd.pdf",
+    "description": "THE THIRD EOTHINON DOXASTICON IN TONE THREE",
+    "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
   },
   "THIRD EOTHINON EXAPOSTEILARION IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1jyWfm3vKUBiraKfO_GwlbRvnrNhJebmr/view?usp=drivesdk",
@@ -2901,7 +2919,7 @@
     "description": "[O] DOXASTICON OF THE PRODIGAL SON IN TONE SIX",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02 Sunday of the Prodigal Son"
   },
-  "[O] FOR ALL SAINTS IN TONE FOUR ( AS ONE VALIANT )": {
+  "[O] FOR ALL SAINTS IN TONE FOUR": {
     "url": "https://drive.google.com/file/d/1G0N37ivhxgJiRrhbFfrD8qMkheFjdUl_/view?usp=drivesdk",
     "name": "24 Praises-4th-AA-Orthros-SundayOfAllSaints.pdf",
     "description": "[O] For All Saints in Tone Four\n(**As one valiant**)",
@@ -2919,7 +2937,7 @@
       }
     ]
   },
-  "[O] FOR ST. JOHN CLIMACUS IN TONE EIGHT ( O STRANGE WONDER )": {
+  "[O] FOR ST. JOHN CLIMACUS IN TONE EIGHT": {
     "type": "multi",
     "versions": [
       {
@@ -2967,7 +2985,7 @@
       }
     ]
   },
-  "[V] FOR ST. JOHN CLIMACUS IN TONE EIGHT ( O STRANGE WONDER )": {
+  "[V] FOR ST. JOHN CLIMACUS IN TONE EIGHT": {
     "type": "multi",
     "versions": [
       {
@@ -3099,6 +3117,12 @@
       }
     ]
   },
+  "[V] RESURRECTIONAL THEOTOKION IN TONE TWO": {
+    "url": "https://drive.google.com/file/d/1QVqkMehs91HnJorhDoSxbhHk17jVHNWn/view?usp=drivesdk",
+    "name": "08 ApolytikionResurrectionTheotokion-2nd.pdf",
+    "description": "[V] RESURRECTIONAL THEOTOKION\nIN TONE TWO",
+    "path": "Byzantine Music / Bilingual Services / Vespers"
+  },
   "[V] [AP] DOXASTICON FOR ALL SAINTS IN TONE SIX": {
     "type": "multi",
     "versions": [
@@ -3123,6 +3147,25 @@
       }
     ]
   },
+  "[V] [AP] THEOTOKION FOR THE RESURRECTION IN TONE TWO": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Slow",
+        "url": "https://drive.google.com/file/d/1MM7mXAk-DViikM6zOAsAp3DaShBl3yX-/view?usp=drivesdk",
+        "name": "06 ApostichaTheotokionSlow-2nd.pdf",
+        "description": "[V] [AP] THEOTOKION FOR THE RESURRECTION IN TONE TWO | Slow",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers"
+      },
+      {
+        "label": "Brief",
+        "url": "https://drive.google.com/file/d/1YUfisPv9w7b2oEszMH7T8NTzZaVGYfCv/view?usp=drivesdk",
+        "name": "06 ApostichaTheotokionBrief-2nd.pdf",
+        "description": "[V] [AP] THEOTOKION FOR THE RESURRECTION IN TONE TWO | Brief",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers"
+      }
+    ]
+  },
   "[V] [LIHC] DOXASTICON FOR ALL SAINTS IN TONE SIX": {
     "type": "multi",
     "versions": [
@@ -3144,6 +3187,25 @@
         "name": "02 SticherasDoxastikon-pl4th-ElMassih-Vespers-SundayOfPentecost.pdf",
         "description": "[V] [LIHC] DOXASTICON FOR PENTECOST\nIN TONE EIGHT | ElMassih",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 12 Sunday of Pentecost"
+      }
+    ]
+  },
+  "[V] [LIHC] THEOTOKION FOR THE RESURRECTION IN TONE TWO": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Slow",
+        "url": "https://drive.google.com/file/d/1tVW0_CXNuuB2Wn-9hzDL5nAHkhy0DZwg/view?usp=drivesdk",
+        "name": "03 DogmaticTheotokionSlow-2nd.pdf",
+        "description": "[V] [LIHC] THEOTOKION FOR THE RESURRECTION IN TONE TWO | Slow",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers"
+      },
+      {
+        "label": "Brief",
+        "url": "https://drive.google.com/file/d/12ZoOpjVI8q7kwMXpqR1VSllA0Tx-XfZJ/view?usp=drivesdk",
+        "name": "03 DogmaticTheotokionBrief-2nd.pdf",
+        "description": "[V] [LIHC] THEOTOKION FOR THE RESURRECTION IN TONE TWO | Brief",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers"
       }
     ]
   }

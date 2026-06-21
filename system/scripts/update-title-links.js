@@ -1,7 +1,7 @@
 import fs from "fs";
 
-const WEBAPP_URL = "https://script.google.com/macros/s/AKfycbxyVutOlO59_KHGXJXEIK-QNaIpPrt1p8qtItNjd-YConJ4BqztzCfwhgQDoG6kx0Z28w/exec";
-const LOCAL_PATH = "../data/titleLink.json";
+const WEBAPP_URL = "https://script.google.com/macros/s/AKfycbyF2eAL8Xs0NXYwWpwYKgtOXPt7_KvHSJykCo7IBqnfEvyyBDvEE734XBqTnnI1xYT2Ow/exec";
+const LOCAL_PATH = "./data/titleLink.json";
 
 async function update() {
   console.log("🔄 Generating JSON from Drive...");

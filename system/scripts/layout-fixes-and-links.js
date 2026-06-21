@@ -64,7 +64,9 @@ const SERVICE_ORDER = {
  **********************/
 function normalizeTitle(str) {
   str = str
-    .replace(/[\n\r\t]+/g, " ")
+      .replace(/[\n\r\t]+/g, " ")
+    .replace(/\(\s*\*\*.*?\*\*\s*\)/g, "")   // (** ... **)
+    .replace(/\*\*.*?\*\*/g, "")             // fallback
     .replace(/[*]/g, "")
     .replace(/["“”]/g, "")
     .replace(/[–—]/g, "-")
@@ -72,7 +74,8 @@ function normalizeTitle(str) {
     .replace(/\s*\)/g, " )")
     .replace(/\s+/g, " ")
     .trim()
-    .toLowerCase();
+    .toLowerCase()
+    .replace(/^(the|a|an)\s+/i, "")          // remove leading article
 
   const prefixMatch = str.match(/^((\[[a-z]+\])+)\s*(.*)$/);
 
@@ -202,14 +205,6 @@ try {
 
   const raw = await res.json();
 
-  // for (const key in raw) {
-
-  //   const item = raw[key];
-
-  //   titleLinks[normalizeTitle(key)] =
-  //     typeof item === "string" ? { url: item, name: null } : item;
-
-  // }
 
   for (const key in raw) {
 
@@ -270,14 +265,9 @@ document.querySelectorAll("td p").forEach(p => {
 
   const originalText = p.textContent.trim();
   if (!originalText) return;
-
-  // const baseKey = normalizeTitle(originalText);
-
-  // let item = SERVICE
-  //   ? titleLinks[`[${SERVICE.toLowerCase()}] ${baseKey}`]
-  //   : null;
-
-  // if (!item) item = titleLinks[baseKey];
+  if (originalText.toUpperCase().includes("EOTHINON")) {
+    console.log(originalText);
+  }
 
   const baseKey = normalizeTitle(originalText);
 
