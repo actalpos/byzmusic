@@ -58,8 +58,8 @@
     "versions": [
       {
         "label": "Brief",
-        "url": "https://drive.google.com/file/d/1iGO5PgHaQ1NYl-A_ZWbLxffyJ5Iu0oO9/view?usp=drivesdk",
-        "name": "14 LetEveryBreath-grave.pdf",
+        "url": "https://drive.google.com/file/d/1F-VeNc0sO5Mi0OLXRvJvoXRkRmXEhdfn/view?usp=drivesdk",
+        "name": "15 BriefPraises-pl3rd-grave.pdf",
         "description": "AINOI (PRAISES) IN TONE SEVEN | Brief",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
       }
@@ -93,10 +93,10 @@
     "type": "multi",
     "versions": [
       {
-        "label": "Brief",
+        "label": "Slow",
         "url": "https://drive.google.com/file/d/1xTOdbpEd00bXJZW-ViD1BppK3Nva_Fcv/view?usp=drivesdk",
-        "name": "15 BriefPraises-2nd.pdf",
-        "description": "AINOI (PRAISES) IN TONE TWO | Brief",
+        "name": "15 SlowPraises-2nd.pdf",
+        "description": "AINOI (PRAISES) IN TONE TWO | Slow",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
       }
     ]
@@ -2842,10 +2842,23 @@
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
   },
   "THIRD EOTHINON EXAPOSTEILARION IN TONE TWO": {
-    "url": "https://drive.google.com/file/d/1jyWfm3vKUBiraKfO_GwlbRvnrNhJebmr/view?usp=drivesdk",
-    "name": "13 3rd-EothinonExapostelarion-2nd-TonyH.pdf",
-    "description": "THE THIRD EOTHINON EXAPOSTEILARION IN TONE TWO",
-    "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+    "type": "multi",
+    "versions": [
+      {
+        "label": "AA",
+        "url": "https://drive.google.com/file/d/120iwaGGbyY72v5qCs3vofyVq_LHd_bY5/view?usp=drivesdk",
+        "name": "13 3rd-EothinonExapostelarion-2nd-AA.pdf",
+        "description": "THE THIRD EOTHINON EXAPOSTEILARION IN TONE TWO | AA",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+      },
+      {
+        "label": "Tony H",
+        "url": "https://drive.google.com/file/d/1jyWfm3vKUBiraKfO_GwlbRvnrNhJebmr/view?usp=drivesdk",
+        "name": "13 3rd-EothinonExapostelarion-2nd-TonyH.pdf",
+        "description": "THE THIRD EOTHINON EXAPOSTEILARION IN TONE TWO | Tony H",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+      }
+    ]
   },
   "TROPARIA FOR THE DEPARTED IN TONE FOUR": {
     "url": "https://drive.google.com/file/d/1GbTmV1qFRA3ucz3I9CM_4XV9g0LixG3n/view?usp=drivesdk",
