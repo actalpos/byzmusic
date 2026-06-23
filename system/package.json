@@ -2,7 +2,7 @@
   "type": "module",
   "scripts": {
     "test": "node tests/normalize.test.js && node tests/matching.test.js",
-    "update-file-list": "node scripts/update-liturgical-service-file-list.js",
+    "update-files": "node scripts/update-liturgical-service-file-list.js",
     "update-titles": "node scripts/update-title-links.js"    
   }
 }

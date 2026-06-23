@@ -131,6 +131,18 @@
       }
     ]
   },
+  "APOLYTIKIA SUNDAY JUNE 28 2026": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "En and Ar",
+        "url": "https://drive.google.com/file/d/1uTXW6FC5jkBeZgsYWb8EB2Q_pN8DK0AV/view?usp=drivesdk",
+        "name": "6A ApolytikiaAndKontakion.pdf",
+        "description": "APOLYTIKIA SUNDAY JUNE 28 2026 | En and Ar",
+        "path": "Byzantine Music / Bilingual Services / Divine Liturgy / MetropolitanSaba-June2026"
+      }
+    ]
+  },
   "APOLYTIKION FOR ALL SAINTS OF NORTH AMERICA IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/1vZCfk-ky9VT1EPb9WERKN9oWNnzTLLtR/view?usp=drivesdk",
     "name": "06 ApolytikionNAmSt-pl4th-multiple-AntiochAndNAmSaintsSunday.pdf",
@@ -1655,10 +1667,23 @@
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
   },
   "GREAT DOXOLOGY IN TONE SIX": {
-    "url": "https://drive.google.com/file/d/149231ciqJuFyq25Wi3wxR4oWjvxuWrAa/view?usp=drivesdk",
-    "name": "18 BriefDoxology-pl2nd.pdf",
-    "description": "THE GREAT DOXOLOGY IN TONE SIX",
-    "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Manuil Protopsaltis",
+        "url": "https://drive.google.com/file/d/149231ciqJuFyq25Wi3wxR4oWjvxuWrAa/view?usp=drivesdk",
+        "name": "18 BriefDoxology-pl2nd.pdf",
+        "description": "THE GREAT DOXOLOGY IN TONE SIX | Manuil Protopsaltis",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+      },
+      {
+        "label": "Simon Petras",
+        "url": "https://drive.google.com/file/d/1edMlBtFazGSTA5X_BOtMf40s7JIPxUvm/view?usp=drivesdk",
+        "name": "18 Doxology-pl2nd-TripleMetered-SimonPetras.pdf",
+        "description": "THE GREAT DOXOLOGY IN TONE SIX | Simon Petras",
+        "path": "Byzantine Music / Bilingual Services / Divine Liturgy / MetropolitanSaba-June2026 / Orthros"
+      }
+    ]
   },
   "GREAT DOXOLOGY IN TONE THREE": {
     "type": "multi",
@@ -1894,6 +1919,18 @@
         "name": "22 CommunionHymnBlessedIsHe-pl1st-SA-DivLitPalmSunday.pdf",
         "description": "KOINONIKON (COMMUNION HYMN) FOR PSALM SUNDAY IN TONE EIGHT | SA",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 10 Sunday of the 6th Week of Lent - Palm Sunday"
+      }
+    ]
+  },
+  "KOINONIKON ( COMMUNION HYMN ) FOR SS. PETER & PAUL IN TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "SA",
+        "url": "https://drive.google.com/file/d/1TqGJ1ryMC2WKnXOWyICBHtaJrQxA2cic/view?usp=drivesdk",
+        "name": "15B KoinonikonEnglish-TheirSoundHathGone.pdf",
+        "description": "KOINONIKON (COMMUNION HYMN) FOR SS. PETER & PAUL IN TONE EIGHT | SA",
+        "path": "Byzantine Music / Bilingual Services / Divine Liturgy / MetropolitanSaba-June2026"
       }
     ]
   },
@@ -2201,13 +2238,6 @@
     "type": "multi",
     "versions": [
       {
-        "label": "EM bl",
-        "url": "https://drive.google.com/file/d/1sAaOcy0cnckHyxoPacoXhm_Gsi2Pyuqv/view?usp=drivesdk",
-        "name": "PaschalStichera-Doxa-billingual.pdf",
-        "description": "THE PASCHAL STICHERA\nIN TONE FIVE | EM bl",
-        "path": "Byzantine Music / Bilingual Services / Pentecostarion / 01 Sunday of Great and Holy Pascha"
-      },
-      {
         "label": "EM",
         "url": "https://drive.google.com/file/d/1MRGC-7Cv9FtYtwYLe7oyS9H4ijc1FJ0M/view?usp=drivesdk",
         "name": "20 Sticheras-pl1st-EM-Vespers-Pascha.pdf",
@@ -2220,6 +2250,13 @@
         "name": "20 Sticheras-pl1st-Karam-Vespers-Pascha.pdf",
         "description": "THE PASCHAL STICHERA\nIN TONE FIVE | Karam",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 01 Sunday of Great and Holy Pascha"
+      },
+      {
+        "label": "EM bl",
+        "url": "https://drive.google.com/file/d/1sAaOcy0cnckHyxoPacoXhm_Gsi2Pyuqv/view?usp=drivesdk",
+        "name": "PaschalStichera-Doxa-billingual.pdf",
+        "description": "THE PASCHAL STICHERA\nIN TONE FIVE | EM bl",
+        "path": "Byzantine Music / Bilingual Services / Pentecostarion / 01 Sunday of Great and Holy Pascha"
       }
     ]
   },
@@ -2969,10 +3006,23 @@
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02 Sunday of the Prodigal Son"
   },
   "[O] THEOTOKION IN TONE SIX": {
-    "url": "https://drive.google.com/file/d/1F5RP2wu_kODnBLyLv4xVQGnoCtP9BfAj/view?usp=drivesdk",
-    "name": "17 Theotokion-2nd-DoxastikonEothion.pdf",
-    "description": "[O] THEOTOKION IN TONE SIX",
-    "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+    "type": "multi",
+    "versions": [
+      {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/1M6y4jr7448QWrOS7FwZbVB86r82F6i0k/view?usp=drivesdk",
+        "name": "17 Theotokion-pl2nd-ElMassih-DoxastikonEothion.pdf",
+        "description": "[O] THEOTOKION IN TONE SIX | El Massih",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+      },
+      {
+        "label": "SA",
+        "url": "https://drive.google.com/file/d/1p8ZpTuPjTxw3p3cI9EsdHy-PlEykm6SB/view?usp=drivesdk",
+        "name": "17 Theotokion-pl2nd-DoxastikonEothion.pdf",
+        "description": "[O] THEOTOKION IN TONE SIX | SA",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+      }
+    ]
   },
   "[O] TROPARION IN TONE FOUR": {
     "url": "https://drive.google.com/file/d/1kksfMdu7t2fqB_aHA0CAzMfQTnt4R60M/view?usp=drivesdk",
