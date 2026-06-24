@@ -1011,6 +1011,12 @@
       }
     ]
   },
+  "EIS POLLA ETI DESPOTA": {
+    "url": "https://drive.google.com/file/d/1ppRl7alSTV4Rw_fWV3C2OPUQ10gBJC7x/view?usp=drivesdk",
+    "name": "11 EisPola-3rdMode.pdf",
+    "description": "EIS POLLA ETI DESPOTA",
+    "path": "Byzantine Music / Bilingual Services / Divine Liturgy / MetropolitanSaba-June2026"
+  },
   "ELEVENTH EOTHINON EXAPOSTEILARION IN TONE TWO": {
     "url": "https://drive.google.com/file/d/12Zoj3q5RYxUAOOzLYxlYa-hNEZm1Mmpj/view?usp=drivesdk",
     "name": "13 11th-EothionExapostelarion-2nd-AA-EN-W.pdf",
@@ -1700,18 +1706,18 @@
     "type": "multi",
     "versions": [
       {
-        "label": "Simon Petras",
-        "url": "https://drive.google.com/file/d/1edMlBtFazGSTA5X_BOtMf40s7JIPxUvm/view?usp=drivesdk",
-        "name": "18 Doxology-pl2nd-TripleMetered-SimonPetras.pdf",
-        "description": "THE GREAT DOXOLOGY IN TONE SIX | Simon Petras",
-        "path": "Byzantine Music / Bilingual Services / Divine Liturgy / MetropolitanSaba-June2026 / Orthros"
-      },
-      {
         "label": "Manuil Protopsaltis",
         "url": "https://drive.google.com/file/d/149231ciqJuFyq25Wi3wxR4oWjvxuWrAa/view?usp=drivesdk",
         "name": "18 BriefDoxology-pl2nd.pdf",
         "description": "THE GREAT DOXOLOGY IN TONE SIX | Manuil Protopsaltis",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+      },
+      {
+        "label": "Simon Petras",
+        "url": "https://drive.google.com/file/d/1edMlBtFazGSTA5X_BOtMf40s7JIPxUvm/view?usp=drivesdk",
+        "name": "18 Doxology-pl2nd-TripleMetered-SimonPetras.pdf",
+        "description": "THE GREAT DOXOLOGY IN TONE SIX | Simon Petras",
+        "path": "Byzantine Music / Bilingual Services / Divine Liturgy / MetropolitanSaba-June2026 / Orthros"
       }
     ]
   },
@@ -2280,13 +2286,6 @@
     "type": "multi",
     "versions": [
       {
-        "label": "EM bl",
-        "url": "https://drive.google.com/file/d/1sAaOcy0cnckHyxoPacoXhm_Gsi2Pyuqv/view?usp=drivesdk",
-        "name": "PaschalStichera-Doxa-billingual.pdf",
-        "description": "THE PASCHAL STICHERA\nIN TONE FIVE | EM bl",
-        "path": "Byzantine Music / Bilingual Services / Pentecostarion / 01 Sunday of Great and Holy Pascha"
-      },
-      {
         "label": "EM",
         "url": "https://drive.google.com/file/d/1MRGC-7Cv9FtYtwYLe7oyS9H4ijc1FJ0M/view?usp=drivesdk",
         "name": "20 Sticheras-pl1st-EM-Vespers-Pascha.pdf",
@@ -2299,6 +2298,13 @@
         "name": "20 Sticheras-pl1st-Karam-Vespers-Pascha.pdf",
         "description": "THE PASCHAL STICHERA\nIN TONE FIVE | Karam",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 01 Sunday of Great and Holy Pascha"
+      },
+      {
+        "label": "EM bl",
+        "url": "https://drive.google.com/file/d/1sAaOcy0cnckHyxoPacoXhm_Gsi2Pyuqv/view?usp=drivesdk",
+        "name": "PaschalStichera-Doxa-billingual.pdf",
+        "description": "THE PASCHAL STICHERA\nIN TONE FIVE | EM bl",
+        "path": "Byzantine Music / Bilingual Services / Pentecostarion / 01 Sunday of Great and Holy Pascha"
       }
     ]
   },
@@ -2307,6 +2313,12 @@
     "name": "21A Stichera-4th-Karam-EN-ForgivenessVespers-W.pdf",
     "description": "The Penitential Stichera from the Triodion\nin Tone Four (**The original melody**)",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 04 Sunday of Forgiveness"
+  },
+  "PHIMI SAYEDNA SABA": {
+    "url": "https://drive.google.com/file/d/1xY0YxAXOR2o5veV4zNFUzCtSUce933bR/view?usp=drivesdk",
+    "name": "10 PhimiSayednaSaba.pdf",
+    "description": "PHIMI SAYEDNA SABA",
+    "path": "Byzantine Music / Bilingual Services / Divine Liturgy / MetropolitanSaba-June2026"
   },
   "POLYELEOS HYMNS IN TONE EIGHT": {
     "type": "multi",
