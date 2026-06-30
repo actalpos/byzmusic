@@ -618,6 +618,18 @@
     "description": "DOXASTICON & THEOTOKION FOR SOULS SATURDAY IN TONE TWO",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02-1 SATURDAY BEFORE MEAT-FARE SUNDAY"
   },
+  "DOXASTICON & THEOTOKION OF THE LITIA PROCESSION IN TONE FIVE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Theotokion - AA",
+        "url": "https://drive.google.com/file/d/1HMcSMmxg5WwudTb7pNq1vsKRi5VFWyGW/view?usp=drivesdk",
+        "name": "03B Theotokion-pl1st-AA-W-Litia-StAthanasiusTheAthonite.pdf",
+        "description": "DOXASTICON & THEOTOKION OF THE LITIA PROCESSION IN TONE FIVE | Theotokion - AA",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 05 July St Athanasios"
+      }
+    ]
+  },
   "DOXASTICON FOR ALL SAINTS OF ANTIOCH IN TONE ONE": {
     "type": "multi",
     "versions": [
