@@ -13,6 +13,8 @@ Typography controlled entirely by CSS
 
 June 3 2026 - add festal to the kewords to be ignored (for FESTAL TROPARIA AFTER PSALM 50)
 June 4 2026 - fix for linking [V] header and [O] header
+June 30 2026 remove Sticheras from the title
+June 30 2026 - fix for in one place FIFTH EOTHINON EXAPOSTEILARION IN TONE TWO in other FIFTH EOTHINON EXAPOSTEILARION TONE TWO
 */
 
 (function () {
@@ -75,7 +77,8 @@ function normalizeTitle(str) {
     .replace(/\s+/g, " ")
     .trim()
     .toLowerCase()
-    .replace(/^(the|a|an)\s+/i, "")          // remove leading article
+    .replace(/^(the|a|an|sticheras)\s+/i, "")          // remove leading article
+    .replace(/\bin\s+tone\b/gi, "tone")                
 
   const prefixMatch = str.match(/^((\[[a-z]+\])+)\s*(.*)$/);
 
@@ -270,6 +273,11 @@ document.querySelectorAll("td p").forEach(p => {
   }
 
   const baseKey = normalizeTitle(originalText);
+
+  if (baseKey.toLowerCase().includes("eothinon")) {
+
+    console.log(baseKey)
+  }
 
   let item = null;
 

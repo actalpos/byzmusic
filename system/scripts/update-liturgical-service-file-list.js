@@ -2,12 +2,12 @@ import fs from "fs";
 import path from "path";
 
 // unde sunt fișierele pe disc
-const FS_ROOT = path.resolve("../../Service_Texts");
+const FS_ROOT = path.resolve("../Service_Texts");
 
 // cum vor fi accesate din browser
 const WEB_ROOT = "Service_Texts";
 
-const OUT = "../data/liturgical-service-file-list.json";
+const OUT = "./data/liturgical-service-file-list.json";
 
 const SERVICE_ORDER = [
   "Divine_Liturgy",
