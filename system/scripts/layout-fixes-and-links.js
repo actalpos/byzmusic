@@ -4,7 +4,16 @@ layout-fixes-and-links.js
 
 Generated on: 2026-03-10 21:42
 
-
+// [LIHC] = Lord I Have Cried
+// [AP] = Aposticha
+// [PR] = Praises
+// [LT] = Litia
+// [EX] = Exaposteilarion
+// [KA] = Kathisma
+// [PS] = Praises Stichera
+// [LV][LIHC] DOXASTIKON FOR PENTECOST IN TONE EIGHT
+// [LV][AP] DOXASTIKON FOR PENTECOST IN TONE EIGHT
+// [O][PR] DOXASTIKON FOR...
 
 
 Layout cleanup + RTL/LTR detection + title links
@@ -57,7 +66,8 @@ const SERVICE = detectServiceType();
 const SERVICE_ORDER = {
   V: {
     LIHC: 1,
-    AP: 2
+    AP: 2,
+    LT: 3,
   }
 };
 
