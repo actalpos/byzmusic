@@ -29,16 +29,6 @@ June 30 2026 remove Sticheras from the title
 June 30 2026 - fix for in one place FIFTH EOTHINON EXAPOSTEILARION IN TONE TWO in other FIFTH EOTHINON EXAPOSTEILARION TONE TWO
 July 7 2026 - fix for overlapping [V] [LIHC] For St. Paisios in Tone One | Karam with [O] For St. Paisios in Tone One | Karamnot shouwn in Orthros as well. Only when the service moment is provided.
             - struct change: do not include LITART in VESP only for customizations. So Always keep [LT] as separate entity
-| JSON                                                  | HTML             | Rezultat                     |
-| ----------------------------------------------------- | ---------------- | ---------------------------- |
-| `TITLE`                                               | `TITLE`          | ✅                            |
-| `[V] TITLE`                                           | Vespers          | ✅                            |
-| `[O] TITLE`                                           | Orthros          | ✅                            |
-| `[V][LIHC] TITLE` + `[V][AP] TITLE`                   | două apariții    | ✅ LIHC apoi AP               |
-| `[V][LIHC] TITLE` + `[O] TITLE`                       | fiecare serviciu | ✅ fără coliziuni             |
-| `[V] TITLE` + `[O] TITLE`                             | fiecare serviciu | ✅ fără coliziuni             |
-| `[V][LIHC] TITLE` + `[V][LT] TITLE` + `[V][AP] TITLE` | trei apariții    | ✅ în ordinea `SERVICE_ORDER` |
-
 */
 
 (function () {
@@ -220,10 +210,10 @@ document.querySelectorAll("table tr").forEach(tr => {
 /**********************
  * LOAD TITLE LINKS
  **********************/
-const serviceIndex = {};
-const globalIndex = {};
-const globalCount = {};
-const titleUsage = {};
+let titleLinks = {};
+
+let titleGroups = {};
+let titleUsage = {};
 
 try {
 
@@ -237,101 +227,46 @@ try {
 
   for (const key in raw) {
 
-      const item =
-          typeof raw[key] === "string"
-              ? { url: raw[key], name: null }
-              : raw[key];
+    const item = raw[key];
 
-      const norm = normalizeTitle(key);
+    titleLinks[normalizeTitle(key)] =
+      typeof item === "string" ? { url: item, name: null } : item;
 
-      // ----------------------------
-      // [SERVICE] [MOMENT] TITLE
-      // ----------------------------
+    const m = key.match(
+      /^\[([A-Z]+)\]\s+\[([A-Z]+)\]\s+(.*)$/i
+    );
 
-      let m = norm.match(/^\[([a-z]+)\]\s+\[([a-z]+)\]\s+(.*)$/i);
+    if (m) {
 
-      if (m) {
+      const service = m[1].toUpperCase();
+      const moment = m[2].toUpperCase();
+      const title = normalizeTitle(m[3]);
 
-          const service = m[1].toUpperCase();
-          const moment  = m[2].toUpperCase();
-          const title   = m[3];
-
-          const serviceKey = `[${service}] ${title}`;
-
-          if (!serviceIndex[serviceKey]) {
-              serviceIndex[serviceKey] = [];
-          }
-
-          serviceIndex[serviceKey].push({
-              moment,
-              item
-          });
-
-          globalCount[title] =
-              (globalCount[title] || 0) + 1;
-
-          continue;
+      if (!titleGroups[title]) {
+        titleGroups[title] = [];
       }
 
-      // ----------------------------
-      // [SERVICE] TITLE
-      // ----------------------------
-
-      m = norm.match(/^\[([a-z]+)\]\s+(.*)$/i);
-
-      if (m) {
-
-          const service = m[1].toUpperCase();
-          const title   = m[2];
-
-          serviceIndex[`[${service}] ${title}`] = item;
-
-          globalCount[title] =
-              (globalCount[title] || 0) + 1;
-
-          continue;
-      }
-
-      // ----------------------------
-      // GLOBAL TITLE
-      // ----------------------------
-
-      globalIndex[norm] = item;
-
-      globalCount[norm] =
-          (globalCount[norm] || 0) + 1;
-  } 
-
-  // sort moments inside each service
-
-  for (const key in serviceIndex) {
-
-      if (!Array.isArray(serviceIndex[key])) {
-          continue;
-      }
-
-      const service =
-          key.match(/^\[([A-Z]+)\]/)[1];
-
-      const order =
-          SERVICE_ORDER[service] || {};
-
-      serviceIndex[key].sort((a, b) => {
-
-          return (order[a.moment] || 999)
-              - (order[b.moment] || 999);
-
+      titleGroups[title].push({
+        service,
+        moment,
+        item
       });
-  }
+    }
 
-  // remove global entries that collide
-  // with another service
+    Object.keys(titleGroups).forEach(title => {
 
-  for (const title in globalCount) {
+      titleGroups[title].sort((a, b) => {
 
-      if (globalCount[title] > 1) {
-          delete globalIndex[title];
-      }
+        const order =
+          SERVICE_ORDER[a.service] || {};
+
+        const pa = order[a.moment] || 999;
+        const pb = order[b.moment] || 999;
+
+        return pa - pb;
+      });
+
+    });    
   }  
 
 } catch (e) {
@@ -362,52 +297,36 @@ document.querySelectorAll("td p").forEach(p => {
 
   let item = null;
 
-  // ----------------------------
-  // SERVICE
-  // ----------------------------
+  if (
+    SERVICE &&
+    titleGroups[baseKey] &&
+    titleGroups[baseKey].length
+  ) {
 
-  if (SERVICE) {
+    const index = titleUsage[baseKey] || 0;
 
-      const serviceKey =
-          `[${SERVICE}] ${baseKey}`;
+    item =
+      titleGroups[baseKey][
+        Math.min(
+          index,
+          titleGroups[baseKey].length - 1
+        )
+      ]?.item;
 
-      const match =
-          serviceIndex[serviceKey];
-
-      if (Array.isArray(match)) {
-
-          const index =
-              titleUsage[serviceKey] || 0;
-
-          item =
-              match[
-                  Math.min(
-                      index,
-                      match.length - 1
-                  )
-              ].item;
-
-          titleUsage[serviceKey] =
-              index + 1;
-      }
-      else if (match) {
-
-          item = match;
-      }
+    titleUsage[baseKey] = index + 1;
   }
 
-  // ----------------------------
-  // GLOBAL
-  // ----------------------------
-
-  if (!item) {
-      item = globalIndex[baseKey];
+  //fix for linking [V] header and [O] header
+  if (!item && SERVICE) {
+    item = titleLinks[
+      `[${SERVICE.toLowerCase()}] ${baseKey}`
+    ];
   }
 
   if (!item) {
-      return;
+    item = titleLinks[baseKey];
   }
-
+  if (!item) return;
 
   if (item.type === "multi" && Array.isArray(item.versions)) {
 

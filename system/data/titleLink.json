@@ -295,6 +295,18 @@
       }
     ]
   },
+  "APOLYTIKION OF ST. PAISIOS OF ATHOS IN TONE FIVE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "ElMassih",
+        "url": "https://drive.google.com/file/d/1exWav7OOIPoYt8fACesckmjQwADGIu6m/view?usp=drivesdk",
+        "name": "10 Apolytikion-pl1st-Karam-StPaisios.pdf",
+        "description": "APOLYTIKION OF ST. PAISIOS\nOF ATHOS IN TONE FIVE | ElMassih",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 12 July St Paisios"
+      }
+    ]
+  },
   "APOLYTIKION OF THE ASCENSION IN TONE FOUR": {
     "url": "https://drive.google.com/file/d/1ROSdQDJ3jtvCnSPK1p_FW_hU9u-GGBie/view?usp=drivesdk",
     "name": "05 Apolytikion-4th-Ascension.pdf",
@@ -3088,6 +3100,30 @@
     "description": "TROPARION IN TONE EIGHT",
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
   },
+  "[LT] DOXASTICON & THEOTOKION OF THE LITIA PROCESSION TONE SIX": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Doxastikon DCS",
+        "url": "https://drive.google.com/file/d/11fW_lnWPxNGHFZN7qdLQPD1TG_Q7SqKm/view?usp=drivesdk",
+        "name": "06 LityDoxastikon-pl2nd-DCS-Vespers-StPaisios.pdf",
+        "description": "[LT] DOXASTICON & THEOTOKION OF THE LITIA PROCESSION IN TONE SIX | Doxastikon DCS",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 12 July St Paisios"
+      }
+    ]
+  },
+  "[LT] THEOTOKION TONE FIVE": {
+    "url": "https://drive.google.com/file/d/1t8ut-aKuNhIPiNTluzO1gnStd2S4zWsY/view?usp=drivesdk",
+    "name": "09 LityOTheotokosAndVirgin-pl1st.pdf",
+    "description": "[LT] THEOTOKION IN TONE FIVE",
+    "path": "Byzantine Music / EnglishByzantineMusic / Vespers"
+  },
+  "[LT] TROPARION TONE SEVEN": {
+    "url": "https://drive.google.com/file/d/1IzxnEgNc_UfkuiqPy-Y2hgx2jY77_Inq/view?usp=drivesdk",
+    "name": "09 LityRichMenBrief-grave.pdf",
+    "description": "[LT] TROPARION IN TONE SEVEN",
+    "path": "Byzantine Music / EnglishByzantineMusic / Vespers"
+  },
   "[L] ANAPHORA TONE THREE": {
     "url": "https://drive.google.com/file/d/1kPxQZtYdJoN0u40Q6rV8dZYtbX8liL8u/view?usp=drivesdk",
     "name": "13 Anaphora - Bilingual.pdf",
@@ -3354,6 +3390,18 @@
       }
     ]
   },
+  "[V] [AP] DOXASTICON FOR ST. PAISIOS TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "DCS",
+        "url": "https://drive.google.com/file/d/18ZXnsDQSc9FWb00-f4OxtemM7Pq4E7T5/view?usp=drivesdk",
+        "name": "07 ApostichaDoxastikon-pl4th-DCS-Vespers-StPaisios.pdf",
+        "description": "[V] [AP] DOXASTICON FOR ST. PAISIOS\nIN TONE EIGHT | DCS",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 12 July St Paisios"
+      }
+    ]
+  },
   "[V] [AP] THEOTOKION FOR THE RESURRECTION TONE TWO": {
     "type": "multi",
     "versions": [
@@ -3406,6 +3454,30 @@
         "name": "02 SticherasDoxastikon-pl2nd-SA-Vespers-StSthanasiusTheAthonote.pdf",
         "description": "[V] [LIHC] DOXASTICON FOR ST. ATHANASIUS\nIN TONE SIX | SA",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 05 July St Athanasios"
+      }
+    ]
+  },
+  "[V] [LIHC] DOXASTICON FOR ST. PAISIOS TONE FIVE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "DCS",
+        "url": "https://drive.google.com/file/d/1WhTZATntCM1vy4L9hr-NzZ3buwccz_5-/view?usp=drivesdk",
+        "name": "02 SticherasDoxastikon-pl1st-DCS-Vespers-StPaisios.pdf",
+        "description": "[V] [LIHC] DOXASTICON FOR ST. PAISIOS\nIN TONE FIVE | DCS",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 12 July St Paisios"
+      }
+    ]
+  },
+  "[V] [LIHC] FOR ST. PAISIOS TONE ONE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/10YdtTDhDDAVyQfaVb1hLh2d0CVBeaMeJ/view?usp=drivesdk",
+        "name": "01 Sticheras-1st-Karam-Vespers-StPaisios.pdf",
+        "description": "[V] [LIHC] For St. Paisios in Tone One | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 12 July St Paisios"
       }
     ]
   },
@@ -3560,17 +3632,5 @@
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers"
       }
     ]
-  },
-  "[V] [LT] THEOTOKION TONE FIVE": {
-    "url": "https://drive.google.com/file/d/1t8ut-aKuNhIPiNTluzO1gnStd2S4zWsY/view?usp=drivesdk",
-    "name": "09 LityOTheotokosAndVirgin-pl1st.pdf",
-    "description": "[V] [LT] THEOTOKION IN TONE FIVE",
-    "path": "Byzantine Music / EnglishByzantineMusic / Vespers"
-  },
-  "[V] [LT] TROPARION TONE SEVEN": {
-    "url": "https://drive.google.com/file/d/1IzxnEgNc_UfkuiqPy-Y2hgx2jY77_Inq/view?usp=drivesdk",
-    "name": "09 LityRichMenBrief-grave.pdf",
-    "description": "[V] [LT] TROPARION IN TONE SEVEN",
-    "path": "Byzantine Music / EnglishByzantineMusic / Vespers"
   }
 }
