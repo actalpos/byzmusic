@@ -299,10 +299,10 @@
     "type": "multi",
     "versions": [
       {
-        "label": "ElMassih",
+        "label": "El Massih",
         "url": "https://drive.google.com/file/d/1exWav7OOIPoYt8fACesckmjQwADGIu6m/view?usp=drivesdk",
         "name": "10 Apolytikion-pl1st-Karam-StPaisios.pdf",
-        "description": "APOLYTIKION OF ST. PAISIOS\nOF ATHOS IN TONE FIVE | ElMassih",
+        "description": "APOLYTIKION OF ST. PAISIOS\nOF ATHOS IN TONE FIVE | El Massih",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 12 July St Paisios"
       }
     ]
@@ -1323,18 +1323,18 @@
     "type": "multi",
     "versions": [
       {
-        "label": "St Joseph Damascus",
-        "url": "https://drive.google.com/file/d/1Id0S2ILgHsjOBducjxbqSSa54F2jMVRD/view?usp=drivesdk",
-        "name": "15-TropariaAfterPsalm50-2nd-Karam-Orthros-StJosephDamascus.pdf",
-        "description": "FESTAL TROPARIA AFTER PSALM 50 IN TONE TWO | St Joseph Damascus",
-        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 10 July St Joseph of Damascus"
-      },
-      {
         "label": "Regular - Karam",
         "url": "https://drive.google.com/file/d/1jy9I4qetB6ym2tWmP_Yo7DyqeW0hGGEc/view?usp=drivesdk",
         "name": "10 AfterPsalm50Troparia-2nd.pdf",
         "description": "FESTAL TROPARIA AFTER PSALM 50 IN TONE TWO | Regular - Karam",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+      },
+      {
+        "label": "St Joseph Damascus",
+        "url": "https://drive.google.com/file/d/1Id0S2ILgHsjOBducjxbqSSa54F2jMVRD/view?usp=drivesdk",
+        "name": "15-TropariaAfterPsalm50-2nd-Karam-Orthros-StJosephDamascus.pdf",
+        "description": "FESTAL TROPARIA AFTER PSALM 50 IN TONE TWO | St Joseph Damascus",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 10 July St Joseph of Damascus"
       },
       {
         "label": "PalmSunday -Karam",
@@ -1758,7 +1758,7 @@
   },
   "GOD IS THE LORD IN TONE SEVEN": {
     "url": "https://drive.google.com/file/d/1gvemq7mO8pXoHpNuUqycSvOkoUhXHE6W/view?usp=drivesdk",
-    "name": "01 GodIsTheLord-grave.pdf",
+    "name": "01 GodIsTheLord-pl3rdgrave.pdf",
     "description": "“GOD IS THE LORD” IN TONE SEVEN",
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
   },
@@ -2418,6 +2418,13 @@
     "type": "multi",
     "versions": [
       {
+        "label": "EM bl",
+        "url": "https://drive.google.com/file/d/1sAaOcy0cnckHyxoPacoXhm_Gsi2Pyuqv/view?usp=drivesdk",
+        "name": "PaschalStichera-Doxa-billingual.pdf",
+        "description": "THE PASCHAL STICHERA\nIN TONE FIVE | EM bl",
+        "path": "Byzantine Music / Bilingual Services / Pentecostarion / 01 Sunday of Great and Holy Pascha"
+      },
+      {
         "label": "EM",
         "url": "https://drive.google.com/file/d/1MRGC-7Cv9FtYtwYLe7oyS9H4ijc1FJ0M/view?usp=drivesdk",
         "name": "20 Sticheras-pl1st-EM-Vespers-Pascha.pdf",
@@ -2430,13 +2437,6 @@
         "name": "20 Sticheras-pl1st-Karam-Vespers-Pascha.pdf",
         "description": "THE PASCHAL STICHERA\nIN TONE FIVE | Karam",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 01 Sunday of Great and Holy Pascha"
-      },
-      {
-        "label": "EM bl",
-        "url": "https://drive.google.com/file/d/1sAaOcy0cnckHyxoPacoXhm_Gsi2Pyuqv/view?usp=drivesdk",
-        "name": "PaschalStichera-Doxa-billingual.pdf",
-        "description": "THE PASCHAL STICHERA\nIN TONE FIVE | EM bl",
-        "path": "Byzantine Music / Bilingual Services / Pentecostarion / 01 Sunday of Great and Holy Pascha"
       }
     ]
   },
@@ -2815,6 +2815,18 @@
     "description": "THE SEVENTH EOTHINON EXAPOSTEILARION IN TONE TWO\n(**Upon that mount in Galilee **)",
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
   },
+  "SIXTH EOTHINON DOXASTICON IN TONE SIX": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "AA",
+        "url": "https://drive.google.com/file/d/1VKwMOqdSYNxGALavRAJ2kubCG8DON2fM/view?usp=drivesdk",
+        "name": "16 6th DoxastikonEothinon-pl2nd.pdf",
+        "description": "THE SIXTH EOTHINON DOXASTICON IN TONE SIX | AA",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+      }
+    ]
+  },
   "SIXTH EOTHINON EXAPOSTEILARION IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1a1ODfS4I1faqmAVlhBj-dAzoyH_25YNm/view?usp=drivesdk",
     "name": "13 6th-EothinonExapostelarion-2nd-TonyH.pdf",
@@ -3104,6 +3116,20 @@
     "type": "multi",
     "versions": [
       {
+        "label": "Theotokion Ell Massih",
+        "url": "https://drive.google.com/file/d/10bmKL1ibbOD46aLvnhQo52O_nGr_P3vW/view?usp=drivesdk",
+        "name": "06 LityTheotokion-pl2nd-ElMassih-Vespers-StPaisios.pdf",
+        "description": "[LT] DOXASTICON & THEOTOKION OF THE LITIA PROCESSION IN TONE SIX | Theotokion Ell Massih",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 12 July St Paisios"
+      },
+      {
+        "label": "Doxastikon Karam",
+        "url": "https://drive.google.com/file/d/1hpuwqMTpzPoQILcvUWd8oCMgd31pOcZm/view?usp=drivesdk",
+        "name": "06 LityDoxastikon-pl2nd-Karam-Vespers-StPaisios.pdf",
+        "description": "[LT] DOXASTICON & THEOTOKION OF THE LITIA PROCESSION IN TONE SIX | Doxastikon Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 12 July St Paisios"
+      },
+      {
         "label": "Doxastikon DCS",
         "url": "https://drive.google.com/file/d/11fW_lnWPxNGHFZN7qdLQPD1TG_Q7SqKm/view?usp=drivesdk",
         "name": "06 LityDoxastikon-pl2nd-DCS-Vespers-StPaisios.pdf",
@@ -3220,6 +3246,18 @@
     "description": "[O] DOXASTICON OF THE PRODIGAL SON IN TONE SIX",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02 Sunday of the Prodigal Son"
   },
+  "[O] EXAPOSTEILARION & THEOTOKION FOR ST. PAISIOS TONE THREE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "ElMassih",
+        "url": "https://drive.google.com/file/d/1EQk4ODl3NXqpaqTF-ngqWQ0VBeJ4o4_V/view?usp=drivesdk",
+        "name": "21 Exaposteilarion-2nd-ElMassih-Orthros-StPaisios.pdf",
+        "description": "[O] EXAPOSTEILARION & THEOTOKION FOR ST. PAISIOS IN TONE THREE | ElMassih",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 12 July St Paisios"
+      }
+    ]
+  },
   "[O] FOR ALL SAINTS TONE FOUR": {
     "url": "https://drive.google.com/file/d/1G0N37ivhxgJiRrhbFfrD8qMkheFjdUl_/view?usp=drivesdk",
     "name": "24 Praises-4th-AA-Orthros-SundayOfAllSaints.pdf",
@@ -3259,6 +3297,18 @@
         "name": "12 Praises-pl4th-ElMassih-StJohnClimacus.pdf",
         "description": "[O] For St. John Climacus in Tone Eight\n(**O strange wonder**) | ElMassih",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 08 Sunday of the 4th Week of Lent - St John Climacus"
+      }
+    ]
+  },
+  "[O] FOR ST. PAISIOS TONE ONE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/1h2nvDmVLn7jZJpo7rubbtqCJUS_54T98/view?usp=drivesdk",
+        "name": "21 Praises-1st-ElMassih-Orthros-StPaisios.pdf",
+        "description": "[O] For St. Paisios in Tone One | El Massih",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 12 July St Paisios"
       }
     ]
   },
@@ -3394,6 +3444,13 @@
     "type": "multi",
     "versions": [
       {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1IM1OG9P0nom4ofAtSVtv8x9L43YgCErf/view?usp=drivesdk",
+        "name": "07 ApostichaDoxastikon-pl4th-Karam-Vespers-StPaisios.pdf",
+        "description": "[V] [AP] DOXASTICON FOR ST. PAISIOS\nIN TONE EIGHT | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 12 July St Paisios"
+      },
+      {
         "label": "DCS",
         "url": "https://drive.google.com/file/d/18ZXnsDQSc9FWb00-f4OxtemM7Pq4E7T5/view?usp=drivesdk",
         "name": "07 ApostichaDoxastikon-pl4th-DCS-Vespers-StPaisios.pdf",
@@ -3460,6 +3517,13 @@
   "[V] [LIHC] DOXASTICON FOR ST. PAISIOS TONE FIVE": {
     "type": "multi",
     "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1SBvMMDH-nfPHTJh2syNGq_h2yUf6jLg9/view?usp=drivesdk",
+        "name": "02 SticherasDoxastikon-pl1st-Karam-Vespers-StPaisios.pdf",
+        "description": "[V] [LIHC] DOXASTICON FOR ST. PAISIOS\nIN TONE FIVE | Karam",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 12 July St Paisios"
+      },
       {
         "label": "DCS",
         "url": "https://drive.google.com/file/d/1WhTZATntCM1vy4L9hr-NzZ3buwccz_5-/view?usp=drivesdk",

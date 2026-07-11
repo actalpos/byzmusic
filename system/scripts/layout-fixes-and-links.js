@@ -79,6 +79,8 @@ function detectServiceType() {
 
 const SERVICE = detectServiceType();
 
+// defines document order when multiple identical
+// titles exist inside the same service
 const SERVICE_ORDER = {
   V: {
     LIHC: 1,
@@ -106,13 +108,13 @@ function normalizeTitle(str) {
     .replace(/^(the|a|an|sticheras)\s+/i, "")          // remove leading article
     .replace(/\bin\s+tone\b/gi, "tone")                
 
-  const prefixMatch = str.match(/^((\[[a-z]+\])+)\s*(.*)$/);
+  const prefixMatch = str.match(/^((\[[a-z]+\]\s*)+)(.*)$/i);
 
   if (prefixMatch) {
     const prefixes = prefixMatch[1];
     let title = prefixMatch[3];
 
-    title = title.replace(/^(the|a|an|festal)\s+/, "");
+    title = title.replace(/^(the|a|an|festal|sticheras)\s+/, "");
 
     return `${prefixes} ${title}`.trim();
   }
@@ -235,6 +237,7 @@ try {
   const raw = await res.json();
 
 
+
   for (const key in raw) {
 
       const item =
@@ -334,6 +337,7 @@ try {
       }
   }  
 
+
 } catch (e) {
 
   console.warn("TitleLink load failed:", e.message);
@@ -349,13 +353,13 @@ document.querySelectorAll("td p").forEach(p => {
 
   const originalText = p.textContent.trim();
   if (!originalText) return;
-  if (originalText.toUpperCase().includes("EOTHINON")) {
+  if (originalText.toUpperCase().includes("PAISIOS")) {
     console.log(originalText);
   }
 
   const baseKey = normalizeTitle(originalText);
 
-  if (baseKey.toLowerCase().includes("eothinon")) {
+  if (baseKey.toLowerCase().includes("paisios")) {
 
     console.log(baseKey)
   }
