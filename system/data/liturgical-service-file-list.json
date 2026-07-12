@@ -558,6 +558,48 @@
     "file": "Service_Texts/variableDate/2026/07/12/July 12 2026 Bilingual READ.html"
   },
   {
+    "date": "2026-07-16",
+    "title": "July 16 Bilingual ORTHROS",
+    "order": -1,
+    "file": "Service_Texts/variableDate/2026/07/16/July 16 Bilingual ORTHROS.html"
+  },
+  {
+    "date": "2026-07-16",
+    "title": "July 16 Bilingual READ",
+    "order": -1,
+    "file": "Service_Texts/variableDate/2026/07/16/July 16 Bilingual READ.html"
+  },
+  {
+    "date": "2026-07-19",
+    "title": "July 18 2026 Bilingual VESP",
+    "order": -1,
+    "file": "Service_Texts/variableDate/2026/07/19/July 18 2026 Bilingual VESP.html"
+  },
+  {
+    "date": "2026-07-19",
+    "title": "July 19 2026 Bilingual ORTHROS",
+    "order": -1,
+    "file": "Service_Texts/variableDate/2026/07/19/July 19 2026 Bilingual ORTHROS.html"
+  },
+  {
+    "date": "2026-07-19",
+    "title": "July 19 2026 Bilingual READ",
+    "order": -1,
+    "file": "Service_Texts/variableDate/2026/07/19/July 19 2026 Bilingual READ.html"
+  },
+  {
+    "date": "2026-07-19",
+    "title": "July 19 Bilingual LITART",
+    "order": -1,
+    "file": "Service_Texts/variableDate/2026/07/19/July 19 Bilingual LITART.html"
+  },
+  {
+    "date": "2026-07-19",
+    "title": "July 19 Bilingual VESP",
+    "order": -1,
+    "file": "Service_Texts/variableDate/2026/07/19/July 19 Bilingual VESP.html"
+  },
+  {
     "date": "2026-12-28",
     "title": "Dec 28 2025 Bilingual ORTHROS",
     "order": -1,
