@@ -351,6 +351,18 @@
     "description": "APOLYTIKION OF THE HOLY FATHERS IN TONE EIGHT",
     "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 10 Sunday of the Holy Fathers"
   },
+  "APOLYTIKION OF THE SAINTS IN TONE ONE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Sts Nicholas & Habib",
+        "url": "https://drive.google.com/file/d/1dO86drL-Ik3M4iq8mAvo8w3KEGOp0RSo/view?usp=drivesdk",
+        "name": "09 Apolytikion-1st-Karam-HieromartyrsNicholasAndHabib.pdf",
+        "description": "APOLYTIKION OF THE SAINTS\nIN TONE ONE | Sts Nicholas & Habib",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 16 July Hyeromartyrs Nicholas and Habib"
+      }
+    ]
+  },
   "APOSTICHA DOXASTICON FOR THE SUNDAY OF FORGIVENESS IN TONE SIX": {
     "url": "https://drive.google.com/file/d/1rQR_ZvNWhZPza2mm2EFE9dS2kgRag-Dm/view?usp=drivesdk",
     "name": "4 ApostichaDoxastikon-pl2nd-ForgivenessSunday.pdf",
@@ -1173,6 +1185,18 @@
       }
     ]
   },
+  "EXAPOSTEILARION & THEOTOKION OF THE SAINTS IN TONE TWO": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Sts Nicholas & Habib",
+        "url": "https://drive.google.com/file/d/1OoBGSloB9INordMwaoEk_erdlZOhqvN3/view?usp=drivesdk",
+        "name": "26 Exaposteilarion-2nd-AA-Orthros-NicholasAndHabib.pdf",
+        "description": "EXAPOSTEILARION & THEOTOKION OF THE SAINTS IN TONE TWO | Sts Nicholas & Habib",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 16 July Hyeromartyrs Nicholas and Habib"
+      }
+    ]
+  },
   "EXAPOSTEILARION FOR ALL SAINTS OF NORTH AMERICA IN TONE TWO (": {
     "type": "multi",
     "versions": [
@@ -1328,6 +1352,13 @@
         "name": "10 AfterPsalm50Troparia-2nd.pdf",
         "description": "FESTAL TROPARIA AFTER PSALM 50 IN TONE TWO | Regular - Karam",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+      },
+      {
+        "label": "Sts Nicholas & Habib",
+        "url": "https://drive.google.com/file/d/178LD7qgJiH3e6cDHlDnpP-6fpdzd8JHm/view?usp=drivesdk",
+        "name": "25 Post-Gospel-Troparia-2nd-Karam-Orthros-NicholasAndHabib.pdf",
+        "description": "FESTAL TROPARIA AFTER PSALM 50 IN TONE TWO | Sts Nicholas & Habib",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 16 July Hyeromartyrs Nicholas and Habib"
       },
       {
         "label": "St Joseph Damascus",
@@ -2054,6 +2085,18 @@
       }
     ]
   },
+  "KATHISMATA HYMNS OF THE SAINTS": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam for Sts Nicholas & Habib",
+        "url": "https://drive.google.com/file/d/1hOiyJPsVY6LSZM7ciFsWL-X-DisgFzSm/view?usp=drivesdk",
+        "name": "21 Kathismas-Karam-Orthros-NicholasHabib.pdf",
+        "description": "KATHISMATA HYMNS OF THE SAINTS | Karam for Sts Nicholas & Habib",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 16 July Hyeromartyrs Nicholas and Habib"
+      }
+    ]
+  },
   "KOINONIKON ( COMMUNION HYMN ) FOR PENTECOST IN TONE EIGHT": {
     "type": "multi",
     "versions": [
@@ -2622,6 +2665,18 @@
     "name": "08 Prokeimenon-2nd.pdf",
     "description": "PROKEIMENON FOR THE RESURRECTION IN TONE TWO",
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+  },
+  "PROKEIMENON FOR THE SAINTS IN TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam for Sts Nicholas & Habib",
+        "url": "https://drive.google.com/file/d/1WqKV_hK2xDYuZWe-Ocur-JicIh7YbA6l/view?usp=drivesdk",
+        "name": "24 Prokeimenon-4th-Karam-Orthros-NicholasAndHabib.pdf",
+        "description": "PROKEIMENON FOR THE SAINTS\nIN TONE FOUR | Karam for Sts Nicholas & Habib",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 16 July Hyeromartyrs Nicholas and Habib"
+      }
+    ]
   },
   "PSALM 136 BY THE WATERS OF BABYLON": {
     "url": "https://drive.google.com/file/d/1cfiaZLlzUl1uxC9ObK5FBwhyDMEtL0KF/view?usp=drivesdk",
@@ -3246,6 +3301,18 @@
     "description": "[O] DOXASTICON OF THE PRODIGAL SON IN TONE SIX",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02 Sunday of the Prodigal Son"
   },
+  "[O] DOXASTICON OF THE SAINTS TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Sts Nicholas & Habib",
+        "url": "https://drive.google.com/file/d/1ahvDDUpyM9pUGtTvvSulkCgfR9dfXnZb/view?usp=drivesdk",
+        "name": "28 PraisesDoxastikon-pl4th-Karam-Orthros-NicholasAndHabib.pdf",
+        "description": "[O] THE DOXASTICON OF THE SAINTS\nIN TONE EIGHT | Sts Nicholas & Habib",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 16 July Hyeromartyrs Nicholas and Habib"
+      }
+    ]
+  },
   "[O] EXAPOSTEILARION & THEOTOKION FOR ST. PAISIOS TONE THREE": {
     "type": "multi",
     "versions": [
@@ -3317,6 +3384,18 @@
     "name": "ProdigalSon-Praises-2nd-Karam-EN.pdf",
     "description": "[O] For the Prodigal Son",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02 Sunday of the Prodigal Son"
+  },
+  "[O] FOR THE SAINTS TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Stst Nicholas & Habib",
+        "url": "https://drive.google.com/file/d/1Y-CO4qD14pZJv5aDzeGHkPkNF6l7sstu/view?usp=drivesdk",
+        "name": "27 Praises-pl4th-Orthros-NicholasAndHabib.pdf",
+        "description": "[O] For the Saints in Tone Eight | Stst Nicholas & Habib",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 16 July Hyeromartyrs Nicholas and Habib"
+      }
+    ]
   },
   "[O] THEOTOKION TONE SIX": {
     "type": "multi",
