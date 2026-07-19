@@ -252,6 +252,19 @@
       }
     ]
   },
+  "APOLYTIKION OF PROPHET ELIAS IN TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "AA",
+        "url": "https://drive.google.com/file/d/1-POe0ZWOfiKs-mZoX756PXuRMlsa229G/view?usp=drivesdk",
+        "name": "08 Apolytikion-4th-AA-StElias.pdf",
+        "description": "APOLYTIKION OF PROPHET ELIAS IN TONE FOUR (**Be quick to anticipate**) | AA",
+        "automelon": "BE QUICK TO ANTICIPATE",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 20 July St Profet Elijah"
+      }
+    ]
+  },
   "APOLYTIKION OF SOULS SATURDAY IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/1Irm64kavh6cesQNlzQLK7IESO9LzK6NC/view?usp=drivesdk",
     "name": "2 Apolitikion-pl4th-SA-EN-SaturdaySouls.pdf",
@@ -615,6 +628,19 @@
         "description": "APOSTICHA FOR THE RESURRECTION IN TONE TWO | SLOW",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers"
+      }
+    ]
+  },
+  "APOSTICHA OF ST. ELIAS IN TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/12dD2U5h5n2gtp4JfkrAEB2H29qGze8Et/view?usp=drivesdk",
+        "name": "06 Aposticha-4th-ElMassih-Vespers-StElias.pdf",
+        "description": "APOSTICHA OF ST. ELIAS IN TONE FOUR (**Thou who wast called from on high**) | El Massih",
+        "automelon": "THOU WHO WAST CALLED FROM ON HIGH",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 20 July St Profet Elijah"
       }
     ]
   },
@@ -3911,6 +3937,19 @@
       }
     ]
   },
+  "[V] [AP] DOXASTICON FOR ST. ELIAS TONE SIX": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Dedes",
+        "url": "https://drive.google.com/file/d/1VcdD9IUxig8tKd5vADeoAlQXNUtxhxr1/view?usp=drivesdk",
+        "name": "07 ApostichaDoxastikon-pl2nd-Dedes-Vespers-StProfetElias.pdf",
+        "description": "[V] [AP] DOXASTICON FOR ST. ELIAS\nIN TONE SIX | Dedes",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 20 July St Profet Elijah"
+      }
+    ]
+  },
   "[V] [AP] DOXASTICON FOR ST. PAISIOS TONE EIGHT": {
     "type": "multi",
     "versions": [
@@ -4005,6 +4044,27 @@
       }
     ]
   },
+  "[V] [LIHC] DOXASTICON FOR ST. ELIAS TONE SIX": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Dedes",
+        "url": "https://drive.google.com/file/d/1rocDn0SjG-f764Lny9f91a3dGYsrItkF/view?usp=drivesdk",
+        "name": "02 SticherasDoxastikon-pl2nd-Dedes-Vespers-StProfetElias.pdf",
+        "description": "[V] [LIHC] DOXASTICON FOR ST. ELIAS\nIN TONE SIX | Dedes",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 20 July St Profet Elijah"
+      },
+      {
+        "label": "Creemens",
+        "url": "https://drive.google.com/file/d/1OYt24BFtYfMjdKyblhZ4aE7k3AjWHnuh/view?usp=drivesdk",
+        "name": "01 SticherasDoxastikon-pl2nd-Creemens-Vespers-StProfetElias.pdf",
+        "description": "[V] [LIHC] DOXASTICON FOR ST. ELIAS\nIN TONE SIX | Creemens",
+        "automelon": "",
+        "path": "MyEnglishMusic / Menaion / 11 July / 20 July St Profet Elias"
+      }
+    ]
+  },
   "[V] [LIHC] DOXASTICON FOR ST. PAISIOS TONE FIVE": {
     "type": "multi",
     "versions": [
@@ -4056,20 +4116,33 @@
     "type": "multi",
     "versions": [
       {
-        "label": "Boyer",
-        "url": "https://drive.google.com/file/d/1NP_SYx5Xn2vB3EGHRJf3iHr5m9Hxq34P/view?usp=drivesdk",
-        "name": "01 Sticheras-pl2nd-Boyer-Vespers-SundayHolyFathers.pdf",
-        "description": "[V] [LIHC] For the Holy Fathers in Tone Six\n(**Having laid up all their hope**) | Boyer",
-        "automelon": "HAVING LAID UP ALL THEIR HOPE",
-        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 13 - 19 July First Sunday of the Holy Fathers of the 4th Ecumenical Council"
-      },
-      {
         "label": "AA - w",
         "url": "https://drive.google.com/file/d/1jsHOoeeBUPsjbwuFqFYndfmb90UZuJqb/view?usp=drivesdk",
         "name": "01 SticheraHolyFathers-pl2nd-Vespers-SundayOfHolyFathers-W.pdf",
         "description": "[V] [LIHC] For the Holy Fathers in Tone Six\n(**The original melody**)  | AA - w",
         "automelon": "ORIGINAL MELODY",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 10 Sunday of the Holy Fathers"
+      },
+      {
+        "label": "Boyer",
+        "url": "https://drive.google.com/file/d/1NP_SYx5Xn2vB3EGHRJf3iHr5m9Hxq34P/view?usp=drivesdk",
+        "name": "01 Sticheras-pl2nd-Boyer-Vespers-SundayHolyFathers.pdf",
+        "description": "[V] [LIHC] For the Holy Fathers in Tone Six\n(**Having laid up all their hope**) | Boyer",
+        "automelon": "HAVING LAID UP ALL THEIR HOPE",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 13 - 19 July First Sunday of the Holy Fathers of the 4th Ecumenical Council"
+      }
+    ]
+  },
+  "[V] [LIHC] FOR THE PROPHET ELIAS TONE ONE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1fWRW-nysSE6vhdVyEc-Ce-MUCSD1K_vl/view?usp=drivesdk",
+        "name": "01 Sticheras-1st-Karam-Vespers-StProfetEliah.pdf",
+        "description": "[V] [LIHC] For the Prophet Elias in Tone One\n(**Thou art the joy**) | Karam",
+        "automelon": "THOU ART THE JOY",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 20 July St Profet Elijah"
       }
     ]
   },
