@@ -1294,6 +1294,19 @@
       }
     ]
   },
+  "EXAPOSTEILARION & THEOTOKION OF HOLY FATHERS IN TONE TWO": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "AA",
+        "url": "https://drive.google.com/file/d/1lc2eXxmmLZCMaYzwwcEaOCSEcEVlAYxL/view?usp=drivesdk",
+        "name": "24 Exaposteilarion-2nd-AA-Orthros-SundayHolyFathers.pdf",
+        "description": "THE EXAPOSTEILARION & THEOTOKION OF HOLY FATHERS IN TONE TWO (**Hearken, ye women**) | AA",
+        "automelon": "HEARKEN, YE WOMEN",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 13 - 19 July First Sunday of the Holy Fathers of the 4th Ecumenical Council"
+      }
+    ]
+  },
   "EXAPOSTEILARION & THEOTOKION OF SS. PETER AND PAUL IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1JQKLQXUlcYODFeGF_WKbpZp41O4mGpxp/view?usp=drivesdk",
     "name": "21 exaposteilarion-2nd-StsPeterPaul.pdf",
@@ -1493,14 +1506,6 @@
     "type": "multi",
     "versions": [
       {
-        "label": "Regular - Karam",
-        "url": "https://drive.google.com/file/d/1jy9I4qetB6ym2tWmP_Yo7DyqeW0hGGEc/view?usp=drivesdk",
-        "name": "10 AfterPsalm50Troparia-2nd.pdf",
-        "description": "FESTAL TROPARIA AFTER PSALM 50 IN TONE TWO | Regular - Karam",
-        "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
-      },
-      {
         "label": "Sts Nicholas & Habib",
         "url": "https://drive.google.com/file/d/178LD7qgJiH3e6cDHlDnpP-6fpdzd8JHm/view?usp=drivesdk",
         "name": "25 Post-Gospel-Troparia-2nd-Karam-Orthros-NicholasAndHabib.pdf",
@@ -1515,6 +1520,14 @@
         "description": "FESTAL TROPARIA AFTER PSALM 50 IN TONE TWO | St Joseph Damascus",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 10 July St Joseph of Damascus"
+      },
+      {
+        "label": "Regular - Karam",
+        "url": "https://drive.google.com/file/d/1jy9I4qetB6ym2tWmP_Yo7DyqeW0hGGEc/view?usp=drivesdk",
+        "name": "10 AfterPsalm50Troparia-2nd.pdf",
+        "description": "FESTAL TROPARIA AFTER PSALM 50 IN TONE TWO | Regular - Karam",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
       },
       {
         "label": "PalmSunday -Karam",
@@ -2698,14 +2711,6 @@
     "type": "multi",
     "versions": [
       {
-        "label": "EM bl",
-        "url": "https://drive.google.com/file/d/1sAaOcy0cnckHyxoPacoXhm_Gsi2Pyuqv/view?usp=drivesdk",
-        "name": "PaschalStichera-Doxa-billingual.pdf",
-        "description": "THE PASCHAL STICHERA\nIN TONE FIVE | EM bl",
-        "automelon": "",
-        "path": "Byzantine Music / Bilingual Services / Pentecostarion / 01 Sunday of Great and Holy Pascha"
-      },
-      {
         "label": "EM",
         "url": "https://drive.google.com/file/d/1MRGC-7Cv9FtYtwYLe7oyS9H4ijc1FJ0M/view?usp=drivesdk",
         "name": "20 Sticheras-pl1st-EM-Vespers-Pascha.pdf",
@@ -2720,6 +2725,14 @@
         "description": "THE PASCHAL STICHERA\nIN TONE FIVE | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 01 Sunday of Great and Holy Pascha"
+      },
+      {
+        "label": "EM bl",
+        "url": "https://drive.google.com/file/d/1sAaOcy0cnckHyxoPacoXhm_Gsi2Pyuqv/view?usp=drivesdk",
+        "name": "PaschalStichera-Doxa-billingual.pdf",
+        "description": "THE PASCHAL STICHERA\nIN TONE FIVE | EM bl",
+        "automelon": "",
+        "path": "Byzantine Music / Bilingual Services / Pentecostarion / 01 Sunday of Great and Holy Pascha"
       }
     ]
   },
