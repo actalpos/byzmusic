@@ -570,34 +570,58 @@
     "file": "Service_Texts/variableDate/2026/07/16/July 16 Bilingual READ.html"
   },
   {
-    "date": "2026-07-19",
+    "date": "2026-07-19 Sunday Holy Fathers 4th Ec Council",
     "title": "July 18 2026 Bilingual VESP",
     "order": -1,
-    "file": "Service_Texts/variableDate/2026/07/19/July 18 2026 Bilingual VESP.html"
+    "file": "Service_Texts/variableDate/2026/07/19 Sunday Holy Fathers 4th Ec Council/July 18 2026 Bilingual VESP.html"
   },
   {
-    "date": "2026-07-19",
+    "date": "2026-07-19 Sunday Holy Fathers 4th Ec Council",
     "title": "July 19 2026 Bilingual ORTHROS",
     "order": -1,
-    "file": "Service_Texts/variableDate/2026/07/19/July 19 2026 Bilingual ORTHROS.html"
+    "file": "Service_Texts/variableDate/2026/07/19 Sunday Holy Fathers 4th Ec Council/July 19 2026 Bilingual ORTHROS.html"
   },
   {
-    "date": "2026-07-19",
+    "date": "2026-07-19 Sunday Holy Fathers 4th Ec Council",
     "title": "July 19 2026 Bilingual READ",
     "order": -1,
-    "file": "Service_Texts/variableDate/2026/07/19/July 19 2026 Bilingual READ.html"
+    "file": "Service_Texts/variableDate/2026/07/19 Sunday Holy Fathers 4th Ec Council/July 19 2026 Bilingual READ.html"
   },
   {
-    "date": "2026-07-20",
+    "date": "2026-07-20 St Prophet Elias  ",
     "title": "July 19 Bilingual LITART",
     "order": -1,
-    "file": "Service_Texts/variableDate/2026/07/20/July 19 Bilingual LITART.html"
+    "file": "Service_Texts/fixDate/07/20 St Prophet Elias  /July 19 Bilingual LITART.html"
   },
   {
-    "date": "2026-07-20",
+    "date": "2026-07-20 St Prophet Elias  ",
     "title": "July 19 Bilingual VESP",
     "order": -1,
-    "file": "Service_Texts/variableDate/2026/07/20/July 19 Bilingual VESP.html"
+    "file": "Service_Texts/fixDate/07/20 St Prophet Elias  /July 19 Bilingual VESP.html"
+  },
+  {
+    "date": "2026-07-26 8th Sunday Of Mathew",
+    "title": "July 25 2026 Bilingual VESP",
+    "order": -1,
+    "file": "Service_Texts/variableDate/2026/07/26 8th Sunday Of Mathew/July 25 2026 Bilingual VESP.html"
+  },
+  {
+    "date": "2026-07-26 8th Sunday Of Mathew",
+    "title": "July 26 2026 Bilingual ORTHROS",
+    "order": -1,
+    "file": "Service_Texts/variableDate/2026/07/26 8th Sunday Of Mathew/July 26 2026 Bilingual ORTHROS.html"
+  },
+  {
+    "date": "2026-07-27 St Panteleimon",
+    "title": "July 26 LITART",
+    "order": -1,
+    "file": "Service_Texts/fixDate/07/27 St Panteleimon/July 26 LITART.html"
+  },
+  {
+    "date": "2026-07-27 St Panteleimon",
+    "title": "July 26 VESP",
+    "order": -1,
+    "file": "Service_Texts/fixDate/07/27 St Panteleimon/July 26 VESP.html"
   },
   {
     "date": "2026-12-28",

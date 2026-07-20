@@ -353,6 +353,19 @@
       }
     ]
   },
+  "APOLYTIKION OF ST. PARASKEVA IN TONE ONE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "SA",
+        "url": "https://drive.google.com/file/d/1sXp6dJPkbVhfeJles_jjpK7M4lt8lm4U/view?usp=drivesdk",
+        "name": "09 Apolytikion-1st-SA-StParaskevi.pdf",
+        "description": "APOLYTIKION OF ST. PARASKEVA\nIN TONE ONE | SA",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 26 July St Paraskeva"
+      }
+    ]
+  },
   "APOLYTIKION OF THE ASCENSION IN TONE FOUR": {
     "url": "https://drive.google.com/file/d/1ROSdQDJ3jtvCnSPK1p_FW_hU9u-GGBie/view?usp=drivesdk",
     "name": "05 Apolytikion-4th-Ascension.pdf",
@@ -3710,6 +3723,19 @@
       }
     ]
   },
+  "[O] EXAPOSTEILARION & THEOTOKION OF ST. PARASKEVA TONE TWO": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "AA",
+        "url": "https://drive.google.com/file/d/1MOnN8BqWsEwMWO39yKbxiT2Sugf0_18u/view?usp=drivesdk",
+        "name": "21 Exaposteilarion-2nd-AA-Orthros-StParaskevi.pdf",
+        "description": "[O] EXAPOSTEILARION & THEOTOKION OF ST. PARASKEVA IN TONE TWO\n(**Hearken, ye women**) | AA",
+        "automelon": "HEARKEN, YE WOMEN",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 26 July St Paraskeva"
+      }
+    ]
+  },
   "[O] FOR ALL SAINTS TONE FOUR": {
     "url": "https://drive.google.com/file/d/1G0N37ivhxgJiRrhbFfrD8qMkheFjdUl_/view?usp=drivesdk",
     "name": "24 Praises-4th-AA-Orthros-SundayOfAllSaints.pdf",
@@ -3766,6 +3792,19 @@
         "description": "[O] For St. Paisios in Tone One | El Massih",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 12 July St Paisios"
+      }
+    ]
+  },
+  "[O] FOR ST. PARASKEVA TONE ONE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1UZa96zY7GHiwN_PlQtUIdhgcb67opvU1/view?usp=drivesdk",
+        "name": "22 Praises-1st-Karam-Orthros-StParaskevi.pdf",
+        "description": "[O] For St. Paraskeva in Tone One\n(**Thou art the joy**) | Karam",
+        "automelon": "THOU ART THE JOY",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 26 July St Paraskeva"
       }
     ]
   },
@@ -3971,6 +4010,19 @@
       }
     ]
   },
+  "[V] [AP] DOXASTICON FOR ST. PARASKEVA TONE SIX": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Dedes",
+        "url": "https://drive.google.com/file/d/1c34tV5Ztb1_cYOsGJuvQTlA6IMqb49L-/view?usp=drivesdk",
+        "name": "04 ApostichaDoxastikon-pl2nd-Dedes-Vespers-StParaskevi.pdf",
+        "description": "[V] [AP] DOXASTICON FOR ST. PARASKEVA\nIN TONE SIX | Dedes",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 26 July St Paraskeva"
+      }
+    ]
+  },
   "[V] [AP] DOXASTICON FOR THE HOLY FATHERS TONE THREE": {
     "type": "multi",
     "versions": [
@@ -4086,6 +4138,19 @@
       }
     ]
   },
+  "[V] [LIHC] DOXASTICON FOR ST. PARASKEVA TONE SIX": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Dedes",
+        "url": "https://drive.google.com/file/d/1C99FArMvoDxc7o15uxSCAA0sPuz1HljQ/view?usp=drivesdk",
+        "name": "02 SticherasDoxastikon-pl2nd-Dedes-Vespers-StParaskevi.pdf",
+        "description": "[V] [LIHC] DOXASTICON FOR ST. PARASKEVA\nIN TONE SIX | Dedes",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 26 July St Paraskeva"
+      }
+    ]
+  },
   "[V] [LIHC] FOR ST. PAISIOS TONE ONE": {
     "type": "multi",
     "versions": [
@@ -4096,6 +4161,19 @@
         "description": "[V] [LIHC] For St. Paisios in Tone One | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 12 July St Paisios"
+      }
+    ]
+  },
+  "[V] [LIHC] FOR ST. PARASKEVA TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/1M06Akjirmm0eAki-9mGP0GAg05fJGE53/view?usp=drivesdk",
+        "name": "01 Sticheras-pl4th-ElMassih-Vespers-StParaskevi.pdf",
+        "description": "[V] [LIHC] For St. Paraskeva in Tone Eight\n(**O strange wonder**) | El Massih",
+        "automelon": "O STRANGE WONDER",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 26 July St Paraskeva"
       }
     ]
   },
