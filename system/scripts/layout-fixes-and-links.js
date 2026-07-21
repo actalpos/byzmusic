@@ -40,7 +40,8 @@ July 7 2026 - fix for overlapping [V] [LIHC] For St. Paisios in Tone One | Karam
 | `[V][LIHC] TITLE` + `[O] TITLE`                       | fiecare serviciu | ✅ fără coliziuni             |
 | `[V] TITLE` + `[O] TITLE`                             | fiecare serviciu | ✅ fără coliziuni             |
 | `[V][LIHC] TITLE` + `[V][LT] TITLE` + `[V][AP] TITLE` | trei apariții    | ✅ în ordinea `SERVICE_ORDER` |
-// July 17 2026 - fix for having the same title for the same service, same part. The differentiation would be in the automelon of the title
+
+July 17 2026 - fix for having the same title for the same service, same part. The differentiation would be in the automelon of the title
 
 ✅ TITLE
 ✅ [V] TITLE
@@ -52,6 +53,9 @@ July 7 2026 - fix for overlapping [V] [LIHC] For St. Paisios in Tone One | Karam
 ✅ suport pentru [SERVICE][MOMENT] TITLE || AUTOMELON
 ✅ protecție împotriva amestecului dintre [SERVICE] și [SERVICE][MOMENT]
 ✅ obiectele multi afișează acum doar versiunile care corespund automelonului (cum era cazul For the Holy Fathers...)
+
+July 20 - am scos TD din document.querySelectorAll("td p").forEach(p => {  in incercarea de a putea aplica kinks la file care nu are table - English.hml
+- mai trebuie lucrat
 
 */
 
@@ -490,7 +494,7 @@ try {
 /**********************
  * APPLY TITLE LINKS
  **********************/
-document.querySelectorAll("td p").forEach(p => {
+document.querySelectorAll("p").forEach(p => {
 
   if (p.querySelector("a")) return;
 
