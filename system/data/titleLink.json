@@ -566,7 +566,7 @@
       {
         "label": "Slow",
         "url": "https://drive.google.com/file/d/1s2Q2lck4rGbF_tXa8OFEvtCGFpnexG5-/view?usp=drivesdk",
-        "name": "05 ApostichaSlow-grave.pdf",
+        "name": "05 ApostichaSlow-pl3rdgrave.pdf",
         "description": "APOSTICHA FOR THE RESURRECTION IN TONE SEVEN | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers"
@@ -574,29 +574,8 @@
       {
         "label": "Brief",
         "url": "https://drive.google.com/file/d/1uHhqb-ZXp9LJEopnbLANRn5Ta-uyB0Er/view?usp=drivesdk",
-        "name": "05 ApostichaBrief-grave.pdf",
+        "name": "05 ApostichaBrief-pl3rdgrave.pdf",
         "description": "APOSTICHA FOR THE RESURRECTION IN TONE SEVEN | Brief",
-        "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Vespers"
-      }
-    ]
-  },
-  "APOSTICHA FOR THE RESURRECTION IN TONE SIX": {
-    "type": "multi",
-    "versions": [
-      {
-        "label": "Brief",
-        "url": "https://drive.google.com/file/d/1FvNOr_CW9dP8_KpmpkxTssFRkheUoav6/view?usp=drivesdk",
-        "name": "05 ApostichaBrief-pl2nd.pdf",
-        "description": "APOSTICHA FOR THE RESURRECTION IN TONE SIX | Brief",
-        "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Vespers"
-      },
-      {
-        "label": "Slow",
-        "url": "https://drive.google.com/file/d/1zYP8KfBWXS6ibgfvzXtT1nG43jdaTxXa/view?usp=drivesdk",
-        "name": "05 ApostichaSlow-pl2nd.pdf",
-        "description": "APOSTICHA FOR THE RESURRECTION IN TONE SIX | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers"
       }
@@ -1218,6 +1197,19 @@
     "description": "DOXASTICON OF THE PHARISEE AND PUBLICAN IN TONE EIGHT",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 01 Sunday of the Pharisee and Publican",
     "automelon": ""
+  },
+  "EIGHT EOTHINON DOXASTIKON IN TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "SA",
+        "url": "https://drive.google.com/file/d/1lrL4ta6LHKm8PWZatl8Lah2tJKL2MQK1/view?usp=drivesdk",
+        "name": "16 8th DoxastikonEothinon-pl4th.pdf",
+        "description": "THE EIGHT EOTHINON DOXASTIKON IN TONE EIGHT | SA",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+      }
+    ]
   },
   "EIGHTH EOTHINON EXAPOSTEILARION IN TONE TWO": {
     "type": "multi",
@@ -3349,39 +3341,18 @@
     "type": "multi",
     "versions": [
       {
-        "label": "Slow diatonic",
-        "url": "https://drive.google.com/file/d/1keKsKX0o50jv7GlJtSe1YcJc7Wg5J0wF/view?usp=drivesdk",
-        "name": "03 DogmaticTheotokionSlow-grave-diatonic.pdf",
-        "description": "THEOTOKION FOR THE RESURRECTION IN TONE SEVEN | Slow diatonic",
-        "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Vespers"
-      },
-      {
         "label": "Slow",
         "url": "https://drive.google.com/file/d/1Hp1jM2KFEvgIN5R2WkApigBsi1vfdpMz/view?usp=drivesdk",
-        "name": "03 DogmaticTheotokionSlow-grave.pdf",
+        "name": "03 DogmaticTheotokionSlow-pl3rdgrave.pdf",
         "description": "THEOTOKION FOR THE RESURRECTION IN TONE SEVEN | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers"
-      }
-    ]
-  },
-  "THEOTOKION FOR THE RESURRECTION IN TONE SIX": {
-    "type": "multi",
-    "versions": [
-      {
-        "label": "Brief",
-        "url": "https://drive.google.com/file/d/1qhxPnInGn0VsxupwGz-AIX2e5ez9LvPa/view?usp=drivesdk",
-        "name": "03 DogmaticTheotokionBrief-pl2nd.pdf",
-        "description": "THEOTOKION FOR THE RESURRECTION IN TONE SIX | Brief",
-        "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Vespers"
       },
       {
-        "label": "Slow",
-        "url": "https://drive.google.com/file/d/12xVQi6i1bJ8zVOULT5bBZbqLqx_W9Aut/view?usp=drivesdk",
-        "name": "03 DogmaticTheotokionSlow-pl2nd.pdf",
-        "description": "THEOTOKION FOR THE RESURRECTION IN TONE SIX | Slow",
+        "label": "Slow diatonic",
+        "url": "https://drive.google.com/file/d/1keKsKX0o50jv7GlJtSe1YcJc7Wg5J0wF/view?usp=drivesdk",
+        "name": "03 DogmaticTheotokionSlow-pl3rdgrave-diatonic.pdf",
+        "description": "THEOTOKION FOR THE RESURRECTION IN TONE SEVEN | Slow diatonic",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers"
       }
@@ -3937,6 +3908,27 @@
     "path": "Byzantine Music / Bilingual Services / Vespers",
     "automelon": ""
   },
+  "[V] [AP] APOSTICHA FOR THE RESURRECTION TONE SIX": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Slow",
+        "url": "https://drive.google.com/file/d/1zYP8KfBWXS6ibgfvzXtT1nG43jdaTxXa/view?usp=drivesdk",
+        "name": "05 ApostichaSlow-pl2nd.pdf",
+        "description": "[V] [AP] APOSTICHA FOR THE RESURRECTION IN TONE SIX | Slow",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers"
+      },
+      {
+        "label": "Brief",
+        "url": "https://drive.google.com/file/d/1FvNOr_CW9dP8_KpmpkxTssFRkheUoav6/view?usp=drivesdk",
+        "name": "05 ApostichaBrief-pl2nd.pdf",
+        "description": "[V] [AP] APOSTICHA FOR THE RESURRECTION IN TONE SIX | Brief",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers"
+      }
+    ]
+  },
   "[V] [AP] DOXASTICON FOR ALL SAINTS TONE SIX": {
     "type": "multi",
     "versions": [
@@ -4366,6 +4358,27 @@
         "url": "https://drive.google.com/file/d/1b3-o9j4bP43pADas3pXlc3pCzee0ciQK/view?usp=drivesdk",
         "name": "02 SticherasSlow-2nd.pdf",
         "description": "[V] [LIHC] For the Resurrection in Tone Two | Slow",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers"
+      }
+    ]
+  },
+  "[V] [LIHC] THEOTOKION FOR THE RESURRECTION TONE SIX": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Brief",
+        "url": "https://drive.google.com/file/d/1qhxPnInGn0VsxupwGz-AIX2e5ez9LvPa/view?usp=drivesdk",
+        "name": "03 DogmaticTheotokionBrief-pl2nd.pdf",
+        "description": "[V] [LIHC] THEOTOKION FOR THE RESURRECTION IN TONE SIX | Brief",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers"
+      },
+      {
+        "label": "Slow",
+        "url": "https://drive.google.com/file/d/12xVQi6i1bJ8zVOULT5bBZbqLqx_W9Aut/view?usp=drivesdk",
+        "name": "03 DogmaticTheotokionSlow-pl2nd.pdf",
+        "description": "[V] [LIHC] THEOTOKION FOR THE RESURRECTION IN TONE SIX | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers"
       }
