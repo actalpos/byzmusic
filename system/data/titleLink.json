@@ -2288,11 +2288,25 @@
     "automelon": ""
   },
   "GOOD WORD ( VERSES FROM PSALM 44 ) IN TONE ONE": {
-    "url": "https://drive.google.com/file/d/1gMBh8ZpBNbZhVzdXRl3ZCtCCOG74qwxk/view?usp=drivesdk",
-    "name": "05 PolyeleosAGoodWordPsalm44-pl4th-Phoakeus-EN.pdf",
-    "description": "“A GOOD WORD” (VERSES FROM PSALM 44) IN TONE ONE",
-    "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
-    "automelon": ""
+    "type": "multi",
+    "versions": [
+      {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/11-ZdvCLJl_vI8-kGJSTQ5FxGC6tvROwF/view?usp=drivesdk",
+        "name": "05 PolyeleosAGoodWordPsalm44-pl4th-ElMassih-EN.pdf",
+        "description": "“A GOOD WORD” (VERSES FROM PSALM 44) IN TONE ONE | El Massih",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+      },
+      {
+        "label": "Phoakeus",
+        "url": "https://drive.google.com/file/d/1gMBh8ZpBNbZhVzdXRl3ZCtCCOG74qwxk/view?usp=drivesdk",
+        "name": "05 PolyeleosAGoodWordPsalm44-pl4th-Phoakeus-EN.pdf",
+        "description": "“A GOOD WORD” (VERSES FROM PSALM 44) IN TONE ONE | Phoakeus",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+      }
+    ]
   },
   "GREAT DOXOLOGY IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/1Uvf7QsF3Ukr5nMy3Pxm8qMgLW2P7YzZR/view?usp=drivesdk",
@@ -2963,6 +2977,19 @@
       }
     ]
   },
+  "NINTH ODE FIRST NATIVITY OF THEOTOKOS CANON IN TONE TWO": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/1_coiDw6YvqhSt8W_kcBqNB5x6o1Pn6BV/view?usp=drivesdk",
+        "name": "22A 9th-ode-1stCanonNativity-2nd-ElMassih-Orthros-NativityTheotokos.pdf",
+        "description": "NINTH ODE: FIRST NATIVITY OF THEOTOKOS CANON IN TONE TWO | El Massih",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 08 Nativity of the Theotokos"
+      }
+    ]
+  },
   "NINTH ODE OF THE FIRST DORMITION CANON IN TONE ONE": {
     "type": "multi",
     "versions": [
@@ -2999,6 +3026,19 @@
         "description": "THE NINTH ODE OF THE PASCHAL & THEOTOKOS CANONS IN TONE ONE | AA",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+      }
+    ]
+  },
+  "NINTH ODE SECOND NATIVITY OF THEOTOKOS CANON IN TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "EM",
+        "url": "https://drive.google.com/file/d/1TmjrMpQZ1remHQrxP5GxjancQ08hLH38/view?usp=drivesdk",
+        "name": "22B 9th-ode-2ndCanonNativity-pl4th-EM-Orthros-NativityTheotokos.pdf",
+        "description": "NINTH ODE: SECOND NATIVITY OF THEOTOKOS CANON IN TONE EIGHT | EM",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 08 Nativity of the Theotokos"
       }
     ]
   },
@@ -4178,6 +4218,19 @@
       }
     ]
   },
+  "[O] EXAPOSTEILARIA FOR NATIVITY OF THE THEOTOKOS TONE TWO": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1RIO8KVFj6OCYiC_KW5w0N4eiiw2x1M00/view?usp=drivesdk",
+        "name": "23 Exaposteilarion-2nd-Karam-Orthros-NativityTheotokos.pdf",
+        "description": "[O] THE EXAPOSTEILARIA FOR NATIVITY OF THE THEOTOKOS IN TONE TWO\n(**Hearken, ye women**) | Karam",
+        "automelon": "HEARKEN YE WOMEN",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 08 Nativity of the Theotokos"
+      }
+    ]
+  },
   "[O] EXAPOSTEILARION & THEOTOKION FOR ST. PAISIOS TONE THREE": {
     "type": "multi",
     "versions": [
@@ -4620,6 +4673,32 @@
         "description": "[O] [ED] THEOTOKION IN TONE TWO | St Anthony",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
+      }
+    ]
+  },
+  "[O] [PR] FOR THE NATIVITY OF THE THEOTOKOS TONE ONE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "HTM",
+        "url": "https://drive.google.com/file/d/1fOAtxYPVwKHtqrSRJeyoJIX_j173Szyi/view?usp=drivesdk",
+        "name": "24 Praises-1st-HTM-NativityTheotokos.pdf",
+        "description": "[O] [PR] For the Nativity of the Theotokos in\nTone One (**O strange wonder**) | HTM",
+        "automelon": "O STRANGE WONDER",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 08 Nativity of the Theotokos"
+      }
+    ]
+  },
+  "[O] [PR] THE DOXASTICON OF NATIVITY OF THE THEOTOKOS TONE SIX": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/1TutON9G0LqMJ4akX5jEwOgmPboRdu3dp/view?usp=drivesdk",
+        "name": "25 PraisesDoxastikon-pl2nd-ElMassih-NativityTheotokos.pdf",
+        "description": "[O] [PR] THE DOXASTICON OF NATIVITY OF THE THEOTOKOS IN TONE SIX | El Massih",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 08 Nativity of the Theotokos"
       }
     ]
   },
