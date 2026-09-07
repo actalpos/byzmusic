@@ -410,7 +410,7 @@ Aug 31 -
 
     try {
 
-      const base = window.location.pathname.includes("/byzmusic/") ? "/byzmusic" : "";
+      const base = window.location.pathname.includes("/byzmusic/") ? "/byzmusic" : "/byzmusic";
       const res = await fetch(`${base}/system/data/titleLink.json`);
 
       if (!res.ok) throw new Error("titleLink.json missing");
