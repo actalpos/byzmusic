@@ -822,6 +822,48 @@
     "file": "Service_Texts/fixDate/09/08 Nativity of Theotokos/Sept 08 Bilingual READ.html"
   },
   {
+    "date": "2026-09-13",
+    "title": "Sep 12 2026 Bilingual VESP",
+    "order": -1,
+    "file": "Service_Texts/variableDate/2026/09/13/Sep 12 2026 Bilingual VESP.html"
+  },
+  {
+    "date": "2026-09-13",
+    "title": "Sep 13 2026 Bilingual ORTHROS",
+    "order": -1,
+    "file": "Service_Texts/variableDate/2026/09/13/Sep 13 2026 Bilingual ORTHROS.html"
+  },
+  {
+    "date": "2026-09-13",
+    "title": "Sep 13 2026 Bilingual READ",
+    "order": -1,
+    "file": "Service_Texts/variableDate/2026/09/13/Sep 13 2026 Bilingual READ.html"
+  },
+  {
+    "date": "2026-09-14",
+    "title": "Sept 13 Bilingual LITART",
+    "order": -1,
+    "file": "Service_Texts/fixDate/09/14/Sept 13 Bilingual LITART.html"
+  },
+  {
+    "date": "2026-09-14",
+    "title": "Sept 13 Bilingual VESP",
+    "order": -1,
+    "file": "Service_Texts/fixDate/09/14/Sept 13 Bilingual VESP.html"
+  },
+  {
+    "date": "2026-09-14",
+    "title": "Sept 14 Bilingual ORTHROS",
+    "order": -1,
+    "file": "Service_Texts/fixDate/09/14/Sept 14 Bilingual ORTHROS.html"
+  },
+  {
+    "date": "2026-09-14",
+    "title": "Sept 14 Bilingual READ",
+    "order": -1,
+    "file": "Service_Texts/fixDate/09/14/Sept 14 Bilingual READ.html"
+  },
+  {
     "date": "2026-12-28",
     "title": "Dec 28 2025 Bilingual ORTHROS",
     "order": -1,

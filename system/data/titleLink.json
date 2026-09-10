@@ -234,6 +234,19 @@
       }
     ]
   },
+  "APOLYTIKION OF FOREFEAST OF THE HOLY CROSS IN TONE TWO": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "St Anthony",
+        "url": "https://drive.google.com/file/d/1H9QPULHbssJPHoZGb5adTF6TFJo3tZg2/view?usp=drivesdk",
+        "name": "06 Apolyition-2nd-SA-ForefeastCross.pdf",
+        "description": "APOLYTIKION OF FOREFEAST OF THE HOLY CROSS IN TONE TWO | St Anthony",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross"
+      }
+    ]
+  },
   "APOLYTIKION OF LAZARUS SATURDAY IN TONE ONE": {
     "type": "multi",
     "versions": [
@@ -433,6 +446,19 @@
         "description": "APOLYTIKION OF THE BAPTIST’S BEHEADING IN TONE TWO | El Massih",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 29 Beheading St John the Baptist"
+      }
+    ]
+  },
+  "APOLYTIKION OF THE CONSECRATION IN TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "St Anthony",
+        "url": "https://drive.google.com/file/d/1kcHSo4yl6xvTmIfU26HecbziaLjKp1BG/view?usp=drivesdk",
+        "name": "06 Apolytikion-4th-SA-ConsecrationResurrectionChurch.pdf",
+        "description": "APOLYTIKION OF THE CONSECRATION IN TONE FOUR | St Anthony",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 13 Consecration of the Resurrection Curch"
       }
     ]
   },
@@ -4257,6 +4283,19 @@
       }
     ]
   },
+  "[O] EXAPOSTELARIA & THEOTOKION FOR THE CONSECRATION TONE TWO": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "HTM",
+        "url": "https://drive.google.com/file/d/1S-ejbtUQkWhefXQZ98zb67zUjKlfbBRq/view?usp=drivesdk",
+        "name": "22 Exaposteilarion-2nd-HTM-Orthros-ConsecrationResurrectionChurch.pdf",
+        "description": "[O] EXAPOSTELARIA & THEOTOKION FOR THE CONSECRATION IN TONE TWO (**Upon that mount in Galilee**) | HTM",
+        "automelon": "UPON THAT MOUNT IN GALILEE",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 13 Consecration of the Resurrection Curch"
+      }
+    ]
+  },
   "[O] EXAPOSTELARION & THEOTOKION FOR THE BAPTIST’S BEHEADING TONE TWO": {
     "type": "multi",
     "versions": [
@@ -4676,6 +4715,19 @@
       }
     ]
   },
+  "[O] [PR] FOR THE CONSECRATION TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/1pOySvH5omxupt0JkFy9bvggDBKUFXJH1/view?usp=drivesdk",
+        "name": "23 Praises-4th-ElMassih-Orthros-ConsecrationResurrectionChurch.pdf",
+        "description": "[O] [PR] For the Consecration in Tone Four\n(**Unto them that fear Thee**) | El Massih",
+        "automelon": "UNTO THEM THAT FEAR THEE",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 13 Consecration of the Resurrection Curch"
+      }
+    ]
+  },
   "[O] [PR] FOR THE NATIVITY OF THE THEOTOKOS TONE ONE": {
     "type": "multi",
     "versions": [
@@ -5071,6 +5123,19 @@
       }
     ]
   },
+  "[V] [AP] DOXASTICON FOR THE FOREFEAST OF THE HOLY CROSS TONE TWO": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Fr S Dedes",
+        "url": "https://drive.google.com/file/d/1Py7D7N4F8-1Rul-eRbqktIG4cxEYyKRb/view?usp=drivesdk",
+        "name": "03 ApostichaDoxastikon-2nd-DCS-Vespers-ForefeastCrosss.pdf",
+        "description": "[V] [AP] DOXASTICON FOR THE FOREFEAST\nOF THE HOLY CROSS IN TONE TWO | Fr S Dedes",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross"
+      }
+    ]
+  },
   "[V] [AP] DOXASTICON FOR THE HOLY FATHERS TONE THREE": {
     "type": "multi",
     "versions": [
@@ -5416,6 +5481,19 @@
       }
     ]
   },
+  "[V] [LIHC] DOXASTICON OF THE CONSECRATION TONE TWO": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Fr S Dedes",
+        "url": "https://drive.google.com/file/d/1I77aWfR2B_oqGrEfYBeqR0REEiVmDqa1/view?usp=drivesdk",
+        "name": "02 SticheraDoxastikon-pl2nd-DCS-Vespers-ConsecrationResurrectionChurch..pdf",
+        "description": "[V] [LIHC] DOXASTICON OF THE CONSECRATION IN TONE TWO | Fr S Dedes",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 13 Consecration of the Resurrection Curch"
+      }
+    ]
+  },
   "[V] [LIHC] FOR ST. PAISIOS TONE ONE": {
     "type": "multi",
     "versions": [
@@ -5501,6 +5579,19 @@
       }
     ]
   },
+  "[V] [LIHC] FOR THE CONSECRATION TONE SIX": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Fr S Dedes",
+        "url": "https://drive.google.com/file/d/1Bq9mHXMawz742FVt-zCiBrGoN4kVYc8E/view?usp=drivesdk",
+        "name": "01 Sticheras-pl2nd-FrSDedes-Vespers-ConsecrationResurrectionChurch.pdf",
+        "description": "[V] [LIHC] For the Consecration in Tone Six | Fr S Dedes",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 13 Consecration of the Resurrection Curch"
+      }
+    ]
+  },
   "[V] [LIHC] FOR THE DORMITION TONE ONE": {
     "type": "multi",
     "versions": [
@@ -5511,6 +5602,19 @@
         "description": "[V] [LIHC] For the Dormition Tone One\n(**The original melody**) | Archdiocese",
         "automelon": "ORIGINAL MELODY",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 15 Dormition of Theotokos"
+      }
+    ]
+  },
+  "[V] [LIHC] FOR THE FOREFEAST OF THE HOLY CROSS TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/1ZFWkSxtGE6PptZueDDxsADJTpPbBIFU_/view?usp=drivesdk",
+        "name": "01 Stichera-4th-ElMassih-Vespers-ForefeastCross.pdf",
+        "description": "[V] [LIHC] For the Forefeast of the Holy Cross\nin Tone Four (**As one valiant**) | El Massih",
+        "automelon": "AS ONE VALIANT",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross"
       }
     ]
   },
