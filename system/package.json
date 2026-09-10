@@ -3,6 +3,7 @@
   "scripts": {
     "test": "node tests/normalize.test.js && node tests/matching.test.js",
     "update-files": "node scripts/update-liturgical-service-file-list.js",
-    "update-titles": "node scripts/update-title-links.js"    
+    "update-titles": "node scripts/update-title-links.js",
+    "convert": "node scripts/convert-service.js"  
   }
 }
