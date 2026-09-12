@@ -2435,29 +2435,24 @@
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
     "automelon": ""
   },
-  "IDIOMELON FOR THE HOLY CROSS IN TONE TWO": {
-    "type": "multi",
-    "versions": [
-      {
-        "label": "Creemens",
-        "url": "https://drive.google.com/file/d/1-lAkrqnGDJivJdSPUr7HjdPKGAmYEhQi/view?usp=drivesdk",
-        "name": "Sep-14-Doxastikon-at-Vespers-Ware-GC.pdf",
-        "description": "IDIOMELON FOR THE HOLY CROSS IN TONE TWO | Creemens",
-        "automelon": "",
-        "path": "MyEnglishMusic / Menaion / 01 September / 14 Elevevation of the Holy Cross"
-      }
-    ]
-  },
   "IF THE PROCESSION IS BEGUN AS THE GREAT DOXOLOGY CONCLUDES IN ORTHROS THE FINAL HOLY GOD HOLY MIGHTY IS SLOWLY CHANTED ( TRADITIONALLY IF POSSIBLE IN THE AGIA STYLE OF TONE FOUR ).": {
     "type": "multi",
     "versions": [
+      {
+        "label": "Fr Romano",
+        "url": "https://drive.google.com/file/d/1F8IV3rlb4GDCa_Yn-Yty6MMZPtlS6jHG/view?usp=drivesdk",
+        "name": "31 Asmatikon-4th-FrRomano-Procession-ElevationOfCross.pdf",
+        "description": "If the procession is begun as the Great Doxology concludes in Orthros, the final \"Holy God, Holy Mighty\" is slowly chanted (traditionally, if possible, in the “Agia” style of Tone Four). | Fr Romano",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross"
+      },
       {
         "label": "Creemens",
         "url": "https://drive.google.com/file/d/1FZcb7YlhAmK_02xU0ux-0AfRXVCWrO36/view?usp=drivesdk",
         "name": "Asmatika-of-the-Cross-Various-Adaptations-PCP.pdf",
         "description": "If the procession is begun as the Great Doxology concludes in Orthros, the final \"Holy God, Holy Mighty\" is slowly chanted (traditionally, if possible, in the “Agia” style of Tone Four). | Creemens",
         "automelon": "",
-        "path": "MyEnglishMusic / Menaion / 01 September / 14 Elevevation of the Holy Cross"
+        "path": "MyEnglishMusic / Menaion / 01 September / 14 Elevation of the Holy Cross"
       }
     ]
   },
@@ -2787,6 +2782,19 @@
     "description": "KONTAKION FOR THE DEPARTED\nIN TONE EIGHT",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02-1 SATURDAY BEFORE MEAT-FARE SUNDAY",
     "automelon": ""
+  },
+  "KONTAKION OF THE ELEVATION OF THE HOLY CROSS IN TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "St Anthony",
+        "url": "https://drive.google.com/file/d/1Zb6HTBy75VFUNRNzsYHJmatQEFa1GAns/view?usp=drivesdk",
+        "name": "32 Kontakion-4th-SA-Procession-ElevationOfCross.pdf",
+        "description": "KONTAKION OF THE ELEVATION OF THE HOLY CROSS IN TONE FOUR | St Anthony",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross"
+      }
+    ]
   },
   "LENTEN APOLYTIKIA IN TONE FIVE": {
     "url": "https://drive.google.com/file/d/1lG9o0hYdbhag6jCTyLxtaZcS2f6HH2AZ/view?usp=drivesdk",
@@ -4046,7 +4054,7 @@
         "name": "4 (AR) Doxastikon at the Litia - Fr. Nicolas Malek.pdf",
         "description": "[LT] ذُكصا زياح الليتين باللحنِ الرابِع | Fr N Malek",
         "automelon": "",
-        "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / September 14 / Vespers "
+        "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Vespers "
       },
       {
         "label": "El-Murr",
@@ -4054,7 +4062,7 @@
         "name": "4 (AR) Doxastikon at the Litia - Foad El-Murr.pdf",
         "description": "[LT] ذُكصا زياح الليتين باللحنِ الرابِع | El-Murr",
         "automelon": "",
-        "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / September 14 / Vespers "
+        "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Vespers "
       }
     ]
   },
@@ -5422,7 +5430,7 @@
         "name": "5 (AR) Aposticha - Pl. 1.pdf",
         "description": "[V] [AP] أبوستيخُن للصَليب المُقَدَّس باللحنِ الخامِس | Fr N Malek",
         "automelon": "",
-        "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / September 14 / Vespers "
+        "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Vespers "
       }
     ]
   },
@@ -5435,7 +5443,7 @@
         "name": "6 (AR) Doxastikon at the Aposticha - Fr. Nicolas Malek.pdf",
         "description": "[V] [AP] ذُكصا للصَليب المُقَدَّس باللحنِ الثَامِن | Fr N Malek",
         "automelon": "",
-        "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / September 14 / Vespers "
+        "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Vespers "
       },
       {
         "label": "El-Murr",
@@ -5443,7 +5451,7 @@
         "name": "6 (AR) Doxastikon at the Aposticha - Foad El-Murr.pdf",
         "description": "[V] [AP] ذُكصا للصَليب المُقَدَّس باللحنِ الثَامِن | El-Murr",
         "automelon": "",
-        "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / September 14 / Vespers "
+        "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Vespers "
       }
     ]
   },
@@ -6174,7 +6182,7 @@
         "name": "3 (AR) Doxastikon at Lord I Have Cried - Fr. Nicolas Malek.pdf",
         "description": "[V] [LIHC] ذُكصا للصَليب المُقَدَّس باللحنِ الثاني | Fr N Malek",
         "automelon": "",
-        "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / September 14 / Vespers "
+        "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Vespers "
       },
       {
         "label": "El-Murr",
@@ -6182,7 +6190,7 @@
         "name": "3 (AR) Doxastikon at Lord I Have Cried - Foad El-Murr.pdf",
         "description": "[V] [LIHC] ذُكصا للصَليب المُقَدَّس باللحنِ الثاني | El-Murr",
         "automelon": "",
-        "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / September 14 / Vespers "
+        "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Vespers "
       }
     ]
   },
@@ -6195,7 +6203,7 @@
         "name": "2 (AR) Vespers Prosomia - Pl. 2.pdf",
         "description": "[V] [LIHC] للصَليب المُقَدَّس باللحنِ السادِس | Fr N Malik",
         "automelon": "",
-        "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / September 14 / Vespers "
+        "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Vespers "
       }
     ]
   },
@@ -6203,7 +6211,7 @@
     "url": "https://drive.google.com/file/d/1IOg28p8rAwYJj6AJnt5pU-rhKuQJgJ8b/view?usp=drivesdk",
     "name": "1 (AR) Lord I Have Cried + Verses - Pl. 2.pdf",
     "description": "[V] [LIHC] \"يا ربِّ إليكَ صَرَخت\" باللحنِ السادِس",
-    "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / September 14 / Vespers ",
+    "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Vespers ",
     "automelon": ""
   },
   "[V] [LIHV] FOR ARCHANGEL MICHAEL TONE FOUR": {
@@ -6223,7 +6231,7 @@
     "url": "https://drive.google.com/file/d/1FxCYmg76LkN6t9hty7GwWu9HSiRqHLWj/view?usp=drivesdk",
     "name": "7 (AR&GR) Apolytikion of the Holy Cross.pdf",
     "description": "أبوليتيكيون الصَليب المُقَدَّس باللحنِ الأوَّل",
-    "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / September 14 / Vespers ",
+    "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Vespers ",
     "automelon": ""
   }
 }
