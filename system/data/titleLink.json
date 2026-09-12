@@ -2448,27 +2448,6 @@
       }
     ]
   },
-  "IDIOMELON IN TONE SIX": {
-    "type": "multi",
-    "versions": [
-      {
-        "label": "Pentecost",
-        "url": "https://drive.google.com/file/d/1eGIVMEDXbk3Fy5E48Ggd2KekIupKd_lg/view?usp=drivesdk",
-        "name": "24 AfterPsalm50Troparia-pl2nd-Karam-Orthros-SundayPentecost.pdf",
-        "description": "IDIOMELON IN TONE SIX | Pentecost",
-        "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 12 Sunday of Pentecost"
-      },
-      {
-        "label": "Ascension",
-        "url": "https://drive.google.com/file/d/1fOMUg3UDwLwEnMTo20fOPS-m1PiqNUBq/view?usp=drivesdk",
-        "name": "22 IdiomelonAfterPsalm-pl2nd-Ayoub-Orthros-Ascention.pdf",
-        "description": "IDIOMELON IN TONE SIX | Ascension ",
-        "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 09 The Ascension of Our Lord Jesus Christ "
-      }
-    ]
-  },
   "IF THE PROCESSION IS BEGUN AS THE GREAT DOXOLOGY CONCLUDES IN ORTHROS THE FINAL HOLY GOD HOLY MIGHTY IS SLOWLY CHANTED ( TRADITIONALLY IF POSSIBLE IN THE AGIA STYLE OF TONE FOUR ).": {
     "type": "multi",
     "versions": [
@@ -2548,7 +2527,7 @@
       {
         "label": "Karam",
         "url": "https://drive.google.com/file/d/1N6ubM_GHci1Zy0qylDJmKzpl_u21vUE5/view?usp=drivesdk",
-        "name": "11-01 Ode1-9-pl4th-Karam-ElevetionOfCross.pdf",
+        "name": "11-01 Ode1-9-pl4th-Karam-ElevationOfCross.pdf",
         "description": "THE KATAVASIAE OF THE HOLY CROSS CANON IN TONE EIGHT | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
@@ -3293,18 +3272,18 @@
     "type": "multi",
     "versions": [
       {
-        "label": "135 3-metered",
-        "url": "https://drive.google.com/file/d/17FnQJ5BCgbhN0ezYXYTyAzJ64xdCKEfK/view?usp=drivesdk",
-        "name": "05 Polyeleos Psalm 135 in 5 Tones Triple Metered EN.pdf",
-        "description": "THE POLYELEOS IN TONE ONE (ABRIDGED) | 135 3-metered",
+        "label": "134 - El Murr",
+        "url": "https://drive.google.com/file/d/17j6ezeqALFM4JgtcQgmXMgYMt8wFDTH5/view?usp=drivesdk",
+        "name": "05 Polyeleos - Psalm 134 - Plagal First Mode - Mitri El Murr.pdf",
+        "description": "THE POLYELEOS IN TONE ONE (ABRIDGED) | 134 - El Murr",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
       },
       {
-        "label": "El Murr",
-        "url": "https://drive.google.com/file/d/17j6ezeqALFM4JgtcQgmXMgYMt8wFDTH5/view?usp=drivesdk",
-        "name": "05 Polyeleos - Psalm 134 - Plagal First Mode - Mitri El Murr.pdf",
-        "description": "THE POLYELEOS IN TONE ONE (ABRIDGED) | El Murr",
+        "label": "135 3-metered",
+        "url": "https://drive.google.com/file/d/17FnQJ5BCgbhN0ezYXYTyAzJ64xdCKEfK/view?usp=drivesdk",
+        "name": "05 Polyeleos Psalm 135 in 5 Tones Triple Metered EN.pdf",
+        "description": "THE POLYELEOS IN TONE ONE (ABRIDGED) | 135 3-metered",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros"
       },
@@ -4278,6 +4257,27 @@
       }
     ]
   },
+  "[O] ELEVATION OF THE CROSS TROPARIA AFTER PSALM 50 TONE TWO": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Haddad",
+        "url": "https://drive.google.com/file/d/1uB87bZ_l8mhPPvnZuaH7SbSJ1lCHOjib/view?usp=drivesdk",
+        "name": "22B AfterPsalm50Idiomelon-2nd-Haddad-ExaltationOfCross.pdf",
+        "description": "[O] ELEVATION OF THE CROSS TROPARIA AFTER PSALM 50 IN TONE TWO | Haddad",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross"
+      },
+      {
+        "label": "St Anthony",
+        "url": "https://drive.google.com/file/d/1AL8_fdWzTIOrloxk_NUndvj8nkO7-A89/view?usp=drivesdk",
+        "name": "22 AfterPsalm50Idiomelon-2nd-SA-Orthros-ElevationOfCross.pdf",
+        "description": "[O] ELEVATION OF THE CROSS TROPARIA AFTER PSALM 50 IN TONE TWO | St Anthony",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross"
+      }
+    ]
+  },
   "[O] EXAPOSTEILARIA FOR NATIVITY OF THE THEOTOKOS TONE TWO": {
     "type": "multi",
     "versions": [
@@ -4467,14 +4467,14 @@
       }
     ]
   },
-  "[O] FOR THE HOLY CROSS TONE FOUR": {
+  "[O] FOR THE HOLY CROSS PROCESSION TONE FOUR": {
     "type": "multi",
     "versions": [
       {
         "label": "El Massih",
         "url": "https://drive.google.com/file/d/1GND4g0DVWyqcCoTXkoDJdAlY5ZymjMGC/view?usp=drivesdk",
         "name": "24 Praises-4th-ElMassih-Orthos-ProcessionOfCross.pdf",
-        "description": "[O] For the Holy Cross in Tone Four (**As one valiant**) | El Massih",
+        "description": "[O] For the Holy Cross Procession in Tone Four (**As one valiant**) | El Massih",
         "automelon": "AS ONE VALIANT",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 01 August Procession of the Holy Cross "
       }
@@ -4569,10 +4569,23 @@
     "type": "multi",
     "versions": [
       {
+        "label": "Creemens",
+        "url": "https://drive.google.com/file/d/1L8fYj9GykJccyCqU9G-hZei3Jlypu0Ey/view?usp=drivesdk",
+        "name": "20 2ndKathisma-pl2nd-Creemens-Orthros-ElevationOdCross.pdf",
+        "description": "[O] KATHISMATA HYMNS OF\nTHE HOLY CROSS | Creemens",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross"
+      }
+    ]
+  },
+  "[O] KATHISMATA HYMNS OF THE HOLY CROSS PROCESSION": {
+    "type": "multi",
+    "versions": [
+      {
         "label": "Karam",
         "url": "https://drive.google.com/file/d/1apTZesZhdY1S845Ojxvt1KW9l2TlRKKk/view?usp=drivesdk",
         "name": "21 Kathismata-1st-Karam-Orthros-ProcessionOfCross.pdf",
-        "description": "[O] KATHISMATA HYMNS OF THE HOLY CROSS | Karam",
+        "description": "[O] KATHISMATA HYMNS OF THE HOLY CROSS PROCESSION | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 01 August Procession of the Holy Cross "
       }
@@ -4588,6 +4601,32 @@
         "description": "[O] KATHISMATA HYMNS OF THE TRANSFIGURATION | El Massih",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 06 Transfiguration "
+      }
+    ]
+  },
+  "[O] NINTH ODE OF THE HOLY CROSS CANON TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/13-Vi6SOQIxv2xTSSE6W3lPADhqJPI4zo/view?usp=drivesdk",
+        "name": "23 9th-Ode-pl4th-Karam-Orthros-ElevationOfCross.pdf",
+        "description": "[O] THE NINTH ODE OF THE HOLY CROSS CANON IN TONE EIGHT | Karam",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross"
+      }
+    ]
+  },
+  "[O] PROKEIMENON FOR THE ELEVATION OF THE CROSS TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/1JmayEAvD01F3RKth1i1_B3rVXwyg0St5/view?usp=drivesdk",
+        "name": "21 Prokeimenon-4th-ElMassih-Orthros-ElevationOfCross.pdf",
+        "description": "[O] PROKEIMENON FOR THE ELEVATION OF THE CROSS\nIN TONE FOUR | El Massih",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross"
       }
     ]
   },
@@ -4762,6 +4801,27 @@
       }
     ]
   },
+  "[O] [PR] DOXASTICON OF THE HOLY CROSS TONE SIX": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Haddad",
+        "url": "https://drive.google.com/file/d/1X9raBaMEbK4XvqGYmPTzcyi55vuy9WzL/view?usp=drivesdk",
+        "name": "26B PraisesDoxastikon-pl2nd-Haddad-Orthros-ExaltationOfCross.pdf",
+        "description": "[O] [PR] DOXASTICON OF THE HOLY CROSS\nIN TONE SIX | Haddad",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross"
+      },
+      {
+        "label": "St Anthony",
+        "url": "https://drive.google.com/file/d/1xBs4x2ZFkUhbJAc0oiEhYo0wsz3SOoAq/view?usp=drivesdk",
+        "name": "26 PraisesDoxastikon-pl2nd-SA-Orthros-ElevationOfCross.pdf",
+        "description": "[O] [PR] DOXASTICON OF THE HOLY CROSS\nIN TONE SIX | St Anthony",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross"
+      }
+    ]
+  },
   "[O] [PR] FOR THE CONSECRATION TONE FOUR": {
     "type": "multi",
     "versions": [
@@ -4772,6 +4832,19 @@
         "description": "[O] [PR] For the Consecration in Tone Four\n(**Unto them that fear Thee**) | El Massih",
         "automelon": "UNTO THEM THAT FEAR THEE",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 13 Consecration of the Resurrection Curch"
+      }
+    ]
+  },
+  "[O] [PR] FOR THE HOLY CROSS TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/1ISGosDo3JmFTCr5P4EHW6cqVbc2Pceu-/view?usp=drivesdk",
+        "name": "25 Praises-pl4th-ElMassih-Orthos-ElevationOfCross.pdf",
+        "description": "[O] [PR] For the Holy Cross in Tone Eight\n(**O strange wonder**) | El Massih",
+        "automelon": "O STRANGE WONDER",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross"
       }
     ]
   },
