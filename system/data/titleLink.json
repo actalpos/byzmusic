@@ -4018,6 +4018,19 @@
       }
     ]
   },
+  "[LT] DOXASTICON OF THE LITIA PROCESSION TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Haddad",
+        "url": "https://drive.google.com/file/d/1A6DJmVbiDORxj2xMtrqACIECWLLNv5AE/view?usp=drivesdk",
+        "name": "13 LitiDoxastikon-4th-Liti-ElevationOfCross.pdf",
+        "description": "[LT] THE DOXASTICON OF THE LITIA PROCESSION IN TONE FOUR | Haddad",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross"
+      }
+    ]
+  },
   "[LT] DOXASTICON OF THE THEOTOKOS NATIVITY LITIA PROCESSION TONE EIGHT": {
     "type": "multi",
     "versions": [
@@ -4044,6 +4057,27 @@
     "description": "[LT] TROPARION IN TONE SEVEN",
     "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
     "automelon": ""
+  },
+  "[LT] ذُكصا زياح الليتين باللحنِ الرابِع": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Fr N Malek",
+        "url": "https://drive.google.com/file/d/1a7NvS6pcsRPuJuctAJv6R9gvT58Dh7DG/view?usp=drivesdk",
+        "name": "4 (AR) Doxastikon at the Litia - Fr. Nicolas Malek.pdf",
+        "description": "[LT] ذُكصا زياح الليتين باللحنِ الرابِع | Fr N Malek",
+        "automelon": "",
+        "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / September 14 / Vespers "
+      },
+      {
+        "label": "El-Murr",
+        "url": "https://drive.google.com/file/d/1XF6p9ZfzKewp8KqrzkVO7Iw_ROwFeQ6w/view?usp=drivesdk",
+        "name": "4 (AR) Doxastikon at the Litia - Foad El-Murr.pdf",
+        "description": "[LT] ذُكصا زياح الليتين باللحنِ الرابِع | El-Murr",
+        "automelon": "",
+        "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / September 14 / Vespers "
+      }
+    ]
   },
   "[LV] FIRST ANTIPHON": {
     "type": "multi",
