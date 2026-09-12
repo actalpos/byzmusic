@@ -5306,40 +5306,6 @@
       }
     ]
   },
-  "[V] [AP] أبوستيخُن للصَليب المُقَدَّس باللحنِ الخامِس": {
-    "type": "multi",
-    "versions": [
-      {
-        "label": "Fr N Malek",
-        "url": "https://drive.google.com/file/d/1-44oJ9Dl29h8Ym1r7nUn6svuGkzBrgn3/view?usp=drivesdk",
-        "name": "5 (AR) Aposticha - Pl. 1.pdf",
-        "description": "[V] [AP] أبوستيخُن للصَليب المُقَدَّس باللحنِ الخامِس | Fr N Malek",
-        "automelon": "",
-        "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / September 14 / Vespers "
-      }
-    ]
-  },
-  "[V] [AP] ذُكصا للصَليب المُقَدَّس باللحنِ الثَامِن": {
-    "type": "multi",
-    "versions": [
-      {
-        "label": "Fr N Malek",
-        "url": "https://drive.google.com/file/d/199fyAU3B52d_kcxkXrgyId8La4RgJnb2/view?usp=drivesdk",
-        "name": "6 (AR) Doxastikon at the Aposticha - Fr. Nicolas Malek.pdf",
-        "description": "[V] [AP] ذُكصا للصَليب المُقَدَّس باللحنِ الثَامِن | Fr N Malek",
-        "automelon": "",
-        "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / September 14 / Vespers "
-      },
-      {
-        "label": "El-Murr",
-        "url": "https://drive.google.com/file/d/1BvECq0_OODvCRypTvyrfJKXorULwet5T/view?usp=drivesdk",
-        "name": "6 (AR) Doxastikon at the Aposticha - Foad El-Murr.pdf",
-        "description": "[V] [AP] ذُكصا للصَليب المُقَدَّس باللحنِ الثَامِن | El-Murr",
-        "automelon": "",
-        "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / September 14 / Vespers "
-      }
-    ]
-  },
   "[V] [LIHC] DOXASTICON FOR ALL SAINTS TONE SIX": {
     "type": "multi",
     "versions": [
@@ -5531,14 +5497,6 @@
   "[V] [LIHC] DOXASTICON FOR THE HOLY CROSS TONE TWO": {
     "type": "multi",
     "versions": [
-      {
-        "label": "Haddad",
-        "url": "https://drive.google.com/file/d/1w6kmRbCBDf1UgMazArTyCABpjm_zBo_R/view?usp=drivesdk",
-        "name": "12B 12 SticherasDoxastikon-2nd-Haddad-Vespers-ElevationOfCross.pdf",
-        "description": "[V] [LIHC] DOXASTICON FOR THE HOLY CROSS\nIN TONE TWO | Haddad",
-        "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross"
-      },
       {
         "label": "St Anthony",
         "url": "https://drive.google.com/file/d/1gfdwaXlud_8ySVDT1LR9Pb0zlYKsSuao/view?usp=drivesdk",
@@ -6058,47 +6016,6 @@
       }
     ]
   },
-  "[V] [LIHC] ذُكصا للصَليب المُقَدَّس باللحنِ الثاني": {
-    "type": "multi",
-    "versions": [
-      {
-        "label": "Fr N Malek",
-        "url": "https://drive.google.com/file/d/1LhfeUixy-up3_tQuyXzVrSfTHlLGJkZh/view?usp=drivesdk",
-        "name": "3 (AR) Doxastikon at Lord I Have Cried - Fr. Nicolas Malek.pdf",
-        "description": "[V] [LIHC] ذُكصا للصَليب المُقَدَّس باللحنِ الثاني | Fr N Malek",
-        "automelon": "",
-        "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / September 14 / Vespers "
-      },
-      {
-        "label": "El-Murr",
-        "url": "https://drive.google.com/file/d/1uwEXYSf2v_5vfe5pSr5FyuuCSr01teEh/view?usp=drivesdk",
-        "name": "3 (AR) Doxastikon at Lord I Have Cried - Foad El-Murr.pdf",
-        "description": "[V] [LIHC] ذُكصا للصَليب المُقَدَّس باللحنِ الثاني | El-Murr",
-        "automelon": "",
-        "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / September 14 / Vespers "
-      }
-    ]
-  },
-  "[V] [LIHC] للصَليب المُقَدَّس باللحنِ السادِس": {
-    "type": "multi",
-    "versions": [
-      {
-        "label": "Fr N Malik",
-        "url": "https://drive.google.com/file/d/19OXcNA3hJ4gC0lL-JkP4OjbkHnPTKomb/view?usp=drivesdk",
-        "name": "2 (AR) Vespers Prosomia - Pl. 2.pdf",
-        "description": "[V] [LIHC] للصَليب المُقَدَّس باللحنِ السادِس | Fr N Malik",
-        "automelon": "",
-        "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / September 14 / Vespers "
-      }
-    ]
-  },
-  "[V] [LIHC] يا ربِّ إليكَ صَرَخت باللحنِ السادِس": {
-    "url": "https://drive.google.com/file/d/1IOg28p8rAwYJj6AJnt5pU-rhKuQJgJ8b/view?usp=drivesdk",
-    "name": "1 (AR) Lord I Have Cried + Verses - Pl. 2.pdf",
-    "description": "[V] [LIHC] \"يا ربِّ إليكَ صَرَخت\" باللحنِ السادِس",
-    "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / September 14 / Vespers ",
-    "automelon": ""
-  },
   "[V] [LIHV] FOR ARCHANGEL MICHAEL TONE FOUR": {
     "type": "multi",
     "versions": [
@@ -6111,12 +6028,5 @@
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 06 St Archangel Michael Miracle in Colossae"
       }
     ]
-  },
-  "أبوليتيكيون الصَليب المُقَدَّس باللحنِ الأوَّل": {
-    "url": "https://drive.google.com/file/d/1FxCYmg76LkN6t9hty7GwWu9HSiRqHLWj/view?usp=drivesdk",
-    "name": "7 (AR&GR) Apolytikion of the Holy Cross.pdf",
-    "description": "أبوليتيكيون الصَليب المُقَدَّس باللحنِ الأوَّل",
-    "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / September 14 / Vespers ",
-    "automelon": ""
   }
 }
