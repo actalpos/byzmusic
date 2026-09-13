@@ -56,7 +56,6 @@ July 17 2026 - fix for having the same title for the same service, same part. Th
 ✅ obiectele multi afișează acum doar versiunile care corespund automelonului (cum era cazul For the Holy Fathers...)
 
 July 20 - am scos TD din document.querySelectorAll("td p").forEach(p => {  in incercarea de a putea aplica kinks la file care nu are table - English.hml
-- mai trebuie lucrat
 
 July 27 - Fix bug: Am [V] [LIHC] THEOTOKION IN TONE SIX in decrierea unui fiser pe google drive. In documentul curect la Aposticha am titlul THEOTOKION IN TONE SIX 
 si fisierul care as vrea sa fie displayed are descrierea [V] [AP] THEOTOKION IN TONE SIX. Linkul se duce la [V] [LIHC] THEOTOKION IN TONE SIX
@@ -67,7 +66,19 @@ Aug 26 - Take out O like from O Lord I Have Cried
 
 Aug 28 - Updates pentru cand apare THEOTOKION IN TONE... sau THEOTOKION FROM OCTOECHOS IN TONE...  
 
-Aug 31 - 
+Sept 12 - 
+- normalize Arabic titles by removing diacritics / harakat for matching
+- normalize NBSP, tabs and line breaks so Arabic titles split by LibreOffice
+  across multiple <font> elements are reconstructed as one matching title
+- ignore Word bookmark anchors such as <a name="_Hlk..."> when detecting
+  existing links; only <a href="..."> is treated as a real hyperlink
+- preserve the original Arabic text and formatting; normalization is used
+  only for title matching
+  Asta descrie exact ce am făcut: normalizarea arabă este separată în normalizeArabicTitle(), iar fixul pentru bookmark-urile Word este a[href].
+
+O mică precizare: nu concatenăm efectiv <font>-urile înapoi în HTML. 
+p.textContent citește textul lor împreună, iar noi normalizăm newline/tab/spațiile rezultate. 
+E bine ca istoricul să spună asta, ca peste câteva luni să știm exact ce face scriptul.
 */
 
 (function () {
@@ -122,38 +133,7 @@ Aug 31 -
     /**********************
      * UTILS
      **********************/
-    // function normalizeTitle(str) {
-    //   str = str
-    //     .replace(/[\n\r\t]+/g, " ")
-    //     .replace(/\(\s*\*\*.*?\*\*\s*\)/g, "")   // (** ... **)
-    //     .replace(/\*\*.*?\*\*/g, "")             // fallback
-    //     .replace(/[*]/g, "")
-    //     .replace(/["“”]/g, "")
-    //     .replace(/[,:;]+/g, "")
-    //     .replace(/[–—]/g, "-")
-    //     .replace(/\(\s*/g, "( ")
-    //     .replace(/\s*\)/g, " )")
-    //     .replace(/\s+/g, " ")
-    //     .trim()
-    //     .toLowerCase()
-    //     .replace(/^(the|a|an|sticheras|verses|o)\s+/i, "")          // remove leading article
-    //     .replace(/\bin\s+tone\b/gi, "tone")
-    //     .replace(/\bcanons\b/gi, "canon")
-    //     .replace(/\bfrom the octoechos\b/gi, "for the resurrection");
 
-    //   const prefixMatch = str.match(/^((\[[a-z]+\]\s*)+)(.*)$/i);
-
-    //   if (prefixMatch) {
-    //     const prefixes = prefixMatch[1];
-    //     let title = prefixMatch[3];
-
-    //     title = title.replace(/^(the|a|an|festal|sticheras|verses|o)\s+/, "");
-
-    //     return `${prefixes} ${title}`.trim();
-    //   }
-
-    //   return str.replace(/^(the|a|an|festal)\s+/, "");
-    // }
     function normalizeTitle(str) {
       str = str
         .replace(/[\n\r\t]+/g, " ")
@@ -196,6 +176,30 @@ Aug 31 -
         ""
       );
     }
+
+function normalizeArabicTitle(str) {
+  return str
+    // elimină diacriticele arabe / harakat
+    .replace(/[\u0610-\u061A\u064B-\u065F\u0670\u06D6-\u06ED]/g, "")
+
+    // elimină tatweel ـ
+    .replace(/\u0640/g, "")
+
+    // elimină ghilimelele
+    .replace(/["“”«»]/g, "")
+
+    // NBSP și alte spații Unicode -> spațiu normal
+    .replace(/[\u00A0\u202F\u2007]/g, " ")
+
+    // newline/tab -> spațiu
+    .replace(/[\n\r\t]+/g, " ")
+
+    // mai multe spații -> unul singur
+    .replace(/\s+/g, " ")
+
+    .trim();
+}
+
     function extractAutomelonFromText(text) {
 
       if (!text) {
@@ -233,6 +237,10 @@ Aug 31 -
 
     function isRTL(text) {
       return /[\u0590-\u08FF]/.test(text);
+    }
+
+    function isArabic(text) {
+      return /[\u0600-\u06FF]/.test(text);
     }
 
     /**********************
@@ -428,7 +436,11 @@ Aug 31 -
 
         const keyParts = splitAutomelonKey(key);
 
-        const norm = normalizeTitle(keyParts.title);
+        const norm =
+          isArabic(keyParts.title)
+            ? normalizeArabicTitle(keyParts.title)
+            : normalizeTitle(keyParts.title);          
+
         const automelon = normalizeTitle(keyParts.automelon);
 
         // ----------------------------
@@ -606,7 +618,7 @@ Aug 31 -
         if (globalCount[title] > 1) {
           delete globalIndex[title];
         }
-      }
+      }   
 
 
     } catch (e) {
@@ -615,171 +627,6 @@ Aug 31 -
 
     }
 
-
-    // function detectMomentForParagraph(p) {
-
-    //   const paragraphs =
-    //     Array.from(document.querySelectorAll("p"));
-
-    //   const currentIndex =
-    //     paragraphs.indexOf(p);
-
-    //   if (currentIndex === -1) {
-    //     return "";
-    //   }
-
-    //   /*
-    //    * Căutăm înapoi maximum 100 de paragrafe.
-    //    */
-    //   const startIndex =
-    //     Math.max(0, currentIndex - 100);
-
-    //   for (
-    //     let i = currentIndex - 1;
-    //     i >= startIndex;
-    //     i--
-    //   ) {
-
-    //     const text =
-    //       normalizeTitle(
-    //         paragraphs[i].textContent || ""
-    //       );
-
-    //     if (text.includes("aposticha")) {
-    //       return "AP";
-    //     }
-
-    //     if (
-    //       text.includes("litia") ||
-    //       text.includes("artoklasia")
-    //     ) {
-    //       return "LT";
-    //     }
-
-    //     if (
-    //       text.includes("o lord i have cried") ||
-    //       text.includes("lord i have cried")
-    //     ) {
-    //       return "LIHC";
-    //     }
-    //   }
-
-    //   return "";
-    // }
-
-    // function detectMomentForParagraph(p) {
-
-    //   const paragraphs =
-    //     Array.from(document.querySelectorAll("p"));
-
-    //   const currentIndex =
-    //     paragraphs.indexOf(p);
-
-    //   if (currentIndex === -1) {
-    //     return "";
-    //   }
-
-    //   const startIndex =
-    //     Math.max(0, currentIndex - 100);
-
-    //   for (
-    //     let i = currentIndex - 1;
-    //     i >= startIndex;
-    //     i--
-    //   ) {
-
-    //     const text =
-    //       normalizeTitle(
-    //         paragraphs[i].textContent || ""
-    //       );
-
-    //     /*
-    //      * IMPORTANT:
-    //      * Dacă am ajuns în secțiunea APOLYTIKION,
-    //      * nu mai continuăm până la Aposticha/LIHC.
-    //      *
-    //      * Theotokion-ul de după Apolytikion
-    //      * trebuie tratat fără SERVICE MOMENT.
-    //      */
-    //     if (
-    //       text.includes("apolytikion") ||
-    //       text.includes("troparion")
-    //     ) {
-    //       return "";
-    //     }
-
-    //     if (text.includes("aposticha")) {
-    //       return "AP";
-    //     }
-
-    //     if (
-    //       text.includes("litia") ||
-    //       text.includes("artoklasia")
-    //     ) {
-    //       return "LT";
-    //     }
-
-    //     if (
-    //       text.includes("o lord i have cried") ||
-    //       text.includes("lord i have cried")
-    //     ) {
-    //       return "LIHC";
-    //     }
-    //   }
-
-    //   return "";
-    // }
-
-    // function isAfterApolytikion(p) {
-
-    //   const paragraphs =
-    //     Array.from(document.querySelectorAll("p"));
-
-    //   const currentIndex =
-    //     paragraphs.indexOf(p);
-
-    //   if (currentIndex === -1) {
-    //     return false;
-    //   }
-
-    //   const startIndex =
-    //     Math.max(0, currentIndex - 100);
-
-    //   for (
-    //     let i = currentIndex - 1;
-    //     i >= startIndex;
-    //     i--
-    //   ) {
-
-    //     const text =
-    //       normalizeTitle(
-    //         paragraphs[i].textContent || ""
-    //       );
-
-    //     if (
-    //       text.includes("apolytikion") ||
-    //       text.includes("troparion")
-    //     ) {
-    //       return true;
-    //     }
-
-    //     /*
-    //      * Dacă am ajuns într-un alt moment liturgic,
-    //      * nu mai suntem în secțiunea Apolytikion.
-    //      */
-    //     if (
-    //       text.includes("aposticha") ||
-    //       text.includes("litia") ||
-    //       text.includes("artoklasia") ||
-    //       text.includes("o lord i have cried") ||
-    //       text.includes("lord i have cried")
-    //     ) {
-    //       return false;
-    //     }
-    //   }
-
-    //   return false;
-    // }
 
     function detectContextForParagraph(p) {
 
@@ -923,7 +770,7 @@ Aug 31 -
      **********************/
     document.querySelectorAll("p").forEach(p => {
 
-      if (p.querySelector("a")) return;
+      if (p.querySelector("a[href]")) return;
 
       const originalText = p.textContent.trim();
 
@@ -933,7 +780,10 @@ Aug 31 -
 
       const htmlAutomelon = extractAutomelonFromText(originalText);
 
-      const baseKey = normalizeTitle(originalText);
+      const baseKey =
+        isArabic(originalText)
+          ? normalizeArabicTitle(originalText)
+          : normalizeTitle(originalText);
 
       const context =
         detectContextForParagraph(p);
@@ -1090,12 +940,6 @@ Aug 31 -
                   entry.item
                 )
                 : null;
-
-            console.log({
-              htmlMoment,
-              match,
-              momentMatch
-            });
 
             if (momentMatch) {
 

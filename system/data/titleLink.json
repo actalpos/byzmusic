@@ -1476,6 +1476,19 @@
       }
     ]
   },
+  "EXAPOSTEILARIA FOR THE HOLY CROSS IN TONE TWO": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Archdiocese",
+        "url": "https://drive.google.com/file/d/1dJ3AdoJd3ZRGtHgk8ezCLiSJ-Ot9NAFP/view?usp=drivesdk",
+        "name": "24 Exaposteilaria-2nd-AA-Orthros-ExaltationOfCross.pdf",
+        "description": "EXAPOSTEILARIA FOR THE\nHOLY CROSS IN TONE TWO\n(**While Thy disciples looked on Thee**) | Archdiocese",
+        "automelon": "WHILE THY DISCIPLES LOOKED ON THEE",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross"
+      }
+    ]
+  },
   "EXAPOSTEILARIA FOR THE MACCABEES & HOLY CROSS IN TONE TWO": {
     "type": "multi",
     "versions": [
@@ -2433,6 +2446,13 @@
     "name": "12 HolyIsTheLordOurGod-2nd.pdf",
     "description": "Holy is the Lord our God. (thrice)",
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+    "automelon": ""
+  },
+  "IDIOMELON FOR THE HOLY CROSS IN TONE TWO": {
+    "url": "https://drive.google.com/file/d/1W9njeHmGLMcGDvQvJREDOhhDRqtUH7Li/view?usp=drivesdk",
+    "name": "33 Idiomelon-2nd-Prosession-ElevationOfCross.pdf",
+    "description": "IDIOMELON FOR THE HOLY CROSS IN TONE TWO",
+    "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross",
     "automelon": ""
   },
   "IF THE PROCESSION IS BEGUN AS THE GREAT DOXOLOGY CONCLUDES IN ORTHROS THE FINAL HOLY GOD HOLY MIGHTY IS SLOWLY CHANTED ( TRADITIONALLY IF POSSIBLE IN THE AGIA STYLE OF TONE FOUR ).": {
@@ -6232,6 +6252,54 @@
     "name": "7 (AR&GR) Apolytikion of the Holy Cross.pdf",
     "description": "أبوليتيكيون الصَليب المُقَدَّس باللحنِ الأوَّل",
     "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Vespers ",
+    "automelon": ""
+  },
+  "الأودية التاسِعة من كطافاسية الصَليب المُقدّس باللحنِ الثامن": {
+    "url": "https://drive.google.com/file/d/1T3_3xcLRGMGvnKtjTlN3pI40CGCcRHZ7/view?usp=drivesdk",
+    "name": "10 Ninth Ode of the Holy Cross.pdf",
+    "description": "الأودية التاسِعة من كطافاسية الصَليب المُقدّس باللحنِ الثامن",
+    "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Orthros",
+    "automelon": ""
+  },
+  "الله الرَّبُّ باللحنِ الأوَّل": {
+    "url": "https://drive.google.com/file/d/132cdEKWVD8tmyr0Jtg5PlJYmvLMWPuOz/view?usp=drivesdk",
+    "name": "1 God is the Lord - Mode 1.pdf",
+    "description": "الله الرَّبُّ\" باللحنِ الأوَّل\"",
+    "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Orthros",
+    "automelon": ""
+  },
+  "بروكيمنُن للعيدِ باللحنِ الرابِع": {
+    "url": "https://drive.google.com/file/d/1jL4sXnw4wbQOJ8FFRCxuonv6gK-l84dX/view?usp=drivesdk",
+    "name": "6 Prokeimenon - Holy Cross.pdf",
+    "description": "بروكيمنُن للعيدِ باللحنِ الرابِع",
+    "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Orthros",
+    "automelon": ""
+  },
+  "ترانيم كاثِسماطاتُ الصَليب المُقَدَّس": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Fr N Malek",
+        "url": "https://drive.google.com/file/d/1Y2PZXFpmL9V45GxInQriOuvgvIam5aQ1/view?usp=drivesdk",
+        "name": "3 Kathismata.pdf",
+        "description": "ترانيم كاثِسماطاتُ الصَليب المُقَدَّس | Fr N Malek",
+        "automelon": "",
+        "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Orthros"
+      }
+    ]
+  },
+  "طَروباريّات العيد بعد المزمور 50 باللحنِ الثاني": {
+    "url": "https://drive.google.com/file/d/1ipSb546mA667iwTfk_NIxeC_KCSvf3jD/view?usp=drivesdk",
+    "name": "7 Festal Troparia After Psalm 50.pdf",
+    "description": "طَروباريّات العيد بعد المزمور 50 باللحنِ الثاني",
+    "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Orthros",
+    "automelon": ""
+  },
+  "كَطافاسيات الصَليب المُقدّس باللحنِ الثامن": {
+    "url": "https://drive.google.com/file/d/1qd73AfaRTDDAlZ2vG_j1ztWICrQxGjM7/view?usp=drivesdk",
+    "name": "9 Katavasia of the Holy Cross.pdf",
+    "description": "كَطافاسيات الصَليب المُقدّس باللحنِ الثامن",
+    "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Orthros",
     "automelon": ""
   }
 }
