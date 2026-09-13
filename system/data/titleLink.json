@@ -4645,6 +4645,19 @@
       }
     ]
   },
+  "[O] POLYELEOS TONE ONE ( ABRIDGED )": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Bilingual 134-135",
+        "url": "https://drive.google.com/file/d/1ilB1fS5wHutwXyRzwPdj8CmtfsiTyjhv/view?usp=drivesdk",
+        "name": "Polyeleos Psalms 134-135.pdf",
+        "description": "[O] THE POLYELEOS IN TONE ONE (ABRIDGED) | Bilingual 134-135",
+        "automelon": "",
+        "path": "Byzantine Music / Bilingual Services / Orthros"
+      }
+    ]
+  },
   "[O] PROKEIMENON FOR THE ELEVATION OF THE CROSS TONE FOUR": {
     "type": "multi",
     "versions": [
@@ -4901,6 +4914,75 @@
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 08 Nativity of the Theotokos"
       }
     ]
+  },
+  "[O] إكسابوستيلاري الصَليب المُقدّس باللحنِ الثاني": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Fr N Malek",
+        "url": "https://drive.google.com/file/d/1NAiX8tUnFWIvzaMaQmQgQgLX-17iOHXW/view?usp=drivesdk",
+        "name": "11 Exaposteilaria - Holy Cross (Fr. Nicolas Malek).pdf",
+        "description": "[O] إكسابوستيلاري الصَليب المُقدّس باللحنِ الثاني | Fr N Malek",
+        "automelon": "",
+        "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Orthros"
+      },
+      {
+        "label": "M El-Murr",
+        "url": "https://drive.google.com/file/d/1G07eRxzT7ngiP6-8M0oWgRkHsp6eJj80/view?usp=drivesdk",
+        "name": "11 Exaposteilaria - Holy Cross (Metri El-Murr).pdf",
+        "description": "[O] إكسابوستيلاري الصَليب المُقدّس باللحنِ الثاني | M El-Murr",
+        "automelon": "",
+        "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Orthros"
+      }
+    ]
+  },
+  "[O] الإينوس باللحنِ الثامن": {
+    "url": "https://drive.google.com/file/d/1oknxP9MIoKZJz9bwZNwOM6EWGM_TqdJN/view?usp=drivesdk",
+    "name": "12 (AR) Let Every Breath - Pl.4.pdf",
+    "description": "[O] الإينوس باللحنِ الثامن",
+    "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Orthros",
+    "automelon": ""
+  },
+  "[O] الذوكصولوجيا الكُبرى باللحنِ السادس": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "M El-Murr",
+        "url": "https://drive.google.com/file/d/1iIvPMSRYrS2eTw0oez5HUm5Jh5C_HsI5/view?usp=drivesdk",
+        "name": "15 Great Doxology - Pl.2 (Metri El-Murr).pdf",
+        "description": "[O] الذوكصولوجيا الكُبرى باللحنِ السادس | M El-Murr",
+        "automelon": "",
+        "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Orthros"
+      }
+    ]
+  },
+  "[O] ذُكصا الصَليب المُقدّس باللحنِ السادس": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Fr N Malek",
+        "url": "https://drive.google.com/file/d/1xcKGe9NFSk6lbkYfah7Ps9lMte0DYfc5/view?usp=drivesdk",
+        "name": "14 Doxasticon - Holy Cross - Pl.2 (Fr. Nicolas Malek).pdf",
+        "description": "[O] ذُكصا الصَليب المُقدّس باللحنِ السادس | Fr N Malek",
+        "automelon": "",
+        "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Orthros"
+      },
+      {
+        "label": "M El-Murr",
+        "url": "https://drive.google.com/file/d/1ynEvRpGtoSWriatsPJlUIKO3iQQT9tS2/view?usp=drivesdk",
+        "name": "14 Doxasticon - Holy Cross - Pl.2 (Metri El-Murr).pdf",
+        "description": "[O] ذُكصا الصَليب المُقدّس باللحنِ السادس | M El-Murr",
+        "automelon": "",
+        "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Orthros"
+      }
+    ]
+  },
+  "[O] للصَليب المُقدّس باللحنِ الثامن": {
+    "url": "https://drive.google.com/file/d/1czV7YalfcxSPqi00USuZEDrcR2-K4l4A/view?usp=drivesdk",
+    "name": "13 Praises Prosomia - Holy Cross.pdf",
+    "description": "[O] للصَليب المُقدّس باللحنِ الثامن",
+    "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Orthros",
+    "automelon": ""
   },
   "[V] DOXASTICON FOR THE SUNDAY OF FORGIVENESS TONE SIX": {
     "url": "https://drive.google.com/file/d/1I2bTRE4O1WBefw-Rk9Maj7NCfiVEo1yK/view?usp=drivesdk",
