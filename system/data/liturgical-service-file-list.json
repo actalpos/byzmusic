@@ -870,6 +870,12 @@
     "file": "Service_Texts/fixDate/09/14/Sept 14 PROCESS.html"
   },
   {
+    "date": "2026-09-17",
+    "title": "Sep 16 2026 VESP",
+    "order": -1,
+    "file": "Service_Texts/fixDate/09/17/Sep 16 2026 VESP.html"
+  },
+  {
     "date": "2026-12-28",
     "title": "Dec 28 2025 Bilingual ORTHROS",
     "order": -1,

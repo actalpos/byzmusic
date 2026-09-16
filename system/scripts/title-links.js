@@ -5,6 +5,21 @@
  * Nu modifică layout-ul documentului.
  */
 
+/*
+ * AFTER-FEAST FILTER
+ *
+ * The same generic hymn title may exist for multiple feasts.
+ * Use feastId (DD-MM), not the feast name, to select the
+ * correct PDF version.
+ *
+ * Example:
+ *
+ *   Service Text 17-09 -> AFTER_FEAST_ID = "14-09"
+ *   Holy Cross PDF     -> feastId = "14-09"
+ *
+ * Only versions with the matching feastId are kept.
+ */
+
 (function () {
   "use strict";
 
@@ -80,7 +95,7 @@
         .replace(/\s+/g, " ")
         .trim()
         .toLowerCase()
-        .replace(/^(the|a|an|sticheras)\s+/i, "")
+        .replace(/^(the|a|an|sticheras|o)\s+/i, "")
         .replace(/\bin\s+tone\b/gi, "tone")
         .replace(/\bcanons\b/gi, "canon");
 
@@ -141,6 +156,196 @@
     }
 
     /**********************
+     * AFTER-FEAST CALENDAR
+     **********************/
+
+    /*
+     * Datele sunt în format:
+     * DD-MM
+     *
+     * feast_day devine feastId.
+     */
+    const FEAST_CALENDAR = [
+      {
+        feast_name: "The Nativity of the Theotokos",
+        pre_feast_start: "07-09",
+        feast_day: "08-09",
+        leave_taking: "12-09"
+      },
+      {
+        feast_name: "The Elevation of the Holy Cross",
+        pre_feast_start: "13-09",
+        feast_day: "14-09",
+        leave_taking: "21-09"
+      },
+      {
+        feast_name: "The Entry of the Theotokos into the Temple",
+        pre_feast_start: "20-11",
+        feast_day: "21-11",
+        leave_taking: "25-11"
+      },
+      {
+        feast_name: "The Nativity of Christ (Christmas)",
+        pre_feast_start: "20-12",
+        feast_day: "25-12",
+        leave_taking: "31-12"
+      },
+      {
+        feast_name: "The Theophany of Our Lord (Epiphany)",
+        pre_feast_start: "02-01",
+        feast_day: "06-01",
+        leave_taking: "14-01"
+      },
+      {
+        feast_name: "The Meeting of Our Lord in the Temple",
+        pre_feast_start: "01-02",
+        feast_day: "02-02",
+        leave_taking: "09-02"
+      },
+      {
+        feast_name: "The Annunciation of the Theotokos",
+        pre_feast_start: "24-03",
+        feast_day: "25-03",
+        leave_taking: "26-03"
+      },
+      {
+        feast_name: "The Transfiguration of Our Lord",
+        pre_feast_start: "05-08",
+        feast_day: "06-08",
+        leave_taking: "13-08"
+      },
+      {
+        feast_name: "The Dormition of the Theotokos",
+        pre_feast_start: "14-08",
+        feast_day: "15-08",
+        leave_taking: "23-08"
+      }
+    ];
+
+
+    /*
+     * Extrage data serviciului din pathname.
+     *
+     * variableDate/YYYY/MM/DD
+     * fixDate/MM/DD
+     *
+     * Returnează:
+     * DD-MM
+     */
+    function detectServiceDate() {
+      const path =
+        window.location.pathname;
+
+      let match =
+        path.match(
+          /\/variableDate\/\d{4}\/(\d{2})\/(\d{2})(?:\/|$)/i
+        );
+
+      if (match) {
+        return `${match[2]}-${match[1]}`;
+      }
+
+      match =
+        path.match(
+          /\/fixDate\/(\d{2})\/(\d{2})(?:\/|$)/i
+        );
+
+      if (match) {
+        return `${match[2]}-${match[1]}`;
+      }
+
+      return "";
+    }
+
+
+    /*
+     * Transformă DD-MM într-o valoare comparabilă.
+     *
+     * Exemplu:
+     * 17-09 -> 917
+     */
+    function dateValue(date) {
+      const match =
+        String(date || "")
+          .match(/^(\d{2})-(\d{2})$/);
+
+      if (!match) {
+        return null;
+      }
+
+      const day =
+        Number(match[1]);
+
+      const month =
+        Number(match[2]);
+
+      return month * 100 + day;
+    }
+
+
+    /*
+     * Determină feastId pentru AFTER-FEAST.
+     *
+     * AFTER-FEAST începe DUPĂ feast_day
+     * și continuă până la leave_taking inclusiv.
+     *
+     * Exemplu:
+     *
+     * serviceDate = 17-09
+     *
+     * Holy Cross:
+     * feast_day    = 14-09
+     * leave_taking = 21-09
+     *
+     * rezultat:
+     * feastId = 14-09
+     */
+    function detectAfterFeastId(serviceDate) {
+      const current =
+        dateValue(serviceDate);
+
+      if (current === null) {
+        return "";
+      }
+
+      for (const feast of FEAST_CALENDAR) {
+        const feastDay =
+          dateValue(feast.feast_day);
+
+        const leaveTaking =
+          dateValue(feast.leave_taking);
+
+        if (
+          feastDay !== null &&
+          leaveTaking !== null &&
+          current > feastDay &&
+          current <= leaveTaking
+        ) {
+          return feast.feast_day;
+        }
+      }
+
+      return "";
+    }
+
+
+    const SERVICE_DATE =
+      detectServiceDate();
+
+    const AFTER_FEAST_ID =
+      detectAfterFeastId(SERVICE_DATE);
+
+    console.log(
+      "Detected SERVICE_DATE:",
+      SERVICE_DATE || "none"
+    );
+
+    console.log(
+      "Detected AFTER_FEAST_ID:",
+      AFTER_FEAST_ID || "none"
+    );
+
+    /**********************
      * LOAD TITLE LINKS
      **********************/
     const serviceIndex = {};
@@ -178,9 +383,9 @@
         const item =
           typeof raw[key] === "string"
             ? {
-                url: raw[key],
-                name: null
-              }
+              url: raw[key],
+              name: null
+            }
             : raw[key];
 
         const keyParts = splitAutomelonKey(key);
@@ -489,12 +694,12 @@
       const momentMatch =
         htmlMoment
           ? match.find(entry => {
-              return (
-                entry &&
-                entry.moment === htmlMoment &&
-                entry.item
-              );
-            })
+            return (
+              entry &&
+              entry.moment === htmlMoment &&
+              entry.item
+            );
+          })
           : null;
 
       if (momentMatch) {
@@ -509,10 +714,10 @@
 
       const selected =
         match[
-          Math.min(
-            index,
-            match.length - 1
-          )
+        Math.min(
+          index,
+          match.length - 1
+        )
         ];
 
       titleUsage[usageKey] =
@@ -537,12 +742,12 @@
       const momentMatch =
         htmlMoment
           ? match.find(entry => {
-              return (
-                entry &&
-                entry.moment === htmlMoment &&
-                entry.item
-              );
-            })
+            return (
+              entry &&
+              entry.moment === htmlMoment &&
+              entry.item
+            );
+          })
           : null;
 
       if (momentMatch) {
@@ -557,10 +762,10 @@
 
       const selected =
         match[
-          Math.min(
-            index,
-            match.length - 1
-          )
+        Math.min(
+          index,
+          match.length - 1
+        )
         ];
 
       titleUsage[usageKey] =
@@ -616,6 +821,36 @@
       }
 
       let versions = item.versions;
+
+      /*
+       * AFTER-FEAST:
+       * Dacă titlul HTML este un titlu After-feast,
+       * păstrează numai versiunile care aparțin feast-ului
+       * determinat din calendar.
+       */
+      if (
+        /\bafter-feast\b/i.test(baseKey) ||
+        /\bafter feast\b/i.test(baseKey)
+      ) {
+        versions = versions.filter(version => {
+          return (
+            version.feastId &&
+            version.feastId === AFTER_FEAST_ID
+          );
+        });
+
+        if (versions.length === 0) {
+          console.warn(
+            "No matching AFTER-FEAST version:",
+            {
+              baseKey,
+              afterFeastId: AFTER_FEAST_ID
+            }
+          );
+
+          return true;
+        }
+      }
 
       /*
        * Pentru titlurile cu automelon, afișează
@@ -707,7 +942,7 @@
 
           const automelonMatch =
             serviceAutomelonIndex[
-              automelonKey
+            automelonKey
             ];
 
           item = selectAutomelonMatch(
@@ -743,7 +978,7 @@
 
         item =
           globalAutomelonIndex[
-            automelonKey
+          automelonKey
           ];
       }
 
@@ -766,7 +1001,7 @@
         /*
          * Nu modifică paragrafele care au deja link.
          */
-        if (paragraph.querySelector("a")) {
+        if (paragraph.querySelector("a[href]")) {
           return;
         }
 

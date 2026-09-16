@@ -177,28 +177,36 @@ E bine ca istoricul să spună asta, ca peste câteva luni să știm exact ce fa
       );
     }
 
-function normalizeArabicTitle(str) {
-  return str
-    // elimină diacriticele arabe / harakat
-    .replace(/[\u0610-\u061A\u064B-\u065F\u0670\u06D6-\u06ED]/g, "")
+    function normalizeArabicTitle(str) {
+      return str
+        // elimină automelon în forma normală:
+        // (** automelon **)
+        .replace(/\(\s*\*\*.*?\*\*\s*\)/gs, "")
 
-    // elimină tatweel ـ
-    .replace(/\u0640/g, "")
+        // elimină automelon în forma RTL întâlnită în RTF/HTML:
+        // **) automelon (**
+        .replace(/\*\*\s*\).*?\(\s*\*\*/gs, "")
 
-    // elimină ghilimelele
-    .replace(/["“”«»]/g, "")
+        // elimină diacriticele arabe / harakat
+        .replace(/[\u0610-\u061A\u064B-\u065F\u0670\u06D6-\u06ED]/g, "")
 
-    // NBSP și alte spații Unicode -> spațiu normal
-    .replace(/[\u00A0\u202F\u2007]/g, " ")
+        // elimină tatweel ـ
+        .replace(/\u0640/g, "")
 
-    // newline/tab -> spațiu
-    .replace(/[\n\r\t]+/g, " ")
+        // elimină ghilimelele
+        .replace(/["“”«»]/g, "")
 
-    // mai multe spații -> unul singur
-    .replace(/\s+/g, " ")
+        // NBSP și alte spații Unicode -> spațiu normal
+        .replace(/[\u00A0\u202F\u2007]/g, " ")
 
-    .trim();
-}
+        // newline/tab -> spațiu
+        .replace(/[\n\r\t]+/g, " ")
+
+        // mai multe spații -> unul singur
+        .replace(/\s+/g, " ")
+
+        .trim();
+    }
 
     function extractAutomelonFromText(text) {
 
@@ -439,7 +447,7 @@ function normalizeArabicTitle(str) {
         const norm =
           isArabic(keyParts.title)
             ? normalizeArabicTitle(keyParts.title)
-            : normalizeTitle(keyParts.title);          
+            : normalizeTitle(keyParts.title);
 
         const automelon = normalizeTitle(keyParts.automelon);
 
@@ -618,7 +626,7 @@ function normalizeArabicTitle(str) {
         if (globalCount[title] > 1) {
           delete globalIndex[title];
         }
-      }   
+      }
 
 
     } catch (e) {
