@@ -117,8 +117,91 @@ E bine ca istoricul să spună asta, ca peste câteva luni să știm exact ce fa
       return null;
     }
 
+    /**********************
+     * SHARED FEAST CALENDAR API
+     * Optional - old pages work without feast-calendar.js
+     **********************/
+
     const SERVICE = detectServiceType();
     console.log("Detected SERVICE:", SERVICE);
+
+    /**********************
+     * SHARED FEAST CALENDAR
+     *
+     * feast-calendar.js este opțional în HTML.
+     * Dacă pagina veche nu îl încarcă,
+     * îl încărcăm automat aici.
+     **********************/
+
+    async function loadFeastCalendar() {
+
+      if (window.FeastCalendar) {
+        return window.FeastCalendar;
+      }
+
+      const base =
+        window.location.pathname.includes("/byzmusic/")
+          ? "/byzmusic"
+          : "";
+
+      return new Promise((resolve) => {
+
+        const script =
+          document.createElement("script");
+
+        script.src =
+          `${base}/system/scripts/feast-calendar.js`;
+
+        script.onload = () => {
+
+          console.log(
+            "feast-calendar.js loaded automatically"
+          );
+
+          resolve(
+            window.FeastCalendar || null
+          );
+        };
+
+        script.onerror = () => {
+
+          console.warn(
+            "feast-calendar.js could not be loaded"
+          );
+
+          resolve(null);
+        };
+
+        document.head.appendChild(script);
+      });
+    }
+
+    const FEAST_CALENDAR =
+      await loadFeastCalendar();
+
+    /**********************
+     * FEAST CONTEXT
+     **********************/
+
+    const SERVICE_DATE =
+      FEAST_CALENDAR
+        ? FEAST_CALENDAR.detectServiceDate()
+        : null;
+
+    const AFTER_FEAST_ID =
+      FEAST_CALENDAR
+        ? FEAST_CALENDAR.detectAfterFeastId(SERVICE_DATE)
+        : null;
+
+    console.log(
+      "Detected SERVICE_DATE:",
+      SERVICE_DATE || "none"
+    );
+
+    console.log(
+      "Detected AFTER_FEAST_ID:",
+      AFTER_FEAST_ID || "none"
+    );
 
     // defines document order when multiple identical
     // titles exist inside the same service
@@ -172,7 +255,7 @@ E bine ca istoricul să spună asta, ca peste câteva luni să știm exact ce fa
       }
 
       return str.replace(
-        /^(the|a|an|festal)\s+/,
+        /^(the|a|an|festal|o)\s+/,
         ""
       );
     }
@@ -206,6 +289,27 @@ E bine ca istoricul să spună asta, ca peste câteva luni să știm exact ce fa
         .replace(/\s+/g, " ")
 
         .trim();
+    }
+
+    function repairArabicAutomelonMarkers(p) {
+      if (!p || !isArabic(p.textContent || "")) {
+        return;
+      }
+
+      /*
+       * Word/RTF may reverse the visual automelon markers
+       * in Arabic:
+       *
+       *   **) automelon (**
+       *
+       * Restore the normal form used in the source text:
+       *
+       *   (** automelon **)
+       */
+      p.innerHTML = p.innerHTML.replace(
+        /\*\*\s*\)([\s\S]*?)\(\s*\*\*/g,
+        "(** $1 **)"
+      );
     }
 
     function extractAutomelonFromText(text) {
@@ -774,6 +878,14 @@ E bine ca istoricul să spună asta, ca peste câteva luni să știm exact ce fa
     }
 
     /**********************
+ * REPAIR ARABIC AUTOMELON MARKERS
+ **********************/
+
+    document.querySelectorAll("p").forEach(p => {
+      repairArabicAutomelonMarkers(p);
+    });
+
+    /**********************
      * APPLY TITLE LINKS
      **********************/
     document.querySelectorAll("p").forEach(p => {
@@ -1028,6 +1140,36 @@ E bine ca istoricul să spună asta, ca peste câteva luni să știm exact ce fa
             return;
           }
 
+        }
+
+        /*
+         * MENAION FEAST-DAY FILTER
+         *
+         * Dacă titleLink.json conține versiuni cu feastId,
+         * iar una dintre ele corespunde datei serviciului,
+         * folosim numai versiunea acelei sărbători.
+         *
+         * Exemplu:
+         * SERVICE_DATE = "15-08"
+         * feastId      = "15-08"
+         * -> Dormition
+         */
+        if (SERVICE_DATE) {
+
+          const feastVersions = versions.filter(v =>
+            v.feastId === SERVICE_DATE
+          );
+
+          if (feastVersions.length > 0) {
+
+            console.log(
+              "Menaion feast version selected:",
+              SERVICE_DATE,
+              feastVersions.map(v => v.label)
+            );
+
+            versions = feastVersions;
+          }
         }
 
         const span = document.createElement("span");

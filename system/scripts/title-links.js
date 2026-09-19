@@ -19,7 +19,32 @@
  *
  * Only versions with the matching feastId are kept.
  */
-
+/*
+ * ============================================================
+ * UPDATE: 2026-09-18
+ * ============================================================
+ *
+ * - feast-calendar.js este acum calendarul comun pentru
+ *   title-links.js și layout-fixes-and-links.js.
+ *
+ * - title-links.js încarcă automat feast-calendar.js dacă
+ *   pagina HTML nu îl încarcă deja.
+ *
+ * - SERVICE_DATE suportă foldere descriptive precum:
+ *
+ *     15 Dormition of the Theotokos
+ *     29 Beheading of St John the Baptist
+ *
+ * - Versiunile Menaion din titleLink.json pot fi selectate
+ *   automat când feastId corespunde cu SERVICE_DATE.
+ *
+ * - AFTER-FEAST rămâne o regulă separată și folosește
+ *   AFTER_FEAST_ID.
+ *
+ * - Triodion/Pentecostarion nu sunt tratate încă de această
+ *   logică.
+ * ============================================================
+ */
 (function () {
   "use strict";
 
@@ -155,185 +180,118 @@
       };
     }
 
-    /**********************
-     * AFTER-FEAST CALENDAR
-     **********************/
+    /***************************************************************
+    * SHARED FEAST CALENDAR
+    * =============================================================
+    *
+    * Calendarul comun este:
+    *
+    *   /byzmusic/system/scripts/feast-calendar.js
+    *
+    * title-links.js este folosit în special de Service Texts
+    * monolinguale.
+    *
+    * Unele pagini HTML noi pot încărca feast-calendar.js direct,
+    * dar paginile vechi nu îl conțin întotdeauna.
+    *
+    * Pentru compatibilitate:
+    *
+    *   1. Dacă window.FeastCalendar există deja, îl folosim.
+    *   2. Dacă nu există, îl încărcăm automat.
+    *   3. Dacă încărcarea eșuează, title-links.js continuă să
+    *      funcționeze fără filtrarea calendaristică.
+    *
+    * Astfel calendarul nu mai este duplicat în title-links.js și
+    * layout-fixes-and-links.js.
+    ***************************************************************/
 
-    /*
-     * Datele sunt în format:
-     * DD-MM
-     *
-     * feast_day devine feastId.
-     */
-    const FEAST_CALENDAR = [
-      {
-        feast_name: "The Nativity of the Theotokos",
-        pre_feast_start: "07-09",
-        feast_day: "08-09",
-        leave_taking: "12-09"
-      },
-      {
-        feast_name: "The Elevation of the Holy Cross",
-        pre_feast_start: "13-09",
-        feast_day: "14-09",
-        leave_taking: "21-09"
-      },
-      {
-        feast_name: "The Entry of the Theotokos into the Temple",
-        pre_feast_start: "20-11",
-        feast_day: "21-11",
-        leave_taking: "25-11"
-      },
-      {
-        feast_name: "The Nativity of Christ (Christmas)",
-        pre_feast_start: "20-12",
-        feast_day: "25-12",
-        leave_taking: "31-12"
-      },
-      {
-        feast_name: "The Theophany of Our Lord (Epiphany)",
-        pre_feast_start: "02-01",
-        feast_day: "06-01",
-        leave_taking: "14-01"
-      },
-      {
-        feast_name: "The Meeting of Our Lord in the Temple",
-        pre_feast_start: "01-02",
-        feast_day: "02-02",
-        leave_taking: "09-02"
-      },
-      {
-        feast_name: "The Annunciation of the Theotokos",
-        pre_feast_start: "24-03",
-        feast_day: "25-03",
-        leave_taking: "26-03"
-      },
-      {
-        feast_name: "The Transfiguration of Our Lord",
-        pre_feast_start: "05-08",
-        feast_day: "06-08",
-        leave_taking: "13-08"
-      },
-      {
-        feast_name: "The Dormition of the Theotokos",
-        pre_feast_start: "14-08",
-        feast_day: "15-08",
-        leave_taking: "23-08"
-      }
-    ];
+    async function loadFeastCalendar() {
 
-
-    /*
-     * Extrage data serviciului din pathname.
-     *
-     * variableDate/YYYY/MM/DD
-     * fixDate/MM/DD
-     *
-     * Returnează:
-     * DD-MM
-     */
-    function detectServiceDate() {
-      const path =
-        window.location.pathname;
-
-      let match =
-        path.match(
-          /\/variableDate\/\d{4}\/(\d{2})\/(\d{2})(?:\/|$)/i
-        );
-
-      if (match) {
-        return `${match[2]}-${match[1]}`;
+      if (window.FeastCalendar) {
+        return window.FeastCalendar;
       }
 
-      match =
-        path.match(
-          /\/fixDate\/(\d{2})\/(\d{2})(?:\/|$)/i
-        );
+      const base =
+        window.location.pathname.includes("/byzmusic/")
+          ? "/byzmusic"
+          : "";
 
-      if (match) {
-        return `${match[2]}-${match[1]}`;
-      }
+      return new Promise((resolve) => {
 
-      return "";
+        const script =
+          document.createElement("script");
+
+        script.src =
+          `${base}/system/scripts/feast-calendar.js`;
+
+        script.onload = () => {
+
+          console.log(
+            "feast-calendar.js loaded automatically"
+          );
+
+          resolve(
+            window.FeastCalendar || null
+          );
+        };
+
+        script.onerror = () => {
+
+          console.warn(
+            "feast-calendar.js could not be loaded"
+          );
+
+          resolve(null);
+        };
+
+        document.head.appendChild(script);
+      });
     }
 
 
-    /*
-     * Transformă DD-MM într-o valoare comparabilă.
+    const FEAST_CALENDAR =
+      await loadFeastCalendar();
+
+
+    /***************************************************************
+     * SERVICE DATE / FEAST CONTEXT
+     * =============================================================
      *
-     * Exemplu:
-     * 17-09 -> 917
-     */
-    function dateValue(date) {
-      const match =
-        String(date || "")
-          .match(/^(\d{2})-(\d{2})$/);
-
-      if (!match) {
-        return null;
-      }
-
-      const day =
-        Number(match[1]);
-
-      const month =
-        Number(match[2]);
-
-      return month * 100 + day;
-    }
-
-
-    /*
-     * Determină feastId pentru AFTER-FEAST.
+     * SERVICE_DATE este dedus din URL-ul Service Text.
      *
-     * AFTER-FEAST începe DUPĂ feast_day
-     * și continuă până la leave_taking inclusiv.
+     * Exemple:
+     *
+     *   /variableDate/2026/08/15/
+     *
+     *   /variableDate/2026/08/15 Dormition of the Theotokos/
+     *
+     * ambele produc:
+     *
+     *   SERVICE_DATE = "15-08"
+     *
+     * Descrierea de după zi poate rămâne în numele folderului.
+     *
+     * AFTER_FEAST_ID este separat de SERVICE_DATE.
      *
      * Exemplu:
      *
-     * serviceDate = 17-09
+     *   SERVICE_DATE   = "17-09"
+     *   AFTER_FEAST_ID = "14-09"
      *
-     * Holy Cross:
-     * feast_day    = 14-09
-     * leave_taking = 21-09
-     *
-     * rezultat:
-     * feastId = 14-09
-     */
-    function detectAfterFeastId(serviceDate) {
-      const current =
-        dateValue(serviceDate);
-
-      if (current === null) {
-        return "";
-      }
-
-      for (const feast of FEAST_CALENDAR) {
-        const feastDay =
-          dateValue(feast.feast_day);
-
-        const leaveTaking =
-          dateValue(feast.leave_taking);
-
-        if (
-          feastDay !== null &&
-          leaveTaking !== null &&
-          current > feastDay &&
-          current <= leaveTaking
-        ) {
-          return feast.feast_day;
-        }
-      }
-
-      return "";
-    }
-
+     * deoarece 17 septembrie se află în perioada after-feast
+     * a Elevation of the Holy Cross.
+     ***************************************************************/
 
     const SERVICE_DATE =
-      detectServiceDate();
+      FEAST_CALENDAR
+        ? FEAST_CALENDAR.detectServiceDate()
+        : null;
 
     const AFTER_FEAST_ID =
-      detectAfterFeastId(SERVICE_DATE);
+      FEAST_CALENDAR
+        ? FEAST_CALENDAR.detectAfterFeastId(SERVICE_DATE)
+        : null;
+
 
     console.log(
       "Detected SERVICE_DATE:",
@@ -821,6 +779,72 @@
       }
 
       let versions = item.versions;
+
+      /*
+       * ============================================================
+       * MENAION FEAST-DAY VERSION FILTER
+       * ============================================================
+       *
+       * titleLink.json poate conține mai multe versiuni pentru
+       * același titlu, fiecare aparținând unei alte sărbători.
+       *
+       * Google Apps Script adaugă automat feastId fișierelor aflate
+       * în Menaion, pe baza structurii folderelor Google Drive.
+       *
+       * Exemple:
+       *
+       *   Dormition       -> feastId "15-08"
+       *   Transfiguration -> feastId "06-08"
+       *   Beheading       -> feastId "29-08"
+       *
+       * Dacă SERVICE_DATE corespunde unui feastId, păstrăm numai
+       * versiunea/versiunile sărbătorii din acea zi.
+       *
+       * Exemplu:
+       *
+       *   URL:
+       *     /variableDate/2026/08/15 Dormition.../
+       *
+       *   SERVICE_DATE:
+       *     "15-08"
+       *
+       *   titleLink.json:
+       *     Dormition -> feastId "15-08"
+       *
+       * Rezultat:
+       *     numai versiunea Dormition.
+       *
+       * Dacă nu există feastId corespunzător datei, nu eliminăm
+       * nimic aici. Alte filtre pot continua mai jos.
+       *
+       * Triodion/Pentecostarion sunt cicluri mobile și vor fi
+       * tratate separat.
+       * ============================================================
+       */
+
+      if (SERVICE_DATE) {
+
+        const feastVersions =
+          versions.filter(version => {
+            return (
+              version.feastId &&
+              version.feastId === SERVICE_DATE
+            );
+          });
+
+        if (feastVersions.length > 0) {
+
+          console.log(
+            "Menaion feast version selected:",
+            SERVICE_DATE,
+            feastVersions.map(
+              version => version.label
+            )
+          );
+
+          versions = feastVersions;
+        }
+      }
 
       /*
        * AFTER-FEAST:
