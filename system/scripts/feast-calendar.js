@@ -106,6 +106,60 @@
     return "";
   }
 
+  /*
+ * ============================================================
+ * SUNDAY DETECTION
+ * ============================================================
+ *
+ * Determină dacă Service Text-ul din variableDate este pentru
+ * o duminică.
+ *
+ * Folosește data completă din pathname:
+ *
+ *   /variableDate/YYYY/MM/DD
+ *
+ * Exemplu:
+ *
+ *   /variableDate/2026/09/20/
+ *
+ *   2026-09-20 = Sunday
+ *
+ * Returnează:
+ *
+ *   true  -> Sunday
+ *   false -> altă zi sau data nu poate fi determinată
+ *
+ * Descrierea de după zi este permisă:
+ *
+ *   /2026/09/20 Sunday after Holy Cross/
+ *
+ * Pentru fixDate nu calculăm deocamdată ziua săptămânii,
+ * deoarece anul nu există în path.
+ * ============================================================
+ */
+  function isSunday(pathname) {
+
+    const path =
+      pathname || window.location.pathname;
+
+    const match = path.match(
+      /\/variableDate\/(\d{4})\/(\d{2})\/(\d{2})/i
+    );
+
+    if (!match) {
+      return false;
+    }
+
+    const year = Number(match[1]);
+    const month = Number(match[2]);
+    const day = Number(match[3]);
+
+    const date =
+      new Date(year, month - 1, day);
+
+    return date.getDay() === 0;
+  }
+
   function dateValue(date) {
     const match =
       String(date || "").match(/^(\d{2})-(\d{2})$/);
@@ -168,7 +222,8 @@
     calendar: FEAST_CALENDAR,
     detectServiceDate,
     detectAfterFeastId,
-    detectFeastId
+    detectFeastId,
+    isSunday
   };
 
 })();

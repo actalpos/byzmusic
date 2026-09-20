@@ -782,52 +782,57 @@
 
       /*
        * ============================================================
-       * MENAION FEAST-DAY VERSION FILTER
+       * SUNDAY RESURRECTIONAL / MENAION FILTER
        * ============================================================
        *
-       * titleLink.json poate conține mai multe versiuni pentru
-       * același titlu, fiecare aparținând unei alte sărbători.
+       * Regula temporară pentru After Psalm 50:
        *
-       * Google Apps Script adaugă automat feastId fișierelor aflate
-       * în Menaion, pe baza structurii folderelor Google Drive.
+       * 1. Dacă serviciul este duminică:
+       *      Resurrectional are prioritate.
        *
-       * Exemple:
+       * 2. Dacă NU este duminică:
+       *      Menaion este selectat când:
+       *        periodId === "menaion"
+       *        feastId === SERVICE_DATE
        *
-       *   Dormition       -> feastId "15-08"
-       *   Transfiguration -> feastId "06-08"
-       *   Beheading       -> feastId "29-08"
-       *
-       * Dacă SERVICE_DATE corespunde unui feastId, păstrăm numai
-       * versiunea/versiunile sărbătorii din acea zi.
-       *
-       * Exemplu:
-       *
-       *   URL:
-       *     /variableDate/2026/08/15 Dormition.../
-       *
-       *   SERVICE_DATE:
-       *     "15-08"
-       *
-       *   titleLink.json:
-       *     Dormition -> feastId "15-08"
-       *
-       * Rezultat:
-       *     numai versiunea Dormition.
-       *
-       * Dacă nu există feastId corespunzător datei, nu eliminăm
-       * nimic aici. Alte filtre pot continua mai jos.
-       *
-       * Triodion/Pentecostarion sunt cicluri mobile și vor fi
-       * tratate separat.
+       * Excepțiile liturgice de duminică vor fi tratate ulterior.
        * ============================================================
        */
 
-      if (SERVICE_DATE) {
+      if (IS_SUNDAY) {
+
+        const resurrectionalVersions =
+          versions.filter(version => {
+
+            const path =
+              String(version.path || "")
+                .toLowerCase();
+
+            return (
+              !version.periodId &&
+              !version.feastId &&
+              path.endsWith(" / orthros")
+            );
+          });
+
+        if (resurrectionalVersions.length > 0) {
+
+          console.log(
+            "Sunday Resurrectional version selected:",
+            resurrectionalVersions.map(
+              version => version.label
+            )
+          );
+
+          versions = resurrectionalVersions;
+        }
+
+      } else if (SERVICE_DATE) {
 
         const feastVersions =
           versions.filter(version => {
             return (
-              version.feastId &&
+              version.periodId === "menaion" &&
               version.feastId === SERVICE_DATE
             );
           });

@@ -4,7 +4,8 @@
     "name": "3 IntercedeForUsSinners-pl2nd.pdf",
     "description": "1. L, R, L: O all-holy Lady Theotokos, intercede for us sinners. (thrice)",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / Great Compline",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "AINOI ( PRAISES ) IN TONE EIGHT": {
     "type": "multi",
@@ -16,6 +17,7 @@
         "description": "AINOI (PRAISES) IN TONE EIGHT | Brief",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -31,6 +33,7 @@
         "description": "AINOI (PRAISES) IN TONE FIVE | Brief",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -53,6 +56,7 @@
         "description": "AINOI (PRAISES) IN TONE ONE | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -68,6 +72,7 @@
         "description": "AINOI (PRAISES) IN TONE SEVEN | Brief",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -83,6 +88,7 @@
         "description": "AINOI (PRAISES) IN TONE SIX | Brief",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -98,6 +104,7 @@
         "description": "AINOI (PRAISES) IN TONE THREE | Brief",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -113,6 +120,7 @@
         "description": "AINOI (PRAISES) IN TONE TWO | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -130,21 +138,24 @@
     "name": "1 Alleluia-pl4th-EM-EN-SaturdaySouls.pdf",
     "description": "“ALLELUIA” IN TONE EIGHT",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02-1 SATURDAY BEFORE MEAT-FARE SUNDAY",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "ALSO FOR THE PHARISEE AND PUBLICAN IN TONE THREE": {
     "url": "https://drive.google.com/file/d/1a2YWBDB6nviYGsisBqTMRGkhzXaDDrFx/view?usp=drivesdk",
     "name": "5 PraisesPharissePublican-3rd-Karam-EN.pdf",
     "description": "Also for the Pharisee and Publican\nin Tone Three",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 01 Sunday of the Pharisee and Publican",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "AMOMOS SEVENTEENTH KATHISMA OF THE PSALTER IN TONE FIVE": {
     "url": "https://drive.google.com/file/d/1xc9Hkuqwg6auKW6xeK61k0dMyXqaXJjB/view?usp=drivesdk",
     "name": "3 Amomos-pl1st-Karam-EN-SaturdaySouls.pdf",
     "description": "THE AMOMOS: SEVENTEENTH KATHISMA OF THE PSALTER\nIN TONE FIVE",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02-1 SATURDAY BEFORE MEAT-FARE SUNDAY",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "ANTI-TRISAGION HYMN": {
     "type": "multi",
@@ -156,6 +167,7 @@
         "description": "THE ANTI-TRISAGION HYMN | “BEFORE THY CROSS”",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Divine Liturgy / 5 Trisagion",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -166,6 +178,7 @@
         "description": "THE ANTI-TRISAGION HYMN | As many of you",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Divine Liturgy / 5 Trisagion",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -181,6 +194,7 @@
         "description": "APOLYTIKIA SUNDAY JUNE 28 2026 | En and Ar",
         "automelon": "",
         "path": "Byzantine Music / Bilingual Services / Divine Liturgy / MetropolitanSaba-June2026",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -203,6 +217,7 @@
         "description": "APOLYTIKION FOR ST. JOHN CLIMACUS IN TONE EIGHT | SA",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 08 Sunday of the 4th Week of Lent - St John Climacus",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -213,7 +228,8 @@
     "name": "8 Apolytikion-1st-ElMassih-SA-EN-PresentationLord.pdf",
     "description": "APOLYTIKION FOR THE PRESENTATION OF CHRIST IN TONE ONE",
     "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 06 February / 02",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "menaion"
   },
   "APOLYTIKION OF ALL SAINTS IN TONE FOUR": {
     "type": "multi",
@@ -225,6 +241,7 @@
         "description": "APOLYTIKION OF ALL SAINTS\nIN TONE FOUR | multiple",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 13 Sunday of All Saints",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -247,6 +264,7 @@
         "description": "APOLYTIKION OF ARCHANGEL MICHAEL IN TONE FOUR\n(**Thou Who wast raised up**) | St Anthony",
         "automelon": "THOU WHO WAST RAISED UP",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 06 St Archangel Michael Miracle in Colossae",
+        "periodId": "menaion",
         "feast": "St Archangel Michael Miracle in Colossae",
         "feastId": "06-09"
       },
@@ -257,6 +275,7 @@
         "description": "APOLYTIKION OF ARCHANGEL MICHAEL IN TONE FOUR\n(**Thou Who wast raised up**) | El Massih",
         "automelon": "THOU WHO WAST RAISED UP",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 06 St Archangel Michael Miracle in Colossae",
+        "periodId": "menaion",
         "feast": "St Archangel Michael Miracle in Colossae",
         "feastId": "06-09"
       }
@@ -272,6 +291,7 @@
         "description": "APOLYTIKION OF FOREFEAST OF THE HOLY CROSS IN TONE TWO | St Anthony",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross",
+        "periodId": "menaion",
         "feast": "Exaltation of the Cross",
         "feastId": "14-09"
       }
@@ -287,6 +307,7 @@
         "description": "APOLYTIKION OF LAZARUS SATURDAY IN TONE ONE | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-05 Friday of the 6th Week - Small Compline",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       },
@@ -297,6 +318,7 @@
         "description": "APOLYTIKION OF LAZARUS SATURDAY IN TONE ONE | SA",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-05 Friday of the 6th Week - Small Compline",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -312,6 +334,7 @@
         "description": "APOLYTIKION OF PALM SUNDAY\nIN TONE FOUR | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-06 Saturday of the 6th Week - Lazarus Saturday",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -327,6 +350,7 @@
         "description": "APOLYTIKION OF PENTECOST\nIN TONE EIGHT | multiple",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 12 Sunday of Pentecost",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -342,6 +366,7 @@
         "description": "APOLYTIKION OF PROPHET ELIAS IN TONE FOUR (**Be quick to anticipate**) | AA",
         "automelon": "BE QUICK TO ANTICIPATE",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 20 July St Profet Elijah",
+        "periodId": "menaion",
         "feast": "July St Profet Elijah",
         "feastId": "20-07"
       }
@@ -357,6 +382,7 @@
         "description": "APOLYTIKION OF SAINT STEPHEN\nIN TONE FOUR (**Be quick to anticipate**) | AA",
         "automelon": "BE QUICK TO ANTICIPATE",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 02 August Transfer St Stephen Relics",
+        "periodId": "menaion",
         "feast": "August Transfer St Stephen Relics",
         "feastId": "02-08"
       }
@@ -367,7 +393,8 @@
     "name": "2 Apolitikion-pl4th-SA-EN-SaturdaySouls.pdf",
     "description": "APOLYTIKION OF SOULS SATURDAY\nIN TONE EIGHT ",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02-1 SATURDAY BEFORE MEAT-FARE SUNDAY",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "APOLYTIKION OF SS. CONSTANTINE AND HELEN IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/1ERYXQP5xQd44VYtu9QFAjAIAAL0j1tjd/view?usp=drivesdk",
@@ -375,6 +402,7 @@
     "description": "APOLYTIKION OF SS. CONSTANTINE AND HELEN IN TONE EIGHT",
     "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 09 May / 21 St Constantine and Helen",
     "automelon": "",
+    "periodId": "menaion",
     "feast": "St Constantine and Helen",
     "feastId": "21-05"
   },
@@ -383,7 +411,8 @@
     "name": "01 apolytikion-4th-StsPeterPaul.pdf",
     "description": "APOLYTIKION OF SS. PETER AND PAUL IN TONE FOUR",
     "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 10 June / June 28",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "menaion"
   },
   "APOLYTIKION OF ST. ATHANASIUS OF ATHOS IN TONE THREE": {
     "type": "multi",
@@ -395,6 +424,7 @@
         "description": "APOLYTIKION OF ST. ATHANASIUS\nOF ATHOS IN TONE THREE | SA",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 05 July St Athanasios",
+        "periodId": "menaion",
         "feast": "July St Athanasios",
         "feastId": "05-07"
       }
@@ -405,7 +435,8 @@
     "name": "ApolitikionStGregoryTheologian-1st-SA-EN.pdf",
     "description": "APOLYTIKION OF ST. GREGORY THE THEOLOGIAN IN TONE ONE",
     "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 05 January / Jan 25 - St Gregory the Theologian",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "menaion"
   },
   "APOLYTIKION OF ST. JOSEPH OF ARIMATHAEA IN TONE TWO": {
     "type": "multi",
@@ -417,6 +448,7 @@
         "description": "APOLYTIKION OF ST. JOSEPH OF ARIMATHAEA IN TONE TWO | SA",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 03 Sunday of Myrrh-Bearers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -427,6 +459,7 @@
         "description": "APOLYTIKION OF ST. JOSEPH OF ARIMATHAEA IN TONE TWO | AA",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 03 Sunday of Myrrh-Bearers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -442,6 +475,7 @@
         "description": "APOLYTIKION OF ST. JOSEPH OF DAMASCUS IN TONE FIVE | AA",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 10 July St Joseph of Damascus",
+        "periodId": "menaion",
         "feast": "July St Joseph of Damascus",
         "feastId": "10-07"
       }
@@ -457,6 +491,7 @@
         "description": "APOLYTIKION OF ST. PAISIOS\nOF ATHOS IN TONE FIVE | El Massih",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 12 July St Paisios",
+        "periodId": "menaion",
         "feast": "July St Paisios",
         "feastId": "12-07"
       }
@@ -472,6 +507,7 @@
         "description": "APOLYTIKION OF ST. PARASKEVA\nIN TONE ONE | SA",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 26 July St Paraskeva",
+        "periodId": "menaion",
         "feast": "July St Paraskeva",
         "feastId": "26-07"
       }
@@ -487,6 +523,7 @@
         "description": "APOLYTIKION OF ST. SOPHIA AND HER DAUGHTERS IN TONE FOUR | Archdiocese",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 17 Sofia and her daughters",
+        "periodId": "menaion",
         "feast": "Sofia and her daughters",
         "feastId": "17-09"
       },
@@ -497,6 +534,7 @@
         "description": "APOLYTIKION OF ST. SOPHIA AND HER DAUGHTERS IN TONE FOUR | St Anthony",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 17 Sofia and her daughters",
+        "periodId": "menaion",
         "feast": "Sofia and her daughters",
         "feastId": "17-09"
       }
@@ -519,6 +557,7 @@
         "description": "APOLYTIKION OF THE BAPTIST’S BEHEADING IN TONE TWO | St Anthony",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 29 Beheading St John the Baptist",
+        "periodId": "menaion",
         "feast": "Beheading St John the Baptist",
         "feastId": "29-08"
       },
@@ -529,6 +568,7 @@
         "description": "APOLYTIKION OF THE BAPTIST’S BEHEADING IN TONE TWO | El Massih",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 29 Beheading St John the Baptist",
+        "periodId": "menaion",
         "feast": "Beheading St John the Baptist",
         "feastId": "29-08"
       }
@@ -544,6 +584,7 @@
         "description": "APOLYTIKION OF THE CONSECRATION IN TONE FOUR | St Anthony",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 13 Consecration of the Resurrection Curch",
+        "periodId": "menaion",
         "feast": "Consecration of the Resurrection Curch",
         "feastId": "13-09"
       }
@@ -559,6 +600,7 @@
         "description": "APOLYTIKION OF THE DORMITION IN TONE ONE | SA",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 15 Dormition of Theotokos",
+        "periodId": "menaion",
         "feast": "Dormition of Theotokos",
         "feastId": "15-08"
       },
@@ -569,6 +611,7 @@
         "description": "APOLYTIKION OF THE DORMITION IN TONE ONE | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 15 Dormition of Theotokos",
+        "periodId": "menaion",
         "feast": "Dormition of Theotokos",
         "feastId": "15-08"
       },
@@ -579,6 +622,7 @@
         "description": "APOLYTIKION OF THE DORMITION IN TONE ONE | Howley",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 15 Dormition of Theotokos",
+        "periodId": "menaion",
         "feast": "Dormition of Theotokos",
         "feastId": "15-08"
       }
@@ -589,7 +633,8 @@
     "name": "4A Apolytikion-2nd-AA-EN-OrthodoxySunday.pdf",
     "description": "APOLYTIKION OF THE FIRST SUNDAY OF GREAT LENT IN TONE TWO",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 05 Sunday of the 1st Week of Lent - Orthodoxy",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "APOLYTIKION OF THE HOLY CROSS IN TONE ONE": {
     "type": "multi",
@@ -601,6 +646,7 @@
         "description": "APOLYTIKION OF THE HOLY CROSS\nIN TONE ONE | S Pilalis",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross",
+        "periodId": "menaion",
         "feast": "Exaltation of the Cross",
         "feastId": "14-09"
       },
@@ -611,6 +657,7 @@
         "description": "APOLYTIKION OF THE HOLY CROSS\nIN TONE ONE | Creemens",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 07 Sunday of the 3rd Week of Lent - Veneration of the Cross",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       },
@@ -621,6 +668,7 @@
         "description": "APOLYTIKION OF THE HOLY CROSS\nIN TONE ONE | St Anthony",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 07 Sunday of the 3rd Week of Lent - Veneration of the Cross",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -643,6 +691,7 @@
         "description": "APOLYTIKION OF THE HOLY MACCABEES IN TONE ONE | AA",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 01 August Procession of the Holy Cross ",
+        "periodId": "menaion",
         "feast": "August Procession of the Holy Cross",
         "feastId": "01-08"
       }
@@ -658,6 +707,7 @@
         "description": "APOLYTIKION OF THE HOLY NAPKIN IN TONE TWO | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 16 Holy Napkin",
+        "periodId": "menaion",
         "feast": "Holy Napkin",
         "feastId": "16-08"
       }
@@ -673,6 +723,7 @@
         "description": "APOLYTIKION OF THE NATIVITY OF THE THEOTOKOS IN TONE FOUR | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 08 Nativity of the Theotokos",
+        "periodId": "menaion",
         "feast": "Nativity of the Theotokos",
         "feastId": "08-09"
       },
@@ -683,6 +734,7 @@
         "description": "APOLYTIKION OF THE NATIVITY OF THE THEOTOKOS IN TONE FOUR | St Anthony",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 08 Nativity of the Theotokos",
+        "periodId": "menaion",
         "feast": "Nativity of the Theotokos",
         "feastId": "08-09"
       }
@@ -698,6 +750,7 @@
         "description": "APOLYTIKION OF THE SAINTS\nIN TONE ONE | Sts Nicholas & Habib",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 16 July Hyeromartyrs Nicholas and Habib",
+        "periodId": "menaion",
         "feast": "July Hyeromartyrs Nicholas and Habib",
         "feastId": "16-07"
       }
@@ -713,6 +766,7 @@
         "description": "APOLYTIKION OF THE TRANSFIGURATION IN TONE SEVEN | Holwey",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 06 Transfiguration ",
+        "periodId": "menaion",
         "feast": "Transfiguration",
         "feastId": "06-08"
       },
@@ -723,6 +777,7 @@
         "description": "APOLYTIKION OF THE TRANSFIGURATION IN TONE SEVEN | St Anthony",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 06 Transfiguration ",
+        "periodId": "menaion",
         "feast": "Transfiguration",
         "feastId": "06-08"
       }
@@ -733,14 +788,16 @@
     "name": "4 ApostichaDoxastikon-pl2nd-ForgivenessSunday.pdf",
     "description": "APOSTICHA DOXASTICON FOR THE SUNDAY OF FORGIVENESS IN TONE SIX",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 04 Sunday of Forgiveness",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "APOSTICHA FOR FORGIVENESS SUNDAY IN TONE FOUR": {
     "url": "https://drive.google.com/file/d/1HvBhThUDCv_d3Ub_aK1MxJvXeBxdIyd8/view?usp=drivesdk",
     "name": "24B Aposticha-4th-Kazan-EN-ForgivenessVespers-W.pdf",
     "description": "APOSTICHA FOR FORGIVENESS SUNDAY IN TONE FOUR",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 04 Sunday of Forgiveness",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "APOSTICHA FOR PALM SUNDAY IN TONE EIGHT": {
     "type": "multi",
@@ -752,6 +809,7 @@
         "description": "THE APOSTICHA FOR PALM SUNDAY\nIN TONE EIGHT | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-06 Saturday of the 6th Week - Lazarus Saturday",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -767,6 +825,7 @@
         "description": "THE APOSTICHA FOR PENTECOST\nIN TONE SIX | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 12 Sunday of Pentecost",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -777,7 +836,8 @@
     "name": "13 ApostichaOrthros-2nd-AA-EN-W-SaturdaySouls.pdf",
     "description": "THE APOSTICHA FOR THE DEPARTED IN TONE TWO (**When he took Thee**)",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02-1 SATURDAY BEFORE MEAT-FARE SUNDAY",
-    "automelon": "WHEN HE TOOK THEE"
+    "automelon": "WHEN HE TOOK THEE",
+    "periodId": "triodion"
   },
   "APOSTICHA FOR THE RESURRECTION IN TONE EIGHT": {
     "type": "multi",
@@ -789,6 +849,7 @@
         "description": "APOSTICHA FOR THE RESURRECTION IN TONE EIGHT | Brief",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -799,6 +860,7 @@
         "description": "APOSTICHA FOR THE RESURRECTION IN TONE EIGHT | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -814,6 +876,7 @@
         "description": "APOSTICHA FOR THE RESURRECTION IN TONE FIVE | Brief",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -824,6 +887,7 @@
         "description": "APOSTICHA FOR THE RESURRECTION IN TONE FIVE | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -839,6 +903,7 @@
         "description": "APOSTICHA FOR THE RESURRECTION IN TONE ONE | Brief",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -849,6 +914,7 @@
         "description": "APOSTICHA FOR THE RESURRECTION IN TONE ONE | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -864,6 +930,7 @@
         "description": "APOSTICHA FOR THE RESURRECTION IN TONE SEVEN | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -874,6 +941,7 @@
         "description": "APOSTICHA FOR THE RESURRECTION IN TONE SEVEN | Brief",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -889,6 +957,7 @@
         "description": "APOSTICHA FOR THE RESURRECTION IN TONE THREE | BRIEF",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -899,6 +968,7 @@
         "description": "APOSTICHA FOR THE RESURRECTION IN TONE THREE | SLOW",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -914,6 +984,7 @@
         "description": "APOSTICHA FOR THE RESURRECTION IN TONE TWO | BRIEF",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -924,6 +995,7 @@
         "description": "APOSTICHA FOR THE RESURRECTION IN TONE TWO | SLOW",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -939,6 +1011,7 @@
         "description": "APOSTICHA OF ST. ELIAS IN TONE FOUR (**Thou who wast called from on high**) | El Massih",
         "automelon": "THOU WHO WAST CALLED FROM ON HIGH",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 20 July St Profet Elijah",
+        "periodId": "menaion",
         "feast": "July St Profet Elijah",
         "feastId": "20-07"
       }
@@ -954,6 +1027,7 @@
         "description": "APOSTICHA THEOTOKION FOR THE RESURRECTION IN TONE EIGHT | Brief",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -964,6 +1038,7 @@
         "description": "APOSTICHA THEOTOKION FOR THE RESURRECTION IN TONE EIGHT | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -993,6 +1068,7 @@
         "description": "“BEFORE THY CROSS” | EN-AR",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 01 August Procession of the Holy Cross ",
+        "periodId": "menaion",
         "feast": "August Procession of the Holy Cross",
         "feastId": "01-08"
       }
@@ -1015,6 +1091,7 @@
         "description": "CHERUBIC HYMN TONE THREE | English",
         "automelon": "",
         "path": "Byzantine Music / Bilingual Services / Divine Liturgy / MetropolitanSaba-June2026",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -1030,6 +1107,7 @@
         "description": "CHRUBIC HYMN ENDING | Arabic",
         "automelon": "",
         "path": "Byzantine Music / Bilingual Services / Divine Liturgy / MetropolitanSaba-June2026",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -1045,6 +1123,7 @@
         "description": "Deacon: The evening prokeimenon. | GCremeens",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 07-1 Wednesday of the 4th Week of Lent",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -1060,6 +1139,7 @@
         "description": "DOXASTICA AT THE LITIA PROCESSION IN TONE FIVE | Creemens",
         "automelon": "",
         "path": "MyPrivateEnglishMusic / Menaion / 12 August / 06 Holy Transfiguration",
+        "periodId": "menaion",
         "feast": "Holy Transfiguration",
         "feastId": "06-08"
       }
@@ -1070,14 +1150,16 @@
     "name": "14 DoxastikonApostichaOrthros-pls2nd-Karam-EN-SaturdaySouls.pdf",
     "description": "DOXASTICA FOR SOULS SATURDAY\nIN TONE SIX",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02-1 SATURDAY BEFORE MEAT-FARE SUNDAY",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "DOXASTICON & THEOTOKION FOR SOULS SATURDAY IN TONE TWO": {
     "url": "https://drive.google.com/file/d/14OSuguUDAF-cYAlP1YQyq7aNAL7FrP3X/view?usp=drivesdk",
     "name": "12 DoxastikonPraises-2nd-Karam-EN-SarturdaySouls.pdf",
     "description": "DOXASTICON & THEOTOKION FOR SOULS SATURDAY IN TONE TWO",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02-1 SATURDAY BEFORE MEAT-FARE SUNDAY",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "DOXASTICON & THEOTOKION OF THE LITIA PROCESSION IN TONE FIVE": {
     "type": "multi",
@@ -1089,6 +1171,7 @@
         "description": "DOXASTICON & THEOTOKION OF THE LITIA PROCESSION IN TONE FIVE | Theotokion - AA",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 05 July St Athanasios",
+        "periodId": "menaion",
         "feast": "July St Athanasios",
         "feastId": "05-07"
       }
@@ -1104,6 +1187,7 @@
         "description": "DOXASTICON FOR ALL SAINTS OF ANTIOCH IN TONE ONE | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 14 Sunday of All Antioch and American Saints",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -1119,6 +1203,7 @@
         "description": "DOXASTICON FOR ALL SAINTS OF NORTH AMERICA IN TONE FIVE | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 14 Sunday of All Antioch and American Saints",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -1134,6 +1219,7 @@
         "description": "THE Doxasticon FOR LAZARUS SATURDAY in Tone TWO | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-06 Saturday of the 6th Week - Lazarus Saturday",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -1149,6 +1235,7 @@
         "description": "DOXASTICON FOR PALM SUNDAY\nIN TONE SIX | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-06 Saturday of the 6th Week - Lazarus Saturday",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -1164,6 +1251,7 @@
         "description": "THE DOXASTICON FOR PASCHA\nIN TONE FIVE | EM",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 01 Sunday of Great and Holy Pascha",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -1174,6 +1262,7 @@
         "description": "THE DOXASTICON FOR PASCHA\nIN TONE FIVE | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 01 Sunday of Great and Holy Pascha",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -1189,6 +1278,7 @@
         "description": "THE DOXASTICON FOR SS. PETER\nAND PAUL IN TONE SIX | ElMassih",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 10 June / June 28",
+        "periodId": "menaion",
         "feast": "",
         "feastId": ""
       }
@@ -1199,7 +1289,8 @@
     "name": "PraisesDoxastikonStGregoryTheologian-1st-EM-EN.pdf",
     "description": "THE DOXASTICON FOR ST. GREGORY IN TONE ONE",
     "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 05 January / Jan 25 - St Gregory the Theologian",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "menaion"
   },
   "DOXASTICON FOR ST. JOHN CLIMACUS IN TONE FIVE": {
     "type": "multi",
@@ -1211,6 +1302,7 @@
         "description": "DOXASTICON FOR ST. JOHN CLIMACUS IN TONE FIVE | Cremeens",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 08 Sunday of the 4th Week of Lent - St John Climacus",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -1226,6 +1318,7 @@
         "description": "DOXASTICON FOR ST. JOHN CLIMACUS IN TONE TWO | Cremeens",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 08 Sunday of the 4th Week of Lent - St John Climacus",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -1241,6 +1334,7 @@
         "description": "DOXASTICON FOR THE ASCENSION\nIN TONE FOUR | EM",
         "automelon": "",
         "path": "MyPrivateEnglishMusic / Penticostarion / 09 The Ascension of Our Lord Jesus Christ ",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -1251,7 +1345,8 @@
     "name": "14 PraisesDoxastikon-pl2nd-Karam-EN-OrthodoxySunday.pdf",
     "description": "DOXASTICON FOR THE FIRST SUNDAY OF GREAT LENT IN TONE SIX",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 05 Sunday of the 1st Week of Lent - Orthodoxy",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "DOXASTICON FOR THE FOURTH SUNDAY OF LENT IN TONE ONE": {
     "type": "multi",
@@ -1263,6 +1358,7 @@
         "description": "DOXASTICON FOR THE FOURTH SUNDAY OF LENT IN TONE ONE | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 08 Sunday of the 4th Week of Lent - St John Climacus",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -1278,6 +1374,7 @@
         "description": "DOXASTICON FOR THE HOLY FATHERS IN TONE FOUR | Creemens",
         "automelon": "",
         "path": "MyPrivateEnglishMusic / Penticostarion / 10 Sunday of the Holy Fathers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -1293,6 +1390,7 @@
         "description": "DOXASTICON FOR THE HOLY FATHERS IN TONE SIX | Creemens",
         "automelon": "",
         "path": "MyPrivateEnglishMusic / Penticostarion / 10 Sunday of the Holy Fathers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -1308,6 +1406,7 @@
         "description": "DOXASTICON FOR THE MYRRH-BEARING WOMEN IN TONE SIX | Creemens",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 03 Sunday of Myrrh-Bearers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -1318,6 +1417,7 @@
         "description": "DOXASTICON FOR THE MYRRH-BEARING WOMEN IN TONE SIX | ElMassih",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 03 Sunday of Myrrh-Bearers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -1333,6 +1433,7 @@
         "description": "DOXASTICON FOR THE PARALYTIC\nIN TONE EIGHT | EM",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 04 Sunday of the Paralytic",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -1343,6 +1444,7 @@
         "description": "DOXASTICON FOR THE PARALYTIC\nIN TONE EIGHT | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 04 Sunday of the Paralytic",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -1353,6 +1455,7 @@
         "description": "DOXASTICON FOR THE PARALYTIC\nIN TONE EIGHT | DCS",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 04 Sunday of the Paralytic",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -1368,6 +1471,7 @@
         "description": "DOXASTICON FOR THE PARALYTIC\nIN TONE FIVE | EM",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 04 Sunday of the Paralytic",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -1378,6 +1482,7 @@
         "description": "DOXASTICON FOR THE PARALYTIC\nIN TONE FIVE | DCS",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 04 Sunday of the Paralytic",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -1388,42 +1493,48 @@
     "name": "2 DoxastikonSticheras-pl4th-EM-EN.pdf",
     "description": "DOXASTICON FOR THE PHARISEE AND PUBLICAN IN TONE EIGHT",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 01 Sunday of the Pharisee and Publican",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "DOXASTICON FOR THE PHARISEE AND PUBLICAN IN TONE FIVE": {
     "url": "https://drive.google.com/file/d/1t-DrjsftdhXGQcSmC_kUDpX-bkvzFJrJ/view?usp=drivesdk",
     "name": "3 DoxastikonAposticha-pl1st-EM-EN.pdf",
     "description": "DOXASTICON FOR THE PHARISEE AND PUBLICAN IN TONE FIVE",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 01 Sunday of the Pharisee and Publican",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "DOXASTICON FOR THE PRODIGAL SON IN TONE SIX": {
     "url": "https://drive.google.com/file/d/1eYCsYgXM4ZLRg-zcRtlY9SlbzsdIY_GO/view?usp=drivesdk",
     "name": "ProdigalSon-ApostichaDoxastikon-pl2nd-EM-EN.pdf",
     "description": "DOXASTICON FOR THE PRODIGAL SON IN TONE SIX",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02 Sunday of the Prodigal Son",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "DOXASTICON FOR THE PRODIGAL SON IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1gl-VH0Svh8f725ELkrUW1ZfuokGYQN2y/view?usp=drivesdk",
     "name": "ProdigalSon-SticherasDoxastikon-2nd-EM-EN.pdf",
     "description": "DOXASTICON FOR THE PRODIGAL SON IN TONE TWO",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02 Sunday of the Prodigal Son",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "DOXASTICON FOR THE SECOND SUNDAY OF LENT IN TONE SIX": {
     "url": "https://drive.google.com/file/d/1XsH1fzZXNnAIk04abw2rUCqi3rOjxOXQ/view?usp=drivesdk",
     "name": "13 DoxastikonPraises pl2nd AA EN GregoryPalamaSunday.pdf",
     "description": "DOXASTICON FOR THE SECOND SUNDAY OF LENT IN TONE SIX",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 06 Sunday of the 2nd Week of Lent - St Gregory Palamas",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "DOXASTICON FOR THIRD SUNDAY OF GREAT LENT IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/1UWOIXI172ndjJYXggUXq040uIyaNxGsH/view?usp=drivesdk",
     "name": "14 PraisesDoxastikon-pl4th-Karam.pdf",
     "description": "DOXASTICON FOR THIRD SUNDAY OF GREAT LENT IN TONE EIGHT",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 07 Sunday of the 3rd Week of Lent - Veneration of the Cross",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "DOXASTICON FOR THIRD SUNDAY OF GREAT LENT IN TONE FOUR": {
     "type": "multi",
@@ -1435,6 +1546,7 @@
         "description": "DOXASTICON FOR THIRD SUNDAY OF GREAT LENT IN TONE FOUR | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 07 Sunday of the 3rd Week of Lent - Veneration of the Cross",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       },
@@ -1445,6 +1557,7 @@
         "description": "DOXASTICON FOR THIRD SUNDAY OF GREAT LENT IN TONE FOUR | Creemens",
         "automelon": "",
         "path": "MyPrivateEnglishMusic / Great Lent Triodion / 07 Sunday of the 3rd Week of Lent - Veneration of the Cross",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -1460,6 +1573,7 @@
         "description": "DOXASTICON FOR THIRD SUNDAY OF GREAT LENT IN TONE THREE | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 07 Sunday of the 3rd Week of Lent - Veneration of the Cross",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       },
@@ -1470,6 +1584,7 @@
         "description": "DOXASTICON FOR THIRD SUNDAY OF\nGREAT LENT IN TONE THREE | GC",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 07 Sunday of the 3rd Week of Lent - Veneration of the Cross",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -1485,6 +1600,7 @@
         "description": "THE DOXASTICON OF ALL SAINTS OF ANTIOCH IN TONE EIGHT | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 14 Sunday of All Antioch and American Saints",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -1500,6 +1616,7 @@
         "description": "THE DOXASTICON OF PALM SUNDAY IN TONE SIX | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 10 Sunday of the 6th Week of Lent - Palm Sunday",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -1515,6 +1632,7 @@
         "description": "THE Doxasticon OF PENTECOST\nin Tone SIX | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 12 Sunday of Pentecost",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -1525,6 +1643,7 @@
         "description": "THE Doxasticon OF PENTECOST\nin Tone SIX | ElMassih",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 12 Sunday of Pentecost",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -1540,6 +1659,7 @@
         "description": "THE DOXASTICON OF ST. JOSEPH OF DAMASCUS IN TONE SIX | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 10 July St Joseph of Damascus",
+        "periodId": "menaion",
         "feast": "July St Joseph of Damascus",
         "feastId": "10-07"
       }
@@ -1555,6 +1675,7 @@
         "description": "THE DOXASTICON OF THE LITIA PROCESSION IN TONE EIGHT | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 12 Sunday of Pentecost",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -1570,6 +1691,7 @@
         "description": "DOXASTICON OF THE LITIA PROCESSION IN TONE THREE | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-06 Saturday of the 6th Week - Lazarus Saturday",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -1585,6 +1707,7 @@
         "description": "THE DOXASTICON OF THE PARALYTIC IN TONE EIGHT | DCS",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 04 Sunday of the Paralytic",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -1595,6 +1718,7 @@
         "description": "THE DOXASTICON OF THE PARALYTIC IN TONE EIGHT | EM",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 04 Sunday of the Paralytic",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -1605,7 +1729,8 @@
     "name": "6 DoxastikonAtThePraises-pl4th-Karam-EN.pdf",
     "description": "DOXASTICON OF THE PHARISEE AND PUBLICAN IN TONE EIGHT",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 01 Sunday of the Pharisee and Publican",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "EIGHTH EOTHINON DOXASTICON IN TONE EIGHT": {
     "type": "multi",
@@ -1617,6 +1742,7 @@
         "description": "THE EIGHTH EOTHINON DOXASTICON IN TONE EIGHT | SA",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -1632,6 +1758,7 @@
         "description": "THE EIGHTH EOTHINON EXAPOSTEILARION IN TONE TWO\n(**Upon that mount in Galilee **) | AA",
         "automelon": "UPON THAT MOUNT IN GALILEE",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -1654,6 +1781,7 @@
         "description": "THE ELEVENTH EOTHINON DOXASTICON IN TONE EIGHT | SA",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -1671,7 +1799,8 @@
     "name": "4 Evlogetaria-pl1st-Karam-EN-SaturdaySouls.pdf",
     "description": "EVLOGETARIA (BENEDICTIONS) FOR THE DEPARTED IN TONE FIVE",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02-1 SATURDAY BEFORE MEAT-FARE SUNDAY",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "EVLOGETARIA ( BENEDICTIONS ) IN TONE FIVE": {
     "url": "https://drive.google.com/file/d/1FdAew9N5sTXZ91Cr66u4ZmwDX1Mf9naK/view?usp=drivesdk",
@@ -1685,14 +1814,16 @@
     "name": "ExapostelariaAndTheotokionStGregoryTheologian-2nd-AA-EN-W.pdf",
     "description": "EXAPOSTEILARIA & THEOTOKION FOR ST. GREGORY IN TONE TWO",
     "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 05 January / Jan 25 - St Gregory the Theologian",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "menaion"
   },
   "EXAPOSTEILARIA AND THEOTOKION FOR SOULS SATURDAY": {
     "url": "https://drive.google.com/file/d/1E8Catx6PgC2MeZGfKdrfJgPcBkxww5qz/view?usp=drivesdk",
     "name": "9 Exaposteilarion-3rd-AA-EN-W-SaturdaySouls.pdf",
     "description": "THE EXAPOSTEILARIA AND THEOTOKION FOR SOULS SATURDAY",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02-1 SATURDAY BEFORE MEAT-FARE SUNDAY",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "EXAPOSTEILARIA FOR LAZARUS SATURDAY IN TONE THREE": {
     "type": "multi",
@@ -1704,6 +1835,7 @@
         "description": "THE EXAPOSTEILARIA FOR LAZARUS SATURDAY IN TONE THREE | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-06 Saturday of the 6th Week - Lazarus Saturday",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -1719,6 +1851,7 @@
         "description": "EXAPOSTEILARIA FOR THE\nHOLY CROSS IN TONE TWO\n(**While Thy disciples looked on Thee**) | Archdiocese",
         "automelon": "WHILE THY DISCIPLES LOOKED ON THEE",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross",
+        "periodId": "menaion",
         "feast": "Exaltation of the Cross",
         "feastId": "14-09"
       }
@@ -1734,6 +1867,7 @@
         "description": "EXAPOSTEILARIA FOR THE MACCABEES & HOLY CROSS IN TONE TWO | AA",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 01 August Procession of the Holy Cross ",
+        "periodId": "menaion",
         "feast": "August Procession of the Holy Cross",
         "feastId": "01-08"
       }
@@ -1749,6 +1883,7 @@
         "description": "THE EXAPOSTEILARIA OF PENTECOST IN TONE THREE\n(**Thou Who, as God, adornest**) | Karam",
         "automelon": "THOU WHO AS GOD ADORNEST",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 12 Sunday of Pentecost",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -1764,6 +1899,7 @@
         "description": "EXAPOSTEILARION & THEOTOKION FOR ST. ATHANASIUS IN TONE TWO | AA",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 05 July St Athanasios",
+        "periodId": "menaion",
         "feast": "July St Athanasios",
         "feastId": "05-07"
       }
@@ -1786,6 +1922,7 @@
         "description": "EXAPOSTEILARION & THEOTOKION OF ALL SAINTS OF ANTIOCH IN TONE TWO (**Upon that mount in Galilee**) | El Massih",
         "automelon": "UPON THAT MOUNT IN GALILEE",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 14 Sunday of All Antioch and American Saints",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -1801,6 +1938,7 @@
         "description": "THE EXAPOSTEILARION & THEOTOKION OF HOLY FATHERS IN TONE TWO (**Hearken, ye women**) | AA",
         "automelon": "HEARKEN YE WOMEN",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 13 - 19 July First Sunday of the Holy Fathers of the 4th Ecumenical Council",
+        "periodId": "menaion",
         "feast": "- 19 July First Sunday of the Holy Fathers of the 4th Ecumenical Council",
         "feastId": "13-07"
       }
@@ -1816,6 +1954,7 @@
         "description": "EXAPOSTEILARION & THEOTOKION OF SAINT STEPHEN IN TONE TWO\n(**Hearken, ye women**) | AA",
         "automelon": "HEARKEN YE WOMEN",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 02 August Transfer St Stephen Relics",
+        "periodId": "menaion",
         "feast": "August Transfer St Stephen Relics",
         "feastId": "02-08"
       }
@@ -1826,7 +1965,8 @@
     "name": "21 exaposteilarion-2nd-StsPeterPaul.pdf",
     "description": "EXAPOSTEILARION & THEOTOKION OF SS. PETER AND PAUL IN TONE TWO\n(**Hearken, ye women**)",
     "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 10 June / June 28",
-    "automelon": "HEARKEN YE WOMEN"
+    "automelon": "HEARKEN YE WOMEN",
+    "periodId": "menaion"
   },
   "EXAPOSTEILARION & THEOTOKION OF ST. JOSEPH IN TONE TWO": {
     "type": "multi",
@@ -1838,6 +1978,7 @@
         "description": "EXAPOSTEILARION & THEOTOKION OF ST. JOSEPH IN TONE TWO | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 10 July St Joseph of Damascus",
+        "periodId": "menaion",
         "feast": "July St Joseph of Damascus",
         "feastId": "10-07"
       }
@@ -1853,6 +1994,7 @@
         "description": "EXAPOSTEILARION & THEOTOKION OF THE BEHEADING | Archdiocese",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 29 Beheading St John the Baptist",
+        "periodId": "menaion",
         "feast": "Beheading St John the Baptist",
         "feastId": "29-08"
       }
@@ -1868,6 +2010,7 @@
         "description": "EXAPOSTEILARION & THEOTOKION OF THE SAINTS IN TONE TWO | Sts Nicholas & Habib",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 16 July Hyeromartyrs Nicholas and Habib",
+        "periodId": "menaion",
         "feast": "July Hyeromartyrs Nicholas and Habib",
         "feastId": "16-07"
       }
@@ -1883,6 +2026,7 @@
         "description": "EXAPOSTEILARION FOR ALL SAINTS OF NORTH AMERICA IN TONE TWO **Upon that mount in Galilee**( | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 14 Sunday of All Antioch and American Saints",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -1898,6 +2042,7 @@
         "description": "THE EXAPOSTEILARION OF PASCHA IN TONE TWO | ElMassih",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 01 Sunday of Great and Holy Pascha",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -1909,6 +2054,7 @@
     "description": "THE EXAPOSTEILARION OF SAINTS CONSTANTINE & HELEN IN TONE TWO",
     "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 09 May / 21 St Constantine and Helen",
     "automelon": "",
+    "periodId": "menaion",
     "feast": "St Constantine and Helen",
     "feastId": "21-05"
   },
@@ -1922,6 +2068,7 @@
         "description": "THE EXAPOSTEILARION OF THE ASCENSION IN TONE TWO\n(**The original melody**) | AA",
         "automelon": "ORIGINAL MELODY",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 09 The Ascension of Our Lord Jesus Christ ",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -1933,6 +2080,7 @@
     "description": "THE EXAPOSTEILARION of the dormition IN TONE three | ",
     "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 15 Dormition of Theotokos",
     "automelon": "",
+    "periodId": "menaion",
     "feast": "Dormition of Theotokos",
     "feastId": "15-08"
   },
@@ -1946,6 +2094,7 @@
         "description": "THE EXAPOSTEILARION OF THE HOLY FATHERS IN TONE TWO\n(**Hearken, ye women**) | AA",
         "automelon": "HEARKEN YE WOMEN",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 10 Sunday of the Holy Fathers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -1961,6 +2110,7 @@
         "description": "EXAPOSTEILARION OF THE MYRRH-BEARING WOMEN IN TONE TWO | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 03 Sunday of Myrrh-Bearers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -1971,6 +2121,7 @@
         "description": "EXAPOSTEILARION OF THE MYRRH-BEARING WOMEN IN TONE TWO | Creemens",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 03 Sunday of Myrrh-Bearers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -1986,6 +2137,7 @@
         "description": "THE EXAPOSTEILARION OF THE PARALYTIC IN TONE TWO | AA w",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 04 Sunday of the Paralytic",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -2001,6 +2153,7 @@
         "description": "THE EXAPOSTEILARION OF THE TRANSFIGURATION IN TONE THREE | Archdiocese",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 06 Transfiguration ",
+        "periodId": "menaion",
         "feast": "Transfiguration",
         "feastId": "06-08"
       }
@@ -2011,7 +2164,8 @@
     "name": "12 Exaposteilarion-2nd-AA-EN-OrthodoxySunday-W.pdf",
     "description": "EXAPOSTEILIARION & THEOTOKION FOR FIRST SUNDAY OF GREAT LENT\nIN TONE TWO (**Hearken, ye women**)",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 05 Sunday of the 1st Week of Lent - Orthodoxy",
-    "automelon": "HEARKEN YE WOMEN"
+    "automelon": "HEARKEN YE WOMEN",
+    "periodId": "triodion"
   },
   "EXAPOSTEILIARION & THEOTOKION FOR ST. JOHN CLIMACUS IN TONE TWO": {
     "type": "multi",
@@ -2023,6 +2177,7 @@
         "description": "EXAPOSTEILIARION & THEOTOKION FOR ST. JOHN CLIMACUS\nIN TONE TWO (**Hearken, ye women**) | AA",
         "automelon": "HEARKEN YE WOMEN",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 08 Sunday of the 4th Week of Lent - St John Climacus",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -2033,28 +2188,32 @@
     "name": "12 Exaposteilarion-2nd-AA.pdf",
     "description": "EXAPOSTEILIARION & THEOTOKION FOR THE HOLY CROSS IN TONE TWO (**Upon that mount in Galilee**)",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 07 Sunday of the 3rd Week of Lent - Veneration of the Cross",
-    "automelon": "UPON THAT MOUNT IN GALILEE"
+    "automelon": "UPON THAT MOUNT IN GALILEE",
+    "periodId": "triodion"
   },
   "EXAPOSTEILIARION & THEOTOKION FOR THE SUNDAY OF FORGIVENESS IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1gIWbCrZ0tf1m95oz7C-5JkX_6UqW4ppb/view?usp=drivesdk",
     "name": "5 Exaposteilarion-2nd-ForgivenessSunday.pdf",
     "description": " EXAPOSTEILIARION & THEOTOKION FOR THE SUNDAY OF FORGIVENESS\nIN TONE TWO (**Hearken, ye women **)",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 04 Sunday of Forgiveness",
-    "automelon": "HEARKEN YE WOMEN"
+    "automelon": "HEARKEN YE WOMEN",
+    "periodId": "triodion"
   },
   "EXAPOSTEILIARION FOR THE PHARISEE & PUBLICAN IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1EXbw78qw-f3w1IPd5dLWXeHEWHxf3mKw/view?usp=drivesdk",
     "name": "4 ExapostelarionPhariseePublican-2nd-AA-EN-W.pdf",
     "description": "EXAPOSTEILIARION FOR THE PHARISEE & PUBLICAN IN TONE TWO\n(**Upon that mount in Galilee**)",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 01 Sunday of the Pharisee and Publican",
-    "automelon": "UPON THAT MOUNT IN GALILEE"
+    "automelon": "UPON THAT MOUNT IN GALILEE",
+    "periodId": "triodion"
   },
   "EXAPOSTEILIARION FOR THE PRODIGAL SON IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1ujc3u3q-4tPFnCf32QdNOhExL_-gRIwz/view?usp=drivesdk",
     "name": "ProdigalSon-Exaposteilarion-2nd-AA-EN.pdf",
     "description": "THE EXAPOSTEILIARION FOR\nTHE PRODIGAL SON IN TONE TWO (**Hearken, ye women**)",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02 Sunday of the Prodigal Son",
-    "automelon": "HEARKEN YE WOMEN"
+    "automelon": "HEARKEN YE WOMEN",
+    "periodId": "triodion"
   },
   "EXAPOSTELARION & THEOTOKION FOR ARCHANGEL MICHAEL IN TONE TWO": {
     "type": "multi",
@@ -2066,6 +2225,7 @@
         "description": "EXAPOSTELARION & THEOTOKION FOR ARCHANGEL MICHAEL IN TONE TWO (**Hearken, ye women**) | HTM",
         "automelon": "HEARKEN YE WOMEN",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 06 St Archangel Michael Miracle in Colossae",
+        "periodId": "menaion",
         "feast": "St Archangel Michael Miracle in Colossae",
         "feastId": "06-09"
       }
@@ -2081,6 +2241,7 @@
         "description": "FESTAL ANABATHMOI IN TONE FOUR | SA",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -2091,6 +2252,7 @@
         "description": "FESTAL ANABATHMOI IN TONE FOUR | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -2106,6 +2268,7 @@
         "description": "FESTAL TROPARIA AFTER PSALM 50 IN TONE TWO | Beheading of St John - W",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 29 Beheading St John the Baptist",
+        "periodId": "menaion",
         "feast": "Beheading St John the Baptist",
         "feastId": "29-08"
       },
@@ -2116,6 +2279,7 @@
         "description": "FESTAL TROPARIA AFTER PSALM 50 IN TONE TWO | Dormition - Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 15 Dormition of Theotokos",
+        "periodId": "menaion",
         "feast": "Dormition of Theotokos",
         "feastId": "15-08"
       },
@@ -2126,6 +2290,7 @@
         "description": "FESTAL TROPARIA AFTER PSALM 50 IN TONE TWO | Transfiguration - Ayoub",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 06 Transfiguration ",
+        "periodId": "menaion",
         "feast": "Transfiguration",
         "feastId": "06-08"
       },
@@ -2136,6 +2301,7 @@
         "description": "FESTAL TROPARIA AFTER PSALM 50 IN TONE TWO | Sts Nicholas & Habib",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 16 July Hyeromartyrs Nicholas and Habib",
+        "periodId": "menaion",
         "feast": "July Hyeromartyrs Nicholas and Habib",
         "feastId": "16-07"
       },
@@ -2146,6 +2312,7 @@
         "description": "FESTAL TROPARIA AFTER PSALM 50 IN TONE TWO | St Joseph Damascus",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 10 July St Joseph of Damascus",
+        "periodId": "menaion",
         "feast": "July St Joseph of Damascus",
         "feastId": "10-07"
       },
@@ -2156,6 +2323,7 @@
         "description": "FESTAL TROPARIA AFTER PSALM 50 IN TONE TWO | Regular - Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -2166,6 +2334,7 @@
         "description": "FESTAL TROPARIA AFTER PSALM 50 IN TONE TWO | PalmSunday -Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 10 Sunday of the 6th Week of Lent - Palm Sunday",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -2181,6 +2350,7 @@
         "description": "THE FIFTH EOTHINON DOXASTICON IN TONE FIVE | SA",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -2196,6 +2366,7 @@
         "description": "THE FIFTH EOTHINON EXAPOSTEILARION IN TONE TWO | Tony H",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -2225,6 +2396,7 @@
         "description": "FIRST KATHISMA HYMN OF\nLAZARUS SATURDAY IN TONE ONE\n(**While Gabriel was saying**) | Karam",
         "automelon": "WHILE GABRIEL WAS SAYING",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-06 Saturday of the 6th Week - Lazarus Saturday",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -2240,6 +2412,7 @@
         "description": "First Kathisma Hymns in Tone Four\n(**Joseph was amazed—hard chromatic**) | Karam",
         "automelon": "JOSEPH WAS AMAZED-HARD CHROMATIC",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 10 Sunday of the 6th Week of Lent - Palm Sunday",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -2250,7 +2423,8 @@
     "name": "23 1stGreatProkeimenon-pl4th-Karam-EN-ForgivenessVespers.pdf",
     "description": "FIRST LENTEN GREAT PROKEIMENON IN TONE EIGHT",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 04 Sunday of Forgiveness",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "FOR ALL SAINTS IN TONE SIX": {
     "url": "https://drive.google.com/file/d/1W_BTpCX_ljektO4XXDZ3JN2OzRj0Ph5k/view?usp=drivesdk",
@@ -2269,6 +2443,7 @@
         "description": "For All Saints of Antioch in Tone Eight\n(**O strange wonder**) | El Massih",
         "automelon": "O STRANGE WONDER",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 14 Sunday of All Antioch and American Saints",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -2284,6 +2459,7 @@
         "description": "For All Saints of Antioch in Tone One\n(**Thou art the joy**) | ElMassih",
         "automelon": "THOU ART THE JOY",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 14 Sunday of All Antioch and American Saints",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -2299,6 +2475,7 @@
         "description": "For All Saints of North America in\nTone Eight (**What shall we now call you**) | Karam",
         "automelon": "WHAT SHALL WE NOW CALL YOU",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 14 Sunday of All Antioch and American Saints",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -2314,6 +2491,7 @@
         "description": "For All Saints of North America\nin Tone Two | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 14 Sunday of All Antioch and American Saints",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -2324,7 +2502,8 @@
     "name": "21B Stichera-2nd-Kazan-EN-ForgivenessVespers-W.pdf",
     "description": "For Forgiveness Sunday in Tone Two",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 04 Sunday of Forgiveness",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "FOR LAZARUS SATURDAY IN TONE ONE": {
     "type": "multi",
@@ -2336,6 +2515,7 @@
         "description": "For Lazarus Saturday in Tone One | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-06 Saturday of the 6th Week - Lazarus Saturday",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -2351,6 +2531,7 @@
         "description": "For Palm Sunday in Tone Four | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 10 Sunday of the 6th Week of Lent - Palm Sunday",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -2366,6 +2547,7 @@
         "description": "For Palm Sunday in Tone Six | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-06 Saturday of the 6th Week - Lazarus Saturday",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -2376,7 +2558,8 @@
     "name": "10A Praises-pl4th-SaturdaySouls.pdf",
     "description": "For Souls Saturday in Tone Eight\n(**The Paradise of Eden**)",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02-1 SATURDAY BEFORE MEAT-FARE SUNDAY",
-    "automelon": "PARADISE OF EDEN"
+    "automelon": "PARADISE OF EDEN",
+    "periodId": "triodion"
   },
   "FOR SS. CONSTANTINE & HELEN IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/1M4uWoIowHWGp05wkB-GDR5EWjL5T07Kq/view?usp=drivesdk",
@@ -2384,6 +2567,7 @@
     "description": "For Ss. Constantine & Helen in Tone Eight",
     "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 09 May / 21 St Constantine and Helen",
     "automelon": "",
+    "periodId": "menaion",
     "feast": "St Constantine and Helen",
     "feastId": "21-05"
   },
@@ -2397,6 +2581,7 @@
         "description": "For Ss. Peter and Paul in Tone Four (**Thou Who wast called from on high**) | ElMassih",
         "automelon": "THOU WHO WAST CALLED FROM ON HIGH",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 10 June / June 28",
+        "periodId": "menaion",
         "feast": "",
         "feastId": ""
       }
@@ -2412,6 +2597,7 @@
         "description": "For St. Athanasius in Tone Two | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 05 July St Athanasios",
+        "periodId": "menaion",
         "feast": "July St Athanasios",
         "feastId": "05-07"
       }
@@ -2422,7 +2608,8 @@
     "name": "PraisesStGregoryTheologian-4th-AA-EN.pdf",
     "description": "For St. Gregory in Tone Four",
     "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 05 January / Jan 25 - St Gregory the Theologian",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "menaion"
   },
   "FOR ST. JOSEPH OF DAMASCUS IN TONE ONE": {
     "type": "multi",
@@ -2434,6 +2621,7 @@
         "description": "For St. Joseph of Damascus in Tone One | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 10 July St Joseph of Damascus",
+        "periodId": "menaion",
         "feast": "July St Joseph of Damascus",
         "feastId": "10-07"
       }
@@ -2449,6 +2637,7 @@
         "description": "For St. Julian in Tone Four\n(**As one valiant**) | El Massih",
         "automelon": "AS ONE VALIANT",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 10 June / June 21 St Julian of Tarsus",
+        "periodId": "menaion",
         "feast": "",
         "feastId": ""
       }
@@ -2464,6 +2653,7 @@
         "description": "For St. Titus in Tone Eight\n(**O strange wonder**) | AA",
         "automelon": "O STRANGE WONDER",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-03 Wednesday - Presanctified Gifts Liturgy",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -2474,14 +2664,16 @@
     "name": "1 Stichera-pl2nd-AA-EN-ForgivenessSunday.pdf",
     "description": "For Sunday of Forgiveness in Tone Six (**Having laid up all their hope**)",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 04 Sunday of Forgiveness",
-    "automelon": "HAVING LAID UP ALL THEIR HOPE"
+    "automelon": "HAVING LAID UP ALL THEIR HOPE",
+    "periodId": "triodion"
   },
   "FOR THE FIRST SUNDAY OF GREAT LENT IN TONE FOUR": {
     "url": "https://drive.google.com/file/d/1P3F4Tu1Nb6o_H3NjYEzoTV1OD8f2KaGy/view?usp=drivesdk",
     "name": "13 Praises-4th-AA-EN-OrthodoxySunday-W.pdf",
     "description": "For the First Sunday of Great Lent in Tone Four (**Unto them that fear thee**)",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 05 Sunday of the 1st Week of Lent - Orthodoxy",
-    "automelon": "UNTO THEM THAT FEAR THEE"
+    "automelon": "UNTO THEM THAT FEAR THEE",
+    "periodId": "triodion"
   },
   "FOR THE FOURTH WEDNESDAY IN TONE FOUR": {
     "type": "multi",
@@ -2493,6 +2685,7 @@
         "description": "For the Fourth Wednesday in Tone Four | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 07-1 Wednesday of the 4th Week of Lent",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       },
@@ -2503,6 +2696,7 @@
         "description": "For the Fourth Wednesday in Tone Four | GCremeens",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 07-1 Wednesday of the 4th Week of Lent",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -2518,6 +2712,7 @@
         "description": "For the Myrrh-bearing Women in Tone Two | Creemens",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 03 Sunday of Myrrh-Bearers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -2533,6 +2728,7 @@
         "description": "For the Paralytic in Tone One | EM",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 04 Sunday of the Paralytic",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -2543,6 +2739,7 @@
         "description": "For the Paralytic in Tone One | DCS",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 04 Sunday of the Paralytic",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -2553,7 +2750,8 @@
     "name": "1 Sticheras-1st-Karam-EN.pdf",
     "description": "For the Pharisee and Publican in Tone One",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 01 Sunday of the Pharisee and Publican",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "FOR THE SAINTS IN TONE FOUR": {
     "type": "multi",
@@ -2565,6 +2763,7 @@
         "description": "For the Saints in Tone Four\n(**Unto them that fear Thee**) | ElMassih",
         "automelon": "UNTO THEM THAT FEAR THEE",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 07-1 Wednesday of the 4th Week of Lent",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -2580,6 +2779,7 @@
         "description": "For the Sixth Wednesday in Tone Five | AA",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-03 Wednesday - Presanctified Gifts Liturgy",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -2590,14 +2790,16 @@
     "name": "1 Sticheras-pl1st-VenerationOfCross.pdf",
     "description": "For the Third Sunday of Great Lent\nin Tone Five (**Rejoice**)",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 07 Sunday of the 3rd Week of Lent - Veneration of the Cross",
-    "automelon": "REJOICE"
+    "automelon": "REJOICE",
+    "periodId": "triodion"
   },
   "FOR THE THIRD SUNDAY OF GREAT LENT IN TONE FOUR": {
     "url": "https://drive.google.com/file/d/1O1XiswqYo9ma1zPnDZvZJiXYEWbpel3S/view?usp=drivesdk",
     "name": "13 Praises-4th-ElMassih.pdf",
     "description": "For the Third Sunday of Great Lent\nin Tone Four (**As one valiant**)",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 07 Sunday of the 3rd Week of Lent - Veneration of the Cross",
-    "automelon": "AS ONE VALIANT"
+    "automelon": "AS ONE VALIANT",
+    "periodId": "triodion"
   },
   "FOURTH EOTHINON EXAPOSTEILARION IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1RzMyZwydsSutEptfDFa8Emb2vf6h5Rhu/view?usp=drivesdk",
@@ -2667,7 +2869,8 @@
     "name": "1 GodIsWithUs-pl2nd.pdf",
     "description": "“GOD IS WITH US” IN TONE SIX",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / Great Compline",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "GOOD WORD ( VERSES FROM PSALM 44 ) IN TONE ONE": {
     "type": "multi",
@@ -2679,6 +2882,7 @@
         "description": "“A GOOD WORD” (VERSES FROM PSALM 44) IN TONE ONE | El Massih",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -2689,6 +2893,7 @@
         "description": "“A GOOD WORD” (VERSES FROM PSALM 44) IN TONE ONE | Phoakeus",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -2718,6 +2923,7 @@
         "description": "THE Great Doxology IN TONE FOUR | SA",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -2740,6 +2946,7 @@
         "description": "THE GREAT DOXOLOGY IN TONE SIX | Simon Petras",
         "automelon": "",
         "path": "Byzantine Music / Bilingual Services / Divine Liturgy / MetropolitanSaba-June2026 / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -2750,6 +2957,7 @@
         "description": "THE GREAT DOXOLOGY IN TONE SIX | En Gr Ar",
         "automelon": "",
         "path": "Byzantine Music / Bilingual Services / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -2765,6 +2973,7 @@
         "description": "GREAT DOXOLOGY IN TONE THREE | Brief",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -2780,6 +2989,7 @@
         "description": "THE GREAT DOXOLOGY IN TONE TWO | Kavadas",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -2795,6 +3005,7 @@
         "description": "THE GREAT PROKEIMENON\nIN TONE SEVEN | Traditional",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 01 Sunday of Great and Holy Pascha",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -2813,6 +3024,7 @@
     "description": "IDIOMELON FOR THE HOLY CROSS IN TONE TWO",
     "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross",
     "automelon": "",
+    "periodId": "menaion",
     "feast": "Exaltation of the Cross",
     "feastId": "14-09"
   },
@@ -2826,6 +3038,7 @@
         "description": "If the procession is begun as the Great Doxology concludes in Orthros, the final \"Holy God, Holy Mighty\" is slowly chanted (traditionally, if possible, in the “Agia” style of Tone Four). | Fr Romano",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross",
+        "periodId": "menaion",
         "feast": "Exaltation of the Cross",
         "feastId": "14-09"
       },
@@ -2836,6 +3049,7 @@
         "description": "If the procession is begun as the Great Doxology concludes in Orthros, the final \"Holy God, Holy Mighty\" is slowly chanted (traditionally, if possible, in the “Agia” style of Tone Four). | Creemens",
         "automelon": "",
         "path": "MyPrivateEnglishMusic / Menaion / 01 September / 14 Elevation of the Holy Cross",
+        "periodId": "menaion",
         "feast": "Elevation of the Holy Cross",
         "feastId": "14-09"
       }
@@ -2858,6 +3072,7 @@
         "description": "THE KATAVASIAE OF\nBOTH PENTECOST CANONS | AA",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 12 Sunday of Pentecost",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -2868,7 +3083,8 @@
     "name": "11 Ode1-9-4th-Karam-EN-OrthodoxySunday.pdf",
     "description": "KATAVASIAE OF FIRST SUNDAY OF GREAT LENT CANON IN TONE FOUR",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 05 Sunday of the 1st Week of Lent - Orthodoxy",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "KATAVASIAE OF THE AKATHIST CANON IN TONE FOUR": {
     "url": "https://drive.google.com/file/d/1udnT0wc2MMXKMQUPsRdl3bDHFuZQa5Rl/view?usp=drivesdk",
@@ -2887,6 +3103,7 @@
         "description": "THE KATAVASIAE OF THE\nASCENSION CANONS IN TONE FOUR | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 09 The Ascension of Our Lord Jesus Christ ",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -2902,6 +3119,7 @@
         "description": "THE KATAVASIAE OF THE DORMITION CANON IN TONE ONE | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -2917,6 +3135,7 @@
         "description": "THE KATAVASIAE OF THE HOLY CROSS CANON IN TONE EIGHT | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -2932,6 +3151,7 @@
         "description": "KATAVASIAE OF THE LAZARUS SATURDAY CANON IN TONE EIGHT | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-06 Saturday of the 6th Week - Lazarus Saturday",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -2947,6 +3167,7 @@
         "description": "KATAVASIAE OF THE PALM SUNDAY CANON IN TONE FOUR | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 10 Sunday of the 6th Week of Lent - Palm Sunday",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -2962,6 +3183,7 @@
         "description": "THE KATAVASIAE OF THE PASCHAL CANON IN TONE ONE | AA Canon",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -2972,6 +3194,7 @@
         "description": "THE KATAVASIAE OF THE PASCHAL CANON IN TONE ONE | AA Katavasiae v2",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -2982,6 +3205,7 @@
         "description": "THE KATAVASIAE OF THE PASCHAL CANON IN TONE ONE | EM",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -2999,7 +3223,8 @@
     "name": "7 KatavasiaeOdes1to9-pl4th-Karam-EN-SaturdaySouls.pdf",
     "description": "THE KATAVASIAE OF THE SOULS SATURDAY CANON IN TONE EIGHT",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02-1 SATURDAY BEFORE MEAT-FARE SUNDAY",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "KATAVASIAE OF THE SUNDAY OF FORGIVENESS CANON IN TONE SIX": {
     "url": "https://drive.google.com/file/d/1w_7ShR2IXmJHpqMtNtSLHpKReGB-1aSS/view?usp=drivesdk",
@@ -3032,6 +3257,7 @@
         "description": "KATAVASIAE OF THIRD SUNDAY OF GREAT LENT CANON IN TONE ONE | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -3042,7 +3268,8 @@
     "name": "6 Kathismata-pl1st-Karam-EN-SaturdaySouls.pdf",
     "description": "KATHISMA HYMNS OF SOULS SATURDAY IN TONE FIVE",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02-1 SATURDAY BEFORE MEAT-FARE SUNDAY",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "KATHISMATA HYMNS OF PENTECOST": {
     "type": "multi",
@@ -3054,6 +3281,7 @@
         "description": "KATHISMATA HYMNS OF PENTECOST | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 12 Sunday of Pentecost",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -3069,6 +3297,7 @@
         "description": "KATHISMATA HYMNS OF ST. JOSEPH | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 10 July St Joseph of Damascus",
+        "periodId": "menaion",
         "feast": "July St Joseph of Damascus",
         "feastId": "10-07"
       }
@@ -3084,6 +3313,7 @@
         "description": "KATHISMATA HYMNS OF THE BAPTIST’S BEHEADING | DCS - W",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 29 Beheading St John the Baptist",
+        "periodId": "menaion",
         "feast": "Beheading St John the Baptist",
         "feastId": "29-08"
       }
@@ -3099,6 +3329,7 @@
         "description": "KATHISMATA HYMNS OF THE DORMITION | El Massih",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 15 Dormition of Theotokos",
+        "periodId": "menaion",
         "feast": "Dormition of Theotokos",
         "feastId": "15-08"
       }
@@ -3114,6 +3345,7 @@
         "description": "KATHISMATA HYMNS OF THE SAINTS | Karam for Sts Nicholas & Habib",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 16 July Hyeromartyrs Nicholas and Habib",
+        "periodId": "menaion",
         "feast": "July Hyeromartyrs Nicholas and Habib",
         "feastId": "16-07"
       }
@@ -3129,6 +3361,7 @@
         "description": "KOINONIKON (COMMUNION HYMN) FOR PENTECOST IN TONE EIGHT | 1st Simonpetras",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 12 Sunday of Pentecost",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -3144,6 +3377,7 @@
         "description": "KOINONIKON (COMMUNION HYMN) FOR PSALM SUNDAY IN TONE EIGHT | SA",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 10 Sunday of the 6th Week of Lent - Palm Sunday",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -3159,6 +3393,7 @@
         "description": "KOINONIKON (COMMUNION HYMN) FOR SS. PETER & PAUL IN TONE EIGHT | SA",
         "automelon": "",
         "path": "Byzantine Music / Bilingual Services / Divine Liturgy / MetropolitanSaba-June2026",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -3174,6 +3409,7 @@
         "description": "KOINONIKON (COMMUNION HYMN) FOR THE TRANSFIGURATION | SA",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 06 Transfiguration ",
+        "periodId": "menaion",
         "feast": "Transfiguration",
         "feastId": "06-08"
       }
@@ -3189,6 +3425,7 @@
         "description": "KONTAKION AND OIKOS FOR\nST. JOSEPH (Plain Reading) | Kontakion",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 10 July St Joseph of Damascus",
+        "periodId": "menaion",
         "feast": "July St Joseph of Damascus",
         "feastId": "10-07"
       }
@@ -3199,14 +3436,16 @@
     "name": "8 Kontakion-pl2nd.pdf",
     "description": "KONTAKION FOR SUNDAY OF FORGIVENESS IN TONE SIX",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 04 Sunday of Forgiveness",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "KONTAKION FOR THE DEPARTED IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/124m1t-a1PA6yCe2cp6Ri07pmUuLV3ZvS/view?usp=drivesdk",
     "name": "15 Kontakion-pl4th-SA-EN-SaturdaySouls.pdf",
     "description": "KONTAKION FOR THE DEPARTED\nIN TONE EIGHT",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02-1 SATURDAY BEFORE MEAT-FARE SUNDAY",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "KONTAKION OF THE ELEVATION OF THE HOLY CROSS IN TONE FOUR": {
     "type": "multi",
@@ -3218,6 +3457,7 @@
         "description": "KONTAKION OF THE ELEVATION OF THE HOLY CROSS IN TONE FOUR | St Anthony",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross",
+        "periodId": "menaion",
         "feast": "Exaltation of the Cross",
         "feastId": "14-09"
       }
@@ -3228,7 +3468,8 @@
     "name": "26 LentenApolytikia-pl1st-ElMassih-EN-ForgivenessVespers.pdf",
     "description": "LENTEN APOLYTIKIA IN TONE FIVE",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 04 Sunday of Forgiveness",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "LENTEN TROPARIA AFTER PSALM 50 IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/1o20OT0oxtV0CTFqUC04IfFK73_6m0fyJ/view?usp=drivesdk",
@@ -3254,6 +3495,7 @@
         "description": "LET MY PRAYER BE SET FORTH (PSALM 140) | 1st Mode Chasanidis",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / Pre Sanctified Gifts",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       },
@@ -3264,6 +3506,7 @@
         "description": "LET MY PRAYER BE SET FORTH (PSALM 140) |  Pl 1st mode Traditional",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / Pre Sanctified Gifts",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       },
@@ -3274,6 +3517,7 @@
         "description": "LET MY PRAYER BE SET FORTH (PSALM 140) | pl2nd mode Traditional",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / Pre Sanctified Gifts",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -3289,6 +3533,7 @@
         "description": "LITTLE COMPLINE CANON FOR LAZARUS SATURDAY IN TONE ONE | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-05 Friday of the 6th Week - Small Compline",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -3325,6 +3570,7 @@
         "description": "MAGNIFICATIONS IN TONE ONE | El Massih",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -3354,6 +3600,7 @@
         "description": "MEGALYNARION FOR LAZARUS SATURDAY IN TONE EIGHT | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-06 Saturday of the 6th Week - Lazarus Saturday",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -3369,6 +3616,7 @@
         "description": "MEGALYNARION FOR PALM SUNDAY IN TONE FOUR |  Stanitsas",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 10 Sunday of the 6th Week of Lent - Palm Sunday",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       },
@@ -3379,6 +3627,7 @@
         "description": "MEGALYNARION FOR PALM SUNDAY IN TONE FOUR | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 10 Sunday of the 6th Week of Lent - Palm Sunday",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -3394,6 +3643,7 @@
         "description": "MEGALYNARION FOR THE FEAST\nIN TONE SEVEN | enarmonic grave - Karamanis",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 12 Sunday of Pentecost",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -3404,6 +3654,7 @@
         "description": "MEGALYNARION FOR THE FEAST\nIN TONE SEVEN | diatonic grave - Karamanis",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 12 Sunday of Pentecost",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -3414,6 +3665,7 @@
         "description": "MEGALYNARION FOR THE FEAST\nIN TONE SEVEN | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 12 Sunday of Pentecost",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -3424,7 +3676,8 @@
     "name": "2 TheBodilessNature-pl2nd.pdf",
     "description": "MORE VERSES IN TONE SIX",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / Great Compline",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "NINTH EOTHINON DOXASTICON IN TONE FIVE": {
     "type": "multi",
@@ -3436,6 +3689,7 @@
         "description": "THE NINTH EOTHINON DOXASTICON IN TONE FIVE | SA",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -3451,6 +3705,7 @@
         "description": "NINTH ODE: FIRST NATIVITY OF THEOTOKOS CANON IN TONE TWO | El Massih",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 08 Nativity of the Theotokos",
+        "periodId": "menaion",
         "feast": "Nativity of the Theotokos",
         "feastId": "08-09"
       }
@@ -3466,6 +3721,7 @@
         "description": "THE NINTH ODE OF THE FIRST DORMITION CANON IN TONE ONE | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 15 Dormition of Theotokos",
+        "periodId": "menaion",
         "feast": "Dormition of Theotokos",
         "feastId": "15-08"
       }
@@ -3481,6 +3737,7 @@
         "description": "NINTH ODE OF THE FIRST TRANSFIGURATION CANON IN TONE FOUR | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 06 Transfiguration ",
+        "periodId": "menaion",
         "feast": "Transfiguration",
         "feastId": "06-08"
       }
@@ -3496,6 +3753,7 @@
         "description": "THE NINTH ODE OF THE PASCHAL & THEOTOKOS CANONS IN TONE ONE | AA",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -3511,6 +3769,7 @@
         "description": "NINTH ODE: SECOND NATIVITY OF THEOTOKOS CANON IN TONE EIGHT | EM",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 08 Nativity of the Theotokos",
+        "periodId": "menaion",
         "feast": "Nativity of the Theotokos",
         "feastId": "08-09"
       }
@@ -3526,6 +3785,7 @@
         "description": "NOW THE POWERS OF HEAVEN | BCrow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / Pre Sanctified Gifts",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       },
@@ -3536,6 +3796,7 @@
         "description": "NOW THE POWERS OF HEAVEN | SA",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / Pre Sanctified Gifts",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -3551,6 +3812,7 @@
         "description": "“O LORD, I HAVE CRIED” IN TONE EIGHT | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -3566,6 +3828,7 @@
         "description": "“O LORD, I HAVE CRIED” IN TONE FIVE | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -3581,6 +3844,7 @@
         "description": "“O LORD, I HAVE CRIED” IN TONE FOUR | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -3596,6 +3860,7 @@
         "description": "“O LORD, I HAVE CRIED” IN TONE ONE | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -3611,6 +3876,7 @@
         "description": "“O LORD, I HAVE CRIED” IN TONE SEVEN | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -3626,6 +3892,7 @@
         "description": "“O LORD, I HAVE CRIED” IN TONE SIX | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -3641,6 +3908,7 @@
         "description": "“O LORD, I HAVE CRIED” IN TONE THREE | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -3656,6 +3924,7 @@
         "description": "“O LORD, I HAVE CRIED” IN TONE TWO | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -3666,14 +3935,16 @@
     "name": "5 OLordOfHosts-pl2nd.pdf",
     "description": "“O LORD OF HOSTS” IN TONE SIX",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / Great Compline",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "PASCHAL CANON": {
     "url": "https://drive.google.com/file/d/1dRWAtc3OmVSy9Ua_f0CnSZAcgMXDOIHp/view?usp=drivesdk",
     "name": "27 PaschalCanon-1st-Karam-EN-ForgivenessSunday.pdf",
     "description": "PASCHAL CANON",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 04 Sunday of Forgiveness",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "PASCHAL STICHERA IN TONE FIVE": {
     "type": "multi",
@@ -3685,6 +3956,7 @@
         "description": "THE PASCHAL STICHERA\nIN TONE FIVE | EM",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 01 Sunday of Great and Holy Pascha",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -3695,6 +3967,7 @@
         "description": "THE PASCHAL STICHERA\nIN TONE FIVE | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 01 Sunday of Great and Holy Pascha",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -3705,6 +3978,7 @@
         "description": "THE PASCHAL STICHERA\nIN TONE FIVE | EM bl",
         "automelon": "",
         "path": "Byzantine Music / Bilingual Services / Pentecostarion / 01 Sunday of Great and Holy Pascha",
+        "periodId": "pentecostarion",
         "feast": "",
         "feastId": ""
       }
@@ -3715,7 +3989,8 @@
     "name": "21A Stichera-4th-Karam-EN-ForgivenessVespers-W.pdf",
     "description": "The Penitential Stichera from the Triodion\nin Tone Four (**The original melody**)",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 04 Sunday of Forgiveness",
-    "automelon": "ORIGINAL MELODY"
+    "automelon": "ORIGINAL MELODY",
+    "periodId": "triodion"
   },
   "PHIMI SAYEDNA SABA": {
     "url": "https://drive.google.com/file/d/1xY0YxAXOR2o5veV4zNFUzCtSUce933bR/view?usp=drivesdk",
@@ -3734,6 +4009,7 @@
         "description": "POLYELEOS HYMNS IN TONE EIGHT\n(**When the bodiless one**) | Karam",
         "automelon": "WHEN THE BODILESS ONE",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 10 Sunday of the 6th Week of Lent - Palm Sunday",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -3749,6 +4025,7 @@
         "description": "POLYELEOS HYMNS OF PENTECOST | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 12 Sunday of Pentecost",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -3764,6 +4041,7 @@
         "description": "POLYELEOS HYMNS OF THE DORMITION IN TONE THREE | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 15 Dormition of Theotokos",
+        "periodId": "menaion",
         "feast": "Dormition of Theotokos",
         "feastId": "15-08"
       }
@@ -3779,6 +4057,7 @@
         "description": "THE POLYELEOS IN TONE ONE (ABRIDGED) | 134 - El Murr",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -3789,6 +4068,7 @@
         "description": "THE POLYELEOS IN TONE ONE (ABRIDGED) | 135 3-metered",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -3799,6 +4079,7 @@
         "description": "THE POLYELEOS IN TONE ONE (ABRIDGED) | Brief El Massih",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -3809,6 +4090,7 @@
         "description": "THE POLYELEOS IN TONE ONE (ABRIDGED) | Brief Athonite",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -3826,14 +4108,16 @@
     "name": "6A Praises-pl1st-Karam-EN-ForgivenessSunday.pdf",
     "description": "Praises For the Sunday of Forgiveness in Tone Five",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 04 Sunday of Forgiveness",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "PRAISES FOR THE SUNDAY OF THE LAST JUDGMENT IN TONE SIX": {
     "url": "https://drive.google.com/file/d/1IdPacTCLDzAVyUdClPf58Z_izVajvX0p/view?usp=drivesdk",
     "name": "6 PraisesSunday-pl2nd-SundayLastJudgment.pdf",
     "description": "Praises For the Sunday of the Last Judgment\nin Tone Six",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 03 Sunday of the Last Judgment",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "PROKEIMENON FOR PENTECOST IN TONE FOUR": {
     "type": "multi",
@@ -3845,6 +4129,7 @@
         "description": "PROKEIMENON FOR PENTECOST\nIN TONE FOUR | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 12 Sunday of Pentecost",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -3860,6 +4145,7 @@
         "description": "PROKEIMENON FOR ST. JOSEPH\nIN TONE FOUR | AA",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 10 July St Joseph of Damascus",
+        "periodId": "menaion",
         "feast": "July St Joseph of Damascus",
         "feastId": "10-07"
       }
@@ -3870,7 +4156,8 @@
     "name": "2 ProkeimenonToARighteous-4th-AA-EN.pdf",
     "description": "PROKEIMENON FOR ST. JULIAN\nIN TONE FOUR",
     "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 06 February / 06",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "menaion"
   },
   "PROKEIMENON FOR THE ASCENSION IN TONE FOUR": {
     "url": "https://drive.google.com/file/d/14ns3pTVhXSlA54JSy5Aw8JaThTCSGiRu/view?usp=drivesdk",
@@ -3889,6 +4176,7 @@
         "description": "Prokeimenon FOR THE DORMITION in Tone FOUR | Holwey",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 15 Dormition of Theotokos",
+        "periodId": "menaion",
         "feast": "Dormition of Theotokos",
         "feastId": "15-08"
       }
@@ -3904,6 +4192,7 @@
         "description": "PROKEIMENON FOR THE FEAST\nIN TONE FOUR | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 10 Sunday of the 6th Week of Lent - Palm Sunday",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -3975,6 +4264,7 @@
         "description": "PROKEIMENON FOR THE SAINTS\nIN TONE FOUR | Karam for Sts Nicholas & Habib",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 16 July Hyeromartyrs Nicholas and Habib",
+        "periodId": "menaion",
         "feast": "July Hyeromartyrs Nicholas and Habib",
         "feastId": "16-07"
       }
@@ -3997,6 +4287,7 @@
         "description": "PSALM 33 | Simonos-Petra",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / Pre Sanctified Gifts",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -4119,7 +4410,8 @@
     "name": "6 OAllHolyTheotokos-2nd.pdf",
     "description": "Right: O all-holy Theotokos, forsake me not in the years of my life, O intecessor for mankind; but help me and have mercy on me.",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / Great Compline",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "SATURDAY PROKEIMENON IN TONE SIX": {
     "url": "https://drive.google.com/file/d/1EjnhljX5B4GlP0kyzPL6aFICkyLxVGBt/view?usp=drivesdk",
@@ -4138,6 +4430,7 @@
         "description": "Save us, O Good Comforter, who sing to Thee: Alleluia. | SA",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 12 Sunday of Pentecost",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -4148,7 +4441,8 @@
     "name": "16 SaveUsSonOfGod-2nd-FrRomanos-Ar-GR-PresentationLord.pdf",
     "description": "THE SECOND ANTIPHON FOR THE PRESENTATION OF CHRIST",
     "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 06 February / 02",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "menaion"
   },
   "SECOND ANTIPHON FOR WEEKDAY": {
     "url": "https://drive.google.com/file/d/1fxk-sENc6yKjE4O74k_hWWDn38Rp1U5w/view?usp=drivesdk",
@@ -4167,6 +4461,7 @@
         "description": "THE SECOND EOTHINON DOXASTICON IN TONE TWO | SA",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -4189,6 +4484,7 @@
         "description": "Second Kathisma Hymns in Tone Four\n(**Joseph was amazed—hard chromatic**) | Karam",
         "automelon": "JOSEPH WAS AMAZED-HARD CHROMATIC",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 10 Sunday of the 6th Week of Lent - Palm Sunday",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -4204,6 +4500,7 @@
         "description": "SECOND KATHISMA HYMNS OF LAZARUS SATURDAY IN TONE FIVE\n(**Let us worship the Word**) | Karam",
         "automelon": "LET US WORSHIP THE WORD",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-06 Saturday of the 6th Week - Lazarus Saturday",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -4226,6 +4523,7 @@
         "description": "THE SIXTH EOTHINON DOXASTICON IN TONE SIX | AA",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -4243,7 +4541,8 @@
     "name": "8 TheotokiaTuesThurs-1st.pdf",
     "description": "STAVRO-THEOTOKION IN TONE ONE\n(**O all-lauded Martyrs**)",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / Great Compline",
-    "automelon": "O ALL-LAUDED MARTYRS"
+    "automelon": "O ALL-LAUDED MARTYRS",
+    "periodId": "triodion"
   },
   "SUNDAY PROKEIMENON IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/1ZXaSypeD5Hjzl8kugL17QBMi6BpiBEOr/view?usp=drivesdk",
@@ -4262,6 +4561,7 @@
         "description": "THE TENTH EOTHINON DOXASTICON IN TONE SIX | SA",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -4277,6 +4577,7 @@
         "description": "THE TENTH EOTHINON EXAPOSTEILARION IN TONE TWO\n(**Upon that mount in Galilee **) | Tony H",
         "automelon": "UPON THAT MOUNT IN GALILEE",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -4292,6 +4593,7 @@
         "description": "THEOTOKION FOR THE RESURRECTION IN TONE EIGHT | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -4302,6 +4604,7 @@
         "description": "THEOTOKION FOR THE RESURRECTION IN TONE EIGHT | Brief",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -4317,6 +4620,7 @@
         "description": "THEOTOKION FOR THE RESURRECTION IN TONE ONE | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -4327,6 +4631,7 @@
         "description": "THEOTOKION FOR THE RESURRECTION IN TONE ONE | Brief",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -4342,6 +4647,7 @@
         "description": "THEOTOKION FOR THE RESURRECTION IN TONE SEVEN | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -4357,6 +4663,7 @@
         "description": "THEOTOKION FOR THE RESURRECTION IN TONE THREE | Brief",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -4367,6 +4674,7 @@
         "description": "THEOTOKION FOR THE RESURRECTION IN TONE THREE  | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -4382,6 +4690,7 @@
         "description": "Theotokion from the Menaion in Tone Eight\n(**O strange wonder**) | ElMassih",
         "automelon": "O STRANGE WONDER",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-03 Wednesday - Presanctified Gifts Liturgy",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -4404,6 +4713,7 @@
         "description": "Theotokion from the Triodion in Tone Eight | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 07-1 Wednesday of the 4th Week of Lent",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -4414,7 +4724,8 @@
     "name": "25 TheotokionTheeDoAllTheAngelicRanks-4th-ElMassih-EN-AkatistHymn.pdf",
     "description": "THEOTOKION IN TONE FOUR\n(**As one valiant**)",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 04 Sunday of Forgiveness",
-    "automelon": "AS ONE VALIANT"
+    "automelon": "AS ONE VALIANT",
+    "periodId": "triodion"
   },
   "THEOTOKION IN TONE THREE": {
     "type": "multi",
@@ -4426,6 +4737,7 @@
         "description": "THEOTOKION IN TONE THREE\n(**The original melody**) | Karam",
         "automelon": "ORIGINAL MELODY",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-05 Friday of the 6th Week - Small Compline",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       },
@@ -4436,6 +4748,7 @@
         "description": "THEOTOKION IN TONE THREE\n(**The original melody**) | Stanitsas",
         "automelon": "ORIGINAL MELODY",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-05 Friday of the 6th Week - Small Compline",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -4446,7 +4759,8 @@
     "name": "7 TheotokiaMonWednes-2nd.pdf",
     "description": "THEOTOKION IN TONE TWO\n(**When he took Thee**)",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / Great Compline",
-    "automelon": "WHEN HE TOOK THEE"
+    "automelon": "WHEN HE TOOK THEE",
+    "periodId": "triodion"
   },
   "THEOTOKION OF THE BEHEADING IN TONE SIX": {
     "type": "multi",
@@ -4458,6 +4772,7 @@
         "description": "THEOTOKION OF THE BEHEADING IN TONE SIX | El Massih",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 29 Beheading St John the Baptist",
+        "periodId": "menaion",
         "feast": "Beheading St John the Baptist",
         "feastId": "29-08"
       }
@@ -4480,6 +4795,7 @@
         "description": "THE THIRD EOTHINON EXAPOSTEILARION IN TONE TWO | AA",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -4490,6 +4806,7 @@
         "description": "THE THIRD EOTHINON EXAPOSTEILARION IN TONE TWO | Tony H",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -4507,14 +4824,16 @@
     "name": "17 TrisagionForTheDeparted-4th.pdf",
     "description": "TROPARIA FOR THE DEPARTED\nIN TONE FOUR",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02-1 SATURDAY BEFORE MEAT-FARE SUNDAY",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "TROPARIA OF CONTRITION IN TONE SIX": {
     "url": "https://drive.google.com/file/d/1JJrHoiNSlqt04iBwJZ2InoNYUWuQG0RB/view?usp=drivesdk",
     "name": "4 PenitentialTroparia-pl2nd.pdf",
     "description": "TROPARIA OF CONTRITION\nIN TONE SIX",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / Great Compline",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "TROPARION IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/1pAr6nHJEpxjZck2tjmw06F9jbk9U0J1Z/view?usp=drivesdk",
@@ -4533,6 +4852,7 @@
         "description": "[LT] DOXASTICON & THEOTOKION OF THE LITIA PROCESSION IN TONE SIX | Theotokion Ell Massih",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 12 July St Paisios",
+        "periodId": "menaion",
         "feast": "July St Paisios",
         "feastId": "12-07"
       },
@@ -4543,6 +4863,7 @@
         "description": "[LT] DOXASTICON & THEOTOKION OF THE LITIA PROCESSION IN TONE SIX | Doxastikon Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 12 July St Paisios",
+        "periodId": "menaion",
         "feast": "July St Paisios",
         "feastId": "12-07"
       },
@@ -4553,6 +4874,7 @@
         "description": "[LT] DOXASTICON & THEOTOKION OF THE LITIA PROCESSION IN TONE SIX | Doxastikon DCS",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 12 July St Paisios",
+        "periodId": "menaion",
         "feast": "July St Paisios",
         "feastId": "12-07"
       }
@@ -4568,6 +4890,7 @@
         "description": "[LT] THE DOXASTICON OF THE LITIA PROCESSION IN TONE FOUR | Haddad",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross",
+        "periodId": "menaion",
         "feast": "Exaltation of the Cross",
         "feastId": "14-09"
       }
@@ -4583,6 +4906,7 @@
         "description": "[LT] DOXASTICON OF THE THEOTOKOS NATIVITY LITIA PROCESSION IN TONE EIGHT | Creemens",
         "automelon": "",
         "path": "MyPrivateEnglishMusic / Menaion / 01 September / 08 Nativity Of The Theotokos",
+        "periodId": "menaion",
         "feast": "Nativity Of The Theotokos",
         "feastId": "08-09"
       }
@@ -4612,6 +4936,7 @@
         "description": "[LT] ذُكصا زياح الليتين باللحنِ الرابِع | Fr N Malek",
         "automelon": "",
         "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Vespers ",
+        "periodId": "menaion",
         "feast": "",
         "feastId": ""
       },
@@ -4622,6 +4947,7 @@
         "description": "[LT] ذُكصا زياح الليتين باللحنِ الرابِع | El-Murr",
         "automelon": "",
         "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Vespers ",
+        "periodId": "menaion",
         "feast": "",
         "feastId": ""
       }
@@ -4637,6 +4963,7 @@
         "description": "[LV] THE FIRST ANTIPHON | En Ar Gr",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Divine Liturgy / 2 First Antiphon",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -4673,6 +5000,7 @@
         "description": "[L] For All Saints of Antioch | ElMassih",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 14 Sunday of All Antioch and American Saints",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -4688,6 +5016,7 @@
         "description": "[L] For All Saints of North America | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 14 Sunday of All Antioch and American Saints",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -4724,6 +5053,7 @@
         "description": "[O] AINOI (PRAISES) IN TONE FOUR | Brief",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -4739,6 +5069,7 @@
         "description": "[O] ANABATHMOI FROM THE OCTOECHOS IN TONE FIVE | St Anthony",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -4754,6 +5085,7 @@
         "description": "[O] DOXASTICON FOR THE MACCABEES IN TONE FOUR | Creemens",
         "automelon": "",
         "path": "MyPrivateEnglishMusic / Menaion / 12 August / 01 Procession of the Holy Cross",
+        "periodId": "menaion",
         "feast": "Procession of the Holy Cross",
         "feastId": "01-08"
       }
@@ -4764,7 +5096,8 @@
     "name": "7 PraisesDoxastikon-pl2nd-ForgivenessSunday.pdf",
     "description": "[O] DOXASTICON FOR THE SUNDAY OF FORGIVENESS IN TONE SIX",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 04 Sunday of Forgiveness",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "[O] DOXASTICON OF THE BEHEADING TONE SIX": {
     "type": "multi",
@@ -4776,6 +5109,7 @@
         "description": "[O] THE DOXASTICON OF THE BEHEADING IN TONE SIX | Creemens",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 29 Beheading St John the Baptist",
+        "periodId": "menaion",
         "feast": "Beheading St John the Baptist",
         "feastId": "29-08"
       }
@@ -4791,6 +5125,7 @@
         "description": "[O] Doxasticon OF THE DORMITION\nin Tone SIX | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 15 Dormition of Theotokos",
+        "periodId": "menaion",
         "feast": "Dormition of Theotokos",
         "feastId": "15-08"
       }
@@ -4806,6 +5141,7 @@
         "description": "[O] THE DOXASTICON OF THE\nHOLY FATHERS IN TONE EIGHT | AA",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 10 Sunday of the Holy Fathers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -4816,7 +5152,8 @@
     "name": "ProdigalSon-PraisesDoxastikon-pl2nd-Karam-EN.pdf",
     "description": "[O] DOXASTICON OF THE PRODIGAL SON IN TONE SIX",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02 Sunday of the Prodigal Son",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "[O] DOXASTICON OF THE SAINTS TONE EIGHT": {
     "type": "multi",
@@ -4828,6 +5165,7 @@
         "description": "[O] THE DOXASTICON OF THE SAINTS\nIN TONE EIGHT | Sts Nicholas & Habib",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 16 July Hyeromartyrs Nicholas and Habib",
+        "periodId": "menaion",
         "feast": "July Hyeromartyrs Nicholas and Habib",
         "feastId": "16-07"
       }
@@ -4843,6 +5181,7 @@
         "description": "[O] THE Doxasticon OF the transfiguration in Tone Eight | Ayoub",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 06 Transfiguration ",
+        "periodId": "menaion",
         "feast": "Transfiguration",
         "feastId": "06-08"
       }
@@ -4858,6 +5197,7 @@
         "description": "[O] ELEVATION OF THE CROSS TROPARIA AFTER PSALM 50 IN TONE TWO | Haddad",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross",
+        "periodId": "menaion",
         "feast": "Exaltation of the Cross",
         "feastId": "14-09"
       },
@@ -4868,6 +5208,7 @@
         "description": "[O] ELEVATION OF THE CROSS TROPARIA AFTER PSALM 50 IN TONE TWO | St Anthony",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross",
+        "periodId": "menaion",
         "feast": "Exaltation of the Cross",
         "feastId": "14-09"
       }
@@ -4883,6 +5224,7 @@
         "description": "[O] THE EXAPOSTEILARIA FOR NATIVITY OF THE THEOTOKOS IN TONE TWO\n(**Hearken, ye women**) | Karam",
         "automelon": "HEARKEN YE WOMEN",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 08 Nativity of the Theotokos",
+        "periodId": "menaion",
         "feast": "Nativity of the Theotokos",
         "feastId": "08-09"
       }
@@ -4898,6 +5240,7 @@
         "description": "[O] EXAPOSTEILARION & THEOTOKION FOR ST. PAISIOS IN TONE THREE | ElMassih",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 12 July St Paisios",
+        "periodId": "menaion",
         "feast": "July St Paisios",
         "feastId": "12-07"
       }
@@ -4913,6 +5256,7 @@
         "description": "[O] EXAPOSTEILARION & THEOTOKION OF ST. PARASKEVA IN TONE TWO\n(**Hearken, ye women**) | AA",
         "automelon": "HEARKEN YE WOMEN",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 26 July St Paraskeva",
+        "periodId": "menaion",
         "feast": "July St Paraskeva",
         "feastId": "26-07"
       }
@@ -4928,6 +5272,7 @@
         "description": "[O] EXAPOSTELARIA & THEOTOKION FOR THE CONSECRATION IN TONE TWO (**Upon that mount in Galilee**) | HTM",
         "automelon": "UPON THAT MOUNT IN GALILEE",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 13 Consecration of the Resurrection Curch",
+        "periodId": "menaion",
         "feast": "Consecration of the Resurrection Curch",
         "feastId": "13-09"
       }
@@ -4943,6 +5288,7 @@
         "description": "[O] EXAPOSTELARION & THEOTOKION FOR THE BAPTIST’S BEHEADING\nIN TONE TWO (**Upon that mount in Galilee **) | Karam",
         "automelon": "UPON THAT MOUNT IN GALILEE",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 29 Beheading St John the Baptist",
+        "periodId": "menaion",
         "feast": "Beheading St John the Baptist",
         "feastId": "29-08"
       }
@@ -4965,6 +5311,7 @@
         "description": "[O] For Archangel Michael in Tone One (**Thou art the joy**) | HTM",
         "automelon": "THOU ART THE JOY",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 06 St Archangel Michael Miracle in Colossae",
+        "periodId": "menaion",
         "feast": "St Archangel Michael Miracle in Colossae",
         "feastId": "06-09"
       }
@@ -4980,6 +5327,7 @@
         "description": "[O] For Pentecost in Tone Four | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 12 Sunday of Pentecost",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -4995,6 +5343,7 @@
         "description": "[O] For St. Athanasius in Tone Eight | ElMassih",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 05 July St Athanasios",
+        "periodId": "menaion",
         "feast": "July St Athanasios",
         "feastId": "05-07"
       }
@@ -5010,6 +5359,7 @@
         "description": "[O] For St. John Climacus in Tone Eight\n(**O strange wonder**) | ElMassih",
         "automelon": "O STRANGE WONDER",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 08 Sunday of the 4th Week of Lent - St John Climacus",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -5025,6 +5375,7 @@
         "description": "[O] For St. Paisios in Tone One | El Massih",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 12 July St Paisios",
+        "periodId": "menaion",
         "feast": "July St Paisios",
         "feastId": "12-07"
       }
@@ -5040,6 +5391,7 @@
         "description": "[O] For St. Paraskeva in Tone One\n(**Thou art the joy**) | Karam",
         "automelon": "THOU ART THE JOY",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 26 July St Paraskeva",
+        "periodId": "menaion",
         "feast": "July St Paraskeva",
         "feastId": "26-07"
       }
@@ -5055,6 +5407,7 @@
         "description": "[O] For St. Stephen in Tone Four\n(**Unto them that fear Thee**) | El Massih",
         "automelon": "UNTO THEM THAT FEAR THEE",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 02 August Transfer St Stephen Relics",
+        "periodId": "menaion",
         "feast": "August Transfer St Stephen Relics",
         "feastId": "02-08"
       }
@@ -5070,6 +5423,7 @@
         "description": "[O] For the Beheading in Tone Eight\n(**O strange wonder**) | El Massih",
         "automelon": "O STRANGE WONDER",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 29 Beheading St John the Baptist",
+        "periodId": "menaion",
         "feast": "Beheading St John the Baptist",
         "feastId": "29-08"
       }
@@ -5085,6 +5439,7 @@
         "description": "[O] For the Dormition in Tone Four (**As one valiant**) | El Massih",
         "automelon": "AS ONE VALIANT",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 15 Dormition of Theotokos",
+        "periodId": "menaion",
         "feast": "Dormition of Theotokos",
         "feastId": "15-08"
       }
@@ -5100,6 +5455,7 @@
         "description": "[O] For the Holy Cross Procession in Tone Four (**As one valiant**) | El Massih",
         "automelon": "AS ONE VALIANT",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 01 August Procession of the Holy Cross ",
+        "periodId": "menaion",
         "feast": "August Procession of the Holy Cross",
         "feastId": "01-08"
       }
@@ -5115,6 +5471,7 @@
         "description": "[O] For the Holy Fathers in Tone Six\n(**Having laid up all their hope**) | AA",
         "automelon": "HAVING LAID UP ALL THEIR HOPE",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 10 Sunday of the Holy Fathers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -5130,6 +5487,7 @@
         "description": "[O] For the Maccabees | Creemens",
         "automelon": "",
         "path": "MyPrivateEnglishMusic / Menaion / 12 August / 01 Procession of the Holy Cross",
+        "periodId": "menaion",
         "feast": "Procession of the Holy Cross",
         "feastId": "01-08"
       }
@@ -5140,7 +5498,8 @@
     "name": "ProdigalSon-Praises-2nd-Karam-EN.pdf",
     "description": "[O] For the Prodigal Son",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02 Sunday of the Prodigal Son",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "[O] FOR THE SAINTS TONE EIGHT": {
     "type": "multi",
@@ -5152,6 +5511,7 @@
         "description": "[O] For the Saints in Tone Eight | Stst Nicholas & Habib",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 16 July Hyeromartyrs Nicholas and Habib",
+        "periodId": "menaion",
         "feast": "July Hyeromartyrs Nicholas and Habib",
         "feastId": "16-07"
       }
@@ -5167,6 +5527,7 @@
         "description": "[O] For the Transfiguration in Tone Four (**Thou who wast called from on high**) | El Massih",
         "automelon": "THOU WHO WAST CALLED FROM ON HIGH",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 06 Transfiguration ",
+        "periodId": "menaion",
         "feast": "Transfiguration",
         "feastId": "06-08"
       }
@@ -5182,6 +5543,7 @@
         "description": "[O] THE FOURTH EOTHINON DOXASTICON IN TONE FOUR | St Anthony",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -5197,6 +5559,7 @@
         "description": "[O] KATAVASIAE OF TRANSFIGURATION CANON IN TONE FOUR | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -5212,6 +5575,7 @@
         "description": "[O] KATHISMATA HYMNS OF\nTHE HOLY CROSS | Creemens",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross",
+        "periodId": "menaion",
         "feast": "Exaltation of the Cross",
         "feastId": "14-09"
       }
@@ -5227,6 +5591,7 @@
         "description": "[O] KATHISMATA HYMNS OF THE HOLY CROSS PROCESSION | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 01 August Procession of the Holy Cross ",
+        "periodId": "menaion",
         "feast": "August Procession of the Holy Cross",
         "feastId": "01-08"
       }
@@ -5242,6 +5607,7 @@
         "description": "[O] KATHISMATA HYMNS OF THE TRANSFIGURATION | El Massih",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 06 Transfiguration ",
+        "periodId": "menaion",
         "feast": "Transfiguration",
         "feastId": "06-08"
       }
@@ -5257,6 +5623,7 @@
         "description": "[O] THE NINTH ODE OF THE HOLY CROSS CANON IN TONE EIGHT | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross",
+        "periodId": "menaion",
         "feast": "Exaltation of the Cross",
         "feastId": "14-09"
       }
@@ -5272,6 +5639,7 @@
         "description": "[O] THE POLYELEOS IN TONE ONE (ABRIDGED) | Bilingual 134-135",
         "automelon": "",
         "path": "Byzantine Music / Bilingual Services / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -5287,6 +5655,7 @@
         "description": "[O] PROKEIMENON FOR THE ELEVATION OF THE CROSS\nIN TONE FOUR | El Massih",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross",
+        "periodId": "menaion",
         "feast": "Exaltation of the Cross",
         "feastId": "14-09"
       }
@@ -5302,6 +5671,7 @@
         "description": "[O] Prokeimenon FOR THE TRANSFIGURATION in Tone FOUR | Kazan",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 06 Transfiguration ",
+        "periodId": "menaion",
         "feast": "Transfiguration",
         "feastId": "06-08"
       }
@@ -5317,6 +5687,7 @@
         "description": "[O] RESURRECTIONAL KATHISMATA HYMNS IN TONE EIGHT | St Anthony",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -5332,6 +5703,7 @@
         "description": "[O] RESURRECTIONAL KATHISMATA HYMNS IN TONE FIVE | St Anthony",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -5347,6 +5719,7 @@
         "description": "[O] RESURRECTIONAL KATHISMATA HYMNS IN TONE FOUR | St Anthony",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -5369,6 +5742,7 @@
         "description": "[O] [ED] THEOTOKION IN TONE EIGHT | St Anthony",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -5384,6 +5758,7 @@
         "description": "[O] [ED] THEOTOKION IN TONE FIVE | St Anthony",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -5399,6 +5774,7 @@
         "description": "[O] [ED] THEOTOKION IN TONE FOUR | St Anthony",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -5414,6 +5790,7 @@
         "description": "[O] [ED] THEOTOKION IN TONE ONE | St Anthony",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -5429,6 +5806,7 @@
         "description": "[O] [ED] THEOTOKION IN TONE SEVEN | St Anthony",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -5444,6 +5822,7 @@
         "description": "[O] [ED] THEOTOKION IN TONE SIX | El Massih",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -5454,6 +5833,7 @@
         "description": "[O] [ED] THEOTOKION IN TONE SIX | St Anthony",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -5469,6 +5849,7 @@
         "description": "[O] [ED] THEOTOKION IN TONE THREE | St Anthony",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -5484,6 +5865,7 @@
         "description": "[O] [ED] THEOTOKION IN TONE TWO | St Anthony",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -5499,6 +5881,7 @@
         "description": "[O] [PR] DOXASTICON OF THE HOLY CROSS\nIN TONE SIX | Haddad",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross",
+        "periodId": "menaion",
         "feast": "Exaltation of the Cross",
         "feastId": "14-09"
       },
@@ -5509,6 +5892,7 @@
         "description": "[O] [PR] DOXASTICON OF THE HOLY CROSS\nIN TONE SIX | St Anthony",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross",
+        "periodId": "menaion",
         "feast": "Exaltation of the Cross",
         "feastId": "14-09"
       }
@@ -5524,6 +5908,7 @@
         "description": "[O] [PR] For the Consecration in Tone Four\n(**Unto them that fear Thee**) | El Massih",
         "automelon": "UNTO THEM THAT FEAR THEE",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 13 Consecration of the Resurrection Curch",
+        "periodId": "menaion",
         "feast": "Consecration of the Resurrection Curch",
         "feastId": "13-09"
       }
@@ -5539,6 +5924,7 @@
         "description": "[O] [PR] For the Holy Cross in Tone Eight\n(**O strange wonder**) | El Massih",
         "automelon": "O STRANGE WONDER",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross",
+        "periodId": "menaion",
         "feast": "Exaltation of the Cross",
         "feastId": "14-09"
       }
@@ -5554,6 +5940,7 @@
         "description": "[O] [PR] For the Nativity of the Theotokos in\nTone One (**O strange wonder**) | HTM",
         "automelon": "O STRANGE WONDER",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 08 Nativity of the Theotokos",
+        "periodId": "menaion",
         "feast": "Nativity of the Theotokos",
         "feastId": "08-09"
       }
@@ -5569,6 +5956,7 @@
         "description": "[O] [PR] THE DOXASTICON OF NATIVITY OF THE THEOTOKOS IN TONE SIX | El Massih",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 08 Nativity of the Theotokos",
+        "periodId": "menaion",
         "feast": "Nativity of the Theotokos",
         "feastId": "08-09"
       }
@@ -5579,7 +5967,8 @@
     "name": "13 Praises Prosomia - Holy Cross.pdf",
     "description": "[O] [PR] للصَليب المُقدّس باللحنِ الثامن",
     "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Orthros",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "menaion"
   },
   "[O] إكسابوستيلاري الصَليب المُقدّس باللحنِ الثاني": {
     "type": "multi",
@@ -5591,6 +5980,7 @@
         "description": "[O] إكسابوستيلاري الصَليب المُقدّس باللحنِ الثاني | Fr N Malek",
         "automelon": "",
         "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Orthros",
+        "periodId": "menaion",
         "feast": "",
         "feastId": ""
       },
@@ -5601,6 +5991,7 @@
         "description": "[O] إكسابوستيلاري الصَليب المُقدّس باللحنِ الثاني | M El-Murr",
         "automelon": "",
         "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Orthros",
+        "periodId": "menaion",
         "feast": "",
         "feastId": ""
       }
@@ -5611,7 +6002,8 @@
     "name": "12 (AR) Let Every Breath - Pl.4.pdf",
     "description": "[O] الإينوس باللحنِ الثامن",
     "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Orthros",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "menaion"
   },
   "[O] الذوكصولوجيا الكُبرى باللحنِ السادس": {
     "type": "multi",
@@ -5623,6 +6015,7 @@
         "description": "[O] الذوكصولوجيا الكُبرى باللحنِ السادس | M El-Murr",
         "automelon": "",
         "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Orthros",
+        "periodId": "menaion",
         "feast": "",
         "feastId": ""
       }
@@ -5638,6 +6031,7 @@
         "description": "[O] ذُكصا الصَليب المُقدّس باللحنِ السادس | Fr N Malek",
         "automelon": "",
         "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Orthros",
+        "periodId": "menaion",
         "feast": "",
         "feastId": ""
       },
@@ -5648,6 +6042,7 @@
         "description": "[O] ذُكصا الصَليب المُقدّس باللحنِ السادس | M El-Murr",
         "automelon": "",
         "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Orthros",
+        "periodId": "menaion",
         "feast": "",
         "feastId": ""
       }
@@ -5658,7 +6053,8 @@
     "name": "2B Doxastikon-pl2nd-EM-EN-ForgivenessSunday.pdf",
     "description": "[V] DOXASTICON FOR THE SUNDAY OF FORGIVENESS IN TONE SIX",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 04 Sunday of Forgiveness",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "[V] FOR PENTECOST TONE ONE": {
     "type": "multi",
@@ -5670,6 +6066,7 @@
         "description": "[V] For Pentecost in Tone One | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 12 Sunday of Pentecost",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -5685,6 +6082,7 @@
         "description": "[V] For St. John Climacus in Tone Eight\n(**O strange wonder**) | ElMassih",
         "automelon": "O STRANGE WONDER",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 08 Sunday of the 4th Week of Lent - St John Climacus",
+        "periodId": "triodion",
         "feast": "",
         "feastId": ""
       }
@@ -5695,7 +6093,8 @@
     "name": "ProdigalSon-Sticheras-1st-GC-EN.pdf",
     "description": "[V] For the Prodigal Son in Tone One",
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02 Sunday of the Prodigal Son",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "triodion"
   },
   "[V] FOR THE RESURRECTION TONE FOUR": {
     "type": "multi",
@@ -5707,6 +6106,7 @@
         "description": "[V] Sticheras For the Resurrection in Tone Four | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -5717,6 +6117,7 @@
         "description": "[V] Sticheras For the Resurrection in Tone Four | Brief",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -5732,6 +6133,7 @@
         "description": "[V] FRIDAY PROKEIMENON IN TONE SEVEN | El Massih",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -5747,6 +6149,7 @@
         "description": "[V] MONDAY PROKEIMENON IN TONE FOUR | El Massih",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -5762,6 +6165,7 @@
         "description": "[V] POLYELEOS HYMNS OF THE TRANSFIGURATION IN TONE FOUR | El Massih",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 06 Transfiguration ",
+        "periodId": "menaion",
         "feast": "Transfiguration",
         "feastId": "06-08"
       }
@@ -5777,6 +6181,7 @@
         "description": "[V] THURSDAY PROKEIMENON IN TONE SIX | El Massih",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -5792,6 +6197,7 @@
         "description": "[V] TUESDAY PROKEIMENON IN TONE ONE | El Massih",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -5807,6 +6213,7 @@
         "description": "[V] WEDNESDAY PROKEIMENON IN TONE FIVE | El Massih",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -5822,6 +6229,7 @@
         "description": "[V] [AP] APOSTICHA FOR THE AFTER-FEAST IN TONE TWO | El Massih",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross",
+        "periodId": "menaion",
         "feast": "Exaltation of the Cross",
         "feastId": "14-09"
       }
@@ -5837,6 +6245,7 @@
         "description": "[V] [AP] APOSTICHA FOR THE HOLY CROSS\nIN TONE FIVE (**Rejoice**) | El Massih",
         "automelon": "REJOICE",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross",
+        "periodId": "menaion",
         "feast": "Exaltation of the Cross",
         "feastId": "14-09"
       }
@@ -5852,6 +6261,7 @@
         "description": "[V] [AP] APOSTICHA FOR THE NATIVITY OF THE THEOTOKOS IN TONE FOUR | S Herron",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 08 Nativity of the Theotokos",
+        "periodId": "menaion",
         "feast": "Nativity of the Theotokos",
         "feastId": "08-09"
       },
@@ -5862,6 +6272,7 @@
         "description": "[V] [AP] APOSTICHA FOR THE NATIVITY OF THE THEOTOKOS IN TONE FOUR | Creemens",
         "automelon": "",
         "path": "MyPrivateEnglishMusic / Menaion / 01 September / 08 Nativity Of The Theotokos",
+        "periodId": "menaion",
         "feast": "Nativity Of The Theotokos",
         "feastId": "08-09"
       }
@@ -5877,6 +6288,7 @@
         "description": "[V] [AP] APOSTICHA FOR THE RESURRECTION IN TONE FOUR | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -5887,6 +6299,7 @@
         "description": "[V] [AP] APOSTICHA FOR THE RESURRECTION IN TONE FOUR | Brief",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -5902,6 +6315,7 @@
         "description": "[V] [AP] APOSTICHA FOR THE RESURRECTION IN TONE SIX | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -5912,6 +6326,7 @@
         "description": "[V] [AP] APOSTICHA FOR THE RESURRECTION IN TONE SIX | Brief",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -5927,6 +6342,7 @@
         "description": "[V] [AP] DOXASTICON FOR ALL SAINTS\nIN TONE SIX | Cremeens",
         "automelon": "",
         "path": "MyPrivateEnglishMusic / Penticostarion / 13 Sunday of all Saints",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -5942,6 +6358,7 @@
         "description": "[V] [AP] DOXASTICON FOR PENTECOST\nIN TONE EIGHT | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 12 Sunday of Pentecost",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -5957,6 +6374,7 @@
         "description": "[V] [AP] DOXASTICON FOR ST. ATHANASIUS\nIN TONE SIX | SA",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 05 July St Athanasios",
+        "periodId": "menaion",
         "feast": "July St Athanasios",
         "feastId": "05-07"
       }
@@ -5972,6 +6390,7 @@
         "description": "[V] [AP] DOXASTICON FOR ST. ELIAS\nIN TONE SIX | Dedes",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 20 July St Profet Elijah",
+        "periodId": "menaion",
         "feast": "July St Profet Elijah",
         "feastId": "20-07"
       }
@@ -5987,6 +6406,7 @@
         "description": "[V] [AP] DOXASTICON FOR ST. PAISIOS\nIN TONE EIGHT | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 12 July St Paisios",
+        "periodId": "menaion",
         "feast": "July St Paisios",
         "feastId": "12-07"
       },
@@ -5997,6 +6417,7 @@
         "description": "[V] [AP] DOXASTICON FOR ST. PAISIOS\nIN TONE EIGHT | DCS",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 12 July St Paisios",
+        "periodId": "menaion",
         "feast": "July St Paisios",
         "feastId": "12-07"
       }
@@ -6012,6 +6433,7 @@
         "description": "[V] [AP] DOXASTICON FOR ST. PARASKEVA\nIN TONE SIX | Dedes",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 26 July St Paraskeva",
+        "periodId": "menaion",
         "feast": "July St Paraskeva",
         "feastId": "26-07"
       }
@@ -6027,6 +6449,7 @@
         "description": "[V] [AP] DOXASTICON FOR ST. SOPHIA AND HER DAUGHTERS IN TONE SIX | Creemens",
         "automelon": "",
         "path": "MyPrivateEnglishMusic / Menaion / 01 September / 17 St Sofia and daughters",
+        "periodId": "menaion",
         "feast": "St Sofia and daughters",
         "feastId": "17-09"
       }
@@ -6042,6 +6465,7 @@
         "description": "[V] [AP] DOXASTICON FOR ST. STEPHEN\nIN TONE SIX | Dedes",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 02 August Transfer St Stephen Relics",
+        "periodId": "menaion",
         "feast": "August Transfer St Stephen Relics",
         "feastId": "02-08"
       }
@@ -6057,6 +6481,7 @@
         "description": "[V] [AP] DOXASTICON FOR THE AFTER-FEAST\nOF THE HOLY CROSS IN TONE SIX | Haddad",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross",
+        "periodId": "menaion",
         "feast": "Exaltation of the Cross",
         "feastId": "14-09"
       }
@@ -6072,6 +6497,7 @@
         "description": "[V] [AP] DOXASTICON FOR THE AFTER-FEAST IN TONE FIVE | Dormition - Creemens",
         "automelon": "",
         "path": "MyPrivateEnglishMusic / Menaion / 12 August / 15 Dormition of Theotokos",
+        "periodId": "menaion",
         "feast": "Dormition of Theotokos",
         "feastId": "15-08"
       },
@@ -6082,6 +6508,7 @@
         "description": "[V] [AP] DOXASTICON FOR THE AFTER-FEAST IN TONE FIVE | G Creemens",
         "automelon": "",
         "path": "MyPrivateEnglishMusic / Menaion / 12 August / 06 Holy Transfiguration",
+        "periodId": "menaion",
         "feast": "Holy Transfiguration",
         "feastId": "06-08"
       },
@@ -6092,6 +6519,7 @@
         "description": "[V] [AP] DOXASTICON FOR THE AFTER-FEAST IN TONE FIVE | Transfiguration - S Herron",
         "automelon": "",
         "path": "MyPrivateEnglishMusic / Menaion / 12 August / 06 Holy Transfiguration",
+        "periodId": "menaion",
         "feast": "Holy Transfiguration",
         "feastId": "06-08"
       }
@@ -6107,6 +6535,7 @@
         "description": "[V] [AP] DOXASTICON FOR THE ARCHANGEL MICHAEL IN TONE EIGHT | Creemens",
         "automelon": "",
         "path": "MyPrivateEnglishMusic / Menaion / 01 September / 06 St Michael at Collossae",
+        "periodId": "menaion",
         "feast": "St Michael at Collossae",
         "feastId": "06-09"
       }
@@ -6122,6 +6551,7 @@
         "description": "[V] [AP] DOXASTICON FOR THE BEHEADING\nIN TONE FOUR | John Monk",
         "automelon": "",
         "path": "MyPrivateEnglishMusic / Menaion / 12 August / 29 Beheading of St John Baptist",
+        "periodId": "menaion",
         "feast": "Beheading of St John Baptist",
         "feastId": "29-08"
       }
@@ -6137,6 +6567,7 @@
         "description": "[V] [AP] DOXASTICON FOR THE DORMITION\nIN TONE FOUR | Kazan",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 15 Dormition of Theotokos",
+        "periodId": "menaion",
         "feast": "Dormition of Theotokos",
         "feastId": "15-08"
       }
@@ -6152,6 +6583,7 @@
         "description": "[V] [AP] DOXASTICON FOR THE FOREFEAST\nOF THE HOLY CROSS IN TONE TWO | Fr S Dedes",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross",
+        "periodId": "menaion",
         "feast": "Exaltation of the Cross",
         "feastId": "14-09"
       }
@@ -6167,6 +6599,7 @@
         "description": "[V] [AP] DOXASTICON FOR THE HOLY CROSS\nIN TONE EIGHT | Haddad",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross",
+        "periodId": "menaion",
         "feast": "Exaltation of the Cross",
         "feastId": "14-09"
       },
@@ -6177,6 +6610,7 @@
         "description": "[V] [AP] DOXASTICON FOR THE HOLY CROSS\nIN TONE EIGHT | St Anthony",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross",
+        "periodId": "menaion",
         "feast": "Exaltation of the Cross",
         "feastId": "14-09"
       }
@@ -6192,6 +6626,7 @@
         "description": "[V] [AP] DOXASTICON FOR THE HOLY FATHERS IN TONE THREE | Creemens",
         "automelon": "",
         "path": "MyPrivateEnglishMusic / Menaion / 11 July",
+        "periodId": "menaion",
         "feast": "",
         "feastId": ""
       }
@@ -6207,6 +6642,7 @@
         "description": "[V] [AP] DOXASTICON FOR THE NATIVITY OF THE THEOTOKOS IN TONE EIGHT | S Herron",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 08 Nativity of the Theotokos",
+        "periodId": "menaion",
         "feast": "Nativity of the Theotokos",
         "feastId": "08-09"
       },
@@ -6217,6 +6653,7 @@
         "description": "[V] [AP] DOXASTICON FOR THE NATIVITY OF THE THEOTOKOS IN TONE EIGHT | Creemens",
         "automelon": "",
         "path": "MyPrivateEnglishMusic / Menaion / 01 September / 08 Nativity Of The Theotokos",
+        "periodId": "menaion",
         "feast": "Nativity Of The Theotokos",
         "feastId": "08-09"
       }
@@ -6232,6 +6669,7 @@
         "description": "[V] [AP] DOXASTICON FOR THE TRANSFIGURATION IN TONE SIX | Ayoub",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 06 Transfiguration ",
+        "periodId": "menaion",
         "feast": "Transfiguration",
         "feastId": "06-08"
       }
@@ -6247,6 +6685,7 @@
         "description": "[V] [AP] THE APOSTICHA FOR THE TRANSFIGURATION IN TONE ONE | Ayoub",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 06 Transfiguration ",
+        "periodId": "menaion",
         "feast": "Transfiguration",
         "feastId": "06-08"
       }
@@ -6262,6 +6701,7 @@
         "description": "[V] [AP] THEOTOKION FOR THE RESURRECTION IN TONE FOUR | Brief",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -6272,6 +6712,7 @@
         "description": "[V] [AP] THEOTOKION FOR THE RESURRECTION IN TONE FOUR | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -6287,6 +6728,7 @@
         "description": "[V] [AP] THEOTOKION FOR THE RESURRECTION IN TONE SIX | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -6297,6 +6739,7 @@
         "description": "[V] [AP] THEOTOKION FOR THE RESURRECTION IN TONE SIX | Brief",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -6312,6 +6755,7 @@
         "description": "[V] [AP] THEOTOKION FOR THE RESURRECTION IN TONE TWO | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -6322,6 +6766,7 @@
         "description": "[V] [AP] THEOTOKION FOR THE RESURRECTION IN TONE TWO | Brief",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -6337,6 +6782,7 @@
         "description": "[V] [AP] أبوستيخُن للصَليب المُقَدَّس باللحنِ الخامِس | Fr N Malek",
         "automelon": "",
         "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Vespers ",
+        "periodId": "menaion",
         "feast": "",
         "feastId": ""
       }
@@ -6352,6 +6798,7 @@
         "description": "[V] [AP] ذُكصا للصَليب المُقَدَّس باللحنِ الثَامِن | Fr N Malek",
         "automelon": "",
         "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Vespers ",
+        "periodId": "menaion",
         "feast": "",
         "feastId": ""
       },
@@ -6362,6 +6809,7 @@
         "description": "[V] [AP] ذُكصا للصَليب المُقَدَّس باللحنِ الثَامِن | El-Murr",
         "automelon": "",
         "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Vespers ",
+        "periodId": "menaion",
         "feast": "",
         "feastId": ""
       }
@@ -6377,6 +6825,7 @@
         "description": "[V] [LIHC] DOXASTICON FOR ALL SAINTS\nIN TONE SIX | Cremeens",
         "automelon": "",
         "path": "MyPrivateEnglishMusic / Penticostarion / 13 Sunday of all Saints",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -6392,6 +6841,7 @@
         "description": "[V] [LIHC] DOXASTICON FOR PENTECOST\nIN TONE EIGHT | ElMassih",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 12 Sunday of Pentecost",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -6407,6 +6857,7 @@
         "description": "[V] [LIHC] DOXASTICON FOR ST. ATHANASIUS\nIN TONE SIX | SA",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 05 July St Athanasios",
+        "periodId": "menaion",
         "feast": "July St Athanasios",
         "feastId": "05-07"
       }
@@ -6422,6 +6873,7 @@
         "description": "[V] [LIHC] DOXASTICON FOR ST. ELIAS\nIN TONE SIX | Dedes",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 20 July St Profet Elijah",
+        "periodId": "menaion",
         "feast": "July St Profet Elijah",
         "feastId": "20-07"
       },
@@ -6432,6 +6884,7 @@
         "description": "[V] [LIHC] DOXASTICON FOR ST. ELIAS\nIN TONE SIX | Creemens",
         "automelon": "",
         "path": "MyPrivateEnglishMusic / Menaion / 11 July / 20 July St Profet Elias",
+        "periodId": "menaion",
         "feast": "July St Profet Elias",
         "feastId": "20-07"
       }
@@ -6447,6 +6900,7 @@
         "description": "[V] [LIHC] DOXASTICON FOR ST. PAISIOS\nIN TONE FIVE | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 12 July St Paisios",
+        "periodId": "menaion",
         "feast": "July St Paisios",
         "feastId": "12-07"
       },
@@ -6457,6 +6911,7 @@
         "description": "[V] [LIHC] DOXASTICON FOR ST. PAISIOS\nIN TONE FIVE | DCS",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 12 July St Paisios",
+        "periodId": "menaion",
         "feast": "July St Paisios",
         "feastId": "12-07"
       }
@@ -6472,6 +6927,7 @@
         "description": "[V] [LIHC] DOXASTICON FOR ST. PARASKEVA\nIN TONE SIX | Dedes",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 26 July St Paraskeva",
+        "periodId": "menaion",
         "feast": "July St Paraskeva",
         "feastId": "26-07"
       }
@@ -6487,6 +6943,7 @@
         "description": "[V] [LIHC] DOXASTICON FOR ST. SOPHIA AND HER DAUGHTERS IN TONE FIVE | Creemens",
         "automelon": "",
         "path": "MyPrivateEnglishMusic / Menaion / 01 September / 17 St Sofia and daughters",
+        "periodId": "menaion",
         "feast": "St Sofia and daughters",
         "feastId": "17-09"
       }
@@ -6502,6 +6959,7 @@
         "description": "[V] [LIHC] DOXASTICON FOR ST. STEPHEN\nIN TONE SIX | Dedes",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 02 August Transfer St Stephen Relics",
+        "periodId": "menaion",
         "feast": "August Transfer St Stephen Relics",
         "feastId": "02-08"
       }
@@ -6517,6 +6975,7 @@
         "description": "[V] [LIHC] DOXASTICON FOR THE AFTER-FEAST IN TONE FIVE | Transfiguration - S Herron",
         "automelon": "",
         "path": "MyPrivateEnglishMusic / Menaion / 12 August / 06 Holy Transfiguration",
+        "periodId": "menaion",
         "feast": "Holy Transfiguration",
         "feastId": "06-08"
       },
@@ -6527,6 +6986,7 @@
         "description": "[V] [LIHC] DOXASTICON FOR THE AFTER-FEAST IN TONE FIVE | Transfiguration - G Creemens",
         "automelon": "",
         "path": "MyPrivateEnglishMusic / Menaion / 12 August / 06 Holy Transfiguration",
+        "periodId": "menaion",
         "feast": "Holy Transfiguration",
         "feastId": "06-08"
       }
@@ -6542,6 +7002,7 @@
         "description": "[V] [LIHC] DOXASTICON FOR THE AFTER-FEAST IN TONE SIX | Creemens",
         "automelon": "",
         "path": "MyPrivateEnglishMusic / Menaion / 01 September / 14 Elevation of the Holy Cross",
+        "periodId": "menaion",
         "feast": "Elevation of the Holy Cross",
         "feastId": "14-09"
       }
@@ -6557,6 +7018,7 @@
         "description": "[V] [LIHC] DOXASTICON FOR THE AFTER-FEAST IN TONE TWO | Dormition - Creemens",
         "automelon": "",
         "path": "MyPrivateEnglishMusic / Menaion / 12 August / 15 Dormition of Theotokos",
+        "periodId": "menaion",
         "feast": "Dormition of Theotokos",
         "feastId": "15-08"
       }
@@ -6572,6 +7034,7 @@
         "description": "[V] [LIHC] DOXASTICON FOR THE ARCHANGEL MICHAEL IN TONE SIX | Creemens",
         "automelon": "",
         "path": "MyPrivateEnglishMusic / Menaion / 01 September / 06 St Michael at Collossae",
+        "periodId": "menaion",
         "feast": "St Michael at Collossae",
         "feastId": "06-09"
       }
@@ -6587,6 +7050,7 @@
         "description": "[V] [LIHC] DOXASTICON FOR THE BEHEADING\nIN TONE SIX | Creemens",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 29 Beheading St John the Baptist",
+        "periodId": "menaion",
         "feast": "Beheading St John the Baptist",
         "feastId": "29-08"
       },
@@ -6597,6 +7061,7 @@
         "description": "[V] [LIHC] DOXASTICON FOR THE BEHEADING\nIN TONE SIX | John Monk",
         "automelon": "",
         "path": "MyPrivateEnglishMusic / Menaion / 12 August / 29 Beheading of St John Baptist",
+        "periodId": "menaion",
         "feast": "Beheading of St John Baptist",
         "feastId": "29-08"
       }
@@ -6612,6 +7077,7 @@
         "description": "[V] [LIHC] DOXASTICON FOR THE DORMITION\nIN THE EIGHT TONES | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 15 Dormition of Theotokos",
+        "periodId": "menaion",
         "feast": "Dormition of Theotokos",
         "feastId": "15-08"
       }
@@ -6627,6 +7093,7 @@
         "description": "[V] [LIHC] DOXASTICON FOR THE HOLY CROSS\nIN TONE TWO | Haddad",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross",
+        "periodId": "menaion",
         "feast": "Exaltation of the Cross",
         "feastId": "14-09"
       },
@@ -6637,6 +7104,7 @@
         "description": "[V] [LIHC] DOXASTICON FOR THE HOLY CROSS\nIN TONE TWO | St Anthony",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross",
+        "periodId": "menaion",
         "feast": "Exaltation of the Cross",
         "feastId": "14-09"
       }
@@ -6652,6 +7120,7 @@
         "description": "[V] [LIHC] DOXASTICON FOR THE NATIVITY OF THE THEOTOKOS IN TONE SIX | S Herron",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 08 Nativity of the Theotokos",
+        "periodId": "menaion",
         "feast": "Nativity of the Theotokos",
         "feastId": "08-09"
       },
@@ -6662,6 +7131,7 @@
         "description": "[V] [LIHC] DOXASTICON FOR THE NATIVITY OF THE THEOTOKOS IN TONE SIX | Creemens",
         "automelon": "",
         "path": "MyPrivateEnglishMusic / Menaion / 01 September / 08 Nativity Of The Theotokos",
+        "periodId": "menaion",
         "feast": "Nativity Of The Theotokos",
         "feastId": "08-09"
       }
@@ -6677,6 +7147,7 @@
         "description": "[V] [LIHC] DOXASTICON FOR THE TRANSFIGURATION IN TONE SIX | Ayoub",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 06 Transfiguration ",
+        "periodId": "menaion",
         "feast": "Transfiguration",
         "feastId": "06-08"
       }
@@ -6692,6 +7163,7 @@
         "description": "[V] [LIHC] DOXASTICON OF THE CONSECRATION IN TONE TWO | Fr S Dedes",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 13 Consecration of the Resurrection Curch",
+        "periodId": "menaion",
         "feast": "Consecration of the Resurrection Curch",
         "feastId": "13-09"
       },
@@ -6702,6 +7174,7 @@
         "description": "[V] [LIHC] DOXASTICON OF THE CONSECRATION IN TONE TWO | Creemens",
         "automelon": "",
         "path": "MyPrivateEnglishMusic / Menaion / 01 September / 13 Consecration of the Resurrection Church",
+        "periodId": "menaion",
         "feast": "Consecration of the Resurrection Church",
         "feastId": "13-09"
       }
@@ -6717,6 +7190,7 @@
         "description": "[V] [LIHC] For St. Paisios in Tone One | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 12 July St Paisios",
+        "periodId": "menaion",
         "feast": "July St Paisios",
         "feastId": "12-07"
       }
@@ -6732,6 +7206,7 @@
         "description": "[V] [LIHC] For St. Paraskeva in Tone Eight\n(**O strange wonder**) | El Massih",
         "automelon": "O STRANGE WONDER",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 26 July St Paraskeva",
+        "periodId": "menaion",
         "feast": "July St Paraskeva",
         "feastId": "26-07"
       }
@@ -6747,6 +7222,7 @@
         "description": "[V] [LIHC] For St. Sophia and her daughters in Tone Four (** Unto them that fear Thee **) | El Massih",
         "automelon": "UNTO THEM THAT FEAR THEE",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 17 Sofia and her daughters",
+        "periodId": "menaion",
         "feast": "Sofia and her daughters",
         "feastId": "17-09"
       }
@@ -6762,6 +7238,7 @@
         "description": "[V] [LIHC] For St. Stephen in Tone Four\n(**As one valiant**) | El Massih",
         "automelon": "AS ONE VALIANT",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 02 August Transfer St Stephen Relics",
+        "periodId": "menaion",
         "feast": "August Transfer St Stephen Relics",
         "feastId": "02-08"
       }
@@ -6777,6 +7254,7 @@
         "description": "[V] [LIHC] For the After-feast of the Holy Cross\nin Tone Two (**When he took Thee**) | El Massih",
         "automelon": "WHEN HE TOOK THEE",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross",
+        "periodId": "menaion",
         "feast": "Exaltation of the Cross",
         "feastId": "14-09"
       }
@@ -6792,6 +7270,7 @@
         "description": "[V] [LIHC] For the After-feast in Tone Four (** Unto them that fear Thee **) | El Massih",
         "automelon": "UNTO THEM THAT FEAR THEE",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross",
+        "periodId": "menaion",
         "feast": "Exaltation of the Cross",
         "feastId": "14-09"
       }
@@ -6803,6 +7282,7 @@
     "description": "[V] [LIHC] For the After-feast in Tone One\n(**Thou art the joy**)",
     "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 06 Transfiguration ",
     "automelon": "THOU ART THE JOY",
+    "periodId": "menaion",
     "feast": "Transfiguration",
     "feastId": "06-08"
   },
@@ -6816,6 +7296,7 @@
         "description": "[V] [LIHC] For the After-feast in Tone Two\n(**With what fair crowns**) | After Dormition- BCrow",
         "automelon": "WITH WHAT FAIR CROWNS",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 15 Dormition of Theotokos",
+        "periodId": "menaion",
         "feast": "Dormition of Theotokos",
         "feastId": "15-08"
       }
@@ -6831,6 +7312,7 @@
         "description": "[V] [LIHC] For the Ascension in Tone Six | AA",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 10 Sunday of the Holy Fathers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -6846,6 +7328,7 @@
         "description": "[V] [LIHC] For the Baptist’s Beheading in Tone Four (**Thou who wast called from on high**) | El Massih",
         "automelon": "THOU WHO WAST CALLED FROM ON HIGH",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 29 Beheading St John the Baptist",
+        "periodId": "menaion",
         "feast": "Beheading St John the Baptist",
         "feastId": "29-08"
       }
@@ -6861,6 +7344,7 @@
         "description": "[V] [LIHC] For the Consecration in Tone Six | Fr S Dedes",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 13 Consecration of the Resurrection Curch",
+        "periodId": "menaion",
         "feast": "Consecration of the Resurrection Curch",
         "feastId": "13-09"
       }
@@ -6876,6 +7360,7 @@
         "description": "[V] [LIHC] For the Dormition Tone One\n(**The original melody**) | Archdiocese",
         "automelon": "ORIGINAL MELODY",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 15 Dormition of Theotokos",
+        "periodId": "menaion",
         "feast": "Dormition of Theotokos",
         "feastId": "15-08"
       }
@@ -6891,6 +7376,7 @@
         "description": "[V] [LIHC] For the Forefeast of the Holy Cross\nin Tone Four (**As one valiant**) | El Massih",
         "automelon": "AS ONE VALIANT",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross",
+        "periodId": "menaion",
         "feast": "Exaltation of the Cross",
         "feastId": "14-09"
       }
@@ -6906,6 +7392,7 @@
         "description": "[V] [LIHC] For the Holy Cross in Tone Six\n(**Having laid up all their hope**) | Archdiocese",
         "automelon": "HAVING LAID UP ALL THEIR HOPE",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 14 Exaltation of the Cross",
+        "periodId": "menaion",
         "feast": "Exaltation of the Cross",
         "feastId": "14-09"
       }
@@ -6921,6 +7408,7 @@
         "description": "[V] [LIHC] For the Holy Fathers in Tone Six\n(**Having laid up all their hope**) | Boyer",
         "automelon": "HAVING LAID UP ALL THEIR HOPE",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 13 - 19 July First Sunday of the Holy Fathers of the 4th Ecumenical Council",
+        "periodId": "menaion",
         "feast": "- 19 July First Sunday of the Holy Fathers of the 4th Ecumenical Council",
         "feastId": "13-07"
       },
@@ -6931,6 +7419,7 @@
         "description": "[V] [LIHC] For the Holy Fathers in Tone Six\n(**The original melody**)  | AA - w",
         "automelon": "ORIGINAL MELODY",
         "path": "Byzantine Music / EnglishByzantineMusic / Penticostarion / 10 Sunday of the Holy Fathers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -6946,6 +7435,7 @@
         "description": "[V] [LIHC] For “The Holy Napkin” in Tone Two\n(**With what fair crowns**) | Karam",
         "automelon": "WITH WHAT FAIR CROWNS",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 16 Holy Napkin",
+        "periodId": "menaion",
         "feast": "Holy Napkin",
         "feastId": "16-08"
       }
@@ -6961,6 +7451,7 @@
         "description": "[V] [LIHC] For the Nativity of the Theotokos in Tone Six | S Herron",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 08 Nativity of the Theotokos",
+        "periodId": "menaion",
         "feast": "Nativity of the Theotokos",
         "feastId": "08-09"
       },
@@ -6971,6 +7462,7 @@
         "description": "[V] [LIHC] For the Nativity of the Theotokos in Tone Six | Creemens",
         "automelon": "",
         "path": "MyPrivateEnglishMusic / Menaion / 01 September / 08 Nativity Of The Theotokos",
+        "periodId": "menaion",
         "feast": "Nativity Of The Theotokos",
         "feastId": "08-09"
       }
@@ -6986,6 +7478,7 @@
         "description": "[V] [LIHC] For the Patriarchs in Tone One\n(**O all-lauded Martyrs**) | El Massih",
         "automelon": "O ALL-LAUDED MARTYRS",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 30 Alexandre, Paul the New and John Patriarchs of Constantinopole",
+        "periodId": "menaion",
         "feast": "Alexandre, Paul the New and John Patriarchs of Constantinopole",
         "feastId": "30-08"
       }
@@ -7001,6 +7494,7 @@
         "description": "[V] [LIHC] For the Prophet Elias in Tone One\n(**Thou art the joy**) | Karam",
         "automelon": "THOU ART THE JOY",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 11 July / 20 July St Profet Elijah",
+        "periodId": "menaion",
         "feast": "July St Profet Elijah",
         "feastId": "20-07"
       }
@@ -7016,6 +7510,7 @@
         "description": "[V] [LIHC] For the Resurrection in Tone Eight | Brief",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -7026,6 +7521,7 @@
         "description": "[V] [LIHC] For the Resurrection in Tone Eight | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -7041,6 +7537,7 @@
         "description": "[V] [LIHC] For the Resurrection in Tone Five | Brief ",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -7051,6 +7548,7 @@
         "description": "[V] [LIHC] For the Resurrection in Tone Five | Slow ",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -7066,6 +7564,7 @@
         "description": "[V] [LIHC] For the Resurrection in Tone One | Brief",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -7076,6 +7575,7 @@
         "description": "[V] [LIHC] For the Resurrection in Tone One | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -7091,6 +7591,7 @@
         "description": "[V] [LIHC] For the Resurrection in Tone Seven | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -7101,6 +7602,7 @@
         "description": "[V] [LIHC] For the Resurrection in Tone Seven | Brief",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -7116,6 +7618,7 @@
         "description": "[V] [LIHC] For the Resurrection in Tone Six | Brief",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -7126,6 +7629,7 @@
         "description": "[V] [LIHC] For the Resurrection in Tone Six | Slow ",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -7141,6 +7645,7 @@
         "description": "[V] [LIHC] For the Resurrection in Tone Three | Brief",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -7151,6 +7656,7 @@
         "description": "[V] [LIHC] For the Resurrection in Tone Three | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -7166,6 +7672,7 @@
         "description": "[V] [LIHC] For the Resurrection in Tone Two | Brief",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -7176,6 +7683,7 @@
         "description": "[V] [LIHC] For the Resurrection in Tone Two | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -7191,6 +7699,7 @@
         "description": "[V] [LIHC] For the Transfiguration in Tone Four | Ayoub",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 12 August / 06 Transfiguration ",
+        "periodId": "menaion",
         "feast": "Transfiguration",
         "feastId": "06-08"
       }
@@ -7206,6 +7715,7 @@
         "description": "[V] [LIHC] THEOTOKION FOR THE RESURRECTION IN TONE FIVE | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -7221,6 +7731,7 @@
         "description": "[V] [LIHC] THEOTOKION FOR THE RESURRECTION IN TONE FOUR | Brief",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -7231,6 +7742,7 @@
         "description": "[V] [LIHC] THEOTOKION FOR THE RESURRECTION IN TONE FOUR | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -7246,6 +7758,7 @@
         "description": "[V] [LIHC] THEOTOKION FOR THE RESURRECTION IN TONE SEVEN | Slow diatonic",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -7261,6 +7774,7 @@
         "description": "[V] [LIHC] THEOTOKION FOR THE RESURRECTION IN TONE SIX | Brief",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -7271,6 +7785,7 @@
         "description": "[V] [LIHC] THEOTOKION FOR THE RESURRECTION IN TONE SIX | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -7286,6 +7801,7 @@
         "description": "[V] [LIHC] THEOTOKION FOR THE RESURRECTION IN TONE TWO | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       },
@@ -7296,6 +7812,7 @@
         "description": "[V] [LIHC] THEOTOKION FOR THE RESURRECTION IN TONE TWO | Brief",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }
@@ -7311,6 +7828,7 @@
         "description": "[V] [LIHC] ذُكصا للصَليب المُقَدَّس باللحنِ الثاني | Fr N Malek",
         "automelon": "",
         "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Vespers ",
+        "periodId": "menaion",
         "feast": "",
         "feastId": ""
       },
@@ -7321,6 +7839,7 @@
         "description": "[V] [LIHC] ذُكصا للصَليب المُقَدَّس باللحنِ الثاني | El-Murr",
         "automelon": "",
         "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Vespers ",
+        "periodId": "menaion",
         "feast": "",
         "feastId": ""
       }
@@ -7336,6 +7855,7 @@
         "description": "[V] [LIHC] للصَليب المُقَدَّس باللحنِ السادِس | Fr N Malik",
         "automelon": "",
         "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Vespers ",
+        "periodId": "menaion",
         "feast": "",
         "feastId": ""
       }
@@ -7346,7 +7866,8 @@
     "name": "1 (AR) Lord I Have Cried + Verses - Pl. 2.pdf",
     "description": "[V] [LIHC] \"يا ربِّ إليكَ صَرَخت\" باللحنِ السادِس",
     "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Vespers ",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "menaion"
   },
   "[V] [LIHV] FOR ARCHANGEL MICHAEL TONE FOUR": {
     "type": "multi",
@@ -7358,6 +7879,7 @@
         "description": "[V] [LIHV] For Archangel Michael in Tone Four\n(**As one valiant**) | El Massih",
         "automelon": "AS ONE VALIANT",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 06 St Archangel Michael Miracle in Colossae",
+        "periodId": "menaion",
         "feast": "St Archangel Michael Miracle in Colossae",
         "feastId": "06-09"
       }
@@ -7368,28 +7890,32 @@
     "name": "7 (AR&GR) Apolytikion of the Holy Cross.pdf",
     "description": "أبوليتيكيون الصَليب المُقَدَّس باللحنِ الأوَّل",
     "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Vespers ",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "menaion"
   },
   "الأودية التاسِعة من كطافاسية الصَليب المُقدّس باللحنِ الثامن": {
     "url": "https://drive.google.com/file/d/1T3_3xcLRGMGvnKtjTlN3pI40CGCcRHZ7/view?usp=drivesdk",
     "name": "10 Ninth Ode of the Holy Cross.pdf",
     "description": "الأودية التاسِعة من كطافاسية الصَليب المُقدّس باللحنِ الثامن",
     "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Orthros",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "menaion"
   },
   "الله الرَّبُّ باللحنِ الأوَّل": {
     "url": "https://drive.google.com/file/d/132cdEKWVD8tmyr0Jtg5PlJYmvLMWPuOz/view?usp=drivesdk",
     "name": "1 God is the Lord - Mode 1.pdf",
     "description": "الله الرَّبُّ\" باللحنِ الأوَّل\"",
     "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Orthros",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "menaion"
   },
   "بروكيمنُن للعيدِ باللحنِ الرابِع": {
     "url": "https://drive.google.com/file/d/1jL4sXnw4wbQOJ8FFRCxuonv6gK-l84dX/view?usp=drivesdk",
     "name": "6 Prokeimenon - Holy Cross.pdf",
     "description": "بروكيمنُن للعيدِ باللحنِ الرابِع",
     "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Orthros",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "menaion"
   },
   "ترانيم كاثِسماطاتُ الصَليب المُقَدَّس": {
     "type": "multi",
@@ -7401,6 +7927,7 @@
         "description": "ترانيم كاثِسماطاتُ الصَليب المُقَدَّس | Fr N Malek",
         "automelon": "",
         "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Orthros",
+        "periodId": "menaion",
         "feast": "",
         "feastId": ""
       }
@@ -7411,13 +7938,15 @@
     "name": "7 Festal Troparia After Psalm 50.pdf",
     "description": "طَروباريّات العيد بعد المزمور 50 باللحنِ الثاني",
     "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Orthros",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "menaion"
   },
   "كَطافاسيات الصَليب المُقدّس باللحنِ الثامن": {
     "url": "https://drive.google.com/file/d/1qd73AfaRTDDAlZ2vG_j1ztWICrQxGjM7/view?usp=drivesdk",
     "name": "9 Katavasia of the Holy Cross.pdf",
     "description": "كَطافاسيات الصَليب المُقدّس باللحنِ الثامن",
     "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Orthros",
-    "automelon": ""
+    "automelon": "",
+    "periodId": "menaion"
   }
 }

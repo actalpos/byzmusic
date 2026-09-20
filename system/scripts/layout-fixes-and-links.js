@@ -188,6 +188,16 @@ E bine ca istoricul să spună asta, ca peste câteva luni să știm exact ce fa
         ? FEAST_CALENDAR.detectServiceDate()
         : null;
 
+    const IS_SUNDAY =
+      FEAST_CALENDAR
+        ? FEAST_CALENDAR.isSunday()
+        : false;
+
+    console.log(
+      "Detected IS_SUNDAY:",
+      IS_SUNDAY
+    );
+
     const AFTER_FEAST_ID =
       FEAST_CALENDAR
         ? FEAST_CALENDAR.detectAfterFeastId(SERVICE_DATE)
@@ -1143,22 +1153,50 @@ E bine ca istoricul să spună asta, ca peste câteva luni să știm exact ce fa
         }
 
         /*
-         * MENAION FEAST-DAY FILTER
+         * SUNDAY RESURRECTIONAL / MENAION FILTER
          *
-         * Dacă titleLink.json conține versiuni cu feastId,
-         * iar una dintre ele corespunde datei serviciului,
-         * folosim numai versiunea acelei sărbători.
+         * Sunday:
+         *   Resurrectional takes precedence.
          *
-         * Exemplu:
-         * SERVICE_DATE = "15-08"
-         * feastId      = "15-08"
-         * -> Dormition
+         * Non-Sunday:
+         *   select matching Menaion feast.
          */
-        if (SERVICE_DATE) {
 
-          const feastVersions = versions.filter(v =>
-            v.feastId === SERVICE_DATE
-          );
+        if (IS_SUNDAY) {
+
+          const resurrectionalVersions =
+            versions.filter(v => {
+
+              const path =
+                String(v.path || "")
+                  .toLowerCase();
+
+              return (
+                !v.periodId &&
+                !v.feastId &&
+                path.endsWith(" / orthros")
+              );
+            });
+
+          if (resurrectionalVersions.length > 0) {
+
+            console.log(
+              "Sunday Resurrectional version selected:",
+              resurrectionalVersions.map(
+                v => v.label
+              )
+            );
+
+            versions = resurrectionalVersions;
+          }
+
+        } else if (SERVICE_DATE) {
+
+          const feastVersions =
+            versions.filter(v =>
+              v.periodId === "menaion" &&
+              v.feastId === SERVICE_DATE
+            );
 
           if (feastVersions.length > 0) {
 
