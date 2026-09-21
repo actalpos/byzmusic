@@ -713,6 +713,33 @@
       }
     ]
   },
+  "APOLYTIKION OF THE MARTYRS IN TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "St Anthony",
+        "url": "https://drive.google.com/file/d/1Stdp3qMn5NIu-Cwa19bXaPfCZ23XGAeg/view?usp=drivesdk",
+        "name": "05B ApolytikionGeneralStMartys-4th-SA.pdf",
+        "description": "APOLYTIKION OF THE MARTYRS IN TONE FOUR (**Be quick to anticipate**) | St Anthony",
+        "automelon": "BE QUICK TO ANTICIPATE",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 27 St Kallistratos and 49 Martyrs",
+        "periodId": "menaion",
+        "feast": "St Kallistratos and 49 Martyrs",
+        "feastId": "27-09"
+      },
+      {
+        "label": "Archdiocese",
+        "url": "https://drive.google.com/file/d/1rK5aEDYlqc8XGI_nkkVtxX2_Rz5lLufM/view?usp=drivesdk",
+        "name": "05 ApolytikionGeneralStMartys-4th-AA.pdf",
+        "description": "APOLYTIKION OF THE MARTYRS IN TONE FOUR (**Be quick to anticipate**) | Archdiocese",
+        "automelon": "BE QUICK TO ANTICIPATE",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 27 St Kallistratos and 49 Martyrs",
+        "periodId": "menaion",
+        "feast": "St Kallistratos and 49 Martyrs",
+        "feastId": "27-09"
+      }
+    ]
+  },
   "APOLYTIKION OF THE NATIVITY OF THE THEOTOKOS IN TONE FOUR": {
     "type": "multi",
     "versions": [
@@ -1014,33 +1041,6 @@
         "periodId": "menaion",
         "feast": "July St Profet Elijah",
         "feastId": "20-07"
-      }
-    ]
-  },
-  "APOSTICHA THEOTOKION FOR THE RESURRECTION IN TONE EIGHT": {
-    "type": "multi",
-    "versions": [
-      {
-        "label": "Brief",
-        "url": "https://drive.google.com/file/d/1Wj6Dvn4UfoaTnhCRlUnwceacCIHrvaqR/view?usp=drivesdk",
-        "name": "06 ApostichaTheotokionBrief-pl4th.pdf",
-        "description": "APOSTICHA THEOTOKION FOR THE RESURRECTION IN TONE EIGHT | Brief",
-        "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
-        "periodId": "",
-        "feast": "",
-        "feastId": ""
-      },
-      {
-        "label": "Slow",
-        "url": "https://drive.google.com/file/d/1F56j3Yiag6QlgT88QNxw4eQPjUuochiw/view?usp=drivesdk",
-        "name": "06 ApostichaTheotokionSlow-pl4th.pdf",
-        "description": "APOSTICHA THEOTOKION FOR THE RESURRECTION IN TONE EIGHT | Slow",
-        "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
-        "periodId": "",
-        "feast": "",
-        "feastId": ""
       }
     ]
   },
@@ -2317,10 +2317,10 @@
         "feastId": "10-07"
       },
       {
-        "label": "Regular - Karam",
+        "label": "Karam",
         "url": "https://drive.google.com/file/d/1jy9I4qetB6ym2tWmP_Yo7DyqeW0hGGEc/view?usp=drivesdk",
         "name": "10 AfterPsalm50Troparia-2nd.pdf",
-        "description": "FESTAL TROPARIA AFTER PSALM 50 IN TONE TWO | Regular - Karam",
+        "description": "FESTAL TROPARIA AFTER PSALM 50 IN TONE TWO | Karam",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
         "periodId": "",
@@ -2935,33 +2935,6 @@
     "description": "GREAT DOXOLOGY IN TONE ONE",
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
     "automelon": ""
-  },
-  "GREAT DOXOLOGY IN TONE SIX": {
-    "type": "multi",
-    "versions": [
-      {
-        "label": "Simon Petras",
-        "url": "https://drive.google.com/file/d/1edMlBtFazGSTA5X_BOtMf40s7JIPxUvm/view?usp=drivesdk",
-        "name": "18 Doxology-pl2nd-TripleMetered-SimonPetras.pdf",
-        "description": "THE GREAT DOXOLOGY IN TONE SIX | Simon Petras",
-        "automelon": "",
-        "path": "Byzantine Music / Bilingual Services / Divine Liturgy / MetropolitanSaba-June2026 / Orthros",
-        "periodId": "",
-        "feast": "",
-        "feastId": ""
-      },
-      {
-        "label": "En Gr Ar",
-        "url": "https://drive.google.com/file/d/1IDJ1FtQMbhVDvmLWS7z3OyxFPeEGhxdc/view?usp=drivesdk",
-        "name": "GreatDoxology-pl2nd-EnGrAr.pdf",
-        "description": "THE GREAT DOXOLOGY IN TONE SIX | En Gr Ar",
-        "automelon": "",
-        "path": "Byzantine Music / Bilingual Services / Orthros",
-        "periodId": "",
-        "feast": "",
-        "feastId": ""
-      }
-    ]
   },
   "GREAT DOXOLOGY IN TONE THREE": {
     "type": "multi",
@@ -5278,6 +5251,22 @@
       }
     ]
   },
+  "[O] EXAPOSTELARION & THEOTOKION FOR ST. KALLISTRATOS TONE TWO": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Archdiocese",
+        "url": "https://drive.google.com/file/d/18C1KcSWiW054qja9e5-Z1r6J8dasJe3C/view?usp=drivesdk",
+        "name": "21 Exaposteilarion-2nd-AA-Orthros-StKallistratos.pdf",
+        "description": "[O] EXAPOSTELARION & THEOTOKION FOR ST. KALLISTRATOS IN TONE TWO (**Upon that mount in Galilee**) | Archdiocese",
+        "automelon": "UPON THAT MOUNT IN GALILEE",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 27 St Kallistratos and 49 Martyrs",
+        "periodId": "menaion",
+        "feast": "St Kallistratos and 49 Martyrs",
+        "feastId": "27-09"
+      }
+    ]
+  },
   "[O] EXAPOSTELARION & THEOTOKION FOR THE BAPTIST’S BEHEADING TONE TWO": {
     "type": "multi",
     "versions": [
@@ -5543,6 +5532,33 @@
         "description": "[O] THE FOURTH EOTHINON DOXASTICON IN TONE FOUR | St Anthony",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      }
+    ]
+  },
+  "[O] GREAT DOXOLOGY TONE SIX": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "St Anthony",
+        "url": "https://drive.google.com/file/d/150w0wcwxv6egCY3MLv55Td5fC8pN8nUK/view?usp=drivesdk",
+        "name": "18 BriefDoxology-pl2nd copy.pdf",
+        "description": "[O] GREAT DOXOLOGY IN TONE SIX | St Anthony",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      },
+      {
+        "label": "Simonpetra",
+        "url": "https://drive.google.com/file/d/1Se08ZJUxzgrG9rGE4rEB4O_KF1WOdEYJ/view?usp=drivesdk",
+        "name": "18 Doxology(3 metered)-pl2nd-Simonpetra.pdf",
+        "description": "[O] THE GREAT DOXOLOGY IN TONE SIX | Simonpetra",
+        "automelon": "",
+        "path": "Byzantine Music / Bilingual Services / Orthros",
         "periodId": "",
         "feast": "",
         "feastId": ""
@@ -6691,6 +6707,33 @@
       }
     ]
   },
+  "[V] [AP] THEOTOKION FOR THE RESURRECTION TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Brief",
+        "url": "https://drive.google.com/file/d/1Wj6Dvn4UfoaTnhCRlUnwceacCIHrvaqR/view?usp=drivesdk",
+        "name": "06 ApostichaTheotokionBrief-pl4th.pdf",
+        "description": "[V] [AP] THEOTOKION FOR THE RESURRECTION IN TONE EIGHT | Brief",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      },
+      {
+        "label": "Slow",
+        "url": "https://drive.google.com/file/d/1F56j3Yiag6QlgT88QNxw4eQPjUuochiw/view?usp=drivesdk",
+        "name": "06 ApostichaTheotokionSlow-pl4th.pdf",
+        "description": "[V] [AP] THEOTOKION FOR THE RESURRECTION IN TONE EIGHT | Slow",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      }
+    ]
+  },
   "[V] [AP] THEOTOKION FOR THE RESURRECTION TONE FOUR": {
     "type": "multi",
     "versions": [
@@ -6887,6 +6930,22 @@
         "periodId": "menaion",
         "feast": "July St Profet Elias",
         "feastId": "20-07"
+      }
+    ]
+  },
+  "[V] [LIHC] DOXASTICON FOR ST. KALLISTRATOS TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Creemens",
+        "url": "https://drive.google.com/file/d/1tHN6ETprIvVLzHMbJWCc5XUAJ8cQRyiR/view?usp=drivesdk",
+        "name": "02 StichersDoxastikon-4th-Creemens-Vespers-StKallistratos.pdf",
+        "description": "[V] [LIHC] DOXASTICON FOR ST. KALLISTRATOS\nIN TONE FOUR | Creemens",
+        "automelon": "",
+        "path": "MyPrivateEnglishMusic / Menaion / 01 September / 27 St Kallistratos and 49 Martyrs",
+        "periodId": "menaion",
+        "feast": "St Kallistratos and 49 Martyrs",
+        "feastId": "27-09"
       }
     ]
   },
@@ -7177,6 +7236,22 @@
         "periodId": "menaion",
         "feast": "Consecration of the Resurrection Church",
         "feastId": "13-09"
+      }
+    ]
+  },
+  "[V] [LIHC] FOR ST. KALLISTRATOS AND COMPANIONS TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1Y5kiqFLw0--IHlnINdfXY6xM_Qy6qiLj/view?usp=drivesdk",
+        "name": "01 Sticheras-pl4th-ElMassih-Vespers-StKallistratos.pdf",
+        "description": "[V] [LIHC] For St. Kallistratos and companions\nin Tone Eight (**O strange wonder**) | Karam",
+        "automelon": "O STRANGE WONDER",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 27 St Kallistratos and 49 Martyrs",
+        "periodId": "menaion",
+        "feast": "St Kallistratos and 49 Martyrs",
+        "feastId": "27-09"
       }
     ]
   },
