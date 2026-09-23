@@ -513,6 +513,33 @@
       }
     ]
   },
+  "APOLYTIKION OF ST. SILOUAN THE ATHONITE IN TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1cf0_Q7Vq9OFq-_CsX1hzSPIrk__aXAPp/view?usp=drivesdk",
+        "name": "05 Apolytikion-4th-Karam-StSilouan.pdf",
+        "description": "APOLYTIKION OF ST. SILOUAN THE ATHONITE IN TONE FOUR | Karam",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 24 St Thecla and St Silouan the Athonite",
+        "periodId": "menaion",
+        "feast": "St Thecla and St Silouan the Athonite",
+        "feastId": "24-09"
+      },
+      {
+        "label": "St Anthony",
+        "url": "https://drive.google.com/file/d/1dRr238i7bE1-eh0_rlNol-Y7n0gp8H5H/view?usp=drivesdk",
+        "name": "05 Apolytikion-2nd-SA-StSilouan.pdf",
+        "description": "APOLYTIKION OF ST. SILOUAN THE ATHONITE IN TONE FOUR | St Anthony",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 24 St Thecla and St Silouan the Athonite",
+        "periodId": "menaion",
+        "feast": "St Thecla and St Silouan the Athonite",
+        "feastId": "24-09"
+      }
+    ]
+  },
   "APOLYTIKION OF ST. SOPHIA AND HER DAUGHTERS IN TONE FOUR": {
     "type": "multi",
     "versions": [
@@ -5232,6 +5259,22 @@
         "periodId": "menaion",
         "feast": "July St Paraskeva",
         "feastId": "26-07"
+      }
+    ]
+  },
+  "[O] EXAPOSTEILARION FOR ST. SILOUAN TONE THREE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Archdiocese",
+        "url": "https://drive.google.com/file/d/1Vj3eh8ZSsNsBd2UooExi6I4fmBczxU8t/view?usp=drivesdk",
+        "name": "23 Exaposteilarion-2nd-Karam-StThekla.pdf",
+        "description": "[O] THE EXAPOSTEILARION FOR ST. SILOUAN IN TONE THREE | Archdiocese",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 24 St Thecla and St Silouan the Athonite",
+        "periodId": "menaion",
+        "feast": "St Thecla and St Silouan the Athonite",
+        "feastId": "24-09"
       }
     ]
   },
