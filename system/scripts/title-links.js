@@ -287,11 +287,20 @@
         ? FEAST_CALENDAR.detectServiceDate()
         : null;
 
+    const IS_SUNDAY =
+      FEAST_CALENDAR
+        ? FEAST_CALENDAR.isSunday()
+        : false;
+
+    console.log(
+      "Detected IS_SUNDAY:",
+      IS_SUNDAY
+    );
+
     const AFTER_FEAST_ID =
       FEAST_CALENDAR
         ? FEAST_CALENDAR.detectAfterFeastId(SERVICE_DATE)
         : null;
-
 
     console.log(
       "Detected SERVICE_DATE:",
@@ -827,27 +836,44 @@
           versions = resurrectionalVersions;
         }
 
-      } else if (SERVICE_DATE) {
+      } else if (
+        SERVICE_DATE &&
+        !/\bafter-feast\b/i.test(baseKey) &&
+        !/\bafter feast\b/i.test(baseKey)
+      ) {
 
-        const feastVersions =
-          versions.filter(version => {
-            return (
-              version.periodId === "menaion" &&
-              version.feastId === SERVICE_DATE
-            );
-          });
+        /*
+         * MENAION DATE FILTER
+         *
+         * O versiune Menaion este permisă numai dacă
+         * feastId corespunde datei serviciului.
+         *
+         * Exemplu:
+         * SERVICE_DATE = "24-09"
+         * feastId = "16-07"
+         * -> versiunea Menaion este eliminată.
+         *
+         * Versiunile non-Menaion nu sunt afectate.
+         */
 
-        if (feastVersions.length > 0) {
+        versions = versions.filter(version => {
+
+          if (version.periodId !== "menaion") {
+            return true;
+          }
+
+          return version.feastId === SERVICE_DATE;
+        });
+
+        if (versions.length === 0) {
 
           console.log(
-            "Menaion feast version selected:",
+            "No matching Menaion version for:",
             SERVICE_DATE,
-            feastVersions.map(
-              version => version.label
-            )
+            baseKey
           );
 
-          versions = feastVersions;
+          return true;
         }
       }
 
