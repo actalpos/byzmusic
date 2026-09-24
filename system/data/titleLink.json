@@ -438,6 +438,33 @@
     "automelon": "",
     "periodId": "menaion"
   },
+  "APOLYTIKION OF ST. JOHN THE EVANGELIST IN TONE TWO": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "St Anthony",
+        "url": "https://drive.google.com/file/d/1u98triChjUxbLbwyfKm8zN43RAReDvW7/view?usp=drivesdk",
+        "name": "05 Apolytikion-2nd-SA-ReposeStJohnTheologian.pdf",
+        "description": "APOLYTIKION OF ST. JOHN THE EVANGELIST IN TONE TWO | St Anthony",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 26 Repose St John Theologian",
+        "periodId": "menaion",
+        "feast": "Repose St John Theologian",
+        "feastId": "26-09"
+      },
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1OWXQoHpbQiSzDmI9uI-5OZt-Bws7ukup/view?usp=drivesdk",
+        "name": "05 Apolytikion-2nd-Karam-ReposeStJohnTheologian.pdf",
+        "description": "APOLYTIKION OF ST. JOHN THE EVANGELIST IN TONE TWO | Karam",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 26 Repose St John Theologian",
+        "periodId": "menaion",
+        "feast": "Repose St John Theologian",
+        "feastId": "26-09"
+      }
+    ]
+  },
   "APOLYTIKION OF ST. JOSEPH OF ARIMATHAEA IN TONE TWO": {
     "type": "multi",
     "versions": [
@@ -4135,6 +4162,22 @@
       }
     ]
   },
+  "PROKEIMENON FOR ST. JOHN IN TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Kazan-W",
+        "url": "https://drive.google.com/file/d/1EDcYiI3tnyWC19aiWXFV5v8i7_Zttuz6/view?usp=drivesdk",
+        "name": "23 Prokeimenon-4th-Kazan-Apostoles-Orthros-W.pdf",
+        "description": "PROKEIMENON FOR ST. JOHN\nIN TONE FOUR | Kazan-W",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 26 Repose St John Theologian",
+        "periodId": "menaion",
+        "feast": "Repose St John Theologian",
+        "feastId": "26-09"
+      }
+    ]
+  },
   "PROKEIMENON FOR ST. JOSEPH IN TONE FOUR": {
     "type": "multi",
     "versions": [
@@ -5230,6 +5273,22 @@
       }
     ]
   },
+  "[O] EXAPOSTEILARION & STAVROTHEOTOKION FOR ST. JOHN TONE TWO": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Archdiocese",
+        "url": "https://drive.google.com/file/d/1DnyjG8LrbzVwWvfApMQxl5WjQlVSX4Sn/view?usp=drivesdk",
+        "name": "25 Exaposteilarion-2nd-AA-Orthros-ReposeStJohnTheologian.pdf",
+        "description": "[O] EXAPOSTEILARION & STAVROTHEOTOKION FOR ST. JOHN IN TONE TWO (**Hearken, ye women**) | Archdiocese",
+        "automelon": "HEARKEN YE WOMEN",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 26 Repose St John Theologian",
+        "periodId": "menaion",
+        "feast": "Repose St John Theologian",
+        "feastId": "26-09"
+      }
+    ]
+  },
   "[O] EXAPOSTEILARION & THEOTOKION FOR ST. PAISIOS TONE THREE": {
     "type": "multi",
     "versions": [
@@ -5784,6 +5843,22 @@
       }
     ]
   },
+  "[O] TROPARIA AFTER PSALM 50 TONE TWO": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Creemens",
+        "url": "https://drive.google.com/file/d/1oOSD-5c17cA3AOKebdCt8hVNiSlQw10i/view?usp=drivesdk",
+        "name": "24 AfterPsalm50Troparia-pl2nd-Creemens-Orthros-StJohnTheologian.pdf",
+        "description": "[O] FESTAL TROPARIA AFTER PSALM 50 IN TONE TWO | Creemens",
+        "automelon": "",
+        "path": "MyPrivateEnglishMusic / Menaion / 01 September / 26 St John the Theologian Repose",
+        "periodId": "menaion",
+        "feast": "St John the Theologian Repose",
+        "feastId": "26-09"
+      }
+    ]
+  },
   "[O] TROPARION TONE FOUR": {
     "url": "https://drive.google.com/file/d/1kksfMdu7t2fqB_aHA0CAzMfQTnt4R60M/view?usp=drivesdk",
     "name": "19 TodayIsTheSalvation-4th-EN-AR.pdf",
@@ -5957,6 +6032,22 @@
       }
     ]
   },
+  "[O] [PR] FOR ST. JOHN TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/1e6__fRJI3JVroT6RZGuHzLA-Mz7xmzJ7/view?usp=drivesdk",
+        "name": "26 Praises-pl4th-ElMassih-Orthros-ReposeStJohnTheologian.pdf",
+        "description": "[O] [PR] For St. John in Tone Eight\n(**O strange wonder**) | El Massih",
+        "automelon": "O STRANGE WONDER",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 26 Repose St John Theologian",
+        "periodId": "menaion",
+        "feast": "Repose St John Theologian",
+        "feastId": "26-09"
+      }
+    ]
+  },
   "[O] [PR] FOR THE CONSECRATION TONE FOUR": {
     "type": "multi",
     "versions": [
@@ -6018,6 +6109,38 @@
         "periodId": "menaion",
         "feast": "Nativity of the Theotokos",
         "feastId": "08-09"
+      }
+    ]
+  },
+  "[O] [PR] THE DOXASTICON OF ST. JOHN TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Creemens",
+        "url": "https://drive.google.com/file/d/1yZi5y22mIKklQyQVIRIU5J40tmiJYnu4/view?usp=drivesdk",
+        "name": "27 PraisesDoxastika-pl4th-Creemens-Orthros-StJohnTheologian.pdf",
+        "description": "[O] [PR] THE DOXASTICON OF ST. JOHN\nIN TONE EIGHT | Creemens",
+        "automelon": "",
+        "path": "MyPrivateEnglishMusic / Menaion / 01 September / 26 St John the Theologian Repose",
+        "periodId": "menaion",
+        "feast": "St John the Theologian Repose",
+        "feastId": "26-09"
+      }
+    ]
+  },
+  "[O] [PR] THEOTOKION TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/1KCYWDa6nv3Vap8ixwjHH_vLsWDVHM4dY/view?usp=drivesdk",
+        "name": "28 PraisesDoxastikonTheotokion-O Lady do thou receive-pl4th-ElMassih-W.pdf",
+        "description": "[O] [PR] THEOTOKION IN TONE EIGHT | El Massih",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 26 Repose St John Theologian",
+        "periodId": "menaion",
+        "feast": "Repose St John Theologian",
+        "feastId": "26-09"
       }
     ]
   },

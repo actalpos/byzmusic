@@ -906,6 +906,18 @@
     "file": "Service_Texts/fixDate/09/24/Sept 24 READ.html"
   },
   {
+    "date": "2026-09-26",
+    "title": "Sep 26 Bilingual ORTHROS",
+    "order": -1,
+    "file": "Service_Texts/fixDate/09/26/Sep 26 Bilingual ORTHROS.html"
+  },
+  {
+    "date": "2026-09-26",
+    "title": "Sep 26 Bilingual READ",
+    "order": -1,
+    "file": "Service_Texts/fixDate/09/26/Sep 26 Bilingual READ.html"
+  },
+  {
     "date": "2026-09-27",
     "title": "Sep 26 2026 Bilingual VESP",
     "order": -1,
