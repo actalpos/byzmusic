@@ -2990,6 +2990,22 @@
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
     "automelon": ""
   },
+  "GREAT DOXOLOGY IN TONE SEVEN": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "St Anthony",
+        "url": "https://drive.google.com/file/d/1aIwt_eCt3cUNKY07Ta2GyvJrtJCUi7tY/view?usp=drivesdk",
+        "name": "18 BriefDoxology-pl3rd-grave.pdf",
+        "description": "GREAT DOXOLOGY IN TONE SEVEN | St Anthony",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      }
+    ]
+  },
   "GREAT DOXOLOGY IN TONE THREE": {
     "type": "multi",
     "versions": [
@@ -4544,6 +4560,22 @@
         "automelon": "LET US WORSHIP THE WORD",
         "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 09-06 Saturday of the 6th Week - Lazarus Saturday",
         "periodId": "triodion",
+        "feast": "",
+        "feastId": ""
+      }
+    ]
+  },
+  "SEVENTH EOTHINON DOXASTICON IN TONE SEVEN": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "St  Anthony",
+        "url": "https://drive.google.com/file/d/1ynhTar05OzmtPWjUfpxyQKInHClNbJa8/view?usp=drivesdk",
+        "name": "16 7th DoxastikonEothinon-pl3rd-grave.pdf",
+        "description": "THE SEVENTH EOTHINON DOXASTICON IN TONE SEVEN | St  Anthony",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
         "feastId": ""
       }

@@ -1023,6 +1023,51 @@
       }
 
       /*
+       * SUNDAY - AFTER PSALM 50
+       *
+       * Dacă versiunea [O] găsită conține numai Menaion,
+       * iar serviciul este duminică, folosim versiunea
+       * globală Resurrectional / regular din Orthros.
+       */
+      if (
+        IS_SUNDAY &&
+        baseKey.includes("troparia after psalm 50") &&
+        item &&
+        item.type === "multi" &&
+        Array.isArray(item.versions)
+      ) {
+
+        const hasResurrectional =
+          item.versions.some(version => {
+
+            const path =
+              String(version.path || "")
+                .toLowerCase();
+
+            return (
+              !version.periodId &&
+              !version.feastId &&
+              path.endsWith(" / orthros")
+            );
+          });
+
+        if (!hasResurrectional) {
+
+          const globalItem =
+            globalIndex[baseKey];
+
+          if (globalItem) {
+
+            console.log(
+              "Sunday After Psalm 50: using global Resurrectional version"
+            );
+
+            item = globalItem;
+          }
+        }
+      }
+
+      /*
        * GLOBAL + AUTOMELON
        */
       if (!item && htmlAutomelon) {
