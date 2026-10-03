@@ -4653,33 +4653,6 @@
       }
     ]
   },
-  "THEOTOKION FOR THE RESURRECTION IN TONE ONE": {
-    "type": "multi",
-    "versions": [
-      {
-        "label": "Slow",
-        "url": "https://drive.google.com/file/d/1UQgIFmA-bXRYv9vrmFfFHwMy_P48OcOF/view?usp=drivesdk",
-        "name": "03 DogmaticTheotokionSlow-1st.pdf",
-        "description": "THEOTOKION FOR THE RESURRECTION IN TONE ONE | Slow",
-        "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
-        "periodId": "",
-        "feast": "",
-        "feastId": ""
-      },
-      {
-        "label": "Brief",
-        "url": "https://drive.google.com/file/d/1ER_QRgJayHGLiqqBD8TOU6OzYzoGErrn/view?usp=drivesdk",
-        "name": "03 DogmaticTheotokionBrief-1st.pdf",
-        "description": "THEOTOKION FOR THE RESURRECTION IN TONE ONE | Brief",
-        "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
-        "periodId": "",
-        "feast": "",
-        "feastId": ""
-      }
-    ]
-  },
   "THEOTOKION FOR THE RESURRECTION IN TONE SEVEN": {
     "type": "multi",
     "versions": [
@@ -6927,6 +6900,33 @@
       }
     ]
   },
+  "[V] [AP] THEOTOKION FOR THE RESURRECTION TONE ONE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Slow",
+        "url": "https://drive.google.com/file/d/1e_tJmIOblifp-MjxK5Nj-jIxs9Uh6r3h/view?usp=drivesdk",
+        "name": "06 ApostichaTheotokionSlow-1st.pdf",
+        "description": "[V] [AP] THEOTOKION FOR THE RESURRECTION IN TONE ONE | Slow",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      },
+      {
+        "label": "Brief",
+        "url": "https://drive.google.com/file/d/1ppSULmnnsEWwfodbsg8UbuL4TxiFIBBz/view?usp=drivesdk",
+        "name": "06 ApostichaTheotokionBrief-1st.pdf",
+        "description": "[V] [AP] THEOTOKION FOR THE RESURRECTION IN TONE ONE | Brief",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      }
+    ]
+  },
   "[V] [AP] THEOTOKION FOR THE RESURRECTION TONE SIX": {
     "type": "multi",
     "versions": [
@@ -7402,6 +7402,22 @@
         "periodId": "menaion",
         "feast": "Consecration of the Resurrection Church",
         "feastId": "13-09"
+      }
+    ]
+  },
+  "[V] [LIHC] FOR ST. HIEROTHEOS TONE ONE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/1nUL5_0jc_O0lBpRiaLIHR8qFFJODlbnd/view?usp=drivesdk",
+        "name": "01 Sticheras-1st-ElMassih-Vespers-StHierotheos.pdf",
+        "description": "[V] [LIHC] For St. Hierotheos in Tone One\n(**O all-lauded martyrs**) | El Massih",
+        "automelon": "O ALL-LAUDED MARTYRS",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 02 October / 03 St Hierotheos",
+        "periodId": "menaion",
+        "feast": "St Hierotheos",
+        "feastId": "03-10"
       }
     ]
   },
@@ -7981,6 +7997,33 @@
         "url": "https://drive.google.com/file/d/1oY4Rck9DYaSP4q5QV02HmC3gbGZ87XCU/view?usp=drivesdk",
         "name": "03 DogmaticTheotokionSlow-4th.pdf",
         "description": "[V] [LIHC] THEOTOKION FOR THE RESURRECTION IN TONE FOUR | Slow",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      }
+    ]
+  },
+  "[V] [LIHC] THEOTOKION FOR THE RESURRECTION TONE ONE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Slow",
+        "url": "https://drive.google.com/file/d/1UQgIFmA-bXRYv9vrmFfFHwMy_P48OcOF/view?usp=drivesdk",
+        "name": "03 DogmaticTheotokionSlow-1st.pdf",
+        "description": "[V] [LIHC] THEOTOKION FOR THE RESURRECTION IN TONE ONE | Slow",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      },
+      {
+        "label": "Brief",
+        "url": "https://drive.google.com/file/d/1ER_QRgJayHGLiqqBD8TOU6OzYzoGErrn/view?usp=drivesdk",
+        "name": "03 DogmaticTheotokionBrief-1st.pdf",
+        "description": "[V] [LIHC] THEOTOKION FOR THE RESURRECTION IN TONE ONE | Brief",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
         "periodId": "",
