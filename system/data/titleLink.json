@@ -594,6 +594,22 @@
       }
     ]
   },
+  "APOLYTIKION OF ST. THOMAS IN TONE THREE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "St Anthony",
+        "url": "https://drive.google.com/file/d/1BYvnCNW_3cxrLkUSLzKy1YUrQHFeQ4ZR/view?usp=drivesdk",
+        "name": "08 ApolytikionStThomas-3rd-SA.pdf",
+        "description": "APOLYTIKION OF ST. THOMAS IN TONE THREE | St Anthony",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 02 October / 06 St Thomas and St Inocent",
+        "periodId": "menaion",
+        "feast": "St Thomas and St Inocent",
+        "feastId": "06-10"
+      }
+    ]
+  },
   "APOLYTIKION OF THE ASCENSION IN TONE FOUR": {
     "url": "https://drive.google.com/file/d/1ROSdQDJ3jtvCnSPK1p_FW_hU9u-GGBie/view?usp=drivesdk",
     "name": "05 Apolytikion-4th-Ascension.pdf",
@@ -6658,6 +6674,22 @@
       }
     ]
   },
+  "[V] [AP] DOXASTICON FOR ST. THOMAS TONE SIX": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Creemens",
+        "url": "https://drive.google.com/file/d/1XpLOJhvaQfkIk4RVo7YwaTmqnHq1qeyq/view?usp=drivesdk",
+        "name": "07 ApostichaDoxastikon-6th-SaintThomas-Creemens-Vespers.pdf",
+        "description": "[V] [AP] DOXASTICON FOR ST. THOMAS IN TONE SIX | Creemens",
+        "automelon": "",
+        "path": "MyPrivateEnglishMusic / Menaion / 02 October / 06 St Thomas and St Inocent",
+        "periodId": "menaion",
+        "feast": "St Thomas and St Inocent",
+        "feastId": "06-10"
+      }
+    ]
+  },
   "[V] [AP] DOXASTICON FOR THE AFTER-FEAST OF THE HOLY CROSS TONE SIX": {
     "type": "multi",
     "versions": [
@@ -6859,6 +6891,22 @@
         "periodId": "menaion",
         "feast": "Transfiguration",
         "feastId": "06-08"
+      }
+    ]
+  },
+  "[V] [AP] THE APOSTICHA FOR ST. THOMAS TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/1IKi1R6e18k5lOPql3EWklfIBhaZCQ0Hw/view?usp=drivesdk",
+        "name": "06 Aposticha-StThomas-4th-ElMassih-Vespers.pdf",
+        "description": "[V] [AP] THE APOSTICHA FOR ST. THOMAS IN TONE FOUR (** Unto them that fear Thee **) | El Massih",
+        "automelon": "UNTO THEM THAT FEAR THEE",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 02 October / 06 St Thomas and St Inocent",
+        "periodId": "menaion",
+        "feast": "St Thomas and St Inocent",
+        "feastId": "06-10"
       }
     ]
   },
@@ -7222,6 +7270,22 @@
       }
     ]
   },
+  "[V] [LIHC] DOXASTICON FOR ST. THOMAS TONE SIX": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Creemens",
+        "url": "https://drive.google.com/file/d/1Q2d4oDpbzSnGGoDzj1tOCdtD25bLWFYN/view?usp=drivesdk",
+        "name": "03-SticherasDoxastikon-6th-SaintThoma-Creemens-Vespers.pdf",
+        "description": "[V] [LIHC] DOXASTICON FOR ST. THOMAS IN TONE SIX | Creemens",
+        "automelon": "",
+        "path": "MyPrivateEnglishMusic / Menaion / 02 October / 06 St Thomas and St Inocent",
+        "periodId": "menaion",
+        "feast": "St Thomas and St Inocent",
+        "feastId": "06-10"
+      }
+    ]
+  },
   "[V] [LIHC] DOXASTICON FOR THE AFTER-FEAST TONE FIVE": {
     "type": "multi",
     "versions": [
@@ -7530,6 +7594,22 @@
         "periodId": "menaion",
         "feast": "August Transfer St Stephen Relics",
         "feastId": "02-08"
+      }
+    ]
+  },
+  "[V] [LIHC] FOR ST. THOMAS TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/1TO7vJ3S5n5p6lRMdl2wKUnzYNv6bsEi-/view?usp=drivesdk",
+        "name": "01 SticheraStThomas-4th-ElMassih-Vespers.pdf",
+        "description": "[V] [LIHC] For St. Thomas in Tone Four (** As one valiant **) | El Massih",
+        "automelon": "AS ONE VALIANT",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 02 October / 06 St Thomas and St Inocent",
+        "periodId": "menaion",
+        "feast": "St Thomas and St Inocent",
+        "feastId": "06-10"
       }
     ]
   },

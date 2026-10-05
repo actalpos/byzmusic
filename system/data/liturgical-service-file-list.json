@@ -954,6 +954,18 @@
     "file": "Service_Texts/variableDate/2026/10/04/Oct 04 2026 Bilingual READ.html"
   },
   {
+    "date": "2026-10-06",
+    "title": "Oct 05 LITART",
+    "order": -1,
+    "file": "Service_Texts/fixDate/10/06/Oct 05 LITART.html"
+  },
+  {
+    "date": "2026-10-06",
+    "title": "Oct 05 VESP",
+    "order": -1,
+    "file": "Service_Texts/fixDate/10/06/Oct 05 VESP.html"
+  },
+  {
     "date": "2026-12-28",
     "title": "Dec 28 2025 Bilingual ORTHROS",
     "order": -1,
