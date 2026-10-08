@@ -4906,6 +4906,22 @@
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
     "automelon": ""
   },
+  "[LT] DOXASTICON & THEOTOKION OF THE HOLY FATHERS TONE THREE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Creemens",
+        "url": "https://drive.google.com/file/d/1q4sdj6SlaL7NQ4rlEjsCTry41DuVfD0f/view?usp=drivesdk",
+        "name": "06 LitiDoxastikon-3rd-Creemens-Lity-HolyFathers7thCouncil.pdf",
+        "description": "[LT] DOXASTICON & THEOTOKION OF THE HOLY FATHERS IN TONE THREE | Creemens",
+        "automelon": "",
+        "path": "MyPrivateEnglishMusic / Menaion / 02 October / 11-17 The Sunday of the Holy Fathers of the Seventh Ecumenical Council",
+        "periodId": "menaion",
+        "feast": "",
+        "feastId": ""
+      }
+    ]
+  },
   "[LT] DOXASTICON & THEOTOKION OF THE LITIA PROCESSION TONE SIX": {
     "type": "multi",
     "versions": [
@@ -6851,6 +6867,22 @@
       }
     ]
   },
+  "[V] [AP] DOXASTICON FOR THE HOLY FATHERS TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Creemens",
+        "url": "https://drive.google.com/file/d/1VyuLHlAq7CZEIt3h70jog2tQnGyF_GBM/view?usp=drivesdk",
+        "name": "05 ApostichaDoxastikon-1st-Creemens-Vespers-HolyFathers7thCouncil.pdf",
+        "description": "[V] [AP] DOXASTICON FOR THE HOLY FATHERS IN TONE FOUR | Creemens",
+        "automelon": "",
+        "path": "MyPrivateEnglishMusic / Menaion / 02 October / 11-17 The Sunday of the Holy Fathers of the Seventh Ecumenical Council",
+        "periodId": "menaion",
+        "feast": "",
+        "feastId": ""
+      }
+    ]
+  },
   "[V] [AP] DOXASTICON FOR THE HOLY FATHERS TONE THREE": {
     "type": "multi",
     "versions": [
@@ -7447,6 +7479,22 @@
       }
     ]
   },
+  "[V] [LIHC] DOXASTICON FOR THE HOLY FATHERS TONE SIX": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Creemens",
+        "url": "https://drive.google.com/file/d/1qrpMw5FKbIlHcoELTsFQca_BfiDPITON/view?usp=drivesdk",
+        "name": "02 SticherasDoxastikon-pl2nd-Creemens-Vespers-HolyFathers7thCouncil.pdf",
+        "description": "[V] [LIHC] DOXASTICON FOR THE HOLY FATHERS IN TONE SIX | Creemens",
+        "automelon": "",
+        "path": "MyPrivateEnglishMusic / Menaion / 02 October / 11-17 The Sunday of the Holy Fathers of the Seventh Ecumenical Council",
+        "periodId": "menaion",
+        "feast": "",
+        "feastId": ""
+      }
+    ]
+  },
   "[V] [LIHC] DOXASTICON FOR THE NATIVITY OF THE THEOTOKOS TONE SIX": {
     "type": "multi",
     "versions": [
@@ -7786,6 +7834,17 @@
   "[V] [LIHC] FOR THE HOLY FATHERS TONE SIX": {
     "type": "multi",
     "versions": [
+      {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/1r6A0vcPN8K7zBm3fgT-keY3Jh-Z2ANfk/view?usp=drivesdk",
+        "name": "01 Sticheras-pl2nd-ElMassih-Vespers-HolyFathers7thCouncil.pdf",
+        "description": "[V] [LIHC] For the Holy Fathers in Tone Six\n(**Ere the morning star**) | El Massih",
+        "automelon": "ERE THE MORNING STAR",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 02 October / 11-17 The Sunday of the Holy Fathers of the Seventh Ecumenical Council",
+        "periodId": "menaion",
+        "feast": "",
+        "feastId": ""
+      },
       {
         "label": "Boyer",
         "url": "https://drive.google.com/file/d/1NP_SYx5Xn2vB3EGHRJf3iHr5m9Hxq34P/view?usp=drivesdk",
