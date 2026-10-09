@@ -531,6 +531,7 @@ E bine ca istoricul să spună asta, ca peste câteva luni să știm exact ce fa
      **********************/
     const serviceIndex = {};
     const globalIndex = {};
+    const globalFallbackIndex = {};
 
     const serviceAutomelonIndex = {};
     const globalAutomelonIndex = {};
@@ -680,6 +681,10 @@ E bine ca istoricul să spună asta, ca peste câteva luni să știm exact ce fa
         } else {
 
           globalIndex[norm] = item;
+
+          // Păstrăm și copia globală înainte ca
+          // globalIndex să fie curățat de coliziuni.
+          globalFallbackIndex[norm] = item;
 
         }
 
@@ -984,11 +989,57 @@ E bine ca istoricul să spună asta, ca peste câteva luni să știm exact ce fa
 
       let item = null;
 
+      /*
+       * SUNDAY - AFTER PSALM 50
+       *
+       * Duminica, pentru TROPARIA AFTER PSALM 50,
+       * versiunea globală Orthros / Resurrectional
+       * are prioritate față de [O] Menaion.
+       */
+      if (
+        IS_SUNDAY &&
+        baseKey.includes("troparia after psalm 50")
+      ) {
+
+        const globalItem =
+          globalFallbackIndex[lookupKey];
+
+        if (
+          globalItem &&
+          globalItem.type === "multi" &&
+          Array.isArray(globalItem.versions)
+        ) {
+
+          const hasResurrectional =
+            globalItem.versions.some(v => {
+
+              const path =
+                String(v.path || "")
+                  .toLowerCase();
+
+              return (
+                !v.periodId &&
+                !v.feastId &&
+                path.endsWith(" / orthros")
+              );
+            });
+
+          if (hasResurrectional) {
+
+            console.log(
+              "Sunday After Psalm 50: using GLOBAL fallback"
+            );
+
+            item = globalItem;
+          }
+        }
+      }
+
       // ----------------------------
       // SERVICE
       // ----------------------------
 
-      if (SERVICE && !isApolytikionTheotokion) {
+      if (!item && SERVICE && !isApolytikionTheotokion) {
 
         const serviceKey =
           `[${SERVICE}] ${serviceLookupKey}`;

@@ -5358,6 +5358,22 @@
       }
     ]
   },
+  "[O] EXAPOSTEILARION & THEOTOKION FOR THE FATHERS TONE THREE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Archdiocese",
+        "url": "https://drive.google.com/file/d/1JkqkvEp_BP3ecsR0ugGfiCOPqFLKN94W/view?usp=drivesdk",
+        "name": "23 Exaposteilarion-3rd-Archdiocese-Orthros-HolyFathers7thCouncil.pdf",
+        "description": "[O] EXAPOSTEILARION & THEOTOKION FOR THE FATHERS IN TONE THREE\n(**While standing in the temple’s courts**) | Archdiocese",
+        "automelon": "WHILE STANDING IN THE TEMPLE’S COURTS",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 02 October / 11-17 The Sunday of the Holy Fathers of the Seventh Ecumenical Council",
+        "periodId": "menaion",
+        "feast": "",
+        "feastId": ""
+      }
+    ]
+  },
   "[O] EXAPOSTEILARION & THEOTOKION OF ST. PARASKEVA TONE TWO": {
     "type": "multi",
     "versions": [
@@ -5919,54 +5935,6 @@
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
     "automelon": ""
   },
-  "[O] [ED] THEOTOKION TONE EIGHT": {
-    "type": "multi",
-    "versions": [
-      {
-        "label": "St Anthony",
-        "url": "https://drive.google.com/file/d/1oAWJgS4SUB2UpE2_wf_UmtWeCQuncGXF/view?usp=drivesdk",
-        "name": "17 Theotokion-pl4th-DoxastikonEothion.pdf",
-        "description": "[O] [ED] THEOTOKION IN TONE EIGHT | St Anthony",
-        "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
-        "periodId": "",
-        "feast": "",
-        "feastId": ""
-      }
-    ]
-  },
-  "[O] [ED] THEOTOKION TONE FIVE": {
-    "type": "multi",
-    "versions": [
-      {
-        "label": "St Anthony",
-        "url": "https://drive.google.com/file/d/1FTV1izeSwfyyDHmWBX5twH5CAc9CW3zW/view?usp=drivesdk",
-        "name": "17 Theotokion-pl1st-DoxastikonEothion.pdf",
-        "description": "[O] [ED] THEOTOKION IN TONE FIVE | St Anthony",
-        "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
-        "periodId": "",
-        "feast": "",
-        "feastId": ""
-      }
-    ]
-  },
-  "[O] [ED] THEOTOKION TONE FOUR": {
-    "type": "multi",
-    "versions": [
-      {
-        "label": "St Anthony",
-        "url": "https://drive.google.com/file/d/1KIfNFJgOuoRRZZ-_bjiuBro5wmLm5ZSf/view?usp=drivesdk",
-        "name": "17 Theotokion-4th-DoxastikonEothion.pdf",
-        "description": "[O] [ED] THEOTOKION IN TONE FOUR | St Anthony",
-        "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
-        "periodId": "",
-        "feast": "",
-        "feastId": ""
-      }
-    ]
-  },
   "[O] [ED] THEOTOKION TONE ONE": {
     "type": "multi",
     "versions": [
@@ -5975,49 +5943,6 @@
         "url": "https://drive.google.com/file/d/1F3lSYG-eVhZ4FFmRfgm0D3LB3xjHDmtF/view?usp=drivesdk",
         "name": "17 Theotokion-1st-DoxastikonEothion.pdf",
         "description": "[O] [ED] THEOTOKION IN TONE ONE | St Anthony",
-        "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
-        "periodId": "",
-        "feast": "",
-        "feastId": ""
-      }
-    ]
-  },
-  "[O] [ED] THEOTOKION TONE SEVEN": {
-    "type": "multi",
-    "versions": [
-      {
-        "label": "St Anthony",
-        "url": "https://drive.google.com/file/d/1E3sJvfDLuAjFpJQgU01tQ1HR4QhNxAqz/view?usp=drivesdk",
-        "name": "17 Theotokion-pl3rd-grave-DoxastikonEothion.pdf",
-        "description": "[O] [ED] THEOTOKION IN TONE SEVEN | St Anthony",
-        "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
-        "periodId": "",
-        "feast": "",
-        "feastId": ""
-      }
-    ]
-  },
-  "[O] [ED] THEOTOKION TONE SIX": {
-    "type": "multi",
-    "versions": [
-      {
-        "label": "El Massih",
-        "url": "https://drive.google.com/file/d/1M6y4jr7448QWrOS7FwZbVB86r82F6i0k/view?usp=drivesdk",
-        "name": "17 Theotokion-pl2nd-ElMassih-DoxastikonEothion.pdf",
-        "description": "[O] [ED] THEOTOKION IN TONE SIX | El Massih",
-        "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
-        "periodId": "",
-        "feast": "",
-        "feastId": ""
-      },
-      {
-        "label": "St Anthony",
-        "url": "https://drive.google.com/file/d/1p8ZpTuPjTxw3p3cI9EsdHy-PlEykm6SB/view?usp=drivesdk",
-        "name": "17 Theotokion-pl2nd-DoxastikonEothion.pdf",
-        "description": "[O] [ED] THEOTOKION IN TONE SIX | St Anthony",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
         "periodId": "",
@@ -6194,6 +6119,92 @@
         "periodId": "menaion",
         "feast": "Repose St John Theologian",
         "feastId": "26-09"
+      },
+      {
+        "label": "St Anthony",
+        "url": "https://drive.google.com/file/d/1oAWJgS4SUB2UpE2_wf_UmtWeCQuncGXF/view?usp=drivesdk",
+        "name": "17 Theotokion-pl4th-DoxastikonEothion.pdf",
+        "description": "[O] [PR] THEOTOKION IN TONE EIGHT | St Anthony",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      }
+    ]
+  },
+  "[O] [PR] THEOTOKION TONE FIVE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "St Anthony",
+        "url": "https://drive.google.com/file/d/1FTV1izeSwfyyDHmWBX5twH5CAc9CW3zW/view?usp=drivesdk",
+        "name": "17 Theotokion-pl1st-DoxastikonEothion.pdf",
+        "description": "[O] [PR] THEOTOKION IN TONE FIVE | St Anthony",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      }
+    ]
+  },
+  "[O] [PR] THEOTOKION TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "St Anthony",
+        "url": "https://drive.google.com/file/d/1KIfNFJgOuoRRZZ-_bjiuBro5wmLm5ZSf/view?usp=drivesdk",
+        "name": "17 Theotokion-4th-DoxastikonEothion.pdf",
+        "description": "[O] [PR] THEOTOKION IN TONE FOUR | St Anthony",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      }
+    ]
+  },
+  "[O] [PR] THEOTOKION TONE SEVEN": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "St Anthony",
+        "url": "https://drive.google.com/file/d/1E3sJvfDLuAjFpJQgU01tQ1HR4QhNxAqz/view?usp=drivesdk",
+        "name": "17 Theotokion-pl3rd-grave-DoxastikonEothion.pdf",
+        "description": "[O] [PR] THEOTOKION IN TONE SEVEN | St Anthony",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      }
+    ]
+  },
+  "[O] [PR] THEOTOKION TONE SIX": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "St Anthony",
+        "url": "https://drive.google.com/file/d/1p8ZpTuPjTxw3p3cI9EsdHy-PlEykm6SB/view?usp=drivesdk",
+        "name": "17 Theotokion-pl2nd-DoxastikonEothion.pdf",
+        "description": "[O] [PR] THEOTOKION IN TONE SIX | St Anthony",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      },
+      {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/1M6y4jr7448QWrOS7FwZbVB86r82F6i0k/view?usp=drivesdk",
+        "name": "17 Theotokion-pl2nd-ElMassih-DoxastikonEothion.pdf",
+        "description": "[O] [PR] THEOTOKION IN TONE SIX | El Massih",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
       }
     ]
   },
@@ -8266,10 +8277,10 @@
     "type": "multi",
     "versions": [
       {
-        "label": "Slow",
-        "url": "https://drive.google.com/file/d/1tVW0_CXNuuB2Wn-9hzDL5nAHkhy0DZwg/view?usp=drivesdk",
-        "name": "03 DogmaticTheotokionSlow-2nd.pdf",
-        "description": "[V] [LIHC] THEOTOKION FOR THE RESURRECTION IN TONE TWO | Slow",
+        "label": "Brief",
+        "url": "https://drive.google.com/file/d/12ZoOpjVI8q7kwMXpqR1VSllA0Tx-XfZJ/view?usp=drivesdk",
+        "name": "03 DogmaticTheotokionBrief-2nd.pdf",
+        "description": "[V] [LIHC] THEOTOKION FOR THE RESURRECTION IN TONE TWO | Brief",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
         "periodId": "",
@@ -8277,10 +8288,10 @@
         "feastId": ""
       },
       {
-        "label": "Brief",
-        "url": "https://drive.google.com/file/d/12ZoOpjVI8q7kwMXpqR1VSllA0Tx-XfZJ/view?usp=drivesdk",
-        "name": "03 DogmaticTheotokionBrief-2nd.pdf",
-        "description": "[V] [LIHC] THEOTOKION FOR THE RESURRECTION IN TONE TWO | Brief",
+        "label": "Slow",
+        "url": "https://drive.google.com/file/d/1tVW0_CXNuuB2Wn-9hzDL5nAHkhy0DZwg/view?usp=drivesdk",
+        "name": "03 DogmaticTheotokionSlow-2nd.pdf",
+        "description": "[V] [LIHC] THEOTOKION FOR THE RESURRECTION IN TONE TWO | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
         "periodId": "",
