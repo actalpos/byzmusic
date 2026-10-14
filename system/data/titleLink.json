@@ -223,6 +223,22 @@
       }
     ]
   },
+  "APOLYTIKION FOR ST. JOHN OF KRONSTADT IN TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "St Anthony",
+        "url": "https://drive.google.com/file/d/1LCE6xS41JmWKuNqKzk08GjpQtKZQqMwA/view?usp=drivesdk",
+        "name": "06 Apolytikion-4th-SA-StJohnOfKronstadt.pdf",
+        "description": "APOLYTIKION FOR ST. JOHN OF KRONSTADT IN TONE FOUR | St Anthony",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 02 October / 18 St John Kronstadt",
+        "periodId": "menaion",
+        "feast": "St John Kronstadt",
+        "feastId": "18-10"
+      }
+    ]
+  },
   "APOLYTIKION FOR THE PRESENTATION OF CHRIST IN TONE ONE": {
     "url": "https://drive.google.com/file/d/16aWHu8rdGRgoatv_Y92UyLWJIMGfo_qZ/view?usp=drivesdk",
     "name": "8 Apolytikion-1st-ElMassih-SA-EN-PresentationLord.pdf",
@@ -505,6 +521,22 @@
         "periodId": "menaion",
         "feast": "July St Joseph of Damascus",
         "feastId": "10-07"
+      }
+    ]
+  },
+  "APOLYTIKION OF ST. LUKE THE EVANGELIST IN TONE THREE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "St Anthony",
+        "url": "https://drive.google.com/file/d/1iT1P41s_l0EJKQ9simxI0ltvNVw-abQN/view?usp=drivesdk",
+        "name": "06 Apolytikion-3rd-SA-StApostleLuke.pdf",
+        "description": "APOLYTIKION OF ST. LUKE THE EVANGELIST IN TONE THREE | St Anthony",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 02 October / 18 St Apostle Luke",
+        "periodId": "menaion",
+        "feast": "St Apostle Luke",
+        "feastId": "18-10"
       }
     ]
   },
@@ -2332,6 +2364,17 @@
     "type": "multi",
     "versions": [
       {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1jy9I4qetB6ym2tWmP_Yo7DyqeW0hGGEc/view?usp=drivesdk",
+        "name": "10 AfterPsalm50Troparia-2nd.pdf",
+        "description": "FESTAL TROPARIA AFTER PSALM 50 IN TONE TWO | Karam",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      },
+      {
         "label": "Beheading of St John - W",
         "url": "https://drive.google.com/file/d/1CuNW0oe70Not15CjF1LCaiwYQlcqGmk3/view?usp=drivesdk",
         "name": "22 AfterPsalm50Torparia-2nd-Orthros-BeheadingStJohnBaptist-W.pdf",
@@ -2385,17 +2428,6 @@
         "periodId": "menaion",
         "feast": "July St Joseph of Damascus",
         "feastId": "10-07"
-      },
-      {
-        "label": "Karam",
-        "url": "https://drive.google.com/file/d/1jy9I4qetB6ym2tWmP_Yo7DyqeW0hGGEc/view?usp=drivesdk",
-        "name": "10 AfterPsalm50Troparia-2nd.pdf",
-        "description": "FESTAL TROPARIA AFTER PSALM 50 IN TONE TWO | Karam",
-        "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
-        "periodId": "",
-        "feast": "",
-        "feastId": ""
       },
       {
         "label": "PalmSunday -Karam",
@@ -4717,33 +4749,6 @@
       }
     ]
   },
-  "THEOTOKION FOR THE RESURRECTION IN TONE THREE": {
-    "type": "multi",
-    "versions": [
-      {
-        "label": "Brief",
-        "url": "https://drive.google.com/file/d/1ehEmuC1hYyo9Zo-G8BI7V7pXPYtg6Fdi/view?usp=drivesdk",
-        "name": "03 DogmaticTheotokionBrief-3rd.pdf",
-        "description": "THEOTOKION FOR THE RESURRECTION IN TONE THREE | Brief",
-        "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
-        "periodId": "",
-        "feast": "",
-        "feastId": ""
-      },
-      {
-        "label": "Slow",
-        "url": "https://drive.google.com/file/d/1oE2MuuOY7eZW-RLeKq5BCfxTATwl78YZ/view?usp=drivesdk",
-        "name": "03 DogmaticTheotokionSlow-3rd.pdf",
-        "description": "THEOTOKION FOR THE RESURRECTION IN TONE THREE  | Slow",
-        "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
-        "periodId": "",
-        "feast": "",
-        "feastId": ""
-      }
-    ]
-  },
   "THEOTOKION FROM THE MENAION IN TONE EIGHT": {
     "type": "multi",
     "versions": [
@@ -5342,6 +5347,22 @@
       }
     ]
   },
+  "[O] EXAPOSTEILARION & THEOTOKION FOR ST. LUKE TONE TWO": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Archdiocese",
+        "url": "https://drive.google.com/file/d/1k78C2kYRW68LctWM1qyFowjODDSCMRan/view?usp=drivesdk",
+        "name": "21 Exaposteilarion-2nd-AA-Orthros-StApostleLuke.pdf",
+        "description": "[O] EXAPOSTEILARION & THEOTOKION FOR ST. LUKE IN TONE TWO\n(**Upon that mount in Galilee**) | Archdiocese",
+        "automelon": "UPON THAT MOUNT IN GALILEE",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 02 October / 18 St Apostle Luke",
+        "periodId": "menaion",
+        "feast": "St Apostle Luke",
+        "feastId": "18-10"
+      }
+    ]
+  },
   "[O] EXAPOSTEILARION & THEOTOKION FOR ST. PAISIOS TONE THREE": {
     "type": "multi",
     "versions": [
@@ -5800,6 +5821,22 @@
       }
     ]
   },
+  "[O] NINTH EOTHINON EXAPOSTEILARION TONE TWO": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Archdiocese",
+        "url": "https://drive.google.com/file/d/14UPoG3pHBIfdLz-3AYcIwYsnT1-7Ptdb/view?usp=drivesdk",
+        "name": "13 9th-EothionExapostelarion-2nd-AA.pdf",
+        "description": "[O] THE NINTH EOTHINON EXAPOSTEILARION IN TONE TWO | Archdiocese",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      }
+    ]
+  },
   "[O] NINTH ODE OF THE HOLY CROSS CANON TONE EIGHT": {
     "type": "multi",
     "versions": [
@@ -5983,6 +6020,22 @@
       }
     ]
   },
+  "[O] [PR] ALSO FOR ST. LUKE TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Creemens",
+        "url": "https://drive.google.com/file/d/1HLe_OHwAfipkJP8wcZ6cSXGbN8x7fX0T/view?usp=drivesdk",
+        "name": "25B Praises-pl4th-Creemens-Orthros-StLukeTheApostle.pdf",
+        "description": "[O] [PR] Also for St. Luke in Tone Eight |  Creemens",
+        "automelon": "",
+        "path": "MyPrivateEnglishMusic / Menaion / 02 October / 18 St Apostle Luke",
+        "periodId": "menaion",
+        "feast": "St Apostle Luke",
+        "feastId": "18-10"
+      }
+    ]
+  },
   "[O] [PR] DOXASTICON OF THE HOLY CROSS TONE SIX": {
     "type": "multi",
     "versions": [
@@ -6023,6 +6076,22 @@
         "periodId": "menaion",
         "feast": "Repose St John Theologian",
         "feastId": "26-09"
+      }
+    ]
+  },
+  "[O] [PR] FOR ST. LUKE TONE ONE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Creemens",
+        "url": "https://drive.google.com/file/d/1CW_CLSh4Kcp_9FuHbfEKOw4fX17LLgsD/view?usp=drivesdk",
+        "name": "25 Praises-1st-Creemens-Orthros-StLukeTheApostle.pdf",
+        "description": "[O] [PR] For St. Luke in Tone One | Creemens",
+        "automelon": "",
+        "path": "MyPrivateEnglishMusic / Menaion / 02 October / 18 St Apostle Luke",
+        "periodId": "menaion",
+        "feast": "St Apostle Luke",
+        "feastId": "18-10"
       }
     ]
   },
@@ -6106,20 +6175,25 @@
       }
     ]
   },
-  "[O] [PR] THEOTOKION TONE EIGHT": {
+  "[O] [PR] THE DOXASTICON OF ST. LUKE TONE EIGHT": {
     "type": "multi",
     "versions": [
       {
-        "label": "El Massih",
-        "url": "https://drive.google.com/file/d/1KCYWDa6nv3Vap8ixwjHH_vLsWDVHM4dY/view?usp=drivesdk",
-        "name": "28 PraisesDoxastikonTheotokion-O Lady do thou receive-pl4th-ElMassih-W.pdf",
-        "description": "[O] [PR] THEOTOKION IN TONE EIGHT | El Massih",
+        "label": "Creemens",
+        "url": "https://drive.google.com/file/d/1jKzeNiSVur1d6pkWFfLenO8cu6N0q81M/view?usp=drivesdk",
+        "name": "08-PraisesDoxastikon-pl4th-Creemens-Orthros-Saint-Luke-the-Apostle.pdf",
+        "description": "[O] [PR] THE DOXASTICON OF ST. LUKE\nIN TONE EIGHT | Creemens",
         "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 26 Repose St John Theologian",
+        "path": "MyPrivateEnglishMusic / Menaion / 02 October / 18 St Apostle Luke",
         "periodId": "menaion",
-        "feast": "Repose St John Theologian",
-        "feastId": "26-09"
-      },
+        "feast": "St Apostle Luke",
+        "feastId": "18-10"
+      }
+    ]
+  },
+  "[O] [PR] THEOTOKION TONE EIGHT": {
+    "type": "multi",
+    "versions": [
       {
         "label": "St Anthony",
         "url": "https://drive.google.com/file/d/1oAWJgS4SUB2UpE2_wf_UmtWeCQuncGXF/view?usp=drivesdk",
@@ -6130,6 +6204,17 @@
         "periodId": "",
         "feast": "",
         "feastId": ""
+      },
+      {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/1KCYWDa6nv3Vap8ixwjHH_vLsWDVHM4dY/view?usp=drivesdk",
+        "name": "28 PraisesDoxastikonTheotokion-O Lady do thou receive-pl4th-ElMassih-W.pdf",
+        "description": "[O] [PR] THEOTOKION IN TONE EIGHT | El Massih",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 26 Repose St John Theologian",
+        "periodId": "menaion",
+        "feast": "Repose St John Theologian",
+        "feastId": "26-09"
       }
     ]
   },
@@ -6465,6 +6550,22 @@
       }
     ]
   },
+  "[V] [AP] APOSTICHA FOR ST. JOHN KRONSTADT TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/12xmDLB0ayhKqxaZn2zeJzI2-GVBfq-YC/view?usp=drivesdk",
+        "name": "04 Aposticha-pl4th-ElMassih-Vespers-StJohnOfKronstadt.pdf",
+        "description": "[V] [AP] APOSTICHA FOR ST. JOHN KRONSTADT IN TONE EIGHT (**O strange wonder**) | El Massih",
+        "automelon": "O STRANGE WONDER",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 02 October / 18 St John Kronstadt",
+        "periodId": "menaion",
+        "feast": "St John Kronstadt",
+        "feastId": "18-10"
+      }
+    ]
+  },
   "[V] [AP] APOSTICHA FOR THE AFTER-FEAST TONE TWO": {
     "type": "multi",
     "versions": [
@@ -6639,6 +6740,22 @@
         "periodId": "menaion",
         "feast": "July St Profet Elijah",
         "feastId": "20-07"
+      }
+    ]
+  },
+  "[V] [AP] DOXASTICON FOR ST. LUKE TONE SIX": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Creemens",
+        "url": "https://drive.google.com/file/d/1zjEKDfrKCiw7lf2wudwLSOJMaHBqA615/view?usp=drivesdk",
+        "name": "07-ApostichaDoxastikon-pl2nd-Creemens-Vespers-Saint-Luke-the-Apostle.pdf",
+        "description": "[V] [AP] DOXASTICON FOR ST. LUKE\nIN TONE SIX | Creemens",
+        "automelon": "",
+        "path": "MyPrivateEnglishMusic / Menaion / 02 October / 18 St Apostle Luke",
+        "periodId": "menaion",
+        "feast": "St Apostle Luke",
+        "feastId": "18-10"
       }
     ]
   },
@@ -7254,6 +7371,22 @@
       }
     ]
   },
+  "[V] [LIHC] DOXASTICON FOR ST. LUKE TONE SIX": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Creemens",
+        "url": "https://drive.google.com/file/d/1oDJ-cG6ggdIU7ptEgXUSUz_EsM0GM31c/view?usp=drivesdk",
+        "name": "06 SticherasDoxastikon-pl2nd-Creemens-Vespers-Saint-Luke-the-Apostle.pdf",
+        "description": "[V] [LIHC] DOXASTICON FOR ST. LUKE\nIN TONE SIX | Creemens",
+        "automelon": "",
+        "path": "MyPrivateEnglishMusic / Menaion / 02 October / 18 St Apostle Luke",
+        "periodId": "menaion",
+        "feast": "St Apostle Luke",
+        "feastId": "18-10"
+      }
+    ]
+  },
   "[V] [LIHC] DOXASTICON FOR ST. PAISIOS TONE FIVE": {
     "type": "multi",
     "versions": [
@@ -7592,6 +7725,22 @@
       }
     ]
   },
+  "[V] [LIHC] FOR ST. JOHN OF KRONSTADT TONE SIX": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Archdiocese",
+        "url": "https://drive.google.com/file/d/1fH9UY8tCFZBTCm1U3HD33zwvvT5ngeZ5/view?usp=drivesdk",
+        "name": "01 Sticheras-pl2nd-AA-Vespers-StJohnOfKronstadt.pdf",
+        "description": "[V] [LIHC] For St. John of Kronstadt in Tone Six (**Having laid up all their hope**) | Archdiocese",
+        "automelon": "HAVING LAID UP ALL THEIR HOPE",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 02 October / 18 St John Kronstadt",
+        "periodId": "menaion",
+        "feast": "St John Kronstadt",
+        "feastId": "18-10"
+      }
+    ]
+  },
   "[V] [LIHC] FOR ST. KALLISTRATOS AND COMPANIONS TONE EIGHT": {
     "type": "multi",
     "versions": [
@@ -7605,6 +7754,22 @@
         "periodId": "menaion",
         "feast": "St Kallistratos and 49 Martyrs",
         "feastId": "27-09"
+      }
+    ]
+  },
+  "[V] [LIHC] FOR ST. LUKE TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/12t-UZLGBZyCNMyz1A64np0LNI19XUEDM/view?usp=drivesdk",
+        "name": "01 Stichera-pl4th-ElMassih-Vespers-StApostleLuke.pdf",
+        "description": "[V] [LIHC] For St. Luke in Tone Eight\n(**What shall we now call you**) | El Massih",
+        "automelon": "WHAT SHALL WE NOW CALL YOU",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 02 October / 18 St Apostle Luke",
+        "periodId": "menaion",
+        "feast": "St Apostle Luke",
+        "feastId": "18-10"
       }
     ]
   },
@@ -8265,6 +8430,33 @@
         "url": "https://drive.google.com/file/d/12xVQi6i1bJ8zVOULT5bBZbqLqx_W9Aut/view?usp=drivesdk",
         "name": "03 DogmaticTheotokionSlow-pl2nd.pdf",
         "description": "[V] [LIHC] THEOTOKION FOR THE RESURRECTION IN TONE SIX | Slow",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      }
+    ]
+  },
+  "[V] [LIHC] THEOTOKION FOR THE RESURRECTION TONE THREE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Brief",
+        "url": "https://drive.google.com/file/d/1ehEmuC1hYyo9Zo-G8BI7V7pXPYtg6Fdi/view?usp=drivesdk",
+        "name": "03 DogmaticTheotokionBrief-3rd.pdf",
+        "description": "[V] [LIHC] THEOTOKION FOR THE RESURRECTION IN TONE THREE | Brief",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      },
+      {
+        "label": "Slow",
+        "url": "https://drive.google.com/file/d/1oE2MuuOY7eZW-RLeKq5BCfxTATwl78YZ/view?usp=drivesdk",
+        "name": "03 DogmaticTheotokionSlow-3rd.pdf",
+        "description": "[V] [LIHC] THEOTOKION FOR THE RESURRECTION IN TONE THREE  | Slow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
         "periodId": "",
