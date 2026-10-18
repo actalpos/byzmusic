@@ -232,10 +232,10 @@
         "name": "06 Apolytikion-4th-SA-StJohnOfKronstadt.pdf",
         "description": "APOLYTIKION FOR ST. JOHN OF KRONSTADT IN TONE FOUR | St Anthony",
         "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 02 October / 18 St John Kronstadt",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 02 October / 19 St John Kronstadt",
         "periodId": "menaion",
         "feast": "St John Kronstadt",
-        "feastId": "18-10"
+        "feastId": "19-10"
       }
     ]
   },
@@ -4706,33 +4706,6 @@
       }
     ]
   },
-  "THEOTOKION FOR THE RESURRECTION IN TONE EIGHT": {
-    "type": "multi",
-    "versions": [
-      {
-        "label": "Slow",
-        "url": "https://drive.google.com/file/d/1uWDZ8ENbOrnxkFddiYPtDyQ-QU2yn3Xb/view?usp=drivesdk",
-        "name": "03 DogmaticTheotokionSlow-Pl4th.pdf",
-        "description": "THEOTOKION FOR THE RESURRECTION IN TONE EIGHT | Slow",
-        "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
-        "periodId": "",
-        "feast": "",
-        "feastId": ""
-      },
-      {
-        "label": "Brief",
-        "url": "https://drive.google.com/file/d/144c1iaa94AzGIkbdtAcI4Qg95YdUtAvz/view?usp=drivesdk",
-        "name": "03 DogmaticTheotokionBrief-Pl4th.pdf",
-        "description": "THEOTOKION FOR THE RESURRECTION IN TONE EIGHT | Brief",
-        "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
-        "periodId": "",
-        "feast": "",
-        "feastId": ""
-      }
-    ]
-  },
   "THEOTOKION FOR THE RESURRECTION IN TONE SEVEN": {
     "type": "multi",
     "versions": [
@@ -6559,10 +6532,10 @@
         "name": "04 Aposticha-pl4th-ElMassih-Vespers-StJohnOfKronstadt.pdf",
         "description": "[V] [AP] APOSTICHA FOR ST. JOHN KRONSTADT IN TONE EIGHT (**O strange wonder**) | El Massih",
         "automelon": "O STRANGE WONDER",
-        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 02 October / 18 St John Kronstadt",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 02 October / 19 St John Kronstadt",
         "periodId": "menaion",
         "feast": "St John Kronstadt",
-        "feastId": "18-10"
+        "feastId": "19-10"
       }
     ]
   },
@@ -7734,10 +7707,10 @@
         "name": "01 Sticheras-pl2nd-AA-Vespers-StJohnOfKronstadt.pdf",
         "description": "[V] [LIHC] For St. John of Kronstadt in Tone Six (**Having laid up all their hope**) | Archdiocese",
         "automelon": "HAVING LAID UP ALL THEIR HOPE",
-        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 02 October / 18 St John Kronstadt",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 02 October / 19 St John Kronstadt",
         "periodId": "menaion",
         "feast": "St John Kronstadt",
-        "feastId": "18-10"
+        "feastId": "19-10"
       }
     ]
   },
@@ -8322,6 +8295,33 @@
         "periodId": "menaion",
         "feast": "Transfiguration",
         "feastId": "06-08"
+      }
+    ]
+  },
+  "[V] [LIHC] THEOTOKION FOR THE RESURRECTION TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Brief",
+        "url": "https://drive.google.com/file/d/144c1iaa94AzGIkbdtAcI4Qg95YdUtAvz/view?usp=drivesdk",
+        "name": "03 DogmaticTheotokionBrief-Pl4th.pdf",
+        "description": "[V] [LIHC] THEOTOKION FOR THE RESURRECTION IN TONE EIGHT | Brief",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      },
+      {
+        "label": "Slow",
+        "url": "https://drive.google.com/file/d/1uWDZ8ENbOrnxkFddiYPtDyQ-QU2yn3Xb/view?usp=drivesdk",
+        "name": "03 DogmaticTheotokionSlow-Pl4th.pdf",
+        "description": "[V] [LIHC] THEOTOKION FOR THE RESURRECTION IN TONE EIGHT | Slow",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
       }
     ]
   },
