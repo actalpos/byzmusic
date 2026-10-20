@@ -5432,6 +5432,22 @@
       }
     ]
   },
+  "[O] EXAPOSTEILARION & THEOTOKION FOR THE MARTYRS TONE TWO": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Archdiocese",
+        "url": "https://drive.google.com/file/d/1mtFQyBzPsbEn4_GGG-VHBV0LYNFr_fCk/view?usp=drivesdk",
+        "name": "23 Exaposteilarion-2nd-AA-Orthros-25 Martyrs Marcian and Martyrios.pdf",
+        "description": "[O] EXAPOSTEILARION & THEOTOKION FOR THE MARTYRS IN TONE TWO\n(**Upon that mount in Galilee**) | Archdiocese",
+        "automelon": "UPON THAT MOUNT IN GALILEE",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 02 October / 25 Martyrs Marcian and Martyrios",
+        "periodId": "menaion",
+        "feast": "Martyrs Marcian and Martyrios",
+        "feastId": "25-10"
+      }
+    ]
+  },
   "[O] EXAPOSTEILARION & THEOTOKION OF ST. PARASKEVA TONE TWO": {
     "type": "multi",
     "versions": [
