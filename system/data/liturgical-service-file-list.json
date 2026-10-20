@@ -1020,6 +1020,42 @@
     "file": "Service_Texts/fixDate/10/19/Oct 18 VESP.html"
   },
   {
+    "date": "2026-10-23",
+    "title": "Oct 22 VESP",
+    "order": -1,
+    "file": "Service_Texts/fixDate/10/23/Oct 22 VESP.html"
+  },
+  {
+    "date": "2026-10-23",
+    "title": "Oct 23 ORTHROS",
+    "order": -1,
+    "file": "Service_Texts/fixDate/10/23/Oct 23 ORTHROS.html"
+  },
+  {
+    "date": "2026-10-23",
+    "title": "Oct 23 READ",
+    "order": -1,
+    "file": "Service_Texts/fixDate/10/23/Oct 23 READ.html"
+  },
+  {
+    "date": "2026-10-25",
+    "title": "Oct 24 2026 Bilingual VESP",
+    "order": -1,
+    "file": "Service_Texts/variableDate/2026/10/25/Oct 24 2026 Bilingual VESP.html"
+  },
+  {
+    "date": "2026-10-25",
+    "title": "Oct 25 2026 Bilingual ORTHROS",
+    "order": -1,
+    "file": "Service_Texts/variableDate/2026/10/25/Oct 25 2026 Bilingual ORTHROS.html"
+  },
+  {
+    "date": "2026-10-25",
+    "title": "Oct 25 2026 Bilingual READ",
+    "order": -1,
+    "file": "Service_Texts/variableDate/2026/10/25/Oct 25 2026 Bilingual READ.html"
+  },
+  {
     "date": "2026-12-28",
     "title": "Dec 28 2025 Bilingual ORTHROS",
     "order": -1,

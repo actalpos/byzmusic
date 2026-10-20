@@ -454,6 +454,22 @@
     "automelon": "",
     "periodId": "menaion"
   },
+  "APOLYTIKION OF ST. JAMES THE BROTHER OF GOD IN TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "St Anthony",
+        "url": "https://drive.google.com/file/d/1aXBWBtMGHL9450TVCheiMhMpwT0ere_T/view?usp=drivesdk",
+        "name": "06 Apolytikion-4th-SA-StApostleJames.pdf",
+        "description": "APOLYTIKION OF ST. JAMES THE “BROTHER OF GOD” IN TONE FOUR | St Anthony",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 02 October / 23 The Holy Apostle James",
+        "periodId": "menaion",
+        "feast": "The Holy Apostle James",
+        "feastId": "23-10"
+      }
+    ]
+  },
   "APOLYTIKION OF ST. JOHN THE EVANGELIST IN TONE TWO": {
     "type": "multi",
     "versions": [
@@ -3506,6 +3522,22 @@
       }
     ]
   },
+  "KOINONIKON ( COMMUNION HYMN ) THEIR SOUND HATH GONE OUT IN TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "St Anthony",
+        "url": "https://drive.google.com/file/d/1jMPHnD0g33iUE8bsT41Lzhi0X8seb5Hq/view?usp=drivesdk",
+        "name": "Their Sound Hath Gone Forth - SA - brief.pdf",
+        "description": "KOINONIKON (COMMUNION HYMN) THEIR SOUND HATH GONE OUT IN\nTONE EIGHT | St Anthony",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Divine Liturgy / 9 Communion Hymns",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      }
+    ]
+  },
   "KONTAKION AND OIKOS FOR ST. JOSEPH ( PLAIN READING )": {
     "type": "multi",
     "versions": [
@@ -5320,6 +5352,22 @@
       }
     ]
   },
+  "[O] EXAPOSTEILARION & THEOTOKION FOR ST. JAMES TONE TWO": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Archdiocese",
+        "url": "https://drive.google.com/file/d/1Qkv7osmTzcBReQgXVDlr8Grh5ntQwLVm/view?usp=drivesdk",
+        "name": "22 Exaposteilarion-2nd-AA-Orthros-StApostleJames.pdf",
+        "description": "[O] THE EXAPOSTEILARION & THEOTOKION FOR ST. JAMES IN TONE TWO\n(**Upon that mount in Galilee**) | Archdiocese",
+        "automelon": "UPON THAT MOUNT IN GALILEE",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 02 October / 23 The Holy Apostle James",
+        "periodId": "menaion",
+        "feast": "The Holy Apostle James",
+        "feastId": "23-10"
+      }
+    ]
+  },
   "[O] EXAPOSTEILARION & THEOTOKION FOR ST. LUKE TONE TWO": {
     "type": "multi",
     "versions": [
@@ -5842,6 +5890,22 @@
       }
     ]
   },
+  "[O] PROKEIMENON FOR ST. JAMES TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Kazan",
+        "url": "https://drive.google.com/file/d/1WKGxbSP3MmK6zoQ-oi3Z2Po0wgWqSG8B/view?usp=drivesdk",
+        "name": "21 Prokeimenon-4th-Kazan-Orthros-TheirSoundHathGoneForth-W.pdf",
+        "description": "[O] PROKEIMENON FOR ST. JAMES IN TONE FOUR | Kazan",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 02 October / 23 The Holy Apostle James",
+        "periodId": "menaion",
+        "feast": "The Holy Apostle James",
+        "feastId": "23-10"
+      }
+    ]
+  },
   "[O] PROKEIMENON FOR THE ELEVATION OF THE CROSS TONE FOUR": {
     "type": "multi",
     "versions": [
@@ -6036,6 +6100,22 @@
       }
     ]
   },
+  "[O] [PR] FOR ST. JAMES TONE ONE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Archdiocese",
+        "url": "https://drive.google.com/file/d/1UI8suksktlGH6lcgph6fEDVtrM-Q5qO3/view?usp=drivesdk",
+        "name": "23 Praises-1st-AA-Orthros-StApostoleJames.pdf",
+        "description": "[O] [PR]  For St. James in Tone One (**Thou art the joy**) | Archdiocese",
+        "automelon": "THOU ART THE JOY",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 02 October / 23 The Holy Apostle James",
+        "periodId": "menaion",
+        "feast": "The Holy Apostle James",
+        "feastId": "23-10"
+      }
+    ]
+  },
   "[O] [PR] FOR ST. JOHN TONE EIGHT": {
     "type": "multi",
     "versions": [
@@ -6113,6 +6193,22 @@
         "periodId": "menaion",
         "feast": "Nativity of the Theotokos",
         "feastId": "08-09"
+      }
+    ]
+  },
+  "[O] [PR] THE DOXASTICON FOR ST. JAMES TONE ONE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Creemens",
+        "url": "https://drive.google.com/file/d/1cUzhtHHTRBt0qwQkanqAuzJgSs2GgWpf/view?usp=drivesdk",
+        "name": "23 PraisesDoxastikon-pl2nd-Creemens-Orthros-StApostleJames.pdf",
+        "description": "[O] [PR] THE DOXASTICON FOR ST. JAMES IN TONE ONE | Creemens",
+        "automelon": "",
+        "path": "MyPrivateEnglishMusic / Menaion / 02 October / 23 St Apostle James",
+        "periodId": "menaion",
+        "feast": "St Apostle James",
+        "feastId": "23-10"
       }
     ]
   },
@@ -7043,6 +7139,38 @@
       }
     ]
   },
+  "[V] [AP] DOXASTICON OF ST. JAMES TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/1SlE9bffD4ivg7ePJh_Y5UtVUJ20CMJCw/view?usp=drivesdk",
+        "name": "04 Aposticha-pl4th-ElMassih-Vespers-StApostleJames.pdf",
+        "description": "[V] [AP] DOXASTICON OF ST. JAMES IN TONE EIGHT | El Massih",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 02 October / 23 The Holy Apostle James",
+        "periodId": "menaion",
+        "feast": "The Holy Apostle James",
+        "feastId": "23-10"
+      }
+    ]
+  },
+  "[V] [AP] THE APOSTICHA FOR ST. JAMES TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/1SSzUpdRSV-f9bQ1srX1-jwZV6MeTV3AN/view?usp=drivesdk",
+        "name": "05 ApostichaDoxastikon-pl4th-Creemens-Vespers-StApostleJames.pdf",
+        "description": "[V] [AP] THE APOSTICHA FOR ST. JAMES IN TONE EIGHT\n(**O Lord, though Thou didst stand**) | El Massih",
+        "automelon": "O LORD THOUGH THOU DIDST STAND",
+        "path": "MyPrivateEnglishMusic / Menaion / 02 October / 23 St Apostle James",
+        "periodId": "menaion",
+        "feast": "St Apostle James",
+        "feastId": "23-10"
+      }
+    ]
+  },
   "[V] [AP] THE APOSTICHA FOR ST. THOMAS TONE FOUR": {
     "type": "multi",
     "versions": [
@@ -7325,6 +7453,22 @@
         "periodId": "menaion",
         "feast": "July St Profet Elias",
         "feastId": "20-07"
+      }
+    ]
+  },
+  "[V] [LIHC] DOXASTICON FOR ST. JAMES TONE SIX": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Creemens",
+        "url": "https://drive.google.com/file/d/1PvCk9LH_U6MC1YDP25VmakOHmM7boK4M/view?usp=drivesdk",
+        "name": "02 SticherasDoxastikon-1st-Creemens-Vespers-StApostleJames.pdf",
+        "description": "[V] [LIHC] DOXASTICON FOR ST. JAMES IN TONE SIX | Creemens",
+        "automelon": "",
+        "path": "MyPrivateEnglishMusic / Menaion / 02 October / 23 St Apostle James",
+        "periodId": "menaion",
+        "feast": "St Apostle James",
+        "feastId": "23-10"
       }
     ]
   },
@@ -7695,6 +7839,22 @@
         "periodId": "menaion",
         "feast": "St Hierotheos",
         "feastId": "03-10"
+      }
+    ]
+  },
+  "[V] [LIHC] FOR ST. JAMES TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/19UhsP5vKzcYYpxEGiuYBS7EZ89Tbj837/view?usp=drivesdk",
+        "name": "01 Sticheras-4th-ElMassih-Vespers-StApostleJames.pdf",
+        "description": "[V] [LIHC] For St. James in Tone Four (**Unto them that fear Thee**) | El Massih",
+        "automelon": "UNTO THEM THAT FEAR THEE",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 02 October / 23 The Holy Apostle James",
+        "periodId": "menaion",
+        "feast": "The Holy Apostle James",
+        "feastId": "23-10"
       }
     ]
   },
