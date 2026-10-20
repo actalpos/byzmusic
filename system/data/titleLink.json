@@ -422,6 +422,22 @@
     "feast": "St Constantine and Helen",
     "feastId": "21-05"
   },
+  "APOLYTIKION OF SS. MARCIAN & MARTYRIOS IN TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Archdiocese",
+        "url": "https://drive.google.com/file/d/1CrAoLFyU26WYVcLLaLJtyB3ligMYb_pG/view?usp=drivesdk",
+        "name": "05 Apolytikion-4th-SA-Martyrs Marcian and Martyrios.pdf",
+        "description": "APOLYTIKION OF SS. MARCIAN & MARTYRIOS IN TONE FOUR\n(**Be quick to anticipate**) | Archdiocese",
+        "automelon": "BE QUICK TO ANTICIPATE",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 02 October / 25 Martyrs Marcian and Martyrios",
+        "periodId": "menaion",
+        "feast": "Martyrs Marcian and Martyrios",
+        "feastId": "25-10"
+      }
+    ]
+  },
   "APOLYTIKION OF SS. PETER AND PAUL IN TONE FOUR": {
     "url": "https://drive.google.com/file/d/1a1dTGK69LPw_zeT7thkgz0NIEpuHg8yE/view?usp=drivesdk",
     "name": "01 apolytikion-4th-StsPeterPaul.pdf",
@@ -6780,6 +6796,22 @@
       }
     ]
   },
+  "[V] [AP] DOXASTICON FOR SS. MARCIAN & MARTYRIOS TONE THREE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Creemens",
+        "url": "https://drive.google.com/file/d/1hCdlb8jRRcjVIZ4Hoz6iWcerhvHQFwAa/view?usp=drivesdk",
+        "name": "05 ApostichaDoxastikon-pl4th-Creemens-Vespers-Holy Martyrs Marcian and Martyrios.pdf",
+        "description": "[V] [AP] DOXASTICON FOR SS. MARCIAN & MARTYRIOS IN TONE THREE | Creemens",
+        "automelon": "",
+        "path": "MyPrivateEnglishMusic / Menaion / 02 October / 25 Holy Martyrs Marcian and Martyrios ",
+        "periodId": "menaion",
+        "feast": "Holy Martyrs Marcian and Martyrios",
+        "feastId": "25-10"
+      }
+    ]
+  },
   "[V] [AP] DOXASTICON FOR ST. ATHANASIUS TONE SIX": {
     "type": "multi",
     "versions": [
@@ -7413,6 +7445,22 @@
       }
     ]
   },
+  "[V] [LIHC] DOXASTICON FOR SS. MARCIAN & MARTYRIOS TONE ONE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Creemens",
+        "url": "https://drive.google.com/file/d/1wybxe22OG-OSbFoZEvXkYaMHnTloJV_p/view?usp=drivesdk",
+        "name": "02 LihcDoxastikon-1st-Creemens-Vespers-Holy Martyrs Marcian and Martyrios.pdf",
+        "description": "[V] [LIHC] DOXASTICON FOR SS. MARCIAN & MARTYRIOS IN TONE ONE | Creemens",
+        "automelon": "",
+        "path": "MyPrivateEnglishMusic / Menaion / 02 October / 25 Holy Martyrs Marcian and Martyrios ",
+        "periodId": "menaion",
+        "feast": "Holy Martyrs Marcian and Martyrios",
+        "feastId": "25-10"
+      }
+    ]
+  },
   "[V] [LIHC] DOXASTICON FOR ST. ATHANASIUS TONE SIX": {
     "type": "multi",
     "versions": [
@@ -7462,7 +7510,7 @@
       {
         "label": "Creemens",
         "url": "https://drive.google.com/file/d/1PvCk9LH_U6MC1YDP25VmakOHmM7boK4M/view?usp=drivesdk",
-        "name": "02 SticherasDoxastikon-1st-Creemens-Vespers-StApostleJames.pdf",
+        "name": "02 LihcDoxastikon-1st-Creemens-Vespers-StApostleJames.pdf",
         "description": "[V] [LIHC] DOXASTICON FOR ST. JAMES IN TONE SIX | Creemens",
         "automelon": "",
         "path": "MyPrivateEnglishMusic / Menaion / 02 October / 23 St Apostle James",
@@ -7823,6 +7871,22 @@
         "periodId": "menaion",
         "feast": "Consecration of the Resurrection Church",
         "feastId": "13-09"
+      }
+    ]
+  },
+  "[V] [LIHC] FOR SS. MARCIAN & MARTYRIOS TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/1LIfNkU1Eho_m47rehbf1t2cejmD3yHIW/view?usp=drivesdk",
+        "name": "01 LihcSticheras-4th-ElMassih-Vespers-Martyrs Marcian and Martyrios.pdf",
+        "description": "[V] [LIHC] For Ss. Marcian & Martyrios in Tone Four (**As one valiant**) | El Massih",
+        "automelon": "AS ONE VALIANT",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 02 October / 25 Martyrs Marcian and Martyrios",
+        "periodId": "menaion",
+        "feast": "Martyrs Marcian and Martyrios",
+        "feastId": "25-10"
       }
     ]
   },
