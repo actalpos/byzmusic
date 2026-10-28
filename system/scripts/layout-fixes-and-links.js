@@ -227,6 +227,24 @@ E bine ca istoricul să spună asta, ca peste câteva luni să știm exact ce fa
      * UTILS
      **********************/
 
+    function pdfFitWidthUrl(url) {
+      if (!url) return url;
+
+      const driveMatch = url.match(
+        /drive\.google\.com\/file\/d\/([^/?#]+)/
+      );
+
+      if (driveMatch) {
+        return `https://drive.google.com/file/d/${driveMatch[1]}/preview#view=FitH`;
+      }
+
+      if (/\.pdf(?:[?#]|$)/i.test(url)) {
+        return url.split("#")[0] + "#view=FitH";
+      }
+
+      return url;
+    }
+
     function normalizeTitle(str) {
       str = str
         .replace(/[\n\r\t]+/g, " ")
@@ -1273,7 +1291,7 @@ E bine ca istoricul să spună asta, ca peste câteva luni să știm exact ce fa
           const space = document.createTextNode(" ");
 
           const a = document.createElement("a");
-          a.href = v.url;
+          a.href = pdfFitWidthUrl(v.url);
           a.target = "_blank";
           a.rel = "noopener noreferrer";
           a.textContent = `(${v.label || "PDF"})`;
@@ -1293,7 +1311,7 @@ E bine ca istoricul să spună asta, ca peste câteva luni să știm exact ce fa
 
       const a = document.createElement("a");
 
-      a.href = item.url;
+      a.href = pdfFitWidthUrl(item.url);
       a.target = "_blank";
       a.rel = "noopener noreferrer";
       a.innerHTML = p.innerHTML;
