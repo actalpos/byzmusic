@@ -4,6 +4,7 @@
     "test": "node tests/normalize.test.js && node tests/matching.test.js",
     "update-files": "node scripts/update-liturgical-service-file-list.js",
     "update-titles": "node scripts/update-title-links.js",
+    "create-feast-folders": "node scripts/create-google-drive-feast-folders.js --downloads --apply",
     "convert": "node scripts/convert-service.js"  
   }
 }

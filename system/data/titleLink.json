@@ -422,6 +422,33 @@
     "feast": "St Constantine and Helen",
     "feastId": "21-05"
   },
+  "APOLYTIKION OF SS. COSMAS AND DAMIAN IN TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "St Anthony",
+        "url": "https://drive.google.com/file/d/1S4Ujw969X8XwxEqJmKBM-Hm9uk9xRUGe/view?usp=drivesdk",
+        "name": "06 Apolytikion-pl4th-SA-StCosmasAndDamianOfAsia.pdf",
+        "description": "<b>APOLYTIKION OF SS. COSMAS AND DAMIAN IN TONE EIGHT | St Anthony</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 01 Holy Unmercenaries Cosmas and Damian of Asia",
+        "periodId": "menaion",
+        "feast": "Holy Unmercenaries Cosmas and Damian of Asia",
+        "feastId": "01-11"
+      },
+      {
+        "label": "Howley",
+        "url": "https://drive.google.com/file/d/1biNkNgbjuq-_HO1sOSI7Tpr_OnrQdKuQ/view?usp=drivesdk",
+        "name": "06 Apolytikion-pl4th-Holwey-StCosmasAndDamianOfAsia.pdf",
+        "description": "<b>APOLYTIKION OF SS. COSMAS AND DAMIAN IN TONE EIGHT | Howley</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 01 Holy Unmercenaries Cosmas and Damian of Asia",
+        "periodId": "menaion",
+        "feast": "Holy Unmercenaries Cosmas and Damian of Asia",
+        "feastId": "01-11"
+      }
+    ]
+  },
   "APOLYTIKION OF SS. MARCIAN & MARTYRIOS IN TONE FOUR": {
     "type": "multi",
     "versions": [
@@ -2396,17 +2423,6 @@
     "type": "multi",
     "versions": [
       {
-        "label": "Karam",
-        "url": "https://drive.google.com/file/d/1jy9I4qetB6ym2tWmP_Yo7DyqeW0hGGEc/view?usp=drivesdk",
-        "name": "10 AfterPsalm50Troparia-2nd.pdf",
-        "description": "FESTAL TROPARIA AFTER PSALM 50 IN TONE TWO | Karam",
-        "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
-        "periodId": "",
-        "feast": "",
-        "feastId": ""
-      },
-      {
         "label": "Beheading of St John - W",
         "url": "https://drive.google.com/file/d/1CuNW0oe70Not15CjF1LCaiwYQlcqGmk3/view?usp=drivesdk",
         "name": "22 AfterPsalm50Torparia-2nd-Orthros-BeheadingStJohnBaptist-W.pdf",
@@ -2460,6 +2476,17 @@
         "periodId": "menaion",
         "feast": "July St Joseph of Damascus",
         "feastId": "10-07"
+      },
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1jy9I4qetB6ym2tWmP_Yo7DyqeW0hGGEc/view?usp=drivesdk",
+        "name": "10 AfterPsalm50Troparia-2nd.pdf",
+        "description": "FESTAL TROPARIA AFTER PSALM 50 IN TONE TWO | Karam",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
       },
       {
         "label": "PalmSunday -Karam",
@@ -5464,6 +5491,22 @@
       }
     ]
   },
+  "[O] EXAPOSTEILARION &AMP THEOTOKION FOR THE SAINTS TONE THREE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Archdiocese",
+        "url": "https://drive.google.com/file/d/1xflIMliWkMAB6fWro4v06ZUGAbxuIGmi/view?usp=drivesdk",
+        "name": "22 exaposteilarion-2nd-Orthros-StsCosmasAndDamian.pdf",
+        "description": "[O] <b>EXAPOSTEILARION &amp; THEOTOKION FOR THE SAINTS IN TONE THREE</b> (**<i>While standing in the Temple’s courts</i>**) | Archdiocese",
+        "automelon": "WHILE STANDING IN THE TEMPLE’S COURTS",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 01 Holy Unmercenaries Cosmas and Damian of Asia",
+        "periodId": "menaion",
+        "feast": "Holy Unmercenaries Cosmas and Damian of Asia",
+        "feastId": "01-11"
+      }
+    ]
+  },
   "[O] EXAPOSTEILARION FOR ST. SILOUAN TONE THREE": {
     "type": "multi",
     "versions": [
@@ -6132,6 +6175,22 @@
       }
     ]
   },
+  "[O] [PR] FOR SS. COSMAS AND DAMIAN TONE ONE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Creemens",
+        "url": "https://drive.google.com/file/d/1dzWCAiwfACsz-XU_ql_4TJvFqsOe-VRK/view?usp=drivesdk",
+        "name": "23 Praises-3rd-AA-Orthros-StsCosmasAndDamian.pdf",
+        "description": "[O] [PR] <b>For Ss. Cosmas and Damian in Tone One | Creemens</b>",
+        "automelon": "",
+        "path": "MyPrivateEnglishMusic / Menaion / 03 November / 01 Holy Unmercenaries Cosmas and Damian of Asia",
+        "periodId": "menaion",
+        "feast": "Holy Unmercenaries Cosmas and Damian of Asia",
+        "feastId": "01-11"
+      }
+    ]
+  },
   "[O] [PR] FOR ST. JAMES TONE ONE": {
     "type": "multi",
     "versions": [
@@ -6296,17 +6355,6 @@
     "type": "multi",
     "versions": [
       {
-        "label": "St Anthony",
-        "url": "https://drive.google.com/file/d/1oAWJgS4SUB2UpE2_wf_UmtWeCQuncGXF/view?usp=drivesdk",
-        "name": "17 Theotokion-pl4th-DoxastikonEothion.pdf",
-        "description": "[O] [PR] THEOTOKION IN TONE EIGHT | St Anthony",
-        "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
-        "periodId": "",
-        "feast": "",
-        "feastId": ""
-      },
-      {
         "label": "El Massih",
         "url": "https://drive.google.com/file/d/1KCYWDa6nv3Vap8ixwjHH_vLsWDVHM4dY/view?usp=drivesdk",
         "name": "28 PraisesDoxastikonTheotokion-O Lady do thou receive-pl4th-ElMassih-W.pdf",
@@ -6316,6 +6364,17 @@
         "periodId": "menaion",
         "feast": "Repose St John Theologian",
         "feastId": "26-09"
+      },
+      {
+        "label": "St Anthony",
+        "url": "https://drive.google.com/file/d/1oAWJgS4SUB2UpE2_wf_UmtWeCQuncGXF/view?usp=drivesdk",
+        "name": "17 Theotokion-pl4th-DoxastikonEothion.pdf",
+        "description": "[O] [PR] THEOTOKION IN TONE EIGHT | St Anthony",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
       }
     ]
   },
@@ -6568,6 +6627,22 @@
         "periodId": "",
         "feast": "",
         "feastId": ""
+      }
+    ]
+  },
+  "[V] LIHC] DOXASTICON FOR SS. COSMAS &AMP DAMIAN TONE SIX": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "All Idiomela - Creemens",
+        "url": "https://drive.google.com/file/d/1Sa4XHV88tsnutM7kzJ8-R5cJ1uwJCwAc/view?usp=drivesdk",
+        "name": "All-Idiomela-HTM-GC.pdf",
+        "description": "[V] LIHC] <b>DOXASTICON FOR SS. COSMAS &amp; DAMIAN IN TONE SIX | All Idiomela - Creemens</b>",
+        "automelon": "",
+        "path": "MyPrivateEnglishMusic / Menaion / 03 November / 01 Holy Unmercenaries Cosmas and Damian of Asia",
+        "periodId": "menaion",
+        "feast": "Holy Unmercenaries Cosmas and Damian of Asia",
+        "feastId": "01-11"
       }
     ]
   },
@@ -7493,6 +7568,22 @@
       }
     ]
   },
+  "[V] [LIHC] DOXASTICON FOR ST. DEMETRIOS TONE SIX": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "St Anthony",
+        "url": "https://drive.google.com/file/d/1X3KHU3mZoV7lX9CZ5bEVSXTGEsgDpwEj/view?usp=drivesdk",
+        "name": "VespersAndOrthros-SA.pdf",
+        "description": "[V] [LIHC] <b>DOXASTICON FOR ST. DEMETRIOS<br />IN TONE SIX | St Anthony</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 02 October / 26 Great-Martyr Demetrios the Myrrh-Streaming",
+        "periodId": "menaion",
+        "feast": "Great-Martyr Demetrios the Myrrh-Streaming",
+        "feastId": "26-10"
+      }
+    ]
+  },
   "[V] [LIHC] DOXASTICON FOR ST. ELIAS TONE SIX": {
     "type": "multi",
     "versions": [
@@ -7890,6 +7981,22 @@
       }
     ]
   },
+  "[V] [LIHC] FOR SS. COSMAS AND DAMIAN TONE SIX": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Archdiocese",
+        "url": "https://drive.google.com/file/d/19BiSi-Px7FCfDkCGTYs0E2f64XuiCzED/view?usp=drivesdk",
+        "name": "01 LihcSticheras-pl2nd-Archdiocese-Vespers-StCosmasAndDamianOfAsia.pdf",
+        "description": "[V] [LIHC] <b>For Ss. Cosmas and Damian in Tone Six (**</b><i><b>The original melody</b></i><b>**) | Archdiocese</b>",
+        "automelon": "ORIGINAL MELODY",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 01 Holy Unmercenaries Cosmas and Damian of Asia",
+        "periodId": "menaion",
+        "feast": "Holy Unmercenaries Cosmas and Damian of Asia",
+        "feastId": "01-11"
+      }
+    ]
+  },
   "[V] [LIHC] FOR SS. MARCIAN & MARTYRIOS TONE FOUR": {
     "type": "multi",
     "versions": [
@@ -7903,6 +8010,22 @@
         "periodId": "menaion",
         "feast": "Martyrs Marcian and Martyrios",
         "feastId": "25-10"
+      }
+    ]
+  },
+  "[V] [LIHC] FOR ST. DEMETRIOS TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/1rMOyZ9L3qKPn7mRBBWXlrP534omHDz1L/view?usp=drivesdk",
+        "name": "01 LIHC sticheras-pl4th-ElMassih-Vespers-StDemetrios.pdf",
+        "description": "[V] [LIHC] <b>For St. Demetrios in Tone Eight<br />(**</b><i><b>O strange wonder</b></i><b>**) | El Massih</b>",
+        "automelon": "O STRANGE WONDER",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 02 October / 26 Great-Martyr Demetrios the Myrrh-Streaming",
+        "periodId": "menaion",
+        "feast": "Great-Martyr Demetrios the Myrrh-Streaming",
+        "feastId": "26-10"
       }
     ]
   },
