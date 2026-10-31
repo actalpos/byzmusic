@@ -6630,22 +6630,6 @@
       }
     ]
   },
-  "[V] LIHC] DOXASTICON FOR SS. COSMAS &AMP DAMIAN TONE SIX": {
-    "type": "multi",
-    "versions": [
-      {
-        "label": "All Idiomela - Creemens",
-        "url": "https://drive.google.com/file/d/1Sa4XHV88tsnutM7kzJ8-R5cJ1uwJCwAc/view?usp=drivesdk",
-        "name": "All-Idiomela-HTM-GC.pdf",
-        "description": "[V] LIHC] <b>DOXASTICON FOR SS. COSMAS &amp; DAMIAN IN TONE SIX | All Idiomela - Creemens</b>",
-        "automelon": "",
-        "path": "MyPrivateEnglishMusic / Menaion / 03 November / 01 Holy Unmercenaries Cosmas and Damian of Asia",
-        "periodId": "menaion",
-        "feast": "Holy Unmercenaries Cosmas and Damian of Asia",
-        "feastId": "01-11"
-      }
-    ]
-  },
   "[V] MONDAY PROKEIMENON TONE FOUR": {
     "type": "multi",
     "versions": [
@@ -7262,6 +7246,22 @@
       }
     ]
   },
+  "[V] [AP] DOXASTICON OF SS. COSMAS AND DAMIAN TONE SIX": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Creemens",
+        "url": "https://drive.google.com/file/d/1woIqNyFObfiP42pzjBFJ_PXR-Wcj85UJ/view?usp=drivesdk",
+        "name": "ApostichaDoxastikon-pl2nd-Creemens-Vespers-StsCosmasAndDamian.pdf.pdf",
+        "description": "[V] [AP] <b>DOXASTICON OF SS. COSMAS AND DAMIAN IN TONE SIX | Creemens</b>",
+        "automelon": "",
+        "path": "MyPrivateEnglishMusic / Menaion / 03 November / 01 Holy Unmercenaries Cosmas and Damian of Asia",
+        "periodId": "menaion",
+        "feast": "Holy Unmercenaries Cosmas and Damian of Asia",
+        "feastId": "01-11"
+      }
+    ]
+  },
   "[V] [AP] DOXASTICON OF ST. JAMES TONE EIGHT": {
     "type": "multi",
     "versions": [
@@ -7533,6 +7533,22 @@
         "periodId": "",
         "feast": "",
         "feastId": ""
+      }
+    ]
+  },
+  "[V] [LIHC] DOXASTICON FOR SS. COSMAS AND DAMIAN TONE SIX": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Creemens",
+        "url": "https://drive.google.com/file/d/1IaeMAgGOL6a2x19UPUG5MA71W4tntDOb/view?usp=drivesdk",
+        "name": "LIHCSticherasDoxastikon-pl2nd-Creemens-Vespers-StsCosmasAndDamian.pdf",
+        "description": "[V] [LIHC] <b>DOXASTICON FOR SS. COSMAS AND DAMIAN IN TONE SIX | Creemens</b>",
+        "automelon": "",
+        "path": "MyPrivateEnglishMusic / Menaion / 03 November / 01 Holy Unmercenaries Cosmas and Damian of Asia",
+        "periodId": "menaion",
+        "feast": "Holy Unmercenaries Cosmas and Damian of Asia",
+        "feastId": "01-11"
       }
     ]
   },
