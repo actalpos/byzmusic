@@ -631,6 +631,22 @@
       }
     ]
   },
+  "APOLYTIKION OF ST. RAPHAEL IN TONE THREE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1AZ9NJEN3VcE_5qfnFOkZHQpv_nh16p2a/view?usp=drivesdk",
+        "name": "08 Apolytikion-3rd-Karam-Vespers-StRaphaelOfBrooklyn.pdf",
+        "description": "APOLYTIKION OF ST. RAPHAEL IN TONE THREE (**<i>Thy confession</i>**) | Karam",
+        "automelon": "THY CONFESSION",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 07 St Raphael Of Brooklyn",
+        "periodId": "menaion",
+        "feast": "St Raphael Of Brooklyn",
+        "feastId": "07-11"
+      }
+    ]
+  },
   "APOLYTIKION OF ST. SILOUAN THE ATHONITE IN TONE FOUR": {
     "type": "multi",
     "versions": [
@@ -698,6 +714,22 @@
         "periodId": "menaion",
         "feast": "St Thomas and St Inocent",
         "feastId": "06-10"
+      }
+    ]
+  },
+  "APOLYTIKION OF THE ARCHANGELS IN TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Archdiocese",
+        "url": "https://drive.google.com/file/d/1Pl1KOXwZq6ENcRQJUcTkC-o6NuolvZSg/view?usp=drivesdk",
+        "name": "08 Apolytikion-4th-AA-SynaxisOfTheArchangels.pdf",
+        "description": "APOLYTIKION OF THE ARCHANGELS IN TONE FOUR<br />(<i>**Thou Who wast raised up**</i>) | Archdiocese",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 08 The Synaxis of the Archangels Michael, Gabriel & Raphael and all the bodiless powers of Heaven",
+        "periodId": "menaion",
+        "feast": "The Synaxis of the Archangels Michael, Gabriel & Raphael and all the bodiless powers of Heaven",
+        "feastId": "08-11"
       }
     ]
   },
@@ -4959,6 +4991,22 @@
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
     "automelon": ""
   },
+  "[LT] DOXASTICON & THEOTOKION AT LITIA PROCESSION TONE FIVE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1qGSsGQ7_rewUtDgYYXLHmfSn3FsfxBEu/view?usp=drivesdk",
+        "name": "03 LitiDoxastikon-pl1st-Karam-Vespers-StRaphaelOfBrooklyn.pdf",
+        "description": "[LT] DOXASTICON &amp; THEOTOKION AT LITIA PROCESSION IN TONE FIVE | Karam",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 07 St Raphael Of Brooklyn",
+        "periodId": "menaion",
+        "feast": "St Raphael Of Brooklyn",
+        "feastId": "07-11"
+      }
+    ]
+  },
   "[LT] DOXASTICON & THEOTOKION OF THE HOLY FATHERS TONE THREE": {
     "type": "multi",
     "versions": [
@@ -5395,6 +5443,22 @@
       }
     ]
   },
+  "[O] EXAPOSTEILARION & THEOTOKION FOR ARCHANGEL MICHAEL TONE TWO": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Archdiocese",
+        "url": "https://drive.google.com/file/d/1aMpHDlicCqwPHAgR2K8k3HZ9DaH8HAmD/view?usp=drivesdk",
+        "name": "23 Exapoteilarion-2nd-AA-Orthros-SynaxisOfTheArchangels.pdf",
+        "description": "[O] EXAPOSTEILARION &amp; THEOTOKION FOR ARCHANGEL MICHAEL IN TONE TWO (**<i>Upon that mount in Galilee</i>**) | Archdiocese",
+        "automelon": "UPON THAT MOUNT IN GALILEE",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 08 The Synaxis of the Archangels Michael, Gabriel & Raphael and all the bodiless powers of Heaven",
+        "periodId": "menaion",
+        "feast": "The Synaxis of the Archangels Michael, Gabriel & Raphael and all the bodiless powers of Heaven",
+        "feastId": "08-11"
+      }
+    ]
+  },
   "[O] EXAPOSTEILARION & THEOTOKION FOR ST. JAMES TONE TWO": {
     "type": "multi",
     "versions": [
@@ -5440,6 +5504,22 @@
         "periodId": "menaion",
         "feast": "July St Paisios",
         "feastId": "12-07"
+      }
+    ]
+  },
+  "[O] EXAPOSTEILARION & THEOTOKION FOR ST. RAPHAEL TONE THREE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1h44YmAxLiaeNX4DRXDI0RFHGxOh_nm6h/view?usp=drivesdk",
+        "name": "25 Exaposteilarion-3rd-Karam-Orthros-StRaphaelOfBrooklyn.pdf",
+        "description": "[O] THE EXAPOSTEILARION &amp; theotokion FOR ST. RAPHAEL IN TONE THREE | Karam",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 07 St Raphael Of Brooklyn",
+        "periodId": "menaion",
+        "feast": "St Raphael Of Brooklyn",
+        "feastId": "07-11"
       }
     ]
   },
@@ -5869,6 +5949,22 @@
       }
     ]
   },
+  "[O] KATHISMATA HYMNS FOR ST. RAPHAEL": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1wHBVPRBKqz-japL_S6Z5WIgAIZvHUc3U/view?usp=drivesdk",
+        "name": "21 Kathismata-1st-Karam-Orthros-StRaphaelOfBrooklyn.pdf",
+        "description": "[O] KATHISMATA HYMNS FOR ST. RAPHAEL | Karam",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 07 St Raphael Of Brooklyn",
+        "periodId": "menaion",
+        "feast": "St Raphael Of Brooklyn",
+        "feastId": "07-11"
+      }
+    ]
+  },
   "[O] KATHISMATA HYMNS OF THE HOLY CROSS": {
     "type": "multi",
     "versions": [
@@ -6065,6 +6161,17 @@
     "type": "multi",
     "versions": [
       {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1CwYWAUYdnNjSHuVxynZGYcsQRw-EwMA_/view?usp=drivesdk",
+        "name": "23 AfterPsalm50-2nd-Karam-Orthros-StRaphaelOfBrooklyn.pdf",
+        "description": "[O] FESTAL TROPARIA AFTER PSALM 50 IN TONE TWO | Karam",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 07 St Raphael Of Brooklyn",
+        "periodId": "menaion",
+        "feast": "St Raphael Of Brooklyn",
+        "feastId": "07-11"
+      },
+      {
         "label": "Creemens",
         "url": "https://drive.google.com/file/d/1oOSD-5c17cA3AOKebdCt8hVNiSlQw10i/view?usp=drivesdk",
         "name": "24 AfterPsalm50Troparia-pl2nd-Creemens-Orthros-StJohnTheologian.pdf",
@@ -6239,6 +6346,22 @@
       }
     ]
   },
+  "[O] [PR] FOR ST. RAPHAEL TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1SM7T690ctAAvLSpPVM8UxOfylsvfex91/view?usp=drivesdk",
+        "name": "26 Praises-4th-Karam-Orthros-StRaphaelOfBrooklyn.pdf",
+        "description": "[O] [PR] For St. Raphael in Tone Four (**<i>Unto them that fear Thee</i>**) | Karam",
+        "automelon": "UNTO THEM THAT FEAR THEE",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 07 St Raphael Of Brooklyn",
+        "periodId": "menaion",
+        "feast": "St Raphael Of Brooklyn",
+        "feastId": "07-11"
+      }
+    ]
+  },
   "[O] [PR] FOR THE CONSECRATION TONE FOUR": {
     "type": "multi",
     "versions": [
@@ -6300,6 +6423,22 @@
         "periodId": "menaion",
         "feast": "St Apostle James",
         "feastId": "23-10"
+      }
+    ]
+  },
+  "[O] [PR] THE DOXASTICON FOR ST. RAPHAEL TONE FIVE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1shxsA370ZOfr99meQc3xabV6bkroaBkp/view?usp=drivesdk",
+        "name": "27 PraisesDoxastikon-pl1st-Karam-Orthros-StRaphaelOfBrooklyn.pdf",
+        "description": "[O] [PR] the Doxasticon FOR ST. RAPHAEL in Tone FIVE | Karam",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 07 St Raphael Of Brooklyn",
+        "periodId": "menaion",
+        "feast": "St Raphael Of Brooklyn",
+        "feastId": "07-11"
       }
     ]
   },
@@ -6978,6 +7117,22 @@
       }
     ]
   },
+  "[V] [AP] DOXASTICON FOR ST. RAPHAEL TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1UI1kGHbManhDwJru4qogzHK1Pbkl27Ev/view?usp=drivesdk",
+        "name": "07 ApostichaDoxastikon-pl2nd-Karam-Vespers-StRaphaelOfBrooklyn.pdf",
+        "description": "[V] [AP] DOXASTICON FOR ST. RAPHAEL IN TONE FOUR | Karam",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 07 St Raphael Of Brooklyn",
+        "periodId": "menaion",
+        "feast": "St Raphael Of Brooklyn",
+        "feastId": "07-11"
+      }
+    ]
+  },
   "[V] [AP] DOXASTICON FOR ST. SOPHIA AND HER DAUGHTERS TONE SIX": {
     "type": "multi",
     "versions": [
@@ -7291,6 +7446,22 @@
         "periodId": "menaion",
         "feast": "St Apostle James",
         "feastId": "23-10"
+      }
+    ]
+  },
+  "[V] [AP] THE APOSTICHA FOR ST. RAPHAEL TONE TWO": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/18zaERh41Qt3hswFXykj88GlF0dIIYnvs/view?usp=drivesdk",
+        "name": "06 Aposticha-2nd-Karam-Vespers-StRaphaelOfBrooklyn.pdf",
+        "description": "[V] [AP] THE APOSTICHA FOR ST. RAPHAEL IN TONE TWO (**<i>O house of Ephratha</i>**) | Karam",
+        "automelon": "O HOUSE OF EPHRATHA",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 07 St Raphael Of Brooklyn",
+        "periodId": "menaion",
+        "feast": "St Raphael Of Brooklyn",
+        "feastId": "07-11"
       }
     ]
   },
@@ -7718,6 +7889,22 @@
       }
     ]
   },
+  "[V] [LIHC] DOXASTICON FOR ST. RAPHAEL TONE SIX": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1gmNMlufBifUXkUxfjSTkYue0MnPLP6xs/view?usp=drivesdk",
+        "name": "02 LihcDoxastikon-pl2nd-Karam-Vespers-StRaphaelOfBrooklyn.pdf",
+        "description": "[V] [LIHC] DOXASTICON FOR ST. RAPHAEL IN TONE SIX | Karam",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 07 St Raphael Of Brooklyn",
+        "periodId": "menaion",
+        "feast": "St Raphael Of Brooklyn",
+        "feastId": "07-11"
+      }
+    ]
+  },
   "[V] [LIHC] DOXASTICON FOR ST. SOPHIA AND HER DAUGHTERS TONE FIVE": {
     "type": "multi",
     "versions": [
@@ -7997,6 +8184,22 @@
       }
     ]
   },
+  "[V] [LIHC] FOR ARCHANGEL GABRIEL TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/1LQE8YLqNiPl3gbyw2-Wkmxq_tauyJwrj/view?usp=drivesdk",
+        "name": "01 LihcSticherasGabriel-4th-ElMassih-Vespers-SynaxisOfTheArchangels.pdf",
+        "description": "[V] [LIHC] For Archangel Gabriel in Tone Four<br />(**<i>Unto them that fear Thee</i>**) | El Massih",
+        "automelon": "UNTO THEM THAT FEAR THEE",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 08 The Synaxis of the Archangels Michael, Gabriel & Raphael and all the bodiless powers of Heaven",
+        "periodId": "menaion",
+        "feast": "The Synaxis of the Archangels Michael, Gabriel & Raphael and all the bodiless powers of Heaven",
+        "feastId": "08-11"
+      }
+    ]
+  },
   "[V] [LIHC] FOR SS. COSMAS AND DAMIAN TONE SIX": {
     "type": "multi",
     "versions": [
@@ -8154,6 +8357,22 @@
         "periodId": "menaion",
         "feast": "July St Paraskeva",
         "feastId": "26-07"
+      }
+    ]
+  },
+  "[V] [LIHC] FOR ST. RAPHAEL TONE ONE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1ef7MCdC5vAl5dvdC0Djfz_ixfgCegYTB/view?usp=drivesdk",
+        "name": "01 LihcSticheras-1st-Karam-Vespers-StRaphaelOfBrooklyn.pdf",
+        "description": "[V] [LIHC] For St. Raphael in Tone One (**<i>O strange wonder</i>**) | Karam",
+        "automelon": "O STRANGE WONDER",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 07 St Raphael Of Brooklyn",
+        "periodId": "menaion",
+        "feast": "St Raphael Of Brooklyn",
+        "feastId": "07-11"
       }
     ]
   },
