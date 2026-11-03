@@ -725,7 +725,7 @@
         "url": "https://drive.google.com/file/d/1Pl1KOXwZq6ENcRQJUcTkC-o6NuolvZSg/view?usp=drivesdk",
         "name": "08 Apolytikion-4th-AA-SynaxisOfTheArchangels.pdf",
         "description": "APOLYTIKION OF THE ARCHANGELS IN TONE FOUR<br />(<i>**Thou Who wast raised up**</i>) | Archdiocese",
-        "automelon": "",
+        "automelon": "THOU WHO WAST RAISED UP",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 08 The Synaxis of the Archangels Michael, Gabriel & Raphael and all the bodiless powers of Heaven",
         "periodId": "menaion",
         "feast": "The Synaxis of the Archangels Michael, Gabriel & Raphael and all the bodiless powers of Heaven",
@@ -2455,6 +2455,17 @@
     "type": "multi",
     "versions": [
       {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1jy9I4qetB6ym2tWmP_Yo7DyqeW0hGGEc/view?usp=drivesdk",
+        "name": "10 AfterPsalm50Troparia-2nd.pdf",
+        "description": "FESTAL TROPARIA AFTER PSALM 50 IN TONE TWO | Karam",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      },
+      {
         "label": "Beheading of St John - W",
         "url": "https://drive.google.com/file/d/1CuNW0oe70Not15CjF1LCaiwYQlcqGmk3/view?usp=drivesdk",
         "name": "22 AfterPsalm50Torparia-2nd-Orthros-BeheadingStJohnBaptist-W.pdf",
@@ -2508,17 +2519,6 @@
         "periodId": "menaion",
         "feast": "July St Joseph of Damascus",
         "feastId": "10-07"
-      },
-      {
-        "label": "Karam",
-        "url": "https://drive.google.com/file/d/1jy9I4qetB6ym2tWmP_Yo7DyqeW0hGGEc/view?usp=drivesdk",
-        "name": "10 AfterPsalm50Troparia-2nd.pdf",
-        "description": "FESTAL TROPARIA AFTER PSALM 50 IN TONE TWO | Karam",
-        "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
-        "periodId": "",
-        "feast": "",
-        "feastId": ""
       },
       {
         "label": "PalmSunday -Karam",
@@ -5272,6 +5272,22 @@
       }
     ]
   },
+  "[O] ANABATHMOI FROM THE OCTOECHOS TONE SIX": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "St Anthony",
+        "url": "https://drive.google.com/file/d/1ThMIuzq-bA0j3jeGeI1v4wwOkjZZOARV/view?usp=drivesdk",
+        "name": "07 Anabathmoi-pl4th-SA.pdf",
+        "description": "[O] ANABATHMOI FROM THE OCTOECHOS IN TONE SIX | St Anthony",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      }
+    ]
+  },
   "[O] DOXASTICON FOR THE MACCABEES TONE FOUR": {
     "type": "multi",
     "versions": [
@@ -5933,6 +5949,22 @@
       }
     ]
   },
+  "[O] KATAVASIAE OF THE ENTRANCE CANON TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Basil Crow",
+        "url": "https://drive.google.com/file/d/18A8dcPowlVIZbsNlLnG0sFCHYuqtCKgd/view?usp=drivesdk",
+        "name": "11 Ode1-9-4th-EntranceOfTheTheotokos-BCrow.pdf",
+        "description": "[O] THE KATAVASIAE OF THE ENTRANCE CANON IN TONE FOUR | Basil Crow",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      }
+    ]
+  },
   "[O] KATAVASIAE OF TRANSFIGURATION CANON TONE FOUR": {
     "type": "multi",
     "versions": [
@@ -5962,6 +5994,22 @@
         "periodId": "menaion",
         "feast": "St Raphael Of Brooklyn",
         "feastId": "07-11"
+      }
+    ]
+  },
+  "[O] KATHISMATA HYMNS FOR THE ARCHANGELS": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/1L_VOTXKhlGNVickU9LFUbpp9Ratnte0Q/view?usp=drivesdk",
+        "name": "21 Kathismata-ElMassih-Orthros-SynaxisOfTheArchangels.pdf",
+        "description": "[O] KATHISMATA HYMNS FOR THE ARCHANGELS | El Massih",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 08 The Synaxis of the Archangels Michael, Gabriel & Raphael and all the bodiless powers of Heaven",
+        "periodId": "menaion",
+        "feast": "The Synaxis of the Archangels Michael, Gabriel & Raphael and all the bodiless powers of Heaven",
+        "feastId": "08-11"
       }
     ]
   },
@@ -6149,6 +6197,22 @@
         "url": "https://drive.google.com/file/d/1-UArCG27XrIKgPRy6IzpwxdLMJqdHWY9/view?usp=drivesdk",
         "name": "04 Kathismata-4th.pdf",
         "description": "[O] RESURRECTIONAL KATHISMATA HYMNS IN TONE FOUR | St Anthony",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      }
+    ]
+  },
+  "[O] RESURRECTIONAL KATHISMATA HYMNS TONE SIX": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "St Anthony",
+        "url": "https://drive.google.com/file/d/14HwYM7kwN4Htk_BALmx-RCwNkaG1y0WJ/view?usp=drivesdk",
+        "name": "04 Kathismata-pl2nd.pdf",
+        "description": "[O] RESURRECTIONAL KATHISMATA HYMNS IN TONE SIX | St Anthony",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
         "periodId": "",
@@ -6362,6 +6426,22 @@
       }
     ]
   },
+  "[O] [PR] FOR THE ARCHANGEL MICHAEL TONE ONE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Archdiocese",
+        "url": "https://drive.google.com/file/d/1L6TPtEd-sZPUCXaO8bfDUXRCMyDFpnZb/view?usp=drivesdk",
+        "name": "24 Praises-1st-AA-Orthros-SinaxisOfTheArchangels.pdf",
+        "description": "[O] [PR] For the Archangel Michael in Tone One (**<i>Thou art the joy</i>**) | Archdiocese",
+        "automelon": "THOU ART THE JOY",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 08 The Synaxis of the Archangels Michael, Gabriel & Raphael and all the bodiless powers of Heaven",
+        "periodId": "menaion",
+        "feast": "The Synaxis of the Archangels Michael, Gabriel & Raphael and all the bodiless powers of Heaven",
+        "feastId": "08-11"
+      }
+    ]
+  },
   "[O] [PR] FOR THE CONSECRATION TONE FOUR": {
     "type": "multi",
     "versions": [
@@ -6442,6 +6522,22 @@
       }
     ]
   },
+  "[O] [PR] THE DOXASTICON FOR THE ARCHANGEL MICHAEL TONE FIVE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Archdiocese",
+        "url": "https://drive.google.com/file/d/1TskE-3Oii_SKFLbXytItXQGLjwU0vraR/view?usp=drivesdk",
+        "name": "25 PraisesDoxastikon-pl1st-AA-Orthros-SinaxisOfTheArchangels.pdf",
+        "description": "[O] [PR] THE Doxasticon FOR THE ARCHANGEL MICHAEL in Tone FIVE | Archdiocese",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 08 The Synaxis of the Archangels Michael, Gabriel & Raphael and all the bodiless powers of Heaven",
+        "periodId": "menaion",
+        "feast": "The Synaxis of the Archangels Michael, Gabriel & Raphael and all the bodiless powers of Heaven",
+        "feastId": "08-11"
+      }
+    ]
+  },
   "[O] [PR] THE DOXASTICON OF NATIVITY OF THE THEOTOKOS TONE SIX": {
     "type": "multi",
     "versions": [
@@ -6494,17 +6590,6 @@
     "type": "multi",
     "versions": [
       {
-        "label": "El Massih",
-        "url": "https://drive.google.com/file/d/1KCYWDa6nv3Vap8ixwjHH_vLsWDVHM4dY/view?usp=drivesdk",
-        "name": "28 PraisesDoxastikonTheotokion-O Lady do thou receive-pl4th-ElMassih-W.pdf",
-        "description": "[O] [PR] THEOTOKION IN TONE EIGHT | El Massih",
-        "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 26 Repose St John Theologian",
-        "periodId": "menaion",
-        "feast": "Repose St John Theologian",
-        "feastId": "26-09"
-      },
-      {
         "label": "St Anthony",
         "url": "https://drive.google.com/file/d/1oAWJgS4SUB2UpE2_wf_UmtWeCQuncGXF/view?usp=drivesdk",
         "name": "17 Theotokion-pl4th-DoxastikonEothion.pdf",
@@ -6514,6 +6599,17 @@
         "periodId": "",
         "feast": "",
         "feastId": ""
+      },
+      {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/1KCYWDa6nv3Vap8ixwjHH_vLsWDVHM4dY/view?usp=drivesdk",
+        "name": "28 PraisesDoxastikonTheotokion-O Lady do thou receive-pl4th-ElMassih-W.pdf",
+        "description": "[O] [PR] THEOTOKION IN TONE EIGHT | El Massih",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 01 September / 26 Repose St John Theologian",
+        "periodId": "menaion",
+        "feast": "Repose St John Theologian",
+        "feastId": "26-09"
       }
     ]
   },

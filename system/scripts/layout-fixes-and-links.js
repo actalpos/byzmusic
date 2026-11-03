@@ -925,7 +925,21 @@ E bine ca istoricul să spună asta, ca peste câteva luni să știm exact ce fa
 
       if (p.querySelector("a[href]")) return;
 
-      const originalText = p.textContent.trim();
+      const fullText = p.textContent.trim();
+
+      let originalText = fullText;
+
+      // Dacă paragraful începe cu un titlu bold,
+      // urmat de o notă explicativă, folosim doar titlul.
+      const firstBold = p.querySelector("b");
+
+      if (
+        firstBold &&
+        fullText.includes("Please note the modifications") &&
+        firstBold.textContent.trim()
+      ) {
+        originalText = firstBold.textContent.trim();
+      }
 
       if (!originalText) {
         return;
