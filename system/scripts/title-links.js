@@ -106,23 +106,23 @@
     /**********************
      * UTILS
      **********************/
-function pdfFitWidthUrl(url) {
-  if (!url) return url;
+    function pdfFitWidthUrl(url) {
+      if (!url) return url;
 
-  const driveMatch = url.match(
-    /drive\.google\.com\/file\/d\/([^/?#]+)/
-  );
+      const driveMatch = url.match(
+        /drive\.google\.com\/file\/d\/([^/?#]+)/
+      );
 
-  if (driveMatch) {
-    return `https://drive.google.com/file/d/${driveMatch[1]}/preview#view=FitH`;
-  }
+      if (driveMatch) {
+        return `https://drive.google.com/file/d/${driveMatch[1]}/preview#view=FitH`;
+      }
 
-  if (/\.pdf(?:[?#]|$)/i.test(url)) {
-    return url.split("#")[0] + "#view=FitH";
-  }
+      if (/\.pdf(?:[?#]|$)/i.test(url)) {
+        return url.split("#")[0] + "#view=FitH";
+      }
 
-  return url;
-}    
+      return url;
+    }
     function normalizeTitle(str) {
       str = String(str || "")
         .replace(/[\n\r\t]+/g, " ")
@@ -966,7 +966,7 @@ function pdfFitWidthUrl(url) {
           document.createElement("a");
 
         //link.href = version.url;
-link.href = pdfFitWidthUrl(version.url);
+        link.href = pdfFitWidthUrl(version.url);
 
         link.target = "_blank";
         link.rel = "noopener noreferrer";
