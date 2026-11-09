@@ -5023,6 +5023,22 @@
       }
     ]
   },
+  "[LT] DOXASTICON & THEOTOKION OF LITIA PROCESSION TONE FIVE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Theotokion - El Massih",
+        "url": "https://drive.google.com/file/d/1VGcEqtpXOLBVZJBx1arkP1IDL9XGIC2m/view?usp=drivesdk",
+        "name": "03 LitiaTheotokion-pl1st-ElMassih-Vespers-StNektarios.pdf",
+        "description": "[LT] <b>DOXASTICON &amp; THEOTOKION OF LITIA PROCESSION IN TONE FIVE | Theotokion - El Massih</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 09 Nektarios of Aegina and Pentapolis, the Wonderworker",
+        "periodId": "menaion",
+        "feast": "Nektarios of Aegina and Pentapolis, the Wonderworker",
+        "feastId": "09-11"
+      }
+    ]
+  },
   "[LT] DOXASTICON & THEOTOKION OF THE HOLY FATHERS TONE THREE": {
     "type": "multi",
     "versions": [
