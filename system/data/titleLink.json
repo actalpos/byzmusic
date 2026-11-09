@@ -5603,6 +5603,22 @@
       }
     ]
   },
+  "[O] EXAPOSTEILARION & THEOTOKION OF ST. NEKTARIOS TONE THREE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Archdiocese",
+        "url": "https://drive.google.com/file/d/18vXJoqkgCcltkj1AaaNaA606cbAxCqgZ/view?usp=drivesdk",
+        "name": "25 Exaposteilarion-3rd-AA-Orthros-StNektarios.pdf",
+        "description": "[O] <b>EXAPOSTEILARION &amp; THEOTOKION OF ST. NEKTARIOS IN TONE THREE<br /></b>(**<i>Thou Who as God adornest</i>**) | Archdiocese",
+        "automelon": "THOU WHO AS GOD ADORNEST",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 09 Nektarios of Aegina and Pentapolis, the Wonderworker",
+        "periodId": "menaion",
+        "feast": "Nektarios of Aegina and Pentapolis, the Wonderworker",
+        "feastId": "09-11"
+      }
+    ]
+  },
   "[O] EXAPOSTEILARION & THEOTOKION OF ST. PARASKEVA TONE TWO": {
     "type": "multi",
     "versions": [
@@ -5767,6 +5783,22 @@
         "periodId": "triodion",
         "feast": "",
         "feastId": ""
+      }
+    ]
+  },
+  "[O] FOR ST. NEKTARIOS TONE ONE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Archdiocese",
+        "url": "https://drive.google.com/file/d/1CPVVN_zNZoTHVKQKv43vG5K60s7uBOE0/view?usp=drivesdk",
+        "name": "26 Praises-1st-AA-Orthros-StNektarios.pdf",
+        "description": "[O] <b>For St. Nektarios in Tone One<br />(**</b><i><b>Thou art the joy</b></i><b>**) | Archdiocese</b>",
+        "automelon": "THOU ART THE JOY",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 09 Nektarios of Aegina and Pentapolis, the Wonderworker",
+        "periodId": "menaion",
+        "feast": "Nektarios of Aegina and Pentapolis, the Wonderworker",
+        "feastId": "09-11"
       }
     ]
   },
@@ -5981,14 +6013,14 @@
       }
     ]
   },
-  "[O] KATAVASIAE OF THE ENTRANCE CANON TONE FOUR": {
+  "[O] KATAVASIAE OF THE ENTRANCE CANON TONE FOUR ( PLEASE NOTE THE MODIFICATIONS IN ITALICS. )": {
     "type": "multi",
     "versions": [
       {
         "label": "Basil Crow",
         "url": "https://drive.google.com/file/d/18A8dcPowlVIZbsNlLnG0sFCHYuqtCKgd/view?usp=drivesdk",
         "name": "11 Ode1-9-4th-EntranceOfTheTheotokos-BCrow.pdf",
-        "description": "[O] THE KATAVASIAE OF THE ENTRANCE CANON IN TONE FOUR | Basil Crow",
+        "description": "[O] <b>THE KATAVASIAE OF THE ENTRANCE CANON IN TONE FOUR<br /></b>(Please note the modifications in <i>italics.</i>) | Basil Crow",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
         "periodId": "",
@@ -6157,6 +6189,22 @@
       }
     ]
   },
+  "[O] PROKEIMENON FOR ST. NEKTARIOS TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1-ZqPdPCpT_cESwGnuj9FFlrpBc-bZSw2/view?usp=drivesdk",
+        "name": "24 Prokeimenon-4th-Karam-Orthros-StNektarios.pdf",
+        "description": "[O] <b>PROKEIMENON FOR ST. NEKTARIOS<br />IN TONE FOUR | Karam</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 09 Nektarios of Aegina and Pentapolis, the Wonderworker",
+        "periodId": "menaion",
+        "feast": "Nektarios of Aegina and Pentapolis, the Wonderworker",
+        "feastId": "09-11"
+      }
+    ]
+  },
   "[O] PROKEIMENON FOR THE ELEVATION OF THE CROSS TONE FOUR": {
     "type": "multi",
     "versions": [
@@ -6269,14 +6317,14 @@
       },
       {
         "label": "Creemens",
-        "url": "https://drive.google.com/file/d/1oOSD-5c17cA3AOKebdCt8hVNiSlQw10i/view?usp=drivesdk",
-        "name": "24 AfterPsalm50Troparia-pl2nd-Creemens-Orthros-StJohnTheologian.pdf",
-        "description": "[O] FESTAL TROPARIA AFTER PSALM 50 IN TONE TWO | Creemens",
+        "url": "https://drive.google.com/file/d/1AJr8FiZMG8tQk1GnxCw5QcYM3OvA27JY/view?usp=drivesdk",
+        "name": "24 AsfterPsalm50Idiomelon-pl2nd-GC-Orthros-STNektariosSt.pdf",
+        "description": "[O] <b>FESTAL TROPARIA</b><b> AFTER PSALM 50 IN TONE TWO | Creemens</b>",
         "automelon": "",
-        "path": "MyPrivateEnglishMusic / Menaion / 01 September / 26 St John the Theologian Repose",
+        "path": "MyPrivateEnglishMusic / Menaion / 03 November / 09 Nektarios of Aegina and Pentapolis, the Wonderworker",
         "periodId": "menaion",
-        "feast": "St John the Theologian Repose",
-        "feastId": "26-09"
+        "feast": "Nektarios of Aegina and Pentapolis, the Wonderworker",
+        "feastId": "09-11"
       }
     ]
   },
@@ -6618,6 +6666,22 @@
       }
     ]
   },
+  "[O] [PR] THE DOXASTICON OF ST. NEKTARIOS TONE FIVE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Creemens",
+        "url": "https://drive.google.com/file/d/18PkCG-76Nz0Hm6Agsbk6C88IM2_LNAYs/view?usp=drivesdk",
+        "name": "26 PraisesDoxastikon-pl1st-Orthros-StNektarios.pdf",
+        "description": "[O] [PR] <b>THE DOXASTICON OF ST. NEKTARIOS<br />IN TONE FIVE | Creemens</b>",
+        "automelon": "",
+        "path": "MyPrivateEnglishMusic / Menaion / 03 November / 09 Nektarios of Aegina and Pentapolis, the Wonderworker",
+        "periodId": "menaion",
+        "feast": "Nektarios of Aegina and Pentapolis, the Wonderworker",
+        "feastId": "09-11"
+      }
+    ]
+  },
   "[O] [PR] THEOTOKION TONE EIGHT": {
     "type": "multi",
     "versions": [
@@ -6658,6 +6722,17 @@
         "periodId": "",
         "feast": "",
         "feastId": ""
+      },
+      {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/1H6Pz_hgx0flmUlSc6H90LC4Vwxb3w_KL/view?usp=drivesdk",
+        "name": "26 PraisesTheotokion-pl1st-ElMassih-Orthros-StNektarios.pdf",
+        "description": "[O] [PR] <b>THEOTOKION IN TONE FIVE | El Massih</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 09 Nektarios of Aegina and Pentapolis, the Wonderworker",
+        "periodId": "menaion",
+        "feast": "Nektarios of Aegina and Pentapolis, the Wonderworker",
+        "feastId": "09-11"
       }
     ]
   },
