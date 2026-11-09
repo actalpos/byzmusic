@@ -599,6 +599,22 @@
       }
     ]
   },
+  "APOLYTIKION OF ST. NEKTARIOS OF AEGINA IN TONE ONE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "St Anthony",
+        "url": "https://drive.google.com/file/d/14cxxVhVdmwaPfT9hyD8FT7Vg2KP69hvX/view?usp=drivesdk",
+        "name": "08 Apolytikion-1st-SA.pdf",
+        "description": "<b>APOLYTIKION OF ST. NEKTARIOS<br />OF AEGINA IN TONE ONE | St Anthony</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 09 Nektarios of Aegina and Pentapolis, the Wonderworker",
+        "periodId": "menaion",
+        "feast": "Nektarios of Aegina and Pentapolis, the Wonderworker",
+        "feastId": "09-11"
+      }
+    ]
+  },
   "APOLYTIKION OF ST. PAISIOS OF ATHOS IN TONE FIVE": {
     "type": "multi",
     "versions": [
@@ -7170,6 +7186,22 @@
       }
     ]
   },
+  "[V] [AP] DOXASTICON FOR ST. NEKTARIOS TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Creemens",
+        "url": "https://drive.google.com/file/d/1jQALM8rmToiW0KhNr8UsXnJem6tSQxUe/view?usp=drivesdk",
+        "name": "07 ApostichaDoxastikon-pl4th-GC-Vespers-StNektarios.pdf",
+        "description": "[V] [AP] <b>DOXASTICON FOR ST. NEKTARIOS<br />IN TONE EIGHT | Creemens</b>",
+        "automelon": "",
+        "path": "MyPrivateEnglishMusic / Menaion / 03 November / 09 Nektarios of Aegina and Pentapolis, the Wonderworker",
+        "periodId": "menaion",
+        "feast": "Nektarios of Aegina and Pentapolis, the Wonderworker",
+        "feastId": "09-11"
+      }
+    ]
+  },
   "[V] [AP] DOXASTICON FOR ST. PAISIOS TONE EIGHT": {
     "type": "multi",
     "versions": [
@@ -7545,6 +7577,22 @@
       }
     ]
   },
+  "[V] [AP] THE APOSTICHA FOR ST. NEKTARIOS TONE FIVE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/12boRZs_FwN16uW8C8pkWeI0vI83jGteH/view?usp=drivesdk",
+        "name": "06 Aposticha-pl1st-ElMassih-Vespers-StNektarios.pdf",
+        "description": "[V] [AP] <b>THE APOSTICHA FOR ST. NEKTARIOS<br />IN TONE FIVE (**</b><i><b>Rejoice</b></i><b>**) | El Massih</b>",
+        "automelon": "REJOICE",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 09 Nektarios of Aegina and Pentapolis, the Wonderworker",
+        "periodId": "menaion",
+        "feast": "Nektarios of Aegina and Pentapolis, the Wonderworker",
+        "feastId": "09-11"
+      }
+    ]
+  },
   "[V] [AP] THE APOSTICHA FOR ST. RAPHAEL TONE TWO": {
     "type": "multi",
     "versions": [
@@ -7768,6 +7816,22 @@
         "periodId": "menaion",
         "feast": "",
         "feastId": ""
+      }
+    ]
+  },
+  "[V] [LIHC] ALSO FOR ST. NEKTARIOS TONE TWO": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "B Crow",
+        "url": "https://drive.google.com/file/d/1val09RLCHgKgbirKrdaD3PBJoB3FRd-Z/view?usp=drivesdk",
+        "name": "01 LihcSticheras-2nd-BCrow-Vespers-StNektarios.pdf",
+        "description": "[V] [LIHC] <b>Also for St. Nektarios in Tone Two<br />(**</b><i><b>With what fair crowns</b></i><b>**) | B Crow</b>",
+        "automelon": "WITH WHAT FAIR CROWNS",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 09 Nektarios of Aegina and Pentapolis, the Wonderworker",
+        "periodId": "menaion",
+        "feast": "Nektarios of Aegina and Pentapolis, the Wonderworker",
+        "feastId": "09-11"
       }
     ]
   },
@@ -8424,6 +8488,22 @@
       }
     ]
   },
+  "[V] [LIHC] FOR ST. NEKTARIOS TONE ONE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Archdiocese",
+        "url": "https://drive.google.com/file/d/1KvOzGG3bV17mAVETJpkmdRetc99JD2tZ/view?usp=drivesdk",
+        "name": "01 LihcSticheras-1st-AA-Vespers-StNektarios.pdf",
+        "description": "[V] [LIHC] <b>For St. Nektarios in Tone One<br />(**</b><i><b>O strange wonder</b></i><b>**) | Archdiocese</b>",
+        "automelon": "O STRANGE WONDER",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 09 Nektarios of Aegina and Pentapolis, the Wonderworker",
+        "periodId": "menaion",
+        "feast": "Nektarios of Aegina and Pentapolis, the Wonderworker",
+        "feastId": "09-11"
+      }
+    ]
+  },
   "[V] [LIHC] FOR ST. PAISIOS TONE ONE": {
     "type": "multi",
     "versions": [
@@ -8992,6 +9072,22 @@
       }
     ]
   },
+  "[V] [LIHC] THEOTOKION FOR THE EARTHQUAKE TONE SIX": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1Aw7K_NpoForfg3KgNUr5va1PaUJBwgor/view?usp=drivesdk",
+        "name": "02 LihcTheotokion-pl2nd-Karam-Vespers-StNektarios.pdf",
+        "description": "[V] [LIHC] <b>THEOTOKION FOR THE EARTHQUAKE IN TONE SIX | Karam</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 09 Nektarios of Aegina and Pentapolis, the Wonderworker",
+        "periodId": "menaion",
+        "feast": "Nektarios of Aegina and Pentapolis, the Wonderworker",
+        "feastId": "09-11"
+      }
+    ]
+  },
   "[V] [LIHC] THEOTOKION FOR THE RESURRECTION TONE EIGHT": {
     "type": "multi",
     "versions": [
@@ -9236,6 +9332,22 @@
     "path": "Byzantine Music / ArabicByzantineMusic / Menaion / 1 September / Sep 14 - Exaltation of the Holy Cross / Vespers ",
     "automelon": "",
     "periodId": "menaion"
+  },
+  "[V] [LIHV] DOXASTICON FOR ST. NEKTARIOS TONE SIX": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Creemens",
+        "url": "https://drive.google.com/file/d/1uqIWsnV6e8CqiGMcuFOCDTtNtJOvyA-t/view?usp=drivesdk",
+        "name": "02 LihcSticherasDoxastikon-pl2nd-GC-Vespers-StNektarios.pdf",
+        "description": "[V] [LIHV] <b>DOXASTICON FOR ST. NEKTARIOS<br />IN TONE SIX | Creemens</b>",
+        "automelon": "",
+        "path": "MyPrivateEnglishMusic / Menaion / 03 November / 09 Nektarios of Aegina and Pentapolis, the Wonderworker",
+        "periodId": "menaion",
+        "feast": "Nektarios of Aegina and Pentapolis, the Wonderworker",
+        "feastId": "09-11"
+      }
+    ]
   },
   "[V] [LIHV] FOR ARCHANGEL MICHAEL TONE FOUR": {
     "type": "multi",

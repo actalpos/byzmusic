@@ -1,362 +1,247 @@
-/*
-====================================================================
-convert-service.js
-Data: 2026-09-10
-Versiune: 1.0
 
-SCOP
-----
-Scriptul procesează automat fișierele RTF din Downloads și le transformă
-în HTML pregătit pentru site-ul byzmusic.
-
-FLUXUL COMPLET
---------------
-Pentru fiecare fișier .rtf găsit în ~/Downloads:
-
-1. Citește numele fișierului.
-2. Extrage luna și ziua din nume.
-3. Verifică dacă anul este prezent în nume.
-4. Decide dacă fișierul merge în:
-   - Service_Texts/variableDate
-   - Service_Texts/fixDate
-5. Aplică regula de dată pentru tipul serviciului.
-6. Deschide RTF-ul în Microsoft Word.
-7. Salvează fișierul ca DOCX.
-8. Convertește DOCX-ul în HTML cu LibreOffice.
-9. Adaugă în <head>:
-   - meta viewport
-   - layout-fixes.css
-   - layout-fixes-and-links.js
-10. Creează automat folderele lipsă.
-11. Dacă HTML-ul există deja în destinație, îl suprascrie.
-12. Mută HTML-ul în folderul corect.
-13. După mutarea cu succes:
-   - șterge DOCX-ul din Downloads
-   - șterge RTF-ul din Downloads
-14. După procesarea tuturor fișierelor, închide Microsoft Word.
-
-====================================================================
-REGULI PENTRU DATA ȘI DESTINAȚIA FIȘIERULUI
-====================================================================
-
-REGULA 1 — FIȘIER CU AN ÎN NUME
---------------------------------
-Dacă anul apare în numele fișierului, fișierul este considerat
-VARIABLE DATE.
-
-Exemplu:
-
-    Sep 13 2026 Bilingual ORTHROS.rtf
-
-Destinația de bază este:
-
-    Service_Texts/variableDate/2026/09/13/
-
-Structura este:
-
-    variableDate/
-        YYYY/
-            MM/
-                DD/
-
-Anul este luat exact din numele fișierului.
-
-
-REGULA 2 — FIȘIER FĂRĂ AN ÎN NUME
-----------------------------------
-Dacă anul NU apare în numele fișierului, fișierul este considerat
-FIXED DATE.
-
-Exemplu:
-
-    Sept 13 Bilingual ORTHROS.rtf
-
-Destinația este:
-
-    Service_Texts/fixDate/09/13/
-
-Structura este:
-
-    fixDate/
-        MM/
-            DD/
-
-Pentru fixDate nu se creează folder de an.
-
-
-REGULA 3 — NUMELE LUNII
------------------------
-Luna din numele fișierului este transformată în număr cu două cifre.
-
-Exemple:
-
-    Jan / January       -> 01
-    Feb / February      -> 02
-    Mar / March         -> 03
-    Apr / April         -> 04
-    May                 -> 05
-    Jun / June          -> 06
-    Jul / July          -> 07
-    Aug / August        -> 08
-    Sep / Sept /
-    September           -> 09
-    Oct / October       -> 10
-    Nov / November      -> 11
-    Dec / December      -> 12
-
-
-REGULA 4 — VESP
----------------
-Dacă numele fișierului conține:
-
-    VESP
-
-data serviciului este ZIUA URMĂTOARE față de data din numele fișierului.
-
-Exemplu fixed date:
-
-    Sept 13 Bilingual VESP.rtf
-
-Data din nume:
-
-    09/13
-
-VESP înseamnă +1 zi:
-
-    09/14
-
-Destinația:
-
-    Service_Texts/fixDate/09/14/
-
-
-Exemplu variable date:
-
-    Sep 13 2026 Bilingual VESP.rtf
-
-Data din nume:
-
-    2026/09/13
-
-VESP înseamnă +1 zi:
-
-    2026/09/14
-
-Destinația:
-
-    Service_Texts/variableDate/2026/09/14/
-
-
-REGULA 5 — LITART
------------------
-LITART folosește aceeași regulă ca VESP.
-
-Dacă numele conține:
-
-    LITART
-
-se adaugă +1 zi la data din numele fișierului.
-
-
-REGULA 6 — ORTHROS
-------------------
-ORTHROS NU primește +1 zi.
-
-Folosește exact data din numele fișierului.
-
-Exemplu:
-
-    Sep 13 2026 Bilingual ORTHROS.rtf
-
-Destinația:
-
-    Service_Texts/variableDate/2026/09/13/
-
-
-REGULA 7 — READ ȘI ALTE FIȘIERE
---------------------------------
-READ și celelalte fișiere care nu sunt VESP sau LITART
-folosesc exact data din numele fișierului.
-
-Exemplu:
-
-    Sept 13 Read.rtf
-
-Destinația:
-
-    Service_Texts/fixDate/09/13/
-
-
-REGULA 8 — SCHIMBAREA LUNII SAU ANULUI
---------------------------------------
-Pentru VESP și LITART, +1 zi este calculat ca dată reală.
-
-Exemple:
-
-    Sep 30 -> Oct 01
-    Dec 31 2026 -> Jan 01 2027
-
-Scriptul gestionează automat schimbarea lunii și a anului.
-
-
-====================================================================
-REGULI DE CONVERSIE
-====================================================================
-
-1. RTF -> DOCX
---------------
-Conversia se face cu Microsoft Word pentru Mac.
-
-Motiv:
-Word păstrează cel mai bine structura documentului original,
-inclusiv tabelele, stilurile și conținutul bilingv.
-
-
-2. DOCX -> HTML
----------------
-Conversia se face cu LibreOffice în modul headless.
-
-Comanda este executată automat din Node.js.
-
-
-3. NUMELE FIȘIERELOR
---------------------
-Nu se mai folosește sufixul:
-
-    -AUTO
-
-Exemplu:
-
-    Sept 13 Bilingual VESP.rtf
-
-devine temporar:
-
-    Sept 13 Bilingual VESP.docx
-    Sept 13 Bilingual VESP.html
-
-
-====================================================================
-REGULI PENTRU HTML
-====================================================================
-
-După conversia LibreOffice, în <head> se verifică și se adaugă:
-
-1.
-
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-
-2.
-
-    <link rel="stylesheet"
-          href="/byzmusic/system/styles/layout-fixes.css">
-
-3.
-
-    <script
-      src="/byzmusic/system/scripts/layout-fixes-and-links.js"
-      defer></script>
-
-Acestea sunt adăugate numai dacă nu există deja.
-
-
-====================================================================
-REGULA DE SUPRASCRIERE
-====================================================================
-
-Dacă HTML-ul există deja în destinația finală:
-
-    NU se oprește scriptul.
-
-Fișierul HTML existent este șters și este înlocuit cu HTML-ul nou.
-
-
-====================================================================
-REGULA DE CLEANUP
-====================================================================
-
-Cleanup-ul se face NUMAI după ce HTML-ul a fost mutat cu succes
-în destinația finală.
-
-După succes:
-
-    DOCX -> șters din Downloads
-    RTF  -> șters din Downloads
-
-HTML-ul nu este șters deoarece a fost mutat în Service_Texts.
-
-
-Dacă apare o eroare înainte de mutarea HTML-ului:
-
-    RTF-ul rămâne în Downloads
-    DOCX-ul rămâne în Downloads
-
-pentru a putea fi verificată problema.
-
-
-====================================================================
-MAI MULTE FIȘIERE RTF
-====================================================================
-
-Dacă în Downloads sunt mai multe fișiere RTF, scriptul le procesează
-pe rând.
-
-Exemplu:
-
-    Sept 13 Bilingual VESP.rtf
-    Sept 14 Bilingual ORTHROS.rtf
-    Sept 14 Read.rtf
-
-Fluxul este:
-
-    RTF 1
-      -> DOCX
-      -> HTML
-      -> mutare
-      -> cleanup
-
-    RTF 2
-      -> DOCX
-      -> HTML
-      -> mutare
-      -> cleanup
-
-    RTF 3
-      -> DOCX
-      -> HTML
-      -> mutare
-      -> cleanup
-
-O eroare la un fișier nu trebuie să oprească procesarea celorlalte.
-
-
-====================================================================
-VERSIUNE
-====================================================================
-
-Versiune: 1.0
-Data: 2026-09-10
-
-Reguli principale:
-
-- cu an    -> variableDate/YYYY/MM/DD
-- fără an  -> fixDate/MM/DD
-- VESP     -> +1 zi
-- LITART   -> +1 zi
-- ORTHROS  -> fără modificarea zilei
-- READ     -> fără modificarea zilei
-- fără -AUTO
-- HTML existent -> suprascris
-- cleanup RTF + DOCX numai după mutare reușită
-
-====================================================================
-*/
-
-import fs from "fs";
-import path from "path";
-import os from "os";
-import { fileURLToPath } from "url";
-import { execFileSync } from "child_process";
+/**
+ * ====================================================================
+ * convert-service.js
+ * ====================================================================
+ *
+ * Data inițială: 2026-09-10
+ * Versiune: 1.1
+ * Actualizat: 2026-11-08
+ *
+ * SCOP
+ * ----
+ * Scriptul procesează fișierele RTF din Downloads și le transformă
+ * în HTML pregătit pentru site-ul byzmusic.
+ *
+ * Creează și directoarele Menaion în două locații Google Drive,
+ * apelând scriptul existent:
+ *
+ *   scripts/create-google-drive-feast-folders.js
+ *
+ * FLUXUL COMPLET
+ * --------------
+ *
+ * 1. Găsește toate fișierele RTF din Downloads.
+ * 2. Extrage data din numele fiecărui fișier.
+ * 3. Aplică regulile datei liturgice.
+ * 4. Grupează fișierele după data liturgică.
+ * 5. Extrage titlul sărbătorii din VESP / ORTHROS.
+ * 6. Afișează PREVIEW pentru directoarele Service_Texts.
+ * 7. Afișează PREVIEW pentru directoarele Google Drive.
+ * 8. Cere o singură confirmare Y/N.
+ *
+ * Dacă răspunsul este N:
+ *   - nu creează directoare;
+ *   - nu convertește documente;
+ *   - nu șterge fișiere.
+ *
+ * Dacă răspunsul este Y:
+ *   9. Creează directoarele Google Drive.
+ *  10. Deschide fiecare RTF în Microsoft Word.
+ *  11. Salvează DOCX.
+ *  12. Convertește DOCX în HTML cu LibreOffice.
+ *  13. Adaugă viewport, CSS și JavaScript în HTML.
+ *  14. Creează directorul Service_Texts dacă lipsește.
+ *  15. Mută HTML în destinația finală.
+ *  16. Suprascrie HTML existent cu același nume.
+ *  17. Șterge DOCX și RTF numai după mutarea reușită.
+ *  18. Închide Microsoft Word după procesare.
+ *
+ * ====================================================================
+ * REGULI PENTRU DATĂ
+ * ====================================================================
+ *
+ * REGULA 1 — FIȘIER CU AN
+ *
+ * Exemplu:
+ *   Sep 13 2026 Bilingual ORTHROS.rtf
+ *
+ * Tip:
+ *   variableDate
+ *
+ * Destinație:
+ *   Service_Texts/variableDate/2026/09/DD Titlu/
+ *
+ * REGULA 2 — FIȘIER FĂRĂ AN
+ *
+ * Exemplu:
+ *   Sept 13 Bilingual ORTHROS.rtf
+ *
+ * Tip:
+ *   fixDate
+ *
+ * Destinație:
+ *   Service_Texts/fixDate/09/DD Titlu/
+ *
+ * Pentru fixDate nu se creează director de an.
+ *
+ * REGULA 3 — NUMELE LUNII
+ *
+ * Jan / January       -> 01
+ * Feb / February      -> 02
+ * Mar / March         -> 03
+ * Apr / April         -> 04
+ * May                 -> 05
+ * Jun / June          -> 06
+ * Jul / July          -> 07
+ * Aug / August        -> 08
+ * Sep / Sept / September -> 09
+ * Oct / October       -> 10
+ * Nov / November      -> 11
+ * Dec / December      -> 12
+ *
+ * REGULA 4 — VESP
+ *
+ * VESP folosește ziua următoare datei din numele fișierului.
+ *
+ * Exemplu:
+ *   Sept 13 Bilingual VESP.rtf
+ *
+ * Data liturgică:
+ *   09/14
+ *
+ * REGULA 5 — LITART
+ *
+ * LITART folosește aceeași regulă ca VESP: +1 zi.
+ *
+ * REGULA 6 — ORTHROS
+ *
+ * ORTHROS folosește exact data din numele fișierului.
+ *
+ * REGULA 7 — READ ȘI ALTE FIȘIERE
+ *
+ * READ și celelalte fișiere folosesc data din nume.
+ *
+ * REGULA 8 — SCHIMBAREA LUNII SAU ANULUI
+ *
+ * Pentru VESP și LITART, +1 zi este calculat ca dată reală.
+ *
+ * Exemple:
+ *   Sep 30 -> Oct 01
+ *   Dec 31 2026 -> Jan 01 2027
+ *
+ * Pentru fișierele fără an, 2024 este utilizat numai intern
+ * pentru calculul calendaristic, inclusiv 29 februarie.
+ *
+ * ====================================================================
+ * REGULI PENTRU DIRECTOARE
+ * ====================================================================
+ *
+ * Service_Texts:
+ *
+ *   fixDate/MM/DD Titlu/
+ *   variableDate/YYYY/MM/DD Titlu/
+ *
+ * Titlul este extras din VESP sau ORTHROS.
+ *
+ * Toate serviciile aceleiași date liturgice folosesc
+ * același director.
+ *
+ * Directoarele existente nu sunt redenumite sau șterse.
+ *
+ * Dacă există mai multe directoare pentru aceeași zi,
+ * sau un director cu un titlu diferit, conversia se oprește.
+ *
+ * Google Drive:
+ *
+ *   Byzantine Music/EnglishByzantineMusic/Menaion/
+ *   MyPrivateEnglishMusic/Menaion/
+ *
+ * Directoarele Google Drive sunt gestionate de scriptul
+ * create-google-drive-feast-folders.js.
+ *
+ * Doar Menaion este activat.
+ * Penticostarion nu este modificat.
+ *
+ * ====================================================================
+ * REGULI DE CONVERSIE
+ * ====================================================================
+ *
+ * RTF -> DOCX
+ *   Microsoft Word pentru Mac.
+ *   Păstrează structura, tabelele și conținutul bilingv.
+ *
+ * DOCX -> HTML
+ *   LibreOffice în modul headless.
+ *
+ * Numele fișierului HTML:
+ *   același nume de bază ca RTF, fără sufix -AUTO.
+ *
+ * ====================================================================
+ * REGULI PENTRU HTML
+ * ====================================================================
+ *
+ * Se verifică și se adaugă în <head>, dacă lipsesc:
+ *
+ *   <meta name="viewport"
+ *         content="width=device-width, initial-scale=1.0">
+ *
+ *   <link rel="stylesheet"
+ *         href="/byzmusic/system/styles/layout-fixes.css">
+ *
+ *   <script
+ *     src="/byzmusic/system/scripts/layout-fixes-and-links.js"
+ *     defer></script>
+ *
+ * ====================================================================
+ * REGULA DE SUPRASCRIERE
+ * ====================================================================
+ *
+ * Dacă HTML-ul există deja în destinația finală,
+ * este înlocuit cu HTML-ul nou.
+ *
+ * ====================================================================
+ * REGULA DE CLEANUP
+ * ====================================================================
+ *
+ * Cleanup-ul se face numai după ce HTML-ul a fost mutat
+ * cu succes în destinația finală.
+ *
+ * După succes:
+ *   DOCX -> șters din Downloads
+ *   RTF  -> șters din Downloads
+ *
+ * Dacă apare o eroare înainte de mutarea HTML:
+ *   RTF rămâne în Downloads
+ *   DOCX rămâne în Downloads, dacă a fost creat
+ *
+ * O eroare la un fișier nu oprește procesarea celorlalte,
+ * după ce PREVIEW-ul și verificările inițiale au trecut.
+ *
+ * ====================================================================
+ * ISTORIC VERSIUNI
+ * ====================================================================
+ *
+ * v1.0 — 2026-09-10
+ *   - conversie RTF -> DOCX -> HTML;
+ *   - fixDate și variableDate;
+ *   - VESP/LITART +1 zi;
+ *   - suprascriere HTML;
+ *   - cleanup după succes.
+ *
+ * v1.1 — 2026-11-08
+ *   - PREVIEW pentru directoarele Service_Texts;
+ *   - directoare DD Titlu;
+ *   - grupare după data liturgică;
+ *   - detectare conflicte;
+ *   - PREVIEW Google Drive;
+ *   - creare Google Drive înainte de conversie;
+ *   - confirmare interactivă Y/N;
+ *   - păstrarea conversiei Word și LibreOffice.
+ *
+ * ====================================================================
+ */
+
+import fs from "node:fs";
+import path from "node:path";
+import os from "node:os";
+import { fileURLToPath } from "node:url";
+import { execFileSync } from "node:child_process";
+import readline from "node:readline/promises";
+import {
+  stdin as input,
+  stdout as output,
+} from "node:process";
 
 // ============================================================
 // CONFIG
@@ -392,655 +277,333 @@ const libreOffice =
   "/Applications/LibreOffice.app/Contents/MacOS/soffice";
 
 // ============================================================
+// SCRIPT PENTRU DIRECTOARELE GOOGLE DRIVE
+// ============================================================
+
+const feastScript = path.join(
+  systemDir,
+  "scripts",
+  "create-google-drive-feast-folders.js"
+);
+
+// ============================================================
 // LUNI
 // ============================================================
 
 const monthNumbers = {
   jan: "01",
   january: "01",
-
   feb: "02",
   february: "02",
-
   mar: "03",
   march: "03",
-
   apr: "04",
   april: "04",
-
   may: "05",
-
   jun: "06",
   june: "06",
-
   jul: "07",
   july: "07",
-
   aug: "08",
   august: "08",
-
   sep: "09",
   sept: "09",
   september: "09",
-
   oct: "10",
   october: "10",
-
   nov: "11",
   november: "11",
-
   dec: "12",
   december: "12",
 };
 
-// ============================================================
-// GĂSEȘTE TOATE RTF-URILE DIN DOWNLOADS
-// ============================================================
-
-const rtfFiles = fs
-  .readdirSync(downloadsDir)
-  .filter((file) => /\.rtf$/i.test(file))
-  .sort();
-
-if (rtfFiles.length === 0) {
-  console.log();
-  console.log("Nu există fișiere RTF în Downloads.");
-  process.exit(0);
-}
-
-console.log();
-console.log(`Găsite ${rtfFiles.length} fișiere RTF:`);
-
-for (const file of rtfFiles) {
-  console.log(`  - ${file}`);
-}
-
-console.log();
+const monthNames = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
 
 // ============================================================
-// PROCESEAZĂ FIECARE RTF
-// ============================================================
-
-for (const file of rtfFiles) {
-  const rtfPath = path.join(
-    downloadsDir,
-    file
-  );
-
-  const baseName = path.basename(
-    file,
-    path.extname(file)
-  );
-
-  // FĂRĂ -AUTO
-  const docxPath = path.join(
-    downloadsDir,
-    `${baseName}.docx`
-  );
-
-  const htmlPath = path.join(
-    downloadsDir,
-    `${baseName}.html`
-  );
-
-  console.log("========================================");
-  console.log(`RTF: ${file}`);
-  console.log("========================================");
-
-  // ==========================================================
-  // 1. CITEȘTE DATA DIN NUMELE FIȘIERULUI
-  //
-  // Exemple:
-  //
-  // Sept 13 Bilingual VESP.rtf
-  // Sep 13 2026 Bilingual ORTHROS.rtf
-  //
-  // Cu an    -> variableDate
-  // Fără an  -> fixDate
-  // ==========================================================
-
-  const fileDate = parseDateFromFilename(file);
-
-  if (!fileDate) {
-    console.error(
-      `EROARE: nu pot determina data din numele: ${file}`
-    );
-    console.log();
-    continue;
-  }
-
-  let {
-    year,
-    month,
-    day,
-    hasYear
-  } = fileDate;
-
-  if (hasYear) {
-    console.log(
-      `Data din nume: ${year}/${month}/${String(day).padStart(2, "0")}`
-    );
-  } else {
-    console.log(
-      `Data din nume: ${month}/${String(day).padStart(2, "0")} (fără an)`
-    );
-  }
-
-  // ==========================================================
-  // 2. VESP / LITART -> +1 ZI
-  //
-  // ORTHROS / READ / ALTELE -> data exactă din nume
-  // ==========================================================
-
-  const isNextDayService =
-    /\bVESP\b/i.test(baseName) ||
-    /\bLITART\b/i.test(baseName);
-
-  if (isNextDayService) {
-    const adjustedDate = addOneDay(
-      year,
-      month,
-      day
-    );
-
-    year = adjustedDate.year;
-    month = adjustedDate.month;
-    day = adjustedDate.day;
-
-    if (hasYear) {
-      console.log(
-        `VESP/LITART +1 zi -> ${year}/${month}/${String(day).padStart(2, "0")}`
-      );
-    } else {
-      console.log(
-        `VESP/LITART +1 zi -> ${month}/${String(day).padStart(2, "0")}`
-      );
-    }
-  }
-
-  // ==========================================================
-  // 3. RTF -> DOCX CU MICROSOFT WORD
-  // ==========================================================
-
-  console.log("Word: RTF -> DOCX");
-
-  // Dacă a rămas un DOCX vechi în Downloads,
-  // îl ștergem înainte de conversie.
-  if (fs.existsSync(docxPath)) {
-    try {
-      fs.unlinkSync(docxPath);
-
-      console.log(
-        `Șters DOCX vechi: ${path.basename(docxPath)}`
-      );
-    } catch (error) {
-      console.error(
-        `EROARE: nu pot șterge DOCX-ul vechi: ${docxPath}`
-      );
-      console.error(error.message);
-      console.log();
-      continue;
-    }
-  }
-
-  const appleScript = `
-tell application "Microsoft Word"
-    activate
-
-    open file name "${escapeAppleScript(rtfPath)}"
-    delay 2
-
-    set theDoc to active document
-
-    save as theDoc file name "${escapeAppleScript(
-      docxPath
-    )}" file format format document
-
-    close theDoc saving no
-end tell
-`;
-
-  try {
-    execFileSync(
-      "osascript",
-      ["-e", appleScript],
-      {
-        stdio: "inherit",
-      }
-    );
-  } catch (error) {
-    console.error(
-      `EROARE Word: ${file}`
-    );
-    console.log();
-    continue;
-  }
-
-  if (!fs.existsSync(docxPath)) {
-    console.error(
-      `EROARE: DOCX nu a fost creat: ${docxPath}`
-    );
-    console.log();
-    continue;
-  }
-
-  console.log(
-    `Creat DOCX: ${path.basename(docxPath)}`
-  );
-
-  // ==========================================================
-  // 4. DOCX -> HTML CU LIBREOFFICE
-  // ==========================================================
-
-  console.log("LibreOffice: DOCX -> HTML");
-
-  // Dacă există HTML vechi în Downloads,
-  // îl ștergem înainte de conversie.
-  if (fs.existsSync(htmlPath)) {
-    try {
-      fs.unlinkSync(htmlPath);
-
-      console.log(
-        `Șters HTML vechi din Downloads: ${path.basename(htmlPath)}`
-      );
-    } catch (error) {
-      console.error(
-        `EROARE: nu pot șterge HTML-ul vechi: ${htmlPath}`
-      );
-      console.error(error.message);
-      console.log();
-      continue;
-    }
-  }
-
-  try {
-    execFileSync(
-      libreOffice,
-      [
-        "--headless",
-        "--convert-to",
-        "html",
-        "--outdir",
-        downloadsDir,
-        docxPath,
-      ],
-      {
-        stdio: "inherit",
-      }
-    );
-  } catch (error) {
-    console.error(
-      `EROARE LibreOffice: ${file}`
-    );
-    console.log();
-    continue;
-  }
-
-  if (!fs.existsSync(htmlPath)) {
-    console.error(
-      `EROARE: HTML nu a fost creat: ${htmlPath}`
-    );
-    console.log();
-    continue;
-  }
-
-  console.log(
-    `Creat HTML: ${path.basename(htmlPath)}`
-  );
-
-  // ==========================================================
-  // 5. ADAUGĂ META + CSS + JS
-  // ==========================================================
-
-  try {
-    let html = fs.readFileSync(
-      htmlPath,
-      "utf8"
-    );
-
-    const viewport =
-      '<meta name="viewport" content="width=device-width, initial-scale=1.0">';
-
-    const css =
-      '<link rel="stylesheet" href="/byzmusic/system/styles/layout-fixes.css">';
-
-    const script =
-      '<script src="/byzmusic/system/scripts/layout-fixes-and-links.js" defer></script>';
-
-    const includes = [];
-
-    if (
-      !html.includes('name="viewport"')
-    ) {
-      includes.push(viewport);
-    }
-
-    if (
-      !html.includes(
-        "/byzmusic/system/styles/layout-fixes.css"
-      )
-    ) {
-      includes.push(css);
-    }
-
-    if (
-      !html.includes(
-        "/byzmusic/system/scripts/layout-fixes-and-links.js"
-      )
-    ) {
-      includes.push(script);
-    }
-
-    if (includes.length > 0) {
-      const siteIncludes =
-        "\n\t" +
-        includes.join("\n\t");
-
-      html = html.replace(
-        /<head([^>]*)>/i,
-        `<head$1>${siteIncludes}`
-      );
-
-      fs.writeFileSync(
-        htmlPath,
-        html,
-        "utf8"
-      );
-
-      console.log(
-        "Adăugat: viewport + CSS + JS"
-      );
-    } else {
-      console.log(
-        "Viewport + CSS + JS există deja."
-      );
-    }
-  } catch (error) {
-    console.error(
-      `EROARE la modificarea HTML: ${file}`
-    );
-    console.error(error.message);
-    console.log();
-    continue;
-  }
-
-  // ==========================================================
-  // 6. STABILEȘTE DESTINAȚIA
-  //
-  // CU AN:
-  // Service_Texts/variableDate/YYYY/MM/DD
-  //
-  // FĂRĂ AN:
-  // Service_Texts/fixDate/MM/DD
-  // ==========================================================
-
-  const dayString =
-    String(day).padStart(2, "0");
-
-  let destinationDir;
-
-  if (hasYear) {
-    destinationDir = path.join(
-      variableDateDir,
-      String(year),
-      month,
-      dayString
-    );
-
-    console.log(
-      "Tip: variableDate"
-    );
-
-    console.log(
-      `Destinație: Service_Texts/variableDate/${year}/${month}/${dayString}`
-    );
-  } else {
-    destinationDir = path.join(
-      fixDateDir,
-      month,
-      dayString
-    );
-
-    console.log(
-      "Tip: fixDate"
-    );
-
-    console.log(
-      `Destinație: Service_Texts/fixDate/${month}/${dayString}`
-    );
-  }
-
-  // ==========================================================
-  // 7. CREEAZĂ FOLDERELE DACĂ NU EXISTĂ
-  // ==========================================================
-
-  try {
-    fs.mkdirSync(
-      destinationDir,
-      {
-        recursive: true,
-      }
-    );
-  } catch (error) {
-    console.error(
-      "EROARE la crearea folderului:"
-    );
-    console.error(destinationDir);
-    console.error(error.message);
-    console.log();
-    continue;
-  }
-
-  // ==========================================================
-  // 8. SUPRASCRIE HTML-UL DACĂ EXISTĂ
-  // ==========================================================
-
-  const destinationHtml = path.join(
-    destinationDir,
-    path.basename(htmlPath)
-  );
-
-  try {
-    if (fs.existsSync(destinationHtml)) {
-      fs.unlinkSync(destinationHtml);
-
-      console.log(
-        `HTML existent șters pentru suprascriere: ${path.basename(destinationHtml)}`
-      );
-    }
-
-    fs.renameSync(
-      htmlPath,
-      destinationHtml
-    );
-
-    console.log(
-      `Mutat HTML: ${destinationHtml}`
-    );
-  } catch (error) {
-    console.error(
-      `EROARE la mutarea/suprascrierea HTML: ${file}`
-    );
-    console.error(error.message);
-    console.error(
-      "RTF și DOCX rămân în Downloads."
-    );
-    console.log();
-    continue;
-  }
-
-  // ==========================================================
-  // 9. CLEANUP DOWNLOADS
-  //
-  // NUMAI DUPĂ CE HTML-UL A AJUNS CU SUCCES ÎN DESTINAȚIE
-  // ==========================================================
-
-  try {
-    if (fs.existsSync(docxPath)) {
-      fs.unlinkSync(docxPath);
-
-      console.log(
-        `Șters DOCX: ${path.basename(docxPath)}`
-      );
-    }
-
-    if (fs.existsSync(rtfPath)) {
-      fs.unlinkSync(rtfPath);
-
-      console.log(
-        `Șters RTF: ${path.basename(rtfPath)}`
-      );
-    }
-  } catch (error) {
-    console.error(
-      `EROARE cleanup pentru: ${file}`
-    );
-    console.error(error.message);
-  }
-
-  console.log();
-}
-
-// ============================================================
-// 10. ÎNCHIDE WORD DUPĂ TOATE CONVERSIILE
-// ============================================================
-
-try {
-  execFileSync(
-    "osascript",
-    [
-      "-e",
-      'tell application "Microsoft Word" to quit saving no',
-    ]
-  );
-} catch {
-  // Nu este critic dacă Word este deja închis.
-}
-
-// ============================================================
-// TERMINARE
-// ============================================================
-
-console.log("========================================");
-console.log("CONVERSIE TERMINATĂ");
-console.log("========================================");
-console.log();
-
-// ============================================================
-// FUNCTIONS
+// FUNCTIONS — DATA DIN NUMELE FIȘIERULUI
 // ============================================================
 
 function parseDateFromFilename(filename) {
   /*
-    Acceptă:
-
-    Sept 13 Bilingual VESP.rtf
-    Sep 13 2026 Bilingual ORTHROS.rtf
-
-    Luna + ziua sunt obligatorii.
-    Anul este opțional.
-
-    CU AN:
-      -> variableDate
-
-    FĂRĂ AN:
-      -> fixDate
-  */
+   * Acceptă:
+   *   Sept 13 Bilingual VESP.rtf
+   *   Sep 13 2026 Bilingual ORTHROS.rtf
+   *
+   * Cu an -> variableDate
+   * Fără an -> fixDate
+   */
 
   const match = filename.match(
     /^([A-Za-z]+)\s+(\d{1,2})(?:\s+(\d{4}))?\b/
   );
 
-  if (!match) {
-    return null;
-  }
+  if (!match) return null;
 
-  const monthName =
-    match[1].toLowerCase();
+  const month = monthNumbers[match[1].toLowerCase()];
 
-  const month =
-    monthNumbers[monthName];
+  if (!month) return null;
 
-  if (!month) {
-    return null;
-  }
+  const day = Number(match[2]);
+  const hasYear = Boolean(match[3]);
 
-  const day =
-    Number(match[2]);
+  // Anul 2024 este folosit intern pentru fixDate.
+  const year = hasYear ? Number(match[3]) : 2024;
 
-  const hasYear =
-    Boolean(match[3]);
-
-  /*
-    Dacă există anul în nume îl folosim.
-
-    Dacă nu există, folosim 2024 DOAR intern
-    pentru validarea datei și calculul +1 zi.
-
-    Pentru fixDate anul NU intră în cale.
-  */
-
-  const year = hasYear
-    ? Number(match[3])
-    : 2024;
-
-  // Verifică dacă data este validă.
-  const testDate = new Date(
-    year,
-    Number(month) - 1,
-    day
+  const date = new Date(
+    Date.UTC(year, Number(month) - 1, day)
   );
 
+  // Verifică dacă data inițială este validă.
   if (
-    testDate.getFullYear() !== year ||
-    testDate.getMonth() !==
-      Number(month) - 1 ||
-    testDate.getDate() !== day
+    date.getUTCFullYear() !== year ||
+    date.getUTCMonth() !== Number(month) - 1 ||
+    date.getUTCDate() !== day
   ) {
     return null;
   }
 
+  // VESP și LITART -> +1 zi.
+  if (/\b(VESP|LITART)\b/i.test(filename)) {
+    date.setUTCDate(date.getUTCDate() + 1);
+  }
+
   return {
-    year,
-    month,
-    day,
+    year: date.getUTCFullYear(),
+    month: String(date.getUTCMonth() + 1).padStart(2, "0"),
+    day: String(date.getUTCDate()).padStart(2, "0"),
     hasYear,
   };
 }
 
 // ============================================================
-// +1 ZI PENTRU VESP / LITART
-//
-// Rezolvă automat:
-// Sep 30 -> Oct 1
-// Dec 31 -> Jan 1
-// etc.
+// IDENTIFICĂ TIPUL SERVICIULUI
 // ============================================================
 
-function addOneDay(
-  year,
-  month,
-  day
-) {
-  const date = new Date(
-    year,
-    Number(month) - 1,
-    day
+function serviceType(filename) {
+  for (const type of [
+    "VESP",
+    "ORTHROS",
+    "LITART",
+    "READ",
+  ]) {
+    if (new RegExp(`\\b${type}\\b`, "i").test(filename)) {
+      return type;
+    }
+  }
+
+  return "OTHER";
+}
+
+// ============================================================
+// CURĂȚĂ TEXTUL
+// ============================================================
+
+function clean(value) {
+  return value
+    .replace(/\u00a0/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+// ============================================================
+// VALIDARE TITLU DIRECTOR
+// ============================================================
+
+function safeTitle(value) {
+  const title = clean(value)
+    .replace(/[\\/:*?"<>|]/g, "-")
+    .replace(/[. ]+$/g, "");
+
+  if (
+    !title ||
+    title === "." ||
+    title === ".." ||
+    title.length > 180
+  ) {
+    throw new Error("Titlu de director invalid: " + value);
+  }
+
+  return title;
+}
+
+// ============================================================
+// COMPARĂ TITLURILE EXTRASE
+// ============================================================
+
+function comparable(value) {
+  return clean(value)
+    .toLowerCase()
+    .replace(/[.,;:!?]/g, "")
+    .replace(/\s+/g, " ");
+}
+
+// ============================================================
+// EXTRAGE TITLUL DIN VESP SAU ORTHROS
+// ============================================================
+
+function extractTitle(rtfPath, date) {
+  /*
+   * Citește RTF cu textutil, fără Word.
+   *
+   * Exemplu:
+   *   Great Vespers of November 9
+   *   Nektarios of Aegina and Pentapolis, the Wonderworker
+   *
+   * Sau:
+   *   Orthros on Sunday, November 8, 2026; Tone 6
+   *   The Synaxis of the Archangels Michael, Gabriel & Raphael
+   */
+
+  const content = execFileSync(
+    "/usr/bin/textutil",
+    ["-convert", "txt", "-stdout", rtfPath],
+    {
+      encoding: "utf8",
+      maxBuffer: 20 * 1024 * 1024,
+    }
   );
 
-  date.setDate(
-    date.getDate() + 1
+  const lines = content
+    .split(/\r?\n/)
+    .map(clean)
+    .filter(Boolean)
+    .slice(0, 80);
+
+  const month = monthNames[Number(date.month) - 1];
+
+  const headingRegex = new RegExp(
+    `\\b(?:Vespers\\s+of|Orthros\\s+on)\\b.*\\b${month}\\s+0?${Number(date.day)}\\b`,
+    "i"
   );
 
-  return {
-    year: date.getFullYear(),
+  const index = lines.findIndex((line) =>
+    headingRegex.test(line)
+  );
 
-    month: String(
-      date.getMonth() + 1
-    ).padStart(2, "0"),
+  if (index < 0) {
+    throw new Error(
+      "Antetul VESP/ORTHROS nu a fost identificat."
+    );
+  }
 
-    day: date.getDate(),
-  };
+  const heading = lines[index];
+  const subtitle = lines[index + 1];
+
+  if (!subtitle || subtitle.length > 180) {
+    throw new Error(
+      "Subtitlul sărbătorii nu a fost identificat sigur."
+    );
+  }
+
+  // Pentru duminici adaugă Sunday Tone N.
+  const sunday = /\bSunday\b/i.test(heading);
+  const tone = heading.match(/\bTone\s+(\d+)\b/i);
+
+  const prefix = sunday
+    ? `Sunday${tone ? ` Tone ${tone[1]}` : ""}, `
+    : "";
+
+  return safeTitle(prefix + subtitle);
+}
+
+// ============================================================
+// GRUPARE DUPĂ DATA LITURGICĂ
+// ============================================================
+
+function groupKey(date) {
+  return [
+    date.hasYear ? "variable" : "fixed",
+    date.hasYear ? date.year : "",
+    date.month,
+    date.day,
+  ].join("|");
+}
+
+// ============================================================
+// DIRECTORUL PĂRINTE PENTRU SERVICE_TEXTS
+// ============================================================
+
+function baseDir(date) {
+  if (date.hasYear) {
+    return path.join(
+      variableDateDir,
+      String(date.year),
+      date.month
+    );
+  }
+
+  return path.join(fixDateDir, date.month);
+}
+
+// ============================================================
+// STABILEȘTE DESTINAȚIA FINALĂ
+//
+// Nu redenumește directoare existente.
+// Nu creează directoare duplicate pentru aceeași zi.
+// ============================================================
+
+function resolveDestination(date, title) {
+  const parent = baseDir(date);
+  const proposed = `${date.day} ${title}`;
+
+  if (!fs.existsSync(parent)) {
+    return {
+      destination: path.join(parent, proposed),
+      note: "nou",
+    };
+  }
+
+  const existing = fs
+    .readdirSync(parent, { withFileTypes: true })
+    .filter(
+      (entry) =>
+        entry.isDirectory() &&
+        (
+          entry.name === date.day ||
+          entry.name.startsWith(`${date.day} `)
+        )
+    )
+    .map((entry) => entry.name);
+
+  if (existing.length === 0) {
+    return {
+      destination: path.join(parent, proposed),
+      note: "nou",
+    };
+  }
+
+  if (existing.length > 1) {
+    throw new Error(
+      `Mai multe directoare pentru ziua ${date.day}: ` +
+      existing.join(" | ")
+    );
+  }
+
+  if (existing[0] === proposed) {
+    return {
+      destination: path.join(parent, proposed),
+      note: "existent",
+    };
+  }
+
+  throw new Error(
+    `Director existent diferit: ${existing[0]}\n` +
+    `Director propus: ${proposed}\n` +
+    "Este necesară verificarea manuală."
+  );
 }
 
 // ============================================================
@@ -1052,3 +615,775 @@ function escapeAppleScript(value) {
     .replace(/\\/g, "\\\\")
     .replace(/"/g, '\\"');
 }
+
+// ============================================================
+// APELAREA SCRIPTULUI GOOGLE DRIVE
+//
+// Fără --apply -> PREVIEW
+// Cu --apply   -> creare directoare
+//
+// Folosește scriptul original, fără să-i modifice regulile.
+// ============================================================
+
+function runFeastFolders(feastFiles, apply) {
+  const args = [
+    feastScript,
+    ...feastFiles,
+    ...(apply ? ["--apply"] : []),
+  ];
+
+  const result = execFileSync(
+    process.execPath,
+    args,
+    {
+      encoding: "utf8",
+      maxBuffer: 20 * 1024 * 1024,
+      stdio: ["ignore", "pipe", "pipe"],
+    }
+  );
+
+  console.log(result);
+
+  if (/\[EROARE\]/i.test(result)) {
+    throw new Error(
+      "Una dintre destinațiile Google Drive este indisponibilă."
+    );
+  }
+}
+
+// ============================================================
+// MAIN
+// ============================================================
+
+async function main() {
+
+  // ==========================================================
+  // 1. GĂSEȘTE TOATE RTF-URILE DIN DOWNLOADS
+  // ==========================================================
+
+  const rtfFiles = fs
+    .readdirSync(downloadsDir)
+    .filter((file) => /\.rtf$/i.test(file))
+    .sort();
+
+  if (rtfFiles.length === 0) {
+    console.log();
+    console.log("Nu există fișiere RTF în Downloads.");
+    return;
+  }
+
+  console.log();
+  console.log(`Găsite ${rtfFiles.length} fișiere RTF:`);
+
+  for (const file of rtfFiles) {
+    console.log(`  - ${file}`);
+  }
+
+  // ==========================================================
+  // 2. ANALIZEAZĂ DATELE ȘI GRUPEAZĂ FIȘIERELE
+  //
+  // Această etapă nu modifică niciun fișier.
+  // ==========================================================
+
+  const groups = new Map();
+  const problems = [];
+
+  for (const filename of rtfFiles) {
+    const date = parseDateFromFilename(filename);
+
+    if (!date) {
+      problems.push(`${filename}: dată invalidă`);
+      continue;
+    }
+
+    const key = groupKey(date);
+
+    if (!groups.has(key)) {
+      groups.set(key, {
+        date,
+        files: [],
+        candidates: [],
+      });
+    }
+
+    const group = groups.get(key);
+
+    group.files.push(filename);
+
+    const type = serviceType(filename);
+
+    // Titlul se extrage numai din VESP sau ORTHROS.
+    if (type === "VESP" || type === "ORTHROS") {
+      try {
+        const title = extractTitle(
+          path.join(downloadsDir, filename),
+          date
+        );
+
+        group.candidates.push({
+          filename,
+          title,
+        });
+      } catch (error) {
+        problems.push(
+          `${filename}: ${error.message}`
+        );
+      }
+    }
+  }
+
+  // ==========================================================
+  // 3. PREVIEW SERVICE_TEXTS
+  // ==========================================================
+
+  console.log();
+  console.log("========================================");
+  console.log("PREVIEW SERVICE_TEXTS — v1.1");
+  console.log("========================================");
+  console.log("Nicio modificare înainte de confirmarea Y.");
+
+  const plan = [];
+  const feastFiles = [];
+
+  for (const group of groups.values()) {
+    const titles = new Map(
+      group.candidates.map((candidate) => [
+        comparable(candidate.title),
+        candidate.title,
+      ])
+    );
+
+    const date = group.date;
+
+    const label = date.hasYear
+      ? `${date.year}/${date.month}/${date.day}`
+      : `${date.month}/${date.day} (fixDate)`;
+
+    console.log();
+    console.log(`DATA: ${label}`);
+
+    if (titles.size !== 1) {
+      problems.push(
+        `${label}: ${
+          titles.size === 0
+            ? "Nu există titlu VESP/ORTHROS."
+            : "Titluri contradictorii: " +
+              group.candidates
+                .map((c) => c.title)
+                .join(" | ")
+        }`
+      );
+
+      continue;
+    }
+
+    const title = [...titles.values()][0];
+
+    try {
+      const { destination, note } =
+        resolveDestination(date, title);
+
+      console.log(`TITLU: ${title}`);
+      console.log(`DIRECTOR (${note}): ${destination}`);
+
+      for (const filename of group.files) {
+        console.log(
+          `  ${serviceType(filename)}: ${filename}`
+        );
+
+        const htmlName =
+          path.basename(
+            filename,
+            path.extname(filename)
+          ) + ".html";
+
+        if (
+          fs.existsSync(
+            path.join(destination, htmlName)
+          )
+        ) {
+          console.log(
+            `    ATENȚIE: HTML existent va fi suprascris: ${htmlName}`
+          );
+        }
+
+        plan.push({
+          filename,
+          destination,
+        });
+      }
+
+      // Un singur RTF pentru fiecare dată Google Drive.
+      // Preferăm VESP; dacă lipsește, folosim ORTHROS.
+      const selected =
+        group.files.find(
+          (name) => serviceType(name) === "VESP"
+        ) ??
+        group.files.find(
+          (name) => serviceType(name) === "ORTHROS"
+        );
+
+      if (selected) {
+        feastFiles.push(
+          path.join(downloadsDir, selected)
+        );
+      } else {
+        problems.push(
+          `${label}: lipsește VESP/ORTHROS pentru Google Drive.`
+        );
+      }
+
+    } catch (error) {
+      problems.push(`${label}: ${error.message}`);
+    }
+  }
+
+  // ==========================================================
+  // 4. VERIFICĂ PROBLEMELE ÎNAINTE DE CONVERSIE
+  // ==========================================================
+
+  if (problems.length > 0) {
+    console.error();
+    console.error("PREVIEW BLOCAT — PROBLEME:");
+
+    for (const problem of problems) {
+      console.error(" - " + problem);
+    }
+
+    console.error();
+    console.error("Nu s-a modificat nimic.");
+
+    process.exitCode = 1;
+    return;
+  }
+
+  // ==========================================================
+  // 5. PREVIEW GOOGLE DRIVE
+  //
+  // Scriptul extern este apelat fără --apply.
+  // Nu creează directoare în această etapă.
+  // ==========================================================
+
+  if (!fs.existsSync(feastScript)) {
+    console.error(
+      `Scriptul Google Drive lipsește: ${feastScript}`
+    );
+
+    process.exitCode = 1;
+    return;
+  }
+
+  console.log();
+  console.log("========================================");
+  console.log("PREVIEW GOOGLE DRIVE");
+  console.log("========================================");
+
+  try {
+    runFeastFolders(feastFiles, false);
+  } catch (error) {
+    console.error(
+      `PREVIEW GOOGLE DRIVE EȘUAT: ${error.message}`
+    );
+
+    if (error.stderr) {
+      console.error(error.stderr.toString());
+    }
+
+    console.error("Nu s-a modificat nimic.");
+
+    process.exitCode = 1;
+    return;
+  }
+
+  // ==========================================================
+  // 6. CONFIRMARE INTERACTIVĂ Y/N
+  //
+  // O singură confirmare pentru întregul lot.
+  // ==========================================================
+
+  console.log();
+  console.log(`Total: ${plan.length} fișiere RTF.`);
+  console.log();
+
+  // În lipsa unui terminal interactiv, nu executăm conversia.
+  if (!input.isTTY) {
+    console.error(
+      "Conversia necesită confirmare într-un Terminal interactiv."
+    );
+    process.exitCode = 1;
+    return;
+  }
+
+  const rl = readline.createInterface({
+    input,
+    output,
+  });
+
+  let answer;
+
+  try {
+    answer = (
+      await rl.question(
+        "Continui crearea directoarelor și conversia? [Y/N]: "
+      )
+    ).trim().toUpperCase();
+  } finally {
+    rl.close();
+  }
+
+  if (answer !== "Y") {
+    console.log();
+    console.log("Anulat. Nu s-a modificat nimic.");
+    return;
+  }
+
+  // ==========================================================
+  // 7. CREARE DIRECTOARE GOOGLE DRIVE
+  //
+  // Rulează înainte de conversie și cleanup.
+  // RTF-urile sunt încă disponibile.
+  // ==========================================================
+
+  console.log();
+  console.log("========================================");
+  console.log("CREARE DIRECTOARE GOOGLE DRIVE");
+  console.log("========================================");
+
+  try {
+    runFeastFolders(feastFiles, true);
+  } catch (error) {
+    console.error(
+      `CREAREA GOOGLE DRIVE A EȘUAT: ${error.message}`
+    );
+
+    if (error.stderr) {
+      console.error(error.stderr.toString());
+    }
+
+    console.error(
+      "Conversia nu a început. Verifică eventualele directoare create parțial."
+    );
+
+    process.exitCode = 1;
+    return;
+  }
+
+  // ==========================================================
+  // 8. PROCESEAZĂ FIECARE RTF
+  // ==========================================================
+
+  let successCount = 0;
+  let errorCount = 0;
+
+  for (const { filename, destination } of plan) {
+
+    const rtfPath = path.join(
+      downloadsDir,
+      filename
+    );
+
+    const baseName = path.basename(
+      filename,
+      path.extname(filename)
+    );
+
+    // FĂRĂ -AUTO
+    const docxPath = path.join(
+      downloadsDir,
+      `${baseName}.docx`
+    );
+
+    const htmlPath = path.join(
+      downloadsDir,
+      `${baseName}.html`
+    );
+
+    console.log();
+    console.log("========================================");
+    console.log(`RTF: ${filename}`);
+    console.log("========================================");
+
+    // ========================================================
+    // 9. RTF -> DOCX CU MICROSOFT WORD
+    // ========================================================
+
+    console.log("Word: RTF -> DOCX");
+
+    // Dacă a rămas un DOCX vechi în Downloads,
+    // îl ștergem înainte de conversie.
+    if (fs.existsSync(docxPath)) {
+      try {
+        fs.unlinkSync(docxPath);
+
+        console.log(
+          `Șters DOCX vechi: ${path.basename(docxPath)}`
+        );
+      } catch (error) {
+        console.error(
+          `EROARE: nu pot șterge DOCX-ul vechi: ${docxPath}`
+        );
+        console.error(error.message);
+        errorCount++;
+        continue;
+      }
+    }
+
+    // AppleScript original din versiunea 1.0.
+    const appleScript = `
+tell application "Microsoft Word"
+  activate
+
+  open file name "${escapeAppleScript(rtfPath)}"
+  delay 2
+
+  set theDoc to active document
+
+  save as theDoc file name "${escapeAppleScript(
+    docxPath
+  )}" file format format document
+
+  close theDoc saving no
+end tell
+`;
+
+    try {
+      execFileSync(
+        "osascript",
+        ["-e", appleScript],
+        {
+          stdio: "inherit",
+        }
+      );
+    } catch (error) {
+      console.error(
+        `EROARE Word: ${filename}`
+      );
+      errorCount++;
+      continue;
+    }
+
+    if (!fs.existsSync(docxPath)) {
+      console.error(
+        `EROARE: DOCX nu a fost creat: ${docxPath}`
+      );
+      errorCount++;
+      continue;
+    }
+
+    console.log(
+      `Creat DOCX: ${path.basename(docxPath)}`
+    );
+
+    // ========================================================
+    // 10. DOCX -> HTML CU LIBREOFFICE
+    // ========================================================
+
+    console.log("LibreOffice: DOCX -> HTML");
+
+    // Dacă există HTML vechi în Downloads,
+    // îl ștergem înainte de conversie.
+    if (fs.existsSync(htmlPath)) {
+      try {
+        fs.unlinkSync(htmlPath);
+
+        console.log(
+          `Șters HTML vechi din Downloads: ${path.basename(htmlPath)}`
+        );
+      } catch (error) {
+        console.error(
+          `EROARE: nu pot șterge HTML-ul vechi: ${htmlPath}`
+        );
+        console.error(error.message);
+        errorCount++;
+        continue;
+      }
+    }
+
+    try {
+      execFileSync(
+        libreOffice,
+        [
+          "--headless",
+          "--convert-to",
+          "html",
+          "--outdir",
+          downloadsDir,
+          docxPath,
+        ],
+        {
+          stdio: "inherit",
+        }
+      );
+    } catch (error) {
+      console.error(
+        `EROARE LibreOffice: ${filename}`
+      );
+      errorCount++;
+      continue;
+    }
+
+    if (!fs.existsSync(htmlPath)) {
+      console.error(
+        `EROARE: HTML nu a fost creat: ${htmlPath}`
+      );
+      errorCount++;
+      continue;
+    }
+
+    console.log(
+      `Creat HTML: ${path.basename(htmlPath)}`
+    );
+
+    // ========================================================
+    // 11. ADAUGĂ META VIEWPORT + CSS + JS
+    //
+    // Adaugă fiecare element numai dacă lipsește.
+    // ========================================================
+
+    try {
+      let html = fs.readFileSync(
+        htmlPath,
+        "utf8"
+      );
+
+      const viewport =
+        '<meta name="viewport" content="width=device-width, initial-scale=1.0">';
+
+      const css =
+        '<link rel="stylesheet" href="/byzmusic/system/styles/layout-fixes.css">';
+
+      const script =
+        '<script src="/byzmusic/system/scripts/layout-fixes-and-links.js" defer></script>';
+
+      const includes = [];
+
+      if (!html.includes('name="viewport"')) {
+        includes.push(viewport);
+      }
+
+      if (
+        !html.includes(
+          "/byzmusic/system/styles/layout-fixes.css"
+        )
+      ) {
+        includes.push(css);
+      }
+
+      if (
+        !html.includes(
+          "/byzmusic/system/scripts/layout-fixes-and-links.js"
+        )
+      ) {
+        includes.push(script);
+      }
+
+      if (includes.length > 0) {
+        const siteIncludes =
+          "\n\t" + includes.join("\n\t");
+
+        html = html.replace(
+          /<head([^>]*)>/i,
+          `<head$1>${siteIncludes}`
+        );
+
+        fs.writeFileSync(
+          htmlPath,
+          html,
+          "utf8"
+        );
+
+        console.log(
+          "Adăugat: viewport + CSS + JS"
+        );
+      } else {
+        console.log(
+          "Viewport + CSS + JS există deja."
+        );
+      }
+
+    } catch (error) {
+      console.error(
+        `EROARE la modificarea HTML: ${filename}`
+      );
+      console.error(error.message);
+      errorCount++;
+      continue;
+    }
+
+    // ========================================================
+    // 12. STABILEȘTE DESTINAȚIA
+    //
+    // Destinația a fost calculată în PREVIEW.
+    // Nu recalculăm titlul după conversie.
+    // ========================================================
+
+    console.log(
+      `Destinație: ${destination}`
+    );
+
+    // ========================================================
+    // 13. CREEAZĂ DIRECTORUL DACĂ NU EXISTĂ
+    // ========================================================
+
+    try {
+      // Verifică din nou dacă au apărut conflicte
+      // între PREVIEW și momentul conversiei.
+      const day = path.basename(destination).slice(0, 2);
+      const parent = path.dirname(destination);
+
+      if (fs.existsSync(parent)) {
+        const matches = fs
+          .readdirSync(parent, { withFileTypes: true })
+          .filter(
+            (entry) =>
+              entry.isDirectory() &&
+              (
+                entry.name === day ||
+                entry.name.startsWith(`${day} `)
+              )
+          )
+          .map((entry) => entry.name);
+
+        if (
+          matches.length > 1 ||
+          (
+            matches.length === 1 &&
+            matches[0] !== path.basename(destination)
+          )
+        ) {
+          throw new Error(
+            "Conflict de directoare apărut după PREVIEW."
+          );
+        }
+      }
+
+      fs.mkdirSync(
+        destination,
+        {
+          recursive: true,
+        }
+      );
+
+    } catch (error) {
+      console.error(
+        "EROARE la crearea folderului:"
+      );
+      console.error(destination);
+      console.error(error.message);
+      errorCount++;
+      continue;
+    }
+
+    // ========================================================
+    // 14. SUPRASCRIE HTML-UL DACĂ EXISTĂ
+    // ========================================================
+
+    const destinationHtml = path.join(
+      destination,
+      path.basename(htmlPath)
+    );
+
+    try {
+      if (fs.existsSync(destinationHtml)) {
+        fs.unlinkSync(destinationHtml);
+
+        console.log(
+          `HTML existent șters pentru suprascriere: ${path.basename(destinationHtml)}`
+        );
+      }
+
+      fs.renameSync(
+        htmlPath,
+        destinationHtml
+      );
+
+      console.log(
+        `Mutat HTML: ${destinationHtml}`
+      );
+
+    } catch (error) {
+      console.error(
+        `EROARE la mutarea/suprascrierea HTML: ${filename}`
+      );
+      console.error(error.message);
+      console.error(
+        "RTF și DOCX rămân în Downloads."
+      );
+      errorCount++;
+      continue;
+    }
+
+    // ========================================================
+    // 15. CLEANUP DOWNLOADS
+    //
+    // NUMAI DUPĂ CE HTML-UL A AJUNS CU SUCCES ÎN DESTINAȚIE.
+    // ========================================================
+
+    try {
+      if (fs.existsSync(docxPath)) {
+        fs.unlinkSync(docxPath);
+
+        console.log(
+          `Șters DOCX: ${path.basename(docxPath)}`
+        );
+      }
+
+      if (fs.existsSync(rtfPath)) {
+        fs.unlinkSync(rtfPath);
+
+        console.log(
+          `Șters RTF: ${path.basename(rtfPath)}`
+        );
+      }
+
+      successCount++;
+
+    } catch (error) {
+      console.error(
+        `EROARE cleanup pentru: ${filename}`
+      );
+      console.error(error.message);
+      errorCount++;
+    }
+
+    console.log();
+  }
+
+  // ==========================================================
+  // 16. ÎNCHIDE WORD DUPĂ TOATE CONVERSIILE
+  // ==========================================================
+
+  try {
+    execFileSync(
+      "osascript",
+      [
+        "-e",
+        'tell application "Microsoft Word" to quit saving no',
+      ]
+    );
+  } catch {
+    // Nu este critic dacă Word este deja închis.
+  }
+
+  // ==========================================================
+  // 17. TERMINARE
+  // ==========================================================
+
+  console.log();
+  console.log("========================================");
+  console.log("CONVERSIE TERMINATĂ");
+  console.log("========================================");
+  console.log(`Conversii reușite: ${successCount}`);
+  console.log(`Erori: ${errorCount}`);
+  console.log();
+
+  if (errorCount > 0) {
+    process.exitCode = 1;
+  }
+}
+
+// ============================================================
+// EXECUTION
+// ============================================================
+
+await main();
