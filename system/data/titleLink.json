@@ -2361,17 +2361,6 @@
     "type": "multi",
     "versions": [
       {
-        "label": "Karam",
-        "url": "https://drive.google.com/file/d/1jy9I4qetB6ym2tWmP_Yo7DyqeW0hGGEc/view?usp=drivesdk",
-        "name": "10 AfterPsalm50Troparia-2nd.pdf",
-        "description": "FESTAL TROPARIA AFTER PSALM 50 IN TONE TWO | Karam",
-        "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Sunday Orthros",
-        "periodId": "octoechos",
-        "feast": "",
-        "feastId": "Sunday"
-      },
-      {
         "label": "Beheading of St John - W",
         "url": "https://drive.google.com/file/d/1CuNW0oe70Not15CjF1LCaiwYQlcqGmk3/view?usp=drivesdk",
         "name": "22 AfterPsalm50Torparia-2nd-Orthros-BeheadingStJohnBaptist-W.pdf",
@@ -6316,14 +6305,14 @@
     "versions": [
       {
         "label": "Karam",
-        "url": "https://drive.google.com/file/d/1CwYWAUYdnNjSHuVxynZGYcsQRw-EwMA_/view?usp=drivesdk",
-        "name": "23 AfterPsalm50-2nd-Karam-Orthros-StRaphaelOfBrooklyn.pdf",
-        "description": "[O] FESTAL TROPARIA AFTER PSALM 50 IN TONE TWO | Karam",
+        "url": "https://drive.google.com/file/d/1jy9I4qetB6ym2tWmP_Yo7DyqeW0hGGEc/view?usp=drivesdk",
+        "name": "10 AfterPsalm50Troparia-2nd.pdf",
+        "description": "[O] FESTAL TROPARIA AFTER PSALM 50 IN TONE TWO | Karam",
         "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 07 St Raphael Of Brooklyn",
-        "periodId": "menaion",
-        "feast": "St Raphael Of Brooklyn",
-        "feastId": "07-11"
+        "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Sunday Orthros",
+        "periodId": "octoechos",
+        "feast": "",
+        "feastId": "Sunday"
       },
       {
         "label": "Creemens",

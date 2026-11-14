@@ -294,7 +294,12 @@
           }
         }
 
-        const norm = normalizeTitle(key);
+        const norm = /^\[[a-z0-9]+\]\s+\[[a-z0-9]+\]\s+/i.test(key)
+          ? normalizeTitle(key.replace(
+            /^(\[[a-z0-9]+\]\s+\[[a-z0-9]+\]\s+)(?:the|a|an|festal)\s+/i,
+            "$1"
+          ))
+          : normalizeTitle(key);
 
         // UPDATE 2026-11-11 — [APL] TITLE, comun tuturor slujbelor.
         // Procesam inaintea regexului [SERVICE] TITLE.
