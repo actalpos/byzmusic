@@ -173,6 +173,18 @@ The html files
     ...
   }
 
+  Google drive pdf's description service sections:
+
+  [V][LIHC] Lord I have Cried
+  [V][AP] Aposticha
+  [V][LT] Lity
+
+  [O][PR] praises
+  [O][EX] EXAPOSTEILARION
+  [O][KA] KATHISMA
+
+  [APL] APOLYTIKION
+
   scripts:
   - layout-fixes-and-links.js realtime script to fix any html issues generated during rtf to html conversion and to feed the related links from the titleLink json file, and to make the html responsive
   the reference to this scripts gets added manually during the rtf to html conversion process

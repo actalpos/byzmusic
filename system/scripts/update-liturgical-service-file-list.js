@@ -1,91 +1,34 @@
-import fs from "fs";
-import path from "path";
-
-// unde sunt fișierele pe disc
-const FS_ROOT = path.resolve("../Service_Texts");
-
-// cum vor fi accesate din browser
-const WEB_ROOT = "Service_Texts";
-
-const OUT = "./data/liturgical-service-file-list.json";
-
-const SERVICE_ORDER = [
-  "Divine_Liturgy",
-  "Vespers",
-  "Orthros"
-];
-
-let entries = [];
-
-/* ---------------- FIXED DATE ---------------- */
-function scanFixed() {
-  const fixRoot = path.join(FS_ROOT, "fixDate");
-  if (!fs.existsSync(fixRoot)) return;
-
-  const year = new Date().getFullYear();
-
-  for (const month of fs.readdirSync(fixRoot)) {
-    const monthPath = path.join(fixRoot, month);
-    if (!fs.statSync(monthPath).isDirectory()) continue;
-
-    for (const day of fs.readdirSync(monthPath)) {
-      const dayPath = path.join(monthPath, day);
-      if (!fs.statSync(dayPath).isDirectory()) continue;
-
-      addFiles(dayPath, `${year}-${month}-${day}`);
-    }
-  }
-}
-
-/* ---------------- MOVABLE DATE ---------------- */
-function scanMovable() {
-  const variableRoot = path.join(FS_ROOT, "variableDate");
-  if (!fs.existsSync(variableRoot)) return;
-
-  for (const year of fs.readdirSync(variableRoot)) {
-    const yearPath = path.join(variableRoot, year);
-    if (!fs.statSync(yearPath).isDirectory()) continue;
-
-    for (const month of fs.readdirSync(yearPath)) {
-      const monthPath = path.join(yearPath, month);
-      if (!fs.statSync(monthPath).isDirectory()) continue;
-
-      for (const day of fs.readdirSync(monthPath)) {
-        const dayPath = path.join(monthPath, day);
-        if (!fs.statSync(dayPath).isDirectory()) continue;
-
-        addFiles(dayPath, `${year}-${month}-${day}`);
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const here=path.dirname(fileURLToPath(import.meta.url));
+const root=path.resolve(here,'../../Service_Texts');
+const out=path.resolve(here,'../data/liturgical-service-file-list.json');
+const entries=[];
+const order=['Divine_Liturgy','Vespers','Orthros'];
+const folders=(dir)=>fs.existsSync(dir)?fs.readdirSync(dir,{withFileTypes:true}).filter(x=>x.isDirectory()).map(x=>x.name):[];
+for (const year of folders(root)) {
+  if (!/^\d{4}$/.test(year)) continue;
+  for (const monthFolder of folders(path.join(root,year))) {
+    const m=monthFolder.match(/^(0[1-9]|1[0-2]) [A-Za-z]+$/);
+    if (!m) throw new Error(`Lună invalidă: ${monthFolder}`);
+    for (const dayFolder of folders(path.join(root,year,monthFolder))) {
+      const d=dayFolder.match(/^(0[1-9]|[12]\d|3[01])(?: .+)?$/);
+      if (!d) throw new Error(`Zi invalidă: ${dayFolder}`);
+      const date=`${year}-${m[1]}-${d[1]}`;
+      const parsed=new Date(`${date}T00:00:00Z`);
+      if (Number.isNaN(parsed.getTime()) || parsed.toISOString().slice(0,10)!==date) throw new Error(`Dată invalidă: ${date}`);
+      const dir=path.join(root,year,monthFolder,dayFolder);
+      for (const file of fs.readdirSync(dir).filter(x=>/\.html$/i.test(x))) {
+        const relative=path.relative(root,path.join(dir,file)).split(path.sep).join('/');
+        entries.push({date,title:file.replace(/\.html$/i,'').replaceAll('_',' '),order:order.findIndex(s=>file.startsWith(s)),file:`Service_Texts/${relative}`});
       }
     }
   }
 }
-
-/* ---------------- COMMON ---------------- */
-function addFiles(dir, date) {
-  for (const file of fs.readdirSync(dir)) {
-    if (!file.endsWith(".html")) continue;
-
-    // cale relativă față de Service_Texts pe disc
-    const relativePath = path.relative(FS_ROOT, path.join(dir, file))
-                              .replace(/\\/g, "/");
-
-    entries.push({
-      date,
-      title: file.replace(".html", "").replaceAll("_", " "),
-      order: SERVICE_ORDER.findIndex(s => file.startsWith(s)),
-      // cale corectă pentru web
-      file: `${WEB_ROOT}/${relativePath}`
-    });
-  }
-}
-
-/* ---------------- RUN ---------------- */
-scanFixed();
-scanMovable();
-
-entries.sort(
-  (a, b) => a.date.localeCompare(b.date) || a.order - b.order
-);
-
-fs.writeFileSync(OUT, JSON.stringify(entries, null, 2));
-console.log(`json file generated (${entries.length} entries)`);
+entries.sort((a,b)=>a.date.localeCompare(b.date)||a.order-b.order||a.file.localeCompare(b.file));
+fs.mkdirSync(path.dirname(out),{recursive:true});
+const temp=out+'.tmp';
+fs.writeFileSync(temp,JSON.stringify(entries,null,2));
+fs.renameSync(temp,out);
+console.log(`JSON generat: ${entries.length} intrări`);

@@ -78,86 +78,32 @@
     }
   ];
 
-  function detectServiceDate(pathname) {
-    const path = pathname || window.location.pathname;
-
-    // variableDate:
-    // /variableDate/2026/08/29/
-    // /variableDate/2026/08/29 Beheading of St John the Baptist/
-    let match = path.match(
-      /\/variableDate\/\d{4}\/(\d{2})\/(\d{2})/i
-    );
-
-    if (match) {
-      return `${match[2]}-${match[1]}`;
-    }
-
-    // fixDate:
-    // /fixDate/08/29/
-    // /fixDate/08/29 Beheading of St John the Baptist/
-    match = path.match(
-      /\/fixDate\/(\d{2})\/(\d{2})/i
-    );
-
-    if (match) {
-      return `${match[2]}-${match[1]}`;
-    }
-
-    return "";
-  }
-
-  /*
- * ============================================================
- * SUNDAY DETECTION
- * ============================================================
- *
- * Determină dacă Service Text-ul din variableDate este pentru
- * o duminică.
- *
- * Folosește data completă din pathname:
- *
- *   /variableDate/YYYY/MM/DD
- *
- * Exemplu:
- *
- *   /variableDate/2026/09/20/
- *
- *   2026-09-20 = Sunday
- *
- * Returnează:
- *
- *   true  -> Sunday
- *   false -> altă zi sau data nu poate fi determinată
- *
- * Descrierea de după zi este permisă:
- *
- *   /2026/09/20 Sunday after Holy Cross/
- *
- * Pentru fixDate nu calculăm deocamdată ziua săptămânii,
- * deoarece anul nu există în path.
- * ============================================================
- */
-  function isSunday(pathname) {
-
-    const path =
-      pathname || window.location.pathname;
-
-    const match = path.match(
-      /\/variableDate\/(\d{4})\/(\d{2})\/(\d{2})/i
-    );
-
-    if (!match) {
-      return false;
-    }
+  // Data este citita din directoarele Service_Texts, nu din numele HTML.
+  // Suportam si vechile cai pentru paginile arhivate.
+  function parseServiceDate(pathname) {
+    const path = decodeURIComponent(String(pathname || (typeof window !== "undefined" ? window.location.pathname : "")));
+    let match = path.match(/\/Service_Texts\/(\d{4})\/(\d{2})(?:%20|[ +][^/]*)?\/(\d{2})(?=\D|$)/i);
+    if (!match) match = path.match(/\/variableDate\/(\d{4})\/(\d{2})\/(\d{2})(?=\D|$)/i);
+    if (!match) return null;
 
     const year = Number(match[1]);
     const month = Number(match[2]);
     const day = Number(match[3]);
+    const date = new Date(Date.UTC(year, month - 1, day));
+    if (date.getUTCFullYear() !== year || date.getUTCMonth() !== month - 1 || date.getUTCDate() !== day) return null;
+    return { year, month, day, weekday: date.getUTCDay() };
+  }
 
-    const date =
-      new Date(year, month - 1, day);
+  function detectServiceDate(pathname) {
+    const date = parseServiceDate(pathname);
+    if (date) return `${String(date.day).padStart(2, "0")}-${String(date.month).padStart(2, "0")}`;
+    const path = String(pathname || (typeof window !== "undefined" ? window.location.pathname : ""));
+    const old = path.match(/\/fixDate\/(\d{2})\/(\d{2})(?=\D|$)/i);
+    return old ? `${old[2]}-${old[1]}` : "";
+  }
 
-    return date.getDay() === 0;
+  function isSunday(pathname) {
+    return detectWeekday(pathname) === 0;
   }
 
   function dateValue(date) {
@@ -215,6 +161,27 @@
     return "";
   }
 
+  /* 0 = Sunday, 1 = Monday, ... 6 = Saturday; null = unknown. */
+  function detectWeekday(pathname) {
+    const date = parseServiceDate(pathname);
+    return date ? date.weekday : null;
+  }
+
+  function detectLiturgicalContexts(pathname) {
+    const weekday = detectWeekday(pathname);
+    const serviceDate = detectServiceDate(pathname);
+    return {
+      serviceDate,
+      weekday,
+      isSundayKnown: weekday !== null,
+      isSunday: weekday === 0,
+      // Nu ghicim glasul sau ciclul Eothina din data singura.
+      tone: null,
+      eothinaId: null,
+      feastIds: [serviceDate, weekday === 0 ? "resurrectional" : ""].filter(Boolean)
+    };
+  }
+
   /*
    * Public shared API.
    */
@@ -223,7 +190,9 @@
     detectServiceDate,
     detectAfterFeastId,
     detectFeastId,
-    isSunday
+    isSunday,
+    detectWeekday,
+    detectLiturgicalContexts
   };
 
 })();

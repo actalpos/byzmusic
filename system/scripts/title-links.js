@@ -3,6 +3,43 @@
  *
  * Adaugă linkurile din titleLink.json în titlurile imnurilor.
  * Nu modifică layout-ul documentului.
+ * UPDATE 2026-11-11: potrivire strictă pe moment; fără fallback
+ * între [PR], [AP], [LIHC], [LT] etc.
+ *
+ * ============================================================
+ * UPDATE 2026-11-11 — DOCUMENTATIE PREFIXE
+ * ============================================================
+ * CODURI SLUJBE (primul prefix din titleLink.json):
+ *   [V]  = Vespers / Vecernie
+ *   [O]  = Orthros / Utrenie
+ *   [L]  = Divine Liturgy (detectarea L este comentata momentan)
+ *   [LV] = Divine Liturgy Variables
+ *   [LT] = Litia / LITART cand este folosit ca tip de slujba
+ *
+ * CODURI MOMENTE (al doilea prefix):
+ *   [LIHC] = Lord I Have Cried
+ *   [AP]   = Aposticha
+ *   [LT]   = Litia / Artoklasia (moment, nu tip de slujba)
+ *   [PR]   = Praises, inclusiv Praises Stichera
+ *   [EX]   = Exaposteilarion
+ *   [KA]   = Kathisma / Sessional Hymns
+ *   [PS50] = Hymns after Psalm 50
+ *   [APL]  = Apolytikion / Dismissal Hymns
+ *
+ * [APL] este prefix GLOBAL DE MOMENT, nu prefix de slujba.
+ * [PS] NU este utilizat: Praises Stichera foloseste [PR].
+ * UPDATE 2026-11-13: momentul se urmareste in ordinea sectiunilor HTML;
+ * SERVICE_ORDER este pentru ordonare, nu pentru ghicirea momentului.
+ *
+ * EXEMPLE DE STRUCTURA (nu garanteaza existenta in JSON):
+ *   [V][LIHC] DOXASTIKON TONE EIGHT
+ *   [O][PR] THEOTOKION TONE EIGHT
+ *   [APL] RESURRECTIONAL THEOTOKION TONE EIGHT (global, fara [O]/[V])
+ *
+ * REGULA: potrivire stricta pentru moment; fara alegerea
+ * unui PDF dintr-un alt moment atunci cand nu exista potrivire.
+ * Titlurile globale fara prefix pot fi folosite separat.
+ * ============================================================
  */
 
 /*
@@ -57,6 +94,16 @@
   }
 
   ready(async () => {
+  const hymnBase = window.location.pathname.includes('/byzmusic/') ? '/byzmusic' : '';
+  let hymnSelection;
+  try {
+    hymnSelection = await import(`${hymnBase}/system/scripts/hymn-selection.js`);
+  } catch (error) {
+    console.error('hymn-selection.js unavailable: links disabled to avoid incorrect matches', error);
+    return;
+  }
+  const hymnContext = hymnSelection.contextFromPath(window.location.pathname);
+
 
     console.log("title-links.js loaded");
 
@@ -96,11 +143,8 @@
      * există în mai multe momente ale aceluiași serviciu.
      */
     const SERVICE_ORDER = {
-      V: {
-        LIHC: 1,
-        LT: 2,
-        AP: 3
-      }
+      V: { LIHC: 1, LT: 2, AP: 3, APL: 4 },
+      O: { APL: 1, KA: 2, PS50: 3, EX: 4, PR: 5 }
     };
 
     /**********************
@@ -143,7 +187,7 @@
 
 
       const prefixMatch =
-        str.match(/^((\[[a-z]+\]\s*)+)(.*)$/i);
+        str.match(/^((\[[a-z0-9]+\]\s*)+)(.*)$/i);
 
       if (prefixMatch) {
         const prefixes = prefixMatch[1];
@@ -334,6 +378,9 @@
      **********************/
     const serviceIndex = {};
     const globalIndex = {};
+    // UPDATE 2026-11-11: [APL] global pentru toate slujbele.
+    const globalMomentIndex = {};
+    const globalMomentAutomelonIndex = {};
 
     const serviceAutomelonIndex = {};
     const globalAutomelonIndex = {};
@@ -381,6 +428,23 @@
           normalizeTitle(keyParts.automelon);
 
         /*
+         * UPDATE 2026-11-11 — [APL] GLOBAL DE MOMENT
+         * Cheia [APL] TITLE este comuna Vespers/Orthros/Liturgy.
+         * O indexam INAINTE de [SERVICE] TITLE, altfel [APL]
+         * ar fi interpretat gresit ca un cod de slujba.
+         */
+        const globalMomentMatch = normalizedTitle.match(/^\[APL\]\s+(.*)$/i);
+        if (globalMomentMatch) {
+          const title = globalMomentMatch[1];
+          if (automelon) {
+            globalMomentAutomelonIndex[title + " || " + automelon] = item;
+          } else {
+            globalMomentIndex[title] = item;
+          }
+          continue;
+        }
+
+        /*
          * [SERVICE][MOMENT] TITLE
          *
          * Exemple:
@@ -389,7 +453,7 @@
          */
         let match =
           normalizedTitle.match(
-            /^\[([a-z]+)\]\s+\[([a-z]+)\]\s+(.*)$/i
+            /^\[([a-z0-9]+)\]\s+\[([a-z0-9]+)\]\s+(.*)$/i
           );
 
         if (match) {
@@ -609,61 +673,60 @@
     }
 
     /**********************
-     * DETECT SERVICE MOMENT
+     * DETECT SERVICE MOMENT — stateful, no moment fallback
      **********************/
-    function detectMomentForParagraph(paragraph) {
-      const paragraphs =
-        Array.from(
-          document.querySelectorAll("p")
-        );
+    // A section heading changes the current moment for the heading itself
+    // and all following paragraphs until another recognized heading.
+    // A generic hymn title (e.g. THEOTOKION) must not reset the moment.
+    function momentFromHeading(rawText) {
+      const text = normalizeTitle(rawText);
+      if (!text || text.length > 120) return "";
 
-      const currentIndex =
-        paragraphs.indexOf(paragraph);
-
-      if (currentIndex === -1) {
-        return "";
-      }
-
-      /*
-       * Caută înapoi maximum 100 de paragrafe.
-       */
-      const startIndex =
-        Math.max(0, currentIndex - 100);
-
-      for (
-        let index = currentIndex - 1;
-        index >= startIndex;
-        index--
-      ) {
-        const text =
-          normalizeTitle(
-            paragraphs[index].textContent || ""
-          );
-
-        if (text.includes("aposticha")) {
-          return "AP";
-        }
-
-        if (
-          text.includes("litia") ||
-          text.includes("artoklasia")
-        ) {
-          return "LT";
-        }
-
-        if (
-          text.includes("o lord i have cried") ||
-          text.includes("lord i have cried")
-        ) {
-          return "LIHC";
-        }
-      }
-
+      if (/^(?:at the )?praises(?: stichera)?\b/.test(text) ||
+          /^stichera (?:at|of) the praises\b/.test(text) ||
+          /^ainoi\b/.test(text)) return "PR";
+      if (/^exaposteilar(?:ion|ia)\b/.test(text)) return "EX";
+      if (/^(?:troparia |hymns? )?after (?:the )?psalm 50\b/.test(text) ||
+          /^(?:troparia|hymns?) after psalm (?:50|fifty)\b/.test(text)) return "PS50";
+      if (/^kathism(?:a|ata)\b/.test(text) ||
+          /^sessional hymns?\b/.test(text)) return "KA";
+      if (/^apolytiki(?:on|a)\b/.test(text) ||
+          /^dismissal hymns?\b/.test(text)) return "APL";
+      if (/\baposticha\b/.test(text)) return "AP";
+      if (/\blitia\b/.test(text) || /\bartoklasia\b/.test(text)) return "LT";
+      if (/\blord i have cried\b/.test(text)) return "LIHC";
       return "";
     }
+
+    // Scan once in document order. Unlike backward searches limited to 100
+    // paragraphs, the moment persists until the next recognized section.
+    const paragraphMoments = new Map();
+    let currentMoment = "";
+    document.querySelectorAll("p").forEach(paragraph => {
+      const headingMoment = momentFromHeading(paragraph.textContent || "");
+      if (headingMoment) currentMoment = headingMoment;
+      paragraphMoments.set(paragraph, currentMoment);
+    });
+
+    function detectMomentForParagraph(paragraph) {
+      return paragraphMoments.get(paragraph) || "";
+    }
+
     /**********************
      * SELECT MATCH
      **********************/
+    /*
+     * UPDATE 2026-11-11 — STRICT MOMENT MATCHING (NO FALLBACK)
+     * --------------------------------------------------------
+     * Pentru cheile [SERVICE][MOMENT] TITLE, acceptăm NUMAI
+     * momentul identificat explicit în HTML.
+     *
+     * Dacă momentul nu poate fi detectat sau nu corespunde,
+     * întoarcem null. NU alegem un PDF după ordinea apariției.
+     * Cheile [SERVICE] TITLE și cele globale (fără prefix)
+     * continuă să fie căutate separat, ca înainte.
+     * Aceeași regulă se aplică și titlurilor cu automelon.
+     */
     function selectServiceMatch(
       match,
       serviceKey,
@@ -675,41 +738,15 @@
           : null;
       }
 
-      const momentMatch =
-        htmlMoment
-          ? match.find(entry => {
-            return (
-              entry &&
-              entry.moment === htmlMoment &&
-              entry.item
-            );
-          })
-          : null;
-
-      if (momentMatch) {
-        return momentMatch.item;
+      if (!htmlMoment) {
+        return null;
       }
 
-      const usageKey =
-        "SERVICE::" + serviceKey;
+      const momentMatch = match.find(entry =>
+        entry && entry.moment === htmlMoment && entry.item
+      );
 
-      const index =
-        titleUsage[usageKey] || 0;
-
-      const selected =
-        match[
-        Math.min(
-          index,
-          match.length - 1
-        )
-        ];
-
-      titleUsage[usageKey] =
-        index + 1;
-
-      return selected && selected.item
-        ? selected.item
-        : null;
+      return momentMatch ? momentMatch.item : null;
     }
 
     function selectAutomelonMatch(
@@ -723,41 +760,15 @@
           : null;
       }
 
-      const momentMatch =
-        htmlMoment
-          ? match.find(entry => {
-            return (
-              entry &&
-              entry.moment === htmlMoment &&
-              entry.item
-            );
-          })
-          : null;
-
-      if (momentMatch) {
-        return momentMatch.item;
+      if (!htmlMoment) {
+        return null;
       }
 
-      const usageKey =
-        "AUTOMELON::" + automelonKey;
+      const momentMatch = match.find(entry =>
+        entry && entry.moment === htmlMoment && entry.item
+      );
 
-      const index =
-        titleUsage[usageKey] || 0;
-
-      const selected =
-        match[
-        Math.min(
-          index,
-          match.length - 1
-        )
-        ];
-
-      titleUsage[usageKey] =
-        index + 1;
-
-      return selected && selected.item
-        ? selected.item
-        : null;
+      return momentMatch ? momentMatch.item : null;
     }
 
     /**********************
@@ -767,6 +778,8 @@
       if (!item || !item.url) {
         return false;
       }
+
+      if (!hymnSelection.isEligibleSingle(item, hymnContext)) return false;
 
       const link =
         document.createElement("a");
@@ -807,6 +820,44 @@
       let versions = item.versions;
 
       /*
+       * CONTEXTE EXPLICITE — fara fallback.
+       * Se aplica numai versiunilor marcate resurrectional/octoihos.
+       * PDF-urile istorice nemarcate isi pastreaza comportamentul
+       * existent pana la auditarea metadatelor.
+       */
+      const context = FEAST_CALENDAR && FEAST_CALENDAR.detectLiturgicalContexts
+        ? FEAST_CALENDAR.detectLiturgicalContexts()
+        : null;
+      const taggedVersionAllowed = version => {
+        const id = String(version.feastId || "").toLowerCase();
+        if (id !== "resurrectional" && id !== "octoihos") return true;
+        if (!context || context.weekday === null) return false;
+        if (id === "resurrectional" && context.weekday !== 0) return false;
+        if (id === "octoihos") {
+          // Fara weekday explicit nu putem decide care zi din Octoihos.
+          if (!Number.isInteger(version.weekday) || version.weekday !== context.weekday) return false;
+        }
+        // Nu confundam glasurile si ciclul Eothina: daca sunt
+        // cerute in PDF, trebuie cunoscute si in pagina.
+        if (version.tone !== undefined && version.tone !== null && version.tone !== "") {
+          if (context.tone === null || Number(version.tone) !== context.tone) return false;
+        }
+        if (version.eothinaId) {
+          if (!context.eothinaId || version.eothinaId !== context.eothinaId) return false;
+        }
+        // Un PDF Eothinon neetichetat precis nu poate fi validat.
+        if (/eothion|eothinon/i.test(String(version.name || "")) && !version.eothinaId) return false;
+        return true;
+      };
+
+      versions = versions.filter(taggedVersionAllowed);
+      versions = hymnSelection.selectHymnVersions(versions, hymnContext, {
+        afterFeastId: AFTER_FEAST_ID,
+        afterFeast: /\bafter[ -]feast\b/i.test(baseKey)
+      });
+      if (versions.length === 0) return true;
+
+      /*
        * ============================================================
        * SUNDAY RESURRECTIONAL / MENAION FILTER
        * ============================================================
@@ -824,75 +875,6 @@
        * Excepțiile liturgice de duminică vor fi tratate ulterior.
        * ============================================================
        */
-
-      if (IS_SUNDAY) {
-
-        const resurrectionalVersions =
-          versions.filter(version => {
-
-            const path =
-              String(version.path || "")
-                .toLowerCase();
-
-            return (
-              !version.periodId &&
-              !version.feastId &&
-              path.endsWith(" / orthros")
-            );
-          });
-
-        if (resurrectionalVersions.length > 0) {
-
-          console.log(
-            "Sunday Resurrectional version selected:",
-            resurrectionalVersions.map(
-              version => version.label
-            )
-          );
-
-          versions = resurrectionalVersions;
-        }
-
-      } else if (
-        SERVICE_DATE &&
-        !/\bafter-feast\b/i.test(baseKey) &&
-        !/\bafter feast\b/i.test(baseKey)
-      ) {
-
-        /*
-         * MENAION DATE FILTER
-         *
-         * O versiune Menaion este permisă numai dacă
-         * feastId corespunde datei serviciului.
-         *
-         * Exemplu:
-         * SERVICE_DATE = "24-09"
-         * feastId = "16-07"
-         * -> versiunea Menaion este eliminată.
-         *
-         * Versiunile non-Menaion nu sunt afectate.
-         */
-
-        versions = versions.filter(version => {
-
-          if (version.periodId !== "menaion") {
-            return true;
-          }
-
-          return version.feastId === SERVICE_DATE;
-        });
-
-        if (versions.length === 0) {
-
-          console.log(
-            "No matching Menaion version for:",
-            SERVICE_DATE,
-            baseKey
-          );
-
-          return true;
-        }
-      }
 
       /*
        * AFTER-FEAST:
@@ -1048,42 +1030,24 @@
        * iar serviciul este duminică, folosim versiunea
        * globală Resurrectional / regular din Orthros.
        */
-      if (
-        IS_SUNDAY &&
-        baseKey.includes("troparia after psalm 50") &&
-        item &&
-        item.type === "multi" &&
-        Array.isArray(item.versions)
-      ) {
-
-        const hasResurrectional =
-          item.versions.some(version => {
-
-            const path =
-              String(version.path || "")
-                .toLowerCase();
-
-            return (
-              !version.periodId &&
-              !version.feastId &&
-              path.endsWith(" / orthros")
-            );
-          });
-
-        if (!hasResurrectional) {
-
-          const globalItem =
-            globalIndex[baseKey];
-
-          if (globalItem) {
-
-            console.log(
-              "Sunday After Psalm 50: using global Resurrectional version"
-            );
-
-            item = globalItem;
-          }
+      /*
+       * UPDATE 2026-11-11 — [APL] GLOBAL, STRICT PE MOMENT
+       * Nu incercam cheia [APL] in alta sectiune.
+       * Generatorul normalizeaza RESURRECTIONAL THEOTOKION la
+       * APOLYTIKION RESURRECTIONAL THEOTOKION; folosim aceeasi
+       * forma doar pentru cautarea acestui moment.
+       */
+      if (!item && htmlMoment === "APL") {
+        const aplTitle = baseKey.replace(
+          /^resurrectional theotokion\b/,
+          "apolytikion resurrectional theotokion"
+        );
+        if (htmlAutomelon) {
+          item = globalMomentAutomelonIndex[
+            aplTitle + " || " + htmlAutomelon
+          ] || null;
         }
+        if (!item) item = globalMomentIndex[aplTitle] || null;
       }
 
       /*

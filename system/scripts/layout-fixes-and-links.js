@@ -1,85 +1,24 @@
 /**
-
-layout-fixes-and-links.js
-
-Generated on: 2026-03-10 21:42
-
-// [V] - Vespers:
-// [LIHC] = Lord I Have Cried
-// [AP] = Aposticha
-// [O] = Orthros:
-// [PR] = Praises
-// [EX] = Exaposteilarion
-// [KA] = Kathisma
-// [PS] = Praises Stichera
-// [ED] = Eothinon Doxastikon
-// [LT] = Litia
-// [V][LIHC] DOXASTIKON FOR PENTECOST IN TONE EIGHT
-// [V][AP] DOXASTIKON FOR PENTECOST IN TONE EIGHT
-// [O][PR] DOXASTIKON FOR...
-
-
-
-Layout cleanup + RTL/LTR detection + title links
-
-Typography controlled entirely by CSS
-
-June 3 2026 - add festal to the kewords to be ignored (for FESTAL TROPARIA AFTER PSALM 50)
-June 4 2026 - fix for linking [V] header and [O] header
-June 30 2026 remove Sticheras from the title
-June 30 2026 - fix for in one place FIFTH EOTHINON EXAPOSTEILARION IN TONE TWO in other FIFTH EOTHINON EXAPOSTEILARION TONE TWO
-July 7 2026 - fix for overlapping [V] [LIHC] For St. Paisios in Tone One | Karam with [O] For St. Paisios in Tone One | Karamnot shouwn in Orthros as well. Only when the service moment is provided.
-            - struct change: do not include LITART in VESP only for customizations. So Always keep [LT] as separate entity
-
-
-| JSON                                                  | HTML             | Rezultat                     |
-| ----------------------------------------------------- | ---------------- | ---------------------------- |
-| `TITLE`                                               | `TITLE`          | ✅                            |
-| `[V] TITLE`                                           | Vespers          | ✅                            |
-| `[O] TITLE`                                           | Orthros          | ✅                            |
-| `[V][LIHC] TITLE` + `[V][AP] TITLE`                   | două apariții    | ✅ LIHC apoi AP               |
-| `[V][LIHC] TITLE` + `[O] TITLE`                       | fiecare serviciu | ✅ fără coliziuni             |
-| `[V] TITLE` + `[O] TITLE`                             | fiecare serviciu | ✅ fără coliziuni             |
-| `[V][LIHC] TITLE` + `[V][LT] TITLE` + `[V][AP] TITLE` | trei apariții    | ✅ în ordinea `SERVICE_ORDER` |
-
-July 17 2026 - fix for having the same title for the same service, same part. The differentiation would be in the automelon of the title
-
-✅ TITLE
-✅ [V] TITLE
-✅ [O] TITLE
-✅ [V][LIHC], [V][LT], [V][AP] în ordinea SERVICE_ORDER
-✅ coliziuni între Vespers și Orthros
-✅ suport pentru TITLE || AUTOMELON
-✅ suport pentru [SERVICE] TITLE || AUTOMELON
-✅ suport pentru [SERVICE][MOMENT] TITLE || AUTOMELON
-✅ protecție împotriva amestecului dintre [SERVICE] și [SERVICE][MOMENT]
-✅ obiectele multi afișează acum doar versiunile care corespund automelonului (cum era cazul For the Holy Fathers...)
-
-July 20 - am scos TD din document.querySelectorAll("td p").forEach(p => {  in incercarea de a putea aplica kinks la file care nu are table - English.hml
-
-July 27 - Fix bug: Am [V] [LIHC] THEOTOKION IN TONE SIX in decrierea unui fiser pe google drive. In documentul curect la Aposticha am titlul THEOTOKION IN TONE SIX 
-si fisierul care as vrea sa fie displayed are descrierea [V] [AP] THEOTOKION IN TONE SIX. Linkul se duce la [V] [LIHC] THEOTOKION IN TONE SIX
-
-Aug 16 - Fixed bug pentru acelasi fisier apar 2 titluri diferite: THE KATAVASIAE OF THE DORMITION CANONS IN TONE ONE si THE KATAVASIAE OF THE DORMITION CANON IN TONE ONE
-
-Aug 26 - Take out O like from O Lord I Have Cried
-
-Aug 28 - Updates pentru cand apare THEOTOKION IN TONE... sau THEOTOKION FROM OCTOECHOS IN TONE...  
-
-Sept 12 - 
-- normalize Arabic titles by removing diacritics / harakat for matching
-- normalize NBSP, tabs and line breaks so Arabic titles split by LibreOffice
-  across multiple <font> elements are reconstructed as one matching title
-- ignore Word bookmark anchors such as <a name="_Hlk..."> when detecting
-  existing links; only <a href="..."> is treated as a real hyperlink
-- preserve the original Arabic text and formatting; normalization is used
-  only for title matching
-  Asta descrie exact ce am făcut: normalizarea arabă este separată în normalizeArabicTitle(), iar fixul pentru bookmark-urile Word este a[href].
-
-O mică precizare: nu concatenăm efectiv <font>-urile înapoi în HTML. 
-p.textContent citește textul lor împreună, iar noi normalizăm newline/tab/spațiile rezultate. 
-E bine ca istoricul să spună asta, ca peste câteva luni să știm exact ce face scriptul.
-*/
+ * layout-fixes-and-links.js — v1.2 (2026-11-13)
+ * Layout bilingv + hyperlinkuri din titleLink.json.
+ *
+ * Prefixe slujba: [V] Vespers, [O] Orthros, [LV] Liturgy Variables.
+ * Momente V: [LIHC] Lord I Have Cried, [LT] Litia, [AP] Aposticha,
+ *             [APL] Apolytikion.
+ * Momente O: [APL] Apolytikion, [KA] Kathisma,
+ *             [PS50] After Psalm 50 Hymns, [EX] Exaposteilarion,
+ *             [PR] Praises / AINOI.
+ * [APL] este global; [PS] nu este folosit.
+ *
+ * CHANGELOG v1.2:
+ * - Urmareste momentul curent dupa antetele din document, inclusiv
+ *   antetul care initiaza momentul. Fara exceptie speciala AINOI.
+ * - [SERVICE][MOMENT] TITLE necesita moment identic; nu se mai
+ *   alege PDF dupa ordinea aparitiilor (titleUsage).
+ * - Recunoaste prefixe alfanumerice, inclusiv [PS50].
+ * - Pastreaza filtrarea existenta Menaion/Octoechos prin hymn-selection.js.
+ * - Nu modifica operatiile de formatare ale tabelului bilingv.
+ */
 
 (function () {
   "use strict";
@@ -93,6 +32,16 @@ E bine ca istoricul să spună asta, ca peste câteva luni să știm exact ce fa
   }
 
   ready(async () => {
+    const hymnBase = window.location.pathname.includes('/byzmusic/') ? '/byzmusic' : '';
+    let hymnSelection;
+    try {
+      hymnSelection = await import(`${hymnBase}/system/scripts/hymn-selection.js`);
+    } catch (error) {
+      console.error('hymn-selection.js unavailable: links disabled to avoid incorrect matches', error);
+      return;
+    }
+    const hymnContext = hymnSelection.contextFromPath(window.location.pathname);
+
 
     console.log("layout-fixes-and-links loaded");
 
@@ -117,139 +66,21 @@ E bine ca istoricul să spună asta, ca peste câteva luni să știm exact ce fa
       return null;
     }
 
-    /**********************
-     * SHARED FEAST CALENDAR API
-     * Optional - old pages work without feast-calendar.js
-     **********************/
-
     const SERVICE = detectServiceType();
-    console.log("Detected SERVICE:", SERVICE);
 
-    /**********************
-     * SHARED FEAST CALENDAR
-     *
-     * feast-calendar.js este opțional în HTML.
-     * Dacă pagina veche nu îl încarcă,
-     * îl încărcăm automat aici.
-     **********************/
-
-    async function loadFeastCalendar() {
-
-      if (window.FeastCalendar) {
-        return window.FeastCalendar;
-      }
-
-      const base =
-        window.location.pathname.includes("/byzmusic/")
-          ? "/byzmusic"
-          : "";
-
-      return new Promise((resolve) => {
-
-        const script =
-          document.createElement("script");
-
-        script.src =
-          `${base}/system/scripts/feast-calendar.js`;
-
-        script.onload = () => {
-
-          console.log(
-            "feast-calendar.js loaded automatically"
-          );
-
-          resolve(
-            window.FeastCalendar || null
-          );
-        };
-
-        script.onerror = () => {
-
-          console.warn(
-            "feast-calendar.js could not be loaded"
-          );
-
-          resolve(null);
-        };
-
-        document.head.appendChild(script);
-      });
-    }
-
-    const FEAST_CALENDAR =
-      await loadFeastCalendar();
-
-    /**********************
-     * FEAST CONTEXT
-     **********************/
-
-    const SERVICE_DATE =
-      FEAST_CALENDAR
-        ? FEAST_CALENDAR.detectServiceDate()
-        : null;
-
-    const IS_SUNDAY =
-      FEAST_CALENDAR
-        ? FEAST_CALENDAR.isSunday()
-        : false;
-
-    console.log(
-      "Detected IS_SUNDAY:",
-      IS_SUNDAY
-    );
-
-    const AFTER_FEAST_ID =
-      FEAST_CALENDAR
-        ? FEAST_CALENDAR.detectAfterFeastId(SERVICE_DATE)
-        : null;
-
-    console.log(
-      "Detected SERVICE_DATE:",
-      SERVICE_DATE || "none"
-    );
-
-    console.log(
-      "Detected AFTER_FEAST_ID:",
-      AFTER_FEAST_ID || "none"
-    );
-
-    // defines document order when multiple identical
-    // titles exist inside the same service
     const SERVICE_ORDER = {
-      V: {
-        LIHC: 1,
-        LT: 2,
-        AP: 3,
-      }
+      V: { LIHC: 1, LT: 2, AP: 3, APL: 4 },
+      O: { APL: 1, KA: 2, PS50: 3, EX: 4, PR: 5 },
     };
 
     /**********************
      * UTILS
      **********************/
-
-    function pdfFitWidthUrl(url) {
-      if (!url) return url;
-
-      const driveMatch = url.match(
-        /drive\.google\.com\/file\/d\/([^/?#]+)/
-      );
-
-      if (driveMatch) {
-        return `https://drive.google.com/file/d/${driveMatch[1]}/preview#view=FitH`;
-      }
-
-      if (/\.pdf(?:[?#]|$)/i.test(url)) {
-        return url.split("#")[0] + "#view=FitH";
-      }
-
-      return url;
-    }
-
     function normalizeTitle(str) {
       str = str
         .replace(/[\n\r\t]+/g, " ")
-        .replace(/\(\s*\*\*.*?\*\*\s*\)/g, "")
-        .replace(/\*\*.*?\*\*/g, "")
+        .replace(/\(\s*\*\*.*?\*\*\s*\)/g, "")   // (** ... **)
+        .replace(/\*\*.*?\*\*/g, "")             // fallback
         .replace(/[*]/g, "")
         .replace(/["“”]/g, "")
         .replace(/[,:;]+/g, "")
@@ -259,128 +90,25 @@ E bine ca istoricul să spună asta, ca peste câteva luni să știm exact ce fa
         .replace(/\s+/g, " ")
         .trim()
         .toLowerCase()
-        .replace(/^(the|a|an|sticheras|verses|o)\s+/i, "")
+        .replace(/^(the|a|an|sticheras)\s+/i, "")          // remove leading article
         .replace(/\bin\s+tone\b/gi, "tone")
-        .replace(/\bcanons\b/gi, "canon")
-        .replace(
-          /^theotokion from the octoechos\b/i,
-          "theotokion for the octoechos"
-        );
 
-      const prefixMatch =
-        str.match(/^((\[[a-z]+\]\s*)+)(.*)$/i);
+      const prefixMatch = str.match(/^((\[[a-z0-9]+\])+)\s*(.*)$/);
 
       if (prefixMatch) {
         const prefixes = prefixMatch[1];
         let title = prefixMatch[3];
 
-        title = title.replace(
-          /^(the|a|an|festal|sticheras|verses|o)\s+/,
-          ""
-        );
+        title = title.replace(/^(the|a|an|festal)\s+/, "");
 
         return `${prefixes} ${title}`.trim();
       }
 
-      return str.replace(
-        /^(the|a|an|festal|o)\s+/,
-        ""
-      );
-    }
-
-    function normalizeArabicTitle(str) {
-      return str
-        // elimină automelon în forma normală:
-        // (** automelon **)
-        .replace(/\(\s*\*\*.*?\*\*\s*\)/gs, "")
-
-        // elimină automelon în forma RTL întâlnită în RTF/HTML:
-        // **) automelon (**
-        .replace(/\*\*\s*\).*?\(\s*\*\*/gs, "")
-
-        // elimină diacriticele arabe / harakat
-        .replace(/[\u0610-\u061A\u064B-\u065F\u0670\u06D6-\u06ED]/g, "")
-
-        // elimină tatweel ـ
-        .replace(/\u0640/g, "")
-
-        // elimină ghilimelele
-        .replace(/["“”«»]/g, "")
-
-        // NBSP și alte spații Unicode -> spațiu normal
-        .replace(/[\u00A0\u202F\u2007]/g, " ")
-
-        // newline/tab -> spațiu
-        .replace(/[\n\r\t]+/g, " ")
-
-        // mai multe spații -> unul singur
-        .replace(/\s+/g, " ")
-
-        .trim();
-    }
-
-    function repairArabicAutomelonMarkers(p) {
-      if (!p || !isArabic(p.textContent || "")) {
-        return;
-      }
-
-      /*
-       * Word/RTF may reverse the visual automelon markers
-       * in Arabic:
-       *
-       *   **) automelon (**
-       *
-       * Restore the normal form used in the source text:
-       *
-       *   (** automelon **)
-       */
-      p.innerHTML = p.innerHTML.replace(
-        /\*\*\s*\)([\s\S]*?)\(\s*\*\*/g,
-        "(** $1 **)"
-      );
-    }
-
-    function extractAutomelonFromText(text) {
-
-      if (!text) {
-        return "";
-      }
-
-      const match =
-        text.match(/\(\s*\*\*(.*?)\*\*\s*\)/s);
-
-      if (!match) {
-        return "";
-      }
-
-      return normalizeTitle(match[1]);
-    }
-
-
-    function splitAutomelonKey(key) {
-
-      const separator = "||";
-      const index = key.lastIndexOf(separator);
-
-      if (index === -1) {
-        return {
-          title: key.trim(),
-          automelon: ""
-        };
-      }
-
-      return {
-        title: key.substring(0, index).trim(),
-        automelon: key.substring(index + separator.length).trim()
-      };
+      return str.replace(/^(the|a|an|festal)\s+/, "");
     }
 
     function isRTL(text) {
       return /[\u0590-\u08FF]/.test(text);
-    }
-
-    function isArabic(text) {
-      return /[\u0600-\u06FF]/.test(text);
     }
 
     /**********************
@@ -428,7 +156,7 @@ E bine ca istoricul să spună asta, ca peste câteva luni să știm exact ce fa
     /**********************
      * PARAGRAPH FIXES
      **********************/
-    document.querySelectorAll("p").forEach(p => {
+    document.querySelectorAll("td p").forEach(p => {
 
       const text = p.textContent.trim();
       if (!text) return;
@@ -477,85 +205,57 @@ E bine ca istoricul să spună asta, ca peste câteva luni să știm exact ce fa
     });
 
     /**********************
-     * CENTER MONOLINGUAL TABLES
-     **********************/
-    document.querySelectorAll("table").forEach(table => {
-
-      const rows = Array.from(table.rows);
-
-      /*
-       * Este bilingv dacă există cel puțin un rând
-       * cu două celule care conțin text.
-       */
-      const bilingual = rows.some(row => {
-
-        const cellsWithText =
-          Array.from(row.cells).filter(cell =>
-            cell.textContent.trim()
-          );
-
-        return cellsWithText.length >= 2;
-      });
-
-      if (bilingual) {
-        return;
-      }
-
-      table.classList.add("monolingual-table");
-
-      table.style.marginLeft = "auto";
-      table.style.marginRight = "auto";
-      table.style.maxWidth = "900px";
-
-      table.querySelectorAll("td").forEach(td => {
-        td.style.textAlign = "center";
-      });
-
-      table.querySelectorAll("p").forEach(p => {
-
-        /*
-         * Centrează numai textul LTR.
-         * Textul arab rămâne aliniat la dreapta.
-         */
-        const text = p.textContent.trim();
-
-        if (text && !isRTL(text)) {
-          p.style.textAlign = "center";
-        }
-      });
-
-    });
-
-    /**********************
-     * CENTER MONOLINGUAL DOCUMENTS
-     * WITHOUT TABLES
-     **********************/
-    if (!document.querySelector("table")) {
-
-      document.body.classList.add("monolingual-document");
-
-      document.querySelectorAll("p").forEach(p => {
-
-        const text = p.textContent.trim();
-
-        if (text && !isRTL(text)) {
-          p.style.textAlign = "center";
-        }
-      });
-    }
-
-    /**********************
      * LOAD TITLE LINKS
      **********************/
     const serviceIndex = {};
     const globalIndex = {};
-    const globalFallbackIndex = {};
-
-    const serviceAutomelonIndex = {};
-    const globalAutomelonIndex = {};
-
+    // UPDATE 2026-11-11: [APL] = moment global, nu serviciu.
+    const globalApolytikionIndex = {};
     const globalCount = {};
-    const titleUsage = {};
+    const octoechosTheotokia = [];
+
+    function extractTone(text) {
+      const match = normalizeTitle(text).match(
+        /\btone\s+(one|two|three|four|five|six|seven|eight)\b/
+      );
+      return match ? match[1] : "";
+    }
+
+    function parseHymnKey(key) {
+      const norm = normalizeTitle(key);
+      const match = norm.match(
+        /^(?:\[([a-z0-9]+)\]\s+)?(?:\[([a-z0-9]+)\]\s+)?(.*)$/i
+      );
+      if (!match) return null;
+      const first = (match[1] || "").toUpperCase();
+      const second = (match[2] || "").toUpperCase();
+      const services = ["V", "O", "L", "LV"];
+      return {
+        service: second ? first : (services.includes(first) ? first : null),
+        moment: second || (first && !services.includes(first) ? first : null),
+        title: match[3]
+      };
+    }
+
+    function findOctoechosTheotokion(day, service, moment, tone) {
+      if (!day || !moment || !tone) return null;
+      const matches = octoechosTheotokia.filter(entry =>
+        entry.day.toLowerCase() === day.toLowerCase() &&
+        entry.moment === moment &&
+        entry.tone === tone &&
+        (entry.service === service || entry.service === null)
+      );
+      const keys = [...new Set(matches.map(entry => entry.key))];
+      if (keys.length !== 1) {
+        if (keys.length > 1) {
+          console.warn("Octoechos Theotokion ambiguous:", { day, service, moment, tone, keys });
+        }
+        return null;
+      }
+      return matches.find(entry => entry.key === keys[0]).item;
+    }
+
+
 
     try {
 
@@ -567,7 +267,6 @@ E bine ca istoricul să spună asta, ca peste câteva luni să știm exact ce fa
       const raw = await res.json();
 
 
-
       for (const key in raw) {
 
         const item =
@@ -575,20 +274,41 @@ E bine ca istoricul să spună asta, ca peste câteva luni să știm exact ce fa
             ? { url: raw[key], name: null }
             : raw[key];
 
-        const keyParts = splitAutomelonKey(key);
+        // Index separat pentru Theotokia din Octoechos, grupate dupa zi.
+        const parsed = parseHymnKey(key);
+        if (parsed && /theotokion/i.test(parsed.title)) {
+          const versions = item.type === "multi" && Array.isArray(item.versions)
+            ? item.versions : [item];
+          const days = [...new Set(versions
+            .filter(v => v && v.periodId === "octoechos" && v.feastId)
+            .map(v => v.feastId))];
+          for (const day of days) {
+            const dayVersions = versions.filter(v =>
+              v && v.periodId === "octoechos" && v.feastId === day
+            );
+            octoechosTheotokia.push({
+              key, day, service: parsed.service, moment: parsed.moment,
+              tone: extractTone(parsed.title),
+              item: { type: "multi", versions: dayVersions }
+            });
+          }
+        }
 
-        const norm =
-          isArabic(keyParts.title)
-            ? normalizeArabicTitle(keyParts.title)
-            : normalizeTitle(keyParts.title);
+        const norm = normalizeTitle(key);
 
-        const automelon = normalizeTitle(keyParts.automelon);
+        // UPDATE 2026-11-11 — [APL] TITLE, comun tuturor slujbelor.
+        // Procesam inaintea regexului [SERVICE] TITLE.
+        const aplMatch = norm.match(/^\[APL\]\s+(.*)$/i);
+        if (aplMatch) {
+          globalApolytikionIndex[aplMatch[1]] = item;
+          continue;
+        }
 
         // ----------------------------
         // [SERVICE] [MOMENT] TITLE
         // ----------------------------
 
-        let m = norm.match(/^\[([a-z]+)\]\s+\[([a-z]+)\]\s+(.*)$/i);
+        let m = norm.match(/^\[([a-z0-9]+)\]\s+\[([a-z0-9]+)\]\s+(.*)$/i);
 
         if (m) {
 
@@ -596,37 +316,7 @@ E bine ca istoricul să spună asta, ca peste câteva luni să știm exact ce fa
           const moment = m[2].toUpperCase();
           const title = m[3];
 
-          const serviceKey =
-            `[${service}] ${title}`;
-
-          if (automelon) {
-
-            const automelonKey =
-              serviceKey + " || " + automelon;
-
-            if (!serviceAutomelonIndex[automelonKey]) {
-
-              serviceAutomelonIndex[automelonKey] = [];
-
-            }
-
-            if (Array.isArray(serviceAutomelonIndex[automelonKey])) {
-
-              serviceAutomelonIndex[automelonKey].push({
-                moment,
-                item
-              });
-
-            } else {
-
-              console.warn(
-                "Mixed service and service-moment automelon key:",
-                automelonKey
-              );
-
-            }
-
-          }
+          const serviceKey = `[${service}] ${title}`;
 
           if (!serviceIndex[serviceKey]) {
             serviceIndex[serviceKey] = [];
@@ -647,38 +337,14 @@ E bine ca istoricul să spună asta, ca peste câteva luni să știm exact ce fa
         // [SERVICE] TITLE
         // ----------------------------
 
-        m = norm.match(/^\[([a-z]+)\]\s+(.*)$/i);
+        m = norm.match(/^\[([a-z0-9]+)\]\s+(.*)$/i);
 
         if (m) {
 
           const service = m[1].toUpperCase();
           const title = m[2];
 
-          const serviceKey = `[${service}] ${title}`;
-
-          if (automelon) {
-
-            const automelonKey =
-              serviceKey + " || " + automelon;
-
-            if (!serviceAutomelonIndex[automelonKey]) {
-
-              serviceAutomelonIndex[automelonKey] = item;
-
-            } else {
-
-              console.warn(
-                "Mixed service and service-moment automelon key:",
-                automelonKey
-              );
-
-            }
-
-          } else {
-
-            serviceIndex[serviceKey] = item;
-
-          }
+          serviceIndex[`[${service}] ${title}`] = item;
 
           globalCount[title] =
             (globalCount[title] || 0) + 1;
@@ -690,23 +356,10 @@ E bine ca istoricul să spună asta, ca peste câteva luni să știm exact ce fa
         // GLOBAL TITLE
         // ----------------------------
 
-        if (automelon) {
+        globalIndex[norm] = item;
 
-          const automelonKey = norm + " || " + automelon;
-
-          globalAutomelonIndex[automelonKey] = item;
-
-        } else {
-
-          globalIndex[norm] = item;
-
-          // Păstrăm și copia globală înainte ca
-          // globalIndex să fie curățat de coliziuni.
-          globalFallbackIndex[norm] = item;
-
-        }
-
-        globalCount[norm] = (globalCount[norm] || 0) + 1;
+        globalCount[norm] =
+          (globalCount[norm] || 0) + 1;
       }
 
       // sort moments inside each service
@@ -731,30 +384,6 @@ E bine ca istoricul să spună asta, ca peste câteva luni să știm exact ce fa
         });
       }
 
-      for (const key in serviceAutomelonIndex) {
-
-        const entries =
-          serviceAutomelonIndex[key];
-
-        if (!Array.isArray(entries)) {
-          continue;
-        }
-
-        const serviceMatch =
-          key.match(/^\[([A-Z]+)\]/);
-
-        const service =
-          serviceMatch ? serviceMatch[1] : "";
-
-        const order =
-          SERVICE_ORDER[service] || {};
-
-        entries.sort((a, b) =>
-          (order[a.moment] || 999) -
-          (order[b.moment] || 999)
-        );
-      }
-
       // remove global entries that collide
       // with another service
 
@@ -765,446 +394,102 @@ E bine ca istoricul să spună asta, ca peste câteva luni să știm exact ce fa
         }
       }
 
-
     } catch (e) {
 
       console.warn("TitleLink load failed:", e.message);
 
     }
 
+    /**********************
+     * MOMENTUL SLUJBEI — stare actualizata la fiecare antet
+     **********************/
+    function momentFromHeading(rawText) {
+      const text = normalizeTitle(rawText);
+      if (!text || text.length > 120) return "";
+      if (/^(?:at the )?praises(?: stichera)?\b/.test(text) ||
+        /^stichera (?:at|of) the praises\b/.test(text) ||
+        /^ainoi\b/.test(text)) return "PR";
+      if (/^exaposteilar(?:ion|ia)\b/.test(text)) return "EX";
+      if (/^(?:troparia |hymns? )?after (?:the )?psalm 50\b/.test(text) ||
+        /^(?:troparia|hymns?) after psalm (?:50|fifty)\b/.test(text)) return "PS50";
+      if (/^kathism(?:a|ata)\b/.test(text) ||
+        /^sessional hymns?\b/.test(text)) return "KA";
+      if (/\bapolytiki(?:on|a)\b/.test(text) ||
+        /^dismissal hymns?\b/.test(text)) return "APL";
+      if (/\baposticha\b/.test(text)) return "AP";
+      if (/\blitia\b/.test(text) || /\bartoklasia\b/.test(text)) return "LT";
+      if (/\blord i have cried\b/.test(text)) return "LIHC";
 
-    function detectContextForParagraph(p) {
-
-      const paragraphs =
-        Array.from(document.querySelectorAll("p"));
-
-      const currentIndex =
-        paragraphs.indexOf(p);
-
-      if (currentIndex === -1) {
-        return {
-          moment: "",
-          section: ""
-        };
-      }
-
-      const startIndex =
-        Math.max(0, currentIndex - 150);
-
-      for (
-        let i = currentIndex - 1;
-        i >= startIndex;
-        i--
-      ) {
-
-        const text =
-          normalizeTitle(
-            paragraphs[i].textContent || ""
-          );
-
-        /*
-         * APOLYTIKION
-         */
-        if (
-          text.includes("apolytikion") ||
-          text.includes("troparion")
-        ) {
-          return {
-            moment: "",
-            section: "APOLYTIKION"
-          };
-        }
-
-        /*
-         * ORTHROS - PRAISES
-         */
-        if (
-          text.includes("praises") ||
-          text.includes("lauds")
-        ) {
-          return {
-            moment: "PR",
-            section: "PRAISES"
-          };
-        }
-
-        /*
-         * ORTHROS - EXAPOSTEILARION
-         */
-        if (
-          text.includes("exaposteilarion")
-        ) {
-          return {
-            moment: "EX",
-            section: "EXAPOSTEILARION"
-          };
-        }
-
-        /*
-         * ORTHROS - KATHISMA
-         */
-        if (
-          text.includes("kathisma") ||
-          text.includes("kathismata")
-        ) {
-          return {
-            moment: "KA",
-            section: "KATHISMA"
-          };
-        }
-
-        /*
-        * ORTHROS - EOTHINON DOXASTIKON
-        */
-        if (
-          text.includes("eothinon doxastikon")
-        ) {
-          return {
-            moment: "ED",
-            section: "EOTHINON DOXASTIKON"
-          };
-        }
-
-        /*
-         * VESPERS - APOSTICHA
-         */
-        if (
-          text.includes("aposticha")
-        ) {
-          return {
-            moment: "AP",
-            section: "APOSTICHA"
-          };
-        }
-
-        /*
-         * VESPERS - LITIA
-         */
-        if (
-          text.includes("litia") ||
-          text.includes("artoklasia")
-        ) {
-          return {
-            moment: "LT",
-            section: "LITIA"
-          };
-        }
-
-        /*
-         * VESPERS - LORD I HAVE CRIED
-         */
-        if (
-          text.includes("o lord i have cried") ||
-          text.includes("lord i have cried")
-        ) {
-          return {
-            moment: "LIHC",
-            section: "LIHC"
-          };
-        }
-      }
-
-      return {
-        moment: "",
-        section: ""
-      };
+      return "";
     }
 
-    /**********************
- * REPAIR ARABIC AUTOMELON MARKERS
- **********************/
-
-    document.querySelectorAll("p").forEach(p => {
-      repairArabicAutomelonMarkers(p);
+    // Scanare o singura data in ordinea documentului. Titlurile in araba
+    // nu reseteaza momentul; acesta ramane activ pana la urmatorul antet.
+    const paragraphMoments = new Map();
+    let currentMoment = "";
+    document.querySelectorAll("td p").forEach(paragraph => {
+      const detected = momentFromHeading(paragraph.textContent || "");
+      if (detected) currentMoment = detected;
+      paragraphMoments.set(paragraph, currentMoment);
     });
 
     /**********************
      * APPLY TITLE LINKS
      **********************/
-    document.querySelectorAll("p").forEach(p => {
-
-      if (p.querySelector("a[href]")) return;
-
-      const fullText = p.textContent.trim();
-
-      let originalText = fullText;
-
-      // Dacă paragraful începe cu un titlu bold,
-      // urmat de o notă explicativă, folosim doar titlul.
-      const firstBold = p.querySelector("b");
-
-      if (
-        firstBold &&
-        fullText.includes("Please note the modifications") &&
-        firstBold.textContent.trim()
-      ) {
-        originalText = firstBold.textContent.trim();
-      }
-
-      if (!originalText) {
-        return;
-      }
-
-      const htmlAutomelon = extractAutomelonFromText(originalText);
-
-      const baseKey =
-        isArabic(originalText)
-          ? normalizeArabicTitle(originalText)
-          : normalizeTitle(originalText);
-
-      const context =
-        detectContextForParagraph(p);
-
-      const htmlMoment =
-        context.moment;
-
-      const afterApolytikion =
-        context.section === "APOLYTIKION";
-
-      let lookupKey = baseKey;
-
-      /*
-       * Pentru Theotokion-ul care urmează după Apolytikion,
-       * tratăm:
-       *
-       * THEOTOKION FROM/FOR THE OCTOECHOS
-       * ca alias pentru
-       * RESURRECTIONAL THEOTOKION
-       *
-       * Doar când nu suntem într-un moment LIHC / LT / AP.
-       */
-      if (afterApolytikion) {
-
-        // THEOTOKION FROM/FOR THE OCTOECHOS ...
-        if (
-          lookupKey.startsWith(
-            "theotokion for the octoechos "
-          )
-        ) {
-          lookupKey = lookupKey.replace(
-            /^theotokion for the octoechos\b/,
-            "resurrectional theotokion"
-          );
-        }
-
-        // THEOTOKION IN TONE TWO ...
-        // -> RESURRECTIONAL THEOTOKION TONE TWO
-        else if (
-          /^theotokion tone\b/.test(lookupKey)
-        ) {
-          lookupKey = lookupKey.replace(
-            /^theotokion\b/,
-            "resurrectional theotokion"
-          );
-        }
-      }
-
-      let serviceLookupKey = baseKey;
-
-      if (
-        SERVICE === "V" &&
-        (htmlMoment === "LIHC" || htmlMoment === "AP") &&
-        serviceLookupKey.startsWith("theotokion for the octoechos ")
-      ) {
-        serviceLookupKey = serviceLookupKey.replace(
-          /^theotokion for the octoechos\b/,
-          "theotokion for the resurrection"
-        );
-      }
-
-      const isApolytikionTheotokion =
-        afterApolytikion &&
-        (
-          /^theotokion tone\b/.test(baseKey) ||
-          baseKey.startsWith("theotokion for the octoechos ")
-        );
-
+    document.querySelectorAll("td p").forEach(p => {
+      if (p.querySelector("a")) return;
+      const originalText = p.textContent.trim();
+      if (!originalText) return;
+      const baseKey = normalizeTitle(originalText);
+      const htmlMoment = paragraphMoments.get(p) || "";
       let item = null;
 
-      /*
-       * SUNDAY - AFTER PSALM 50
-       *
-       * Duminica, pentru TROPARIA AFTER PSALM 50,
-       * versiunea globală Orthros / Resurrectional
-       * are prioritate față de [O] Menaion.
-       */
-      if (
-        IS_SUNDAY &&
-        baseKey.includes("troparia after psalm 50")
-      ) {
-
-        const globalItem =
-          globalFallbackIndex[lookupKey];
-
-        if (
-          globalItem &&
-          globalItem.type === "multi" &&
-          Array.isArray(globalItem.versions)
-        ) {
-
-          const hasResurrectional =
-            globalItem.versions.some(v => {
-
-              const path =
-                String(v.path || "")
-                  .toLowerCase();
-
-              return (
-                !v.periodId &&
-                !v.feastId &&
-                path.endsWith(" / orthros")
-              );
-            });
-
-          if (hasResurrectional) {
-
-            console.log(
-              "Sunday After Psalm 50: using GLOBAL fallback"
-            );
-
-            item = globalItem;
-          }
+      if (SERVICE) {
+        const serviceKey = `[${SERVICE}] ${baseKey}`;
+        const match = serviceIndex[serviceKey];
+        if (Array.isArray(match)) {
+          // Nu selectam dupa pozitie: numai momentul liturgic real.
+          const exact = match.find(entry => entry.moment === htmlMoment);
+          item = exact ? exact.item : null;
+        } else if (match) {
+          item = match;
         }
       }
 
-      // ----------------------------
-      // SERVICE
-      // ----------------------------
+      // Titlu generic: selectam Theotokionul dupa zi, moment si glas.
+      const genericOctoechosTheotokion =
+        /^theotokion (?:from|for) the octoechos\b/.test(baseKey);
+      if (!item && genericOctoechosTheotokion) {
+        const day = hymnContext?.weekday || "";
+        const tone = extractTone(baseKey);
+        item = findOctoechosTheotokion(day, SERVICE, htmlMoment, tone);
+        console.debug("Octoechos Theotokion:", {
+          title: originalText, day, service: SERVICE,
+          moment: htmlMoment, tone, found: !!item
+        });
+      }
 
-      if (!item && SERVICE && !isApolytikionTheotokion) {
+      // [APL] este global, dar se aplica numai in sectiunea Apolytikion.
+      if (!item && !genericOctoechosTheotokion && htmlMoment === "APL") {
+        let aplTitle = baseKey;
 
-        const serviceKey =
-          `[${SERVICE}] ${serviceLookupKey}`;
-
-        /*
-         * 1. Căutare după serviciu + automelon
-         */
-        if (htmlAutomelon) {
-
-          const automelonKey =
-            serviceKey + " || " + htmlAutomelon;
-
-          const automelonMatch =
-            serviceAutomelonIndex[automelonKey];
-
-          if (Array.isArray(automelonMatch)) {
-
-            const usageKey =
-              "AUTOMELON::" + automelonKey;
-
-            const momentMatch =
-              htmlMoment
-                ? automelonMatch.find(entry =>
-                  entry &&
-                  entry.moment === htmlMoment &&
-                  entry.item
-                )
-                : null;
-
-            if (momentMatch) {
-
-              item = momentMatch.item;
-
-            } else {
-
-              const index =
-                titleUsage[usageKey] || 0;
-
-              const selected =
-                automelonMatch[
-                Math.min(
-                  index,
-                  automelonMatch.length - 1
-                )
-                ];
-
-              if (selected?.item) {
-                item = selected.item;
-              }
-
-              titleUsage[usageKey] =
-                index + 1;
-            }
-
-          } else if (automelonMatch) {
-
-            item =
-              automelonMatch.item ||
-              automelonMatch;
-          }
+        // Titlu explicit Resurrectional Theotokion
+        if (/^resurrectional theotokion\b/.test(aplTitle)) {
+          aplTitle = aplTitle.replace(
+            /^resurrectional theotokion\b/,
+            "apolytikion resurrectional theotokion"
+          );
         }
 
-        /*
-         * 2. Numai dacă automelonul nu a găsit nimic,
-         * căutăm după serviciu + titlu.
-         */
-        if (!item) {
-
-          const match =
-            serviceIndex[serviceKey];
-
-          if (Array.isArray(match)) {
-
-            const momentMatch =
-              htmlMoment
-                ? match.find(entry =>
-                  entry &&
-                  entry.moment === htmlMoment &&
-                  entry.item
-                )
-                : null;
-
-            if (momentMatch) {
-
-              item = momentMatch.item;
-
-            } else {
-
-              const usageKey =
-                "SERVICE::" + serviceKey;
-
-              const index =
-                titleUsage[usageKey] || 0;
-
-              const selected =
-                match[
-                Math.min(
-                  index,
-                  match.length - 1
-                )
-                ];
-
-              if (selected?.item) {
-                item = selected.item;
-              }
-
-              titleUsage[usageKey] =
-                index + 1;
-            }
-
-          } else if (match) {
-
-            item =
-              match.item ||
-              match;
-          }
-        }
+        item = globalApolytikionIndex[aplTitle] || null;
       }
 
       // ----------------------------
       // GLOBAL
       // ----------------------------
 
-      if (!item && htmlAutomelon) {
-
-        const automelonKey = lookupKey + " || " + htmlAutomelon;
-
-        item = globalAutomelonIndex[automelonKey];
-
-      }
-
-      if (!item) {
-        item = globalIndex[lookupKey];
+      if (!item && !genericOctoechosTheotokion) {
+        item = globalIndex[baseKey];
       }
 
       if (!item) {
@@ -1214,101 +499,23 @@ E bine ca istoricul să spună asta, ca peste câteva luni să știm exact ce fa
 
       if (item.type === "multi" && Array.isArray(item.versions)) {
 
-        let versions = item.versions;
-
-        if (htmlAutomelon) {
-
-          versions = versions.filter(v =>
-            normalizeTitle(v.automelon || "") === htmlAutomelon
-          );
-
-          if (versions.length === 0) {
-
-            console.warn(
-              "No matching automelon version:",
-              baseKey,
-              htmlAutomelon
-            );
-
-            return;
-          }
-
-        }
-
-        /*
-         * SUNDAY RESURRECTIONAL / MENAION FILTER
-         *
-         * Sunday:
-         *   Resurrectional takes precedence.
-         *
-         * Non-Sunday:
-         *   select matching Menaion feast.
-         */
-
-        if (IS_SUNDAY) {
-
-          const resurrectionalVersions =
-            versions.filter(v => {
-
-              const path =
-                String(v.path || "")
-                  .toLowerCase();
-
-              return (
-                !v.periodId &&
-                !v.feastId &&
-                path.endsWith(" / orthros")
-              );
-            });
-
-          if (resurrectionalVersions.length > 0) {
-
-            console.log(
-              "Sunday Resurrectional version selected:",
-              resurrectionalVersions.map(
-                v => v.label
-              )
-            );
-
-            versions = resurrectionalVersions;
-          }
-
-        } else if (SERVICE_DATE) {
-
-          const feastVersions =
-            versions.filter(v =>
-              v.periodId === "menaion" &&
-              v.feastId === SERVICE_DATE
-            );
-
-          if (feastVersions.length > 0) {
-
-            console.log(
-              "Menaion feast version selected:",
-              SERVICE_DATE,
-              feastVersions.map(v => v.label)
-            );
-
-            versions = feastVersions;
-          }
-        }
-
         const span = document.createElement("span");
         span.innerHTML = p.innerHTML;
 
-        versions.forEach(v => {
-
-          if (!v.url) {
-            return;
-          }
+        const eligibleVersions = hymnSelection.selectHymnVersions(item.versions, hymnContext, {
+          afterFeastId: window.FeastCalendar?.detectAfterFeastId(hymnContext?.feastId || '') || '',
+          afterFeast: /\bafter[ -]feast\b/i.test(baseKey)
+        });
+        if (!eligibleVersions.length) return;
+        eligibleVersions.forEach(v => {
 
           const space = document.createTextNode(" ");
 
           const a = document.createElement("a");
-          a.href = pdfFitWidthUrl(v.url);
+          a.href = hymnSelection.fitPdfWidth(v.url);
           a.target = "_blank";
           a.rel = "noopener noreferrer";
-          a.textContent = `(${v.label || "PDF"})`;
+          a.textContent = `(${v.label})`;
 
           span.appendChild(space);
           span.appendChild(a);
@@ -1319,13 +526,14 @@ E bine ca istoricul să spună asta, ca peste câteva luni să știm exact ce fa
         p.appendChild(span);
 
         return;
+
       }
 
-      if (!item.url) return;
+      if (!hymnSelection.isEligibleSingle(item, hymnContext)) return;
 
       const a = document.createElement("a");
 
-      a.href = pdfFitWidthUrl(item.url);
+      a.href = hymnSelection.fitPdfWidth(item.url);
       a.target = "_blank";
       a.rel = "noopener noreferrer";
       a.innerHTML = p.innerHTML;
