@@ -9405,6 +9405,22 @@
       }
     ]
   },
+  "[V] [LIHC] FOR THE MARTYRS TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/1ccxVxa68Z_HDrE55cqVAB5pLVBpX3jvC/view?usp=drivesdk",
+        "name": "01 LihcSticheras-4th-JEM-Vespers-Martyrs Guria, Shamuna and Habib the Deacon of Edessa.pdf",
+        "description": "[V] [LIHC] <b>For the Martyrs in Tone Four<br />(**</b><i><b>Unto them that fear Thee</b></i><b>**) | El Massih</b>",
+        "automelon": "UNTO THEM THAT FEAR THEE",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 15 Sunday Tone 7, Martyrs Guria, Shamuna and Habib the Deacon of Edessa",
+        "periodId": "menaion",
+        "feast": "Sunday Tone 7, Martyrs Guria, Shamuna and Habib the Deacon of Edessa",
+        "feastId": "15-11"
+      }
+    ]
+  },
   "[V] [LIHC] FOR THE NATIVITY OF THE THEOTOKOS TONE SIX": {
     "type": "multi",
     "versions": [

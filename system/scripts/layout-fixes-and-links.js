@@ -90,21 +90,23 @@
         .replace(/\s+/g, " ")
         .trim()
         .toLowerCase()
-        .replace(/^(the|a|an|sticheras)\s+/i, "")          // remove leading article
+        .replace(/^(the|a|an|sticheras|o)\s+/i, "")          // remove leading article
         .replace(/\bin\s+tone\b/gi, "tone")
 
-      const prefixMatch = str.match(/^((\[[a-z0-9]+\])+)\s*(.*)$/);
+      const prefixMatch = str.match(/^((?:\[[a-z0-9]+\]\s*)+)(.*)$/);
 
       if (prefixMatch) {
-        const prefixes = prefixMatch[1];
-        let title = prefixMatch[3];
+        const prefixes = prefixMatch[1]
+          .trim()
+          .replace(/\]\s*\[/g, "] [");
 
-        title = title.replace(/^(the|a|an|festal)\s+/, "");
+        let title = prefixMatch[2];
+        title = title.replace(/^(the|a|an|festal|o)\s+/, "");
 
         return `${prefixes} ${title}`.trim();
       }
 
-      return str.replace(/^(the|a|an|festal)\s+/, "");
+      return str.replace(/^(the|a|an|festal|o)\s+/, "");
     }
 
     function isRTL(text) {
@@ -260,7 +262,9 @@
     try {
 
       const base = window.location.pathname.includes("/byzmusic/") ? "/byzmusic" : "";
-      const res = await fetch(`${base}/system/data/titleLink.json`);
+      const res = await fetch(`${base}/system/data/titleLink.json`, {
+        cache: "no-store"
+      });
 
       if (!res.ok) throw new Error("titleLink.json missing");
 
