@@ -147,26 +147,6 @@
       O: { APL: 1, KA: 2, PS50: 3, EX: 4, PR: 5 }
     };
 
-    /**********************
-     * UTILS
-     **********************/
-    function pdfFitWidthUrl(url) {
-      if (!url) return url;
-
-      const driveMatch = url.match(
-        /drive\.google\.com\/file\/d\/([^/?#]+)/
-      );
-
-      if (driveMatch) {
-        return `https://drive.google.com/file/d/${driveMatch[1]}/preview#view=FitH`;
-      }
-
-      if (/\.pdf(?:[?#]|$)/i.test(url)) {
-        return url.split("#")[0] + "#view=FitH";
-      }
-
-      return url;
-    }
     function normalizeTitle(str) {
       str = String(str || "")
         .replace(/[\n\r\t]+/g, " ")
@@ -784,7 +764,7 @@
       const link =
         document.createElement("a");
 
-      link.href = pdfFitWidthUrl(item.url);
+      link.href = hymnSelection.pdfFitWidthUrl(item.url);
       link.target = "_blank";
       link.rel = "noopener noreferrer";
 
@@ -948,7 +928,7 @@
           document.createElement("a");
 
         //link.href = version.url;
-        link.href = pdfFitWidthUrl(version.url);
+        link.href = hymnSelection.pdfFitWidthUrl(version.url);
 
         link.target = "_blank";
         link.rel = "noopener noreferrer";

@@ -48,3 +48,21 @@ export function fitPdfWidth(url) {
   if (!url) return url;
   return String(url).replace(/#.*$/, '') + '#view=FitH';
 }
+
+export function pdfFitWidthUrl(url) {
+  if (!url) return url;
+
+  const driveMatch = String(url).match(
+    /drive\.google\.com\/file\/d\/([^/?#]+)/
+  );
+
+  if (driveMatch) {
+    return `https://drive.google.com/file/d/${driveMatch[1]}/preview#view=FitH`;
+  }
+
+  if (/\.pdf(?:[?#]|$)/i.test(url)) {
+    return url.split("#")[0] + "#view=FitH";
+  }
+
+  return url;
+}

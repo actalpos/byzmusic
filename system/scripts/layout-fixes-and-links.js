@@ -521,7 +521,7 @@
           const space = document.createTextNode(" ");
 
           const a = document.createElement("a");
-          a.href = hymnSelection.fitPdfWidth(v.url);
+          a.href = hymnSelection.pdfFitWidthUrl(v.url);
           a.target = "_blank";
           a.rel = "noopener noreferrer";
           a.textContent = `(${v.label})`;
@@ -542,7 +542,7 @@
 
       const a = document.createElement("a");
 
-      a.href = hymnSelection.fitPdfWidth(item.url);
+      a.href = hymnSelection.pdfFitWidthUrl(item.url);
       a.target = "_blank";
       a.rel = "noopener noreferrer";
       a.innerHTML = p.innerHTML;
