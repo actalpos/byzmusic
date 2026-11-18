@@ -1,5 +1,5 @@
 /**
- * layout-fixes-and-links.js — v1.2 (2026-11-13)
+ * layout-fixes-and-links.js — v1.3 (2026-11-15)
  * Layout bilingv + hyperlinkuri din titleLink.json.
  *
  * Prefixe slujba: [V] Vespers, [O] Orthros, [LV] Liturgy Variables.
@@ -9,6 +9,18 @@
  *             [PS50] After Psalm 50 Hymns, [EX] Exaposteilarion,
  *             [PR] Praises / AINOI.
  * [APL] este global; [PS] nu este folosit.
+ *
+ * CHANGELOG v1.3 — Vigil (detectie conditionata):
+ * - Activeaza detectia multi-slujba NUMAI cand numele fisierului HTML
+ *   contine "vigil" (fara diferenta intre majuscule/minuscule).
+ * - In Vigil, antetele Great Vespers / Festal Orthros /
+ *   Divine Liturgy Variables schimba serviciul V / O / LV.
+ * - La schimbarea serviciului reseteaza momentul liturgic.
+ * - Litia si Artoklasia raman momente [LT] din Vespers [V].
+ * - Pentru fisierele non-Vigil, serviciul ramane detectat doar din cale,
+ *   ca in v1.2; detectarea momentelor ramane neschimbata.
+ * - Nu schimba formatul bilingv, JSON, cache no-store sau regulile
+ *   hymn-selection.js pentru Menaion/Octoechos.
  *
  * CHANGELOG v1.2:
  * - Urmareste momentul curent dupa antetele din document, inclusiv
@@ -66,7 +78,10 @@
       return null;
     }
 
-    const SERVICE = detectServiceType();
+    const DEFAULT_SERVICE = detectServiceType();
+    // Doar numele fisierului, nu numele folderelor, activeaza modul Vigil.
+    const FILE_NAME = decodeURIComponent(window.location.pathname.split("/").pop() || "");
+    const IS_VIGIL = /vigil/i.test(FILE_NAME);
 
     const SERVICE_ORDER = {
       V: { LIHC: 1, LT: 2, AP: 3, APL: 4 },
@@ -432,13 +447,31 @@
       return "";
     }
 
-    // Scanare o singura data in ordinea documentului. Titlurile in araba
-    // nu reseteaza momentul; acesta ramane activ pana la urmatorul antet.
+    // Doar pentru IS_VIGIL schimbam serviciul dupa antetele structurale.
+    // Pentru alte HTML-uri, DEFAULT_SERVICE ramane fix, ca in v1.2.
+    // Momentul se detecteaza in toate documentele, ca pana acum.
     const paragraphMoments = new Map();
+    const paragraphServices = new Map();
+    let currentService = DEFAULT_SERVICE;
     let currentMoment = "";
     document.querySelectorAll("td p").forEach(paragraph => {
+      const heading = (paragraph.textContent || "")
+        .replace(/\s+/g, " ").trim().toLowerCase();
+
+      if (IS_VIGIL && heading === "great vespers") {
+        currentService = "V";
+        currentMoment = "";
+      } else if (IS_VIGIL && heading === "festal orthros") {
+        currentService = "O";
+        currentMoment = "";
+      } else if (IS_VIGIL && /^divine liturgy variables\b/.test(heading) && heading.length < 120) {
+        currentService = "LV";
+        currentMoment = "";
+      }
+
       const detected = momentFromHeading(paragraph.textContent || "");
       if (detected) currentMoment = detected;
+      paragraphServices.set(paragraph, currentService);
       paragraphMoments.set(paragraph, currentMoment);
     });
 
@@ -451,6 +484,7 @@
       if (!originalText) return;
       const baseKey = normalizeTitle(originalText);
       const htmlMoment = paragraphMoments.get(p) || "";
+      const SERVICE = paragraphServices.get(p) || DEFAULT_SERVICE;
       let item = null;
 
       if (SERVICE) {

@@ -38,6 +38,22 @@
     "automelon": "",
     "periodId": "triodion"
   },
+  "ANOIXANTARIA": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Phokaeos",
+        "url": "https://drive.google.com/file/d/17dJy59eJrVdR3EfowrfnxI8wa-riP_Tm/view?usp=drivesdk",
+        "name": "01 Anoixantaria-pl4th-Phokaeos.pdf",
+        "description": "<b>ANOIXANTARIA | Phokaeos</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      }
+    ]
+  },
   "ANTI-TRISAGION HYMN": {
     "type": "multi",
     "versions": [
@@ -1854,6 +1870,22 @@
     "automelon": "",
     "periodId": "triodion"
   },
+  "EIFSELEFSOMAI": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Hmonk. Gregory",
+        "url": "https://drive.google.com/file/d/1DOuXA0olTLSfxnUKxIcNLhV2MxM6_H8q/view?usp=drivesdk",
+        "name": "00 Eifselefsomai-pl4th-HmGregory.pdf",
+        "description": "<b>EIFSELEFSOMAI | </b>Hmonk<b>. Gregory</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      }
+    ]
+  },
   "EIGHTH EOTHINON EXAPOSTEILARION IN TONE TWO": {
     "type": "multi",
     "versions": [
@@ -2339,10 +2371,10 @@
         "name": "07 Anabathmoi-4th-SA.pdf",
         "description": "FESTAL ANABATHMOI IN TONE FOUR | SA",
         "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Orthros",
-        "periodId": "octoechos",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
-        "feastId": "CommonOrthros"
+        "feastId": ""
       },
       {
         "label": "Karam",
@@ -2350,10 +2382,10 @@
         "name": "07 Anabathmoi-4th-Karam.pdf",
         "description": "FESTAL ANABATHMOI IN TONE FOUR | Karam",
         "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Orthros",
-        "periodId": "octoechos",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
-        "feastId": "CommonOrthros"
+        "feastId": ""
       }
     ]
   },
@@ -2880,77 +2912,88 @@
     "periodId": "octoechos",
     "feastId": "Sunday"
   },
+  "GLADSOME LIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Sakellarides",
+        "url": "https://drive.google.com/file/d/1Ail6jpBylBDMyucahL4IlkwF35Qsq5rC/view?usp=drivesdk",
+        "name": "07B OGladsomeLight-2nd-Sakellarides.pdf",
+        "description": "<b> GLADSOME LIGHT | Sakellarides</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      },
+      {
+        "label": "Tony H",
+        "url": "https://drive.google.com/file/d/1bV5q9sMdwyRn2o5BUV32x3g6TNi_cgnH/view?usp=drivesdk",
+        "name": "07A OGladsomeLight-2nd-Tony-OldMelody.pdf",
+        "description": "<b> GLADSOME LIGHT | Tony H</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      }
+    ]
+  },
   "GOD IS THE LORD IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/12NdsHNPti64R1Xv6_v4OTjb6YtF-qUcV/view?usp=drivesdk",
     "name": "01 GodIsTheLord-pl4th.pdf",
     "description": "“GOD IS THE LORD” IN TONE EIGHT",
-    "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Orthros",
-    "automelon": "",
-    "periodId": "octoechos",
-    "feastId": "CommonOrthros"
+    "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+    "automelon": ""
   },
   "GOD IS THE LORD IN TONE FIVE": {
     "url": "https://drive.google.com/file/d/1K7KHKccesChTUxev5vvqTG_UJs3pnX4g/view?usp=drivesdk",
     "name": "01 GodIsTheLord-pl1st.pdf",
     "description": "“GOD IS THE LORD” IN TONE FIVE",
-    "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Orthros",
-    "automelon": "",
-    "periodId": "octoechos",
-    "feastId": "CommonOrthros"
+    "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+    "automelon": ""
   },
   "GOD IS THE LORD IN TONE FOUR": {
     "url": "https://drive.google.com/file/d/18PlkpGZpPJ4mPssH_qOhovqF6Fv88U1d/view?usp=drivesdk",
     "name": "01 GodIsTheLord-4th.pdf",
     "description": "“GOD IS THE LORD” IN TONE FOUR",
-    "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Orthros",
-    "automelon": "",
-    "periodId": "octoechos",
-    "feastId": "CommonOrthros"
+    "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+    "automelon": ""
   },
   "GOD IS THE LORD IN TONE ONE": {
     "url": "https://drive.google.com/file/d/1yTf0Nbnz4vIl8sQM06Fk7p6i0fkJI95n/view?usp=drivesdk",
     "name": "01 GodIsTheLord-1st.pdf",
     "description": "“GOD IS THE LORD” IN TONE ONE",
-    "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Orthros",
-    "automelon": "",
-    "periodId": "octoechos",
-    "feastId": "CommonOrthros"
+    "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+    "automelon": ""
   },
   "GOD IS THE LORD IN TONE SEVEN": {
     "url": "https://drive.google.com/file/d/1gvemq7mO8pXoHpNuUqycSvOkoUhXHE6W/view?usp=drivesdk",
     "name": "01 GodIsTheLord-pl3rdgrave.pdf",
     "description": "“GOD IS THE LORD” IN TONE SEVEN",
-    "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Orthros",
-    "automelon": "",
-    "periodId": "octoechos",
-    "feastId": "CommonOrthros"
+    "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+    "automelon": ""
   },
   "GOD IS THE LORD IN TONE SIX": {
     "url": "https://drive.google.com/file/d/1fFCcbspVgg-Yb3de_NMDUbMM3LGMoWut/view?usp=drivesdk",
     "name": "01 GodIsTheLord-pl2nd.pdf",
     "description": "“GOD IS THE LORD” IN TONE SIX",
-    "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Orthros",
-    "automelon": "",
-    "periodId": "octoechos",
-    "feastId": "CommonOrthros"
+    "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+    "automelon": ""
   },
   "GOD IS THE LORD IN TONE THREE": {
     "url": "https://drive.google.com/file/d/1HjXqjH6CnppIa-KgKdm_G5Ux7xzSyQOP/view?usp=drivesdk",
     "name": "01 GodIsTheLord-3rd.pdf",
     "description": "“GOD IS THE LORD” IN TONE THREE",
-    "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Orthros",
-    "automelon": "",
-    "periodId": "octoechos",
-    "feastId": "CommonOrthros"
+    "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+    "automelon": ""
   },
   "GOD IS THE LORD IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1IHceNuL5j0-BRKPIpkMPIj3KtcH3q2No/view?usp=drivesdk",
     "name": "01 GodIsTheLord-2nd.pdf",
     "description": "“GOD IS THE LORD” IN TONE TWO",
-    "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Orthros",
-    "automelon": "",
-    "periodId": "octoechos",
-    "feastId": "CommonOrthros"
+    "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+    "automelon": ""
   },
   "GOD IS WITH US IN TONE SIX": {
     "url": "https://drive.google.com/file/d/14iZMFbz_4uw9KW21R8ADNvGK4SpNPRUm/view?usp=drivesdk",
@@ -2969,10 +3012,10 @@
         "name": "05 PolyeleosAGoodWordPsalm44-pl4th-ElMassih-EN.pdf",
         "description": "“A GOOD WORD” (VERSES FROM PSALM 44) IN TONE ONE | El Massih",
         "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Orthros",
-        "periodId": "octoechos",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
-        "feastId": "CommonOrthros"
+        "feastId": ""
       },
       {
         "label": "Phoakeus",
@@ -2980,10 +3023,10 @@
         "name": "05 PolyeleosAGoodWordPsalm44-pl4th-Phoakeus-EN.pdf",
         "description": "“A GOOD WORD” (VERSES FROM PSALM 44) IN TONE ONE | Phoakeus",
         "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Orthros",
-        "periodId": "octoechos",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
-        "feastId": "CommonOrthros"
+        "feastId": ""
       }
     ]
   },
@@ -2991,19 +3034,15 @@
     "url": "https://drive.google.com/file/d/1Uvf7QsF3Ukr5nMy3Pxm8qMgLW2P7YzZR/view?usp=drivesdk",
     "name": "18 BriefDoxology-pl4th.pdf",
     "description": "THE GREAT DOXOLOGY IN TONE EIGHT",
-    "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Orthros",
-    "automelon": "",
-    "periodId": "octoechos",
-    "feastId": "CommonOrthros"
+    "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+    "automelon": ""
   },
   "GREAT DOXOLOGY IN TONE FIVE": {
     "url": "https://drive.google.com/file/d/1soB0Mk117mnRvUSb7PxHj9SO9n0j81oD/view?usp=drivesdk",
     "name": "18 BriefDoxology-pl1st.pdf",
     "description": "GREAT DOXOLOGY IN TONE FIVE",
-    "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Orthros",
-    "automelon": "",
-    "periodId": "octoechos",
-    "feastId": "CommonOrthros"
+    "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+    "automelon": ""
   },
   "GREAT DOXOLOGY IN TONE FOUR": {
     "type": "multi",
@@ -3014,10 +3053,10 @@
         "name": "18 BriefDoxology-4th.pdf",
         "description": "THE Great Doxology IN TONE FOUR | SA",
         "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Orthros",
-        "periodId": "octoechos",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
-        "feastId": "CommonOrthros"
+        "feastId": ""
       }
     ]
   },
@@ -3025,10 +3064,8 @@
     "url": "https://drive.google.com/file/d/1iNzEXnQHpdRtQQF3N_7rWXatJpYvKxQU/view?usp=drivesdk",
     "name": "18 BriefDoxology-1st.pdf",
     "description": "GREAT DOXOLOGY IN TONE ONE",
-    "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Orthros",
-    "automelon": "",
-    "periodId": "octoechos",
-    "feastId": "CommonOrthros"
+    "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+    "automelon": ""
   },
   "GREAT DOXOLOGY IN TONE SEVEN": {
     "type": "multi",
@@ -3039,10 +3076,10 @@
         "name": "18 BriefDoxology-pl3rd-grave.pdf",
         "description": "GREAT DOXOLOGY IN TONE SEVEN | St Anthony",
         "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Orthros",
-        "periodId": "octoechos",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
-        "feastId": "CommonOrthros"
+        "feastId": ""
       }
     ]
   },
@@ -3055,10 +3092,10 @@
         "name": "18 BriefDoxology-3rd.pdf",
         "description": "GREAT DOXOLOGY IN TONE THREE | Brief",
         "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Orthros",
-        "periodId": "octoechos",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
-        "feastId": "CommonOrthros"
+        "feastId": ""
       }
     ]
   },
@@ -3071,10 +3108,10 @@
         "name": "18 BriefDoxology-2nd.pdf",
         "description": "THE GREAT DOXOLOGY IN TONE TWO | Kavadas",
         "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Orthros",
-        "periodId": "octoechos",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
-        "feastId": "CommonOrthros"
+        "feastId": ""
       }
     ]
   },
@@ -3897,13 +3934,13 @@
       {
         "label": "Slow",
         "url": "https://drive.google.com/file/d/1Vqub9iUgyZEJzgK75il0iHO2Ld585Suw/view?usp=drivesdk",
-        "name": "01 LordIHaveCriedSlow-pl4th.pdf",
+        "name": "04 LordIHaveCried-Slow-pl4th.pdf",
         "description": "“O LORD, I HAVE CRIED” IN TONE EIGHT | Slow",
         "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Vespers",
-        "periodId": "octoechos",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
-        "feastId": "CommonVespers"
+        "feastId": ""
       }
     ]
   },
@@ -3913,13 +3950,13 @@
       {
         "label": "Slow",
         "url": "https://drive.google.com/file/d/1zcNo_0Sd5009xQFqquuBwuvXKfifMTWZ/view?usp=drivesdk",
-        "name": "01 LordIHaveCriedSlow-pl1st.pdf",
+        "name": "04 LordIHaveCried-Slow-pl1st.pdf",
         "description": "“O LORD, I HAVE CRIED” IN TONE FIVE | Slow",
         "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Vespers",
-        "periodId": "octoechos",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
-        "feastId": "CommonVespers"
+        "feastId": ""
       }
     ]
   },
@@ -3929,13 +3966,13 @@
       {
         "label": "Slow",
         "url": "https://drive.google.com/file/d/1qdPlfmHWDXB5U6NzBiwF1dZyjcd9_6e1/view?usp=drivesdk",
-        "name": "01 LordIHaveCriedSlow-4th.pdf",
+        "name": "04 LordIHaveCried-Slow-4th.pdf",
         "description": "“O LORD, I HAVE CRIED” IN TONE FOUR | Slow",
         "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Vespers",
-        "periodId": "octoechos",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
-        "feastId": "CommonVespers"
+        "feastId": ""
       }
     ]
   },
@@ -3945,13 +3982,13 @@
       {
         "label": "Slow",
         "url": "https://drive.google.com/file/d/17DEA9f_1PtIIa7oYruVluspgHkGVtput/view?usp=drivesdk",
-        "name": "01 LordIHaveCriedSlow-1st.pdf",
+        "name": "04 LordIHaveCried-Slow-1st.pdf",
         "description": "“O LORD, I HAVE CRIED” IN TONE ONE | Slow",
         "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Vespers",
-        "periodId": "octoechos",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
-        "feastId": "CommonVespers"
+        "feastId": ""
       }
     ]
   },
@@ -3961,13 +3998,13 @@
       {
         "label": "Slow",
         "url": "https://drive.google.com/file/d/10I2sB21I7XT48OJDIFb2AZzOQmdWyezs/view?usp=drivesdk",
-        "name": "01 LordIHaveCriedSlow-grave.pdf",
+        "name": "04 LordIHaveCried-Slow-grave.pdf",
         "description": "“O LORD, I HAVE CRIED” IN TONE SEVEN | Slow",
         "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Vespers",
-        "periodId": "octoechos",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
-        "feastId": "CommonVespers"
+        "feastId": ""
       }
     ]
   },
@@ -3977,13 +4014,13 @@
       {
         "label": "Slow",
         "url": "https://drive.google.com/file/d/122WBk-_boMOSSHLw5cB_SIcsg36ZMRDb/view?usp=drivesdk",
-        "name": "01 LordIHaveCriedSlow-pl2nd.pdf",
+        "name": "04 LordIHaveCried-Slow-pl2nd.pdf",
         "description": "“O LORD, I HAVE CRIED” IN TONE SIX | Slow",
         "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Vespers",
-        "periodId": "octoechos",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
-        "feastId": "CommonVespers"
+        "feastId": ""
       }
     ]
   },
@@ -3993,13 +4030,13 @@
       {
         "label": "Slow",
         "url": "https://drive.google.com/file/d/1crgU3CPfURLnsLYZogaUMMQq06vRG8dP/view?usp=drivesdk",
-        "name": "01 LordIHaveCriedSlow-3rd.pdf",
+        "name": "04 LordIHaveCried-Slow-3rd.pdf",
         "description": "“O LORD, I HAVE CRIED” IN TONE THREE | Slow",
         "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Vespers",
-        "periodId": "octoechos",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
-        "feastId": "CommonVespers"
+        "feastId": ""
       }
     ]
   },
@@ -4009,13 +4046,13 @@
       {
         "label": "Slow",
         "url": "https://drive.google.com/file/d/1hvdmxZNgtP4UwnTmcCEhR0AueA9gPmRg/view?usp=drivesdk",
-        "name": "01 LordIHaveCriedSlow-2nd.pdf",
+        "name": "04 LordIHaveCried-Slow-2nd.pdf",
         "description": "“O LORD, I HAVE CRIED” IN TONE TWO | Slow",
         "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Vespers",
-        "periodId": "octoechos",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
-        "feastId": "CommonVespers"
+        "feastId": ""
       }
     ]
   },
@@ -4145,10 +4182,10 @@
         "name": "05 Polyeleos - Psalm 134 - Plagal First Mode - Mitri El Murr.pdf",
         "description": "THE POLYELEOS IN TONE ONE (ABRIDGED) | 134 - El Murr",
         "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Orthros",
-        "periodId": "octoechos",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
-        "feastId": "CommonOrthros"
+        "feastId": ""
       },
       {
         "label": "135 3-metered",
@@ -4156,10 +4193,10 @@
         "name": "05 Polyeleos Psalm 135 in 5 Tones Triple Metered EN.pdf",
         "description": "THE POLYELEOS IN TONE ONE (ABRIDGED) | 135 3-metered",
         "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Orthros",
-        "periodId": "octoechos",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
-        "feastId": "CommonOrthros"
+        "feastId": ""
       },
       {
         "label": "Brief El Massih",
@@ -4167,10 +4204,10 @@
         "name": "05 PolyeleosServantsOfLordPsalm134-Brief-1st-ElMassih-EN.pdf",
         "description": "THE POLYELEOS IN TONE ONE (ABRIDGED) | Brief El Massih",
         "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Orthros",
-        "periodId": "octoechos",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
-        "feastId": "CommonOrthros"
+        "feastId": ""
       },
       {
         "label": "Brief Athonite",
@@ -4178,10 +4215,10 @@
         "name": "05 PolyeleosServantsOfLordPsalm134-Brief-1st-Athonite-EN.pdf",
         "description": "THE POLYELEOS IN TONE ONE (ABRIDGED) | Brief Athonite",
         "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Orthros",
-        "periodId": "octoechos",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
-        "feastId": "CommonOrthros"
+        "feastId": ""
       }
     ]
   },
@@ -4398,10 +4435,8 @@
     "url": "https://drive.google.com/file/d/1cfiaZLlzUl1uxC9ObK5FBwhyDMEtL0KF/view?usp=drivesdk",
     "name": "05 PolyeleosPsalm136ByTheWatersOfBabylonModified.pdf",
     "description": "PSALM 136 BY THE WATERS OF BABYLON",
-    "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Orthros",
-    "automelon": "",
-    "periodId": "octoechos",
-    "feastId": "CommonOrthros"
+    "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+    "automelon": ""
   },
   "PSALM 33": {
     "type": "multi",
@@ -4429,12 +4464,10 @@
   },
   "SATURDAY PROKEIMENON IN TONE SIX": {
     "url": "https://drive.google.com/file/d/1EjnhljX5B4GlP0kyzPL6aFICkyLxVGBt/view?usp=drivesdk",
-    "name": "04-7 ProkeimenonSaturday-pl2nd-ElMassih.pdf",
+    "name": "06-7 Prokeimenon-Saturday-pl2nd-ElMassih.pdf",
     "description": "SATURDAY PROKEIMENON IN TONE SIX",
-    "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Vespers",
-    "automelon": "",
-    "periodId": "octoechos",
-    "feastId": "CommonVespers"
+    "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+    "automelon": ""
   },
   "SAVE US O GOOD COMFORTER WHO SING TO THEE ALLELUIA.": {
     "type": "multi",
@@ -4747,6 +4780,22 @@
         "periodId": "menaion",
         "feast": "Sunday Tone 7, Martyrs Guria, Shamuna and Habib the Deacon of Edessa",
         "feastId": "15-11"
+      }
+    ]
+  },
+  "[APL] APOLYTIKION OF THE ENTRANCE OF THE THEOTOKOS TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "St Anthony Moni",
+        "url": "https://drive.google.com/file/d/1v3lyAkVbSEcopU9BHTSE13DUbGGoPMog/view?usp=drivesdk",
+        "name": "15 Apolytikion-4th-SA-The Entrance of the Theotokos.pdf",
+        "description": "[APL] \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<b>APOLYTIKION OF THE ENTRANCE OF THE THEOTOKOS IN TONE FOUR | St Anthony Moni</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
+        "periodId": "menaion",
+        "feast": "The Entrance of the Theotokos",
+        "feastId": "21-11"
       }
     ]
   },
@@ -5125,24 +5174,6 @@
         "feastId": "08-09"
       }
     ]
-  },
-  "[LT] THEOTOKION TONE FIVE": {
-    "url": "https://drive.google.com/file/d/1t8ut-aKuNhIPiNTluzO1gnStd2S4zWsY/view?usp=drivesdk",
-    "name": "09 LityOTheotokosAndVirgin-pl1st.pdf",
-    "description": "[LT] THEOTOKION IN TONE FIVE",
-    "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Vespers",
-    "automelon": "",
-    "periodId": "octoechos",
-    "feastId": "CommonVespers"
-  },
-  "[LT] TROPARION TONE SEVEN": {
-    "url": "https://drive.google.com/file/d/1IzxnEgNc_UfkuiqPy-Y2hgx2jY77_Inq/view?usp=drivesdk",
-    "name": "09 LityRichMenBrief-grave.pdf",
-    "description": "[LT] TROPARION IN TONE SEVEN",
-    "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Vespers",
-    "automelon": "",
-    "periodId": "octoechos",
-    "feastId": "CommonVespers"
   },
   "[LT] ذُكصا زياح الليتين باللحنِ الرابِع": {
     "type": "multi",
@@ -5969,10 +6000,10 @@
         "name": "18 BriefDoxology-pl2nd copy.pdf",
         "description": "[O] GREAT DOXOLOGY IN TONE SIX | St Anthony",
         "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Orthros",
-        "periodId": "octoechos",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
-        "feastId": "CommonOrthros"
+        "feastId": ""
       },
       {
         "label": "Simonpetra",
@@ -6231,10 +6262,8 @@
     "url": "https://drive.google.com/file/d/1F1gHmvqAArg1b2dGpPfgO_W7FMEIBrRH/view?usp=drivesdk",
     "name": "14 LetEveryBreath-3rd.pdf",
     "description": "[O] PR] AINOI (PRAISES) IN TONE THREE",
-    "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Orthros",
-    "automelon": "",
-    "periodId": "octoechos",
-    "feastId": "CommonOrthros"
+    "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+    "automelon": ""
   },
   "[O] RESURRECTIONAL KATHISMATA HYMNS TONE EIGHT": {
     "type": "multi",
@@ -6388,10 +6417,8 @@
     "url": "https://drive.google.com/file/d/1ngjMQrIi6dNQlfHLkyMi4PSg_Hu2crO6/view?usp=drivesdk",
     "name": "14 LetEveryBreath-pl4th.pdf",
     "description": "[O] [PR] AINOI (PRAISES) IN TONE EIGHT",
-    "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Orthros",
-    "automelon": "",
-    "periodId": "octoechos",
-    "feastId": "CommonOrthros"
+    "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+    "automelon": ""
   },
   "[O] [PR] AINOI ( PRAISES ) TONE FIVE": {
     "type": "multi",
@@ -6402,10 +6429,10 @@
         "name": "14 LetEveryBreath-pl1st.pdf",
         "description": "[O] [PR] AINOI (PRAISES) IN TONE FIVE | St Anthony",
         "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Orthros",
-        "periodId": "octoechos",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
-        "feastId": "CommonOrthros"
+        "feastId": ""
       }
     ]
   },
@@ -6413,28 +6440,22 @@
     "url": "https://drive.google.com/file/d/1oadRSpnpDk4mHaPzKrPr9aU6P0Ceg57_/view?usp=drivesdk",
     "name": "14 LetEveryBreath-4th 2.pdf",
     "description": "<b>[O] [PR] </b>AINOI (PRAISES)<b> </b>IN TONE FOUR",
-    "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Orthros",
-    "automelon": "",
-    "periodId": "octoechos",
-    "feastId": "CommonOrthros"
+    "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+    "automelon": ""
   },
   "[O] [PR] AINOI ( PRAISES ) TONE ONE": {
     "url": "https://drive.google.com/file/d/1aPaoGTlLIuw205jqouFtbEj2w0Il6Og1/view?usp=drivesdk",
     "name": "14 LetEveryBreath-1st.pdf",
     "description": "[O] [PR] AINOI (PRAISES) IN TONE ONE",
-    "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Orthros",
-    "automelon": "",
-    "periodId": "octoechos",
-    "feastId": "CommonOrthros"
+    "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+    "automelon": ""
   },
   "[O] [PR] AINOI ( PRAISES ) TONE SEVEN": {
     "url": "https://drive.google.com/file/d/1iGO5PgHaQ1NYl-A_ZWbLxffyJ5Iu0oO9/view?usp=drivesdk",
     "name": "14 LetEveryBreath-pl3rd-grave.pdf",
     "description": "<b>[O] [PR] </b>AINOI (PRAISES)<b> </b>IN TONE SEVEN",
-    "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Orthros",
-    "automelon": "",
-    "periodId": "octoechos",
-    "feastId": "CommonOrthros"
+    "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+    "automelon": ""
   },
   "[O] [PR] AINOI ( PRAISES ) TONE SIX": {
     "type": "multi",
@@ -6445,10 +6466,10 @@
         "name": "14 LetEveryBreath-pl2nd.pdf",
         "description": "[O] [PR] AINOI (PRAISES) IN TONE SIX | St Anthony",
         "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Orthros",
-        "periodId": "octoechos",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
         "feast": "",
-        "feastId": "CommonOrthros"
+        "feastId": ""
       }
     ]
   },
@@ -6456,10 +6477,8 @@
     "url": "https://drive.google.com/file/d/1UvSorQwCIaVbzLV9YAnwGdGW9y7iSIL6/view?usp=drivesdk",
     "name": "14 LetEveryBreath-2nd.pdf",
     "description": "[O] [PR] AINOI (PRAISES) IN TONE TWO",
-    "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Orthros",
-    "automelon": "",
-    "periodId": "octoechos",
-    "feastId": "CommonOrthros"
+    "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+    "automelon": ""
   },
   "[O] [PR] ALSO FOR ST. LUKE TONE EIGHT": {
     "type": "multi",
@@ -7344,6 +7363,22 @@
       }
     ]
   },
+  "[V] BLESSED IS THE MAN": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Hierom Gregory",
+        "url": "https://drive.google.com/file/d/1ralELOjBJHlNTArzmxtZQYmbo-hK5o-v/view?usp=drivesdk",
+        "name": "03 BlessedIsTheMan-Brief-pl1st-HmGregory.pdf",
+        "description": "[V] <b>BLESSED IS THE MAN | Hierom Gregory</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      }
+    ]
+  },
   "[V] DOXASTICON FOR THE SUNDAY OF FORGIVENESS TONE SIX": {
     "url": "https://drive.google.com/file/d/1I2bTRE4O1WBefw-Rk9Maj7NCfiVEo1yK/view?usp=drivesdk",
     "name": "2B Doxastikon-pl2nd-EM-EN-ForgivenessSunday.pdf",
@@ -7425,15 +7460,22 @@
       {
         "label": "El Massih",
         "url": "https://drive.google.com/file/d/1L8gBMP0ed3pjHcGrXfohsvgMcSmgtoCO/view?usp=drivesdk",
-        "name": "04-6 ProkeimenonFriday-pl3rdgrave-ElMassih.pdf",
+        "name": "06-6 Prokeimenon-Friday-pl3rdgrave-ElMassih.pdf",
         "description": "[V] FRIDAY PROKEIMENON IN TONE SEVEN | El Massih",
         "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Vespers",
-        "periodId": "octoechos",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
-        "feastId": "CommonVespers"
+        "feastId": ""
       }
     ]
+  },
+  "[V] GREAT LITANY": {
+    "url": "https://drive.google.com/file/d/1MvNWeP78TATpE5W8rp7CpNpaFNdNdEiY/view?usp=drivesdk",
+    "name": "02 TheGreatLitany-pl4th-diffAuthors.pdf",
+    "description": "[V] \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<b>THE GREAT LITANY</b>",
+    "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+    "automelon": ""
   },
   "[V] MONDAY PROKEIMENON TONE FOUR": {
     "type": "multi",
@@ -7441,13 +7483,13 @@
       {
         "label": "El Massih",
         "url": "https://drive.google.com/file/d/1IrRys9dqMcHfkKEtED922490XWXAMouw/view?usp=drivesdk",
-        "name": "04-2 ProkeimenonMonday-4th-ElMassih.pdf",
+        "name": "06-2 Prokeimenon-Monday-4th-ElMassih.pdf",
         "description": "[V] MONDAY PROKEIMENON IN TONE FOUR | El Massih",
         "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Vespers",
-        "periodId": "octoechos",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
-        "feastId": "CommonVespers"
+        "feastId": ""
       }
     ]
   },
@@ -7473,13 +7515,13 @@
       {
         "label": "El Massih",
         "url": "https://drive.google.com/file/d/1qG2k0bQ6Rf4pRuLd_4D-I3T0MSei0WTn/view?usp=drivesdk",
-        "name": "04-5 ProkeimenonThursday-pl2nd-ElMassih.pdf",
+        "name": "06-5 Prokeimenon-Thursday-pl2nd-ElMassih.pdf",
         "description": "[V] THURSDAY PROKEIMENON IN TONE SIX | El Massih",
         "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Vespers",
-        "periodId": "octoechos",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
-        "feastId": "CommonVespers"
+        "feastId": ""
       }
     ]
   },
@@ -7489,13 +7531,13 @@
       {
         "label": "El Massih",
         "url": "https://drive.google.com/file/d/1BMmD9pjT-nmstURMydRlcCBU7UZPsUD7/view?usp=drivesdk",
-        "name": "04-3 ProkeimenonTuesday-1st-ElMassih.pdf",
+        "name": "06-3 Prokeimenon-Tuesday-1st-ElMassih.pdf",
         "description": "[V] TUESDAY PROKEIMENON IN TONE ONE | El Massih",
         "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Vespers",
-        "periodId": "octoechos",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
-        "feastId": "CommonVespers"
+        "feastId": ""
       }
     ]
   },
@@ -7505,13 +7547,13 @@
       {
         "label": "El Massih",
         "url": "https://drive.google.com/file/d/1BKhAHu_5DQcVjhrTMXZeT2F4VYrQDquY/view?usp=drivesdk",
-        "name": "04-4 ProkeimenonWednesday-5th-ElMassih.pdf",
+        "name": "06-4 Prokeimenon-Wednesday-5th-ElMassih.pdf",
         "description": "[V] WEDNESDAY PROKEIMENON IN TONE FIVE | El Massih",
         "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Common Vespers",
-        "periodId": "octoechos",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
         "feast": "",
-        "feastId": "CommonVespers"
+        "feastId": ""
       }
     ]
   },
@@ -7641,6 +7683,38 @@
         "periodId": "octoechos",
         "feast": "",
         "feastId": "Sunday"
+      }
+    ]
+  },
+  "[V] [AP] APOSTICHA MODE. PL. 1.": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Tony H",
+        "url": "https://drive.google.com/file/d/1Iq1FB1wOurXAKW3xwM7TEF6SvXgtR65N/view?usp=drivesdk",
+        "name": "13 Aposticha-pl1st-TonyH-Vespers-The Entrance of the Theotokos.pdf",
+        "description": "[V] [AP] <b>APOSTICHA</b><br />\n\n<b>Mode. Pl. 1. (**Rejoice**) | Tony H</b>",
+        "automelon": "REJOICE",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
+        "periodId": "menaion",
+        "feast": "The Entrance of the Theotokos",
+        "feastId": "21-11"
+      }
+    ]
+  },
+  "[V] [AP] DOXASTICON ( MODE PL 1ST )": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Tony H",
+        "url": "https://drive.google.com/file/d/13fMw7SDtQYPZq2Q-GR3Kcu1lINwMgp2O/view?usp=drivesdk",
+        "name": "14 Aposticha Doxasticon-pl2-TonyH-Vespers-The Entrance of the Theotokos.pdf",
+        "description": "[V] [AP] <b>DOXASTICON</b><br />\n\n<b>(Mode pl 1st) | Tony H</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
+        "periodId": "menaion",
+        "feast": "The Entrance of the Theotokos",
+        "feastId": "21-11"
       }
     ]
   },
@@ -8046,7 +8120,7 @@
       {
         "label": "Creemens",
         "url": "https://drive.google.com/file/d/1LYt7nW8vcbkBulRI139LCM8iBDus_wvJ/view?usp=drivesdk",
-        "name": "07 ApostichaDoxastikon-?-GC-Vespers-Martyrs Guria, Shamuna and Habib the Deacon of Edessa.pdf",
+        "name": "07 ApostichaDoxastikon-2nd-GC-Vespers-Martyrs Guria, Shamuna and Habib the Deacon of Edessa.pdf",
         "description": "[V] [AP] <b>DOXASTICON FOR THE MARTYRS<br />IN TONE TWO | Creemens</b>",
         "automelon": "",
         "path": "MyPrivateEnglishMusic / Menaion / 03 November / 15 Sunday Tone 7, Martyrs Guria, Shamuna and Habib the Deacon of Edessa",
@@ -8861,7 +8935,7 @@
       {
         "label": "Creemens",
         "url": "https://drive.google.com/file/d/1fN7fgP91uxTl3OKl5zq9bZCEunCQPcfu/view?usp=drivesdk",
-        "name": "02 LihcDoxastikon-?-GC-Vespers-Martyrs Guria, Shamuna and Habib the Deacon of Edessa.pdf",
+        "name": "02 LihcDoxastikon-2nd-GC-Vespers-Martyrs Guria, Shamuna and Habib the Deacon of Edessa.pdf",
         "description": "[V] [LIHC] <b>DOXASTICON FOR THE MARTYRS<br />IN TONE TWO | Creemens</b>",
         "automelon": "",
         "path": "MyPrivateEnglishMusic / Menaion / 03 November / 15 Sunday Tone 7, Martyrs Guria, Shamuna and Habib the Deacon of Edessa",
@@ -8911,6 +8985,22 @@
         "periodId": "menaion",
         "feast": "Transfiguration",
         "feastId": "06-08"
+      }
+    ]
+  },
+  "[V] [LIHC] DOXASTICON MODE PL. 2.": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Tony H",
+        "url": "https://drive.google.com/file/d/1sEdoV5NyZzKffJt_Oh5HRmj8WQMobD9i/view?usp=drivesdk",
+        "name": "06 SticherasDoxastikon-pl4th-TonyH-Vespers-The Entrance of the Theotokos.pdf",
+        "description": "[V] [LIHC] <b>DOXASTICON </b><b>Mode Pl. 2. | Tony H</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
+        "periodId": "menaion",
+        "feast": "The Entrance of the Theotokos",
+        "feastId": "21-11"
       }
     ]
   },
@@ -9685,6 +9775,38 @@
       }
     ]
   },
+  "[V] [LIHC] O LORD I HAVE CRIED IN THE FIRST MODE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "V Long version",
+        "url": "https://drive.google.com/file/d/1wVEu914NMKpY6-dPGGuZe1uNLTplLyfI/view?usp=drivesdk",
+        "name": "04 LordIHaveCried-VLongVersion-1st-ProtopsIakov.pdf",
+        "description": "[V] [LIHC] \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<b>“O LORD, I HAVE CRIED” IN THE FIRST MODE | V Long version</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      }
+    ]
+  },
+  "[V] [LIHC] STICHERA. FOR THE THEOTOKOS MODE 1.": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Tony H",
+        "url": "https://drive.google.com/file/d/1Od4Adg48YvRBmHlPrFiSvhwG1WrP65ve/view?usp=drivesdk",
+        "name": "05 Sticheras-1st-TonyH-Vespers-The Entrance of the Theotokos.pdf",
+        "description": "[V] [LIHC] <b>Stichera. For the Theotokos</b><br />\n\n<b>Mode 1. (**O strange\nwonder**) | Tony H</b>",
+        "automelon": "O STRANGE WONDER",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
+        "periodId": "menaion",
+        "feast": "The Entrance of the Theotokos",
+        "feastId": "21-11"
+      }
+    ]
+  },
   "[V] [LIHC] THEOTOKION FOR THE EARTHQUAKE TONE SIX": {
     "type": "multi",
     "versions": [
@@ -9895,6 +10017,22 @@
       }
     ]
   },
+  "[V] [LIHC] VERSES": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Triple meter",
+        "url": "https://drive.google.com/file/d/1AowrLELjHup4JwoNQt0XY6GHR9Al0z4U/view?usp=drivesdk",
+        "name": "05 Verses-TripleMeter-1st-SA.pdf",
+        "description": "[V] [LIHC] \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<b>VERSES | Triple meter</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      }
+    ]
+  },
   "[V] [LIHC] ذُكصا للصَليب المُقَدَّس باللحنِ الثاني": {
     "type": "multi",
     "versions": [
@@ -9977,6 +10115,72 @@
         "periodId": "menaion",
         "feast": "St Archangel Michael Miracle in Colossae",
         "feastId": "06-09"
+      }
+    ]
+  },
+  "[V] [LT] DOXASTICON IN PLAGAL FOURTH MODE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Tony H",
+        "url": "https://drive.google.com/file/d/1P5_-cMOxtKjtf_zuSOkDJH9M_lmAH-sX/view?usp=drivesdk",
+        "name": "09 EntreatyDoxastikon-pl1st-TonyH-Litia-The Entrance of the Theotokos.pdf",
+        "description": "[V] [LT] \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<b>DOXASTICON IN PLAGAL FOURTH MODE | Tony H</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
+        "periodId": "menaion",
+        "feast": "The Entrance of the Theotokos",
+        "feastId": "21-11"
+      }
+    ]
+  },
+  "[V] [LT] THEOTOKION TONE FIVE": {
+    "url": "https://drive.google.com/file/d/1t8ut-aKuNhIPiNTluzO1gnStd2S4zWsY/view?usp=drivesdk",
+    "name": "09 LityOTheotokosAndVirgin-pl1st.pdf",
+    "description": "[V] [LT] THEOTOKION IN TONE FIVE",
+    "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+    "automelon": ""
+  },
+  "[V] [LT] TROPARIA OF THE LITIA": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Tony H",
+        "url": "https://drive.google.com/file/d/1nrXY55OOe2XwQka4vhnosla60w8ZneWa/view?usp=drivesdk",
+        "name": "08 Entreaty-1st-TonyH-Litia-The Entrance of the Theotokos.pdf",
+        "description": "[V] [LT] \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<b>Troparia of the Litia | Tony H</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
+        "periodId": "menaion",
+        "feast": "The Entrance of the Theotokos",
+        "feastId": "21-11"
+      }
+    ]
+  },
+  "[V] [LT] TROPARION TONE SEVEN": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Slow",
+        "url": "https://drive.google.com/file/d/1WqeupHbYTZnIVDvXvsSYBLcvKg5uVyQh/view?usp=drivesdk",
+        "name": "11B RichMen-Slow-pl3rdgrave-SA.pdf",
+        "description": "[V] [LT] TROPARION IN TONE SEVEN | Slow",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      },
+      {
+        "label": "Brief",
+        "url": "https://drive.google.com/file/d/1IzxnEgNc_UfkuiqPy-Y2hgx2jY77_Inq/view?usp=drivesdk",
+        "name": "09 LityRichMen-Brief-pl3rdgrave.pdf",
+        "description": "[V] [LT] TROPARION IN TONE SEVEN | Brief",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
       }
     ]
   },
