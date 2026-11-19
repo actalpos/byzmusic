@@ -2215,6 +2215,22 @@
     "feast": "Dormition of Theotokos",
     "feastId": "15-08"
   },
+  "EXAPOSTEILARION OF THE ENTRANCE IN TONE TWO": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Tony H",
+        "url": "https://drive.google.com/file/d/1OBbgdyQa4__NwHaifv12aqA5_Z1vs6-z/view?usp=drivesdk",
+        "name": "37 Exaposteilarion-2nd-TonyH-Orthros-The Entrance of the Theotokos.pdf",
+        "description": "<p><b>THE EXAPOSTEILARION OF THE ENTRANCE IN TONE TWO (**Hearken,\nye women**) | Tony H</b></p>",
+        "automelon": "HEARKEN YE WOMEN",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
+        "periodId": "menaion",
+        "feast": "The Entrance of the Theotokos",
+        "feastId": "21-11"
+      }
+    ]
+  },
   "EXAPOSTEILARION OF THE HOLY FATHERS IN TONE TWO": {
     "type": "multi",
     "versions": [
@@ -2365,6 +2381,17 @@
   "FESTAL ANABATHMOI IN TONE FOUR": {
     "type": "multi",
     "versions": [
+      {
+        "label": "Mitri el Murr",
+        "url": "https://drive.google.com/file/d/1UQBHxOVvssc4_z7S4iEZIVECm5pSTpZ8/view?usp=drivesdk",
+        "name": "07 Anabathmoi-4th-MitriElMurr.pdf",
+        "description": "FESTAL ANABATHMOI IN TONE FOUR | Mitri el Murr",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      },
       {
         "label": "SA",
         "url": "https://drive.google.com/file/d/1GM-_a9OjW2OrdrfYCff1wtXGGu3xYZ3m/view?usp=drivesdk",
@@ -3007,10 +3034,10 @@
     "type": "multi",
     "versions": [
       {
-        "label": "El Massih",
-        "url": "https://drive.google.com/file/d/11-ZdvCLJl_vI8-kGJSTQ5FxGC6tvROwF/view?usp=drivesdk",
-        "name": "05 PolyeleosAGoodWordPsalm44-pl4th-ElMassih-EN.pdf",
-        "description": "“A GOOD WORD” (VERSES FROM PSALM 44) IN TONE ONE | El Massih",
+        "label": "Phoakeus",
+        "url": "https://drive.google.com/file/d/1gMBh8ZpBNbZhVzdXRl3ZCtCCOG74qwxk/view?usp=drivesdk",
+        "name": "05 Polyeleos-AGoodWord-Psalm44-pl4th-Phoakeus-EN.pdf",
+        "description": "“A GOOD WORD” (VERSES FROM PSALM 44) IN TONE ONE @@ <b>“A GOOD WORD” IN PLAGAL FOUR </b>| Phoakeus<br />",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
         "periodId": "",
@@ -3018,10 +3045,42 @@
         "feastId": ""
       },
       {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/11-ZdvCLJl_vI8-kGJSTQ5FxGC6tvROwF/view?usp=drivesdk",
+        "name": "05 Polyeleos-AGoodWord-Psalm44-pl4th-ElMassih-EN.pdf",
+        "description": "“A GOOD WORD” (VERSES FROM PSALM 44) IN TONE ONE | El Massih",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      }
+    ]
+  },
+  "GOOD WORD IN PLAGAL FOUR": {
+    "type": "multi",
+    "versions": [
+      {
         "label": "Phoakeus",
         "url": "https://drive.google.com/file/d/1gMBh8ZpBNbZhVzdXRl3ZCtCCOG74qwxk/view?usp=drivesdk",
-        "name": "05 PolyeleosAGoodWordPsalm44-pl4th-Phoakeus-EN.pdf",
-        "description": "“A GOOD WORD” (VERSES FROM PSALM 44) IN TONE ONE | Phoakeus",
+        "name": "05 Polyeleos-AGoodWord-Psalm44-pl4th-Phoakeus-EN.pdf",
+        "description": "“A GOOD WORD” (VERSES FROM PSALM 44) IN TONE ONE @@ <b>“A GOOD WORD” IN PLAGAL FOUR </b>| Phoakeus<br />",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      }
+    ]
+  },
+  "GREAT DOXOLOGY IN DEFTEROPROTOS MODE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Makam S",
+        "url": "https://drive.google.com/file/d/1rVI9xBO6aIkbXD9_ZDvXE0wfrIfNSje8/view?usp=drivesdk",
+        "name": "18 Doxology-Slow-DefteroProtos-MakamS - Δεύτεροπρωτος.pdf",
+        "description": "<b>THE GREAT DOXOLOGY IN DEFTEROPROTOS MODE | Makam S</b>",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
         "periodId": "",
@@ -3032,14 +3091,14 @@
   },
   "GREAT DOXOLOGY IN TONE EIGHT": {
     "url": "https://drive.google.com/file/d/1Uvf7QsF3Ukr5nMy3Pxm8qMgLW2P7YzZR/view?usp=drivesdk",
-    "name": "18 BriefDoxology-pl4th.pdf",
+    "name": "18 Doxology-Brief-pl4th.pdf",
     "description": "THE GREAT DOXOLOGY IN TONE EIGHT",
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
     "automelon": ""
   },
   "GREAT DOXOLOGY IN TONE FIVE": {
     "url": "https://drive.google.com/file/d/1soB0Mk117mnRvUSb7PxHj9SO9n0j81oD/view?usp=drivesdk",
-    "name": "18 BriefDoxology-pl1st.pdf",
+    "name": "18 Doxology-Brief-pl1st.pdf",
     "description": "GREAT DOXOLOGY IN TONE FIVE",
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
     "automelon": ""
@@ -3050,7 +3109,7 @@
       {
         "label": "SA",
         "url": "https://drive.google.com/file/d/1zMKUx-G90K1E6LZbhdKGnT3q8-fApdvu/view?usp=drivesdk",
-        "name": "18 BriefDoxology-4th.pdf",
+        "name": "18 Doxology-Brief-4th.pdf",
         "description": "THE Great Doxology IN TONE FOUR | SA",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
@@ -3062,7 +3121,7 @@
   },
   "GREAT DOXOLOGY IN TONE ONE": {
     "url": "https://drive.google.com/file/d/1iNzEXnQHpdRtQQF3N_7rWXatJpYvKxQU/view?usp=drivesdk",
-    "name": "18 BriefDoxology-1st.pdf",
+    "name": "18 Doxology-Brief-1st.pdf",
     "description": "GREAT DOXOLOGY IN TONE ONE",
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
     "automelon": ""
@@ -3073,7 +3132,7 @@
       {
         "label": "St Anthony",
         "url": "https://drive.google.com/file/d/1aIwt_eCt3cUNKY07Ta2GyvJrtJCUi7tY/view?usp=drivesdk",
-        "name": "18 BriefDoxology-pl3rd-grave.pdf",
+        "name": "18 Doxology-Brief-pl3rd-grave.pdf",
         "description": "GREAT DOXOLOGY IN TONE SEVEN | St Anthony",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
@@ -3089,7 +3148,7 @@
       {
         "label": "Brief",
         "url": "https://drive.google.com/file/d/1lb95dZqaVa4bnB5yyX52XYn2exftmnUJ/view?usp=drivesdk",
-        "name": "18 BriefDoxology-3rd.pdf",
+        "name": "18 Doxology-Brief-3rd.pdf",
         "description": "GREAT DOXOLOGY IN TONE THREE | Brief",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
@@ -3105,7 +3164,7 @@
       {
         "label": "Kavadas",
         "url": "https://drive.google.com/file/d/1QiIEKBjjnL4ANCwEBIFOJtVvE2w4lOWo/view?usp=drivesdk",
-        "name": "18 BriefDoxology-2nd.pdf",
+        "name": "18 Doxology-Brief-2nd.pdf",
         "description": "THE GREAT DOXOLOGY IN TONE TWO | Kavadas",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
@@ -4177,6 +4236,28 @@
     "type": "multi",
     "versions": [
       {
+        "label": "Brief El Massih",
+        "url": "https://drive.google.com/file/d/1E_0NXyHha4EBGwSiiJEXG5JFE1aFNLtk/view?usp=drivesdk",
+        "name": "05 Polyeleos-ServantsOfLord-Psalm134-Brief-1st-ElMassih-EN.pdf",
+        "description": "THE POLYELEOS IN TONE ONE (ABRIDGED) | Brief El Massih",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      },
+      {
+        "label": "Brief Athonite",
+        "url": "https://drive.google.com/file/d/1GOgbI5K-xAHy0Kc_9Rb_8KKx2X7OuWbb/view?usp=drivesdk",
+        "name": "05 Polyeleos-ServantsOfLord-Psalm134-Brief-1st-Athonite-EN.pdf",
+        "description": "THE POLYELEOS IN TONE ONE (ABRIDGED) | Brief Athonite",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      },
+      {
         "label": "134 - El Murr",
         "url": "https://drive.google.com/file/d/17j6ezeqALFM4JgtcQgmXMgYMt8wFDTH5/view?usp=drivesdk",
         "name": "05 Polyeleos - Psalm 134 - Plagal First Mode - Mitri El Murr.pdf",
@@ -4192,28 +4273,6 @@
         "url": "https://drive.google.com/file/d/17FnQJ5BCgbhN0ezYXYTyAzJ64xdCKEfK/view?usp=drivesdk",
         "name": "05 Polyeleos Psalm 135 in 5 Tones Triple Metered EN.pdf",
         "description": "THE POLYELEOS IN TONE ONE (ABRIDGED) | 135 3-metered",
-        "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
-        "periodId": "",
-        "feast": "",
-        "feastId": ""
-      },
-      {
-        "label": "Brief El Massih",
-        "url": "https://drive.google.com/file/d/1E_0NXyHha4EBGwSiiJEXG5JFE1aFNLtk/view?usp=drivesdk",
-        "name": "05 PolyeleosServantsOfLordPsalm134-Brief-1st-ElMassih-EN.pdf",
-        "description": "THE POLYELEOS IN TONE ONE (ABRIDGED) | Brief El Massih",
-        "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
-        "periodId": "",
-        "feast": "",
-        "feastId": ""
-      },
-      {
-        "label": "Brief Athonite",
-        "url": "https://drive.google.com/file/d/1GOgbI5K-xAHy0Kc_9Rb_8KKx2X7OuWbb/view?usp=drivesdk",
-        "name": "05 PolyeleosServantsOfLordPsalm134-Brief-1st-Athonite-EN.pdf",
-        "description": "THE POLYELEOS IN TONE ONE (ABRIDGED) | Brief Athonite",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
         "periodId": "",
@@ -4431,9 +4490,19 @@
       }
     ]
   },
+  "PROKEIMENON IN FOURTH MODE": {
+    "url": "https://drive.google.com/file/d/1tdVebgK0yBmfrRJHKnb03KGMZMg9bFKn/view?usp=drivesdk",
+    "name": "29 Prokeimenon-4th-Orthros-The Entrance of the Theotokos.pdf",
+    "description": "<b>PROKEIMENON IN FOURTH MODE</b>",
+    "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
+    "automelon": "",
+    "periodId": "menaion",
+    "feast": "The Entrance of the Theotokos",
+    "feastId": "21-11"
+  },
   "PSALM 136 BY THE WATERS OF BABYLON": {
     "url": "https://drive.google.com/file/d/1cfiaZLlzUl1uxC9ObK5FBwhyDMEtL0KF/view?usp=drivesdk",
-    "name": "05 PolyeleosPsalm136ByTheWatersOfBabylonModified.pdf",
+    "name": "05 Polyeleos-ByTheWatersOfBabylon-Modified-Psalm136.pdf",
     "description": "PSALM 136 BY THE WATERS OF BABYLON",
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
     "automelon": ""
@@ -4732,6 +4801,22 @@
         "periodId": "octoechos",
         "feast": "",
         "feastId": "Sunday"
+      }
+    ]
+  },
+  "TRIADIKON": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "St Anthony Mon",
+        "url": "https://drive.google.com/file/d/1j3c9JSC3lflKj9qD1LNfXwx5CU1qZWl6/view?usp=drivesdk",
+        "name": "06 Triadikon-1st-SA.pdf",
+        "description": "TRIADIKON | St Anthony Mon ",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
       }
     ]
   },
@@ -5997,7 +6082,7 @@
       {
         "label": "St Anthony",
         "url": "https://drive.google.com/file/d/150w0wcwxv6egCY3MLv55Td5fC8pN8nUK/view?usp=drivesdk",
-        "name": "18 BriefDoxology-pl2nd copy.pdf",
+        "name": "18 Doxology-Brief-pl2nd copy.pdf",
         "description": "[O] GREAT DOXOLOGY IN TONE SIX | St Anthony",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
@@ -6397,6 +6482,54 @@
       }
     ]
   },
+  "[O] [KA] FOURTH TONE. JOSEPH WAS AMAZED": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Tony H",
+        "url": "https://drive.google.com/file/d/1I0LYHKN55tgk2-NYgmGtSfbcRKgx05WZ/view?usp=drivesdk",
+        "name": "24 Kathisma2-4th-TonyH-Orthros-The Entrance of the Theotokos.pdf",
+        "description": "[O] [KA]                 <b>Fourth Tone. Joseph was amazed | Tony H</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
+        "periodId": "menaion",
+        "feast": "The Entrance of the Theotokos",
+        "feastId": "21-11"
+      }
+    ]
+  },
+  "[O] [KA] KATHISMA I. FIRST MODE. THE SOLDIERS STANDING GUARD": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Tony H",
+        "url": "https://drive.google.com/file/d/1z-bPgdjqHIXWP7ah5mm6G4rUoHoLWYJ0/view?usp=drivesdk",
+        "name": "23 Kathisma1-2nd-TonyH-Orthros-The Entrance of the Theotokos.pdf",
+        "description": "[O] [KA] \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<b>Kathisma I. First Mode. The soldiers standing guard | Tony H</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
+        "periodId": "menaion",
+        "feast": "The Entrance of the Theotokos",
+        "feastId": "21-11"
+      }
+    ]
+  },
+  "[O] [KA] KATHISMA III.": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Tony H",
+        "url": "https://drive.google.com/file/d/1MmgUz3K4nbPmufTgNeoZKG9PYa73Wf88/view?usp=drivesdk",
+        "name": "27 Kathisma3-pl4th-TonyH-Orthros-The Entrance of the Theotokos.pdf",
+        "description": "[O] [KA] \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<b>Kathisma III. | Tony H</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
+        "periodId": "menaion",
+        "feast": "The Entrance of the Theotokos",
+        "feastId": "21-11"
+      }
+    ]
+  },
   "[O] [KA] RESURRECTIONAL KATHISMATA HYMNS TONE SEVEN": {
     "type": "multi",
     "versions": [
@@ -6480,6 +6613,22 @@
     "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
     "automelon": ""
   },
+  "[O] [PR] AINOI ( PRIASES ) IN THE FIRST MODE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Iakov Protops - long",
+        "url": "https://drive.google.com/file/d/187AetXLwYlzafzyzBtPqfe7JPbdoE6wA/view?usp=drivesdk",
+        "name": "14 LetEveryBreath-Long-1st-IakovProtps-Orthros.pdf",
+        "description": "<b>[O] [PR] AINOI (PRIASES) IN THE FIRST MODE | Iakov Protops - long</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Orthros",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      }
+    ]
+  },
   "[O] [PR] ALSO FOR ST. LUKE TONE EIGHT": {
     "type": "multi",
     "versions": [
@@ -6520,6 +6669,22 @@
         "periodId": "menaion",
         "feast": "Exaltation of the Cross",
         "feastId": "14-09"
+      }
+    ]
+  },
+  "[O] [PR] DOXASTIKON FOR THE PRAISES": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Tony H",
+        "url": "https://drive.google.com/file/d/1hCXkmZhyggJsShoRtgkCMqE8VnE7MmH6/view?usp=drivesdk",
+        "name": "41 Praises Doxasticon-2nd-TonyH-Orthros-The Entrance of the Theotokos.pdf",
+        "description": "[O] [PR]  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<b>DOXASTIKON FOR THE PRAISES</b>    <b> | Tony H</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
+        "periodId": "menaion",
+        "feast": "The Entrance of the Theotokos",
+        "feastId": "21-11"
       }
     ]
   },
@@ -6648,6 +6813,22 @@
         "periodId": "menaion",
         "feast": "Consecration of the Resurrection Curch",
         "feastId": "13-09"
+      }
+    ]
+  },
+  "[O] [PR] FOR THE ENTRANCE IN FIRST MODE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Tony H",
+        "url": "https://drive.google.com/file/d/1o-dld8HkvTNyM_usWMOo-cqHIL6Sesy7/view?usp=drivesdk",
+        "name": "40 Praises-1st-TonyH-Orthros-The Entrance of the Theotokos.pdf",
+        "description": "[O] [PR] \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<b>FOR THE ENTRANCE IN FIRST MODE | Tony H</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
+        "periodId": "menaion",
+        "feast": "The Entrance of the Theotokos",
+        "feastId": "21-11"
       }
     ]
   },
@@ -6830,6 +7011,22 @@
         "periodId": "octoechos",
         "feast": "",
         "feastId": "Sunday"
+      }
+    ]
+  },
+  "[O] [PR] PRAISE VERSES": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "St Anthony Mon",
+        "url": "https://drive.google.com/file/d/1wuPbPQZcGyRrBSMfdkPz6hNDekbtSuVu/view?usp=drivesdk",
+        "name": "39 PraiseVerses-1st-SA.pdf",
+        "description": "<b>[O] [PR] PRAISE VERSES | St Anthony Mon</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
+        "periodId": "menaion",
+        "feast": "The Entrance of the Theotokos",
+        "feastId": "21-11"
       }
     ]
   },
@@ -7282,6 +7479,16 @@
     "periodId": "menaion",
     "feast": "- Exaltation of the Holy Cross",
     "feastId": "14-09"
+  },
+  "[O] [PS50] FESTAL TROPARIA AFTER PSALM 50": {
+    "url": "https://drive.google.com/file/d/1gQUNRXFI2gLLL967o8Ud4M12Ax9jc2SH/view?usp=drivesdk",
+    "name": "30 PostPsalm50-2nd-TonyH-Orthros-The Entrance of the Theotokos.pdf",
+    "description": "[O] [PS50] <b>FESTAL TROPARIA AFTER PSALM 50</b>",
+    "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
+    "automelon": "",
+    "periodId": "menaion",
+    "feast": "The Entrance of the Theotokos",
+    "feastId": "21-11"
   },
   "[O] إكسابوستيلاري الصَليب المُقدّس باللحنِ الثاني": {
     "type": "multi",
