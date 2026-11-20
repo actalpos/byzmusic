@@ -2503,6 +2503,22 @@
       }
     ]
   },
+  "FIRST CANON ODE 9": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "George of Nicomedia",
+        "url": "https://drive.google.com/file/d/1u6DSic52JRLByH9Q6JC-_rqH81oNOZeh/view?usp=drivesdk",
+        "name": "33 Ode 9 First-Canon-for-Entry-of-the-Theotokos-into-the-Temple.pdf",
+        "description": "<b>FIRST CANON ODE 9 | George of Nicomedia</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
+        "periodId": "menaion",
+        "feast": "The Entrance of the Theotokos",
+        "feastId": "21-11"
+      }
+    ]
+  },
   "FIRST EOTHINON EXAPOSTEILARION IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1VXfwd7h2rMlUqfl9Y3HzyENOFOnTfT5a/view?usp=drivesdk",
     "name": "13 1st-EothinonExapostelarion-2nd-TonyH.pdf",
@@ -3243,6 +3259,156 @@
     "path": "Byzantine Music / EnglishByzantineMusic / Divine Liturgy / 9 Communion Hymns",
     "automelon": ""
   },
+  "IRMOS ODE 1": {
+    "url": "https://drive.google.com/file/d/1rUKVg5WSXaKMPK05W2Z_qqVTjCT9g9Rx/view?usp=drivesdk",
+    "name": "33 IrmosOde1-First-Canon-for-Entry-of-the-Theotokos-into-the-Temple.pdf",
+    "description": "<p><b>Irmos Ode 1:</b></p>",
+    "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
+    "automelon": "",
+    "periodId": "menaion",
+    "feast": "The Entrance of the Theotokos",
+    "feastId": "21-11"
+  },
+  "IRMOS ODE 3": {
+    "url": "https://drive.google.com/file/d/12jITEWm0cnjLUuL20W2B2GJGXV-mgrMT/view?usp=drivesdk",
+    "name": "33 IrmosOde3-First-Canon-for-Entry-of-the-Theotokos-into-the-Temple.pdf",
+    "description": "<p><b>Irmos Ode 3:</b></p>",
+    "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
+    "automelon": "",
+    "periodId": "menaion",
+    "feast": "The Entrance of the Theotokos",
+    "feastId": "21-11"
+  },
+  "IRMOS ODE 4": {
+    "url": "https://drive.google.com/file/d/1rmQeZ5URR8H_bWLkLooUjJdCrEE6v2H8/view?usp=drivesdk",
+    "name": "33 IrmosOde4First-Canon-for-Entry-of-the-Theotokos-into-the-Temple.pdf",
+    "description": "<p><b>Irmos Ode 4:</b></p>",
+    "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
+    "automelon": "",
+    "periodId": "menaion",
+    "feast": "The Entrance of the Theotokos",
+    "feastId": "21-11"
+  },
+  "IRMOS ODE 5": {
+    "url": "https://drive.google.com/file/d/1kYsEevbJQzj0cFGJC0rC6QkiaRxJfuB8/view?usp=drivesdk",
+    "name": "33 IrmosOde5-First-Canon-for-Entry-of-the-Theotokos-into-the-Temple.pdf",
+    "description": "<p><b>Irmos Ode 5:</b></p>",
+    "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
+    "automelon": "",
+    "periodId": "menaion",
+    "feast": "The Entrance of the Theotokos",
+    "feastId": "21-11"
+  },
+  "IRMOS ODE 6": {
+    "url": "https://drive.google.com/file/d/1HS1KZwJNsKmJODOld0Ugl1i6zd5hg-z6/view?usp=drivesdk",
+    "name": "33 IrmosOde6-First-Canon-for-Entry-of-the-Theotokos-into-the-Temple.pdf",
+    "description": "<p><b>Irmos Ode 6:</b></p>",
+    "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
+    "automelon": "",
+    "periodId": "menaion",
+    "feast": "The Entrance of the Theotokos",
+    "feastId": "21-11"
+  },
+  "IRMOS ODE 7": {
+    "url": "https://drive.google.com/file/d/1h-CIJ-osMU_J83Qcb54kSnnwbOfgdgu5/view?usp=drivesdk",
+    "name": "33 IrmosOde7-First-Canon-for-Entry-of-the-Theotokos-into-the-Temple.pdf",
+    "description": "<p><b>Irmos ode 7:</b></p>",
+    "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
+    "automelon": "",
+    "periodId": "menaion",
+    "feast": "The Entrance of the Theotokos",
+    "feastId": "21-11"
+  },
+  "IRMOS ODE 8": {
+    "url": "https://drive.google.com/file/d/1A2j0Jz_fjprWka2L36OSF_sm1hDMQmeW/view?usp=drivesdk",
+    "name": "33 IrmosOde8-First-Canon-for-Entry-of-the-Theotokos-into-the-Temple.pdf",
+    "description": "<p><b>Irmos ode 8:</b></p>",
+    "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
+    "automelon": "",
+    "periodId": "menaion",
+    "feast": "The Entrance of the Theotokos",
+    "feastId": "21-11"
+  },
+  "KATAVASIA ODE 1.": {
+    "url": "https://drive.google.com/file/d/1rUsEUdhTmNU3HcQdqSFHifaf7v5V0yc7/view?usp=drivesdk",
+    "name": "35 Ode 1-1st-SA-TheNativityOfCrist part 1.pdf",
+    "description": "<p><b>Katavasia: Ode 1. </b></p>",
+    "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
+    "automelon": "",
+    "periodId": "menaion",
+    "feast": "The Entrance of the Theotokos",
+    "feastId": "21-11"
+  },
+  "KATAVASIA ODE 3.": {
+    "url": "https://drive.google.com/file/d/1eJrU69twKbykZY9eq4zqQMdczUxYtM1E/view?usp=drivesdk",
+    "name": "35 Ode 3-1st-SA-TheNativityOfCrist part 2.pdf",
+    "description": "<b>Katavasia: Ode 3.</b>",
+    "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
+    "automelon": "",
+    "periodId": "menaion",
+    "feast": "The Entrance of the Theotokos",
+    "feastId": "21-11"
+  },
+  "KATAVASIA ODE 4.": {
+    "url": "https://drive.google.com/file/d/18xAM3CLXTD8ex6tUlTjGQJMyQKpaWQn5/view?usp=drivesdk",
+    "name": "35 Ode 4-1st-SA-TheNativityOfCrist part 3.pdf",
+    "description": "<b>Katavasia: Ode 4.</b>",
+    "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
+    "automelon": "",
+    "periodId": "menaion",
+    "feast": "The Entrance of the Theotokos",
+    "feastId": "21-11"
+  },
+  "KATAVASIA ODE 5.": {
+    "url": "https://drive.google.com/file/d/1aFRsCTapW7OajGNZEIkYhhAze0fzvEc0/view?usp=drivesdk",
+    "name": "35 Ode 5-1st-SA-TheNativityOfCrist part 4.pdf",
+    "description": "<p><b>Katavasia: Ode 5. </b></p>",
+    "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
+    "automelon": "",
+    "periodId": "menaion",
+    "feast": "The Entrance of the Theotokos",
+    "feastId": "21-11"
+  },
+  "KATAVASIA ODE 6.": {
+    "url": "https://drive.google.com/file/d/1D4gadk37ReejkrKu2iql0lKrlAbue_g3/view?usp=drivesdk",
+    "name": "35 Ode 6-1st-SA-TheNativityOfCrist part 5.pdf",
+    "description": "<p><b>Katavasia: </b><b>Ode\n6.</b> </p>",
+    "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
+    "automelon": "",
+    "periodId": "menaion",
+    "feast": "The Entrance of the Theotokos",
+    "feastId": "21-11"
+  },
+  "KATAVASIA ODE 7.": {
+    "url": "https://drive.google.com/file/d/1-Xd-UURZnafBxXJ3pKQe6txeHJY0g4e2/view?usp=drivesdk",
+    "name": "35 Ode 7-1st-SA-TheNativityOfCrist part 6.pdf",
+    "description": "<b>Katavasia: Ode 7.</b>",
+    "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
+    "automelon": "",
+    "periodId": "menaion",
+    "feast": "The Entrance of the Theotokos",
+    "feastId": "21-11"
+  },
+  "KATAVASIA ODE 8.": {
+    "url": "https://drive.google.com/file/d/1wdikWYzbjb_ILiedv_dbq_vEeRD_iAZ9/view?usp=drivesdk",
+    "name": "35 Ode 8-1st-SA-TheNativityOfCrist part 7.pdf",
+    "description": "<p><b>Katavasia: </b><b>Ode\n8.</b></p>",
+    "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
+    "automelon": "",
+    "periodId": "menaion",
+    "feast": "The Entrance of the Theotokos",
+    "feastId": "21-11"
+  },
+  "KATAVASIA ODE 9.": {
+    "url": "https://drive.google.com/file/d/120cD-ediZ505KLi2tAkCMzPQ8PAtCbHG/view?usp=drivesdk",
+    "name": "35 Ode 9-1st-SA-TheNativityOfCrist part 7.pdf",
+    "description": "<p><b>Katavasia Ode 9.</b></p>",
+    "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
+    "automelon": "",
+    "periodId": "menaion",
+    "feast": "The Entrance of the Theotokos",
+    "feastId": "21-11"
+  },
   "KATAVASIAE OF BOTH PENTECOST CANONS": {
     "type": "multi",
     "versions": [
@@ -3451,6 +3617,16 @@
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02-1 SATURDAY BEFORE MEAT-FARE SUNDAY",
     "automelon": "",
     "periodId": "triodion"
+  },
+  "KATHISMA. FOURTH TONE. JOSEPH WAS AMAZED.": {
+    "url": "https://drive.google.com/file/d/1_T-bBtnnTh9GGvKXBxl59C3MsEgx0PjC/view?usp=drivesdk",
+    "name": "36 Kathisma mid-canon-Orthros-The Entrance of the Theotokos.pdf",
+    "description": "<b>Kathisma. Fourth Tone. Joseph was amazed.</b>",
+    "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
+    "automelon": "",
+    "periodId": "menaion",
+    "feast": "The Entrance of the Theotokos",
+    "feastId": "21-11"
   },
   "KATHISMATA HYMNS OF PENTECOST": {
     "type": "multi",
@@ -4570,6 +4746,22 @@
     "description": "THE SECOND ANTIPHON FOR WEEKDAY",
     "path": "Byzantine Music / EnglishByzantineMusic / Divine Liturgy / 3 Second Antiphon",
     "automelon": ""
+  },
+  "SECOND CANON ODE 9": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Lord Basil",
+        "url": "https://drive.google.com/file/d/1S2oPpgnAur6MMB6U_Qj32UuwyLGTPBdN/view?usp=drivesdk",
+        "name": "34 Ode 9 Second-Canon-for-Entry-of-the-Theotokos-into-the-Temple.pdf",
+        "description": "<b>SECOND CANON ODE 9 | Lord Basil</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
+        "periodId": "menaion",
+        "feast": "The Entrance of the Theotokos",
+        "feastId": "21-11"
+      }
+    ]
   },
   "SECOND EOTHINON EXAPOSTEILARION IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1fjl-RnFx14euCyYNfi3K4f3P7ay6Tir1/view?usp=drivesdk",
@@ -7482,7 +7674,7 @@
   },
   "[O] [PS50] FESTAL TROPARIA AFTER PSALM 50": {
     "url": "https://drive.google.com/file/d/1gQUNRXFI2gLLL967o8Ud4M12Ax9jc2SH/view?usp=drivesdk",
-    "name": "30 PostPsalm50-2nd-TonyH-Orthros-The Entrance of the Theotokos.pdf",
+    "name": "30 PostPsalm50-TonyH-Orthros-The Entrance of the Theotokos.pdf",
     "description": "[O] [PS50] <b>FESTAL TROPARIA AFTER PSALM 50</b>",
     "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
     "automelon": "",
