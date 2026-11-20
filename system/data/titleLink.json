@@ -5506,6 +5506,22 @@
       }
     ]
   },
+  "[LV] SECOND ANTIPHON": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "En Ar Gr",
+        "url": "https://drive.google.com/file/d/1dIverCOY1xnHqYhX1tLAIVUILZbBJi0Y/view?usp=drivesdk",
+        "name": "SecondAntiphon-EN-AR-GR 2.pdf",
+        "description": "[LV] THE <b>SECOND</b> ANTIPHON | En Ar Gr",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Divine Liturgy / 3 Second Antiphon",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      }
+    ]
+  },
   "[L] ANAPHORA TONE THREE": {
     "url": "https://drive.google.com/file/d/1kPxQZtYdJoN0u40Q6rV8dZYtbX8liL8u/view?usp=drivesdk",
     "name": "13 Anaphora - Bilingual.pdf",
@@ -10433,7 +10449,7 @@
       {
         "label": "Triple meter",
         "url": "https://drive.google.com/file/d/1AowrLELjHup4JwoNQt0XY6GHR9Al0z4U/view?usp=drivesdk",
-        "name": "05 Verses-TripleMeter-1st-SA.pdf",
+        "name": "05 Verses-140-141-129-TripleMeter-1st-SA.pdf",
         "description": "[V] [LIHC] \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<b>VERSES | Triple meter</b>",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
