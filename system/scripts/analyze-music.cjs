@@ -1,9 +1,12 @@
 /*
  * BYZMUSIC — analyze-music.cjs
- * Versiune: 6.2.4
+ * Versiune: 6.2.5
  * Data: 2026-11-13
  *
  * ISTORIC MODIFICĂRI
+ * v6.2.5 — Identificare din antet PDF pentru Entrance (21 Nov) și
+ *          After-Feast (22 Nov), cu destinații Menaion separate.
+ *          Nu modifică regulile Octoichos sau protecțiile LIVE.
  * v6.2.4 — Glas necunoscut (?) permis în nume și procesare; fără blocare LIVE.
  * v6.2.3 — Recunoaștere Guria/Shamuna/Habib, Glory-at-LIHC și Glory-at-Aposticha;
  *          destinație confirmată pentru 15 November.
@@ -32,7 +35,7 @@
 const readline = require('node:readline');
 
 /*
- BYZMUSIC — MUSIC LIVE LOCAL v6 (preview implicit)
+ BYZMUSIC — MUSIC LIVE LOCAL v6.2.5 (preview implicit)
  =========================================
  FORMAT: <number> <Section>[-<tone>]-<Author>-<Service>-<Feast>.pdf
  VESPERS:
@@ -186,6 +189,10 @@ function musicIncipits(filename, text, section) {
 }
 function feastFrom(s) {
   const text = norm(s);
+  if (/\bafter\s*feast\b/.test(text) && /\b(entrance|entry)\b/.test(text) &&
+      /\btheotokos\b/.test(text)) return 'After-feast of the Entrance of the Theotokos';
+  if (/\b(entrance|entry)\b/.test(text) && /\btheotokos\b/.test(text))
+    return 'Entrance of the Theotokos into the Temple';
   if (/\b(chrysostom|chrysostomos)\b/.test(text)) return 'St John Chrysostom';
   if (/\b(guria|gurias|gurius|shamuna|shamoun|habib|abibus)\b/.test(text)) {
     return 'Martyrs Guria, Shamuna and Habib the Deacon of Edessa';
@@ -361,7 +368,14 @@ function analyze(file,access,services) {
       /november[\s._-]*15|nov[\s._-]*15|15th/i.test(filename) ||
       feastServices.some(s => sameDate(s.date,{month:11,day:15}))
     );
-    if (nov13) {
+    const pdfHeader = norm(lines(ex.text).slice(0,12).join(' '));
+    const datedNov22 = /\bnovember 22(nd)?\b/.test(pdfHeader);
+    const datedNov21 = /\bnovember 21(st)?\b/.test(pdfHeader);
+    if (feast==='After-feast of the Entrance of the Theotokos' && datedNov22) {
+      destination += '/03 November/22 Sunday Tone 8, After-feast of the Entrance of the Theotokos';
+    } else if (feast==='Entrance of the Theotokos into the Temple' && datedNov21) {
+      destination += '/03 November/21 Entrance of the Theotokos into the Temple';
+    } else if (nov13) {
       destination += '/03 November/13 John Chrysostom, archbishop of Constantinople';
     } else if (nov15) {
       destination += '/03 November/15 Sunday Tone 7, Martyrs Guria, Shamuna and Habib the Deacon of Edessa';
@@ -473,7 +487,7 @@ async function applyPlan(plan) {
   console.log(`\nLIVE: mutate ${moved}; erori ${failed}; jurnal: ${logFile}`);
 }
 async function main() {
-  console.log('\n========== BYZMUSIC — MUSIC LIVE LOCAL v6 (preview implicit) ==========');
+  console.log('\n========== BYZMUSIC — MUSIC LIVE LOCAL v6.2.5 (preview implicit) ==========');
   const apply = process.argv.includes('--apply');
   console.log(apply ? 'LIVE LOCAL cerut — mutare doar dupa confirmare.' : 'PREVIEW implicit — fara modificari.');
   console.log('Fara upload Google Drive.\n');

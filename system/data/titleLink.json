@@ -759,6 +759,22 @@
       }
     ]
   },
+  "APOLYTIKION OF THE ENTRANCE OF THE THEOTOKOS IN TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "St Anthony Mon",
+        "url": "https://drive.google.com/file/d/17FYlky6p-KDwBW2LmaG-ayA_0pn_vsCS/view?usp=drivesdk",
+        "name": "09 Apolytikion-4th-SA-The Entrance of the Theotokos.pdf",
+        "description": "<b>APOLYTIKION OF THE ENTRANCE OF THE THEOTOKOS IN TONE FOUR | St Anthony Mon</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 22 Sunday Tone 8, After-feast of the Entrance of the Theotokos",
+        "periodId": "menaion",
+        "feast": "Sunday Tone 8, After-feast of the Entrance of the Theotokos",
+        "feastId": "22-11"
+      }
+    ]
+  },
   "APOLYTIKION OF THE FIRST SUNDAY OF GREAT LENT IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1ZC4IbkI4RCFBeomrnHFzzr55qPQXWFgw/view?usp=drivesdk",
     "name": "4A Apolytikion-2nd-AA-EN-OrthodoxySunday.pdf",
@@ -8711,6 +8727,22 @@
       }
     ]
   },
+  "[V] [AP] THE DOXASTICON OF ENTRANCE OF THE THEOTOKOS TONE TWO": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Tony H",
+        "url": "https://drive.google.com/file/d/1WkMqKebYUkAOrj0K3Z6pslMxIvprXvIf/view?usp=drivesdk",
+        "name": "08 Aposticha Doxasticon-2nd-TonyH-Orthros-The Entrance of the Theotokos.pdf",
+        "description": "[V] [AP] <b>THE DOXASTICON OF ENTRANCE OF THE THEOTOKOS IN TONE TWO | Tony H</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 22 Sunday Tone 8, After-feast of the Entrance of the Theotokos",
+        "periodId": "menaion",
+        "feast": "Sunday Tone 8, After-feast of the Entrance of the Theotokos",
+        "feastId": "22-11"
+      }
+    ]
+  },
   "[V] [AP] THEOTOKION FOR THE RESURRECTION TONE EIGHT": {
     "type": "multi",
     "versions": [
@@ -9312,6 +9344,22 @@
       }
     ]
   },
+  "[V] [LIHC] DOXASTICON FOR THE ENTRANCE OF THE THEOTOKOS TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Tony H",
+        "url": "https://drive.google.com/file/d/1dWlHfD8z11MdYxP8iXoq0eetG2Wt60kQ/view?usp=drivesdk",
+        "name": "06 SticherasDoxastikon-pl4th-TonyH-Vespers-The Entrance of the Theotokos.pdf",
+        "description": "[V] [LIHC] <b>DOXASTICON FOR THE ENTRANCE OF THE THEOTOKOS IN TONE EIGHT | Tony H</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 22 Sunday Tone 8, After-feast of the Entrance of the Theotokos",
+        "periodId": "menaion",
+        "feast": "Sunday Tone 8, After-feast of the Entrance of the Theotokos",
+        "feastId": "22-11"
+      }
+    ]
+  },
   "[V] [LIHC] DOXASTICON FOR THE HOLY CROSS TONE TWO": {
     "type": "multi",
     "versions": [
@@ -9726,6 +9774,22 @@
         "periodId": "menaion",
         "feast": "Exaltation of the Cross",
         "feastId": "14-09"
+      }
+    ]
+  },
+  "[V] [LIHC] FOR THE AFTER-FEAST TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/1hxS5iExBNXxDyp2TrCytYUHtSNHnHLSx/view?usp=drivesdk",
+        "name": "01 LihcSticheras-pl4th-JEM-Vespers-After-feast of the Entrance of the Theotokos.pdf",
+        "description": "[V] [LIHC] <b>For the After-feast in Tone Eight</b><b> | El Massih</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 22 Sunday Tone 8, After-feast of the Entrance of the Theotokos",
+        "periodId": "menaion",
+        "feast": "Sunday Tone 8, After-feast of the Entrance of the Theotokos",
+        "feastId": "22-11"
       }
     ]
   },
