@@ -759,22 +759,6 @@
       }
     ]
   },
-  "APOLYTIKION OF THE ENTRANCE OF THE THEOTOKOS IN TONE FOUR": {
-    "type": "multi",
-    "versions": [
-      {
-        "label": "St Anthony Mon",
-        "url": "https://drive.google.com/file/d/17FYlky6p-KDwBW2LmaG-ayA_0pn_vsCS/view?usp=drivesdk",
-        "name": "09 Apolytikion-4th-SA-The Entrance of the Theotokos.pdf",
-        "description": "<b>APOLYTIKION OF THE ENTRANCE OF THE THEOTOKOS IN TONE FOUR | St Anthony Mon</b>",
-        "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 22 Sunday Tone 8, After-feast of the Entrance of the Theotokos",
-        "periodId": "menaion",
-        "feast": "Sunday Tone 8, After-feast of the Entrance of the Theotokos",
-        "feastId": "22-11"
-      }
-    ]
-  },
   "APOLYTIKION OF THE FIRST SUNDAY OF GREAT LENT IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1ZC4IbkI4RCFBeomrnHFzzr55qPQXWFgw/view?usp=drivesdk",
     "name": "4A Apolytikion-2nd-AA-EN-OrthodoxySunday.pdf",
@@ -5090,6 +5074,17 @@
   "[APL] APOLYTIKION OF THE ENTRANCE OF THE THEOTOKOS TONE FOUR": {
     "type": "multi",
     "versions": [
+      {
+        "label": "St Anthony Mon",
+        "url": "https://drive.google.com/file/d/1PXXjZ9mfAVQr1uwSVxTjDq_AHw4MiXPq/view?usp=drivesdk",
+        "name": "09 Apolytikion-4th-SA-The Entrance of the Theotokos.pdf",
+        "description": "[APL] <b>APOLYTIKION OF THE ENTRANCE OF THE THEOTOKOS IN TONE FOUR | St Anthony Mon</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 22 Sunday Tone 8, After-feast of the Entrance of the Theotokos",
+        "periodId": "menaion",
+        "feast": "Sunday Tone 8, After-feast of the Entrance of the Theotokos",
+        "feastId": "22-11"
+      },
       {
         "label": "St Anthony Moni",
         "url": "https://drive.google.com/file/d/1v3lyAkVbSEcopU9BHTSE13DUbGGoPMog/view?usp=drivesdk",
