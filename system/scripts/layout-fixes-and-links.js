@@ -546,7 +546,10 @@
         span.innerHTML = p.innerHTML;
 
         const eligibleVersions = hymnSelection.selectHymnVersions(item.versions, hymnContext, {
-          afterFeastId: window.FeastCalendar?.detectAfterFeastId(hymnContext?.feastId || '') || '',
+          afterFeastId:
+          window.FeastCalendar?.detectAfterFeastId(
+            hymnContext?.feastId || ""
+          ) || hymnContext?.feastId || "",
           afterFeast: /\bafter[ -]feast\b/i.test(baseKey)
         });
         if (!eligibleVersions.length) return;
