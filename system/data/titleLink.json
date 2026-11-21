@@ -2220,14 +2220,14 @@
     "versions": [
       {
         "label": "Tony H",
-        "url": "https://drive.google.com/file/d/1OBbgdyQa4__NwHaifv12aqA5_Z1vs6-z/view?usp=drivesdk",
+        "url": "https://drive.google.com/file/d/1LObuwod5pUJH3eTYnTn2QNjRdqJF-dVC/view?usp=drivesdk",
         "name": "37 Exaposteilarion-2nd-TonyH-Orthros-The Entrance of the Theotokos.pdf",
-        "description": "<p><b>THE EXAPOSTEILARION OF THE ENTRANCE IN TONE TWO (**Hearken,\nye women**) | Tony H</b></p>",
+        "description": "<b>THE EXAPOSTEILARION of the ENTRANCE IN TONE tWO<br /></b><b>(**</b><i><b>Hearken, ye women</b></i><b>**) | Tony H</b>",
         "automelon": "HEARKEN YE WOMEN",
-        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 22 Sunday Tone 8, After-feast of the Entrance of the Theotokos",
         "periodId": "menaion",
-        "feast": "The Entrance of the Theotokos",
-        "feastId": "21-11"
+        "feast": "Sunday Tone 8, After-feast of the Entrance of the Theotokos",
+        "feastId": "22-11"
       }
     ]
   },
@@ -2811,6 +2811,22 @@
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 04 Sunday of Forgiveness",
     "automelon": "HAVING LAID UP ALL THEIR HOPE",
     "periodId": "triodion"
+  },
+  "FOR THE ENTRANCE OF THE THEOTOKOS IN TONE ONE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Tony H",
+        "url": "https://drive.google.com/file/d/1px2siLkctcjReGp1B0iXgSpeHLr6zafy/view?usp=drivesdk",
+        "name": "40 Praises-1st-TonyH-Orthros-The Entrance of the Theotokos.pdf",
+        "description": "<b>For the Entrance of the Theotokos<br />in Tone One (**</b><i><b>Thou art the joy</b></i><b>**) | Tony H</b>",
+        "automelon": "THOU ART THE JOY",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 22 Sunday Tone 8, After-feast of the Entrance of the Theotokos",
+        "periodId": "menaion",
+        "feast": "Sunday Tone 8, After-feast of the Entrance of the Theotokos",
+        "feastId": "22-11"
+      }
+    ]
   },
   "FOR THE FIRST SUNDAY OF GREAT LENT IN TONE FOUR": {
     "url": "https://drive.google.com/file/d/1P3F4Tu1Nb6o_H3NjYEzoTV1OD8f2KaGy/view?usp=drivesdk",
@@ -3475,6 +3491,22 @@
         "url": "https://drive.google.com/file/d/1ZkjE7IHO-yEt_SRvGqXCiDLU-v4wdfs_/view?usp=drivesdk",
         "name": "11-17 Ode1-9-1st-DormitionOfTheotokos.pdf",
         "description": "THE KATAVASIAE OF THE DORMITION CANON IN TONE ONE | Karam",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Katavasiae",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      }
+    ]
+  },
+  "KATAVASIAE OF THE FIRST CANON OF CHRIST’S NATIVITY IN TONE ONE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "St Anthony Mon",
+        "url": "https://drive.google.com/file/d/1iWwe20akfAXHEde0dv-hKR-Y4B5PtOCO/view?usp=drivesdk",
+        "name": "11 Ode 1-9-1st-SA-TheNativityOfCrist.pdf",
+        "description": "<b>KATAVASIAE OF THE FIRST CANON OF CHRIST’S NATIVITY IN TONE ONE | St Anthony Mon</b>",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Katavasiae",
         "periodId": "",
@@ -5629,7 +5661,7 @@
       {
         "label": "St Anthony",
         "url": "https://drive.google.com/file/d/1ThMIuzq-bA0j3jeGeI1v4wwOkjZZOARV/view?usp=drivesdk",
-        "name": "07 Anabathmoi-pl4th-SA.pdf",
+        "name": "07 Anabathmoi-pl2nd-SA.pdf",
         "description": "[O] ANABATHMOI FROM THE OCTOECHOS IN TONE SIX | St Anthony",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Sunday Orthros",
