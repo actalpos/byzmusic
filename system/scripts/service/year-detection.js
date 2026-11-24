@@ -1,8 +1,16 @@
+// v1.1.1 — eroarea textutil nu blochează confirmarea manuală a anului.
 // textutil este disponibil pe macOS; citim doar textul, fără a modifica RTF-ul.
 import {execFileSync} from 'node:child_process';
 import path from 'node:path';
 export function detectYearFromRtf(filePath, sourceMonth, sourceDay) {
-  const text = execFileSync('/usr/bin/textutil',['-convert','txt','-stdout',filePath],{encoding:'utf8',maxBuffer:20*1024*1024});
+  let text;
+  try {
+    text = execFileSync('/usr/bin/textutil', ['-convert','txt','-stdout',filePath],
+      {encoding:'utf8',maxBuffer:20*1024*1024, stdio:['ignore','pipe','pipe']});
+  } catch (error) {
+    console.warn(`AVERTISMENT: textutil nu poate citi ${path.basename(filePath)}; anul trebuie confirmat manual.`);
+    return {year:null,candidates:[],ambiguous:false};
+  }
   const lines = text.split(/\r?\n/).map(s=>s.trim()).filter(Boolean).slice(0,100);
   const monthNames = ['January','February','March','April','May','June','July','August','September','October','November','December'];
   const monthName = monthNames[sourceMonth-1];

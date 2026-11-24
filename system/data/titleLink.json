@@ -1478,6 +1478,22 @@
       }
     ]
   },
+  "DOXASTICON FOR THE ENTRANCE OF THE THEOTOKOS IN TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Tony H",
+        "url": "https://drive.google.com/file/d/1RWMo4h8M5Qj3jGFlPq6kxLsR4K6MxyJA/view?usp=drivesdk",
+        "name": "02 SticherasDoxastikon-pl4th-TonyH-Vespers-The Entrance of the Theotokos.pdf",
+        "description": "<b>DOXASTICON FOR THE ENTRANCE OF THE THEOTOKOS IN TONE EIGHT | Tony H</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 25 Leave-Taking (Apodosis) of Entrance of Theotokos",
+        "periodId": "menaion",
+        "feast": "Leave-Taking (Apodosis) of Entrance of Theotokos",
+        "feastId": "25-11"
+      }
+    ]
+  },
   "DOXASTICON FOR THE FIRST SUNDAY OF GREAT LENT IN TONE SIX": {
     "url": "https://drive.google.com/file/d/1MLYXlwuVVowyMfmaVe-EiQsWHxIzHRIb/view?usp=drivesdk",
     "name": "14 PraisesDoxastikon-pl2nd-Karam-EN-OrthodoxySunday.pdf",
@@ -2017,6 +2033,22 @@
       }
     ]
   },
+  "EXAPOSTEILARIA OF ST. KATHERINE AND THE ENTRANCE IN TONE THREE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Archdiocese",
+        "url": "https://drive.google.com/file/d/1W7edGhNq_Mgcf4HbEbB1OdEzm1CiufR6/view?usp=drivesdk",
+        "name": "25 Exaposteilaria-3rd-AA-Orthros-St Katherine.pdf",
+        "description": "<b>EXAPOSTEILARIA of ST. KATHERINE AND the ENTRANCE IN TONE THREE<br /></b><b>(**</b><i><b>While standing in the Temple’s courts</b></i><b>**) | Archdiocese</b>",
+        "automelon": "WHILE STANDING IN THE TEMPLE’S COURTS",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 25 Leave-Taking (Apodosis) of Entrance of Theotokos",
+        "periodId": "menaion",
+        "feast": "Leave-Taking (Apodosis) of Entrance of Theotokos",
+        "feastId": "25-11"
+      }
+    ]
+  },
   "EXAPOSTEILARION & THEOTOKION FOR ST. ATHANASIUS IN TONE TWO": {
     "type": "multi",
     "versions": [
@@ -2220,14 +2252,14 @@
     "versions": [
       {
         "label": "Tony H",
-        "url": "https://drive.google.com/file/d/1LObuwod5pUJH3eTYnTn2QNjRdqJF-dVC/view?usp=drivesdk",
+        "url": "https://drive.google.com/file/d/1OBbgdyQa4__NwHaifv12aqA5_Z1vs6-z/view?usp=drivesdk",
         "name": "37 Exaposteilarion-2nd-TonyH-Orthros-The Entrance of the Theotokos.pdf",
-        "description": "<b>THE EXAPOSTEILARION of the ENTRANCE IN TONE tWO<br /></b><b>(**</b><i><b>Hearken, ye women</b></i><b>**) | Tony H</b>",
+        "description": "<p><b>THE EXAPOSTEILARION OF THE ENTRANCE IN TONE TWO (**Hearken,\nye women**) | Tony H</b></p>",
         "automelon": "HEARKEN YE WOMEN",
-        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 22 Sunday Tone 8, After-feast of the Entrance of the Theotokos",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
         "periodId": "menaion",
-        "feast": "Sunday Tone 8, After-feast of the Entrance of the Theotokos",
-        "feastId": "22-11"
+        "feast": "The Entrance of the Theotokos",
+        "feastId": "21-11"
       }
     ]
   },
@@ -2509,7 +2541,7 @@
       {
         "label": "George of Nicomedia",
         "url": "https://drive.google.com/file/d/1u6DSic52JRLByH9Q6JC-_rqH81oNOZeh/view?usp=drivesdk",
-        "name": "33 Ode 9 First-Canon-for-Entry-of-the-Theotokos-into-the-Temple.pdf",
+        "name": "33 Ode 9 First-Canon-4th-George-for-Entry-of-the-Theotokos-into-the-Temple.pdf",
         "description": "<b>FIRST CANON ODE 9 | George of Nicomedia</b>",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
@@ -4115,6 +4147,22 @@
       }
     ]
   },
+  "NINTH ODE OF THE FIRST CANON OF THE ENTRANCE IN TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "George of Nicom",
+        "url": "https://drive.google.com/file/d/1hd6SLiXOXkzKJGtYR9YQVqH3QJrSkPde/view?usp=drivesdk",
+        "name": "33 Ode 9 First-Canon-4th-George-Orthros-Entrance of the Theotokos into the Temple.pdf",
+        "description": "<b>NINTH ODE OF THE FIRST CANON OF THE ENTRANCE IN TONE FOUR | George of Nicom</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 25 Leave-Taking (Apodosis) of Entrance of Theotokos",
+        "periodId": "menaion",
+        "feast": "Leave-Taking (Apodosis) of Entrance of Theotokos",
+        "feastId": "25-11"
+      }
+    ]
+  },
   "NINTH ODE OF THE FIRST DORMITION CANON IN TONE ONE": {
     "type": "multi",
     "versions": [
@@ -4160,6 +4208,22 @@
         "periodId": "",
         "feast": "",
         "feastId": ""
+      }
+    ]
+  },
+  "NINTH ODE OF THE SECOND CANON OF THE ENTRANCE IN TONE ONE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "L Basil",
+        "url": "https://drive.google.com/file/d/1ypVXg9mcU2sL3Gw5rqzEYIJhb1ADMOf_/view?usp=drivesdk",
+        "name": "34 Ode 9 Second-Canon-1st-LordBasil-Orthros-Entrance of the Theotokos into the Temple.pdf",
+        "description": "<b>NINTH ODE OF THE SECOND CANON OF THE ENTRANCE IN TONE ONE | L Basil</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 25 Leave-Taking (Apodosis) of Entrance of Theotokos",
+        "periodId": "menaion",
+        "feast": "Leave-Taking (Apodosis) of Entrance of Theotokos",
+        "feastId": "25-11"
       }
     ]
   },
@@ -4796,7 +4860,7 @@
       {
         "label": "Lord Basil",
         "url": "https://drive.google.com/file/d/1S2oPpgnAur6MMB6U_Qj32UuwyLGTPBdN/view?usp=drivesdk",
-        "name": "34 Ode 9 Second-Canon-for-Entry-of-the-Theotokos-into-the-Temple.pdf",
+        "name": "34 Ode 9 Second-Canon-1st-LordBasil-for-Entry-of-the-Theotokos-into-the-Temple.pdf",
         "description": "<b>SECOND CANON ODE 9 | Lord Basil</b>",
         "automelon": "",
         "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
@@ -5103,19 +5167,57 @@
       }
     ]
   },
+  "[APL] APOLYTIKION OF ST. KATHERINE THE GREAT-MARTYR TONE FIVE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Archdiocese",
+        "url": "https://drive.google.com/file/d/1agpTqcm8zyviniGP6NMwiCz9ubjOdMde/view?usp=drivesdk",
+        "name": "08 Apolytikion-pl1st-AA-Vespers-Great-martyr Katherine the all-wise of Alexandria.pdf",
+        "description": "[APL] <b>APOLYTIKION OF ST. KATHERINE THE GREAT-MARTYR IN TONE FIVE<br />(**</b><i><b>Let us worship the Word</b></i><b>**) | Archdiocese</b>",
+        "automelon": "LET US WORSHIP THE WORD",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 25 Leave-Taking (Apodosis) of Entrance of Theotokos",
+        "periodId": "menaion",
+        "feast": "Leave-Taking (Apodosis) of Entrance of Theotokos",
+        "feastId": "25-11"
+      }
+    ]
+  },
   "[APL] APOLYTIKION OF THE ENTRANCE OF THE THEOTOKOS TONE FOUR": {
     "type": "multi",
     "versions": [
       {
         "label": "St Anthony Mon",
-        "url": "https://drive.google.com/file/d/1PXXjZ9mfAVQr1uwSVxTjDq_AHw4MiXPq/view?usp=drivesdk",
-        "name": "09 Apolytikion-4th-SA-The Entrance of the Theotokos.pdf",
+        "url": "https://drive.google.com/file/d/181QpSHFCNHyKpp2TDk--ogynhmTDl4ry/view?usp=drivesdk",
+        "name": "15 Apolytikion-4th-SA-The Entrance of the Theotokos.pdf",
         "description": "[APL] <b>APOLYTIKION OF THE ENTRANCE OF THE THEOTOKOS IN TONE FOUR | St Anthony Mon</b>",
         "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 22 Sunday Tone 8, After-feast of the Entrance of the Theotokos",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 25 Leave-Taking (Apodosis) of Entrance of Theotokos",
         "periodId": "menaion",
-        "feast": "Sunday Tone 8, After-feast of the Entrance of the Theotokos",
-        "feastId": "22-11"
+        "feast": "Leave-Taking (Apodosis) of Entrance of Theotokos",
+        "feastId": "25-11"
+      },
+      {
+        "label": "Archdiocese",
+        "url": "https://drive.google.com/file/d/14jPOlXNT9u-f9qKVLhea-OefRBM-0Oh4/view?usp=drivesdk",
+        "name": "15 Apolytikion-4th-AA-The Entrance of the Theotokos.pdf",
+        "description": "[APL] <b>APOLYTIKION OF THE ENTRANCE OF THE THEOTOKOS IN TONE FOUR | Archdiocese</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 25 Leave-Taking (Apodosis) of Entrance of Theotokos",
+        "periodId": "menaion",
+        "feast": "Leave-Taking (Apodosis) of Entrance of Theotokos",
+        "feastId": "25-11"
+      },
+      {
+        "label": "C Holway",
+        "url": "https://drive.google.com/file/d/1my60GmCVDNfVk-93PNokKpWe6Y9AJXkH/view?usp=drivesdk",
+        "name": "15 Apolytikion-4th-AA-The Entrance of the Theotokos.pdf",
+        "description": "[APL]  <b>APOLYTIKION OF THE ENTRANCE OF THE THEOTOKOS IN TONE FOUR | C Holway</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 21 The Entrance of the Theotokos",
+        "periodId": "menaion",
+        "feast": "The Entrance of the Theotokos",
+        "feastId": "21-11"
       },
       {
         "label": "St Anthony Moni",
@@ -6557,6 +6659,22 @@
       }
     ]
   },
+  "[O] PROKEIMENON FOR ST. KATHERINE TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "C Holway",
+        "url": "https://drive.google.com/file/d/1A2g5y1FoTDh8792fO0mOpY3pAlE6eav-/view?usp=drivesdk",
+        "name": "prokeimenon-orthros-wondrous_is_god.pdf",
+        "description": "[O] <b>PROKEIMENON FOR ST. KATHERINE<br />IN TONE FOUR | C Holway</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 25 Leave-Taking (Apodosis) of Entrance of Theotokos",
+        "periodId": "menaion",
+        "feast": "Leave-Taking (Apodosis) of Entrance of Theotokos",
+        "feastId": "25-11"
+      }
+    ]
+  },
   "[O] PROKEIMENON FOR ST. NEKTARIOS TONE FOUR": {
     "type": "multi",
     "versions": [
@@ -7014,6 +7132,22 @@
       }
     ]
   },
+  "[O] [PR] FOR ST. KATHERINE TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Archdiocese",
+        "url": "https://drive.google.com/file/d/1xDkF5k36V0ARq2TQ0f6kG-jCnL0zhZYn/view?usp=drivesdk",
+        "name": "26 Praises-4th-AA-Orthros-Great-martyr Katherine the all-wise of Alexandria.pdf",
+        "description": "[O] [PR] <b>For St. Katherine in Tone Four<br />(**</b><i><b>Unto them that fear Thee</b></i><b>**) | Archdiocese</b>",
+        "automelon": "UNTO THEM THAT FEAR THEE",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 25 Leave-Taking (Apodosis) of Entrance of Theotokos",
+        "periodId": "menaion",
+        "feast": "Leave-Taking (Apodosis) of Entrance of Theotokos",
+        "feastId": "25-11"
+      }
+    ]
+  },
   "[O] [PR] FOR ST. LUKE TONE ONE": {
     "type": "multi",
     "versions": [
@@ -7091,6 +7225,22 @@
         "periodId": "menaion",
         "feast": "The Entrance of the Theotokos",
         "feastId": "21-11"
+      }
+    ]
+  },
+  "[O] [PR] FOR THE ENTRANCE OF THE THEOTOKOS TONE ONE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Archdiocese",
+        "url": "https://drive.google.com/file/d/1pIhT4ANFUx1mFRMw8x7fzXdpBsHo0E8V/view?usp=drivesdk",
+        "name": "26 Praises-1st-AA-Orthros-Entrance of the Theotokos into the Temple.pdf",
+        "description": "[O] [PR] <b>For the Entrance of the Theotokos<br />in Tone One (**</b><i><b>Thou art the joy</b></i><b>**) | Archdiocese</b>",
+        "automelon": "THOU ART THE JOY",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 25 Leave-Taking (Apodosis) of Entrance of Theotokos",
+        "periodId": "menaion",
+        "feast": "Leave-Taking (Apodosis) of Entrance of Theotokos",
+        "feastId": "25-11"
       }
     ]
   },
@@ -7356,6 +7506,22 @@
       }
     ]
   },
+  "[O] [PR] THE DOXASTICON OF ENTRANCE OF THE THEOTOKOS TONE TWO": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Tony H",
+        "url": "https://drive.google.com/file/d/1oxCQLsbo1gYOnKNNLw9oFAdObdhJJDu9/view?usp=drivesdk",
+        "name": "41 Praises Doxasticon-2nd-TonyH-Orthros-The Entrance of the Theotokos.pdf",
+        "description": "[O] [PR] <b>THE DOXASTICON OF ENTRANCE OF THE THEOTOKOS IN TONE TWO | Tony H</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 25 Leave-Taking (Apodosis) of Entrance of Theotokos",
+        "periodId": "menaion",
+        "feast": "Leave-Taking (Apodosis) of Entrance of Theotokos",
+        "feastId": "25-11"
+      }
+    ]
+  },
   "[O] [PR] THE DOXASTICON OF NATIVITY OF THE THEOTOKOS TONE SIX": {
     "type": "multi",
     "versions": [
@@ -7385,6 +7551,22 @@
         "periodId": "menaion",
         "feast": "St John the Theologian Repose",
         "feastId": "26-09"
+      }
+    ]
+  },
+  "[O] [PR] THE DOXASTICON OF ST. KATHERINE TONE TWO": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Creemens",
+        "url": "https://drive.google.com/file/d/18GUpglqYBoPi6LrdX1y5Qvx4GBE8BzkM/view?usp=drivesdk",
+        "name": "27 PraisesDoxastikon-pl4th-GC-Orthros-Great-martyr Katherine the all-wise of Alexandria.pdf",
+        "description": "[O] [PR] <b>THE DOXASTICON OF ST. KATHERINE IN TONE TWO | Creemens</b>",
+        "automelon": "",
+        "path": "MyPrivateEnglishMusic / Menaion / 03 November / 25 Leave-Taking (Apodosis) of Entrance of Theotokos",
+        "periodId": "menaion",
+        "feast": "Leave-Taking (Apodosis) of Entrance of Theotokos",
+        "feastId": "25-11"
       }
     ]
   },
@@ -7751,6 +7933,22 @@
     "periodId": "menaion",
     "feast": "The Entrance of the Theotokos",
     "feastId": "21-11"
+  },
+  "FESTAL TROPARIA AFTER PSALM 50 TONE TWO": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Creemens",
+        "url": "https://drive.google.com/file/d/1FRdfsoPHvpJXsFH7QbubyuTbzCOnZrTO/view?usp=drivesdk",
+        "name": "25 AfterPsalm50-Idiomelon-GC-Orthros-St-Katherine and LeaveTaking Entry of the Theotokos.pdf",
+        "description": "<b>[O]</b><b> [PS50] FESTAL TROPARIA</b><b> AFTER PSALM 50 IN TONE TWO | Creemens</b><br />",
+        "automelon": "",
+        "path": "MyPrivateEnglishMusic / Menaion / 03 November / 25 Leave-Taking (Apodosis) of Entrance of Theotokos",
+        "periodId": "menaion",
+        "feast": "Leave-Taking (Apodosis) of Entrance of Theotokos",
+        "feastId": "25-11"
+      }
+    ]
   },
   "[O] إكسابوستيلاري الصَليب المُقدّس باللحنِ الثاني": {
     "type": "multi",
@@ -8264,6 +8462,22 @@
         "periodId": "menaion",
         "feast": "July St Profet Elijah",
         "feastId": "20-07"
+      }
+    ]
+  },
+  "[V] [AP] DOXASTICON FOR ST. KATHERINE TONE TWO": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Creemens",
+        "url": "https://drive.google.com/file/d/1vpPXTj-IyNXsuTNa9SZjZl8c7m2bL6XY/view?usp=drivesdk",
+        "name": "06 ApostichaDocxastikon-GC-Vespers-Great-martyr Katherine the all-wise of Alexandria.pdf",
+        "description": "[V] [AP] <b>DOXASTICON FOR ST. KATHERINE<br />IN TONE TWO | Creemens</b>",
+        "automelon": "",
+        "path": "MyPrivateEnglishMusic / Menaion / 03 November / 25 Leave-Taking (Apodosis) of Entrance of Theotokos",
+        "periodId": "menaion",
+        "feast": "Leave-Taking (Apodosis) of Entrance of Theotokos",
+        "feastId": "25-11"
       }
     ]
   },
@@ -9130,6 +9344,22 @@
       }
     ]
   },
+  "[V] [LIHC] DOXASTICON FOR ST. KATHERINE TONE TWO": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Creemens",
+        "url": "https://drive.google.com/file/d/1SVfKfp3qe7zT0syjsO1cgBZNvXZGAqVG/view?usp=drivesdk",
+        "name": "02 LihcDoxastikon-2nd-GC-Vespers-Great-martyr Katherine the all-wise of Alexandria.pdf",
+        "description": "<b>[V] [LIHC] DOXASTICON FOR ST. KATHERINE<br />IN TONE TWO | Creemens</b>",
+        "automelon": "",
+        "path": "MyPrivateEnglishMusic / Menaion / 03 November / 25 Leave-Taking (Apodosis) of Entrance of Theotokos",
+        "periodId": "menaion",
+        "feast": "Leave-Taking (Apodosis) of Entrance of Theotokos",
+        "feastId": "25-11"
+      }
+    ]
+  },
   "[V] [LIHC] DOXASTICON FOR ST. LUKE TONE SIX": {
     "type": "multi",
     "versions": [
@@ -9374,6 +9604,17 @@
   "[V] [LIHC] DOXASTICON FOR THE ENTRANCE OF THE THEOTOKOS TONE EIGHT": {
     "type": "multi",
     "versions": [
+      {
+        "label": "Karam",
+        "url": "https://drive.google.com/file/d/1n3XR_0v4x68QfRLgpEbtBoYCEjaE_5Sz/view?usp=drivesdk",
+        "name": "02 LihcDoxastikon-pl4th-CK-Vespers-Entrance of the Theotokos into the Temple.pdf",
+        "description": "<b>[V] [LIHC] DOXASTICON FOR THE ENTRANCE OF THE THEOTOKOS IN TONE EIGHT | Karam</b>",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 25 Leave-Taking (Apodosis) of Entrance of Theotokos",
+        "periodId": "menaion",
+        "feast": "Leave-Taking (Apodosis) of Entrance of Theotokos",
+        "feastId": "25-11"
+      },
       {
         "label": "Tony H",
         "url": "https://drive.google.com/file/d/1dWlHfD8z11MdYxP8iXoq0eetG2Wt60kQ/view?usp=drivesdk",
@@ -9660,6 +9901,22 @@
       }
     ]
   },
+  "[V] [LIHC] FOR ST. KATHERINE TONE ONE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Archdiocese",
+        "url": "https://drive.google.com/file/d/1vgPAVnuLQX5Vi_ahpoe5DVlgwxV8gFUc/view?usp=drivesdk",
+        "name": "01 LihcSticheras-1st-AA-Vespers-Great-martyr Katherine the all-wise of Alexandria.pdf",
+        "description": "[V] [LIHC] <b>For St. Katherine in Tone One<br />(**</b><i><b>Thou art the joy</b></i><b>**) | Archdiocese</b>",
+        "automelon": "THOU ART THE JOY",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 25 Leave-Taking (Apodosis) of Entrance of Theotokos",
+        "periodId": "menaion",
+        "feast": "Leave-Taking (Apodosis) of Entrance of Theotokos",
+        "feastId": "25-11"
+      }
+    ]
+  },
   "[V] [LIHC] FOR ST. LUKE TONE EIGHT": {
     "type": "multi",
     "versions": [
@@ -9923,6 +10180,22 @@
         "periodId": "menaion",
         "feast": "Dormition of Theotokos",
         "feastId": "15-08"
+      }
+    ]
+  },
+  "[V] [LIHC] FOR THE ENTRANCE TONE ONE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Archdiocese",
+        "url": "https://drive.google.com/file/d/15ipHXrZSGJJKfkJ01_woevWcSJipo0ui/view?usp=drivesdk",
+        "name": "01 LihcSticheras-1st-AA-Vespers-Entrance of the Theotokos into the Temple.pdf",
+        "description": "[V] [LIHC] <b>For the Entrance in Tone One<br />(**</b><i><b>O strange wonder</b></i><b>**) |Archdiocese</b>",
+        "automelon": "O STRANGE WONDER",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 25 Leave-Taking (Apodosis) of Entrance of Theotokos",
+        "periodId": "menaion",
+        "feast": "Leave-Taking (Apodosis) of Entrance of Theotokos",
+        "feastId": "25-11"
       }
     ]
   },

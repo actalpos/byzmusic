@@ -1,10 +1,17 @@
+/* v6.2.12 — --rename-only with manifest and future move support. */
+/* v6.2.11 — Fix 1121 Entry/Entrance of the Theotokos in filename. */
+/* v6.2.10 — Nume specific Exaposteilaria St Katherine; fara modificari de clasificare. */
+/* v6.2.9 — Exceptie stricta filename-only pentru cele doua Canoane Ode 9 fara text PDFKit; glas necunoscut. */
+/* v6.2.8 — Diagnostic detaliat pentru SKIP in preview, fara schimbarea regulilor de mutare. */
+/* v6.2.7 — Accepta 1121 din numele PDF pentru Canon Ode 9 Entry Theotokos; restul regulilor neschimbate. */
+/* v6.2.6 — Canon Ode 9; St Catherine 25 Nov; Praises Glory; composite safety. */
 /*
  * BYZMUSIC — analyze-music.cjs
- * Versiune: 6.2.5
+ * Versiune: 6.2.12
  * Data: 2026-11-13
  *
  * ISTORIC MODIFICĂRI
- * v6.2.5 — Identificare din antet PDF pentru Entrance (21 Nov) și
+ * v6.2.6 — Identificare din antet PDF pentru Entrance (21 Nov) și
  *          After-Feast (22 Nov), cu destinații Menaion separate.
  *          Nu modifică regulile Octoichos sau protecțiile LIVE.
  * v6.2.4 — Glas necunoscut (?) permis în nume și procesare; fără blocare LIVE.
@@ -17,6 +24,7 @@
  *
  * PORNIRE DIN ~/Projects/byzmusic/system
  *   node scripts/analyze-music.cjs
+ *   node scripts/analyze-music.cjs --rename-only
  *   node scripts/analyze-music.cjs --apply
  *
  * Preview-ul este implicit; --apply solicită confirmarea
@@ -35,7 +43,7 @@
 const readline = require('node:readline');
 
 /*
- BYZMUSIC — MUSIC LIVE LOCAL v6.2.5 (preview implicit)
+ BYZMUSIC — MUSIC LIVE LOCAL v6.2.9 (preview implicit)
  =========================================
  FORMAT: <number> <Section>[-<tone>]-<Author>-<Service>-<Feast>.pdf
  VESPERS:
@@ -121,6 +129,7 @@ const SECTIONS = [
   ['Vespers','06','Aposticha',/aposticha/i],
   ['Vespers','08','Apolytikion',/apolytikion|troparion/i],
   ['Orthros','23','AfterPsalm50Hymns',/after.{0,12}(orthros.gospel|psalm.{0,5}50)|psalm.{0,5}50.{0,25}hymns/i],
+  ['Orthros','24','CanonOde9',/9th.ode|ode.nine|ode.9|ninth.ode/i],
   ['Orthros','21','Kathismata',/kathismata|kathisma|sessional.hymns?/i],
   ['Orthros','22','Prokeimenon',/prokeimenon|prokimenon/i],
   ['Orthros','25','Exapoteilarion',/exapost|exapoteilarion|photagogikon/i],
@@ -161,6 +170,10 @@ function sectionFrom(filename, text) {
   if (/\bglory\s+at\s+(?:the\s+)?aposticha\b/i.test(n)) {
     return {service:'Vespers',number:'07',section:'ApostichaDoxastikon',source:'nume'};
   }
+  if (/\bglory\s+at\s+(?:the\s+)?praises\b/i.test(n))
+    return {service:'Orthros',number:'27',section:'PraisesDoxastikon',source:'nume'};
+  if (/\b9th\s+ode\b/i.test(n))
+    return {service:'Orthros',number:'24',section:'CanonOde9',source:'nume'};
   for (const [service,number,section,re] of SECTIONS) {
     if (re.test(n)) return {service,number,section,source:'nume'};
   }
@@ -193,6 +206,7 @@ function feastFrom(s) {
       /\btheotokos\b/.test(text)) return 'After-feast of the Entrance of the Theotokos';
   if (/\b(entrance|entry)\b/.test(text) && /\btheotokos\b/.test(text))
     return 'Entrance of the Theotokos into the Temple';
+  if (/\b(katherine|catherine)\b/.test(text)) return 'Great-martyr Katherine the all-wise of Alexandria';
   if (/\b(chrysostom|chrysostomos)\b/.test(text)) return 'St John Chrysostom';
   if (/\b(guria|gurias|gurius|shamuna|shamoun|habib|abibus)\b/.test(text)) {
     return 'Martyrs Guria, Shamuna and Habib the Deacon of Edessa';
@@ -252,6 +266,14 @@ function analyze(file,access,services) {
   let category = 'Menaion';
   let matchedIncipit = null;
 
+  if (/glory-at-the-aposticha-and-idiomelon-after-the-orthros-gospel/i.test(filename)) {
+    notes.push('PDF compus: Aposticha Doxastikon + Idiomelon dupa Evanghelia Orthros; verificare manuala inainte de mutare.');
+  }
+  if (/^exapost-1125-katherine/i.test(filename)) {
+    notes.push('PDF compus: Katherine, Mercurius si Leave-taking; verificati reutilizarea in mai multe slujbe.');
+  }
+  if (/^9th_ode-first_canon/i.test(filename)) notes.push('Canon Ode 9: First Canon.');
+  if (/^9th_ode-second_canon/i.test(filename)) notes.push('Canon Ode 9: Second Canon.');
   // Exceptie: acest fisier nu este atribuit unei sectiuni prin inferenta.
   if (/^Theotokion-O_Lady_do_thou_receive\.pdf$/i.test(filename)) {
     Object.assign(sec,{service:'?',number:'??',section:'Unknown',source:'decizie confirmata'});
@@ -353,9 +375,17 @@ function analyze(file,access,services) {
   if (matched.length) notes.push('Service-PDF candidat: '+matched.map(s=>s.name).join('; '));
   if (!feast && category==='Menaion') notes.push('Sarbatoarea NU este confirmata: nu alegem automat un folder Menaion.');
   if (category==='Menaion' && !feast) category='NECONFIRMAT';
+  if (sec.section==='CanonOde9') {
+    sec.section = /first.canon/i.test(filename) ? 'CanonOde9First' :
+                  /second.canon/i.test(filename) ? 'CanonOde9Second' : 'CanonOde9';
+  }
   const feastLabel = feast || 'Feast-UNCONFIRMED';
   const tonePart = multiTone?'':`-${tone}`;
-  const proposed = `${sec.number} ${sec.section}${tonePart}-${author.code}-${sec.service}-${safe(feastLabel)}.pdf`;
+  // Exceptie confirmata: PDF-ul Katherine contine trei exaposteilaria;
+  // pastram fisierul integral si folosim un nume neutru pentru grup.
+  const proposed = /^exapost-1125-katherine\.pdf$/i.test(filename)
+    ? `25 Exaposteilaria-3rd-AA-Orthros-St Katherine.pdf`
+    : `${sec.number} ${sec.section}${tonePart}-${author.code}-${sec.service}-${safe(feastLabel)}.pdf`;
   const root = access==='Public'?'Byzantine Music/EnglishByzantineMusic':'MyPrivateEnglishMusic';
   let destination = `${root}/${category}`;
   if (category==='Menaion' && feast) {
@@ -370,11 +400,17 @@ function analyze(file,access,services) {
     );
     const pdfHeader = norm(lines(ex.text).slice(0,12).join(' '));
     const datedNov22 = /\bnovember 22(nd)?\b/.test(pdfHeader);
-    const datedNov21 = /\bnovember 21(st)?\b/.test(pdfHeader);
+    const datedNov21 = /\bnovember 21(st)?\b/.test(pdfHeader) ||
+      (/(?:^|[^0-9])1121(?:[^0-9]|$)/.test(filename) &&
+       /(?:entry|entrance)[-_ ](?:of[-_ ](?:the[-_ ])?)?theotokos|theotokos[-_ ](?:entry|entrance)/i.test(filename));
     if (feast==='After-feast of the Entrance of the Theotokos' && datedNov22) {
       destination += '/03 November/22 Sunday Tone 8, After-feast of the Entrance of the Theotokos';
     } else if (feast==='Entrance of the Theotokos into the Temple' && datedNov21) {
       destination += '/03 November/21 Entrance of the Theotokos into the Temple';
+    } else if (feast==='Great-martyr Katherine the all-wise of Alexandria' &&
+               (/\b1125\b|\bnov[ ._-]*25\b/i.test(filename) || /\bnovember 25(th)?\b/.test(pdfHeader))) {
+      destination += '/03 November/25 Great-martyr Katherine the all-wise of Alexandria';
+      notes.push('Verificati numele exact al folderului Google Drive pentru 25 noiembrie.');
     } else if (nov13) {
       destination += '/03 November/13 John Chrysostom, archbishop of Constantinople';
     } else if (nov15) {
@@ -388,7 +424,20 @@ function analyze(file,access,services) {
   return {access,filename,ex,sec,author,feast,feastSource,matchedIncipit,hymns,tone,multiTone,notes,proposed,destination};
 }
 // LIVE LOCAL: analiza v5 ramane sursa propunerilor. Niciun upload.
+// Exceptie stricta: doua Canoane Ode 9, 21 Nov, fara text PDFKit.
+// Acceptam numai metadatele explicite din nume; glasul ramane '?'.
+function filenameOnlyCanonConfirmed(r) {
+  return r.access === 'Public' &&
+    /^9th_Ode-(?:First|Second)_Canon-Entry-Theotokos-1121-CK-WNBN\.pdf$/i.test(r.filename) &&
+    r.ex.status === 'PDFKit: fara text' &&
+    r.feast === 'Entrance of the Theotokos into the Temple' &&
+    r.sec.service === 'Orthros' &&
+    /^CanonOde9(?:First|Second)$/.test(r.sec.section) &&
+    r.author.code === 'CK' && r.tone === '?' &&
+    r.destination.endsWith('/03 November/21 Entrance of the Theotokos into the Temple');
+}
 function localTarget(r) {
+  if (/glory-at-the-aposticha-and-idiomelon-after-the-orthros-gospel/i.test(r.filename)) return null;
   const prefix = r.access === 'Public'
     ? 'Byzantine Music/EnglishByzantineMusic/'
     : 'MyPrivateEnglishMusic/';
@@ -397,7 +446,7 @@ function localTarget(r) {
   if (!relative.startsWith('Menaion/')) return null;
   if (/\[|\]|NECONFIRMAT|UNCONFIRMED|DE CONFIRMAT/i.test(relative)) return null;
   if (!r.feast || r.sec.service === '?' || r.sec.section === 'Unknown') return null;
-  if (r.sec.number === '??' || r.ex.status !== 'PDFKit') return null;
+  if (r.sec.number === '??' || (r.ex.status !== 'PDFKit' && !filenameOnlyCanonConfirmed(r))) return null;
   if (/UNCONFIRMED|NECONFIRMAT|\?|\[|\]/i.test(r.proposed.replace(/-\?-/g, '-'))) return null;
   const segments = relative.split('/');
   if (segments.some(x => !x || x === '.' || x === '..')) return null;
@@ -405,6 +454,74 @@ function localTarget(r) {
   const dest = path.resolve(base, ...segments, r.proposed);
   if (!dest.startsWith(base + path.sep)) return null;
   return dest;
+}
+const MANIFEST_PATH = path.join(ROOT, 'Music-PDF', '_rename-manifest.json');
+function readManifest() {
+  if (!fs.existsSync(MANIFEST_PATH)) return [];
+  const records = JSON.parse(fs.readFileSync(MANIFEST_PATH, 'utf8'));
+  if (!Array.isArray(records)) throw new Error('Manifest invalid: ' + MANIFEST_PATH);
+  return records;
+}
+function saveManifest(records) {
+  const temp = MANIFEST_PATH + '.tmp-' + process.pid;
+  fs.writeFileSync(temp, JSON.stringify(records, null, 2) + '\n', {flag:'wx'});
+  fs.renameSync(temp, MANIFEST_PATH);
+}
+async function confirmAction(prompt) {
+  if (!process.stdin.isTTY) {
+    console.error('Este necesar Terminal interactiv.');
+    process.exitCode=2; return false;
+  }
+  const rl=readline.createInterface({input:process.stdin,output:process.stdout});
+  let answer;
+  try { answer=await new Promise(resolve=>rl.question(prompt,resolve)); }
+  finally {rl.close();}
+  return answer.trim()==='LIVE LOCAL';
+}
+async function renameOnly(plan, manifest) {
+  const reserved=new Set();
+  const eligible=[];
+  for (const p of plan.filter(x=>!x.reason)) {
+    const target=path.join(path.dirname(p.source),path.basename(p.target));
+    if (target===p.source || fs.existsSync(target) || reserved.has(target)) {
+      console.log('SKIP RENAME:',path.basename(p.source),'— nume identic sau destinatie ocupata');
+      continue;
+    }
+    reserved.add(target);
+    eligible.push({p,target});
+  }
+  console.log('\n========== PLAN RENAME ONLY ==========');
+  for (const {p,target} of eligible) console.log('RENAME:',p.source,'=>',target);
+  console.log('Redenumiri propuse:',eligible.length,'; fara mutare, fara Google Drive.');
+  if (!eligible.length) return;
+  if (!await confirmAction('Scrie exact LIVE LOCAL pentru redenumire: ')) {
+    console.log('Anulat.'); return;
+  }
+  const logs=path.join(ROOT,'Processed','_logs');
+  fs.mkdirSync(logs,{recursive:true});
+  const logFile=path.join(logs,'rename-only-'+new Date().toISOString().replace(/[:.]/g,'-')+'.jsonl');
+  let done=0, failed=0;
+  for (const {p,target} of eligible) {
+    try {
+      if (!fs.existsSync(p.source) || fs.existsSync(target)) throw new Error('Sursa lipseste sau numele exista');
+      const sha256=fingerprint(p.source);
+      // Mutare atomica in acelasi director, fara suprascriere.
+      fs.linkSync(p.source,target);
+      try {fs.unlinkSync(p.source);}
+      catch(e) {fs.unlinkSync(target);throw e;}
+      const record={source:p.source,renamed:target,finalTarget:p.target,sha256,result:{...p.result,filename:path.basename(target)},time:new Date().toISOString()};
+      manifest.push(record);
+      saveManifest(manifest);
+      fs.appendFileSync(logFile,JSON.stringify({status:'RENAMED',...record})+'\n');
+      console.log('REDENUMIT:',path.basename(p.source),'=>',path.basename(target));
+      done++;
+    } catch(e) {
+      failed++;
+      fs.appendFileSync(logFile,JSON.stringify({status:'ERROR',source:p.source,target,error:e.message})+'\n');
+      console.error('EROARE RENAME:',path.basename(p.source),e.message);
+    }
+  }
+  console.log(`\nRENAME: ${done} reusite; ${failed} erori; jurnal: ${logFile}`);
 }
 function fingerprint(file) {
   const hash = crypto.createHash('sha256');
@@ -424,7 +541,21 @@ function buildPlan(results) {
     const source = path.join(ROOT, 'Music-PDF', r.access, r.filename);
     const target = localTarget(r);
     let reason = '';
-    if (!target) reason = 'clasificare/destinatie neconfirmata';
+    if (!target) {
+      const rdest = r.destination;
+      const checks = [];
+      const prefix = r.access === 'Public' ? 'Byzantine Music/EnglishByzantineMusic/' : 'MyPrivateEnglishMusic/';
+      const rel = rdest.startsWith(prefix) ? rdest.slice(prefix.length) : '';
+      if (!rdest.startsWith(prefix)) checks.push('prefix destinatie');
+      if (!rel.startsWith('Menaion/')) checks.push('categorie Menaion');
+      if (/\[|\]|NECONFIRMAT|UNCONFIRMED|DE CONFIRMAT/i.test(rel)) checks.push('folder neconfirmat');
+      if (!r.feast) checks.push('sarbatoare');
+      if (r.sec.service === '?' || r.sec.section === 'Unknown' || r.sec.number === '??') checks.push('moment liturgic');
+      if (r.ex.status !== 'PDFKit' && !filenameOnlyCanonConfirmed(r)) checks.push('extragere PDF: '+r.ex.status);
+      if (/UNCONFIRMED|NECONFIRMAT|\?|\[|\]/i.test(r.proposed.replace(/-\?-/g, '-'))) checks.push('nume neconfirmat');
+      if (/glory-at-the-aposticha-and-idiomelon-after-the-orthros-gospel/i.test(r.filename)) checks.push('PDF compus: verificare manuala');
+      reason = 'clasificare/destinatie neconfirmata' + (checks.length ? ' [' + checks.join('; ') + ']' : ' [verificare suplimentara]');
+    }
     else if (reserved.has(target)) reason = 'doua partituri propun acelasi nume';
     else if (fs.existsSync(target)) reason = 'destinatia exista deja';
     else if (!fs.existsSync(source)) reason = 'sursa lipseste';
@@ -433,7 +564,7 @@ function buildPlan(results) {
   }
   return plan;
 }
-async function applyPlan(plan) {
+async function applyPlan(plan,manifest) {
   const eligible = plan.filter(p => !p.reason);
   if (!eligible.length) { console.log('Nicio mutare eligibila.'); return; }
   if (!process.stdin.isTTY) {
@@ -476,6 +607,10 @@ async function applyPlan(plan) {
         description:{feast:p.result.feast,service:p.result.sec.service,section:p.result.sec.section,
           hymns:p.result.hymns,notes:p.result.notes,author:p.result.author.code}};
       fs.appendFileSync(logFile, JSON.stringify(record)+'\n');
+      if (p.fromManifest) {
+        const idx=manifest.findIndex(m=>m.renamed===p.source);
+        if (idx>=0) {manifest.splice(idx,1);saveManifest(manifest);}
+      }
       console.log('MUTAT:',p.result.filename,'=>',p.target);
       moved++;
     } catch(e) {
@@ -487,9 +622,12 @@ async function applyPlan(plan) {
   console.log(`\nLIVE: mutate ${moved}; erori ${failed}; jurnal: ${logFile}`);
 }
 async function main() {
-  console.log('\n========== BYZMUSIC — MUSIC LIVE LOCAL v6.2.5 (preview implicit) ==========');
+  console.log('\n========== BYZMUSIC — MUSIC LIVE LOCAL v6.2.12 (preview implicit) ==========');
   const apply = process.argv.includes('--apply');
-  console.log(apply ? 'LIVE LOCAL cerut — mutare doar dupa confirmare.' : 'PREVIEW implicit — fara modificari.');
+  const rename = process.argv.includes('--rename-only');
+  if (apply && rename) throw new Error('Alege numai --apply sau --rename-only');
+  const manifest=readManifest();
+  console.log(apply ? 'LIVE LOCAL cerut — mutare doar dupa confirmare.' : rename ? 'RENAME ONLY cerut — fara mutare.' : 'PREVIEW implicit — fara modificari.');
   console.log('Fara upload Google Drive.\n');
   const services=serviceDocuments();
   console.log('SERVICE-PDF:');
@@ -499,7 +637,9 @@ async function main() {
   for (const access of ['Public','Restricted']) {
     const dir=path.join(ROOT,'Music-PDF',access);
     if (!fs.existsSync(dir)) {console.log('Folder lipsa:',dir);continue;}
+    const alreadyRenamed=new Set(manifest.map(m=>m.renamed));
     for (const name of fs.readdirSync(dir).filter(n=>/\.pdf$/i.test(n)).sort()) {
+      if (alreadyRenamed.has(path.join(dir,name))) continue;
       results.push(analyze(path.join(dir,name),access,services));
     }
   }
@@ -533,11 +673,25 @@ async function main() {
   }
   console.log(`\nTotal PDF-uri muzicale: ${results.length}`);
   const plan = buildPlan(results);
+  // Fisiere redenumite anterior: folosim clasificarea validata in manifest,
+  // nu incercam sa deducem din nou sarbatoarea din numele normalizat.
+  for (const m of manifest) {
+    if (!fs.existsSync(m.renamed)) continue;
+    const original=plan.findIndex(p=>p.source===m.source);
+    if (original>=0) plan.splice(original,1);
+    const valid=path.dirname(m.renamed)===path.dirname(m.source) &&
+      path.basename(m.renamed)===path.basename(m.finalTarget) &&
+      fs.existsSync(m.renamed) && fingerprint(m.renamed)===m.sha256;
+    plan.push({source:m.renamed,target:m.finalTarget,
+      reason:valid ? (fs.existsSync(m.finalTarget)?'destinatia exista deja':'') : 'manifest/hash neconfirmat',
+      result:m.result,fromManifest:true});
+  }
   console.log('\n========== PLAN LIVE LOCAL ==========');
   for (const p of plan) console.log((p.reason ? 'SKIP' : 'READY') + ': ' + p.result.filename +
     (p.reason ? ' — ' + p.reason : ' => ' + p.target));
   console.log(`READY: ${plan.filter(p=>!p.reason).length}; SKIP: ${plan.filter(p=>p.reason).length}`);
-  if (apply) await applyPlan(plan);
+  if (rename) await renameOnly(plan.filter(p=>!p.fromManifest),manifest);
+  else if (apply) await applyPlan(plan,manifest);
   else console.log('PREVIEW ONLY — foloseste --apply pentru executare cu confirmare.\n');
 }
 main().catch(err => { console.error('EROARE FATALA:', err); process.exitCode = 1; });

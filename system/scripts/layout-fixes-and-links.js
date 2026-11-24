@@ -228,7 +228,60 @@
     const globalIndex = {};
     // UPDATE 2026-11-11: [APL] = moment global, nu serviciu.
     const globalApolytikionIndex = {};
-    const globalCount = {};
+    // Index secundar: prefixele raman distincte, iar fiecare PDF isi pastreaza
+    // periodId + feastId. Valorile goale NU reprezinta automat un wildcard.
+    const scopedIndex = new Map();
+    const globalCollisionIndex = new Map();
+
+    function versionsOf(item) {
+      return item?.type === "multi" && Array.isArray(item.versions)
+        ? item.versions : [item];
+    }
+    function addScoped(service, moment, title, item, isGlobal = false) {
+      for (const version of versionsOf(item)) {
+        if (!version) continue;
+        const periodId = String(version.periodId || "").toLowerCase();
+        const feastId = String(version.feastId || "").toLowerCase();
+        const key = JSON.stringify([service, moment, title, periodId, feastId]);
+        if (!scopedIndex.has(key)) scopedIndex.set(key, []);
+        scopedIndex.get(key).push(version);
+        if (!isGlobal) {
+          if (!globalCollisionIndex.has(title)) globalCollisionIndex.set(title, []);
+          globalCollisionIndex.get(title).push(version);
+        }
+      }
+    }
+    function eligibleItem(item, title) {
+      const versions = versionsOf(item);
+      const afterFeast = /\bafter[ -]feast\b/i.test(title);
+      const afterFeastId = window.FeastCalendar?.detectAfterFeastId(
+        hymnContext?.feastId || ""
+      ) || hymnContext?.feastId || "";
+      const selected = hymnSelection.selectHymnVersions(versions, hymnContext,
+        { afterFeastId, afterFeast });
+      if (!selected.length) return null;
+      // A single original score without a version label keeps its title link.
+      if (selected.length === 1 && !String(selected[0].label ?? "").trim()) {
+        return selected[0];
+      }
+      return { type: "multi", versions: selected };
+    }
+    function scopedCandidates(service, moment, title) {
+      const found = [];
+      for (const [key, versions] of scopedIndex) {
+        const [s, m, t] = JSON.parse(key);
+        if (s === service && m === moment && t === title) found.push(...versions);
+      }
+      return found;
+    }
+    function resolveScoped(service, moment, title) {
+      const versions = scopedCandidates(service, moment, title);
+      return versions.length ? eligibleItem({ type: "multi", versions }, title) : null;
+    }
+    function eligibleGlobalCollision(title) {
+      const versions = globalCollisionIndex.get(title) || [];
+      return versions.length && !!eligibleItem({ type: "multi", versions }, title);
+    }
     const octoechosTheotokia = [];
 
     function extractTone(text) {
@@ -325,6 +378,7 @@
         const aplMatch = norm.match(/^\[APL\]\s+(.*)$/i);
         if (aplMatch) {
           globalApolytikionIndex[aplMatch[1]] = item;
+          addScoped("APL", "", aplMatch[1], item, true);
           continue;
         }
 
@@ -351,8 +405,7 @@
             item
           });
 
-          globalCount[title] =
-            (globalCount[title] || 0) + 1;
+          addScoped(service, moment, title, item);
 
           continue;
         }
@@ -368,10 +421,17 @@
           const service = m[1].toUpperCase();
           const title = m[2];
 
-          serviceIndex[`[${service}] ${title}`] = item;
+          const serviceKey = `[${service}] ${title}`;
 
-          globalCount[title] =
-            (globalCount[title] || 0) + 1;
+          if (!serviceIndex[serviceKey]) {
+            serviceIndex[serviceKey] = [];
+          }
+
+          serviceIndex[serviceKey].push({
+            moment: "",
+            item
+          });
+          addScoped(service, "", title, item);
 
           continue;
         }
@@ -381,9 +441,7 @@
         // ----------------------------
 
         globalIndex[norm] = item;
-
-        globalCount[norm] =
-          (globalCount[norm] || 0) + 1;
+        addScoped("", "", norm, item, true);
       }
 
       // sort moments inside each service
@@ -408,15 +466,8 @@
         });
       }
 
-      // remove global entries that collide
-      // with another service
-
-      for (const title in globalCount) {
-
-        if (globalCount[title] > 1) {
-          delete globalIndex[title];
-        }
-      }
+      // Coliziunile globale se decid DUPA filtrarea contextuala, nu
+      // prin numararea tuturor titlurilor din JSON.
 
     } catch (e) {
 
@@ -488,15 +539,10 @@
       let item = null;
 
       if (SERVICE) {
-        const serviceKey = `[${SERVICE}] ${baseKey}`;
-        const match = serviceIndex[serviceKey];
-        if (Array.isArray(match)) {
-          // Nu selectam dupa pozitie: numai momentul liturgic real.
-          const exact = match.find(entry => entry.moment === htmlMoment);
-          item = exact ? exact.item : null;
-        } else if (match) {
-          item = match;
-        }
+        // Prioritate: momentul exact, apoi cheia fara moment.
+        // Nu alegem primul candidat inainte de filtrarea dupa sarbatoare.
+        item = resolveScoped(SERVICE, htmlMoment, baseKey);
+        if (!item) item = resolveScoped(SERVICE, "", baseKey);
       }
 
       // Titlu generic: selectam Theotokionul dupa zi, moment si glas.
@@ -524,7 +570,7 @@
           );
         }
 
-        item = globalApolytikionIndex[aplTitle] || null;
+        item = resolveScoped("APL", "", aplTitle);
       }
 
       // ----------------------------
@@ -532,7 +578,10 @@
       // ----------------------------
 
       if (!item && !genericOctoechosTheotokion) {
-        item = globalIndex[baseKey];
+        // Nu lasa un global sa mascheze o intrare explicita eligibila.
+        if (!eligibleGlobalCollision(baseKey)) {
+          item = resolveScoped("", "", baseKey);
+        }
       }
 
       if (!item) {
@@ -561,7 +610,7 @@
           a.href = hymnSelection.pdfFitWidthUrl(v.url);
           a.target = "_blank";
           a.rel = "noopener noreferrer";
-          a.textContent = `(${v.label})`;
+          a.textContent = `(${String(v.label ?? "").trim() || v.name || "PDF"})`;
 
           span.appendChild(space);
           span.appendChild(a);

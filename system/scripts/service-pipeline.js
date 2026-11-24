@@ -1,3 +1,4 @@
+// v1.1.1 — READ independent; folder existent sau titlu confirmat; fără Drive pentru READ singur.
 // Coordonator modular; extras din convert-service.js v1.3.2.
 import fs from "node:fs";
 import path from "node:path";
@@ -6,8 +7,8 @@ import { stdin as input, stdout as output } from "node:process";
 import { downloadsDir, feastScript } from "./service/config.js";
 import { parseDateFromFilename, buildLiturgicalDate, serviceType } from "./service/dates.js";
 import { detectYearFromRtf } from "./service/year-detection.js";
-import { extractTitle, comparable } from "./service/titles.js";
-import { groupKey, resolveDestination } from "./service/destinations.js";
+import { extractTitle, comparable, safeTitle } from "./service/titles.js";
+import { groupKey, resolveDestination, baseDir } from "./service/destinations.js";
 import { runFeastFolders } from "./service/google-drive.js";
 import { processRtfPlan } from "./service/process-rtf.js";
 
@@ -225,7 +226,7 @@ async function main() {
 
   console.log("========================================");
 
-  console.log("PREVIEW SERVICE_TEXTS — v1.1");
+  console.log("PREVIEW SERVICE_TEXTS — v1.1.1");
 
   console.log("========================================");
 
@@ -233,6 +234,7 @@ async function main() {
 
 
 
+  const manualTitlePrompt = readline.createInterface({ input, output });
   const plan = [];
   const plannedHtml = new Set();
 
@@ -288,9 +290,36 @@ async function main() {
 
 
 
-    const selectedCandidate =
+    let selectedCandidate = vespCandidate ?? orthrosCandidate;
 
-      vespCandidate ?? orthrosCandidate;
+    // READ/LITIA independent: reuse a unique existing dated folder,
+    // otherwise ask for an explicit feast title (no guessing).
+    if (!selectedCandidate) {
+      const parent = baseDir(group.date);
+      const prefix = `${group.date.day} `;
+      const existing = fs.existsSync(parent)
+        ? fs.readdirSync(parent, { withFileTypes: true })
+            .filter(e => e.isDirectory() && e.name.startsWith(prefix))
+            .map(e => e.name.slice(prefix.length))
+        : [];
+      if (existing.length === 1) {
+        selectedCandidate = { filename: group.files[0], title: existing[0] };
+        console.log(`Titlu preluat din folder existent: ${existing[0]}`);
+      } else if (existing.length > 1) {
+        problems.push(`Titluri multiple pentru ${group.date.year}/${group.date.month}/${group.date.day}; verificare manuală necesară.`);
+      } else {
+        const response = (await manualTitlePrompt.question(
+          `Titlul sărbătorii pentru ${group.date.year}/${group.date.month}/${group.date.day} (N pentru anulare): `
+        )).trim();
+        if (/^n$/i.test(response) || !response) {
+          problems.push(`Titlu neconfirmat pentru ${group.date.year}/${group.date.month}/${group.date.day}.`);
+        } else {
+          try {
+            selectedCandidate = { filename: group.files[0], title: safeTitle(response) };
+          } catch (error) { problems.push(error.message); }
+        }
+      }
+    }
 
 
 
@@ -438,13 +467,7 @@ async function main() {
         });
 
       } else if (!selected) {
-
-        problems.push(
-
-          `${label}: lipsește VESP/ORTHROS pentru Google Drive.`
-
-        );
-
+        console.log(`  [INFO] READ/LITIA fără VESP/ORTHROS: nu se creează foldere Google Drive automat.`);
       }
 
 
@@ -460,6 +483,7 @@ async function main() {
 
 
   if (plan.length === 0 && problems.length === 0) {
+    manualTitlePrompt.close();
     console.log("\nToate HTML-urile există deja. SKIP total; nu se modifică nimic.");
     return;
   }
@@ -472,6 +496,7 @@ async function main() {
 
 
 
+  manualTitlePrompt.close();
   if (problems.length > 0) {
 
     console.error();
