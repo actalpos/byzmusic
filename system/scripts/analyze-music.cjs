@@ -1,3 +1,4 @@
+/* v6.3.0 — general Menaion matching; optional Poppler extraction; preserve existing modes. */
 /* v6.2.12 — --rename-only with manifest and future move support. */
 /* v6.2.11 — Fix 1121 Entry/Entrance of the Theotokos in filename. */
 /* v6.2.10 — Nume specific Exaposteilaria St Katherine; fara modificari de clasificare. */
@@ -114,6 +115,7 @@ const { spawnSync } = require('node:child_process');
 const crypto = require('node:crypto');
 
 const ROOT = path.join(os.homedir(), 'Documents', 'ByzMusic-Inbox');
+const VERSION = '6.3.0';
 const SWIFT = path.join(__dirname, 'extract-pdf.swift');
 const MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 const TONES = {1:'1st',2:'2nd',3:'3rd',4:'4th',5:'pl1st',6:'pl2nd',7:'pl3rd-grave',8:'pl4th'};
@@ -143,14 +145,58 @@ function safe(s) { return clean(s).replace(/[\\/:*?"<>|]/g, '').replace(/\.+$/,'
 function lines(s) { return String(s || '').split(/\r?\n/).map(clean).filter(Boolean); }
 function norm(s) { return clean(s).toLowerCase().replace(/[^a-z0-9]+/g,' ').trim(); }
 function extract(file) {
+  const pop = spawnSync('pdftotext',['-f','1','-l','3','-layout',file,'-'],{encoding:'utf8',timeout:90000,maxBuffer:8*1024*1024});
+  if (!pop.error && pop.status===0 && pop.stdout.trim()) return {text:pop.stdout,status:'PDFKit',engine:'pdftotext'};
   if (!fs.existsSync(SWIFT)) return {text:'',status:'LIPSESTE extract-pdf.swift'};
   const r = spawnSync('swift',[SWIFT,file],{encoding:'utf8',timeout:90000,maxBuffer:8*1024*1024});
   if (r.error || r.status !== 0) return {text:'',status:'EROARE PDFKit',error:r.error?.message || clean(r.stderr).slice(0,250)};
-  return {text:r.stdout || '',status:r.stdout?.trim()?'PDFKit':'PDFKit: fara text'};
+  return {text:r.stdout || '',status:r.stdout?.trim()?'PDFKit':'PDFKit: fara text',engine:'PDFKit'};
+}
+function explicitDate(text, compact=false) {
+  const n=String(text); const m=n.match(/\b(Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:t(?:ember)?)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)[ ._-]+(\d{1,2})(?:st|nd|rd|th)?\b/i);
+  let month,day;
+  if(m){month=MONTHS.findIndex(x=>x.slice(0,3).toLowerCase()===m[1].slice(0,3).toLowerCase())+1;day=+m[2];}
+  else if(compact){const all=[...n.matchAll(/(?:^|[-_ ])(0[1-9]|1[0-2])(0[1-9]|[12]\d|3[01])(?:[a-z])?(?=[-_. ]|$)/gi)];if(all.length!==1)return null;month=+all[0][1];day=+all[0][2];}
+  else return null;
+  const d=new Date(Date.UTC(2024,month-1,day));return d.getUTCMonth()+1===month&&d.getUTCDate()===day?{month,day}:null;
+}
+function serviceHeading(raw){
+  const l=lines(raw).slice(0,8); const i=l.findIndex(x=>/^(?:great |festal |daily )?(?:vespers|orthros|divine liturgy variables|the litia and artoklasia)\b/i.test(x));
+  if(i<0)return null;
+  const date=explicitDate(l[i]); if(!date)return null;
+  const title=l[i+1]; if(!title||/^(?:tone|priest|reader|choir|\()/i.test(title))return null;
+  return {date,title};
+}
+function matchMenaion(filename,raw,services){
+  const head=lines(raw).slice(0,12).join(' ');
+  const a=explicitDate(filename,true), b=explicitDate(head);
+  if(a&&b&&!sameDate(a,b))return null;
+  const date=a||b;if(!date)return null;
+  if(/(?:pre\s*feast|fore\s*feast|prefestal)/i.test(norm(filename+' '+head)))return null;
+  const titles=[...new Set(services.filter(x=>sameDate(x.date,date)&&x.heading).map(x=>x.heading))];
+  const stop=new Set('the holy saint martyr martyrs apostle great called first and of in on st venerable bishop archbishop sunday tone'.split(' '));
+  const words=new Set(norm(filename+' '+lines(raw).slice(0,6).join(' ')).split(' '));
+  const matches=titles.filter(t=>norm(t).split(' ').some(w=>w.length>=5&&!stop.has(w)&&words.has(w)));
+  return matches.length===1?{date,title:matches[0]}:null;
+}
+function existingMenaion(access,date,title){
+  const month=String((date.month+3)%12+1).padStart(2,'0')+' '+MONTHS[date.month-1];
+  const day=String(date.day).padStart(2,'0');
+  const roots=[path.join(ROOT,'Processed',access,'Menaion')];
+  const cloud=path.join(os.homedir(),'Library','CloudStorage');
+  if(fs.existsSync(cloud))for(const n of fs.readdirSync(cloud).filter(n=>n.startsWith('GoogleDrive-'))){
+    const drive=path.join(cloud,n,'My Drive');roots.push(path.join(drive,...(access==='Public'?['Byzantine Music','EnglishByzantineMusic','Menaion']:['MyPrivateEnglishMusic','Menaion'])));
+  }
+  const candidates=new Set();
+  for(const root of roots){const dir=path.join(root,month);if(!fs.existsSync(dir))continue;for(const e of fs.readdirSync(dir,{withFileTypes:true}))if(e.name.startsWith(day+' ')&&norm(e.name.slice(3))===norm(title)&&fs.statSync(path.join(dir,e.name)).isDirectory())candidates.add(e.name);}
+  if(candidates.size>1)return null;
+  return {relative:month+'/'+([...candidates][0]||day+' '+safe(title)),exists:candidates.size===1};
 }
 function tonesIn(s) {
   const text = clean(s).toLowerCase();
   const found = [];
+  const ordinal={first:'1st',second:'2nd',third:'3rd',fourth:'4th'};
+  
   const patterns = [
     /\bplagal\s+(first|second|third|fourth|1st|2nd|3rd|4th)\s+(?:mode|tone)\b/g,
     /\b(?:tone|mode|glas)\s*(?:number\s*)?([1-8])\b/g,
@@ -159,11 +205,13 @@ function tonesIn(s) {
   for (const m of text.matchAll(patterns[0])) found.push(PLAGAL[m[1]]);
   for (const m of text.matchAll(patterns[1])) found.push(TONES[Number(m[1])]);
   if (patterns[2].test(text)) found.push('pl3rd-grave');
+  if(!found.length)for(const m of text.matchAll(/\b(first|second|third|fourth)\s+(?:mode|tone)\b/g)) found.push(ordinal[m[1]]);
   return [...new Set(found.filter(Boolean))];
 }
 function sectionFrom(filename, text) {
   // Nu atribuim un serviciu pe baza unui singur cuvant generic.
   const n = filename.replace(/\.pdf$/i,'').replace(/[_-]/g,' ');
+  if (/\bboth now at (?:the )?lihc\b/i.test(n)) return {service:'Vespers',number:'03',section:'LihcTheotokion',source:'nume'};
   if (/\bglory\s+at\s+(?:the\s+)?lihc\b/i.test(n)) {
     return {service:'Vespers',number:'02',section:'LihcDoxastikon',source:'nume'};
   }
@@ -242,13 +290,14 @@ function serviceDocuments() {
     const service = serviceType(name);
     const data = extract(path.join(dir,name));
     const text = lines(data.text).slice(0,150).join(' ');
-    return {name,service,date:serviceDate(name,service),text,status:data.status,feast:feastFrom(name+' '+text)};
+    const heading=serviceHeading(data.text);
+    return {name,service,date:heading?.date||serviceDate(name,service),heading:heading?.title,text,status:data.status,feast:feastFrom(name+' '+text)||heading?.title};
   });
 }
 function authorFrom(filename,header,access) {
   if (/fr\.?\s+john el massih/i.test(header) || /\bJEM\b/i.test(filename)) return {code:'JEM',note:'Fr John El Massih (adaptare)'};
   if (/chadi karam/i.test(header) || /\bCK\b/i.test(filename)) return {code:'CK',note:'Chadi Karam'};
-  if (/st\.?\s*anthony.s monastery|stanthonysmonastery/i.test(header)) return {code:'SA',note:"St Anthony's Monastery (sursa)"};
+  if (/st\.?\s*anthony.s monastery|stanthonysmonastery/i.test(header) || /(?:^|[-_])sta\.pdf$/i.test(filename)) return {code:'SA',note:"St Anthony's Monastery (sursa)"};
   return {code:access==='Public'?'AA':'GC',note:'eticheta implicita; autor neconfirmat'};
 }
 function analyze(file,access,services) {
@@ -263,6 +312,8 @@ function analyze(file,access,services) {
   let multiTone = false;
   let feast = feastFrom(filename+' '+header);
   let feastSource = feast ? 'partitura' : 'neconfirmata';
+  const general = !feast ? matchMenaion(filename,ex.text,services) : null;
+  if(general){feast=general.title;feastSource='data si titlu Service-PDF + partitura';}
   let category = 'Menaion';
   let matchedIncipit = null;
 
@@ -327,6 +378,7 @@ function analyze(file,access,services) {
     feast=null; feastSource='cantare generala';
     notes.push('Dogmatic Theotokion general: NU atribuim automat Menaionului.');
   }
+  if (/\b(?:prefestal|prefeast|forefeast)\b/i.test(norm(filename))) notes.push('Forefeast: data utilizarii nu confirma folderul de origine; verificare manuala.');
   if (sec.section==='Unknown') {
     category='NECONFIRMAT';
     notes.push('Sectiune Unknown: necesita verificare manuala.');
@@ -379,6 +431,7 @@ function analyze(file,access,services) {
     sec.section = /first.canon/i.test(filename) ? 'CanonOde9First' :
                   /second.canon/i.test(filename) ? 'CanonOde9Second' : 'CanonOde9';
   }
+  if(general && sec.section==='Exapoteilarion' && /\b1st Exaposteilarion\b/i.test(ex.text) && /\b2nd Exaposteilarion\b/i.test(ex.text)){const ts=tonesIn(ex.text);if(ts.length>1){multiTone=true;hymns=ts.map(t=>'Exaposteilarion — '+t);sec.section='Exaposteilaria';}}
   const feastLabel = feast || 'Feast-UNCONFIRMED';
   const tonePart = multiTone?'':`-${tone}`;
   // Exceptie confirmata: PDF-ul Katherine contine trei exaposteilaria;
@@ -411,6 +464,10 @@ function analyze(file,access,services) {
                (/\b1125\b|\bnov[ ._-]*25\b/i.test(filename) || /\bnovember 25(th)?\b/.test(pdfHeader))) {
       destination += '/03 November/25 Great-martyr Katherine the all-wise of Alexandria';
       notes.push('Verificati numele exact al folderului Google Drive pentru 25 noiembrie.');
+    } else if (general) {
+      const folder=existingMenaion(access,general.date,general.title);
+      if(folder){destination += '/'+folder.relative;notes.push(folder.exists?'Folder existent verificat':'Folder propus din antet Service-PDF; confirmati in preview.');}
+      else destination += '/[folder ambiguu]';
     } else if (nov13) {
       destination += '/03 November/13 John Chrysostom, archbishop of Constantinople';
     } else if (nov15) {
@@ -438,6 +495,7 @@ function filenameOnlyCanonConfirmed(r) {
 }
 function localTarget(r) {
   if (/glory-at-the-aposticha-and-idiomelon-after-the-orthros-gospel/i.test(r.filename)) return null;
+  if (/\b(?:prefestal|prefeast|forefeast)\b/i.test(norm(r.filename))) return null;
   const prefix = r.access === 'Public'
     ? 'Byzantine Music/EnglishByzantineMusic/'
     : 'MyPrivateEnglishMusic/';
@@ -622,7 +680,7 @@ async function applyPlan(plan,manifest) {
   console.log(`\nLIVE: mutate ${moved}; erori ${failed}; jurnal: ${logFile}`);
 }
 async function main() {
-  console.log('\n========== BYZMUSIC — MUSIC LIVE LOCAL v6.2.12 (preview implicit) ==========');
+  console.log(`\n========== BYZMUSIC — MUSIC LIVE LOCAL v${VERSION} (preview implicit) ==========`);
   const apply = process.argv.includes('--apply');
   const rename = process.argv.includes('--rename-only');
   if (apply && rename) throw new Error('Alege numai --apply sau --rename-only');
@@ -659,7 +717,7 @@ async function main() {
     console.log('Propus:       ',r.proposed);
     console.log('Destinatie:   ',r.destination);
     console.log('Sectiune din: ',r.sec.source);
-    console.log('Text extras:  ',r.ex.status);
+    console.log('Text extras:  ',r.ex.engine||r.ex.status);
     console.log('Autor/sursa:  ',`${r.author.code} (${r.author.note})`);
     console.log('Description:');
     console.log('  Feast: '+(r.feast||'NECONFIRMAT'));
@@ -671,7 +729,7 @@ async function main() {
     r.notes.forEach(n=>console.log('  NOTE: '+n));
     if (r.ex.error) console.log('  ERROR: '+r.ex.error);
   }
-  console.log(`\nTotal PDF-uri muzicale: ${results.length}`);
+  console.log(`\nTotal PDF-uri muzicale: ${results.length + manifest.filter(m=>fs.existsSync(m.renamed)).length}`);
   const plan = buildPlan(results);
   // Fisiere redenumite anterior: folosim clasificarea validata in manifest,
   // nu incercam sa deducem din nou sarbatoarea din numele normalizat.

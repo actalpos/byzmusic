@@ -2895,6 +2895,22 @@
       }
     ]
   },
+  "FOR THE MARTYRS IN TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/1O0g1eteYcBQr5sqZ1Yg89Ou5Kkpatt23/view?usp=drivesdk",
+        "name": "01 LihcSticheras-4th-JEM-Vespers-Martyr Paramonos and the 370 Martyrs in Bithynia.pdf",
+        "description": "<b>For the Martyrs in Tone Four</b><b><br />(**</b><i><b>Thou who wast called from on high</b></i><b>**) | El Massih</b>",
+        "automelon": "THOU WHO WAST CALLED FROM ON HIGH",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 29 Sunday Tone 1, Martyr Paramonos and the 370 Martyrs in Bithynia",
+        "periodId": "menaion",
+        "feast": "Sunday Tone 1, Martyr Paramonos and the 370 Martyrs in Bithynia",
+        "feastId": "29-11"
+      }
+    ]
+  },
   "FOR THE MYRRH-BEARING WOMEN IN TONE TWO": {
     "type": "multi",
     "versions": [
@@ -3894,6 +3910,22 @@
     "path": "Byzantine Music / EnglishByzantineMusic / Great Lent Triodion / 02-1 SATURDAY BEFORE MEAT-FARE SUNDAY",
     "automelon": "",
     "periodId": "triodion"
+  },
+  "KONTAKION OF PREPARATION OF CHRIST’S NATIVITY IN TONE THREE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Archdiocese",
+        "url": "https://drive.google.com/file/d/1Dw5Oc_Nw1eEO0s95UGybZe70y6VvYEdh/view?usp=drivesdk",
+        "name": "41 kontakion-prefeast-nativity_of_christ-htm.pdf",
+        "description": "<b>KONTAKION OF PREPARATION OF CHRIST’S NATIVITY IN TONE THREE<br />(</b><i><b>**The original melody**</b></i><b>) | Archdiocese</b>",
+        "automelon": "ORIGINAL MELODY",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 29 Sunday Tone 1, Martyr Paramonos and the 370 Martyrs in Bithynia",
+        "periodId": "menaion",
+        "feast": "Sunday Tone 1, Martyr Paramonos and the 370 Martyrs in Bithynia",
+        "feastId": "29-11"
+      }
+    ]
   },
   "KONTAKION OF THE ELEVATION OF THE HOLY CROSS IN TONE FOUR": {
     "type": "multi",
@@ -7934,7 +7966,7 @@
     "feast": "The Entrance of the Theotokos",
     "feastId": "21-11"
   },
-  "FESTAL TROPARIA AFTER PSALM 50 TONE TWO": {
+  "[O] [PS50] FESTAL TROPARIA AFTER PSALM 50 TONE TWO": {
     "type": "multi",
     "versions": [
       {
