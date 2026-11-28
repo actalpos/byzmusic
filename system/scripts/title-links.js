@@ -170,7 +170,7 @@
         str.match(/^((\[[a-z0-9]+\]\s*)+)(.*)$/i);
 
       if (prefixMatch) {
-        const prefixes = prefixMatch[1];
+        const prefixes = prefixMatch[1].trim().replace(/\]\s*\[/g, "] [");
         let title = prefixMatch[3];
 
         title = title.replace(
@@ -356,294 +356,52 @@
     /**********************
      * LOAD TITLE LINKS
      **********************/
-    const serviceIndex = {};
-    const globalIndex = {};
-    // UPDATE 2026-11-11: [APL] global pentru toate slujbele.
-    const globalMomentIndex = {};
-    const globalMomentAutomelonIndex = {};
-
-    const serviceAutomelonIndex = {};
-    const globalAutomelonIndex = {};
-
-    const globalCount = {};
-    const titleUsage = {};
-
+    const scopedIndex = new Map();
+    const globalCollisionIndex = new Map();
+    function versionsOf(item) {
+      return item?.type === "multi" && Array.isArray(item.versions) ? item.versions : [item];
+    }
+    function addScoped(service, moment, title, automelon, item) {
+      for (const version of versionsOf(item)) {
+        if (!version) continue;
+        const key = JSON.stringify([service, moment, title, automelon, version.periodId || "", version.feastId || ""]);
+        if (!scopedIndex.has(key)) scopedIndex.set(key, []);
+        scopedIndex.get(key).push(version);
+        if (service && service !== "APL") {
+          if (!globalCollisionIndex.has(title)) globalCollisionIndex.set(title, []);
+          globalCollisionIndex.get(title).push(version);
+        }
+      }
+    }
+    function eligibleItem(versions, title, resurrectionalApl = false) {
+      const selected = hymnSelection.selectHymnVersions(versions, hymnContext, {
+        afterFeastId: AFTER_FEAST_ID, afterFeast: /\bafter[ -]feast\b/i.test(title), resurrectionalApl
+      });
+      if (!selected.length) return null;
+      if (selected.length === 1 && !String(selected[0].label ?? "").trim()) return selected[0];
+      return { type: "multi", versions: selected };
+    }
+    function resolveScoped(service, moment, title, automelon, resurrectionalApl = false) {
+      const found = [];
+      for (const [key, versions] of scopedIndex) {
+        const [s, m, t, a] = JSON.parse(key);
+        if (s === service && m === moment && t === title && a === automelon) found.push(...versions);
+      }
+      return eligibleItem(found, title, resurrectionalApl);
+    }
     try {
-      const base =
-        window.location.pathname.includes("/byzmusic/")
-          ? "/byzmusic"
-          : "";
-
-      const response = await fetch(
-        `${base}/system/data/titleLink.json`
-      );
-
-      if (!response.ok) {
-        throw new Error(
-          `titleLink.json missing: HTTP ${response.status}`
-        );
-      }
-
+      const base = window.location.pathname.includes("/byzmusic/") ? "/byzmusic" : "";
+      const response = await fetch(`${base}/system/data/titleLink.json`, { cache: "no-store" });
+      if (!response.ok) throw new Error(`titleLink.json missing: HTTP ${response.status}`);
       const raw = await response.json();
-
-      for (const key in raw) {
-        if (!Object.prototype.hasOwnProperty.call(raw, key)) {
-          continue;
-        }
-
-        const item =
-          typeof raw[key] === "string"
-            ? {
-              url: raw[key],
-              name: null
-            }
-            : raw[key];
-
-        const keyParts = splitAutomelonKey(key);
-
-        const normalizedTitle =
-          normalizeTitle(keyParts.title);
-
-        const automelon =
-          normalizeTitle(keyParts.automelon);
-
-        /*
-         * UPDATE 2026-11-11 — [APL] GLOBAL DE MOMENT
-         * Cheia [APL] TITLE este comuna Vespers/Orthros/Liturgy.
-         * O indexam INAINTE de [SERVICE] TITLE, altfel [APL]
-         * ar fi interpretat gresit ca un cod de slujba.
-         */
-        const globalMomentMatch = normalizedTitle.match(/^\[APL\]\s+(.*)$/i);
-        if (globalMomentMatch) {
-          const title = globalMomentMatch[1];
-          if (automelon) {
-            globalMomentAutomelonIndex[title + " || " + automelon] = item;
-          } else {
-            globalMomentIndex[title] = item;
-          }
-          continue;
-        }
-
-        /*
-         * [SERVICE][MOMENT] TITLE
-         *
-         * Exemple:
-         * [V][LIHC] TITLE
-         * [V][AP] TITLE
-         */
-        let match =
-          normalizedTitle.match(
-            /^\[([a-z0-9]+)\]\s+\[([a-z0-9]+)\]\s+(.*)$/i
-          );
-
-        if (match) {
-          const service =
-            match[1].toUpperCase();
-
-          const moment =
-            match[2].toUpperCase();
-
-          const title = match[3];
-
-          const serviceKey =
-            `[${service}] ${title}`;
-
-          if (automelon) {
-            const automelonKey =
-              serviceKey + " || " + automelon;
-
-            if (
-              !serviceAutomelonIndex[automelonKey]
-            ) {
-              serviceAutomelonIndex[automelonKey] = [];
-            }
-
-            if (
-              Array.isArray(
-                serviceAutomelonIndex[automelonKey]
-              )
-            ) {
-              serviceAutomelonIndex[
-                automelonKey
-              ].push({
-                moment,
-                item
-              });
-            } else {
-              console.warn(
-                "Mixed service and service-moment automelon key:",
-                automelonKey
-              );
-            }
-          }
-
-          if (!serviceIndex[serviceKey]) {
-            serviceIndex[serviceKey] = [];
-          }
-
-          serviceIndex[serviceKey].push({
-            moment,
-            item
-          });
-
-          globalCount[title] =
-            (globalCount[title] || 0) + 1;
-
-          continue;
-        }
-
-        /*
-         * [SERVICE] TITLE
-         *
-         * Exemple:
-         * [V] TITLE
-         * [O] TITLE
-         */
-        match =
-          normalizedTitle.match(
-            /^\[([a-z]+)\]\s+(.*)$/i
-          );
-
-        if (match) {
-          const service =
-            match[1].toUpperCase();
-
-          const title = match[2];
-
-          const serviceKey =
-            `[${service}] ${title}`;
-
-          if (automelon) {
-            const automelonKey =
-              serviceKey + " || " + automelon;
-
-            if (
-              !serviceAutomelonIndex[automelonKey]
-            ) {
-              serviceAutomelonIndex[
-                automelonKey
-              ] = item;
-            } else {
-              console.warn(
-                "Mixed service and service-moment automelon key:",
-                automelonKey
-              );
-            }
-          } else {
-            serviceIndex[serviceKey] = item;
-          }
-
-          globalCount[title] =
-            (globalCount[title] || 0) + 1;
-
-          continue;
-        }
-
-        /*
-         * GLOBAL TITLE
-         */
-        if (automelon) {
-          const automelonKey =
-            normalizedTitle + " || " + automelon;
-
-          globalAutomelonIndex[
-            automelonKey
-          ] = item;
-        } else {
-          globalIndex[normalizedTitle] = item;
-        }
-
-        globalCount[normalizedTitle] =
-          (globalCount[normalizedTitle] || 0) + 1;
-      }
-
-      /*
-       * Sortează momentele în ordinea serviciului.
-       */
-      for (const key in serviceIndex) {
-        if (
-          !Object.prototype.hasOwnProperty.call(
-            serviceIndex,
-            key
-          )
-        ) {
-          continue;
-        }
-
-        if (!Array.isArray(serviceIndex[key])) {
-          continue;
-        }
-
-        const serviceMatch =
-          key.match(/^\[([A-Z]+)\]/);
-
-        const service =
-          serviceMatch ? serviceMatch[1] : "";
-
-        const order =
-          SERVICE_ORDER[service] || {};
-
-        serviceIndex[key].sort((a, b) => {
-          return (
-            (order[a.moment] || 999) -
-            (order[b.moment] || 999)
-          );
-        });
-      }
-
-      for (
-        const key in serviceAutomelonIndex
-      ) {
-        if (
-          !Object.prototype.hasOwnProperty.call(
-            serviceAutomelonIndex,
-            key
-          )
-        ) {
-          continue;
-        }
-
-        const entries =
-          serviceAutomelonIndex[key];
-
-        if (!Array.isArray(entries)) {
-          continue;
-        }
-
-        const serviceMatch =
-          key.match(/^\[([A-Z]+)\]/);
-
-        const service =
-          serviceMatch ? serviceMatch[1] : "";
-
-        const order =
-          SERVICE_ORDER[service] || {};
-
-        entries.sort((a, b) => {
-          return (
-            (order[a.moment] || 999) -
-            (order[b.moment] || 999)
-          );
-        });
-      }
-
-      /*
-       * Elimină intrările globale care intră în
-       * coliziune cu mai multe servicii.
-       */
-      for (const title in globalCount) {
-        if (
-          !Object.prototype.hasOwnProperty.call(
-            globalCount,
-            title
-          )
-        ) {
-          continue;
-        }
-
-        if (globalCount[title] > 1) {
-          delete globalIndex[title];
-        }
+      for (const [key, value] of Object.entries(raw)) {
+        const item = typeof value === "string" ? { url: value, name: null } : value;
+        const parts = splitAutomelonKey(key);
+        const title = normalizeTitle(parts.title);
+        const automelon = normalizeTitle(parts.automelon);
+        const match = title.match(/^\[([a-z0-9]+)\]\s+(?:\[([a-z0-9]+)\]\s+)?(.*)$/i);
+        if (match) addScoped(match[1].toUpperCase(), (match[2] || "").toUpperCase(), match[3], automelon, item);
+        else addScoped("", "", title, automelon, item);
       }
     } catch (error) {
       console.warn(
@@ -754,12 +512,12 @@
     /**********************
      * CREATE LINKS
      **********************/
-    function createSingleLink(paragraph, item) {
+    function createSingleLink(paragraph, item, resurrectionalApl = false) {
       if (!item || !item.url) {
         return false;
       }
 
-      if (!hymnSelection.isEligibleSingle(item, hymnContext)) return false;
+      if (!hymnSelection.isEligibleSingle(item, hymnContext, { resurrectionalApl })) return false;
 
       const link =
         document.createElement("a");
@@ -787,7 +545,8 @@
       paragraph,
       item,
       htmlAutomelon,
-      baseKey
+      baseKey,
+      resurrectionalApl = false
     ) {
       if (
         !item ||
@@ -833,7 +592,7 @@
       versions = versions.filter(taggedVersionAllowed);
       versions = hymnSelection.selectHymnVersions(versions, hymnContext, {
         afterFeastId: AFTER_FEAST_ID,
-        afterFeast: /\bafter[ -]feast\b/i.test(baseKey)
+        afterFeast: /\bafter[ -]feast\b/i.test(baseKey), resurrectionalApl
       });
       if (versions.length === 0) return true;
 
@@ -959,100 +718,20 @@
       htmlMoment
     ) {
       let item = null;
-
-      /*
-       * Căutare specifică serviciului curent.
-       */
-      if (SERVICE) {
-        const serviceKey =
-          `[${SERVICE}] ${baseKey}`;
-
-        /*
-         * 1. SERVICE + AUTOMELON
-         */
-        if (htmlAutomelon) {
-          const automelonKey =
-            serviceKey +
-            " || " +
-            htmlAutomelon;
-
-          const automelonMatch =
-            serviceAutomelonIndex[
-            automelonKey
-            ];
-
-          item = selectAutomelonMatch(
-            automelonMatch,
-            automelonKey,
-            htmlMoment
-          );
-        }
-
-        /*
-         * 2. SERVICE + TITLE
-         */
-        if (!item) {
-          const match =
-            serviceIndex[serviceKey];
-
-          item = selectServiceMatch(
-            match,
-            serviceKey,
-            htmlMoment
-          );
-        }
-      }
-
-      /*
-       * SUNDAY - AFTER PSALM 50
-       *
-       * Dacă versiunea [O] găsită conține numai Menaion,
-       * iar serviciul este duminică, folosim versiunea
-       * globală Resurrectional / regular din Orthros.
-       */
-      /*
-       * UPDATE 2026-11-11 — [APL] GLOBAL, STRICT PE MOMENT
-       * Nu incercam cheia [APL] in alta sectiune.
-       * Generatorul normalizeaza RESURRECTIONAL THEOTOKION la
-       * APOLYTIKION RESURRECTIONAL THEOTOKION; folosim aceeasi
-       * forma doar pentru cautarea acestui moment.
-       */
+      const alias = hymnSelection.resurrectionalAplTitle(baseKey, htmlMoment);
+      const lookup = (service, moment, title, apl = false) =>
+        (htmlAutomelon && resolveScoped(service, moment, title, htmlAutomelon, apl)) ||
+        resolveScoped(service, moment, title, "", apl);
+      if (SERVICE) item = lookup(SERVICE, htmlMoment, baseKey) || lookup(SERVICE, "", baseKey);
       if (!item && htmlMoment === "APL") {
-        const aplTitle = baseKey.replace(
-          /^resurrectional theotokion\b/,
-          "apolytikion resurrectional theotokion"
-        );
-        if (htmlAutomelon) {
-          item = globalMomentAutomelonIndex[
-            aplTitle + " || " + htmlAutomelon
-          ] || null;
-        }
-        if (!item) item = globalMomentIndex[aplTitle] || null;
+        item = lookup("APL", "", alias || baseKey, !!alias);
+        if (item && alias) return { item, resurrectionalApl: true };
       }
-
-      /*
-       * GLOBAL + AUTOMELON
-       */
-      if (!item && htmlAutomelon) {
-        const automelonKey =
-          baseKey +
-          " || " +
-          htmlAutomelon;
-
-        item =
-          globalAutomelonIndex[
-          automelonKey
-          ];
+      if (!item && !eligibleItem(globalCollisionIndex.get(baseKey) || [], baseKey)) {
+        item = lookup("", "", baseKey);
       }
+      return item ? { item, resurrectionalApl: false } : null;
 
-      /*
-       * GLOBAL TITLE
-       */
-      if (!item) {
-        item = globalIndex[baseKey];
-      }
-
-      return item || null;
     }
 
     /**********************
@@ -1088,23 +767,22 @@
             paragraph
           );
 
-        const item =
+        const match =
           findTitleItem(
             baseKey,
             htmlAutomelon,
             htmlMoment
           );
 
-        if (!item) {
-          return;
-        }
+        if (!match) return;
+        const { item, resurrectionalApl } = match;
 
         if (
           createMultipleLinks(
             paragraph,
             item,
             htmlAutomelon,
-            baseKey
+            baseKey, resurrectionalApl
           )
         ) {
           return;
@@ -1112,7 +790,7 @@
 
         createSingleLink(
           paragraph,
-          item
+          item, resurrectionalApl
         );
       });
 

@@ -990,6 +990,22 @@
       }
     ]
   },
+  "APOSTICHA FOR ST. ANDREW IN TONE FIVE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/1jnBSAfG1PLDJ51hoR1WQbAH35pdsZZbQ/view?usp=drivesdk",
+        "name": "06 Aposticha-pl1st-JEM-Vespers-The Holy Apostle Andrew the First-Called.pdf",
+        "description": "THE APOSTICHA FOR ST. ANDREW IN TONE FIVE (**<i>Rejoice</i>**) | El Massih",
+        "automelon": "REJOICE",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 30 The Holy Apostle Andrew the First-Called",
+        "periodId": "menaion",
+        "feast": "The Holy Apostle Andrew the First-Called",
+        "feastId": "30-11"
+      }
+    ]
+  },
   "APOSTICHA FOR THE DEPARTED IN TONE TWO": {
     "url": "https://drive.google.com/file/d/1Mh6rRDWnQjoShP5ZvYiEt5CsLE2orqg9/view?usp=drivesdk",
     "name": "13 ApostichaOrthros-2nd-AA-EN-W-SaturdaySouls.pdf",
@@ -1757,6 +1773,22 @@
         "periodId": "penticostarion",
         "feast": "",
         "feastId": ""
+      }
+    ]
+  },
+  "DOXASTICON OF FOREFEAST OF THE NATIVITY IN TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Creemens",
+        "url": "https://drive.google.com/file/d/1pv36to4_s4m3phd6Y33vRFbSFVumjfzV/view?usp=drivesdk",
+        "name": "Nov-30-St-Andrew-Prefestal-Both-Now-at-LIHC-HTM-GC.pdf",
+        "description": "DOXASTICON OF FOREFEAST OF THE NATIVITY IN TONE FOUR | Creemens",
+        "automelon": "",
+        "path": "MyPrivateEnglishMusic / Menaion / 03 November / 30 The Holy Apostle Andrew the First-Called",
+        "periodId": "menaion",
+        "feast": "The Holy Apostle Andrew the First-Called",
+        "feastId": "30-11"
       }
     ]
   },
@@ -4850,8 +4882,10 @@
     "url": "https://drive.google.com/file/d/1EjnhljX5B4GlP0kyzPL6aFICkyLxVGBt/view?usp=drivesdk",
     "name": "06-7 Prokeimenon-Saturday-pl2nd-ElMassih.pdf",
     "description": "SATURDAY PROKEIMENON IN TONE SIX",
-    "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
-    "automelon": ""
+    "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Sunday Vespers",
+    "automelon": "",
+    "periodId": "octoechos",
+    "feastId": "Sunday"
   },
   "SAVE US O GOOD COMFORTER WHO SING TO THEE ALLELUIA.": {
     "type": "multi",
@@ -4973,10 +5007,8 @@
     "url": "https://drive.google.com/file/d/1ZXaSypeD5Hjzl8kugL17QBMi6BpiBEOr/view?usp=drivesdk",
     "name": "04-1 ProkeimenonSunday-pl4th.pdf",
     "description": "SUNDAY PROKEIMENON IN TONE EIGHT",
-    "path": "Byzantine Music / EnglishByzantineMusic / Octoechos / Sunday Vespers",
-    "automelon": "",
-    "periodId": "octoechos",
-    "feastId": "Sunday"
+    "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+    "automelon": ""
   },
   "TENTH EOTHINON EXAPOSTEILARION IN TONE TWO": {
     "type": "multi",
@@ -5196,6 +5228,22 @@
         "periodId": "menaion",
         "feast": "Sunday Tone 7, Martyrs Guria, Shamuna and Habib the Deacon of Edessa",
         "feastId": "15-11"
+      }
+    ]
+  },
+  "[APL] APOLYTIKION OF ST. ANDREW THE APOSTLE TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "St Anthony Mon",
+        "url": "https://drive.google.com/file/d/1H0C_6alfCyBtrbcmQ2mrW7ii0DGBToyU/view?usp=drivesdk",
+        "name": "08 Apolytikion-4th-SA-Vespers-The Holy Apostle Andrew the First-Called.pdf",
+        "description": "[APL] APOLYTIKION OF ST. ANDREW THE APOSTLE IN TONE FOUR | St Anthony Mon",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 30 The Holy Apostle Andrew the First-Called",
+        "periodId": "menaion",
+        "feast": "The Holy Apostle Andrew the First-Called",
+        "feastId": "30-11"
       }
     ]
   },
@@ -8904,6 +8952,22 @@
       }
     ]
   },
+  "[V] [AP] DOXASTICON OF ST. ANDREW TONE THREE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Creemens",
+        "url": "https://drive.google.com/file/d/18xUsNWnJzXjDT1hPlbB0UQSRwGHyNxDO/view?usp=drivesdk",
+        "name": "07 ApostichaDoxastikon-?-GC-Vespers-The Holy Apostle Andrew the First-Called.pdf",
+        "description": "[V] [AP] DOXASTICON OF ST. ANDREW IN TONE THREE | Creemens",
+        "automelon": "",
+        "path": "MyPrivateEnglishMusic / Menaion / 03 November / 30 The Holy Apostle Andrew the First-Called",
+        "periodId": "menaion",
+        "feast": "The Holy Apostle Andrew the First-Called",
+        "feastId": "30-11"
+      }
+    ]
+  },
   "[V] [AP] DOXASTICON OF ST. JAMES TONE EIGHT": {
     "type": "multi",
     "versions": [
@@ -9778,6 +9842,22 @@
       }
     ]
   },
+  "[V] [LIHC] DOXASTICON OF ST. ANDREW TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Creemens",
+        "url": "https://drive.google.com/file/d/1oO6ZW9pSovitgoArQPIhY6YxhnN5sr03/view?usp=drivesdk",
+        "name": "02 LihcDoxastikon-?-GC-Vespers-The Holy Apostle Andrew the First-Called.pdf",
+        "description": "[V] [LIHC] DOXASTICON OF ST. ANDREW IN TONE FOUR | Creemens",
+        "automelon": "",
+        "path": "MyPrivateEnglishMusic / Menaion / 03 November / 30 The Holy Apostle Andrew the First-Called",
+        "periodId": "menaion",
+        "feast": "The Holy Apostle Andrew the First-Called",
+        "feastId": "30-11"
+      }
+    ]
+  },
   "[V] [LIHC] DOXASTICON OF THE CONSECRATION TONE TWO": {
     "type": "multi",
     "versions": [
@@ -9850,6 +9930,22 @@
         "periodId": "menaion",
         "feast": "Martyrs Marcian and Martyrios",
         "feastId": "25-10"
+      }
+    ]
+  },
+  "[V] [LIHC] FOR ST. ANDREW TONE FOUR": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "El Massih",
+        "url": "https://drive.google.com/file/d/1qBy3l0Uz5d0sbqiDVHekNwgy5hK1Pz_y/view?usp=drivesdk",
+        "name": "01 LihcSticheras-4th-JEM-Vespers-The Holy Apostle Andrew the First-Called.pdf",
+        "description": "[V] [LIHC] For St. Andrew in Tone Four (**<i>Thou who wast called from on high</i>**) | El Massih",
+        "automelon": "THOU WHO WAST CALLED FROM ON HIGH",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 30 The Holy Apostle Andrew the First-Called",
+        "periodId": "menaion",
+        "feast": "The Holy Apostle Andrew the First-Called",
+        "feastId": "30-11"
       }
     ]
   },

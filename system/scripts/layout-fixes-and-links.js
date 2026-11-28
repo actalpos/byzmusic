@@ -251,14 +251,14 @@
         }
       }
     }
-    function eligibleItem(item, title) {
+    function eligibleItem(item, title, resurrectionalApl = false) {
       const versions = versionsOf(item);
       const afterFeast = /\bafter[ -]feast\b/i.test(title);
       const afterFeastId = window.FeastCalendar?.detectAfterFeastId(
         hymnContext?.feastId || ""
       ) || hymnContext?.feastId || "";
       const selected = hymnSelection.selectHymnVersions(versions, hymnContext,
-        { afterFeastId, afterFeast });
+        { afterFeastId, afterFeast, resurrectionalApl });
       if (!selected.length) return null;
       // A single original score without a version label keeps its title link.
       if (selected.length === 1 && !String(selected[0].label ?? "").trim()) {
@@ -274,9 +274,9 @@
       }
       return found;
     }
-    function resolveScoped(service, moment, title) {
+    function resolveScoped(service, moment, title, resurrectionalApl = false) {
       const versions = scopedCandidates(service, moment, title);
-      return versions.length ? eligibleItem({ type: "multi", versions }, title) : null;
+      return versions.length ? eligibleItem({ type: "multi", versions }, title, resurrectionalApl) : null;
     }
     function eligibleGlobalCollision(title) {
       const versions = globalCollisionIndex.get(title) || [];
@@ -537,6 +537,7 @@
       const htmlMoment = paragraphMoments.get(p) || "";
       const SERVICE = paragraphServices.get(p) || DEFAULT_SERVICE;
       let item = null;
+      let resurrectionalApl = false;
 
       if (SERVICE) {
         // Prioritate: momentul exact, apoi cheia fara moment.
@@ -560,17 +561,9 @@
 
       // [APL] este global, dar se aplica numai in sectiunea Apolytikion.
       if (!item && !genericOctoechosTheotokion && htmlMoment === "APL") {
-        let aplTitle = baseKey;
-
-        // Titlu explicit Resurrectional Theotokion
-        if (/^resurrectional theotokion\b/.test(aplTitle)) {
-          aplTitle = aplTitle.replace(
-            /^resurrectional theotokion\b/,
-            "apolytikion resurrectional theotokion"
-          );
-        }
-
-        item = resolveScoped("APL", "", aplTitle);
+        const aplAlias = hymnSelection.resurrectionalAplTitle(baseKey, htmlMoment);
+        item = resolveScoped("APL", "", aplAlias || baseKey, !!aplAlias);
+        if (item && aplAlias) resurrectionalApl = true;
       }
 
       // ----------------------------
@@ -599,7 +592,8 @@
           window.FeastCalendar?.detectAfterFeastId(
             hymnContext?.feastId || ""
           ) || hymnContext?.feastId || "",
-          afterFeast: /\bafter[ -]feast\b/i.test(baseKey)
+          afterFeast: /\bafter[ -]feast\b/i.test(baseKey),
+          resurrectionalApl
         });
         if (!eligibleVersions.length) return;
         eligibleVersions.forEach(v => {
@@ -624,7 +618,7 @@
 
       }
 
-      if (!hymnSelection.isEligibleSingle(item, hymnContext)) return;
+      if (!hymnSelection.isEligibleSingle(item, hymnContext, { resurrectionalApl })) return;
 
       const a = document.createElement("a");
 

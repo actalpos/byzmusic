@@ -18,13 +18,16 @@ export function contextFromPath(pathname) {
     : /\bVESP(?:ERS)?\b/i.test(filename) ? 'Vespers' : '';
   return {year,month,day,weekday:DAYS[d.getUTCDay()],feastId:`${m[3]}-${m[2]}`,isSunday:d.getUTCDay()===0,service};
 }
-export function selectHymnVersions(versions, context, {afterFeastId='', afterFeast=false}={}) {
+export function selectHymnVersions(versions, context, {afterFeastId='', afterFeast=false, resurrectionalApl=false}={}) {
   if (!Array.isArray(versions)) return [];
   const scoped = versions.filter(v => ['menaion','octoechos'].includes(String(v.periodId||'').toLowerCase()));
   const others = versions.filter(v => !['menaion','octoechos'].includes(String(v.periodId||'').toLowerCase()));
   if (!context) return scoped.length ? [] : others.filter(v => !v.feastId);
   const menaion = scoped.filter(v => v.periodId==='menaion' && v.feastId===(afterFeast ? afterFeastId : context.feastId));
   const octoechos = afterFeast ? [] : scoped.filter(v => v.periodId==='octoechos' && String(v.feastId||'').toLowerCase()===context.weekday.toLowerCase());
+  if (!afterFeast && resurrectionalApl && !octoechos.length) {
+    octoechos.push(...scoped.filter(v => v.periodId === "octoechos" && String(v.feastId || "").toLowerCase() === "sunday"));
+  }
   const selected = context.isSunday ? (octoechos.length ? octoechos : menaion) : (menaion.length ? menaion : octoechos);
   if (selected.length) return selected;
   // Common is only a fallback, never a replacement for a matching day or Menaion.
@@ -39,10 +42,10 @@ export function selectHymnVersions(versions, context, {afterFeastId='', afterFea
   if (scoped.length || afterFeast) return [];
   return others.filter(v => !v.feastId && !v.periodId);
 }
-export function isEligibleSingle(item, context) {
+export function isEligibleSingle(item, context, options) {
   if (!item || !item.url) return false;
   if (!item.periodId && !item.feastId) return true;
-  return selectHymnVersions([item],context).length>0;
+  return selectHymnVersions([item],context,options).length>0;
 }
 export function fitPdfWidth(url) {
   if (!url) return url;
@@ -65,4 +68,11 @@ export function pdfFitWidthUrl(url) {
   }
 
   return url;
+}
+
+// Only callers in the APL section may use this alias.
+export function resurrectionalAplTitle(title, moment) {
+  if (moment !== "APL") return "";
+  const match = String(title).match(/^(?:apolytikion resurrectional |resurrectional )?theotokion tone (one|two|three|four|five|six|seven|eight)$/);
+  return match ? `apolytikion resurrectional theotokion tone ${match[1]}` : "";
 }
