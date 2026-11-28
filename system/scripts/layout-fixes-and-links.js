@@ -16,7 +16,7 @@
  * - In Vigil, antetele Great Vespers / Festal Orthros /
  *   Divine Liturgy Variables schimba serviciul V / O / LV.
  * - La schimbarea serviciului reseteaza momentul liturgic.
- * - Litia si Artoklasia raman momente [LT] din Vespers [V].
+ * - Litia si Artoklasia activeaza serviciul [LT] in Vigil.
  * - Pentru fisierele non-Vigil, serviciul ramane detectat doar din cale,
  *   ca in v1.2; detectarea momentelor ramane neschimbata.
  * - Nu schimba formatul bilingv, JSON, cache no-store sau regulile
@@ -510,6 +510,13 @@
         .replace(/\s+/g, " ").trim().toLowerCase();
 
       if (IS_VIGIL && heading === "great vespers") {
+        currentService = "V";
+        currentMoment = "";
+      } else if (IS_VIGIL && currentService === "V" &&
+        /^(?:troparia of the litia|(?:the )?litia(?: procession)?|(?:the )?artoklasia)$/.test(heading)) {
+        currentService = "LT";
+        currentMoment = "";
+      } else if (IS_VIGIL && currentService === "LT" && /^(?:the )?aposticha\b/.test(heading)) {
         currentService = "V";
         currentMoment = "";
       } else if (IS_VIGIL && heading === "festal orthros") {

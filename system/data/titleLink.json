@@ -5688,6 +5688,49 @@
       }
     ]
   },
+  "[LT] THEOTOKION TONE FIVE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "St Anthony Mon",
+        "url": "https://drive.google.com/file/d/1t8ut-aKuNhIPiNTluzO1gnStd2S4zWsY/view?usp=drivesdk",
+        "name": "09 LityOTheotokosAndVirgin-pl1st.pdf",
+        "description": "[LT] THEOTOKION IN TONE FIVE | St Anthony Mon",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      }
+    ]
+  },
+  "[LT] TROPARION TONE SEVEN": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "St Anthony - Slow",
+        "url": "https://drive.google.com/file/d/1WqeupHbYTZnIVDvXvsSYBLcvKg5uVyQh/view?usp=drivesdk",
+        "name": "11B RichMen-Slow-pl3rdgrave-SA.pdf",
+        "description": "[LT] TROPARION IN TONE SEVEN | St Anthony - Slow",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      },
+      {
+        "label": "St Anthony - Brief",
+        "url": "https://drive.google.com/file/d/1IzxnEgNc_UfkuiqPy-Y2hgx2jY77_Inq/view?usp=drivesdk",
+        "name": "09 LityRichMen-Brief-pl3rdgrave.pdf",
+        "description": "[LT] TROPARION IN TONE SEVEN | St Anthony - Brief",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
+        "periodId": "",
+        "feast": "",
+        "feastId": ""
+      }
+    ]
+  },
   "[LT] ذُكصا زياح الليتين باللحنِ الرابِع": {
     "type": "multi",
     "versions": [
@@ -11052,13 +11095,6 @@
       }
     ]
   },
-  "[V] [LT] THEOTOKION TONE FIVE": {
-    "url": "https://drive.google.com/file/d/1t8ut-aKuNhIPiNTluzO1gnStd2S4zWsY/view?usp=drivesdk",
-    "name": "09 LityOTheotokosAndVirgin-pl1st.pdf",
-    "description": "[V] [LT] THEOTOKION IN TONE FIVE",
-    "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
-    "automelon": ""
-  },
   "[V] [LT] TROPARIA OF THE LITIA": {
     "type": "multi",
     "versions": [
@@ -11072,33 +11108,6 @@
         "periodId": "menaion",
         "feast": "The Entrance of the Theotokos",
         "feastId": "21-11"
-      }
-    ]
-  },
-  "[V] [LT] TROPARION TONE SEVEN": {
-    "type": "multi",
-    "versions": [
-      {
-        "label": "Slow",
-        "url": "https://drive.google.com/file/d/1WqeupHbYTZnIVDvXvsSYBLcvKg5uVyQh/view?usp=drivesdk",
-        "name": "11B RichMen-Slow-pl3rdgrave-SA.pdf",
-        "description": "[V] [LT] TROPARION IN TONE SEVEN | Slow",
-        "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
-        "periodId": "",
-        "feast": "",
-        "feastId": ""
-      },
-      {
-        "label": "Brief",
-        "url": "https://drive.google.com/file/d/1IzxnEgNc_UfkuiqPy-Y2hgx2jY77_Inq/view?usp=drivesdk",
-        "name": "09 LityRichMen-Brief-pl3rdgrave.pdf",
-        "description": "[V] [LT] TROPARION IN TONE SEVEN | Brief",
-        "automelon": "",
-        "path": "Byzantine Music / EnglishByzantineMusic / Vespers",
-        "periodId": "",
-        "feast": "",
-        "feastId": ""
       }
     ]
   },
