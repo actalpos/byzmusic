@@ -2227,6 +2227,22 @@
       }
     ]
   },
+  "EXAPOSTEILARION FOR ST. ANDREW IN TONE THREE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Archdiocese",
+        "url": "https://drive.google.com/file/d/1rA7Pzw8WTwAq7tMclRuE2uVnG3GTEEKL/view?usp=drivesdk",
+        "name": "25 Exaposteilaria-AA-Orthros-The Holy Apostle Andrew the First-Called.pdf",
+        "description": "THE EXAPOSTEILARION FOR ST. ANDREW IN TONE THREE | Archdiocese",
+        "automelon": "",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 30 The Holy Apostle Andrew the First-Called",
+        "periodId": "menaion",
+        "feast": "The Holy Apostle Andrew the First-Called",
+        "feastId": "30-11"
+      }
+    ]
+  },
   "EXAPOSTEILARION OF PASCHA IN TONE TWO": {
     "type": "multi",
     "versions": [
@@ -7148,6 +7164,22 @@
       }
     ]
   },
+  "[O] [PR] DOXASTICON OF FOREFEAST OF THE NATIVITY TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Creemens",
+        "url": "https://drive.google.com/file/d/1FHyJSoiJvyGCvEDbswZ20BKwMk5OTyQ2/view?usp=drivesdk",
+        "name": "28 PraisesTheotokion-GC-The Holy Apostle Andrew.pdf",
+        "description": "[O] [PR] DOXASTICON OF FOREFEAST OF THE NATIVITY IN TONE EIGHT | Creemens",
+        "automelon": "",
+        "path": "MyPrivateEnglishMusic / Menaion / 03 November / 30 The Holy Apostle Andrew the First-Called",
+        "periodId": "menaion",
+        "feast": "The Holy Apostle Andrew the First-Called",
+        "feastId": "30-11"
+      }
+    ]
+  },
   "[O] [PR] DOXASTICON OF THE HOLY CROSS TONE SIX": {
     "type": "multi",
     "versions": [
@@ -7204,6 +7236,22 @@
         "periodId": "menaion",
         "feast": "Holy Unmercenaries Cosmas and Damian of Asia",
         "feastId": "01-11"
+      }
+    ]
+  },
+  "[O] [PR] FOR ST. ANDREW TONE ONE": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Archdiocese",
+        "url": "https://drive.google.com/file/d/1N6ieP50r5qMj8S6eVJla2obUQcrnS80c/view?usp=drivesdk",
+        "name": "26 Praises-1st-AA-Orthros-The Holy Apostle Andrew the First-Called.pdf",
+        "description": "[O] [PR] For St. Andrew in Tone One (**<i>Thou art the joy</i>**) | Archdiocese",
+        "automelon": "THOU ART THE JOY",
+        "path": "Byzantine Music / EnglishByzantineMusic / Menaion / 03 November / 30 The Holy Apostle Andrew the First-Called",
+        "periodId": "menaion",
+        "feast": "The Holy Apostle Andrew the First-Called",
+        "feastId": "30-11"
       }
     ]
   },
@@ -7661,6 +7709,22 @@
       }
     ]
   },
+  "[O] [PR] THE DOXASTICON OF ST. ANDREW TONE EIGHT": {
+    "type": "multi",
+    "versions": [
+      {
+        "label": "Creemens",
+        "url": "https://drive.google.com/file/d/1PeJqe2KJsZF4k1zPqgRI0syr0eZ5B2H_/view?usp=drivesdk",
+        "name": "27 PraisesDoxastikon-GC-The Holy Apostle Andrew.pdf",
+        "description": "[O] [PR] THE DOXASTICON OF ST. ANDREW IN TONE EIGHT | Creemens",
+        "automelon": "",
+        "path": "MyPrivateEnglishMusic / Menaion / 03 November / 30 The Holy Apostle Andrew the First-Called",
+        "periodId": "menaion",
+        "feast": "The Holy Apostle Andrew the First-Called",
+        "feastId": "30-11"
+      }
+    ]
+  },
   "[O] [PR] THE DOXASTICON OF ST. JOHN TONE EIGHT": {
     "type": "multi",
     "versions": [
@@ -8062,14 +8126,14 @@
     "versions": [
       {
         "label": "Creemens",
-        "url": "https://drive.google.com/file/d/1FRdfsoPHvpJXsFH7QbubyuTbzCOnZrTO/view?usp=drivesdk",
-        "name": "25 AfterPsalm50-Idiomelon-GC-Orthros-St-Katherine and LeaveTaking Entry of the Theotokos.pdf",
-        "description": "<b>[O]</b><b> [PS50] FESTAL TROPARIA</b><b> AFTER PSALM 50 IN TONE TWO | Creemens</b><br />",
+        "url": "https://drive.google.com/file/d/1r-UjSH4jfbDY4jbDfohMX9_9leGj9Egy/view?usp=drivesdk",
+        "name": "25 PostPsalm50-1st-GC-The Holy Apostle Andrew.pdf",
+        "description": "[O] [PS50] FESTAL TROPARIA AFTER PSALM 50 IN TONE TWO | Creemens",
         "automelon": "",
-        "path": "MyPrivateEnglishMusic / Menaion / 03 November / 25 Leave-Taking (Apodosis) of Entrance of Theotokos",
+        "path": "MyPrivateEnglishMusic / Menaion / 03 November / 30 The Holy Apostle Andrew the First-Called",
         "periodId": "menaion",
-        "feast": "Leave-Taking (Apodosis) of Entrance of Theotokos",
-        "feastId": "25-11"
+        "feast": "The Holy Apostle Andrew the First-Called",
+        "feastId": "30-11"
       }
     ]
   },
